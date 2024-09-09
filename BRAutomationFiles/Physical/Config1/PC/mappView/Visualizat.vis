@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="Main_page" />
+  <Pages>
+    <Page refId="CDPopup" />
+    <Page refId="page_1" />
+    <Page refId="page_2" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="Main_content_binding" />
+    <BindingsSet refId="content_1_binding" />
+    <BindingsSet refId="content_9_binding" />
+    <BindingsSet refId="content_2_binding" />
+    <BindingsSet refId="content_11_binding" />
+    <BindingsSet refId="content_3_binding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="content_2_eventbinding" />
+    <EventBindingsSet refId="content_6_eventbinding" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="TestPopUp" />
+    <Dialog refId="BufferTankPopUp" />
+    <Dialog refId="dialog_7" />
+  </Dialogs>
+  <Contents>
+    <Content refId="content_1" />
+    <Content refId="content_2" />
+    <Content refId="content_9" />
+    <Content refId="content_11" />
+    <Content refId="content_13" />
+    <Content refId="content_15" />
+    <Content refId="content_3" />
+    <Content refId="content_5" />
+    <Content refId="content_14" />
+    <Content refId="content_19" />
+    <Content refId="buffertank" />
+    <Content refId="content_4" />
+    <Content refId="content_6" />
+    <Content refId="content_8" />
+    <Content refId="content_12" />
+    <Content refId="content_17" />
+    <Content refId="LoginPage" />
+    <Content refId="OverviewPageExmaple" />
+    <Content refId="content_16" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets>
+    <VariablesSet refId="ColorVars" />
+    <VariablesSet refId="svar_3" />
+    <VariablesSet refId="svar_2" />
+    <VariablesSet refId="svar_1" />
+  </VariablesSets>
+  <ExpressionsSets />
+  <Themes>
+    <Theme refId="BuRTheme1" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+			<SystemGesture2 touchPoints="2" />
+			<SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

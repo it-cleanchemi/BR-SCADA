@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="07/25/2024 15:13:28" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="PC" Type="PC_any" X="100" Y="100" />
+    <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="463" Y="399" />
+  </Modules>
+  <Links>
+    <Link From="ModbusTcp_any" To="PC" FromPort="ETH1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="281" Y="345" />
+      <Point X="281" Y="345" />
+      <Point X="281" Y="350" />
+      <Point X="281" Y="455" />
+      <Point X="497" Y="455" />
+      <Point X="497" Y="450" />
+      <Point X="497" Y="443" />
+      <Point X="497" Y="443" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

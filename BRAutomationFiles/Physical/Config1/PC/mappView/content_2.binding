@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="content_2_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gIO.Modbus.pmax_conc" attribute="node" />
+<Target xsi:type="brease" contentRefId="content_2" widgetRefId="NumericOutput1" attribute="node" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gIO.PumpInformation.Pump_OnOff" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:session" attribute="value">				
+					<bt:Element index="0" refId="GreyColor" />
+					<bt:Element index="1" refId="WhiteColor" />
+				</be:List>
+</Source>
+<Target xsi:type="brease" contentRefId="content_2" widgetRefId="Ellipse1" attribute="style" />
+</Binding>
+</Bindings>
+</BindingsSet>
