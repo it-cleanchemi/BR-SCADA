@@ -1,5 +1,13 @@
 # BR-SCADA
 Repository for B&amp;R Automation code
+This the the GitHub for the remote monitoring and/or SCADA system. The code is done in xml and is intended to be used to generate pages and templates within the B&amp; Automation Software.
+The link to this software is: __________. 
+
+For further questions, feel free to reach out to Chris Pollaci. 
+
+For any issues with the B&amp;R Automation software, please reach out to B&amp;R Automation support.
+The link to this site is: ____________. 
+
 
 Folders: 
 BRAutomationFiles: 
