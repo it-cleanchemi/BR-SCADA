@@ -25,5 +25,3 @@ XMLFiles:
     3. Copy the Git File text that properly cooresponds to the new object you are creating.
     4. Paste the file over ALL the text in the opened XML in B&amp;R Automation code.
     5. Save and Compile the code in B&amp;R Automation. Ensure there are no errors.
-   
-  
