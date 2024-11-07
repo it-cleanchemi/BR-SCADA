@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_brease_XYChart_Cursor_base {
+	&:not(.disabled) {
+		color: #000000;
+	}
+
+}
+
+.widgets_brease_XYChart_Cursor_style_default {
+@include widgets_brease_XYChart_Cursor_base
+}

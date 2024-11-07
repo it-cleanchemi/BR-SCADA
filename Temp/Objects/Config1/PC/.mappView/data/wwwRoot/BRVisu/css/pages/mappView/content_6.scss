@@ -1,0 +1,11 @@
+@import "mixins.scss";
+#content_6_NumericInput1 {	@include elemAutoWidth(100);
+}
+#content_6_NumericInput1 {	@include elemAutoHeight(30);
+}
+#content_6_NumericInput1 {	@include elemTop(154);
+}
+#content_6_NumericInput1 {	@include elemLeft(328);
+}
+#content_6_NumericInput1 {	z-index: 0;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="DosingInformation" width="330" height="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="10" left="50" width="230" height="570" zIndex="0"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="80" width="130" zIndex="1" value="Dosing" textAlign="center" fontSize="14px" height="30"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="70" left="60" width="130" zIndex="2" value="Setpoint : " textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="110" left="60" width="130" zIndex="3" value="Totalizer :" textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar1" top="310" left="70" width="40" height="240" zIndex="6" labelPosition="center" maxValue="6.3" orientation="BottomToTop" value="2.1" barColor="rgba(0, 204, 204, 1)"/>
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="5" x1="70" x2="130" y1="440" y2="440"/>
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="4" x1="70" x2="130" y1="360" y2="360"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="340" left="100" width="45" zIndex="7" value="80%" textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="420" left="100" width="45" zIndex="8" value="50%" textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar2" top="310" left="180" width="40" height="240" zIndex="11" labelPosition="center" maxValue="6.3" orientation="BottomToTop" value="2.1" barColor="rgba(0, 204, 204, 1)"/>
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="10" x1="180" x2="240" y1="440" y2="440"/>
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="9" x1="180" x2="240" y1="360" y2="360"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="340" left="210" width="45" zIndex="12" value="80%" textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="420" left="210" width="45" zIndex="13" value="50%" textAlign="left" fontSize="12px" height="30"/>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="280" left="45" width="90" zIndex="14" unit="{'metric':'L2','imperial':'L2','imperial-us':'L2'}" unitAlign="right" height="30"/>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="280" left="160" width="90" zIndex="15" unit="{'metric':'L2','imperial':'L2','imperial-us':'80'}" unitAlign="right" height="30"/>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="110" left="105" zIndex="16" unit="{'metric':'ltr','imperial':'ltr','imperial-us':'LTR'}" unitAlign="right" width="100" height="30"/>
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="70" left="135" width="65" zIndex="17" borderColor="rgba(0, 204, 204, 1)" shadow="4px 1px 3px rgba(0, 204, 204, 0.75)" height="30"/>
+  </Widgets>
+</Content>

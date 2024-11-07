@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:iat="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" elementFormDefault="qualified">
+<xs:complexType name="widgets.widgetlibrary_1.CDSensor1Restrict" abstract="true">
+	<xs:complexContent>
+		<xs:restriction base="iat:brease.core.BaseContentWidget">
+			<xs:attribute name="style" use="prohibited" type="types:StyleReference" />
+			<xs:attribute name="tabIndex" use="optional" type="types:Integer" default="0" />
+			<xs:attribute name="height" use="optional" type="types:Size" default="120" />
+			<xs:attribute name="width" use="optional" type="types:Size" default="260" />
+		</xs:restriction>
+	</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="widgets.widgetlibrary_1.CDSensor1">
+	<xs:complexContent>
+		<xs:extension base="iat:widgets.widgetlibrary_1.CDSensor1Restrict">
+			<xs:attribute name="margin" use="optional" type="types:Margin" default="0px" />
+		</xs:extension>
+	</xs:complexContent>
+</xs:complexType>
+</xs:schema>

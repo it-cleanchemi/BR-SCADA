@@ -1,0 +1,47 @@
+@import "mixins.scss";
+#compoundwidget_0_Ellipse1 {	@include elemTop(180);
+}
+#compoundwidget_0_Ellipse1 {	@include elemLeft(340);
+}
+#compoundwidget_0_Ellipse1 {	z-index: 2;
+}
+#compoundwidget_0_Ellipse1 {	background-color: rgba(211, 211, 211, 1);
+}
+#compoundwidget_0_Ellipse1 {	@include elemWidth(100);
+}
+#compoundwidget_0_Ellipse1 {	@include elemHeight(100);
+}
+#compoundwidget_0_Rectangle1 {	@include elemTop(180);
+}
+#compoundwidget_0_Rectangle1 {	@include elemLeft(380);
+}
+#compoundwidget_0_Rectangle1 {	@include elemWidth(80);
+}
+#compoundwidget_0_Rectangle1 {	z-index: 0;
+}
+#compoundwidget_0_Rectangle1 {	background-color: rgba(211, 211, 211, 1);
+}
+#compoundwidget_0_Rectangle1 {	@include elemHeight(20);
+}
+#compoundwidget_0_Rectangle2 {	@include elemTop(260);
+}
+#compoundwidget_0_Rectangle2 {	@include elemLeft(320);
+}
+#compoundwidget_0_Rectangle2 {	@include elemWidth(80);
+}
+#compoundwidget_0_Rectangle2 {	z-index: 1;
+}
+#compoundwidget_0_Rectangle2 {	background-color: rgba(211, 211, 211, 1);
+}
+#compoundwidget_0_Rectangle2 {	@include elemHeight(20);
+}
+#compoundwidget_0_Ellipse2 {	@include elemTop(200);
+}
+#compoundwidget_0_Ellipse2 {	@include elemLeft(360);
+}
+#compoundwidget_0_Ellipse2 {	@include elemWidth(60);
+}
+#compoundwidget_0_Ellipse2 {	@include elemHeight(60);
+}
+#compoundwidget_0_Ellipse2 {	z-index: 3;
+}

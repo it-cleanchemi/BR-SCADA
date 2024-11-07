@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DerivedWidget
+  name="Rectangle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2">
+  <Widget
+    xsi:type="widgets.brease.Rectangle"
+    id="Rectangle"
+    maxHeight="0"
+    minHeight="0"   
+    maxWidth="0"
+    minWidth="0"
+    borderStyle="solid"
+    borderWidth="1px"
+    cornerRadius="0px"
+    lineColor="rgba(0, 0, 0, 1)"
+    backColor="rgba(255, 136, 0, 1)"
+    opacity="1"
+    rotation="0deg"
+    margin="0px"
+    shadow="none"
+    backGroundGradient=""
+    lineGradient=""
+    height="20"
+    width="20"
+    left="0"
+    top="0"
+    zIndex="0"
+    draggable="false"
+    tabIndex="-1"
+    enable="false"
+    style="default"
+    visible="true" />
+</DerivedWidget>

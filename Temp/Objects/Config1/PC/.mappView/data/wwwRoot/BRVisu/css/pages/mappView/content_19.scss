@@ -1,0 +1,33 @@
+@import "mixins.scss";
+#content_19_XYChart2 {	@include elemTop(20);
+}
+#content_19_XYChart2 {	@include elemLeft(405);
+}
+#content_19_XYChart2 {	@include elemWidth(380);
+}
+#content_19_XYChart2 {	@include elemHeight(315);
+}
+#content_19_XYChart2 {	z-index: 0;
+}
+#content_19_LineChart1 {	@include elemTop(15);
+}
+#content_19_LineChart1 {	@include elemLeft(15);
+}
+#content_19_LineChart1 {	@include elemWidth(375);
+}
+#content_19_LineChart1 {	@include elemHeight(315);
+}
+#content_19_LineChart1 {	z-index: 1;
+}
+#content_19_LineChartIndexAxis1 {	@include elemHeight(50);
+}
+#content_19_LineChartIndexAxis1 {	@include elemFlexBasis(50);
+}
+#content_19_LineChartIndexAxis1 {	z-index: 0;
+}
+#content_19_LineChartYAxis1 {	@include elemWidth(60);
+}
+#content_19_LineChartYAxis1 {	@include elemFlexBasis(60);
+}
+#content_19_LineChartYAxis1 {	z-index: 1;
+}

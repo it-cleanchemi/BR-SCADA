@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_3" height="600" width="330" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="80" width="130" zIndex="0" value="Dosing" textAlign="center" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="70" left="60" width="130" zIndex="1" value="Setpoint : " textAlign="left" fontSize="12px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="110" left="60" width="130" zIndex="2" value="Totalizer :" textAlign="left" fontSize="12px" />
+    <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar1" top="310" left="70" width="40" height="240" zIndex="3" labelPosition="center" maxValue="6.3" orientation="BottomToTop" value="2.1" barColor="rgba(0, 204, 204, 1)" />
+    <Widget xsi:type="widgets.brease.ProgressBar" id="ProgressBar2" top="310" left="180" width="40" height="240" zIndex="4" labelPosition="center" maxValue="6.3" orientation="BottomToTop" value="2.1" barColor="rgba(0, 204, 204, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="280" left="45" width="90" zIndex="5" unit="{'metric':'L2','imperial':'L2','imperial-us':'L2'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="280" left="160" width="90" zIndex="6" unit="{'metric':'L2','imperial':'L2','imperial-us':'80'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="110" left="105" zIndex="7" unit="{'metric':'ltr','imperial':'ltr','imperial-us':'LTR'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="70" left="135" width="65" zIndex="8" borderColor="rgba(0, 204, 204, 1)" shadow="4px 1px 3px rgba(0, 204, 204, 0.75)" />
+  </Widgets>
+</Content>

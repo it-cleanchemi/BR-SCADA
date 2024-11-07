@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_8" height="300" width="300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="8" left="5" width="75" zIndex="2" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="10" left="10" width="75" height="25" zIndex="0" backColor="rgba(224, 224, 224, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="8" left="160" width="75" zIndex="4" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="12" left="160" width="75" height="25" zIndex="3" backColor="rgba(224, 224, 224, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="16" left="151" width="18" height="16" zIndex="1" backColor="rgba(224, 224, 224, 1)" rotation="45deg" />
+  </Widgets>
+</Content>

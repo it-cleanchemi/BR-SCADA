@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDefinition xmlns="http://www.br-automation.com/iat2014/session/runtime/v1">
+  <Session>
+    <Variable name="GreyColor" xsi:type="ANY_STRING" value="Solid_Grey" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="WhiteColor" xsi:type="ANY_STRING" value="Solid_White" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="RedColor" xsi:type="ANY_STRING" value="Solid_Red" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="GreenColor" xsi:type="ANY_STRING" value="Solid_Green" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="OrangeColor" xsi:type="ANY_STRING" value="Solid_Orange" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="YellowColor" xsi:type="ANY_STRING" value="Solid_Yellow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="AutoMode1" xsi:type="ANY_STRING" value="A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="ManMode1" xsi:type="ANY_STRING" value="M" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+</VariableDefinition>

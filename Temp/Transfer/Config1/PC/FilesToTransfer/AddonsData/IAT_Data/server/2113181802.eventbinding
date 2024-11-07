@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="QCS">
+    <EventBinding id="content_6.NavigationButton1.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="QCS_Send" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.Navigate"><Parameter name="pageId" xsi:type="ANY_STRING" value="Overview_Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="content_6">
+    <EventBinding id="content_6.NumericInput1.ValueChanged">
+      <Source type="widgets.brease.NumericInput.Event" event="ValueChanged" refId="content_6_NumericInput1" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::AsGlobalPV:gIO.Modbus.SkidIDWrite">
+            <Method type="opcUa.NodeAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="=value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

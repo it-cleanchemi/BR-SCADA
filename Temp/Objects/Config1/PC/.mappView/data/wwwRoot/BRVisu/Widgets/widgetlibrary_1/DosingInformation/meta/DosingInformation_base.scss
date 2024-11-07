@@ -1,0 +1,8 @@
+@import "mixins.scss";
+@mixin widgets_widgetlibrary_1_DosingInformation_base {
+	@include elemWidth(330);
+	@include elemHeight(600);
+	margin: 0px;
+
+}
+

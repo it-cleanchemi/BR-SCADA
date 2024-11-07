@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_12" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox1" top="30" left="35" zIndex="0" text="Dosing 2 Active" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox2" top="70" left="35" zIndex="1" text="Dosing 3 Active" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox3" top="110" left="35" width="190" zIndex="2" text="Input 2 Pump Active" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox4" top="150" left="35" width="185" zIndex="3" text="Input 3 Pump Active" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox5" top="190" left="35" width="185" zIndex="4" text="Input 4 Pump Active" />
+  </Widgets>
+</Content>

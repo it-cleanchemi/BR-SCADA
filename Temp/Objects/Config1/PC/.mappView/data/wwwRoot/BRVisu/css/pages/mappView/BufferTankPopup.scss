@@ -1,0 +1,241 @@
+@import "mixins.scss";
+#BufferTankPopup_XYChart1 {	@include elemTop(44);
+}
+#BufferTankPopup_XYChart1 {	@include elemLeft(16);
+}
+#BufferTankPopup_XYChart1 {	@include elemWidth(364);
+}
+#BufferTankPopup_XYChart1 {	@include elemHeight(213);
+}
+#BufferTankPopup_XYChart1 {	z-index: 0;
+}
+#BufferTankPopup_XYChart1_graph_graph1 {	&:not(.disabled) {
+		color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_NumericInput1 {	@include elemAutoWidth(100);
+}
+#BufferTankPopup_NumericInput1 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_NumericInput1 {	@include elemTop(298);
+}
+#BufferTankPopup_NumericInput1 {	@include elemLeft(566);
+}
+#BufferTankPopup_NumericInput1 {	z-index: 1;
+}
+#BufferTankPopup_NumericInput1 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_NumericInput1 {	&.disabled {
+		border-color: rgba(200, 200, 200, 1);
+	}
+}
+#BufferTankPopup_NumericInput1 {	&.active:not(.disabled) {
+		border-color: rgba(224, 224, 224, 1);
+	}
+}
+#BufferTankPopup_NumericInput1 {	@include box-shadow(4px 1px 3px rgba(0, 224, 204, 1));
+}
+#BufferTankPopup_TextOutput1 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput1 {	@include elemTop(300);
+}
+#BufferTankPopup_TextOutput1 {	@include elemLeft(400);
+}
+#BufferTankPopup_TextOutput1 {	@include elemAutoWidth(162);
+}
+#BufferTankPopup_TextOutput1 {	z-index: 2;
+}
+#BufferTankPopup_NumericInput2 {	@include elemAutoWidth(100);
+}
+#BufferTankPopup_NumericInput2 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_NumericInput2 {	@include elemTop(336);
+}
+#BufferTankPopup_NumericInput2 {	@include elemLeft(566);
+}
+#BufferTankPopup_NumericInput2 {	z-index: 3;
+}
+#BufferTankPopup_NumericInput2 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_NumericInput2 {	&.disabled {
+		border-color: rgba(200, 200, 200, 1);
+	}
+}
+#BufferTankPopup_NumericInput2 {	&.active:not(.disabled) {
+		border-color: rgba(224, 224, 224, 1);
+	}
+}
+#BufferTankPopup_NumericInput2 {	@include box-shadow(4px 1px 3px rgba(0, 224, 204, 1));
+}
+#BufferTankPopup_TextOutput2 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput2 {	@include elemTop(336);
+}
+#BufferTankPopup_TextOutput2 {	@include elemLeft(400);
+}
+#BufferTankPopup_TextOutput2 {	@include elemAutoWidth(160);
+}
+#BufferTankPopup_TextOutput2 {	z-index: 4;
+}
+#BufferTankPopup_NumericInput3 {	@include elemAutoWidth(100);
+}
+#BufferTankPopup_NumericInput3 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_NumericInput3 {	@include elemTop(374);
+}
+#BufferTankPopup_NumericInput3 {	@include elemLeft(566);
+}
+#BufferTankPopup_NumericInput3 {	z-index: 5;
+}
+#BufferTankPopup_NumericInput3 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_NumericInput3 {	&.disabled {
+		border-color: rgba(200, 200, 200, 1);
+	}
+}
+#BufferTankPopup_NumericInput3 {	&.active:not(.disabled) {
+		border-color: rgba(224, 224, 224, 1);
+	}
+}
+#BufferTankPopup_NumericInput3 {	@include box-shadow(4px 1px 3px rgba(0, 224, 204, 1));
+}
+#BufferTankPopup_TextOutput3 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput3 {	@include elemTop(376);
+}
+#BufferTankPopup_TextOutput3 {	@include elemLeft(400);
+}
+#BufferTankPopup_TextOutput3 {	@include elemAutoWidth(166);
+}
+#BufferTankPopup_TextOutput3 {	z-index: 6;
+}
+#BufferTankPopup_TextOutput4 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput4 {	@include elemTop(16);
+}
+#BufferTankPopup_TextOutput4 {	@include elemLeft(92);
+}
+#BufferTankPopup_TextOutput4 {	@include elemAutoWidth(228);
+}
+#BufferTankPopup_TextOutput4 {	z-index: 7;
+}
+#BufferTankPopup_Ellipse1 {	@include elemTop(422);
+}
+#BufferTankPopup_Ellipse1 {	@include elemLeft(420);
+}
+#BufferTankPopup_Ellipse1 {	@include elemWidth(20);
+}
+#BufferTankPopup_Ellipse1 {	@include elemHeight(20);
+}
+#BufferTankPopup_Ellipse1 {	z-index: 8;
+}
+#BufferTankPopup_Ellipse1 {	background-color: rgba(50, 205, 50, 1);
+}
+#BufferTankPopup_Ellipse2 {	@include elemTop(460);
+}
+#BufferTankPopup_Ellipse2 {	@include elemLeft(420);
+}
+#BufferTankPopup_Ellipse2 {	@include elemWidth(20);
+}
+#BufferTankPopup_Ellipse2 {	@include elemHeight(20);
+}
+#BufferTankPopup_Ellipse2 {	z-index: 9;
+}
+#BufferTankPopup_Ellipse2 {	background-color: rgba(50, 205, 50, 1);
+}
+#BufferTankPopup_Ellipse3 {	@include elemTop(500);
+}
+#BufferTankPopup_Ellipse3 {	@include elemLeft(420);
+}
+#BufferTankPopup_Ellipse3 {	@include elemWidth(20);
+}
+#BufferTankPopup_Ellipse3 {	@include elemHeight(20);
+}
+#BufferTankPopup_Ellipse3 {	z-index: 10;
+}
+#BufferTankPopup_Ellipse3 {	background-color: rgba(50, 205, 50, 1);
+}
+#BufferTankPopup_TextOutput5 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput5 {	@include elemTop(456);
+}
+#BufferTankPopup_TextOutput5 {	@include elemLeft(436);
+}
+#BufferTankPopup_TextOutput5 {	@include elemAutoWidth(160);
+}
+#BufferTankPopup_TextOutput5 {	z-index: 11;
+}
+#BufferTankPopup_TextOutput6 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput6 {	@include elemTop(496);
+}
+#BufferTankPopup_TextOutput6 {	@include elemLeft(436);
+}
+#BufferTankPopup_TextOutput6 {	@include elemAutoWidth(160);
+}
+#BufferTankPopup_TextOutput6 {	z-index: 12;
+}
+#BufferTankPopup_TextOutput7 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput7 {	@include elemTop(420);
+}
+#BufferTankPopup_TextOutput7 {	@include elemLeft(436);
+}
+#BufferTankPopup_TextOutput7 {	@include elemAutoWidth(160);
+}
+#BufferTankPopup_TextOutput7 {	z-index: 13;
+}
+#BufferTankPopup_XYChart2 {	@include elemTop(44);
+}
+#BufferTankPopup_XYChart2 {	@include elemLeft(396);
+}
+#BufferTankPopup_XYChart2 {	@include elemWidth(364);
+}
+#BufferTankPopup_XYChart2 {	@include elemHeight(213);
+}
+#BufferTankPopup_XYChart2 {	z-index: 14;
+}
+#BufferTankPopup_XYChart2_graph_graph1 {	&:not(.disabled) {
+		color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_XYChart3 {	@include elemTop(308);
+}
+#BufferTankPopup_XYChart3 {	@include elemLeft(16);
+}
+#BufferTankPopup_XYChart3 {	@include elemWidth(364);
+}
+#BufferTankPopup_XYChart3 {	@include elemHeight(213);
+}
+#BufferTankPopup_XYChart3 {	z-index: 15;
+}
+#BufferTankPopup_XYChart3_graph_graph1 {	&:not(.disabled) {
+		color: rgba(0, 224, 204, 1);
+	}
+}
+#BufferTankPopup_TextOutput8 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput8 {	@include elemTop(16);
+}
+#BufferTankPopup_TextOutput8 {	@include elemLeft(464);
+}
+#BufferTankPopup_TextOutput8 {	@include elemAutoWidth(228);
+}
+#BufferTankPopup_TextOutput8 {	z-index: 16;
+}
+#BufferTankPopup_TextOutput9 {	@include elemAutoHeight(30);
+}
+#BufferTankPopup_TextOutput9 {	@include elemTop(276);
+}
+#BufferTankPopup_TextOutput9 {	@include elemLeft(100);
+}
+#BufferTankPopup_TextOutput9 {	@include elemAutoWidth(228);
+}
+#BufferTankPopup_TextOutput9 {	z-index: 17;
+}

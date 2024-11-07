@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="J4.93">
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Operator_Role" Access="0x005F" />
+        <ACE RoleName="Administrator_Role" Access="0x005F" />
+        <ACE RoleName="Anonymous1" Access="0x005F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleName="Operator_Role" Access="0x01FF" />
+        <ACE RoleName="Administrator_Role" Access="0x01FF" />
+        <ACE RoleName="Anonymous1" Access="0x01FF" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases>
+      <EURangeViolation Id="1" AclInherit="0" />
+    </EURangeViolationAliases>
+    <EURangesAliases>
+      <EURanges Id="1" AclInherit="0" />
+      <EURanges Id="2" AclInherit="0" />
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="2" UnitId="0" AclInherit="0" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView AclId="2">
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="gIO" RecursiveEnable="2">
+          <Variable Name="Modbus">
+            <Variable Name="skid_id" EURangeViolationId="1" EURangesId="1" EngineeringUnitId="1" />
+            <Variable Name="SkidIDWrite" EURangeViolationId="1" EURangesId="2" EngineeringUnitId="2" />
+          </Variable>
+        </Variable>
+        <Variable Name="p101_gIO" />
+        <Variable Name="p101b_gIO" />
+        <Variable Name="p102_gIO" />
+        <Variable Name="p103_gIO" />
+        <Variable Name="p104_gIO" />
+        <Variable Name="p201_gIO" />
+        <Variable Name="p202_gIO" />
+        <Variable Name="p203_gIO" />
+        <Variable Name="p204_gIO" />
+        <Variable Name="p205_gIO" />
+        <Variable Name="p206_gIO" />
+        <Variable Name="p207_gIO" />
+        <Variable Name="p208_gIO" />
+        <Variable Name="Pmax_Alarms_gIO" />
+        <Variable Name="Pmax_General_Var_gIO" />
+        <Variable Name="Sensor_Var_gIO" />
+        <Variable Name="BufferTank_Var">
+          <Variable Name="filltime_sp" />
+          <Variable Name="filltime_pv" />
+          <Variable Name="draintime_sp" />
+          <Variable Name="draintime_pv" />
+          <Variable Name="bt_level" />
+          <Variable Name="bt_time" />
+        </Variable>
+        <Variable Name="ConversionRatios_gIO" />
+        <Variable Name="Dosing_Alarms_gIO" />
+        <Variable Name="Dosing_General_Var_gIO" />
+      </GlobalVariables>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

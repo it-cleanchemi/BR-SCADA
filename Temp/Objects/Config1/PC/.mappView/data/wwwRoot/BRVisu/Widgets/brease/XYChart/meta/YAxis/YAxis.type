@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructuredProperty type="widgets.brease.XYChart.YAxis" xmlns="http://www.br-automation.com/iat2014/widget" ><StyleProperties>
+      <StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp;:not(.disabled)" attribute="color"/>
+        <Description>
+          Color of y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080">
+        <StyleElement selector="&amp;.disabled" attribute="color"/>
+        <Description>
+          Color of y axis labels when widget is disabled
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="color" category="Appearance" type="Color" default="#000000">
+        <StyleElement attribute="background-color"/>
+        <Description>
+          Color of y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB">
+        <StyleElement attribute="border-color"/>
+        <Description>
+          Color of y axis grid
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+        <StyleElement attribute="font-size"/>
+        <Description>
+          Font size for the y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+        <StyleElement attribute="font-family"/>
+        <Description>
+          Font name for the y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleTextColor" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; span" attribute="color"/>
+        <Description>
+          Color of title for y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleFontSize" category="Font" type="PixelVal" default="12px">
+        <StyleElement selector="&amp; span" attribute="font-size"/>
+        <Description>
+          Font size of title for y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleFontName" category="Font" type="FontName" default="Arial">
+        <StyleElement selector="&amp; span" attribute="font-family"/>
+        <Description>
+          Font size of title for y axis
+        </Description>
+      </StyleProperty>
+    </StyleProperties></StructuredProperty>

@@ -1,0 +1,33 @@
+@import "mixins.scss";
+#buffertank_LineChart1 {	@include elemTop(45);
+}
+#buffertank_LineChart1 {	@include elemLeft(10);
+}
+#buffertank_LineChart1 {	@include elemWidth(540);
+}
+#buffertank_LineChart1 {	@include elemHeight(290);
+}
+#buffertank_LineChart1 {	z-index: 0;
+}
+#buffertank_LineChartTimeAxis1 {	@include elemHeight(50);
+}
+#buffertank_LineChartTimeAxis1 {	@include elemFlexBasis(50);
+}
+#buffertank_LineChartTimeAxis1 {	z-index: 0;
+}
+#buffertank_LineChartYAxis1 {	@include elemWidth(60);
+}
+#buffertank_LineChartYAxis1 {	@include elemFlexBasis(60);
+}
+#buffertank_LineChartYAxis1 {	z-index: 1;
+}
+#buffertank_TextOutput1 {	@include elemAutoHeight(30);
+}
+#buffertank_TextOutput1 {	@include elemTop(15);
+}
+#buffertank_TextOutput1 {	@include elemLeft(160);
+}
+#buffertank_TextOutput1 {	@include elemAutoWidth(315);
+}
+#buffertank_TextOutput1 {	z-index: 1;
+}

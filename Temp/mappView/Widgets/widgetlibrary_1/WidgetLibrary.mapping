@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+  <Mapping parameter="widgets.widgetlibrary_1.BufferTank.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.BufferTank.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.CDSensor1.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.CDSensor1.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.compoundwidget_0.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.compoundwidget_0.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.compoundwidget_1.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.compoundwidget_1.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.DosingInformation.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.DosingInformation.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.PumpVisual.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.PumpVisual.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.Rectangle.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.widgetlibrary_1.Rectangle.Action.SetStyle.value" type="ANY_STRING"/>
+  <Mapping parameter="widgets.widgetlibrary_1.Rectangle.Action.SetVisible.value" type="BOOL"/>
+</Mappings>

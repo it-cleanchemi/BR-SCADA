@@ -1,0 +1,155 @@
+@import "mixins.scss";
+#content_1_DateTimeOutput1 {	@include elemAutoHeight(30);
+}
+#content_1_DateTimeOutput1 {	@include elemTop(260);
+}
+#content_1_DateTimeOutput1 {	@include elemLeft(280);
+}
+#content_1_DateTimeOutput1 {	@include elemAutoWidth(295);
+}
+#content_1_DateTimeOutput1 {	z-index: 0;
+}
+#content_1_Image1 {	@include elemTop(60);
+}
+#content_1_Image1 {	@include elemLeft(100);
+}
+#content_1_Image1 {	@include elemAutoWidth(620);
+}
+#content_1_Image1 {	@include elemAutoHeight(160);
+}
+#content_1_Image1 {	z-index: 1;
+}
+#content_1_Label1 {	@include elemAutoHeight(30);
+}
+#content_1_Label1 {	@include elemTop(240);
+}
+#content_1_Label1 {	@include elemLeft(340);
+}
+#content_1_Label1 {	@include elemAutoWidth(140);
+}
+#content_1_Label1 {	z-index: 2;
+}
+#content_1_Label1 {	@include font-weight-bold(true);
+}
+#content_1_Label2 {	@include elemAutoHeight(30);
+}
+#content_1_Label2 {	@include elemTop(280);
+}
+#content_1_Label2 {	@include elemLeft(360);
+}
+#content_1_Label2 {	@include elemAutoWidth(120);
+}
+#content_1_Label2 {	z-index: 3;
+}
+#content_1_Label2 {	@include font-weight-bold(true);
+}
+#content_1_Label3 {	@include elemAutoHeight(30);
+}
+#content_1_Label3 {	@include elemTop(300);
+}
+#content_1_Label3 {	@include elemLeft(260);
+}
+#content_1_Label3 {	@include elemAutoWidth(320);
+}
+#content_1_Label3 {	z-index: 4;
+}
+#content_1_Label3 {	@include font-weight-bold(true);
+}
+#content_1_AlarmList1 {	@include elemTop(340);
+}
+#content_1_AlarmList1 {	@include elemLeft(20);
+}
+#content_1_AlarmList1 {	@include elemWidth(380);
+}
+#content_1_AlarmList1 {	@include elemHeight(220);
+}
+#content_1_AlarmList1 {	z-index: 5;
+}
+#content_1_Ellipse1 {	@include elemTop(360);
+}
+#content_1_Ellipse1 {	@include elemLeft(460);
+}
+#content_1_Ellipse1 {	@include elemWidth(20);
+}
+#content_1_Ellipse1 {	@include elemHeight(20);
+}
+#content_1_Ellipse1 {	z-index: 6;
+}
+#content_1_Label4 {	@include elemTop(360);
+}
+#content_1_Label4 {	@include elemLeft(480);
+}
+#content_1_Label4 {	@include elemAutoWidth(280);
+}
+#content_1_Label4 {	@include elemAutoHeight(20);
+}
+#content_1_Label4 {	z-index: 7;
+}
+#content_1_Label4 {	@include font-weight-bold(true);
+}
+#content_1_Ellipse2 {	@include elemTop(400);
+}
+#content_1_Ellipse2 {	@include elemLeft(460);
+}
+#content_1_Ellipse2 {	@include elemWidth(20);
+}
+#content_1_Ellipse2 {	@include elemHeight(20);
+}
+#content_1_Ellipse2 {	z-index: 8;
+}
+#content_1_Label5 {	@include elemTop(400);
+}
+#content_1_Label5 {	@include elemLeft(480);
+}
+#content_1_Label5 {	@include elemAutoWidth(280);
+}
+#content_1_Label5 {	@include elemAutoHeight(20);
+}
+#content_1_Label5 {	z-index: 9;
+}
+#content_1_Label5 {	@include font-weight-bold(true);
+}
+#content_1_Ellipse3 {	@include elemTop(440);
+}
+#content_1_Ellipse3 {	@include elemLeft(460);
+}
+#content_1_Ellipse3 {	@include elemWidth(20);
+}
+#content_1_Ellipse3 {	@include elemHeight(20);
+}
+#content_1_Ellipse3 {	z-index: 10;
+}
+#content_1_Label6 {	@include elemTop(440);
+}
+#content_1_Label6 {	@include elemLeft(480);
+}
+#content_1_Label6 {	@include elemAutoWidth(280);
+}
+#content_1_Label6 {	@include elemAutoHeight(20);
+}
+#content_1_Label6 {	z-index: 11;
+}
+#content_1_Label6 {	@include font-weight-bold(true);
+}
+#content_1_Ellipse4 {	@include elemTop(480);
+}
+#content_1_Ellipse4 {	@include elemLeft(460);
+}
+#content_1_Ellipse4 {	@include elemWidth(20);
+}
+#content_1_Ellipse4 {	@include elemHeight(20);
+}
+#content_1_Ellipse4 {	z-index: 12;
+}
+#content_1_Label8 {	@include elemTop(480);
+}
+#content_1_Label8 {	@include elemLeft(480);
+}
+#content_1_Label8 {	@include elemAutoWidth(280);
+}
+#content_1_Label8 {	@include elemAutoHeight(20);
+}
+#content_1_Label8 {	z-index: 13;
+}
+#content_1_Label8 {	@include font-weight-bold(true);
+}

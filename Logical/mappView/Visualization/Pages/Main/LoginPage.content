@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_1" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutput1" top="260" left="280" width="295" zIndex="0" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="60" left="100" width="620" height="160" zIndex="1" image="Media/CleanChemi.png.png" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="240" left="340" width="140" zIndex="2" text="CC104-LR3P" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="280" left="360" width="120" zIndex="3" text="Location" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="300" left="260" width="320" zIndex="4" text="Emergency Contact: XXX-XXX-XXXX" bold="true" />
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="340" left="20" width="380" height="220" zIndex="5">
+      <Widgets />
+    </Widget>
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="360" left="460" width="20" height="20" zIndex="6" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="360" left="480" width="280" height="20" zIndex="7" text="Powered On" bold="true" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse2" top="400" left="460" width="20" height="20" zIndex="8" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="400" left="480" width="280" height="20" zIndex="9" text="Manual Mode ON" bold="true" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="440" left="460" width="20" height="20" zIndex="10" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="440" left="480" width="280" height="20" zIndex="11" text="Automatic Mode ON" bold="true" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse4" top="480" left="460" width="20" height="20" zIndex="12" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="480" left="480" width="280" height="20" zIndex="13" text="Comms OK" bold="true" />
+  </Widgets>
+</Content>

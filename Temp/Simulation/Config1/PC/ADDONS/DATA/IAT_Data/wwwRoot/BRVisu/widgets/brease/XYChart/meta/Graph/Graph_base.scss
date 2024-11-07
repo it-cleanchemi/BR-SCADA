@@ -1,0 +1,12 @@
+@import "mixins.scss";
+@mixin widgets_brease_XYChart_Graph_base {
+	&:not(.disabled) {
+		color: #FF0000;
+	}
+	&.disabled {
+		color: #DBDBDB;
+	}
+	border-width: 3px;
+
+}
+

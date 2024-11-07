@@ -1,0 +1,8 @@
+@import "mixins.scss";
+@mixin widgets_widgetlibrary_1_BufferTank_base {
+	@include elemWidth(130);
+	@include elemHeight(300);
+	margin: 0px;
+
+}
+

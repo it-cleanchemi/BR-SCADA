@@ -1,0 +1,474 @@
+@import "mixins.scss";
+#content_15_PumpVisual1 {	@include elemWidth(90);
+}
+#content_15_PumpVisual1 {	@include elemHeight(90);
+}
+#content_15_PumpVisual1 {	@include elemTop(50);
+}
+#content_15_PumpVisual1 {	@include elemLeft(120);
+}
+#content_15_PumpVisual1 {	z-index: 1;
+}
+#content_15_PumpVisual1ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual1ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual1ΘEllipse1{width:50px}#content_15_PumpVisual1ΘEllipse1{height:50px}#content_15_PumpVisual1ΘEllipse1{z-index:2}#content_15_PumpVisual1ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual1ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual1ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual1ΘRectangle1{width:30px}#content_15_PumpVisual1ΘRectangle1{height:12px}#content_15_PumpVisual1ΘRectangle1{z-index:0}#content_15_PumpVisual1ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual1ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual1ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual1ΘRectangle2{width:30px}#content_15_PumpVisual1ΘRectangle2{height:10px}#content_15_PumpVisual1ΘRectangle2{z-index:1}#content_15_PumpVisual1ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual1ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual1ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual1ΘEllipse2{width:10px}#content_15_PumpVisual1ΘEllipse2{height:10px}#content_15_PumpVisual1ΘEllipse2{z-index:3}#content_15_PumpVisual1ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual1ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual1ΘTextOutput1{width:70px}#content_15_PumpVisual1ΘTextOutput1{z-index:4}#content_15_PumpVisual1ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual1ΘTextOutput1{height:30px}#content_15_PumpVisual1ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual1ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual1ΘNumericOutput1{width:80px}#content_15_PumpVisual1ΘNumericOutput1{z-index:5}#content_15_PumpVisual1ΘNumericOutput1{height:30px}#content_15_PumpVisual1ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual1ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual1ΘTextOutput2{width:30px}#content_15_PumpVisual1ΘTextOutput2{z-index:6}#content_15_PumpVisual1ΘTextOutput2{height:30px}
+#content_15_PumpVisual2 {	@include elemWidth(90);
+}
+#content_15_PumpVisual2 {	@include elemHeight(90);
+}
+#content_15_PumpVisual2 {	@include elemTop(170);
+}
+#content_15_PumpVisual2 {	@include elemLeft(120);
+}
+#content_15_PumpVisual2 {	z-index: 2;
+}
+#content_15_PumpVisual2ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual2ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual2ΘEllipse1{width:50px}#content_15_PumpVisual2ΘEllipse1{height:50px}#content_15_PumpVisual2ΘEllipse1{z-index:2}#content_15_PumpVisual2ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual2ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual2ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual2ΘRectangle1{width:30px}#content_15_PumpVisual2ΘRectangle1{height:12px}#content_15_PumpVisual2ΘRectangle1{z-index:0}#content_15_PumpVisual2ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual2ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual2ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual2ΘRectangle2{width:30px}#content_15_PumpVisual2ΘRectangle2{height:10px}#content_15_PumpVisual2ΘRectangle2{z-index:1}#content_15_PumpVisual2ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual2ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual2ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual2ΘEllipse2{width:10px}#content_15_PumpVisual2ΘEllipse2{height:10px}#content_15_PumpVisual2ΘEllipse2{z-index:3}#content_15_PumpVisual2ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual2ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual2ΘTextOutput1{width:70px}#content_15_PumpVisual2ΘTextOutput1{z-index:4}#content_15_PumpVisual2ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual2ΘTextOutput1{height:30px}#content_15_PumpVisual2ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual2ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual2ΘNumericOutput1{width:80px}#content_15_PumpVisual2ΘNumericOutput1{z-index:5}#content_15_PumpVisual2ΘNumericOutput1{height:30px}#content_15_PumpVisual2ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual2ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual2ΘTextOutput2{width:30px}#content_15_PumpVisual2ΘTextOutput2{z-index:6}#content_15_PumpVisual2ΘTextOutput2{height:30px}
+#content_15_PumpVisual3 {	@include elemWidth(90);
+}
+#content_15_PumpVisual3 {	@include elemHeight(90);
+}
+#content_15_PumpVisual3 {	@include elemTop(290);
+}
+#content_15_PumpVisual3 {	@include elemLeft(120);
+}
+#content_15_PumpVisual3 {	z-index: 3;
+}
+#content_15_PumpVisual3ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual3ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual3ΘEllipse1{width:50px}#content_15_PumpVisual3ΘEllipse1{height:50px}#content_15_PumpVisual3ΘEllipse1{z-index:2}#content_15_PumpVisual3ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual3ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual3ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual3ΘRectangle1{width:30px}#content_15_PumpVisual3ΘRectangle1{height:12px}#content_15_PumpVisual3ΘRectangle1{z-index:0}#content_15_PumpVisual3ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual3ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual3ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual3ΘRectangle2{width:30px}#content_15_PumpVisual3ΘRectangle2{height:10px}#content_15_PumpVisual3ΘRectangle2{z-index:1}#content_15_PumpVisual3ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual3ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual3ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual3ΘEllipse2{width:10px}#content_15_PumpVisual3ΘEllipse2{height:10px}#content_15_PumpVisual3ΘEllipse2{z-index:3}#content_15_PumpVisual3ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual3ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual3ΘTextOutput1{width:70px}#content_15_PumpVisual3ΘTextOutput1{z-index:4}#content_15_PumpVisual3ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual3ΘTextOutput1{height:30px}#content_15_PumpVisual3ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual3ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual3ΘNumericOutput1{width:80px}#content_15_PumpVisual3ΘNumericOutput1{z-index:5}#content_15_PumpVisual3ΘNumericOutput1{height:30px}#content_15_PumpVisual3ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual3ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual3ΘTextOutput2{width:30px}#content_15_PumpVisual3ΘTextOutput2{z-index:6}#content_15_PumpVisual3ΘTextOutput2{height:30px}
+#content_15_PumpVisual4 {	@include elemWidth(90);
+}
+#content_15_PumpVisual4 {	@include elemHeight(90);
+}
+#content_15_PumpVisual4 {	@include elemTop(410);
+}
+#content_15_PumpVisual4 {	@include elemLeft(120);
+}
+#content_15_PumpVisual4 {	z-index: 4;
+}
+#content_15_PumpVisual4ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual4ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual4ΘEllipse1{width:50px}#content_15_PumpVisual4ΘEllipse1{height:50px}#content_15_PumpVisual4ΘEllipse1{z-index:2}#content_15_PumpVisual4ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual4ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual4ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual4ΘRectangle1{width:30px}#content_15_PumpVisual4ΘRectangle1{height:12px}#content_15_PumpVisual4ΘRectangle1{z-index:0}#content_15_PumpVisual4ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual4ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual4ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual4ΘRectangle2{width:30px}#content_15_PumpVisual4ΘRectangle2{height:10px}#content_15_PumpVisual4ΘRectangle2{z-index:1}#content_15_PumpVisual4ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual4ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual4ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual4ΘEllipse2{width:10px}#content_15_PumpVisual4ΘEllipse2{height:10px}#content_15_PumpVisual4ΘEllipse2{z-index:3}#content_15_PumpVisual4ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual4ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual4ΘTextOutput1{width:70px}#content_15_PumpVisual4ΘTextOutput1{z-index:4}#content_15_PumpVisual4ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual4ΘTextOutput1{height:30px}#content_15_PumpVisual4ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual4ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual4ΘNumericOutput1{width:80px}#content_15_PumpVisual4ΘNumericOutput1{z-index:5}#content_15_PumpVisual4ΘNumericOutput1{height:30px}#content_15_PumpVisual4ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual4ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual4ΘTextOutput2{width:30px}#content_15_PumpVisual4ΘTextOutput2{z-index:6}#content_15_PumpVisual4ΘTextOutput2{height:30px}
+#content_15_BufferTank1 {	@include elemWidth(130);
+}
+#content_15_BufferTank1 {	@include elemHeight(300);
+}
+#content_15_BufferTank1 {	@include elemTop(430);
+}
+#content_15_BufferTank1 {	@include elemLeft(335);
+}
+#content_15_BufferTank1 {	z-index: 0;
+}
+#content_15_BufferTank1ΘProgressBar1{top:40px;position:absolute}#content_15_BufferTank1ΘProgressBar1{left:20px;position:absolute}#content_15_BufferTank1ΘProgressBar1{width:70px}#content_15_BufferTank1ΘProgressBar1{height:230px}#content_15_BufferTank1ΘProgressBar1{z-index:3}#content_15_BufferTank1ΘProgressBar1 .pb-bar-container{border-style:none}#content_15_BufferTank1ΘProgressBar1 .pb-bar-container{border-width:1px}#content_15_BufferTank1ΘProgressBar1 .pb-bar-container{border-color:#000}#content_15_BufferTank1ΘProgressBar1 .pb-bar-container{border-radius:20px}#content_15_BufferTank1ΘProgressBar1 .pb-bar-container{background-color:#e0e0e0}#content_15_BufferTank1ΘProgressBar1 .pb-progress{background-color:#00beff}#content_15_BufferTank1ΘRectangle1{top:30px;position:absolute}#content_15_BufferTank1ΘRectangle1{left:10px;position:absolute}#content_15_BufferTank1ΘRectangle1{width:90px}#content_15_BufferTank1ΘRectangle1{height:240px}#content_15_BufferTank1ΘRectangle1{z-index:2}#content_15_BufferTank1ΘRectangle1{background-color:#e0e0e0}#content_15_BufferTank1ΘEllipse1{top:240px;position:absolute}#content_15_BufferTank1ΘEllipse1{left:10px;position:absolute}#content_15_BufferTank1ΘEllipse1{width:90px}#content_15_BufferTank1ΘEllipse1{height:50px}#content_15_BufferTank1ΘEllipse1{z-index:0}#content_15_BufferTank1ΘEllipse1{background-color:#e0e0e0}#content_15_BufferTank1ΘEllipse2{top:10px;position:absolute}#content_15_BufferTank1ΘEllipse2{left:10px;position:absolute}#content_15_BufferTank1ΘEllipse2{width:90px}#content_15_BufferTank1ΘEllipse2{height:50px}#content_15_BufferTank1ΘEllipse2{z-index:1}#content_15_BufferTank1ΘEllipse2{background-color:#e0e0e0}#content_15_BufferTank1ΘLine3{z-index:7}#content_15_BufferTank1ΘTextOutput1{top:220px;position:absolute}#content_15_BufferTank1ΘTextOutput1{left:90px;position:absolute}#content_15_BufferTank1ΘTextOutput1{width:50px}#content_15_BufferTank1ΘTextOutput1{z-index:4}#content_15_BufferTank1ΘTextOutput1{font-size:12px}#content_15_BufferTank1ΘTextOutput1{height:30px}#content_15_BufferTank1ΘTextOutput2{top:140px;position:absolute}#content_15_BufferTank1ΘTextOutput2{left:90px;position:absolute}#content_15_BufferTank1ΘTextOutput2{width:50px}#content_15_BufferTank1ΘTextOutput2{z-index:5}#content_15_BufferTank1ΘTextOutput2{font-size:12px}#content_15_BufferTank1ΘTextOutput2{height:30px}#content_15_BufferTank1ΘTextOutput3{top:60px;position:absolute}#content_15_BufferTank1ΘTextOutput3{left:90px;position:absolute}#content_15_BufferTank1ΘTextOutput3{width:50px}#content_15_BufferTank1ΘTextOutput3{z-index:6}#content_15_BufferTank1ΘTextOutput3{font-size:12px}#content_15_BufferTank1ΘTextOutput3{height:30px}#content_15_BufferTank1ΘLine4{z-index:8}#content_15_BufferTank1ΘLine5{z-index:9}
+#content_15_DosingInformation1 {	@include elemWidth(330);
+}
+#content_15_DosingInformation1 {	@include elemHeight(600);
+}
+#content_15_DosingInformation1 {	@include elemTop(80);
+}
+#content_15_DosingInformation1 {	@include elemLeft(1135);
+}
+#content_15_DosingInformation1 {	z-index: 5;
+}
+#content_15_DosingInformation1ΘRectangle1{top:10px;position:absolute}#content_15_DosingInformation1ΘRectangle1{left:50px;position:absolute}#content_15_DosingInformation1ΘRectangle1{width:230px}#content_15_DosingInformation1ΘRectangle1{height:570px}#content_15_DosingInformation1ΘRectangle1{z-index:0}#content_15_DosingInformation1ΘTextOutput3{top:20px;position:absolute}#content_15_DosingInformation1ΘTextOutput3{left:80px;position:absolute}#content_15_DosingInformation1ΘTextOutput3{width:130px}#content_15_DosingInformation1ΘTextOutput3{z-index:1}#content_15_DosingInformation1ΘTextOutput3{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput3{font-size:14px}#content_15_DosingInformation1ΘTextOutput3{height:30px}#content_15_DosingInformation1ΘTextOutput4{top:70px;position:absolute}#content_15_DosingInformation1ΘTextOutput4{left:60px;position:absolute}#content_15_DosingInformation1ΘTextOutput4{width:130px}#content_15_DosingInformation1ΘTextOutput4{z-index:2}#content_15_DosingInformation1ΘTextOutput4{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput4{font-size:12px}#content_15_DosingInformation1ΘTextOutput4{height:30px}#content_15_DosingInformation1ΘTextOutput5{top:110px;position:absolute}#content_15_DosingInformation1ΘTextOutput5{left:60px;position:absolute}#content_15_DosingInformation1ΘTextOutput5{width:130px}#content_15_DosingInformation1ΘTextOutput5{z-index:3}#content_15_DosingInformation1ΘTextOutput5{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput5{font-size:12px}#content_15_DosingInformation1ΘTextOutput5{height:30px}#content_15_DosingInformation1ΘProgressBar1{top:310px;position:absolute}#content_15_DosingInformation1ΘProgressBar1{left:70px;position:absolute}#content_15_DosingInformation1ΘProgressBar1{width:40px}#content_15_DosingInformation1ΘProgressBar1{height:240px}#content_15_DosingInformation1ΘProgressBar1{z-index:6}#content_15_DosingInformation1ΘProgressBar1 .pb-progress{background-color:#0cc}#content_15_DosingInformation1ΘLine2{z-index:5}#content_15_DosingInformation1ΘLine3{z-index:4}#content_15_DosingInformation1ΘTextOutput6{top:340px;position:absolute}#content_15_DosingInformation1ΘTextOutput6{left:100px;position:absolute}#content_15_DosingInformation1ΘTextOutput6{width:45px}#content_15_DosingInformation1ΘTextOutput6{z-index:7}#content_15_DosingInformation1ΘTextOutput6{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput6{font-size:12px}#content_15_DosingInformation1ΘTextOutput6{height:30px}#content_15_DosingInformation1ΘTextOutput7{top:420px;position:absolute}#content_15_DosingInformation1ΘTextOutput7{left:100px;position:absolute}#content_15_DosingInformation1ΘTextOutput7{width:45px}#content_15_DosingInformation1ΘTextOutput7{z-index:8}#content_15_DosingInformation1ΘTextOutput7{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput7{font-size:12px}#content_15_DosingInformation1ΘTextOutput7{height:30px}#content_15_DosingInformation1ΘProgressBar2{top:310px;position:absolute}#content_15_DosingInformation1ΘProgressBar2{left:180px;position:absolute}#content_15_DosingInformation1ΘProgressBar2{width:40px}#content_15_DosingInformation1ΘProgressBar2{height:240px}#content_15_DosingInformation1ΘProgressBar2{z-index:11}#content_15_DosingInformation1ΘProgressBar2 .pb-progress{background-color:#0cc}#content_15_DosingInformation1ΘLine4{z-index:10}#content_15_DosingInformation1ΘLine5{z-index:9}#content_15_DosingInformation1ΘTextOutput8{top:340px;position:absolute}#content_15_DosingInformation1ΘTextOutput8{left:210px;position:absolute}#content_15_DosingInformation1ΘTextOutput8{width:45px}#content_15_DosingInformation1ΘTextOutput8{z-index:12}#content_15_DosingInformation1ΘTextOutput8{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput8{font-size:12px}#content_15_DosingInformation1ΘTextOutput8{height:30px}#content_15_DosingInformation1ΘTextOutput9{top:420px;position:absolute}#content_15_DosingInformation1ΘTextOutput9{left:210px;position:absolute}#content_15_DosingInformation1ΘTextOutput9{width:45px}#content_15_DosingInformation1ΘTextOutput9{z-index:13}#content_15_DosingInformation1ΘTextOutput9{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation1ΘTextOutput9{font-size:12px}#content_15_DosingInformation1ΘTextOutput9{height:30px}#content_15_DosingInformation1ΘNumericOutput1{top:280px;position:absolute}#content_15_DosingInformation1ΘNumericOutput1{left:45px;position:absolute}#content_15_DosingInformation1ΘNumericOutput1{width:90px}#content_15_DosingInformation1ΘNumericOutput1{z-index:14}#content_15_DosingInformation1ΘNumericOutput1{height:30px}#content_15_DosingInformation1ΘNumericOutput2{top:280px;position:absolute}#content_15_DosingInformation1ΘNumericOutput2{left:160px;position:absolute}#content_15_DosingInformation1ΘNumericOutput2{width:90px}#content_15_DosingInformation1ΘNumericOutput2{z-index:15}#content_15_DosingInformation1ΘNumericOutput2{height:30px}#content_15_DosingInformation1ΘNumericOutput3{top:110px;position:absolute}#content_15_DosingInformation1ΘNumericOutput3{left:105px;position:absolute}#content_15_DosingInformation1ΘNumericOutput3{z-index:16}#content_15_DosingInformation1ΘNumericOutput3{width:100px}#content_15_DosingInformation1ΘNumericOutput3{height:30px}#content_15_DosingInformation1ΘNumericInput1{top:70px;position:absolute}#content_15_DosingInformation1ΘNumericInput1{left:135px;position:absolute}#content_15_DosingInformation1ΘNumericInput1{width:65px}#content_15_DosingInformation1ΘNumericInput1{z-index:17}#content_15_DosingInformation1ΘNumericInput1:not(.disabled):not(.active){border-color:#0cc}#content_15_DosingInformation1ΘNumericInput1{box-shadow:4px 1px 3px rgba(0,204,204,0.75)}#content_15_DosingInformation1ΘNumericInput1{height:30px}
+#content_15_DosingInformation2 {	@include elemWidth(330);
+}
+#content_15_DosingInformation2 {	@include elemHeight(600);
+}
+#content_15_DosingInformation2 {	@include elemTop(80);
+}
+#content_15_DosingInformation2 {	@include elemLeft(875);
+}
+#content_15_DosingInformation2 {	z-index: 6;
+}
+#content_15_DosingInformation2ΘRectangle1{top:10px;position:absolute}#content_15_DosingInformation2ΘRectangle1{left:50px;position:absolute}#content_15_DosingInformation2ΘRectangle1{width:230px}#content_15_DosingInformation2ΘRectangle1{height:570px}#content_15_DosingInformation2ΘRectangle1{z-index:0}#content_15_DosingInformation2ΘTextOutput3{top:20px;position:absolute}#content_15_DosingInformation2ΘTextOutput3{left:80px;position:absolute}#content_15_DosingInformation2ΘTextOutput3{width:130px}#content_15_DosingInformation2ΘTextOutput3{z-index:1}#content_15_DosingInformation2ΘTextOutput3{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput3{font-size:14px}#content_15_DosingInformation2ΘTextOutput3{height:30px}#content_15_DosingInformation2ΘTextOutput4{top:70px;position:absolute}#content_15_DosingInformation2ΘTextOutput4{left:60px;position:absolute}#content_15_DosingInformation2ΘTextOutput4{width:130px}#content_15_DosingInformation2ΘTextOutput4{z-index:2}#content_15_DosingInformation2ΘTextOutput4{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput4{font-size:12px}#content_15_DosingInformation2ΘTextOutput4{height:30px}#content_15_DosingInformation2ΘTextOutput5{top:110px;position:absolute}#content_15_DosingInformation2ΘTextOutput5{left:60px;position:absolute}#content_15_DosingInformation2ΘTextOutput5{width:130px}#content_15_DosingInformation2ΘTextOutput5{z-index:3}#content_15_DosingInformation2ΘTextOutput5{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput5{font-size:12px}#content_15_DosingInformation2ΘTextOutput5{height:30px}#content_15_DosingInformation2ΘProgressBar1{top:310px;position:absolute}#content_15_DosingInformation2ΘProgressBar1{left:70px;position:absolute}#content_15_DosingInformation2ΘProgressBar1{width:40px}#content_15_DosingInformation2ΘProgressBar1{height:240px}#content_15_DosingInformation2ΘProgressBar1{z-index:6}#content_15_DosingInformation2ΘProgressBar1 .pb-progress{background-color:#0cc}#content_15_DosingInformation2ΘLine2{z-index:5}#content_15_DosingInformation2ΘLine3{z-index:4}#content_15_DosingInformation2ΘTextOutput6{top:340px;position:absolute}#content_15_DosingInformation2ΘTextOutput6{left:100px;position:absolute}#content_15_DosingInformation2ΘTextOutput6{width:45px}#content_15_DosingInformation2ΘTextOutput6{z-index:7}#content_15_DosingInformation2ΘTextOutput6{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput6{font-size:12px}#content_15_DosingInformation2ΘTextOutput6{height:30px}#content_15_DosingInformation2ΘTextOutput7{top:420px;position:absolute}#content_15_DosingInformation2ΘTextOutput7{left:100px;position:absolute}#content_15_DosingInformation2ΘTextOutput7{width:45px}#content_15_DosingInformation2ΘTextOutput7{z-index:8}#content_15_DosingInformation2ΘTextOutput7{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput7{font-size:12px}#content_15_DosingInformation2ΘTextOutput7{height:30px}#content_15_DosingInformation2ΘProgressBar2{top:310px;position:absolute}#content_15_DosingInformation2ΘProgressBar2{left:180px;position:absolute}#content_15_DosingInformation2ΘProgressBar2{width:40px}#content_15_DosingInformation2ΘProgressBar2{height:240px}#content_15_DosingInformation2ΘProgressBar2{z-index:11}#content_15_DosingInformation2ΘProgressBar2 .pb-progress{background-color:#0cc}#content_15_DosingInformation2ΘLine4{z-index:10}#content_15_DosingInformation2ΘLine5{z-index:9}#content_15_DosingInformation2ΘTextOutput8{top:340px;position:absolute}#content_15_DosingInformation2ΘTextOutput8{left:210px;position:absolute}#content_15_DosingInformation2ΘTextOutput8{width:45px}#content_15_DosingInformation2ΘTextOutput8{z-index:12}#content_15_DosingInformation2ΘTextOutput8{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput8{font-size:12px}#content_15_DosingInformation2ΘTextOutput8{height:30px}#content_15_DosingInformation2ΘTextOutput9{top:420px;position:absolute}#content_15_DosingInformation2ΘTextOutput9{left:210px;position:absolute}#content_15_DosingInformation2ΘTextOutput9{width:45px}#content_15_DosingInformation2ΘTextOutput9{z-index:13}#content_15_DosingInformation2ΘTextOutput9{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation2ΘTextOutput9{font-size:12px}#content_15_DosingInformation2ΘTextOutput9{height:30px}#content_15_DosingInformation2ΘNumericOutput1{top:280px;position:absolute}#content_15_DosingInformation2ΘNumericOutput1{left:45px;position:absolute}#content_15_DosingInformation2ΘNumericOutput1{width:90px}#content_15_DosingInformation2ΘNumericOutput1{z-index:14}#content_15_DosingInformation2ΘNumericOutput1{height:30px}#content_15_DosingInformation2ΘNumericOutput2{top:280px;position:absolute}#content_15_DosingInformation2ΘNumericOutput2{left:160px;position:absolute}#content_15_DosingInformation2ΘNumericOutput2{width:90px}#content_15_DosingInformation2ΘNumericOutput2{z-index:15}#content_15_DosingInformation2ΘNumericOutput2{height:30px}#content_15_DosingInformation2ΘNumericOutput3{top:110px;position:absolute}#content_15_DosingInformation2ΘNumericOutput3{left:105px;position:absolute}#content_15_DosingInformation2ΘNumericOutput3{z-index:16}#content_15_DosingInformation2ΘNumericOutput3{width:100px}#content_15_DosingInformation2ΘNumericOutput3{height:30px}#content_15_DosingInformation2ΘNumericInput1{top:70px;position:absolute}#content_15_DosingInformation2ΘNumericInput1{left:135px;position:absolute}#content_15_DosingInformation2ΘNumericInput1{width:65px}#content_15_DosingInformation2ΘNumericInput1{z-index:17}#content_15_DosingInformation2ΘNumericInput1:not(.disabled):not(.active){border-color:#0cc}#content_15_DosingInformation2ΘNumericInput1{box-shadow:4px 1px 3px rgba(0,204,204,0.75)}#content_15_DosingInformation2ΘNumericInput1{height:30px}
+#content_15_DosingInformation3 {	@include elemWidth(330);
+}
+#content_15_DosingInformation3 {	@include elemHeight(600);
+}
+#content_15_DosingInformation3 {	@include elemTop(80);
+}
+#content_15_DosingInformation3 {	@include elemLeft(615);
+}
+#content_15_DosingInformation3 {	z-index: 7;
+}
+#content_15_DosingInformation3ΘRectangle1{top:10px;position:absolute}#content_15_DosingInformation3ΘRectangle1{left:50px;position:absolute}#content_15_DosingInformation3ΘRectangle1{width:230px}#content_15_DosingInformation3ΘRectangle1{height:570px}#content_15_DosingInformation3ΘRectangle1{z-index:0}#content_15_DosingInformation3ΘTextOutput3{top:20px;position:absolute}#content_15_DosingInformation3ΘTextOutput3{left:80px;position:absolute}#content_15_DosingInformation3ΘTextOutput3{width:130px}#content_15_DosingInformation3ΘTextOutput3{z-index:1}#content_15_DosingInformation3ΘTextOutput3{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput3{font-size:14px}#content_15_DosingInformation3ΘTextOutput3{height:30px}#content_15_DosingInformation3ΘTextOutput4{top:70px;position:absolute}#content_15_DosingInformation3ΘTextOutput4{left:60px;position:absolute}#content_15_DosingInformation3ΘTextOutput4{width:130px}#content_15_DosingInformation3ΘTextOutput4{z-index:2}#content_15_DosingInformation3ΘTextOutput4{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput4{font-size:12px}#content_15_DosingInformation3ΘTextOutput4{height:30px}#content_15_DosingInformation3ΘTextOutput5{top:110px;position:absolute}#content_15_DosingInformation3ΘTextOutput5{left:60px;position:absolute}#content_15_DosingInformation3ΘTextOutput5{width:130px}#content_15_DosingInformation3ΘTextOutput5{z-index:3}#content_15_DosingInformation3ΘTextOutput5{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput5{font-size:12px}#content_15_DosingInformation3ΘTextOutput5{height:30px}#content_15_DosingInformation3ΘProgressBar1{top:310px;position:absolute}#content_15_DosingInformation3ΘProgressBar1{left:70px;position:absolute}#content_15_DosingInformation3ΘProgressBar1{width:40px}#content_15_DosingInformation3ΘProgressBar1{height:240px}#content_15_DosingInformation3ΘProgressBar1{z-index:6}#content_15_DosingInformation3ΘProgressBar1 .pb-progress{background-color:#0cc}#content_15_DosingInformation3ΘLine2{z-index:5}#content_15_DosingInformation3ΘLine3{z-index:4}#content_15_DosingInformation3ΘTextOutput6{top:340px;position:absolute}#content_15_DosingInformation3ΘTextOutput6{left:100px;position:absolute}#content_15_DosingInformation3ΘTextOutput6{width:45px}#content_15_DosingInformation3ΘTextOutput6{z-index:7}#content_15_DosingInformation3ΘTextOutput6{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput6{font-size:12px}#content_15_DosingInformation3ΘTextOutput6{height:30px}#content_15_DosingInformation3ΘTextOutput7{top:420px;position:absolute}#content_15_DosingInformation3ΘTextOutput7{left:100px;position:absolute}#content_15_DosingInformation3ΘTextOutput7{width:45px}#content_15_DosingInformation3ΘTextOutput7{z-index:8}#content_15_DosingInformation3ΘTextOutput7{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput7{font-size:12px}#content_15_DosingInformation3ΘTextOutput7{height:30px}#content_15_DosingInformation3ΘProgressBar2{top:310px;position:absolute}#content_15_DosingInformation3ΘProgressBar2{left:180px;position:absolute}#content_15_DosingInformation3ΘProgressBar2{width:40px}#content_15_DosingInformation3ΘProgressBar2{height:240px}#content_15_DosingInformation3ΘProgressBar2{z-index:11}#content_15_DosingInformation3ΘProgressBar2 .pb-progress{background-color:#0cc}#content_15_DosingInformation3ΘLine4{z-index:10}#content_15_DosingInformation3ΘLine5{z-index:9}#content_15_DosingInformation3ΘTextOutput8{top:340px;position:absolute}#content_15_DosingInformation3ΘTextOutput8{left:210px;position:absolute}#content_15_DosingInformation3ΘTextOutput8{width:45px}#content_15_DosingInformation3ΘTextOutput8{z-index:12}#content_15_DosingInformation3ΘTextOutput8{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput8{font-size:12px}#content_15_DosingInformation3ΘTextOutput8{height:30px}#content_15_DosingInformation3ΘTextOutput9{top:420px;position:absolute}#content_15_DosingInformation3ΘTextOutput9{left:210px;position:absolute}#content_15_DosingInformation3ΘTextOutput9{width:45px}#content_15_DosingInformation3ΘTextOutput9{z-index:13}#content_15_DosingInformation3ΘTextOutput9{justify-content:flex-start;text-align:left;-ms-flex-align:center;align-items:center}#content_15_DosingInformation3ΘTextOutput9{font-size:12px}#content_15_DosingInformation3ΘTextOutput9{height:30px}#content_15_DosingInformation3ΘNumericOutput1{top:280px;position:absolute}#content_15_DosingInformation3ΘNumericOutput1{left:45px;position:absolute}#content_15_DosingInformation3ΘNumericOutput1{width:90px}#content_15_DosingInformation3ΘNumericOutput1{z-index:14}#content_15_DosingInformation3ΘNumericOutput1{height:30px}#content_15_DosingInformation3ΘNumericOutput2{top:280px;position:absolute}#content_15_DosingInformation3ΘNumericOutput2{left:160px;position:absolute}#content_15_DosingInformation3ΘNumericOutput2{width:90px}#content_15_DosingInformation3ΘNumericOutput2{z-index:15}#content_15_DosingInformation3ΘNumericOutput2{height:30px}#content_15_DosingInformation3ΘNumericOutput3{top:110px;position:absolute}#content_15_DosingInformation3ΘNumericOutput3{left:105px;position:absolute}#content_15_DosingInformation3ΘNumericOutput3{z-index:16}#content_15_DosingInformation3ΘNumericOutput3{width:100px}#content_15_DosingInformation3ΘNumericOutput3{height:30px}#content_15_DosingInformation3ΘNumericInput1{top:70px;position:absolute}#content_15_DosingInformation3ΘNumericInput1{left:135px;position:absolute}#content_15_DosingInformation3ΘNumericInput1{width:65px}#content_15_DosingInformation3ΘNumericInput1{z-index:17}#content_15_DosingInformation3ΘNumericInput1:not(.disabled):not(.active){border-color:#0cc}#content_15_DosingInformation3ΘNumericInput1{box-shadow:4px 1px 3px rgba(0,204,204,0.75)}#content_15_DosingInformation3ΘNumericInput1{height:30px}
+#content_15_PumpVisual5 {	@include elemWidth(90);
+}
+#content_15_PumpVisual5 {	@include elemHeight(90);
+}
+#content_15_PumpVisual5 {	@include elemTop(250);
+}
+#content_15_PumpVisual5 {	@include elemLeft(700);
+}
+#content_15_PumpVisual5 {	z-index: 8;
+}
+#content_15_PumpVisual5ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual5ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual5ΘEllipse1{width:50px}#content_15_PumpVisual5ΘEllipse1{height:50px}#content_15_PumpVisual5ΘEllipse1{z-index:2}#content_15_PumpVisual5ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual5ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual5ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual5ΘRectangle1{width:30px}#content_15_PumpVisual5ΘRectangle1{height:12px}#content_15_PumpVisual5ΘRectangle1{z-index:0}#content_15_PumpVisual5ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual5ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual5ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual5ΘRectangle2{width:30px}#content_15_PumpVisual5ΘRectangle2{height:10px}#content_15_PumpVisual5ΘRectangle2{z-index:1}#content_15_PumpVisual5ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual5ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual5ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual5ΘEllipse2{width:10px}#content_15_PumpVisual5ΘEllipse2{height:10px}#content_15_PumpVisual5ΘEllipse2{z-index:3}#content_15_PumpVisual5ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual5ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual5ΘTextOutput1{width:70px}#content_15_PumpVisual5ΘTextOutput1{z-index:4}#content_15_PumpVisual5ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual5ΘTextOutput1{height:30px}#content_15_PumpVisual5ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual5ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual5ΘNumericOutput1{width:80px}#content_15_PumpVisual5ΘNumericOutput1{z-index:5}#content_15_PumpVisual5ΘNumericOutput1{height:30px}#content_15_PumpVisual5ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual5ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual5ΘTextOutput2{width:30px}#content_15_PumpVisual5ΘTextOutput2{z-index:6}#content_15_PumpVisual5ΘTextOutput2{height:30px}
+#content_15_PumpVisual6 {	@include elemWidth(90);
+}
+#content_15_PumpVisual6 {	@include elemHeight(90);
+}
+#content_15_PumpVisual6 {	@include elemTop(250);
+}
+#content_15_PumpVisual6 {	@include elemLeft(970);
+}
+#content_15_PumpVisual6 {	z-index: 10;
+}
+#content_15_PumpVisual6ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual6ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual6ΘEllipse1{width:50px}#content_15_PumpVisual6ΘEllipse1{height:50px}#content_15_PumpVisual6ΘEllipse1{z-index:2}#content_15_PumpVisual6ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual6ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual6ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual6ΘRectangle1{width:30px}#content_15_PumpVisual6ΘRectangle1{height:12px}#content_15_PumpVisual6ΘRectangle1{z-index:0}#content_15_PumpVisual6ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual6ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual6ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual6ΘRectangle2{width:30px}#content_15_PumpVisual6ΘRectangle2{height:10px}#content_15_PumpVisual6ΘRectangle2{z-index:1}#content_15_PumpVisual6ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual6ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual6ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual6ΘEllipse2{width:10px}#content_15_PumpVisual6ΘEllipse2{height:10px}#content_15_PumpVisual6ΘEllipse2{z-index:3}#content_15_PumpVisual6ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual6ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual6ΘTextOutput1{width:70px}#content_15_PumpVisual6ΘTextOutput1{z-index:4}#content_15_PumpVisual6ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual6ΘTextOutput1{height:30px}#content_15_PumpVisual6ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual6ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual6ΘNumericOutput1{width:80px}#content_15_PumpVisual6ΘNumericOutput1{z-index:5}#content_15_PumpVisual6ΘNumericOutput1{height:30px}#content_15_PumpVisual6ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual6ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual6ΘTextOutput2{width:30px}#content_15_PumpVisual6ΘTextOutput2{z-index:6}#content_15_PumpVisual6ΘTextOutput2{height:30px}
+#content_15_PumpVisual7 {	@include elemWidth(90);
+}
+#content_15_PumpVisual7 {	@include elemHeight(90);
+}
+#content_15_PumpVisual7 {	@include elemTop(250);
+}
+#content_15_PumpVisual7 {	@include elemLeft(1230);
+}
+#content_15_PumpVisual7 {	z-index: 11;
+}
+#content_15_PumpVisual7ΘEllipse1{top:0px;position:absolute}#content_15_PumpVisual7ΘEllipse1{left:20px;position:absolute}#content_15_PumpVisual7ΘEllipse1{width:50px}#content_15_PumpVisual7ΘEllipse1{height:50px}#content_15_PumpVisual7ΘEllipse1{z-index:2}#content_15_PumpVisual7ΘEllipse1{background-color:#d3d3d3}#content_15_PumpVisual7ΘRectangle1{top:0px;position:absolute}#content_15_PumpVisual7ΘRectangle1{left:50px;position:absolute}#content_15_PumpVisual7ΘRectangle1{width:30px}#content_15_PumpVisual7ΘRectangle1{height:12px}#content_15_PumpVisual7ΘRectangle1{z-index:0}#content_15_PumpVisual7ΘRectangle1{background-color:#d3d3d3}#content_15_PumpVisual7ΘRectangle2{top:40px;position:absolute}#content_15_PumpVisual7ΘRectangle2{left:10px;position:absolute}#content_15_PumpVisual7ΘRectangle2{width:30px}#content_15_PumpVisual7ΘRectangle2{height:10px}#content_15_PumpVisual7ΘRectangle2{z-index:1}#content_15_PumpVisual7ΘRectangle2{background-color:#d3d3d3}#content_15_PumpVisual7ΘEllipse2{top:20px;position:absolute}#content_15_PumpVisual7ΘEllipse2{left:40px;position:absolute}#content_15_PumpVisual7ΘEllipse2{width:10px}#content_15_PumpVisual7ΘEllipse2{height:10px}#content_15_PumpVisual7ΘEllipse2{z-index:3}#content_15_PumpVisual7ΘTextOutput1{top:50px;position:absolute}#content_15_PumpVisual7ΘTextOutput1{left:10px;position:absolute}#content_15_PumpVisual7ΘTextOutput1{width:70px}#content_15_PumpVisual7ΘTextOutput1{z-index:4}#content_15_PumpVisual7ΘTextOutput1{justify-content:center;text-align:center;-ms-flex-align:center;align-items:center}#content_15_PumpVisual7ΘTextOutput1{height:30px}#content_15_PumpVisual7ΘNumericOutput1{top:70px;position:absolute}#content_15_PumpVisual7ΘNumericOutput1{left:0px;position:absolute}#content_15_PumpVisual7ΘNumericOutput1{width:80px}#content_15_PumpVisual7ΘNumericOutput1{z-index:5}#content_15_PumpVisual7ΘNumericOutput1{height:30px}#content_15_PumpVisual7ΘTextOutput2{top:-5px;position:absolute}#content_15_PumpVisual7ΘTextOutput2{left:-10px;position:absolute}#content_15_PumpVisual7ΘTextOutput2{width:30px}#content_15_PumpVisual7ΘTextOutput2{z-index:6}#content_15_PumpVisual7ΘTextOutput2{height:30px}
+#content_15_CDSensor11 {	@include elemTop(65);
+}
+#content_15_CDSensor11 {	@include elemLeft(260);
+}
+#content_15_CDSensor11 {	@include elemWidth(165);
+}
+#content_15_CDSensor11 {	@include elemHeight(165);
+}
+#content_15_CDSensor11 {	z-index: 12;
+}
+#content_15_CDSensor11ΘRectangle1{top:10px;position:absolute}#content_15_CDSensor11ΘRectangle1{left:10px;position:absolute}#content_15_CDSensor11ΘRectangle1{width:150px}#content_15_CDSensor11ΘRectangle1{height:150px}#content_15_CDSensor11ΘRectangle1{z-index:0}#content_15_CDSensor11ΘNumericOutput1{top:120px;position:absolute}#content_15_CDSensor11ΘNumericOutput1{left:20px;position:absolute}#content_15_CDSensor11ΘNumericOutput1{z-index:1}#content_15_CDSensor11ΘNumericOutput1 input{justify-content:flex-end;text-align:right}#content_15_CDSensor11ΘNumericOutput1{width:100px}#content_15_CDSensor11ΘNumericOutput1{height:30px}#content_15_CDSensor11ΘRectangle2{top:110px;position:absolute}#content_15_CDSensor11ΘRectangle2{left:10px;position:absolute}#content_15_CDSensor11ΘRectangle2{width:150px}#content_15_CDSensor11ΘRectangle2{height:50px}#content_15_CDSensor11ΘRectangle2{z-index:2}#content_15_CDSensor11ΘRectangle3{top:60px;position:absolute}#content_15_CDSensor11ΘRectangle3{left:10px;position:absolute}#content_15_CDSensor11ΘRectangle3{width:150px}#content_15_CDSensor11ΘRectangle3{height:50px}#content_15_CDSensor11ΘRectangle3{z-index:3}#content_15_CDSensor11ΘNumericOutput2{top:70px;position:absolute}#content_15_CDSensor11ΘNumericOutput2{left:20px;position:absolute}#content_15_CDSensor11ΘNumericOutput2{width:70px}#content_15_CDSensor11ΘNumericOutput2{z-index:4}#content_15_CDSensor11ΘNumericOutput2 input{justify-content:flex-end;text-align:right}#content_15_CDSensor11ΘNumericOutput2{height:30px}#content_15_CDSensor11ΘTextOutput1{top:70px;position:absolute}#content_15_CDSensor11ΘTextOutput1{left:70px;position:absolute}#content_15_CDSensor11ΘTextOutput1{width:70px}#content_15_CDSensor11ΘTextOutput1{z-index:5}#content_15_CDSensor11ΘTextOutput1{font-size:12px}#content_15_CDSensor11ΘTextOutput1{height:30px}#content_15_CDSensor11ΘTextOutput2{top:20px;position:absolute}#content_15_CDSensor11ΘTextOutput2{left:20px;position:absolute}#content_15_CDSensor11ΘTextOutput2{width:135px}#content_15_CDSensor11ΘTextOutput2{z-index:6}#content_15_CDSensor11ΘTextOutput2{height:30px}
+#content_15_CDSensor12 {	@include elemTop(230);
+}
+#content_15_CDSensor12 {	@include elemLeft(260);
+}
+#content_15_CDSensor12 {	@include elemWidth(170);
+}
+#content_15_CDSensor12 {	@include elemHeight(165);
+}
+#content_15_CDSensor12 {	z-index: 9;
+}
+#content_15_CDSensor12ΘRectangle1{top:10px;position:absolute}#content_15_CDSensor12ΘRectangle1{left:10px;position:absolute}#content_15_CDSensor12ΘRectangle1{width:150px}#content_15_CDSensor12ΘRectangle1{height:150px}#content_15_CDSensor12ΘRectangle1{z-index:0}#content_15_CDSensor12ΘNumericOutput1{top:120px;position:absolute}#content_15_CDSensor12ΘNumericOutput1{left:20px;position:absolute}#content_15_CDSensor12ΘNumericOutput1{z-index:1}#content_15_CDSensor12ΘNumericOutput1 input{justify-content:flex-end;text-align:right}#content_15_CDSensor12ΘNumericOutput1{width:100px}#content_15_CDSensor12ΘNumericOutput1{height:30px}#content_15_CDSensor12ΘRectangle2{top:110px;position:absolute}#content_15_CDSensor12ΘRectangle2{left:10px;position:absolute}#content_15_CDSensor12ΘRectangle2{width:150px}#content_15_CDSensor12ΘRectangle2{height:50px}#content_15_CDSensor12ΘRectangle2{z-index:2}#content_15_CDSensor12ΘRectangle3{top:60px;position:absolute}#content_15_CDSensor12ΘRectangle3{left:10px;position:absolute}#content_15_CDSensor12ΘRectangle3{width:150px}#content_15_CDSensor12ΘRectangle3{height:50px}#content_15_CDSensor12ΘRectangle3{z-index:3}#content_15_CDSensor12ΘNumericOutput2{top:70px;position:absolute}#content_15_CDSensor12ΘNumericOutput2{left:20px;position:absolute}#content_15_CDSensor12ΘNumericOutput2{width:70px}#content_15_CDSensor12ΘNumericOutput2{z-index:4}#content_15_CDSensor12ΘNumericOutput2 input{justify-content:flex-end;text-align:right}#content_15_CDSensor12ΘNumericOutput2{height:30px}#content_15_CDSensor12ΘTextOutput1{top:70px;position:absolute}#content_15_CDSensor12ΘTextOutput1{left:70px;position:absolute}#content_15_CDSensor12ΘTextOutput1{width:70px}#content_15_CDSensor12ΘTextOutput1{z-index:5}#content_15_CDSensor12ΘTextOutput1{font-size:12px}#content_15_CDSensor12ΘTextOutput1{height:30px}#content_15_CDSensor12ΘTextOutput2{top:20px;position:absolute}#content_15_CDSensor12ΘTextOutput2{left:20px;position:absolute}#content_15_CDSensor12ΘTextOutput2{width:135px}#content_15_CDSensor12ΘTextOutput2{z-index:6}#content_15_CDSensor12ΘTextOutput2{height:30px}
+#content_15_Line1 {	z-index: 13;
+}
+#content_15_Line1 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line4 {	z-index: 14;
+}
+#content_15_Line4 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line5 {	z-index: 15;
+}
+#content_15_Line5 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line2 {	z-index: 16;
+}
+#content_15_Line2 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line3 {	z-index: 17;
+}
+#content_15_Line3 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line6 {	z-index: 31;
+}
+#content_15_Line6 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line7 {	z-index: 18;
+}
+#content_15_Line7 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line8 {	z-index: 19;
+}
+#content_15_Line8 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line9 {	z-index: 20;
+}
+#content_15_Line9 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line10 {	z-index: 21;
+}
+#content_15_Line10 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line10 {	line {
+		opacity: 1;
+	}
+}
+#content_15_Line11 {	z-index: 22;
+}
+#content_15_Line11 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line12 {	z-index: 23;
+}
+#content_15_Line12 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line13 {	z-index: 24;
+}
+#content_15_Line13 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line14 {	z-index: 25;
+}
+#content_15_Line14 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line15 {	z-index: 26;
+}
+#content_15_Line15 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line16 {	z-index: 27;
+}
+#content_15_Line16 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line17 {	z-index: 28;
+}
+#content_15_Line17 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line18 {	z-index: 29;
+}
+#content_15_Line18 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line19 {	z-index: 30;
+}
+#content_15_Line19 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Button1 {	@include elemTop(10);
+}
+#content_15_Button1 {	@include elemLeft(1255);
+}
+#content_15_Button1 {	@include elemAutoWidth(180);
+}
+#content_15_Button1 {	@include elemAutoHeight(50);
+}
+#content_15_Button1 {	z-index: 32;
+}
+#content_15_Line21 {	z-index: 33;
+}
+#content_15_Line21 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line22 {	z-index: 34;
+}
+#content_15_Line22 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line23 {	z-index: 35;
+}
+#content_15_Line23 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line24 {	z-index: 36;
+}
+#content_15_Line24 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line25 {	z-index: 37;
+}
+#content_15_Line25 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_TextOutput5 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput5 {	@include elemTop(80);
+}
+#content_15_TextOutput5 {	@include elemLeft(25);
+}
+#content_15_TextOutput5 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput5 {	z-index: 39;
+}
+#content_15_Rectangle1 {	@include elemTop(82);
+}
+#content_15_Rectangle1 {	@include elemLeft(30);
+}
+#content_15_Rectangle1 {	@include elemWidth(75);
+}
+#content_15_Rectangle1 {	@include elemHeight(25);
+}
+#content_15_Rectangle1 {	z-index: 38;
+}
+#content_15_Rectangle1 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput6 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput6 {	@include elemTop(200);
+}
+#content_15_TextOutput6 {	@include elemLeft(25);
+}
+#content_15_TextOutput6 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput6 {	z-index: 41;
+}
+#content_15_Rectangle2 {	@include elemTop(202);
+}
+#content_15_Rectangle2 {	@include elemLeft(30);
+}
+#content_15_Rectangle2 {	@include elemWidth(75);
+}
+#content_15_Rectangle2 {	@include elemHeight(25);
+}
+#content_15_Rectangle2 {	z-index: 40;
+}
+#content_15_Rectangle2 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput7 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput7 {	@include elemTop(320);
+}
+#content_15_TextOutput7 {	@include elemLeft(25);
+}
+#content_15_TextOutput7 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput7 {	z-index: 43;
+}
+#content_15_Rectangle3 {	@include elemTop(322);
+}
+#content_15_Rectangle3 {	@include elemLeft(30);
+}
+#content_15_Rectangle3 {	@include elemWidth(75);
+}
+#content_15_Rectangle3 {	@include elemHeight(25);
+}
+#content_15_Rectangle3 {	z-index: 42;
+}
+#content_15_Rectangle3 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput8 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput8 {	@include elemTop(440);
+}
+#content_15_TextOutput8 {	@include elemLeft(25);
+}
+#content_15_TextOutput8 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput8 {	z-index: 45;
+}
+#content_15_Rectangle4 {	@include elemTop(442);
+}
+#content_15_Rectangle4 {	@include elemLeft(30);
+}
+#content_15_Rectangle4 {	@include elemWidth(75);
+}
+#content_15_Rectangle4 {	@include elemHeight(25);
+}
+#content_15_Rectangle4 {	z-index: 44;
+}
+#content_15_Rectangle4 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput9 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput9 {	@include elemTop(240);
+}
+#content_15_TextOutput9 {	@include elemLeft(800);
+}
+#content_15_TextOutput9 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput9 {	z-index: 47;
+}
+#content_15_Rectangle5 {	@include elemTop(242);
+}
+#content_15_Rectangle5 {	@include elemLeft(805);
+}
+#content_15_Rectangle5 {	@include elemWidth(75);
+}
+#content_15_Rectangle5 {	@include elemHeight(25);
+}
+#content_15_Rectangle5 {	z-index: 46;
+}
+#content_15_Rectangle5 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput10 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput10 {	@include elemTop(240);
+}
+#content_15_TextOutput10 {	@include elemLeft(1070);
+}
+#content_15_TextOutput10 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput10 {	z-index: 49;
+}
+#content_15_Rectangle6 {	@include elemTop(242);
+}
+#content_15_Rectangle6 {	@include elemLeft(1075);
+}
+#content_15_Rectangle6 {	@include elemWidth(75);
+}
+#content_15_Rectangle6 {	@include elemHeight(25);
+}
+#content_15_Rectangle6 {	z-index: 48;
+}
+#content_15_Rectangle6 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_TextOutput11 {	@include elemAutoHeight(30);
+}
+#content_15_TextOutput11 {	@include elemTop(240);
+}
+#content_15_TextOutput11 {	@include elemLeft(1330);
+}
+#content_15_TextOutput11 {	@include elemAutoWidth(75);
+}
+#content_15_TextOutput11 {	z-index: 51;
+}
+#content_15_Rectangle7 {	@include elemTop(242);
+}
+#content_15_Rectangle7 {	@include elemLeft(1335);
+}
+#content_15_Rectangle7 {	@include elemWidth(75);
+}
+#content_15_Rectangle7 {	@include elemHeight(25);
+}
+#content_15_Rectangle7 {	z-index: 50;
+}
+#content_15_Rectangle7 {	background-color: rgba(224, 224, 224, 1);
+}
+#content_15_Line20 {	z-index: 52;
+}
+#content_15_Line20 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line26 {	z-index: 53;
+}
+#content_15_Line26 {	line {
+		stroke-width: 2px;
+	}
+}
+#content_15_Line27 {	z-index: 54;
+}
+#content_15_Line27 {	line {
+		stroke-width: 2px;
+	}
+}

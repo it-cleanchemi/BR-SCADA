@@ -1,0 +1,121 @@
+@import "mixins.scss";
+#BufferTank_ProgressBar1 {	@include elemTop(40);
+}
+#BufferTank_ProgressBar1 {	@include elemLeft(20);
+}
+#BufferTank_ProgressBar1 {	@include elemWidth(70);
+}
+#BufferTank_ProgressBar1 {	@include elemHeight(230);
+}
+#BufferTank_ProgressBar1 {	z-index: 3;
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		border-style: none;
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		border-width: 1px;
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		@include border-radius(20px);
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-bar-container {
+		@include backGroundGradient('');
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-progress {
+		background-color: rgba(0, 190, 255, 1);
+	}
+}
+#BufferTank_ProgressBar1 {	.pb-progress {
+		@include backGroundGradient('');
+	}
+}
+#BufferTank_Rectangle1 {	@include elemTop(30);
+}
+#BufferTank_Rectangle1 {	@include elemLeft(10);
+}
+#BufferTank_Rectangle1 {	@include elemWidth(90);
+}
+#BufferTank_Rectangle1 {	@include elemHeight(240);
+}
+#BufferTank_Rectangle1 {	z-index: 2;
+}
+#BufferTank_Rectangle1 {	background-color: rgba(224, 224, 224, 1);
+}
+#BufferTank_Ellipse1 {	@include elemTop(240);
+}
+#BufferTank_Ellipse1 {	@include elemLeft(10);
+}
+#BufferTank_Ellipse1 {	@include elemWidth(90);
+}
+#BufferTank_Ellipse1 {	@include elemHeight(50);
+}
+#BufferTank_Ellipse1 {	z-index: 0;
+}
+#BufferTank_Ellipse1 {	background-color: rgba(224, 224, 224, 1);
+}
+#BufferTank_Ellipse2 {	@include elemTop(10);
+}
+#BufferTank_Ellipse2 {	@include elemLeft(10);
+}
+#BufferTank_Ellipse2 {	@include elemWidth(90);
+}
+#BufferTank_Ellipse2 {	@include elemHeight(50);
+}
+#BufferTank_Ellipse2 {	z-index: 1;
+}
+#BufferTank_Ellipse2 {	background-color: rgba(224, 224, 224, 1);
+}
+#BufferTank_Line3 {	z-index: 7;
+}
+#BufferTank_TextOutput1 {	@include elemTop(220);
+}
+#BufferTank_TextOutput1 {	@include elemLeft(90);
+}
+#BufferTank_TextOutput1 {	@include elemAutoWidth(50);
+}
+#BufferTank_TextOutput1 {	z-index: 4;
+}
+#BufferTank_TextOutput1 {	font-size: 12px;
+}
+#BufferTank_TextOutput1 {	@include elemAutoHeight(30);
+}
+#BufferTank_TextOutput2 {	@include elemTop(140);
+}
+#BufferTank_TextOutput2 {	@include elemLeft(90);
+}
+#BufferTank_TextOutput2 {	@include elemAutoWidth(50);
+}
+#BufferTank_TextOutput2 {	z-index: 5;
+}
+#BufferTank_TextOutput2 {	font-size: 12px;
+}
+#BufferTank_TextOutput2 {	@include elemAutoHeight(30);
+}
+#BufferTank_TextOutput3 {	@include elemTop(60);
+}
+#BufferTank_TextOutput3 {	@include elemLeft(90);
+}
+#BufferTank_TextOutput3 {	@include elemAutoWidth(50);
+}
+#BufferTank_TextOutput3 {	z-index: 6;
+}
+#BufferTank_TextOutput3 {	font-size: 12px;
+}
+#BufferTank_TextOutput3 {	@include elemAutoHeight(30);
+}
+#BufferTank_Line4 {	z-index: 8;
+}
+#BufferTank_Line5 {	z-index: 9;
+}

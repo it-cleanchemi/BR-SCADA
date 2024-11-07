@@ -1,0 +1,51 @@
+@import "mixins.scss";
+#content_12_CheckBox1 {	@include elemAutoWidth(150);
+}
+#content_12_CheckBox1 {	@include elemAutoHeight(30);
+}
+#content_12_CheckBox1 {	@include elemTop(30);
+}
+#content_12_CheckBox1 {	@include elemLeft(35);
+}
+#content_12_CheckBox1 {	z-index: 0;
+}
+#content_12_CheckBox2 {	@include elemAutoWidth(150);
+}
+#content_12_CheckBox2 {	@include elemAutoHeight(30);
+}
+#content_12_CheckBox2 {	@include elemTop(70);
+}
+#content_12_CheckBox2 {	@include elemLeft(35);
+}
+#content_12_CheckBox2 {	z-index: 1;
+}
+#content_12_CheckBox3 {	@include elemAutoHeight(30);
+}
+#content_12_CheckBox3 {	@include elemTop(110);
+}
+#content_12_CheckBox3 {	@include elemLeft(35);
+}
+#content_12_CheckBox3 {	@include elemAutoWidth(190);
+}
+#content_12_CheckBox3 {	z-index: 2;
+}
+#content_12_CheckBox4 {	@include elemAutoHeight(30);
+}
+#content_12_CheckBox4 {	@include elemTop(150);
+}
+#content_12_CheckBox4 {	@include elemLeft(35);
+}
+#content_12_CheckBox4 {	@include elemAutoWidth(185);
+}
+#content_12_CheckBox4 {	z-index: 3;
+}
+#content_12_CheckBox5 {	@include elemAutoHeight(30);
+}
+#content_12_CheckBox5 {	@include elemTop(190);
+}
+#content_12_CheckBox5 {	@include elemLeft(35);
+}
+#content_12_CheckBox5 {	@include elemAutoWidth(185);
+}
+#content_12_CheckBox5 {	z-index: 4;
+}

@@ -1,0 +1,26 @@
+(*Example Mapping*)
+VAR_CONFIG
+	::gIO.Modbus.skid_id AT %IB."ModbusTcp_any".skid_id;
+	::gIO.Modbus.start_stop AT %IX."ModbusTcp_any".start_stop;
+	::gIO.Modbus.msgbox AT %ID."ModbusTcp_any".msgbox;
+	::gIO.Modbus.pmax_conc AT %ID."ModbusTcp_any".pmax_conc;
+	::gIO.Modbus.pmax_rate AT %ID."ModbusTcp_any".pmax_rate;
+	::gIO.Modbus.skid_id AT %IW."ModbusTcp_any".skid_id;
+	::gIO.Modbus.msgbox AT %IW."ModbusTcp_any".msgbox;
+	::gIO.Modbus.SkidIDWrite AT %QW."ModbusTcp_any".SkidID;
+	::gIO.Modbus.SkidIDAck AT %IX."ModbusTcp_any".BlockSendOnceAck06;
+	::gIO.Modbus.SkidIDSend AT %QX."ModbusTcp_any".BlockSendOnce06;
+END_VAR
+(*Dosing Alarm Mapping*)
+VAR_CONFIG
+	::Dosing_Alarms_gIO.Dosing_Alarms.alarm AT %IW."ModbusTcp_any".alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p201_alarm AT %IW."ModbusTcp_any".p201_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p202_alarm AT %IW."ModbusTcp_any".p202_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p203_alarm AT %IW."ModbusTcp_any".p203_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p204_alarm AT %IW."ModbusTcp_any".p204_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p205_alarm AT %IW."ModbusTcp_any".p205_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p206_alarm AT %IW."ModbusTcp_any".p206_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p207_alarm AT %IW."ModbusTcp_any".p207_alarm;
+	::Dosing_Alarms_gIO.Dosing_Alarms.p208_alarm AT %IW."ModbusTcp_any".p208_alarm;
+END_VAR
+(*Dosing General Variable Mapping*)

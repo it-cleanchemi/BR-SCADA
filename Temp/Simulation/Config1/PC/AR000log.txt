@@ -1,0 +1,21 @@
+Thu Nov  7 10:38:42 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Thu Nov  7 10:38:42 2024
+No ARsim registration found!
+
+Thu Nov  7 10:38:42 2024
+InstanceName: 0000019d30294ba9
+
+Thu Nov  7 10:38:42 2024
+WorkingDirectory: C:\projects\CleanChemi_SiteManagementSystem\Temp\Simulation\Config1\PC\
+
+Thu Nov  7 10:38:42 2024
+COMMAND_COLDSTART
+
+Thu Nov  7 10:38:44 2024
+Version: J4.93
+
+Thu Nov  7 12:05:18 2024
+COMMAND_TERMINATE
+

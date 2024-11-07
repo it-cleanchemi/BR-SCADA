@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="Layouts" PackageType="Layouts" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Main_QAQCScreen.layout</Object>
+    <Object Type="File">Landscape16_1.layout</Object>
+    <Object Type="File">Header.layout</Object>
+    <Object Type="File">Layout.layout</Object>
+    <Object Type="File">PopUpLayout.layout</Object>
+  </Objects>
+</Package>

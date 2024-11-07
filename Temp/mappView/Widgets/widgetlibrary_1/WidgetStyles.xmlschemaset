@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
+  <Schema href="BufferTank/meta/BufferTank_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="CDSensor1/meta/CDSensor1_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="compoundwidget_0/meta/compoundwidget_0_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="compoundwidget_1/meta/compoundwidget_1_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="DosingInformation/meta/DosingInformation_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="PumpVisual/meta/PumpVisual_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+  <Schema href="Rectangle/meta/Rectangle_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+</SchemaCatalog>

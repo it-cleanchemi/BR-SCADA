@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_widgetlibrary_1_PumpVisual_base {
+	@include elemWidth(90);
+	@include elemHeight(90);
+	margin: 0px;
+
+}
+
+.widgets_widgetlibrary_1_PumpVisual_style_default {
+@include widgets_widgetlibrary_1_PumpVisual_base
+}

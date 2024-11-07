@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Scada_Admin" Type="User" Description="Admininstrator Account">
+    <Property ID="UserID" Value="1" />
+    <Property ID="Password" Value="DxCc/zG/B/orvxZsBRDD4IoOQV0ImFP4exGIX0BpvUf+E/MGLjQ=" Description="123abc" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrator_Role" />
+    </Group>
+  </Element>
+  <Element ID="Operator" Type="User" Description="LR104_Operator">
+    <Property ID="UserID" Value="2" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Operator_Role" />
+    </Group>
+  </Element>
+  <Element ID="Anonymous" Type="User">
+    <Property ID="UserID" Value="3" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Operator_Role" />
+    </Group>
+  </Element>
+</Configuration>

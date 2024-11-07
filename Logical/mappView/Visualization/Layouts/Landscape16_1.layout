@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldef:Layout id="Stdrd_Layout" height="2160" width="3840" xmlns:ldef="http://www.br-automation.com/iat2015/layoutDefinition/v2">
+  <Areas>
+    <Area id="AreaHeader" height="270" width="3840" left="0" top="0" zIndex="0" />
+    <Area id="Navigation" height="270" width="3840" left="0" top="1890" zIndex="1" />
+    <Area id="AreaContent" height="1620" width="3570" left="0" top="270" zIndex="2" />
+    <Area id="SiteStatus" left="3570" top="270" width="270" height="1620" zIndex="3" />
+  </Areas>
+</ldef:Layout>

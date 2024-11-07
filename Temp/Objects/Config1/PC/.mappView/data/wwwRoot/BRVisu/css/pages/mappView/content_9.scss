@@ -1,0 +1,23 @@
+@import "mixins.scss";
+#content_9_Ellipse1 {	@include elemTop(20);
+}
+#content_9_Ellipse1 {	@include elemLeft(20);
+}
+#content_9_Ellipse1 {	@include elemWidth(20);
+}
+#content_9_Ellipse1 {	@include elemHeight(20);
+}
+#content_9_Ellipse1 {	z-index: 0;
+}
+#content_9_Label4 {	@include elemTop(20);
+}
+#content_9_Label4 {	@include elemLeft(40);
+}
+#content_9_Label4 {	@include elemAutoWidth(280);
+}
+#content_9_Label4 {	@include elemAutoHeight(20);
+}
+#content_9_Label4 {	z-index: 1;
+}
+#content_9_Label4 {	@include font-weight-bold(true);
+}

@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_widgetlibrary_1_compoundwidget_0_base {
+	@include elemWidth(140);
+	@include elemHeight(100);
+	margin: 0px;
+
+}
+
+.widgets_widgetlibrary_1_compoundwidget_0_style_default {
+@include widgets_widgetlibrary_1_compoundwidget_0_base
+}

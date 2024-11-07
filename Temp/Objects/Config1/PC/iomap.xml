@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%IX.IF3.ST1.ModuleOk" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActInternalError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActConfError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActConfError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActOverloadError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActOverloadError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActModbusError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActModbusError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActSlvConError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActSlvConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.ActRefreshError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ActRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModSlaveState" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModSlaveState" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusErrorLast" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusErrorLast" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.LastErrBlockNr" Type="UINT">
+<Prod Device="IF3.ST1" DPName="LastErrBlockNr" Kind="io"/>
+</LN>
+<LN ID="%QX.IF3.ST1.ModbusSlaveDiag" Type="BOOL">
+<Cons Device="IF3.ST1" DPName="ModbusSlaveDiag" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistInternalError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistConfError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistConfError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistOverloadError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistOverloadError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistModbusError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistModbusError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistSlvConError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistSlvConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.HistRefreshError" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="HistRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusErrorCnt" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusErrorCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusConErrorCnt" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusConErrorCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusPktRefreshTimeoutCnt" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusPktRefreshTimeoutCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusPktPendPerSec" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusPktPendPerSec" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ModbusMeanResponseTime" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ModbusMeanResponseTime" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.skid_id" Type="UINT">
+<Prod Device="IF3.ST1" DPName="skid_id" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.skid_id" Kind="pv"/>
+</LN>
+<LN ID="%IX.IF3.ST1.start_stop" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="start_stop" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.start_stop" Kind="pv"/>
+</LN>
+<LN ID="%IW.IF3.ST1.msgbox" Type="UINT">
+<Prod Device="IF3.ST1" DPName="msgbox" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.msgbox" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF3.ST1.pmax_conc" Type="REAL">
+<Prod Device="IF3.ST1" DPName="pmax_conc" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.pmax_conc" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF3.ST1.pmax_rate" Type="REAL">
+<Prod Device="IF3.ST1" DPName="pmax_rate" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.pmax_rate" Kind="pv"/>
+</LN>
+<LN ID="%QX.IF3.ST1.BlockSendOnce06" Type="BOOL">
+<Prod Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDSend" Kind="pv"/>
+<Cons Device="IF3.ST1" DPName="BlockSendOnce06" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.BlockSendOnceAck06" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="BlockSendOnceAck06" Kind="io"/>
+<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDAck" Kind="pv"/>
+</LN>
+<LN ID="%QW.IF3.ST1.SkidID" Type="UINT">
+<Prod Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDWrite" Kind="pv"/>
+<Cons Device="IF3.ST1" DPName="SkidID" Kind="io"/>
+</LN>
+</Links></IO>

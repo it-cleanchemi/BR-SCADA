@@ -1,0 +1,15 @@
+@import "mixins.scss";
+#SiteStatuses_TextOutput1 {	@include elemTop(267);
+}
+#SiteStatuses_TextOutput1 {	@include elemLeft(-263);
+}
+#SiteStatuses_TextOutput1 {	@include elemAutoWidth(803);
+}
+#SiteStatuses_TextOutput1 {	@include elemAutoHeight(365);
+}
+#SiteStatuses_TextOutput1 {	z-index: 0;
+}
+#SiteStatuses_TextOutput1 {	@include rotate(90deg);
+}
+#SiteStatuses_TextOutput1 {	font-size: 72px;
+}

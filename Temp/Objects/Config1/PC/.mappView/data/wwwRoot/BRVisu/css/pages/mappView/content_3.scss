@@ -1,0 +1,117 @@
+@import "mixins.scss";
+#content_3_TextOutput3 {	@include elemAutoHeight(30);
+}
+#content_3_TextOutput3 {	@include elemTop(20);
+}
+#content_3_TextOutput3 {	@include elemLeft(80);
+}
+#content_3_TextOutput3 {	@include elemAutoWidth(130);
+}
+#content_3_TextOutput3 {	z-index: 0;
+}
+#content_3_TextOutput3 {	@include text-alignment-all('center');
+}
+#content_3_TextOutput3 {	font-size: 14px;
+}
+#content_3_TextOutput4 {	@include elemAutoHeight(30);
+}
+#content_3_TextOutput4 {	@include elemTop(70);
+}
+#content_3_TextOutput4 {	@include elemLeft(60);
+}
+#content_3_TextOutput4 {	@include elemAutoWidth(130);
+}
+#content_3_TextOutput4 {	z-index: 1;
+}
+#content_3_TextOutput4 {	@include text-alignment-all('left');
+}
+#content_3_TextOutput4 {	font-size: 12px;
+}
+#content_3_TextOutput5 {	@include elemAutoHeight(30);
+}
+#content_3_TextOutput5 {	@include elemTop(110);
+}
+#content_3_TextOutput5 {	@include elemLeft(60);
+}
+#content_3_TextOutput5 {	@include elemAutoWidth(130);
+}
+#content_3_TextOutput5 {	z-index: 2;
+}
+#content_3_TextOutput5 {	@include text-alignment-all('left');
+}
+#content_3_TextOutput5 {	font-size: 12px;
+}
+#content_3_ProgressBar1 {	@include elemTop(310);
+}
+#content_3_ProgressBar1 {	@include elemLeft(70);
+}
+#content_3_ProgressBar1 {	@include elemWidth(40);
+}
+#content_3_ProgressBar1 {	@include elemHeight(240);
+}
+#content_3_ProgressBar1 {	z-index: 3;
+}
+#content_3_ProgressBar1 {	.pb-progress {
+		background-color: rgba(0, 204, 204, 1);
+	}
+}
+#content_3_ProgressBar2 {	@include elemTop(310);
+}
+#content_3_ProgressBar2 {	@include elemLeft(180);
+}
+#content_3_ProgressBar2 {	@include elemWidth(40);
+}
+#content_3_ProgressBar2 {	@include elemHeight(240);
+}
+#content_3_ProgressBar2 {	z-index: 4;
+}
+#content_3_ProgressBar2 {	.pb-progress {
+		background-color: rgba(0, 204, 204, 1);
+	}
+}
+#content_3_NumericOutput1 {	@include elemAutoHeight(30);
+}
+#content_3_NumericOutput1 {	@include elemTop(280);
+}
+#content_3_NumericOutput1 {	@include elemLeft(45);
+}
+#content_3_NumericOutput1 {	@include elemAutoWidth(90);
+}
+#content_3_NumericOutput1 {	z-index: 5;
+}
+#content_3_NumericOutput2 {	@include elemAutoHeight(30);
+}
+#content_3_NumericOutput2 {	@include elemTop(280);
+}
+#content_3_NumericOutput2 {	@include elemLeft(160);
+}
+#content_3_NumericOutput2 {	@include elemAutoWidth(90);
+}
+#content_3_NumericOutput2 {	z-index: 6;
+}
+#content_3_NumericOutput3 {	@include elemAutoWidth(100);
+}
+#content_3_NumericOutput3 {	@include elemAutoHeight(30);
+}
+#content_3_NumericOutput3 {	@include elemTop(110);
+}
+#content_3_NumericOutput3 {	@include elemLeft(105);
+}
+#content_3_NumericOutput3 {	z-index: 7;
+}
+#content_3_NumericInput1 {	@include elemAutoHeight(30);
+}
+#content_3_NumericInput1 {	@include elemTop(70);
+}
+#content_3_NumericInput1 {	@include elemLeft(135);
+}
+#content_3_NumericInput1 {	@include elemAutoWidth(65);
+}
+#content_3_NumericInput1 {	z-index: 8;
+}
+#content_3_NumericInput1 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 204, 204, 1);
+	}
+}
+#content_3_NumericInput1 {	@include box-shadow(4px 1px 3px rgba(0, 204, 204, 0.75));
+}

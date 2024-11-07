@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="PagePackage" PackageType="PagePackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Page description">LoginPage.page</Object>
+    <Object Type="File">LoginPage.content</Object>
+    <Object Type="File">QAQC_Setup.content</Object>
+    <Object Type="File">LoginPageExample.content</Object>
+    <Object Type="File">AdminONLY.content</Object>
+  </Objects>
+</Package>

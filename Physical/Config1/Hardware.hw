@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.6.106 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="ModbusTcp_any" Type="ModbusTcp_any" Version="1.1.1.0">
+    <Connection Connector="ETH1" TargetModule="PC" TargetConnector="IF3">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="172.16.1.100" />
+    <Parameter ID="UnitId" Value="1" />
+    <Parameter ID="TcpPort" Value="508" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="3" />
+    <Parameter ID="Cb_1_Addr" Value="6100" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="skid_id" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="6" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_Addr" Value="6102" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="start_stop" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="3" />
+    <Parameter ID="Cb_3_Addr" Value="6104" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="msgbox" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="6" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="3" />
+    <Parameter ID="Cb_4_Addr" Value="6106" />
+    <Parameter ID="Cb_4_NumItems" Value="2" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="pmax_conc" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="8" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="3" />
+    <Parameter ID="Cb_5_Addr" Value="6108" />
+    <Parameter ID="Cb_5_NumItems" Value="2" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="pmax_rate" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="8" />
+    <Group ID="Cb_6" />
+    <Parameter ID="Cb_6_FunCode" Value="6" />
+    <Parameter ID="Cb_6_SendMode" Value="2" />
+    <Parameter ID="Cb_6_AddrExt" Value="500" />
+    <Group ID="Cb_6_C_1" />
+    <Parameter ID="Cb_6_C_1_Name" Value="SkidID" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="6" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Group ID="Cb_7" />
+    <Parameter ID="Cb_7_FunCode" Value="3" />
+    <Parameter ID="Cb_7_SendMode" Value="2" />
+    <Group ID="Cb_7_C_1" />
+    <Parameter ID="Cb_7_C_1_Name" Value="Bt_lvl" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="3" />
+  </Module>
+  <Module Name="PC" Type="PC_any" Version="1.1.1.0" OrderNumber="PC">
+    <Connector Name="IF3">
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+  </Module>
+</Hardware>

@@ -1,0 +1,2014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<Objects>
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133645145680000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133752374862006888"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133749566496974068"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133725536860028753" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUas\binary.lby"
+    LogicalPath="Libraries.AsOpcUas"
+    Type="Library"
+    LastWriteTime="133725536859562425" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUas\AsOpcUas.fun"
+    LogicalPath="Libraries.AsOpcUas.AsOpcUas.fun"
+    Type="File"
+    LastWriteTime="133725536859542421"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUas\AsOpcUas.typ"
+    LogicalPath="Libraries.AsOpcUas.AsOpcUas.typ"
+    Type="File"
+    LastWriteTime="133725536859552451"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUas\AsOpcUas.var"
+    LogicalPath="Libraries.AsOpcUas.AsOpcUas.var"
+    Type="File"
+    LastWriteTime="133725536859562425"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUac\binary.lby"
+    LogicalPath="Libraries.AsOpcUac"
+    Type="Library"
+    LastWriteTime="133725536859808599" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUac\AsOpcUac.fun"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.fun"
+    Type="File"
+    LastWriteTime="133725536859789238"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUac\AsOpcUac.typ"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.typ"
+    Type="File"
+    LastWriteTime="133725536859798534"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Libraries\AsOpcUac\AsOpcUac.var"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.var"
+    Type="File"
+    LastWriteTime="133725536859808599"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\IEC.prg"
+    LogicalPath="Main"
+    Type="Program"
+    LastWriteTime="133725536854981840" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Main.st"
+    LogicalPath="Main.Main.st"
+    Type="File"
+    LastWriteTime="133754757313473480"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Types.typ"
+    LogicalPath="Main.Types.typ"
+    Type="File"
+    LastWriteTime="133645129940000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Variables.var"
+    LogicalPath="Main.Variables.var"
+    Type="File"
+    LastWriteTime="133725558609569779"
+    Private="true" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Methods.uam"
+    LogicalPath="Main.Methods.uam"
+    Type="File"
+    LastWriteTime="133725536854971829"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="133645145680000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="133655291362472865" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib"
+    Type="Package"
+    LastWriteTime="133736638943865296" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Description.widgetlibrary"
+    LogicalPath="mappView.Widgets.WidgetLib.Description.widgetlibrary"
+    Type="File"
+    LastWriteTime="133650235531595898"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Resources\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.Resources"
+    Type="Package"
+    LastWriteTime="133650235531635891" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133650235531615890" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.Resources.Media"
+    Type="Package"
+    LastWriteTime="133650236030407651" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.CompoundWidget"
+    Type="Package"
+    LastWriteTime="133650344360737764" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.CompoundWidget.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133661360539525498"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\PumpVisual\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.PumpVisual"
+    Type="Package"
+    LastWriteTime="133661338851423516" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\PumpVisual\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.PumpVisual.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133703964655020330"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\Rectangle.derivedwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.Rectangle.derivedwidget"
+    Type="File"
+    LastWriteTime="133651068377337324"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.BufferTankVisual"
+    Type="Package"
+    LastWriteTime="133662229083586657" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.BufferTankVisual.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133667577970618160"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.DosingPumpInformatic"
+    Type="Package"
+    LastWriteTime="133670224927237454" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.DosingPumpInformatic.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133677010837372959"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\CDSensor1\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.CDSensor1"
+    Type="Package"
+    LastWriteTime="133671058147167420" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\CDSensor1\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.CDSensor1.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133687348492115962"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\SendDataButton\Package.pkg"
+    LogicalPath="mappView.Widgets.WidgetLib.SendDataButton"
+    Type="Package"
+    LastWriteTime="133736638805404954" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Widgets\WidgetLib\SendDataButton\Widget.compoundwidget"
+    LogicalPath="mappView.Widgets.WidgetLib.SendDataButton.Widget.compoundwidget"
+    Type="File"
+    LastWriteTime="133736638805404954"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="133650236111722900" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133645145680000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133645145680000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="133655260373292690" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1"
+    Type="Package"
+    LastWriteTime="133655260155778302" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.BuRTheme1.theme"
+    Type="File"
+    LastWriteTime="133655260155678246"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease"
+    Type="Package"
+    LastWriteTime="133655260598254791" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.BuRTheme1.stylesset"
+    Type="File"
+    LastWriteTime="133655273456521317"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133655260155698259"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.System.styles"
+    Type="File"
+    LastWriteTime="133655260155708268"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133655260155718254"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133655260155728321"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133655260155728321"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133655260155738271"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133655260155748294"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133655260155748294"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133655260155758300"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133655260155768287"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133655260155768287"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Themes\BuRTheme1\brease\MyStyles.styles"
+    LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.MyStyles.styles"
+    Type="File"
+    LastWriteTime="133655288252542408"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="133655242434758996" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\CleanChemi.png.png"
+    LogicalPath="mappView.Resources.Media.CleanChemi.png.png"
+    Type="File"
+    LastWriteTime="133650236111962903"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib"
+    Type="Package"
+    LastWriteTime="133655242434748998" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
+    Type="Package"
+    LastWriteTime="133655242433779103" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
+    Type="File"
+    LastWriteTime="133655242433749435"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
+    Type="File"
+    LastWriteTime="133655242433759059"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
+    Type="File"
+    LastWriteTime="133655242433769411"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
+    Type="File"
+    LastWriteTime="133655242433769411"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
+    Type="Package"
+    LastWriteTime="133655242433859215" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
+    Type="File"
+    LastWriteTime="133655242433789136"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
+    Type="File"
+    LastWriteTime="133655242433799102"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
+    Type="File"
+    LastWriteTime="133655242433809080"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
+    Type="File"
+    LastWriteTime="133655242433809080"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
+    Type="File"
+    LastWriteTime="133655242433819011"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
+    Type="File"
+    LastWriteTime="133655242433819011"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
+    Type="File"
+    LastWriteTime="133655242433829091"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
+    Type="File"
+    LastWriteTime="133655242433839460"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
+    Type="File"
+    LastWriteTime="133655242433839460"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
+    Type="File"
+    LastWriteTime="133655242433849137"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
+    Type="File"
+    LastWriteTime="133655242433859215"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
+    Type="File"
+    LastWriteTime="133655242433859215"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
+    Type="Package"
+    LastWriteTime="133655242433889089" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
+    Type="File"
+    LastWriteTime="133655242433879103"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
+    Type="File"
+    LastWriteTime="133655242433889089"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
+    Type="File"
+    LastWriteTime="133655242433889089"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
+    Type="Package"
+    LastWriteTime="133655242433919845" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
+    Type="File"
+    LastWriteTime="133655242433909093"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
+    Type="File"
+    LastWriteTime="133655242433919845"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
+    Type="File"
+    LastWriteTime="133655242433919845"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
+    Type="Package"
+    LastWriteTime="133655242433939153" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
+    Type="File"
+    LastWriteTime="133655242433939153"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
+    Type="Package"
+    LastWriteTime="133655242433969007" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
+    Type="File"
+    LastWriteTime="133655242433949074"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
+    Type="File"
+    LastWriteTime="133655242433959012"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
+    Type="File"
+    LastWriteTime="133655242433969007"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
+    Type="Package"
+    LastWriteTime="133655242434128996" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
+    Type="File"
+    LastWriteTime="133655242433979002"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
+    Type="File"
+    LastWriteTime="133655242433988999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
+    Type="File"
+    LastWriteTime="133655242433988999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
+    Type="File"
+    LastWriteTime="133655242433998997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
+    Type="File"
+    LastWriteTime="133655242434008998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
+    Type="File"
+    LastWriteTime="133655242434008998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
+    Type="File"
+    LastWriteTime="133655242434018996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
+    Type="File"
+    LastWriteTime="133655242434028999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
+    Type="File"
+    LastWriteTime="133655242434028999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
+    Type="File"
+    LastWriteTime="133655242434038998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
+    Type="File"
+    LastWriteTime="133655242434038998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
+    Type="File"
+    LastWriteTime="133655242434048998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
+    Type="File"
+    LastWriteTime="133655242434058997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
+    Type="File"
+    LastWriteTime="133655242434069000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
+    Type="File"
+    LastWriteTime="133655242434069000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
+    Type="File"
+    LastWriteTime="133655242434078998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
+    Type="File"
+    LastWriteTime="133655242434088993"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
+    Type="File"
+    LastWriteTime="133655242434088993"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
+    Type="File"
+    LastWriteTime="133655242434098996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
+    Type="File"
+    LastWriteTime="133655242434108997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
+    Type="File"
+    LastWriteTime="133655242434108997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
+    Type="File"
+    LastWriteTime="133655242434118996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
+    Type="File"
+    LastWriteTime="133655242434118996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File"
+    Type="Package"
+    LastWriteTime="133655242434168994" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
+    Type="File"
+    LastWriteTime="133655242434138994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
+    Type="File"
+    LastWriteTime="133655242434148997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
+    Type="File"
+    LastWriteTime="133655242434148997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
+    Type="File"
+    LastWriteTime="133655242434158994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
+    Type="File"
+    LastWriteTime="133655242434158994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
+    Type="Package"
+    LastWriteTime="133655242434258996" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
+    Type="File"
+    LastWriteTime="133655242434178994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
+    Type="File"
+    LastWriteTime="133655242434178994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
+    Type="File"
+    LastWriteTime="133655242434188999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
+    Type="File"
+    LastWriteTime="133655242434198996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
+    Type="File"
+    LastWriteTime="133655242434198996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
+    Type="File"
+    LastWriteTime="133655242434209001"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
+    Type="File"
+    LastWriteTime="133655242434218999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
+    Type="File"
+    LastWriteTime="133655242434218999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
+    Type="File"
+    LastWriteTime="133655242434229000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
+    Type="File"
+    LastWriteTime="133655242434238997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
+    Type="File"
+    LastWriteTime="133655242434238997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
+    Type="File"
+    LastWriteTime="133655242434248997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
+    Type="File"
+    LastWriteTime="133655242434248997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media"
+    Type="Package"
+    LastWriteTime="133655242434348992" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
+    Type="File"
+    LastWriteTime="133655242434269000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
+    Type="File"
+    LastWriteTime="133655242434278996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
+    Type="File"
+    LastWriteTime="133655242434278996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
+    Type="File"
+    LastWriteTime="133655242434288996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
+    Type="File"
+    LastWriteTime="133655242434298996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
+    Type="File"
+    LastWriteTime="133655242434298996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
+    Type="File"
+    LastWriteTime="133655242434308995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
+    Type="File"
+    LastWriteTime="133655242434318997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
+    Type="File"
+    LastWriteTime="133655242434318997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
+    Type="File"
+    LastWriteTime="133655242434348992"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
+    Type="Package"
+    LastWriteTime="133655242434408995" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
+    Type="File"
+    LastWriteTime="133655242434358995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
+    Type="File"
+    LastWriteTime="133655242434368997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
+    Type="File"
+    LastWriteTime="133655242434378997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
+    Type="File"
+    LastWriteTime="133655242434378997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
+    Type="File"
+    LastWriteTime="133655242434388999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
+    Type="File"
+    LastWriteTime="133655242434398994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
+    Type="File"
+    LastWriteTime="133655242434398994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
+    Type="File"
+    LastWriteTime="133655242434408995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
+    Type="Package"
+    LastWriteTime="133655242434688994" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
+    Type="File"
+    LastWriteTime="133655242434428995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
+    Type="File"
+    LastWriteTime="133655242434428995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
+    Type="File"
+    LastWriteTime="133655242434438995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
+    Type="File"
+    LastWriteTime="133655242434448998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
+    Type="File"
+    LastWriteTime="133655242434448998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
+    Type="File"
+    LastWriteTime="133655242434458995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
+    Type="File"
+    LastWriteTime="133655242434468994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
+    Type="File"
+    LastWriteTime="133655242434468994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
+    Type="File"
+    LastWriteTime="133655242434478998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
+    Type="File"
+    LastWriteTime="133655242434478998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
+    Type="File"
+    LastWriteTime="133655242434488995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
+    Type="File"
+    LastWriteTime="133655242434498994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
+    Type="File"
+    LastWriteTime="133655242434498994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
+    Type="File"
+    LastWriteTime="133655242434508997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
+    Type="File"
+    LastWriteTime="133655242434508997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
+    Type="File"
+    LastWriteTime="133655242434518996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
+    Type="File"
+    LastWriteTime="133655242434528994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
+    Type="File"
+    LastWriteTime="133655242434528994"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
+    Type="File"
+    LastWriteTime="133655242434539000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
+    Type="File"
+    LastWriteTime="133655242434548996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
+    Type="File"
+    LastWriteTime="133655242434548996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
+    Type="File"
+    LastWriteTime="133655242434558997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
+    Type="File"
+    LastWriteTime="133655242434558997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
+    Type="File"
+    LastWriteTime="133655242434569000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
+    Type="File"
+    LastWriteTime="133655242434569000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
+    Type="File"
+    LastWriteTime="133655242434578995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
+    Type="File"
+    LastWriteTime="133655242434588998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
+    Type="File"
+    LastWriteTime="133655242434588998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
+    Type="File"
+    LastWriteTime="133655242434598995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
+    Type="File"
+    LastWriteTime="133655242434598995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
+    Type="File"
+    LastWriteTime="133655242434608995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
+    Type="File"
+    LastWriteTime="133655242434618993"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
+    Type="File"
+    LastWriteTime="133655242434618993"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
+    Type="File"
+    LastWriteTime="133655242434629015"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
+    Type="File"
+    LastWriteTime="133655242434638999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
+    Type="File"
+    LastWriteTime="133655242434638999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
+    Type="File"
+    LastWriteTime="133655242434648999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
+    Type="File"
+    LastWriteTime="133655242434658997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
+    Type="File"
+    LastWriteTime="133655242434658997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
+    Type="File"
+    LastWriteTime="133655242434668995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
+    Type="File"
+    LastWriteTime="133655242434678996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
+    Type="File"
+    LastWriteTime="133655242434678996"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User"
+    Type="Package"
+    LastWriteTime="133655242434748998" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
+    Type="File"
+    LastWriteTime="133655242434699002"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
+    Type="File"
+    LastWriteTime="133655242434699002"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
+    Type="File"
+    LastWriteTime="133655242434708999"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
+    Type="File"
+    LastWriteTime="133655242434718995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
+    Type="File"
+    LastWriteTime="133655242434718995"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
+    Type="File"
+    LastWriteTime="133655242434728997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
+    Type="File"
+    LastWriteTime="133655242434728997"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
+    Type="File"
+    LastWriteTime="133655242434739000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
+    Type="File"
+    LastWriteTime="133655242434748998"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="133746909847052632" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.Main"
+    Type="Package"
+    LastWriteTime="133710649763161450" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\LoginPage.page"
+    LogicalPath="mappView.Visualization.Pages.Main.LoginPage.page"
+    Type="File"
+    LastWriteTime="133710660120320830"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\LoginPage.content"
+    LogicalPath="mappView.Visualization.Pages.Main.LoginPage.content"
+    Type="File"
+    LastWriteTime="133703338384748308"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\QAQC_Setup.content"
+    LogicalPath="mappView.Visualization.Pages.Main.QAQC_Setup.content"
+    Type="File"
+    LastWriteTime="133686516230092305"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\LoginPageExample.content"
+    LogicalPath="mappView.Visualization.Pages.Main.LoginPageExample.content"
+    Type="File"
+    LastWriteTime="133703898866653369"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\Main\AdminONLY.content"
+    LogicalPath="mappView.Visualization.Pages.Main.AdminONLY.content"
+    Type="File"
+    LastWriteTime="133704616574118744"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage"
+    Type="Package"
+    LastWriteTime="133752238208097755" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\Overview.page"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.Overview.page"
+    Type="File"
+    LastWriteTime="133752253102848878"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPage.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewPage.content"
+    Type="File"
+    LastWriteTime="133703343973920936"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPageExample.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewPageExample.content"
+    Type="File"
+    LastWriteTime="133710668961079825"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx1.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewEx1.content"
+    Type="File"
+    LastWriteTime="133728726539982427"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx2.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewEx2.content"
+    Type="File"
+    LastWriteTime="133710701978949810"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\Header.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.Header.content"
+    Type="File"
+    LastWriteTime="133752237917359874"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\NavigationPage.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.NavigationPage.content"
+    Type="File"
+    LastWriteTime="133752243112169107"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\QCS.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.QCS.content"
+    Type="File"
+    LastWriteTime="133752236247305537"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\OverviewPage\SiteStatus.content"
+    LogicalPath="mappView.Visualization.Pages.OverviewPage.SiteStatus.content"
+    Type="File"
+    LastWriteTime="133752239063117030"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="133704628731703874" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\AreaContents\Content.content"
+    LogicalPath="mappView.Visualization.Pages.AreaContents.Content.content"
+    Type="File"
+    LastWriteTime="133704628731703874"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors"
+    Type="Package"
+    LastWriteTime="133710634358181939" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\CDBlock.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.CDBlock.content"
+    Type="File"
+    LastWriteTime="133686500681256373"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Pump.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.Pump.content"
+    Type="File"
+    LastWriteTime="133752385915048272"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\BufferTankLevelIndicator.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.BufferTankLevelIndicator.content"
+    Type="File"
+    LastWriteTime="133692733183604341"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\StatusLight.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.StatusLight.content"
+    Type="File"
+    LastWriteTime="133673674610942375"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\DosingPumpInfo.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.DosingPumpInfo.content"
+    Type="File"
+    LastWriteTime="133749715172502352"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Flowmeter.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.Flowmeter.content"
+    Type="File"
+    LastWriteTime="133675309243201973"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\LocationBox.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.LocationBox.content"
+    Type="File"
+    LastWriteTime="133686500699200844"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\EquipmentAndSensors\FillPercentCircle.content"
+    LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.FillPercentCircle.content"
+    Type="File"
+    LastWriteTime="133710634260832378"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs"
+    Type="Package"
+    LastWriteTime="133677042787645453" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Page\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page"
+    Type="Package"
+    LastWriteTime="133704601660676025" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PopUp.page"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.PopUp.page"
+    Type="File"
+    LastWriteTime="133749724883141684"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PumpPopUp.content"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.PumpPopUp.content"
+    Type="File"
+    LastWriteTime="133677159739689639"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Page\BufferTankPopUp.content"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.BufferTankPopUp.content"
+    Type="File"
+    LastWriteTime="133752216467759470"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\PopUpTabs\Page\CDPopUp.content"
+    LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.CDPopUp.content"
+    Type="File"
+    LastWriteTime="133704601581203331"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\NavigationWindow\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.NavigationWindow"
+    Type="Package"
+    LastWriteTime="133703411733717689" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.NavigationWindow.Navigation"
+    Type="Package"
+    LastWriteTime="133710659328080409" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\NavigationPage.page"
+    LogicalPath="mappView.Visualization.Pages.NavigationWindow.Navigation.NavigationPage.page"
+    Type="File"
+    LastWriteTime="133710660481522078"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\ExamplePages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.ExamplePages"
+    Type="Package"
+    LastWriteTime="133703412423905906" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures"
+    Type="Package"
+    LastWriteTime="133746912119045765" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton"
+    Type="Package"
+    LastWriteTime="133746911458755781" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.page"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton.AutomaticSendAckButton.page"
+    Type="File"
+    LastWriteTime="133746922083809187"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.content"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton.AutomaticSendAckButton.content"
+    Type="File"
+    LastWriteTime="133746922012869222"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures.SwapPageButton"
+    Type="Package"
+    LastWriteTime="133746912008576683" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Page.page"
+    LogicalPath="mappView.Visualization.Pages.CustomFeatures.SwapPageButton.Page.page"
+    Type="File"
+    LastWriteTime="133746934385406906"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="133725589888871756" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Variables\ColorVar.svar"
+    LogicalPath="mappView.Visualization.Variables.ColorVar.svar"
+    Type="File"
+    LastWriteTime="133685668691079704"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Variables\sessionvar.svar"
+    LogicalPath="mappView.Visualization.Variables.sessionvar.svar"
+    Type="File"
+    LastWriteTime="133661339348845753"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Variables\AutoManVar.svar"
+    LogicalPath="mappView.Visualization.Variables.AutoManVar.svar"
+    Type="File"
+    LastWriteTime="133679689519733338"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Variables\PumpOnScreen.svar"
+    LogicalPath="mappView.Visualization.Variables.PumpOnScreen.svar"
+    Type="File"
+    LastWriteTime="133685670537429199"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="133752237083670126" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\Main_QAQCScreen.layout"
+    LogicalPath="mappView.Visualization.Layouts.Main_QAQCScreen.layout"
+    Type="File"
+    LastWriteTime="133645146760000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\Landscape16_1.layout"
+    LogicalPath="mappView.Visualization.Layouts.Landscape16_1.layout"
+    Type="File"
+    LastWriteTime="133752209262657461"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\Header.layout"
+    LogicalPath="mappView.Visualization.Layouts.Header.layout"
+    Type="File"
+    LastWriteTime="133655282500588545"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\Layout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Layout.layout"
+    Type="File"
+    LastWriteTime="133677156971139708"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Layouts\PopUpLayout.layout"
+    LogicalPath="mappView.Visualization.Layouts.PopUpLayout.layout"
+    Type="File"
+    LastWriteTime="133681486917274884"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="133686532377558050" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="133686532724062558" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\AreaContents\CDPopUp.content"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents.CDPopUp.content"
+    Type="File"
+    LastWriteTime="133681396457641337"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\AreaContents\BufferTankPopUp.content"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents.BufferTankPopUp.content"
+    Type="File"
+    LastWriteTime="133681486918106728"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\AreaContents\PumpPopUp.content"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents.PumpPopUp.content"
+    Type="File"
+    LastWriteTime="133686532662457151"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\Dialog\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.Dialog"
+    Type="Package"
+    LastWriteTime="133681397614032951" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\Dialog\testpopup.dialog"
+    LogicalPath="mappView.Visualization.Dialogs.Dialog.testpopup.dialog"
+    Type="File"
+    LastWriteTime="133681397873818387"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.BufferTankPopUp"
+    Type="Package"
+    LastWriteTime="133681484354259145" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\BufferTankPopUP.dialog"
+    LogicalPath="mappView.Visualization.Dialogs.BufferTankPopUp.BufferTankPopUP.dialog"
+    Type="File"
+    LastWriteTime="133682173063207769"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\PumpPopUp\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.PumpPopUp"
+    Type="Package"
+    LastWriteTime="133686532285791163" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Dialogs\PumpPopUp\PumpPopUp.dialog"
+    LogicalPath="mappView.Visualization.Dialogs.PumpPopUp.PumpPopUp.dialog"
+    Type="File"
+    LastWriteTime="133687350202851049"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="133645145780000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133645125300000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133752216419723264"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133703424876225600"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Cpu.pkg"
+    LogicalPath="Config1.PC"
+    Type="Cpu"
+    LastWriteTime="133752253289393752" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Cpu.sw"
+    LogicalPath="Config1.PC.Cpu.sw"
+    Type="File"
+    LastWriteTime="133725536864517914"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Cpu.per"
+    LogicalPath="Config1.PC.Cpu.per"
+    Type="File"
+    LastWriteTime="133645125280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\IoMap.iom"
+    LogicalPath="Config1.PC.IoMap.iom"
+    Type="File"
+    LastWriteTime="133747023929714610"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\PvMap.vvm"
+    LogicalPath="Config1.PC.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133645125280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Connectivity\Package.pkg"
+    LogicalPath="Config1.PC.Connectivity"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.PC.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133645147900000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="133752382724171145"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.PC.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\TextSystem\Package.pkg"
+    LogicalPath="Config1.PC.TextSystem"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\UnitSystem\Package.pkg"
+    LogicalPath="Config1.PC.UnitSystem"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133650277388274975" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133728729727722303"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133728806671313895"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.PC.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.PC.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133645125280000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappControl\Package.pkg"
+    LogicalPath="Config1.PC.mappControl"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappMotion\Package.pkg"
+    LogicalPath="Config1.PC.mappMotion"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappServices\Package.pkg"
+    LogicalPath="Config1.PC.mappServices"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappSafety\Package.pkg"
+    LogicalPath="Config1.PC.mappSafety"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.PC.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.PC.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\Package.pkg"
+    LogicalPath="Config1.PC.mappView"
+    Type="Package"
+    LastWriteTime="133749566807517705" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\Visualizat.vis"
+    LogicalPath="Config1.PC.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="133754757308507395"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\Config.mappviewcfg"
+    LogicalPath="Config1.PC.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="133728725448000390"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\Main_content.binding"
+    LogicalPath="Config1.PC.mappView.Main_content.binding"
+    Type="File"
+    LastWriteTime="133728788295634725"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_1.binding"
+    LogicalPath="Config1.PC.mappView.content_1.binding"
+    Type="File"
+    LastWriteTime="133725581110851493"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_9.binding"
+    LogicalPath="Config1.PC.mappView.content_9.binding"
+    Type="File"
+    LastWriteTime="133725581775569980"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_2.binding"
+    LogicalPath="Config1.PC.mappView.content_2.binding"
+    Type="File"
+    LastWriteTime="133752374857071928"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_11.binding"
+    LogicalPath="Config1.PC.mappView.content_11.binding"
+    Type="File"
+    LastWriteTime="133676968058875052"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_3.binding"
+    LogicalPath="Config1.PC.mappView.content_3.binding"
+    Type="File"
+    LastWriteTime="133677010507972136"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_2.eventbinding"
+    LogicalPath="Config1.PC.mappView.content_2.eventbinding"
+    Type="File"
+    LastWriteTime="133681400052723254"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_15.eventbinding"
+    LogicalPath="Config1.PC.mappView.content_15.eventbinding"
+    Type="File"
+    LastWriteTime="133682173044092005"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_6.eventbinding"
+    LogicalPath="Config1.PC.mappView.content_6.eventbinding"
+    Type="File"
+    LastWriteTime="133746919213919418"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\OverviewEx1.binding"
+    LogicalPath="Config1.PC.mappView.OverviewEx1.binding"
+    Type="File"
+    LastWriteTime="133728787433862076"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\QCS.binding"
+    LogicalPath="Config1.PC.mappView.QCS.binding"
+    Type="File"
+    LastWriteTime="133746951770045515"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\QCS.eventbinding"
+    LogicalPath="Config1.PC.mappView.QCS.eventbinding"
+    Type="File"
+    LastWriteTime="133746998297633385"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappView\content_7.binding"
+    LogicalPath="Config1.PC.mappView.content_7.binding"
+    Type="File"
+    LastWriteTime="133752101007702945"
+    Private="false" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappVision\Package.pkg"
+    LogicalPath="Config1.PC.mappVision"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\PC\mappCockpit\Package.pkg"
+    LogicalPath="Config1.PC.mappCockpit"
+    Type="Package"
+    LastWriteTime="133645125280000000" />
+  <Object
+    Path="C:\projects\CleanChemi_SiteManagementSystem\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133645128820000000"
+    Private="false" />
+</Objects>

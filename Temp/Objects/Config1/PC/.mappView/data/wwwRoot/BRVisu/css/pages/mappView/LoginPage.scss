@@ -1,0 +1,177 @@
+@import "mixins.scss";
+#LoginPage_Image1 {	@include elemTop(60);
+}
+#LoginPage_Image1 {	@include elemLeft(100);
+}
+#LoginPage_Image1 {	@include elemAutoWidth(620);
+}
+#LoginPage_Image1 {	@include elemAutoHeight(160);
+}
+#LoginPage_Image1 {	z-index: 1;
+}
+#LoginPage_Label1 {	@include elemAutoHeight(30);
+}
+#LoginPage_Label1 {	@include elemTop(240);
+}
+#LoginPage_Label1 {	@include elemLeft(340);
+}
+#LoginPage_Label1 {	@include elemAutoWidth(140);
+}
+#LoginPage_Label1 {	z-index: 3;
+}
+#LoginPage_Label1 {	@include font-weight-bold(true);
+}
+#LoginPage_Label2 {	@include elemAutoHeight(30);
+}
+#LoginPage_Label2 {	@include elemTop(280);
+}
+#LoginPage_Label2 {	@include elemLeft(275);
+}
+#LoginPage_Label2 {	@include elemAutoWidth(275);
+}
+#LoginPage_Label2 {	z-index: 4;
+}
+#LoginPage_Label2 {	@include font-weight-bold(true);
+}
+#LoginPage_Label3 {	@include elemAutoHeight(30);
+}
+#LoginPage_Label3 {	@include elemTop(300);
+}
+#LoginPage_Label3 {	@include elemLeft(260);
+}
+#LoginPage_Label3 {	@include elemAutoWidth(320);
+}
+#LoginPage_Label3 {	z-index: 5;
+}
+#LoginPage_Label3 {	@include font-weight-bold(true);
+}
+#LoginPage_AlarmList1 {	@include elemTop(340);
+}
+#LoginPage_AlarmList1 {	@include elemLeft(20);
+}
+#LoginPage_AlarmList1 {	@include elemWidth(380);
+}
+#LoginPage_AlarmList1 {	@include elemHeight(220);
+}
+#LoginPage_AlarmList1 {	z-index: 2;
+}
+#LoginPage_Ellipse1 {	@include elemTop(360);
+}
+#LoginPage_Ellipse1 {	@include elemLeft(460);
+}
+#LoginPage_Ellipse1 {	@include elemWidth(20);
+}
+#LoginPage_Ellipse1 {	@include elemHeight(20);
+}
+#LoginPage_Ellipse1 {	z-index: 6;
+}
+#LoginPage_Ellipse1 {	background-color: rgba(50, 205, 50, 1);
+}
+#LoginPage_Label4 {	@include elemTop(360);
+}
+#LoginPage_Label4 {	@include elemLeft(480);
+}
+#LoginPage_Label4 {	@include elemAutoWidth(280);
+}
+#LoginPage_Label4 {	@include elemAutoHeight(20);
+}
+#LoginPage_Label4 {	z-index: 7;
+}
+#LoginPage_Label4 {	@include font-weight-bold(true);
+}
+#LoginPage_Ellipse2 {	@include elemTop(400);
+}
+#LoginPage_Ellipse2 {	@include elemLeft(460);
+}
+#LoginPage_Ellipse2 {	@include elemWidth(20);
+}
+#LoginPage_Ellipse2 {	@include elemHeight(20);
+}
+#LoginPage_Ellipse2 {	z-index: 8;
+}
+#LoginPage_Ellipse2 {	background-color: rgba(50, 205, 50, 1);
+}
+#LoginPage_Label5 {	@include elemTop(400);
+}
+#LoginPage_Label5 {	@include elemLeft(480);
+}
+#LoginPage_Label5 {	@include elemAutoWidth(280);
+}
+#LoginPage_Label5 {	@include elemAutoHeight(20);
+}
+#LoginPage_Label5 {	z-index: 9;
+}
+#LoginPage_Label5 {	@include font-weight-bold(true);
+}
+#LoginPage_Ellipse3 {	@include elemTop(440);
+}
+#LoginPage_Ellipse3 {	@include elemLeft(460);
+}
+#LoginPage_Ellipse3 {	@include elemWidth(20);
+}
+#LoginPage_Ellipse3 {	@include elemHeight(20);
+}
+#LoginPage_Ellipse3 {	z-index: 10;
+}
+#LoginPage_Ellipse3 {	background-color: rgba(50, 205, 50, 1);
+}
+#LoginPage_Label6 {	@include elemTop(440);
+}
+#LoginPage_Label6 {	@include elemLeft(480);
+}
+#LoginPage_Label6 {	@include elemAutoWidth(280);
+}
+#LoginPage_Label6 {	@include elemAutoHeight(20);
+}
+#LoginPage_Label6 {	z-index: 11;
+}
+#LoginPage_Label6 {	@include font-weight-bold(true);
+}
+#LoginPage_Ellipse4 {	@include elemTop(480);
+}
+#LoginPage_Ellipse4 {	@include elemLeft(460);
+}
+#LoginPage_Ellipse4 {	@include elemWidth(20);
+}
+#LoginPage_Ellipse4 {	@include elemHeight(20);
+}
+#LoginPage_Ellipse4 {	z-index: 12;
+}
+#LoginPage_Ellipse4 {	background-color: rgba(50, 205, 50, 1);
+}
+#LoginPage_Label8 {	@include elemTop(480);
+}
+#LoginPage_Label8 {	@include elemLeft(480);
+}
+#LoginPage_Label8 {	@include elemAutoWidth(280);
+}
+#LoginPage_Label8 {	@include elemAutoHeight(20);
+}
+#LoginPage_Label8 {	z-index: 13;
+}
+#LoginPage_Label8 {	@include font-weight-bold(true);
+}
+#LoginPage_Label7 {	@include elemAutoHeight(30);
+}
+#LoginPage_Label7 {	@include elemTop(260);
+}
+#LoginPage_Label7 {	@include elemLeft(235);
+}
+#LoginPage_Label7 {	@include elemAutoWidth(320);
+}
+#LoginPage_Label7 {	z-index: 14;
+}
+#LoginPage_Label7 {	@include font-weight-bold(true);
+}
+#LoginPage_Rectangle26 {	@include elemTop(0);
+}
+#LoginPage_Rectangle26 {	@include elemLeft(0);
+}
+#LoginPage_Rectangle26 {	@include elemWidth(800);
+}
+#LoginPage_Rectangle26 {	@include elemHeight(600);
+}
+#LoginPage_Rectangle26 {	z-index: 0;
+}
+#LoginPage_Rectangle26 {	background-color: rgba(211, 211, 211, 1);
+}

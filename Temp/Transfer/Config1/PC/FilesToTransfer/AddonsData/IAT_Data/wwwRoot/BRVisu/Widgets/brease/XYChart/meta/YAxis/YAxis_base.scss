@@ -1,0 +1,24 @@
+@import "mixins.scss";
+@mixin widgets_brease_XYChart_YAxis_base {
+	&:not(.disabled) {
+		color: #000000;
+	}
+	&.disabled {
+		color: #808080;
+	}
+	background-color: #000000;
+	border-color: #DBDBDB;
+	font-size: 12px;
+	font-family: Arial;
+	& span {
+		color: #000000;
+	}
+	& span {
+		font-size: 12px;
+	}
+	& span {
+		font-family: Arial;
+	}
+
+}
+

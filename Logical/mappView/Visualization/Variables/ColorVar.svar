@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariablesSet id="ColorVars" xmlns="http://www.br-automation.com/iat2015/session/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Variables>
+    <!--
+    <Variable name="Variable1" xsi:type="ANY_REAL" value="0" />
+    <Variable name="Variable2" xsi:type="ANY_INT" value="0" />
+    <Variable name="Variable3" xsi:type="ANY_STRING" value="0" />
+    <Variable name="Variable4" xsi:type="DATE_AND_TIME" value="2002-05-30T09:30:10Z" />
+    <Variable name="Variable4.1" xsi:type="DT" value="2002-05-30T09:30:10Z" />
+    <Variable name="Variable5" xsi:type="BOOL" value="true" />    
+		-->
+	
+	<Variable name="GreyColor" xsi:type="ANY_STRING" value="Solid_Grey" />
+	<Variable name="WhiteColor" xsi:type="ANY_STRING" value="Solid_White" />
+	<Variable name="RedColor" xsi:type="ANY_STRING" value="Solid_Red" />	
+	<Variable name="GreenColor" xsi:type="ANY_STRING" value="Solid_Green" />
+	<Variable name="OrangeColor" xsi:type="ANY_STRING" value="Solid_Orange" />
+	<Variable name="YellowColor" xsi:type="ANY_STRING" value="Solid_Yellow" />	
+	<Variable name="AutoMode1" xsi:type="ANY_STRING" value="A" />
+	<Variable name="ManMode1" xsi:type="ANY_STRING" value="M" />
+  </Variables>
+</VariablesSet>

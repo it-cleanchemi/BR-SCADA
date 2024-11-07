@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="IF3.ST1" Hardware="ModbusTcp_any" HardwareModuleName="ModbusTcp_any" ModuleID="1">
+    <Channel ID="ModuleOk" Description="Module state (1 = module operational)" Description-de="Modulstatus (1 = Modul betriebsbereit)" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActInternalError" Description="Current slave error is an internal error." Description-de="Aktueller Fehler ist ein interner Fehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActConfError" Description="Current slave error is a configuration error." Description-de="Aktueller Fehler ist ein Konfigurationsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActOverloadError" Description="Current slave error is an overlaod error." Description-de="Aktueller Fehler ist ein Überladungsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActModbusError" Description="Current slave error is a MODBUS error." Description-de="Aktueller Fehler ist ein MODBUS Fehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActSlvConError" Description="Current slave error is a connection error." Description-de="Aktueller Fehler ist ein Verbindungsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ActRefreshError" Description="Current slave error is a refresh error." Description-de="Aktueller Fehler ist ein Aktualisierungsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ModSlaveState" Description="Modbus slave driver state." Description-de="Status des Modbus Slavetreibers." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusErrorLast" Description="Last Modbus error of this slave." Description-de="Zuletzt aufgetretener Modbus-Fehler dieses Slaves." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="LastErrBlockNr" Description="Block number of last timeout error." Description-de="Blocknummer, bei der der letzte Timeout Fehler aufgetreten ist." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusSlaveDiag" Description="Activate general slave diagnostics." Description-de="Aktiviere allgemeine Slavediagnosekanäle." Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="HistInternalError" Description="Last error since last reset was an internal error." Description-de="Interner Fehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="HistConfError" Description="Last error since last reset was a configuration error." Description-de="Konfigurationsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="HistOverloadError" Description="Last error since last reset was an overload error." Description-de="Überladungsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="HistModbusError" Description="Last error since last reset was a MODBUS error." Description-de="MODBUS Fehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="HistSlvConError" Description="Last error since last reset was a connection error." Description-de="Verbindungsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="HistRefreshError" Description="Last error since last reset was a refresh error." Description-de="Aktualisierungsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="ModbusErrorCnt" Description="Counter of Modbus error of this slave." Description-de="Zähler, wie oft ein Modbus-Fehler dieses Slaves auftrat." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusConErrorCnt" Description="Counter of Modbus connection error of this slave." Description-de="Zähler, wie oft ein erfolgloser Verbindungsaufbauversuch zu diesem Slave auftrat." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusPktRefreshTimeoutCnt" Description="Counter of refresh time out." Description-de="Zähler, wie oft der Refresh Timer überschritten wurde." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusPktPendPerSec" Description="Pending packages per second." Description-de="Ausstehende Modbus-Pakete pro Sekunde." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ModbusMeanResponseTime" Description="Mean Modbus response time of this slave [ms]." Description-de="Durschnittliche Modbus Antwortszeit dieses Slaves [ms]." Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="skid_id" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="start_stop" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="msgbox" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="pmax_conc" Description="" Ext="/HW" Direction="IN" Type="REAL" />
+    <Channel ID="pmax_rate" Description="" Ext="/HW" Direction="IN" Type="REAL" />
+    <Channel ID="BlockSendOnce06" Description="Read/write channels of block 6 once." Description-de="Einmaliges Lesen/Schreiben der Kanäle des Blocks 6." Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="BlockSendOnceAck06" Description="Acknowledge of once reading/writing channels of block 6." Description-de="Quittierung des einmaligen Lesens/Schreibens der Kanäle des Blocks 6." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="SkidID" Description="" Ext="/HW" Direction="OUT" Type="UINT" />
+  </Module>
+</ChannelConfiguration>

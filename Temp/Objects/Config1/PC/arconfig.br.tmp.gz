@@ -1,0 +1,253 @@
+<?xml version="1.0" ?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="1A4000.00">
+    <Parameter ID="HardwareModuleName" Value="PC" />
+  </Module>
+  <Module ID="IF3.MODBUS" Hardware="MODBUS">
+    <Parameter ID="NumSlaves" Value="1" Type="INT" />
+    <Parameter ID="NumAllBlocks" Value="6" Type="INT" />
+    <Parameter ID="MemSizeIn" Value="112" Type="DINT" />
+    <Parameter ID="MemSizeOut" Value="16" Type="DINT" />
+    <Parameter ID="ModbusMaster" Value="1" />
+    <Parameter ID="ModbusSlave" Value="0" />
+    <Parameter ID="SlaveDiagnostics" Value="0" />
+  </Module>
+  <Module ID="IF3.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST1" Hardware="ModbusTcp_any">
+    <Parameter ID="HardwareModuleName" Value="ModbusTcp_any" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="IpAddress" Value="172.16.1.100" />
+    <Parameter ID="UnitId" Value="1" Type="INT" />
+    <Parameter ID="TcpPort" Value="508" Type="UINT" />
+    <Parameter ID="NumPendReq" Value="1" Type="INT" />
+    <Parameter ID="Response" Value="1500" Type="INT" />
+    <Parameter ID="PnpTimer" Value="10" Type="INT" />
+    <Parameter ID="ResetOutputs" Value="off" />
+    <Parameter ID="NumBlocks" Value="6" Type="INT" />
+    <Parameter ID="Cb_1_FunCode" Value="3" Type="INT" />
+    <Parameter ID="Cb_1_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_1_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_1_Addr" Value="6100" Type="UINT" />
+    <Parameter ID="Cb_1_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_1_AddrExt" Value="0" Type="UINT" />
+    <Parameter ID="Cb_1_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_1_C_1_BitoffsetIn" Value="0" Type="DINT" />
+    <Parameter ID="Cb_1_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_1_C_1_Name" Value="skid_id" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="6" />
+    <Parameter ID="Cb_1_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_2_FunCode" Value="3" Type="INT" />
+    <Parameter ID="Cb_2_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_2_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_2_Addr" Value="6102" Type="UINT" />
+    <Parameter ID="Cb_2_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_2_AddrExt" Value="0" Type="UINT" />
+    <Parameter ID="Cb_2_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_2_C_1_BitoffsetIn" Value="16" Type="DINT" />
+    <Parameter ID="Cb_2_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_2_C_1_Name" Value="start_stop" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="1" />
+    <Parameter ID="Cb_2_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_3_FunCode" Value="3" Type="INT" />
+    <Parameter ID="Cb_3_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_3_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_3_Addr" Value="6104" Type="UINT" />
+    <Parameter ID="Cb_3_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_3_AddrExt" Value="0" Type="UINT" />
+    <Parameter ID="Cb_3_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_3_C_1_BitoffsetIn" Value="32" Type="DINT" />
+    <Parameter ID="Cb_3_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_3_C_1_Name" Value="msgbox" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="6" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_4_FunCode" Value="3" Type="INT" />
+    <Parameter ID="Cb_4_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_4_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_4_Addr" Value="6106" Type="UINT" />
+    <Parameter ID="Cb_4_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_4_AddrExt" Value="0" Type="UINT" />
+    <Parameter ID="Cb_4_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_4_C_1_BitoffsetIn" Value="48" Type="DINT" />
+    <Parameter ID="Cb_4_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_4_C_1_Name" Value="pmax_conc" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="8" />
+    <Parameter ID="Cb_4_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_5_FunCode" Value="3" Type="INT" />
+    <Parameter ID="Cb_5_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_5_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_5_Addr" Value="6108" Type="UINT" />
+    <Parameter ID="Cb_5_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_5_AddrExt" Value="0" Type="UINT" />
+    <Parameter ID="Cb_5_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_5_C_1_BitoffsetIn" Value="80" Type="DINT" />
+    <Parameter ID="Cb_5_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_5_C_1_Name" Value="pmax_rate" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="8" />
+    <Parameter ID="Cb_5_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_6_FunCode" Value="6" Type="INT" />
+    <Parameter ID="Cb_6_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_6_SendMode" Value="2" Type="INT" />
+    <Parameter ID="Cb_6_Addr" Value="500" Type="UINT" />
+    <Parameter ID="Cb_6_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_6_AddrExt" Value="500" Type="UINT" />
+    <Parameter ID="Cb_6_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_6_C_1_BitoffsetIn" Value="112" Type="DINT" />
+    <Parameter ID="Cb_6_C_1_BitoffsetOut" Value="0" Type="DINT" />
+    <Parameter ID="Cb_6_C_1_Name" Value="SkidID" />
+    <Parameter ID="Cb_6_C_1_Datatype" Value="6" />
+    <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActInternalError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActConfError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActOverloadError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActModbusError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActSlvConError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActRefreshError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ModSlaveState">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusErrorLast">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="LastErrBlockNr">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusSlaveDiag">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistInternalError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistConfError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistOverloadError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistModbusError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistSlvConError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistRefreshError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ModbusErrorCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusConErrorCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusPktRefreshTimeoutCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusPktPendPerSec">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusMeanResponseTime">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="skid_id">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="start_stop">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="msgbox">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="pmax_conc">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="REAL" />
+    </Channel>
+    <Channel ID="pmax_rate">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="REAL" />
+    </Channel>
+    <Channel ID="BlockSendOnce06">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="BlockSendOnceAck06">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="SkidID">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+  </Module>
+</IOCFG> 

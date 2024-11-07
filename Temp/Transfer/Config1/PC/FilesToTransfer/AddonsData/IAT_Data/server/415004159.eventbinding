@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="QCS">
+    <EventBinding id="QCS.Send.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="QCS_Send" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::AsGlobalPV:gIO.Modbus.SkidIDSend">
+            <Method type="opcUa.NodeAction.ToggleValueBool" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="QCS">
+    <EventBinding id="QCS.NumericInput1.ValueChanged">
+      <Source type="widgets.brease.NumericInput.Event" event="ValueChanged" refId="QCS_NumericInput1" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::AsGlobalPV:gIO.Modbus.SkidIDSend">
+            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

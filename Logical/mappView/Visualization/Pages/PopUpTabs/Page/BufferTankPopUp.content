@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="BufferTankPopup" height="550" width="770" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.XYChart" id="XYChart1" top="44" left="16" width="364" height="213" zIndex="0" permissionOperate="['Administrator_Role']" permissionView="['Administrator_Role', 'Anonymous1', 'Operator_Role']">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" title="View Time" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" />
+        </xAxis>
+        <graph>
+          <Element id="graph1" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(0, 224, 204, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="298" left="566" zIndex="1" maxValue="1000" numpadPosition="middle" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" unitAlign="right" borderColor="rgba(0, 224, 204, 1)" disabledBorderColor="rgba(200, 200, 200, 1)" activeBorderColor="rgba(224, 224, 224, 1)" shadow="4px 1px 3px rgba(0, 224, 204, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="300" left="400" width="162" zIndex="2" value="Set ViewingTime:" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="336" left="566" zIndex="3" numpadPosition="middle" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" unitAlign="right" borderColor="rgba(0, 224, 204, 1)" disabledBorderColor="rgba(200, 200, 200, 1)" activeBorderColor="rgba(224, 224, 224, 1)" shadow="4px 1px 3px rgba(0, 224, 204, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="336" left="400" width="160" zIndex="4" value="Filltime Setpoint:" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="374" left="566" zIndex="5" numpadPosition="middle" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" unitAlign="right" borderColor="rgba(0, 224, 204, 1)" disabledBorderColor="rgba(200, 200, 200, 1)" activeBorderColor="rgba(224, 224, 224, 1)" shadow="4px 1px 3px rgba(0, 224, 204, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="376" left="400" width="166" zIndex="6" value="Draintime Setpoint:" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="16" left="92" width="228" zIndex="7" value="Buffer Tank Filltime" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="422" left="420" width="20" height="20" zIndex="8" backColor="rgba(50, 205, 50, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse2" top="460" left="420" width="20" height="20" zIndex="9" backColor="rgba(50, 205, 50, 1)" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="500" left="420" width="20" height="20" zIndex="10" backColor="rgba(50, 205, 50, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="456" left="436" width="160" zIndex="11" value="Filltime OK" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="496" left="436" width="160" zIndex="12" value="Draintime OK" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="420" left="436" width="160" zIndex="13" value="Level OK" />
+    <Widget xsi:type="widgets.brease.XYChart" id="XYChart2" top="44" left="396" width="364" height="213" zIndex="14" permissionOperate="['Administrator_Role', 'Anonymous1', 'Operator_Role']" permissionView="['Administrator_Role', 'Anonymous1', 'Operator_Role']">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" title="View Time" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" />
+        </xAxis>
+        <graph>
+          <Element id="graph1" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(0, 224, 204, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.XYChart" id="XYChart3" top="308" left="16" width="364" height="213" zIndex="15" permissionOperate="['Administrator_Role', 'Anonymous1', 'Operator_Role']" permissionView="['Administrator_Role', 'Anonymous1', 'Operator_Role']">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" title="View Time" unit="{'metric':'ms','imperial':'ms','imperial-us':'ms'}" />
+        </xAxis>
+        <graph>
+          <Element id="graph1" xAxisReference="xAxis1" yAxisReference="yAxis1" lineColor="rgba(0, 224, 204, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
+    </Widget>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="16" left="464" width="228" zIndex="16" value="Buffer Tank Draintime" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="276" left="100" width="228" zIndex="17" value="Buffer Tank Level" />
+  </Widgets>
+</Content>
