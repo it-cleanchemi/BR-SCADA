@@ -25,3 +25,18 @@ XMLFiles:
     3. Copy the Git File text that properly cooresponds to the new object you are creating.
     4. Paste the file over ALL the text in the opened XML in B&amp;R Automation code.
     5. Save and Compile the code in B&amp;R Automation. Ensure there are no errors.
+
+# Adding New Modbus Variables into BR Automation
+To add variables into the B&amp;R Automation software, first open the project you are working on, or create a new project. 
+Then follow these steps:
+  - Navigate to the "Physical View". This should contain a drop down labeled "ETH"
+  - From "ETH" Select the data source that you would like to add data to. This corresponds to Skid/Secomea IPs
+  - Right click on it and select "Configuration"
+  - From this window, go to "Channel configuration"
+  - You will see several "blocks" each one of these is associated with a read/write variable
+  - Go to the bottom most block that will appear greyed out
+  - Set the "Function Code" as "FC3" for write, and "FC6" for read Variables
+  - Set the "Starting Address" as the place in memory that the data point is stored in the PLC
+  - Under "Channel 1" set the "Name" as the variable name. For Write addresses, alter the format like so: p101_sp to P101SP
+  - Select the Data Type to coorespond to the PLC
+  - You have successfully added a new modbus variable from the PLC to the B&ampR; Automation Studio
