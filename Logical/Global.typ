@@ -154,7 +154,7 @@ TYPE
 		Pump_104 : Pmax_Pump_104;
 	END_STRUCT;
 	Pmax_Pump_101 : 	STRUCT  (*Pmax Generation Variables for Pump 101*)
-		p101_sp : {REDUND_UNREPLICABLE} UINT; (*Pump 101 Setpoint*)
+		p101_sp : REFERENCE TO UINT; (*Pump 101 Setpoint*)
 		p101_sp_Write : UINT; (*Pump 101 Write to Setpoint*)
 		p101_sp_Ack : BOOL; (*Pump 101 Ack for Setpoint*)
 		p101_sp_Send : BOOL; (*Pump 101 Send for Setpoint*)

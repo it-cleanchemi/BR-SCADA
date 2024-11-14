@@ -6,7 +6,6 @@
     <Object Type="File" Description="Global data types">Global.typ</Object>
     <Object Type="File" Description="Global data types">Enum.typ</Object>
     <Object Type="File" Description="Global data types">Par.typ</Object>
-    <Object Type="File" Description="Global data types">Rem.typ</Object>
     <Object Type="File" Description="Global data types">Vis.typ</Object>
     <Object Type="File" Description="Global data types">Process.typ</Object>
     <Object Type="File" Description="Global data types">Services.typ</Object>
