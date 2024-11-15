@@ -20,5 +20,6 @@ Then follow these steps:
   - Set the "Function Code" as "FC3" for write, and "FC6" for read Variables
   - Set the "Starting Address" as the place in memory that the data point is stored in the PLC
   - Under "Channel 1" set the "Name" as the variable name. For Write addresses, alter the format like so: p101_sp to P101SP
+      - This is so that they have different names within the software to prevent them from getting mixed up
   - Select the Data Type to coorespond to the PLC
   - You have successfully added a new modbus variable from the PLC to the B&ampR; Automation Studio
