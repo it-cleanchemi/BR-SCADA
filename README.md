@@ -23,3 +23,21 @@ Then follow these steps:
       - This is so that they have different names within the software to prevent them from getting mixed up
   - Select the Data Type to coorespond to the PLC
   - You have successfully added a new modbus variable from the PLC to the B&ampR; Automation Studio
+
+# Adding New Variables and Types into BR Automation
+To add variables into the B&amp;R Automation software, first open the project you are working on, or create a new project. 
+Then follow these steps:
+  - Navigate to the "Logical View"
+  - Drop down the project (Ours is CleanChemi_SiteManagementSystem.apj)
+  - Depending on the variable(s) you want to add, drop down one of the following types:
+    - Enum.typ: for Variables that are not originally from the PLC, but are used internally to the Automation Studio Software
+    - Par.typ: Parameter Variables
+    - Vis.typ: Visualization only variables, Graphic ONLY Variables
+    - Process.typ:
+    - Services.typ:
+    - IO.typ:
+  - From here, you can either right click and create a subtype or a variable.
+  - You can make as many as you want under the subtype as well, but it will add to the reference addresses later
+  - Finally, save and compile, then open up Global.var, and ensure that the overal type is called appropriately, and that your variable(s) exist
+
+    
