@@ -72,32 +72,167 @@
 <Prod Device="IF3.ST1" DPName="skid_id" Kind="io"/>
 <Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.skid_id" Kind="pv"/>
 </LN>
-<LN ID="%IX.IF3.ST1.start_stop" Type="BOOL">
-<Prod Device="IF3.ST1" DPName="start_stop" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.start_stop" Kind="pv"/>
+<LN ID="%QX.IF3.ST1.BlockSendOnce02" Type="BOOL">
+<Cons Device="IF3.ST1" DPName="BlockSendOnce02" Kind="io"/>
 </LN>
-<LN ID="%IW.IF3.ST1.msgbox" Type="UINT">
-<Prod Device="IF3.ST1" DPName="msgbox" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.msgbox" Kind="pv"/>
-</LN>
-<LN ID="%ID.IF3.ST1.pmax_conc" Type="REAL">
-<Prod Device="IF3.ST1" DPName="pmax_conc" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.pmax_conc" Kind="pv"/>
-</LN>
-<LN ID="%ID.IF3.ST1.pmax_rate" Type="REAL">
-<Prod Device="IF3.ST1" DPName="pmax_rate" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.pmax_rate" Kind="pv"/>
-</LN>
-<LN ID="%QX.IF3.ST1.BlockSendOnce06" Type="BOOL">
-<Prod Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDSend" Kind="pv"/>
-<Cons Device="IF3.ST1" DPName="BlockSendOnce06" Kind="io"/>
-</LN>
-<LN ID="%IX.IF3.ST1.BlockSendOnceAck06" Type="BOOL">
-<Prod Device="IF3.ST1" DPName="BlockSendOnceAck06" Kind="io"/>
-<Cons Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDAck" Kind="pv"/>
+<LN ID="%IX.IF3.ST1.BlockSendOnceAck02" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="BlockSendOnceAck02" Kind="io"/>
 </LN>
 <LN ID="%QW.IF3.ST1.SkidID" Type="UINT">
 <Prod Device="TC#4-CPYDEV" DPName="::gIO.Modbus.SkidIDWrite" Kind="pv"/>
 <Cons Device="IF3.ST1" DPName="SkidID" Kind="io"/>
+</LN>
+<LN ID="%IB.IF3.ST1.is_on" Type="USINT">
+<Prod Device="IF3.ST1" DPName="is_on" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.e_1" Type="UINT">
+<Prod Device="IF3.ST1" DPName="e_1" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.pmax_conc" Type="UINT">
+<Prod Device="IF3.ST1" DPName="pmax_conc" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.pmax_rate" Type="UINT">
+<Prod Device="IF3.ST1" DPName="pmax_rate" Kind="io"/>
+</LN>
+<LN ID="%IB.IF3.ST1.Bt_lvl" Type="USINT">
+<Prod Device="IF3.ST1" DPName="Bt_lvl" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.e_2" Type="UINT">
+<Prod Device="IF3.ST1" DPName="e_2" Kind="io"/>
+</LN>
+<LN ID="%IB.IF3.ST1.naoh_to_h202" Type="USINT">
+<Prod Device="IF3.ST1" DPName="naoh_to_h202" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.tri_to_h202" Type="UINT">
+<Prod Device="IF3.ST1" DPName="tri_to_h202" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.hp_conc" Type="UINT">
+<Prod Device="IF3.ST1" DPName="hp_conc" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.naoh_conc" Type="UINT">
+<Prod Device="IF3.ST1" DPName="naoh_conc" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p101_sp" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p101_sp" Kind="io"/>
+</LN>
+<LN ID="%QW.IF3.ST1.P101SP" Type="UINT">
+<Cons Device="IF3.ST1" DPName="P101SP" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p101_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p101_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p101_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p101_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p102_sp" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p102_sp" Kind="io"/>
+</LN>
+<LN ID="%QW.IF3.ST1.P102SP" Type="UINT">
+<Cons Device="IF3.ST1" DPName="P102SP" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p102_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p102_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p103_sp" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p103_sp" Kind="io"/>
+</LN>
+<LN ID="%QW.IF3.ST1.P103SP" Type="UINT">
+<Cons Device="IF3.ST1" DPName="P103SP" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p103_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p103_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p104_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p104_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p104_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p104_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p104_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p104_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.cd101" Type="UINT">
+<Prod Device="IF3.ST1" DPName="cd101" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.cd102" Type="UINT">
+<Prod Device="IF3.ST1" DPName="cd102" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.pi101" Type="UINT">
+<Prod Device="IF3.ST1" DPName="pi101" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ti101" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ti101" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.ti102" Type="UINT">
+<Prod Device="IF3.ST1" DPName="ti102" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.p201_is_on" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="p201_is_on" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_fm_ref" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_fm_ref" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_ppm" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_ppm" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p201_pi" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p201_pi" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p202_ref_fm" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p202_ref_fm" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.ST1.p202_ppm" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="p202_ppm" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p202_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p202_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p202_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p202_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p202_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p202_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p202_pi" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p202_pi" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_ref_fm" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_ref_fm" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_ppm" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_ppm" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p203_pi" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p203_pi" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p204_pv" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p204_pv" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p204_fb" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p204_fb" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p204_fm_tot" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p204_fm_tot" Kind="io"/>
+</LN>
+<LN ID="%IW.IF3.ST1.p204_pi" Type="UINT">
+<Prod Device="IF3.ST1" DPName="p204_pi" Kind="io"/>
 </LN>
 </Links></IO>

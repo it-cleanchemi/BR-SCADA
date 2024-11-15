@@ -25,12 +25,59 @@
     <Channel ID="ModbusPktPendPerSec" Description="Pending packages per second." Description-de="Ausstehende Modbus-Pakete pro Sekunde." Ext="/HW" Direction="IN" Type="UINT" />
     <Channel ID="ModbusMeanResponseTime" Description="Mean Modbus response time of this slave [ms]." Description-de="Durschnittliche Modbus Antwortszeit dieses Slaves [ms]." Ext="/HW" Direction="IN" Type="UINT" />
     <Channel ID="skid_id" Description="" Ext="/HW" Direction="IN" Type="UINT" />
-    <Channel ID="start_stop" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="msgbox" Description="" Ext="/HW" Direction="IN" Type="UINT" />
-    <Channel ID="pmax_conc" Description="" Ext="/HW" Direction="IN" Type="REAL" />
-    <Channel ID="pmax_rate" Description="" Ext="/HW" Direction="IN" Type="REAL" />
-    <Channel ID="BlockSendOnce06" Description="Read/write channels of block 6 once." Description-de="Einmaliges Lesen/Schreiben der Kanäle des Blocks 6." Ext="/HW" Direction="OUT" Type="BOOL" />
-    <Channel ID="BlockSendOnceAck06" Description="Acknowledge of once reading/writing channels of block 6." Description-de="Quittierung des einmaligen Lesens/Schreibens der Kanäle des Blocks 6." Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="BlockSendOnce02" Description="Read/write channels of block 2 once." Description-de="Einmaliges Lesen/Schreiben der Kanäle des Blocks 2." Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="BlockSendOnceAck02" Description="Acknowledge of once reading/writing channels of block 2." Description-de="Quittierung des einmaligen Lesens/Schreibens der Kanäle des Blocks 2." Ext="/HW" Direction="IN" Type="BOOL" />
     <Channel ID="SkidID" Description="" Ext="/HW" Direction="OUT" Type="UINT" />
+    <Channel ID="is_on" Description="" Ext="/HW" Direction="IN" Type="USINT" />
+    <Channel ID="e_1" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="pmax_conc" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="pmax_rate" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="Bt_lvl" Description="" Ext="/HW" Direction="IN" Type="USINT" />
+    <Channel ID="e_2" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="naoh_to_h202" Description="" Ext="/HW" Direction="IN" Type="USINT" />
+    <Channel ID="tri_to_h202" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="hp_conc" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="naoh_conc" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p101_sp" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="P101SP" Description="" Ext="/HW" Direction="OUT" Type="UINT" />
+    <Channel ID="p101_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p101_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p102_sp" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="P102SP" Description="" Ext="/HW" Direction="OUT" Type="UINT" />
+    <Channel ID="p102_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p103_sp" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="P103SP" Description="" Ext="/HW" Direction="OUT" Type="UINT" />
+    <Channel ID="p103_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p104_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p104_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p104_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="cd101" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="cd102" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="pi101" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ti101" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="ti102" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_is_on" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="p201_fm_ref" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_ppm" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p201_pi" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p202_ref_fm" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p202_ppm" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="p202_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p202_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p202_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p202_pi" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_ref_fm" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_ppm" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p203_pi" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p204_pv" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p204_fb" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p204_fm_tot" Description="" Ext="/HW" Direction="IN" Type="UINT" />
+    <Channel ID="p204_pi" Description="" Ext="/HW" Direction="IN" Type="UINT" />
   </Module>
 </ChannelConfiguration>

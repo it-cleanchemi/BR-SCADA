@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Parameters>
   <Connection>
-    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1 </DeviceParameters>
-    <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /INA=0 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /PT=11169 </ConnectionParameters>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /INA=0 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\projects\CleanChemi_SiteManagementSystem\CleanChemi_SiteManagementSystem.apj</ApjFullFileName>
+    <ApjFullFileName>C:\projects\BR-SCADA\CleanChemi_SiteManagementSystem.apj</ApjFullFileName>
     <ProjectName>CleanChemi_SiteManagementSystem</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\projects\CleanChemi_SiteManagementSystem\Temp\Objects\Config1\PC</LicenseDataFolder>
+    <LicenseDataFolder>C:\projects\BR-SCADA\Temp\Objects\Config1\PC</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>
