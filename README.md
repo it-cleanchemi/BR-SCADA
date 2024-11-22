@@ -23,3 +23,4 @@ Then follow these steps:
       - This is so that they have different names within the software to prevent them from getting mixed up
   - Select the Data Type to coorespond to the PLC
   - You have successfully added a new modbus variable from the PLC to the B&ampR; Automation Studio
+
