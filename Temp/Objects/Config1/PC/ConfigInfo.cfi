@@ -15,13 +15,13 @@
       Source="Main"
       Language="IEC">
       <InternalFile
-        Path="C:\projects\CleanChemi_SiteManagementSystem\Temp\Objects\Config1\PC\Main\Main.st.var" />
+        Path="C:\projects\BR-SCADA\Temp\Objects\Config1\PC\Main\Main.st.var" />
       <File
-        Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Types.typ" />
+        Path="C:\projects\BR-SCADA\Logical\Main\Types.typ" />
       <File
-        Path="C:\projects\CleanChemi_SiteManagementSystem\Logical\Main\Variables.var" />
+        Path="C:\projects\BR-SCADA\Logical\Main\Variables.var" />
       <InternalFile
-        Path="C:\projects\CleanChemi_SiteManagementSystem\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
+        Path="C:\projects\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
     </Task>
   </TaskClass>
   <TaskClass

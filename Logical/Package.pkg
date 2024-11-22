@@ -2,8 +2,14 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="File" Description="Global data types">Global.typ</Object>
     <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global data types">Enum.typ</Object>
+    <Object Type="File" Description="Global data types">Par.typ</Object>
+    <Object Type="File" Description="Global data types">Vis.typ</Object>
+    <Object Type="File" Description="Global data types">Process.typ</Object>
+    <Object Type="File" Description="Global data types">Services.typ</Object>
+    <Object Type="File" Description="Global data types">IO.typ</Object>
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Program" Language="IEC">Main</Object>
     <Object Type="Package">mappView</Object>
