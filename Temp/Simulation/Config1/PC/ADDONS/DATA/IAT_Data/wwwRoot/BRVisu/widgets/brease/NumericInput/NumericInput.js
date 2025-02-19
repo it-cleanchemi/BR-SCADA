@@ -900,7 +900,7 @@ define([
     p._onKeyDown = function (e) {
         if (e.key === 'Backspace' || e.key === 'Delete') {
             _setInputWidth(this, -1);
-        } else if (this._isPrintable(e.key)) {
+        } else if (Utils.isPrintableKeyEvent(e)) {
             _setInputWidth(this, 1);
         }
     };
@@ -954,14 +954,10 @@ define([
             } 
             this._cancelNewValueOnEscape();
         //Look for Enter, Tab, Shift, Ctrl and Alt - do not enter click
-        } else if (brease.config.keyboardHandling.onStart.action === 'any' && this._isPrintable(e.key) && !this._getKeyboardOpen()) {
+        } else if (brease.config.keyboardHandling.onStart.action === 'any' && Utils.isPrintableKeyEvent(e) && !this._getKeyboardOpen()) {
             // this._onFocusIn(e);
             this._handleFocus(e);
         }
-    };
-
-    p._isPrintable = function (key) {
-        return key.length === 1;
     };
 
     p._cancelNewValueOnEscape = function () {

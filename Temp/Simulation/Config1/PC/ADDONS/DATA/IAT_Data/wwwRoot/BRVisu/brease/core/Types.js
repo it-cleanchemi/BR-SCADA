@@ -189,6 +189,13 @@ define(['brease/core/Utils'], function (Utils) {
 */
 
 /**
+* @class core.javascript.KeyboardEvent
+* @alternateClassName KeyboardEvent
+* @embeddedClass
+* Core JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent" target="_blank" style="text-decoration:underline;">KeyboardEvent</a>
+*/
+
+/**
 * @class core.html.Element
 * @alternateClassName Element
 * @embeddedClass

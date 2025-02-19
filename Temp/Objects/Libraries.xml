@@ -2,6 +2,18 @@
 <?AutomationStudio Version="4.12.6.106"?>
 <LibraryInfos>
   <Library
+    Name="Acp10man"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="3.13.1" />
+  <Library
+    Name="Acp10par"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="3.13.1" />
+  <Library
     Name="AsIecCon"
     IsDeployed="false"
     IsStatic="false"
@@ -26,6 +38,12 @@
     UseAsStatic="false"
     Version="" />
   <Library
+    Name="NcGlobal"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="3.13.1" />
+  <Library
     Name="operator"
     IsDeployed="false"
     IsStatic="false"
@@ -33,6 +51,12 @@
     Version="" />
   <Library
     Name="runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"

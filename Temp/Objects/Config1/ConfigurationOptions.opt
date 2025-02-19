@@ -8,7 +8,7 @@
   ActivateSdm="true"
   WebServer="true"
   ARMSimulation="False"
-  ArVersion="J4.93">
+  ArVersion="B4.93">
   <ModuleMemoryData>
     <Module
       Name=""

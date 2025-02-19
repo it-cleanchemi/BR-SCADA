@@ -353,7 +353,7 @@ function (EventHandler, ClientSystemEvent, BreaseEvent, SystemGestures, Utils, C
 
     function _keyCode(e) {
 
-        if (e.key !== undefined && e.key.length === 1) {
+        if (e.key !== undefined && Utils.isPrintableKeyEvent(e)) {
             return e.key.charCodeAt(0);
         } else if (e.which !== undefined) {
             return e.which;

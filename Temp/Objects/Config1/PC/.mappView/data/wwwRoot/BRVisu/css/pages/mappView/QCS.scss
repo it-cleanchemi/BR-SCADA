@@ -113,3 +113,13 @@
 }
 #QCS_NavigationButton1 {	z-index: 10;
 }
+#QCS_Label1 {	@include elemAutoWidth(80);
+}
+#QCS_Label1 {	@include elemAutoHeight(30);
+}
+#QCS_Label1 {	@include elemTop(180);
+}
+#QCS_Label1 {	@include elemLeft(580);
+}
+#QCS_Label1 {	z-index: 11;
+}

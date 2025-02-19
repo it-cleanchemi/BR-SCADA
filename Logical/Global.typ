@@ -1,6 +1,10 @@
 (*Testing Variables*)
 
 TYPE
+	CMD_type : 	STRUCT 
+		Stop : BOOL;
+		Start : BOOL;
+	END_STRUCT;
 	IO_type : 	STRUCT 
 		Modbus : Modbus_type;
 	END_STRUCT;
@@ -366,5 +370,13 @@ END_TYPE
 TYPE
 	Sys_Mode_Information : 	STRUCT 
 		Sys_Mode : UINT; (*Mode for Visability/Changability of Variables*)
+	END_STRUCT;
+	Skid_Type : 	STRUCT 
+		Pmax_Pumps : Pmax_Pumps;
+		Pmax_Pump_101 : Pmax_Pump_101;
+	END_STRUCT;
+	ModbusDriver_type : 	STRUCT 
+		BlockRecieved : BOOL;
+		BlockSend : BOOL;
 	END_STRUCT;
 END_TYPE

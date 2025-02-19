@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20241115131941_
-#define _LIBRARIES_20241115131941_
+#ifndef _LIBRARIES_20250219150620_
+#define _LIBRARIES_20250219150620_
 
 __asm__(".section \".plc\"");
 
@@ -25,6 +25,14 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUas/AsOpcUas.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Acp10man/Acp10man.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Acp10par/Acp10par.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -504,9 +512,47 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.var\\\" scope 
 	__asm__(".ascii \"plcexport \\\"UA_MethodCall\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"UA_ConnectionGetStatus\\\" FUB\\n\"");
 #endif
+#ifdef _NCGLOBAL_EXPORT
+	__asm__(".ascii \"plcexport \\\"nccnccom\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncda_dir\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncda_inf\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncda_id\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncda_wr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncda_cr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncaccess\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncalloc\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncaction\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ncglobal_action\\\" FUN\\n\"");
+#endif
+#ifdef _STANDARD_EXPORT
+	__asm__(".ascii \"plcexport \\\"RF_TRIG\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CTUD\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CTD\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CTU\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"F_TRIG\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"R_TRIG\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SR\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"RS\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SEMA\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TON\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TOF\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TP\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TON_10ms\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TOF_10ms\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TP_10ms\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"LEN\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"LEFT\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RIGHT\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"CONCAT\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"INSERT\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DELETE\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"REPLACE\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"FIND\\\" FUN\\n\"");
+#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20241115131941_ */
+#endif /* _LIBRARIES_20250219150620_ */
 

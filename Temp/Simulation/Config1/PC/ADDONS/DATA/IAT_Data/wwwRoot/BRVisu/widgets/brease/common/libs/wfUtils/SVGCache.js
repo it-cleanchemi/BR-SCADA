@@ -21,8 +21,15 @@ define(function () {
                     }
                 };
             },
+            remove: function (src) {
+                if (this.contains(src)) {
+                    _cache[src] = undefined;
+                }
+            },
             resolve: function (src, strXml) {
-                _cache[src].resolve(strXml);
+                if (this.contains(src)) {
+                    _cache[src].resolve(strXml);
+                }
             },
             done: function (src, fn) {
                 return _cache[src].deferred.done(fn);

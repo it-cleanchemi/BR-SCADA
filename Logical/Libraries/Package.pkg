@@ -8,5 +8,9 @@
     <Object Type="Library" Language="binary" Description="This library contains function interfaces for IEC 61131-3 conversion functions.">AsIecCon</Object>
     <Object Type="Library" Language="binary" Description="The AsOpcUas library provides interfaces to the OPC-UA server">AsOpcUas</Object>
     <Object Type="Library" Language="binary" Description="The AsOpcUac library supports communication with OPC-UA servers">AsOpcUac</Object>
+    <Object Type="Library" Language="Binary" Description="Motion Control Manager">Acp10man</Object>
+    <Object Type="Library" Language="Binary" Description="ACOPOS Parameters">Acp10par</Object>
+    <Object Type="Library" Language="Binary" Description="Global NC functions">NcGlobal</Object>
+    <Object Type="Library" Language="binary" Description="This library contains standard function blocks and functions for IEC 61131-3.">standard</Object>
   </Objects>
 </Package>

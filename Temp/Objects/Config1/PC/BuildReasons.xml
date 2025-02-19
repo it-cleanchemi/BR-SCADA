@@ -3,6 +3,14 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
     <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
     <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
   </Rule>
@@ -13,25 +21,27 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwac.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arnc0cfg.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iomap.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
@@ -41,13 +51,15 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
   </Rule>
-  <Rule ID=".mappView_Build">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_IntegrationBuild">
-    <BuildReason>Rule contains a phony target. </BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\acp10cfg.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\acp10map.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
 </BuildReason>
   </Rule>

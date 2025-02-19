@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="Scada_Admin" Type="User" Description="Admininstrator Account">
+  <Element ID="Admin" Type="User" Description="Admininstrator Account">
     <Property ID="UserID" Value="1" />
-    <Property ID="Password" Value="DxCc/zG/B/orvxZsBRDD4IoOQV0ImFP4exGIX0BpvUf+E/MGLjQ=" Description="123abc" />
+    <Property ID="Password" Value="bSEKrtCQc0HSxSzm5v0q94H22kr7zdLAY1zgqCwFbX9TfagmIVM=" Description="123abc" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Administrator_Role" />
     </Group>

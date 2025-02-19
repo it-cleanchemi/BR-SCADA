@@ -17,12 +17,18 @@
     <Object Type="Package">mappView</Object>
     <Object Type="Package">mappVision</Object>
     <Object Type="Package">mappCockpit</Object>
+    <Object Type="File">IoMap_1.iom</Object>
+    <Object Type="File">Arnc0cfg.ncc</Object>
+    <Object Type="File" Description="NC manager configuration">Acp10cfg.ncc</Object>
+    <Object Type="File" Description="NC mapping">Acp10map.ncm</Object>
+    <Object Type="File" Description="NC operating system">Acp10sys.br</Object>
   </Objects>
   <Configuration ModuleId="PC_any">
-    <AutomationRuntime Version="J4.93" />
+    <AutomationRuntime Version="B4.93" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
-    <Transfer SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" />
+    <Safety SafetyRelease="0.0" />
+    <Transfer AddToUserPart="False" AdditionalUserDir="" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" ExecuteInitExitProgram="True" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="True" KeepNonVolatileMemory="False" PreserveVariableValues="False" ProjectConsistent="True" RebootDuringTransfer="False" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TryToBootInRunMode="False" UserFilesIgnoreDifference="True" />
     <Vc FirmwareVersion="V4.72.9" />
   </Configuration>
 </Cpu>

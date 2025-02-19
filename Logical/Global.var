@@ -1,4 +1,6 @@
 VAR
+	gSkid_General : ARRAY[0..MAX_SKIDS] OF Skid_Type;
+	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_type;
 	gIO : IO_type;
 END_VAR
 (*Pumps 101 - 104*)
@@ -23,6 +25,7 @@ END_VAR
 (*Buffer Tank Variables*)
 VAR
 	BufferTank_Var : BufferTank_Variables;
+	gModbusDriver : ARRAY[0..MAX_MODBUS_BLOCKS] OF ModbusDriver_type;
 END_VAR
 (*Conversion Ratio Variables*)
 VAR

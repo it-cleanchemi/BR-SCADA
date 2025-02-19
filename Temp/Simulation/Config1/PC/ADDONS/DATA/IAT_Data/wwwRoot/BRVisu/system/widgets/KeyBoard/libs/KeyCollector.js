@@ -213,7 +213,7 @@ define(['brease/events/BreaseEvent', 'brease/core/Utils'],
             * Called if a keydown event was fired by pressing a key on the hardware keyboard
             */
             self.onKeyDown = function (e) {
-                if (self.widget.validate(e.key, self.widget.regexp) === '') {
+                if (Utils.isPrintableKeyEvent(e) && self.widget.validate(e.key, self.widget.regexp) === '') {
                     e.originalEvent.preventDefault();
                 } else {
                     /**

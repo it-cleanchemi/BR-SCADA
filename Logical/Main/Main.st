@@ -5,8 +5,14 @@ PROGRAM _INIT
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	(* Insert code here *)
-	 
+	
+	FOR IdxSkid := 0 TO MAX_SKIDS DO
+		
+	  	gSkid_General[IdxSkid].Start := gCmd[IdxSkid].Start;
+
+	END_FOR;
+
+	
 END_PROGRAM
 
 PROGRAM _EXIT

@@ -28,7 +28,7 @@ define([
     UtilsImage.getInlineSvg = function (sourceImage, avoidBrokenSvg, array, putInCache) {
         var deferedElement = $.Deferred();
         avoidBrokenSvg = (avoidBrokenSvg === true);
-        putInCache = (putInCache === true);
+        putInCache = (putInCache !== false);
         if (!Utils.hasSameOrigin(sourceImage)) {
             handleLoadError(sourceImage, avoidBrokenSvg, putInCache, deferedElement);
             logSameOriginWarning(sourceImage);

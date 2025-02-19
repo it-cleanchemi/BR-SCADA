@@ -3,38 +3,37 @@
 	<Application>
 		<Class Name="Addons">
 			<Folder Name="IATR" ProjectDependent="1" IsGroup="1">
-				<File Name="afcomp.dll" Size="423424" HashValue="A219FB4F295E9F4A26D4A3981ADBBF5E" ProjectDependent="1"/>
+				<File Name="afcomp.dll" Size="423424" HashValue="8765A58527B387185638E58D950C9FBC" ProjectDependent="1"/>
 				<File Name="afsystem.conf" Size="1156" HashValue="3FB6422AD32D87700B8B3BBAAC96CD4D" ProjectDependent="1"/>
-				<File Name="afsystem.dll" Size="233472" HashValue="4776E359839BA86526F4792E5A1E9348" ProjectDependent="1"/>
+				<File Name="afsystem.dll" Size="233472" HashValue="EAD1414CCF397B649ED6711B4F9B00A8" ProjectDependent="1"/>
 				<File Name="defaultConfig.mappviewcfg" Size="1922" HashValue="D95E88EF138C5A27171E8907D2448C1F" ProjectDependent="1"/>
 				<File Name="defaultOpcUaServer.uaserver" Size="514" HashValue="355E012540AA023210B4FE79E6F9EACA" ProjectDependent="1"/>
-				<File Name="iatrbigdata.dll" Size="131584" HashValue="03E27F9BD3445C2FF0D47B6DE94A70FA" ProjectDependent="1"/>
-				<File Name="iatrcore.dll" Size="526848" HashValue="DFBA9BB7E4F447503B225334BF20086B" ProjectDependent="1"/>
-				<File Name="iatrexpr.dll" Size="211456" HashValue="70A2054FC41F98E7DCDC73F994EBB14A" ProjectDependent="1"/>
-				<File Name="iatrhtml.dll" Size="305152" HashValue="E9CBBE87DD75DD9D3E081A47484E9D8A" ProjectDependent="1"/>
-				<File Name="iatrmapp.dll" Size="125440" HashValue="E7154B3A51AFFE1AEE3ABB5ED5A28F73" ProjectDependent="1"/>
-				<File Name="IATRRunner.dll" Size="29184" HashValue="1B9E9A2986AEAE484F646620061C35FD" ProjectDependent="1"/>
-				<File Name="iatrserv.dll" Size="1128448" HashValue="6C10FF3183A87B1B780DA12E5F86065B" ProjectDependent="1"/>
-				<File Name="iatrsnippet.dll" Size="96768" HashValue="E80C462F3705DFB41E1654A9C6D1457C" ProjectDependent="1"/>
-				<File Name="iatruac.dll" Size="404992" HashValue="43396529D57D78C9E95C0A7673AC700D" ProjectDependent="1"/>
-				<File Name="iatrvar.dll" Size="133632" HashValue="FC8FFA5933BCB672679A450767B2E9F7" ProjectDependent="1"/>
-				<File Name="iatrwstf.dll" Size="481280" HashValue="3503A8C7B877D61050ABE5927927B7E4" ProjectDependent="1"/>
-				<File Name="jsonBackport.dll" Size="83968" HashValue="E5FDD5B1560AD39E8F2AA8241E354393" ProjectDependent="1"/>
+				<File Name="IATR_527767.txt" Size="20" HashValue="3F57A3E346A4785BAE4553FCBEFFFED8" ProjectDependent="1"/>
+				<File Name="iatrbigdata.dll" Size="131584" HashValue="388CBAC0AB12CD51CB323CAEFB11AD8F" ProjectDependent="1"/>
+				<File Name="iatrcore.dll" Size="526848" HashValue="DCAD96F0D4C5E213A8B9E5488358AF2F" ProjectDependent="1"/>
+				<File Name="iatrexpr.dll" Size="211456" HashValue="5C972C25186E0A1F5949A152DCBFD436" ProjectDependent="1"/>
+				<File Name="iatrhtml.dll" Size="305152" HashValue="E895FE31771FA75A2AFB220BBA38DD8F" ProjectDependent="1"/>
+				<File Name="iatrmapp.dll" Size="125440" HashValue="4B3A6B00828E3E2304C523BBC9E81477" ProjectDependent="1"/>
+				<File Name="IATRRunner.dll" Size="34816" HashValue="9A3CD51A3B21FD61981D1A04C6071E1C" ProjectDependent="1"/>
+				<File Name="iatrserv.dll" Size="1128448" HashValue="4D23F4451A2F45EEEE0BE89255C7E6C1" ProjectDependent="1"/>
+				<File Name="iatrsnippet.dll" Size="96768" HashValue="92A41F60C053D800D2F625F7CF9A5105" ProjectDependent="1"/>
+				<File Name="iatruac.dll" Size="404992" HashValue="B96D66451E0372A1A5DFC203F49E6B6F" ProjectDependent="1"/>
+				<File Name="iatrvar.dll" Size="133632" HashValue="AAC0AF081EE83AF78BA11E6AD6BACE12" ProjectDependent="1"/>
+				<File Name="iatrwstf.dll" Size="481280" HashValue="83AD620628F84D8B6B4087FFC776CC2A" ProjectDependent="1"/>
+				<File Name="jsonBackport.dll" Size="83968" HashValue="0E058207DB15FC831F07DFBF962A1704" ProjectDependent="1"/>
 				<File Name="libeay32.dll" Size="1209344" HashValue="1C84D5275826474C1FBB04FD5A8590C5" ProjectDependent="1"/>
 				<File Name="libxml2.dll" Size="354816" HashValue="0471CE957DC386428036471C5897D0EF" ProjectDependent="1"/>
-				<File Name="LoadBurLibraries2.cfg" Size="100" HashValue="9EB6B0ECAB212582C1638638BDEEF195" ProjectDependent="1"/>
-				<File Name="LoadIATRLibraries.cfg" Size="362" HashValue="3C1B7A75CD6706E29C09AC71249C8D39" ProjectDependent="1"/>
-				<File Name="opcuaapi.dll" Size="1214976" HashValue="1240370248A54F0A15830A21EBB4E89E" ProjectDependent="1"/>
-				<File Name="opcuawebapi.dll" Size="263680" HashValue="F6CDEED98FD275680FF9D90FDEC10838" ProjectDependent="1"/>
+				<File Name="opcuaapi.dll" Size="1354240" HashValue="052B21D419048392B6D5BA82F9C86E07" ProjectDependent="1"/>
+				<File Name="opcuawebapi.dll" Size="275456" HashValue="60B337915A5CB9837D8E7A631BC0A7AE" ProjectDependent="1"/>
 				<File Name="QtCore4.dll" Size="2554368" HashValue="4DAE952009FF9815778FE31ADC1C7312" ProjectDependent="1"/>
 				<File Name="QtNetwork4.dll" Size="1028608" HashValue="D03B2BF9587DBB883C12039076E1E4B3" ProjectDependent="1"/>
 				<File Name="QtTest4.dll" Size="110080" HashValue="86643606A71C3DC794F96595ACDFEE38" ProjectDependent="1"/>
-				<File Name="rbacwebapi.dll" Size="25600" HashValue="17D895922C777F53FF0B3F3340B538AF" ProjectDependent="1"/>
+				<File Name="rbacwebapi.dll" Size="25600" HashValue="9ED7F16CFAC4072F2E24DCAA37FCA80B" ProjectDependent="1"/>
 				<File Name="sqlite3.dll" Size="650725" HashValue="EE68B052A08FEC0F574F2DAE2003DF27" ProjectDependent="1"/>
 				<File Name="ssleay32.dll" Size="271360" HashValue="CD217B0AEA765E49C18403BF277F88EF" ProjectDependent="1"/>
-				<File Name="textwebapi.dll" Size="48640" HashValue="ED04ED2960FD54B5FC6EFB702A05495B" ProjectDependent="1"/>
-				<File Name="uastack.dll" Size="783872" HashValue="C36CC4FE33F2C812505A571783242FCE" ProjectDependent="1"/>
-				<File Name="Version.xml" Size="133" HashValue="996E74B5D9AD8571A10901777DBAEBFF" ProjectDependent="1"/>
+				<File Name="textwebapi.dll" Size="48640" HashValue="8E264283D4ED07F5D9221C4D07FC903D" ProjectDependent="1"/>
+				<File Name="uastack.dll" Size="874496" HashValue="A4C81351B6BC325F2BDAB5BCCF86EF73" ProjectDependent="1"/>
+				<File Name="Version.xml" Size="133" HashValue="D23DCC8D4FED4FF38581395F5D675425" ProjectDependent="1"/>
 			</Folder>
 		</Class>
 		<Class Name="AddonsData">
@@ -69,7 +68,7 @@
 						<File Name="bootstrapper.min.js" Size="15653" HashValue="B6639108276524CCFD2503B0704C2536" ProjectDependent="1"/>
 						<File Name="jquery.js" Size="258648" HashValue="AACC43D6F308FA362AC85E3F4FB2B30C" ProjectDependent="1"/>
 						<File Name="require_config.js" Size="587" HashValue="D25A9E5DC701DE3349BD10078153CBD4" ProjectDependent="1"/>
-						<File Name="TPVersion.txt" Size="9" HashValue="F96C1F7E9D0716BD17FE2C4C0CD56E1D" ProjectDependent="1"/>
+						<File Name="TPVersion.txt" Size="9" HashValue="287C1A33D2E1C9EE26F9501DCDFC1B3D" ProjectDependent="1"/>
 						<Folder Name="assets" ProjectDependent="1">
 							<File Name="connection.json" Size="35" HashValue="10FCDFBADA6743720F798A491616261B" ProjectDependent="1"/>
 							<File Name="log.html" Size="8661" HashValue="300045A9CD51BF4884836C5F04801094" ProjectDependent="1"/>
@@ -99,7 +98,7 @@
 								<File Name="ConnectionController.js" Size="1863" HashValue="CC67550509EBE9F873671F233BA9CBBA" ProjectDependent="1"/>
 								<File Name="ContentControlObserver.js" Size="2972" HashValue="F6587E4C7DB38865B510F2A1E8A9FA3B" ProjectDependent="1"/>
 								<File Name="ContentManager.js" Size="8224" HashValue="E6A8B2D968F8FEDED398BEBB1B8C338D" ProjectDependent="1"/>
-								<File Name="EventController.js" Size="16802" HashValue="47AD3B6A00FA98135371E053E8105451" ProjectDependent="1"/>
+								<File Name="EventController.js" Size="16812" HashValue="36116B7C89480AD852471200340BE311" ProjectDependent="1"/>
 								<File Name="FileManager.js" Size="11418" HashValue="20ED991BB13822D134246CA40F66E565" ProjectDependent="1"/>
 								<File Name="FocusManager.js" Size="20106" HashValue="5A294A9AED270ECC82CE612DBFABD541" ProjectDependent="1"/>
 								<File Name="InfoController.js" Size="3214" HashValue="E9661F4944E95428A703007E7583308D" ProjectDependent="1"/>
@@ -162,8 +161,8 @@
 								<File Name="ContainerWidget.js" Size="5992" HashValue="CD543A70B70468A2F6F86AF0A90020F5" ProjectDependent="1"/>
 								<File Name="Decorator.js" Size="3273" HashValue="4914E56CB029747670825C818D216FA1" ProjectDependent="1"/>
 								<File Name="StringUtils.js" Size="4070" HashValue="1D341C01DFED0055B86ACB9278893A07" ProjectDependent="1"/>
-								<File Name="Types.js" Size="22676" HashValue="502DFF2422A755DC89EC1FF0902EC329" ProjectDependent="1"/>
-								<File Name="Utils.js" Size="39043" HashValue="CB14FEC3D37B9BAF110B3C39DDD5241D" ProjectDependent="1"/>
+								<File Name="Types.js" Size="22943" HashValue="B3E6550700AA3462300267D5D3BCB25C" ProjectDependent="1"/>
+								<File Name="Utils.js" Size="39913" HashValue="62017E37429425EF95A6AA4CAFADF3E1" ProjectDependent="1"/>
 								<Folder Name="designer" ProjectDependent="1">
 									<Folder Name="BaseWidget" ProjectDependent="1">
 										<File Name="ClassExtension.js" Size="8103" HashValue="97D7239E4116FCB45DFF345E245DAD0B" ProjectDependent="1"/>
@@ -553,172 +552,172 @@
 							<File Name="CleanChemi.png.png" Size="3854" HashValue="CDE14E575008F00B93098216828EBFD5" ProjectDependent="1"/>
 							<Folder Name="SymbolLib" ProjectDependent="1">
 								<Folder Name="Alarm" ProjectDependent="1">
-									<File Name="Acknowledge.svg" Size="3909" HashValue="45779B2DD2079227D8A2AD60725216DB" ProjectDependent="1"/>
-									<File Name="Alarm.svg" Size="2160" HashValue="4CA3AE45ECFD0E566B81AB5BCB618707" ProjectDependent="1"/>
-									<File Name="AlarmHistory.svg" Size="2380" HashValue="016D94D50F3ACA8B1E54C08592CC44C6" ProjectDependent="1"/>
-									<File Name="Error.svg" Size="1060" HashValue="642E3041FD88413493DBE9691159DAE7" ProjectDependent="1"/>
+									<File Name="Acknowledge.svg" Size="3949" HashValue="F102EEE29663CF0F1EF255976B050860" ProjectDependent="1"/>
+									<File Name="Alarm.svg" Size="2184" HashValue="8114E882FAD6A51CDC48DE73CB0AD9B3" ProjectDependent="1"/>
+									<File Name="AlarmHistory.svg" Size="2406" HashValue="F82834C20FA81140874F9F7387051B44" ProjectDependent="1"/>
+									<File Name="Error.svg" Size="1075" HashValue="D1E36375A9D35A7C1BABD4CC9549FEFB" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Arrow" ProjectDependent="1">
-									<File Name="ArrowDown.svg" Size="721" HashValue="265986E8793F3C56D9ECACB6C273364F" ProjectDependent="1"/>
-									<File Name="ArrowLeft.svg" Size="723" HashValue="5A2F25AF4C6417A5A6A40AAD8359CE3C" ProjectDependent="1"/>
-									<File Name="ArrowRight.svg" Size="725" HashValue="14CABF4F491BAD4003E92C866BC32AFF" ProjectDependent="1"/>
-									<File Name="ArrowUp.svg" Size="723" HashValue="5D345584386B597CD6B6B037A6062CF3" ProjectDependent="1"/>
-									<File Name="Back.svg" Size="800" HashValue="13980B6FDA83054989962F76865A7890" ProjectDependent="1"/>
-									<File Name="Down1.svg" Size="753" HashValue="72555A0A55BEDE9E07FE8E894F582CA3" ProjectDependent="1"/>
-									<File Name="Down2.svg" Size="619" HashValue="4BE320946EA08942FBD239C9B21DAD2C" ProjectDependent="1"/>
-									<File Name="Down3.svg" Size="808" HashValue="26B91DB75ADA02A101B0FCEDC5F3B7CC" ProjectDependent="1"/>
-									<File Name="Forward.svg" Size="817" HashValue="135DF79955E196405B182F09012650BB" ProjectDependent="1"/>
-									<File Name="Up1.svg" Size="807" HashValue="C2D525F05B4B34C69F0A6D1EFF119F7B" ProjectDependent="1"/>
-									<File Name="Up2.svg" Size="625" HashValue="161DB2471EBDC61588B7F8BEBF38521F" ProjectDependent="1"/>
-									<File Name="Up3.svg" Size="750" HashValue="6FE2327EF2B1907B5B928FA3C32F2A10" ProjectDependent="1"/>
+									<File Name="ArrowDown.svg" Size="733" HashValue="C85275CEEAA6921DD1729816E0D22CCD" ProjectDependent="1"/>
+									<File Name="ArrowLeft.svg" Size="735" HashValue="9C81405AC6926AA311FA4C100A35FDE4" ProjectDependent="1"/>
+									<File Name="ArrowRight.svg" Size="737" HashValue="E79B29428A2CED5EB7EFC0E091E4ADD9" ProjectDependent="1"/>
+									<File Name="ArrowUp.svg" Size="735" HashValue="1F367BABD48648253F7F86A7FF685BB4" ProjectDependent="1"/>
+									<File Name="Back.svg" Size="813" HashValue="0353ED81F556D78E0A72739E241427CF" ProjectDependent="1"/>
+									<File Name="Down1.svg" Size="765" HashValue="26E236658B61A41A36EA1A05C9FEB446" ProjectDependent="1"/>
+									<File Name="Down2.svg" Size="630" HashValue="1AECA85D56C1DFB98074DBC00F639B3B" ProjectDependent="1"/>
+									<File Name="Down3.svg" Size="821" HashValue="E40CE0A1A5C69EE0ABE74656F3E62309" ProjectDependent="1"/>
+									<File Name="Forward.svg" Size="830" HashValue="A1DF1A9E5DEFFEA5079CCCE0B7BB37B1" ProjectDependent="1"/>
+									<File Name="Up1.svg" Size="820" HashValue="6DB3A98623BCF1D7F087F4790A892BF0" ProjectDependent="1"/>
+									<File Name="Up2.svg" Size="636" HashValue="F4A2FEFC71CADE2968353898396C173A" ProjectDependent="1"/>
+									<File Name="Up3.svg" Size="762" HashValue="C80007A6FCFB31E2E61A9AB8DA3C60A6" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Communication" ProjectDependent="1">
-									<File Name="ConnectionFail.svg" Size="4734" HashValue="992E2D40E933DD1E527BB2DD4963A5F4" ProjectDependent="1"/>
-									<File Name="ConnectionOK.svg" Size="1496" HashValue="BAE0B6F00E86C8B3E0F3A6ED4F2F7FC7" ProjectDependent="1"/>
-									<File Name="Network.svg" Size="1684" HashValue="9D50F5DC99D2A9E1E4555FEDD3C3FF2C" ProjectDependent="1"/>
+									<File Name="ConnectionFail.svg" Size="4782" HashValue="BF815299273960F36D7F2ACB08384BF8" ProjectDependent="1"/>
+									<File Name="ConnectionOK.svg" Size="1515" HashValue="51C147DC2FDB74B233FE7504096189C0" ProjectDependent="1"/>
+									<File Name="Network.svg" Size="1704" HashValue="AC1BE99AFD9A586C285061EC5EB4B286" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="DateTime" ProjectDependent="1">
-									<File Name="Calendar.svg" Size="1214" HashValue="E06F71674089D6D55190202B502AFA28" ProjectDependent="1"/>
-									<File Name="Clock.svg" Size="980" HashValue="E1ECA88548B26AE4AF69E2124D46B7A6" ProjectDependent="1"/>
-									<File Name="Date.svg" Size="933" HashValue="CB292A5B12CD48A46E2F50113FC81321" ProjectDependent="1"/>
+									<File Name="Calendar.svg" Size="1230" HashValue="05643003F9469D3E65DC17D3E72A1EBE" ProjectDependent="1"/>
+									<File Name="Clock.svg" Size="994" HashValue="821BAD250F98A5340801FEF5C9686CC1" ProjectDependent="1"/>
+									<File Name="Date.svg" Size="946" HashValue="0A42DE4687CD4579389A7E71DA652166" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Diagnostic" ProjectDependent="1">
-									<File Name="Diagnostics.svg" Size="2245" HashValue="48FA31FEA3960641539F5A45152873BA" ProjectDependent="1"/>
+									<File Name="Diagnostics.svg" Size="2270" HashValue="AD343C2C34C6BE243AAA68CBE61A2CD5" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="DisplayAndTouch" ProjectDependent="1">
-									<File Name="Calibrate.svg" Size="1271" HashValue="435360E2D1E9F6D065F5765733D84C35" ProjectDependent="1"/>
-									<File Name="Contrast.svg" Size="649" HashValue="8E51FBA27492A033CD4631444B43779B" ProjectDependent="1"/>
-									<File Name="Lightness.svg" Size="1128" HashValue="E0FA799E800C9A24275721F6D3A9E770" ProjectDependent="1"/>
+									<File Name="Calibrate.svg" Size="1287" HashValue="8651E3550759DCE4D414671853B51510" ProjectDependent="1"/>
+									<File Name="Contrast.svg" Size="660" HashValue="1BF47819115B793FC4038459E41BF135" ProjectDependent="1"/>
+									<File Name="Lightness.svg" Size="1143" HashValue="AD9FC1C1A8387D06E663FCEA723ED914" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Edit" ProjectDependent="1">
-									<File Name="Add.svg" Size="928" HashValue="5CBC26775C588F00DFA5EB577B8B4764" ProjectDependent="1"/>
-									<File Name="Character.svg" Size="1144" HashValue="D1D912247BBCAD0BD94B7F520CEB95C3" ProjectDependent="1"/>
-									<File Name="Close.svg" Size="902" HashValue="5AC7555FFDE5BF2DF0AADE39E9D6B16B" ProjectDependent="1"/>
-									<File Name="Copy.svg" Size="2103" HashValue="63020247487CB0FFB30BCCECB94D25D7" ProjectDependent="1"/>
-									<File Name="Cut.svg" Size="5309" HashValue="37413A950E28D9B76B6F19A579B1FA49" ProjectDependent="1"/>
-									<File Name="Delete.svg" Size="4645" HashValue="B3F82F3CC34CF20EE0C7C6E068545B9E" ProjectDependent="1"/>
-									<File Name="Edit.svg" Size="1086" HashValue="D17988A180CD86B1DF6AB6FAD7549F82" ProjectDependent="1"/>
-									<File Name="Favorite.svg" Size="966" HashValue="9452E8FE35BB8B4A573A9A04DE3BD1A6" ProjectDependent="1"/>
-									<File Name="Help.svg" Size="1224" HashValue="A7BFA4C3506BC6947D1E93D3D0A392AE" ProjectDependent="1"/>
-									<File Name="Information.svg" Size="1043" HashValue="3D790DB1D25AD7B75C34E51A3633AB9D" ProjectDependent="1"/>
-									<File Name="Insert.svg" Size="1544" HashValue="077E252755298A2117EC6474E4EE4A2F" ProjectDependent="1"/>
-									<File Name="Maximize.svg" Size="1057" HashValue="9F86FCE90B6D50E8D4C18B6CF0C322A9" ProjectDependent="1"/>
-									<File Name="Minimize.svg" Size="1056" HashValue="0300ED7D09D1B4557F31909CEBC81424" ProjectDependent="1"/>
-									<File Name="New.svg" Size="1352" HashValue="882CF9D615C93561338AE1A75DB02A85" ProjectDependent="1"/>
-									<File Name="Number.svg" Size="765" HashValue="C15ABF3393176AB05BA427903D163112" ProjectDependent="1"/>
-									<File Name="Open.svg" Size="891" HashValue="4525913862309AF175ADE28D19178E2A" ProjectDependent="1"/>
-									<File Name="Pin.svg" Size="1984" HashValue="878E9D1254626167AD795010B4064068" ProjectDependent="1"/>
-									<File Name="Pin2.svg" Size="846" HashValue="94FEF8FACF2F13FBE27099B253A8A089" ProjectDependent="1"/>
-									<File Name="Redo.svg" Size="731" HashValue="B0C4825EEC251430A9BA3C8DF600314C" ProjectDependent="1"/>
-									<File Name="Save.svg" Size="655" HashValue="0FABCB9AE9DA819E191D24269F213AB9" ProjectDependent="1"/>
-									<File Name="Undo.svg" Size="724" HashValue="58ECE39532FAEBFE164016F2CDDEA765" ProjectDependent="1"/>
-									<File Name="ZoomIn.svg" Size="1231" HashValue="0ABFF311A51BE72218C795338CDBDB94" ProjectDependent="1"/>
-									<File Name="ZoomOut.svg" Size="1075" HashValue="6E76158DA7F563723173A3713264E8DA" ProjectDependent="1"/>
+									<File Name="Add.svg" Size="942" HashValue="20B91435537B97F1BC71F682B34B91B9" ProjectDependent="1"/>
+									<File Name="Character.svg" Size="1160" HashValue="509EA660F3FC5ED61BC91D0819B73CB4" ProjectDependent="1"/>
+									<File Name="Close.svg" Size="915" HashValue="469D0F8B96451A6F7E7462CFE5F47478" ProjectDependent="1"/>
+									<File Name="Copy.svg" Size="2126" HashValue="9508DA0C8C76221137247259F90D52B4" ProjectDependent="1"/>
+									<File Name="Cut.svg" Size="5361" HashValue="28983BF53DDC5D0EE1C8166B037231BA" ProjectDependent="1"/>
+									<File Name="Delete.svg" Size="4691" HashValue="20EAD65A8081746E22C2699DED5A197B" ProjectDependent="1"/>
+									<File Name="Edit.svg" Size="1101" HashValue="84F4776575A2AEF7D310C6598277BD78" ProjectDependent="1"/>
+									<File Name="Favorite.svg" Size="980" HashValue="15D516FB8D63F857B960F2171E2C7611" ProjectDependent="1"/>
+									<File Name="Help.svg" Size="1240" HashValue="1DCAE17E15F2BDEE7614B8BE0C9420B9" ProjectDependent="1"/>
+									<File Name="Information.svg" Size="1057" HashValue="26091404083B5B3F00DBC6357BFCD87F" ProjectDependent="1"/>
+									<File Name="Insert.svg" Size="1563" HashValue="63426D52F84D5115E29DB40645692591" ProjectDependent="1"/>
+									<File Name="Maximize.svg" Size="1072" HashValue="779F93C92584846D08EB7C7FEEB07219" ProjectDependent="1"/>
+									<File Name="Minimize.svg" Size="1071" HashValue="33ABA6CC9FB568C23B44B5F03DBB3661" ProjectDependent="1"/>
+									<File Name="New.svg" Size="1369" HashValue="77E4337EDF3DCB4DEB0D168CACDE22E3" ProjectDependent="1"/>
+									<File Name="Number.svg" Size="777" HashValue="99B9AD51E1C5AA43EB6F4343D4E14B81" ProjectDependent="1"/>
+									<File Name="Open.svg" Size="904" HashValue="6C4400DB82A9FA00CC6F056EEBDB846A" ProjectDependent="1"/>
+									<File Name="Pin.svg" Size="2007" HashValue="DFD160E759BFCA385EEDDD1996EFE402" ProjectDependent="1"/>
+									<File Name="Pin2.svg" Size="859" HashValue="6C09ED8399A4B9BF3B70ADA8D7AFA0F2" ProjectDependent="1"/>
+									<File Name="Redo.svg" Size="743" HashValue="1FD25205E996D848E20B13A34970BB54" ProjectDependent="1"/>
+									<File Name="Save.svg" Size="666" HashValue="ED3EABCD0443C6AE480D338EFE9946FC" ProjectDependent="1"/>
+									<File Name="Undo.svg" Size="736" HashValue="0CA9D2C9FBF4425FF5C196A822EE2FF9" ProjectDependent="1"/>
+									<File Name="ZoomIn.svg" Size="1247" HashValue="8A4215565ACAAF0989866F0BD8FE6262" ProjectDependent="1"/>
+									<File Name="ZoomOut.svg" Size="1090" HashValue="03C826EA27B33997A99D0448D840AED1" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="File" ProjectDependent="1">
-									<File Name="File.svg" Size="729" HashValue="4E0981EDFB29253DD81D465C392F1713" ProjectDependent="1"/>
-									<File Name="Files.svg" Size="1091" HashValue="1A385197A825D1E18932CFFAFB6D5134" ProjectDependent="1"/>
-									<File Name="Package.svg" Size="862" HashValue="389551B091E3AA4E810802E475654C5E" ProjectDependent="1"/>
-									<File Name="Recipe.svg" Size="1416" HashValue="71FFA9FBC10267E5E2B453DFC860A53D" ProjectDependent="1"/>
-									<File Name="Search.svg" Size="901" HashValue="CBF14622CF210730FBD5B89CB7921ED3" ProjectDependent="1"/>
+									<File Name="File.svg" Size="743" HashValue="29F6414137FDCBBC9E152C003031280A" ProjectDependent="1"/>
+									<File Name="Files.svg" Size="1106" HashValue="CAA850B71D7ADFA7A4B39B0527321A27" ProjectDependent="1"/>
+									<File Name="Package.svg" Size="875" HashValue="712C75B2E6591A479A311D2A0E91E154" ProjectDependent="1"/>
+									<File Name="Recipe.svg" Size="1436" HashValue="A50830F97C4A0AD74F15E4F0A4E4BA6C" ProjectDependent="1"/>
+									<File Name="Search.svg" Size="914" HashValue="4A86AE9555076B753881A68189B899E8" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Localize" ProjectDependent="1">
-									<File Name="Browser.svg" Size="1749" HashValue="62321FBA8618FEED46C73F6255E0C642" ProjectDependent="1"/>
-									<File Name="China.svg" Size="2232" HashValue="65EB02D88BFBD16462712D9502642EC1" ProjectDependent="1"/>
-									<File Name="Flag.svg" Size="822" HashValue="753D8B8F2973DD353966AD71A05FE7A8" ProjectDependent="1"/>
-									<File Name="France.svg" Size="1383" HashValue="3C5C9EA183E6027CF4580FC52F91EDAC" ProjectDependent="1"/>
-									<File Name="Germany.svg" Size="1260" HashValue="555ADF602E1DAA7DFE036FDE6CCFDB17" ProjectDependent="1"/>
-									<File Name="GreatBritain.svg" Size="2777" HashValue="FCBF344E27F8B366341A63F237333234" ProjectDependent="1"/>
-									<File Name="Italy.svg" Size="1157" HashValue="F0A881E7036E4C3D1FD88B907BEE2609" ProjectDependent="1"/>
-									<File Name="Language.svg" Size="2634" HashValue="BCE9E404C78491843F74DD9049A5B055" ProjectDependent="1"/>
-									<File Name="Portugal.svg" Size="84367" HashValue="47D66DB3DAFA3ECF0D663DC715B0B66F" ProjectDependent="1"/>
-									<File Name="Russia.svg" Size="1272" HashValue="BAFEC7C8F800D62D8C1A63907DDE2022" ProjectDependent="1"/>
-									<File Name="Spain.svg" Size="197998" HashValue="D713160A07780B79BF8B7F7B5DADB55F" ProjectDependent="1"/>
-									<File Name="UK.svg" Size="2767" HashValue="7F704AF5C358C716F000466B168A492C" ProjectDependent="1"/>
-									<File Name="USA.svg" Size="12843" HashValue="6CF848A667706289355D502F7831CC2E" ProjectDependent="1"/>
+									<File Name="Browser.svg" Size="1769" HashValue="B3938BA456FACB114F8E4EA2386077E2" ProjectDependent="1"/>
+									<File Name="China.svg" Size="2272" HashValue="3BFDE38AF9086A15E4425BD2CA3C5DE4" ProjectDependent="1"/>
+									<File Name="Flag.svg" Size="834" HashValue="AD6EF0113CE66192F5B6126458465820" ProjectDependent="1"/>
+									<File Name="France.svg" Size="1415" HashValue="AC3A5A0AB4856B9428E7F1AB185B4578" ProjectDependent="1"/>
+									<File Name="Germany.svg" Size="1283" HashValue="6EC54B27BE2330D673AFD7FF09EBC2F3" ProjectDependent="1"/>
+									<File Name="GreatBritain.svg" Size="2823" HashValue="C0D3138486DBF4CF14CEF1144C703276" ProjectDependent="1"/>
+									<File Name="Italy.svg" Size="1181" HashValue="D15EF4F9CA37C65129F039D3D1050F45" ProjectDependent="1"/>
+									<File Name="Language.svg" Size="2662" HashValue="700BC852927E6D25F42921F917BB3812" ProjectDependent="1"/>
+									<File Name="Portugal.svg" Size="85208" HashValue="BF05D59C577B01CA5F37850EE2317652" ProjectDependent="1"/>
+									<File Name="Russia.svg" Size="1295" HashValue="44BBCAF999BE159376DBC983B9B8CCAB" ProjectDependent="1"/>
+									<File Name="Spain.svg" Size="199997" HashValue="07A3A9CD257F2FDDF14324DC5C26FCFC" ProjectDependent="1"/>
+									<File Name="UK.svg" Size="2813" HashValue="7D98012AC0007944728CDEF8C6F3578C" ProjectDependent="1"/>
+									<File Name="USA.svg" Size="12986" HashValue="04941CAD5A7DA99795D0627DB683FAF6" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Media" ProjectDependent="1">
-									<File Name="FastForward.svg" Size="653" HashValue="53D4EE252235DE2FDA2E8A04D64298D4" ProjectDependent="1"/>
-									<File Name="FastForwardStop.svg" Size="735" HashValue="35142DFC9F8D988DC98AB0C0658F046D" ProjectDependent="1"/>
-									<File Name="FastRewind.svg" Size="650" HashValue="D63BF61B18839BA26C17C99C63712704" ProjectDependent="1"/>
-									<File Name="FastRewindStop.svg" Size="744" HashValue="114E0CC59D18C59AA3D15BD04D77DFA2" ProjectDependent="1"/>
-									<File Name="ForwardStop.svg" Size="658" HashValue="D9A1757CEBDA3FFCF99ACB08AB50FAA9" ProjectDependent="1"/>
-									<File Name="Pause.svg" Size="693" HashValue="0F271EB7B88D02EEE739453864691A23" ProjectDependent="1"/>
-									<File Name="Play.svg" Size="573" HashValue="AA139602975FD83C04A566ED0290CD11" ProjectDependent="1"/>
-									<File Name="RewindStop.svg" Size="661" HashValue="995969DEA18F13CE57EED3392B22638C" ProjectDependent="1"/>
-									<File Name="Stop.svg" Size="583" HashValue="7BC1348DBB36AA8F2AE24B2B6185C9E5" ProjectDependent="1"/>
-									<File Name="Video.svg" Size="653" HashValue="2D37FA6E3B8447F524A54CC806F97E5B" ProjectDependent="1"/>
+									<File Name="FastForward.svg" Size="664" HashValue="02A9CF2C82A5129EE8737CE0C15C8575" ProjectDependent="1"/>
+									<File Name="FastForwardStop.svg" Size="747" HashValue="42AC262E3381601A62F331E140D1D242" ProjectDependent="1"/>
+									<File Name="FastRewind.svg" Size="661" HashValue="894A44437F5BBFF011583EB14345C3BF" ProjectDependent="1"/>
+									<File Name="FastRewindStop.svg" Size="756" HashValue="56154B83EFE39C14AE2B1535B9FAEFE3" ProjectDependent="1"/>
+									<File Name="ForwardStop.svg" Size="669" HashValue="DC6FE4E911DBA0B11169B71E0BCE772C" ProjectDependent="1"/>
+									<File Name="Pause.svg" Size="704" HashValue="81DB6C394425A539CD5FEA88B95F42A0" ProjectDependent="1"/>
+									<File Name="Play.svg" Size="583" HashValue="C9C07DA4EF24AFA0097B0E4CA89A727A" ProjectDependent="1"/>
+									<File Name="RewindStop.svg" Size="672" HashValue="77F4FFD1BE827E80D9DAF9C6B260781C" ProjectDependent="1"/>
+									<File Name="Stop.svg" Size="594" HashValue="0B8954DD8BC6D59BD02EC5D2A6DCD3B8" ProjectDependent="1"/>
+									<File Name="Video.svg" Size="664" HashValue="5568D85281A4F43780906B222E650EBB" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Needle" ProjectDependent="1">
-									<File Name="Needle1long.svg" Size="807" HashValue="EF07586CA097DBE41D4B4FAEEBFA64C3" ProjectDependent="1"/>
-									<File Name="Needle1short.svg" Size="808" HashValue="293CBCCA7E8DCA3B1058994FF2166CA2" ProjectDependent="1"/>
-									<File Name="Needle2long.svg" Size="1315" HashValue="167A505AA8BB24E446BF594B53350068" ProjectDependent="1"/>
-									<File Name="Needle2short.svg" Size="1333" HashValue="5DA1105FF02EE79C0573B97F463B8C6E" ProjectDependent="1"/>
-									<File Name="Needle3long.svg" Size="963" HashValue="502CC51447C663A653237EA8E72A5AC5" ProjectDependent="1"/>
-									<File Name="Needle3short.svg" Size="2041" HashValue="984A9D6EC7B5B73959616ACF56B632DE" ProjectDependent="1"/>
-									<File Name="Needle4long.svg" Size="858" HashValue="1C5B419F3727089B3D70C3B56988F8C3" ProjectDependent="1"/>
-									<File Name="Needle4short.svg" Size="854" HashValue="DB3430FCA22921785EDF36FC50AB0BD4" ProjectDependent="1"/>
+									<File Name="Needle1long.svg" Size="819" HashValue="41218B4A7FFB8C974C765F511E683E00" ProjectDependent="1"/>
+									<File Name="Needle1short.svg" Size="820" HashValue="491FE07798022BA833EEC8C03FA2930A" ProjectDependent="1"/>
+									<File Name="Needle2long.svg" Size="1335" HashValue="6C4730889A2878EF48744575BD71748C" ProjectDependent="1"/>
+									<File Name="Needle2short.svg" Size="1353" HashValue="50C811F0F48ABE9004CB16B6E2EEB3AE" ProjectDependent="1"/>
+									<File Name="Needle3long.svg" Size="977" HashValue="555181CE1718439BBE3FBF04DBE8647A" ProjectDependent="1"/>
+									<File Name="Needle3short.svg" Size="2064" HashValue="C7D9B9E8E480C527DFA29C9AF88871BD" ProjectDependent="1"/>
+									<File Name="Needle4long.svg" Size="871" HashValue="B82E5FC8F18746FD17B09B6B759E02F2" ProjectDependent="1"/>
+									<File Name="Needle4short.svg" Size="867" HashValue="66D6890AC053DAD557A4420A905BDC8C" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="Symbols" ProjectDependent="1">
-									<File Name="Accept.svg" Size="715" HashValue="4B29D221E9E41949CC6F979344E8878C" ProjectDependent="1"/>
-									<File Name="Button.svg" Size="1254" HashValue="7A439576CBD7FEC791621F5754D2F733" ProjectDependent="1"/>
-									<File Name="Conveyor.svg" Size="755" HashValue="89377A238CEB25CCAEE7A8C42F7F1E60" ProjectDependent="1"/>
-									<File Name="Download.svg" Size="758" HashValue="00CEB05E1E8B5847F9159571D6FDD937" ProjectDependent="1"/>
-									<File Name="Energy.svg" Size="747" HashValue="5A63E0EBB699580CB58954B340909C43" ProjectDependent="1"/>
-									<File Name="Engine.svg" Size="985" HashValue="4BE6294987C03CD3EBA9D6111C322B0C" ProjectDependent="1"/>
-									<File Name="EngineMove.svg" Size="1672" HashValue="AD07FFBF0C935E428BE1237029CAE26A" ProjectDependent="1"/>
-									<File Name="EngineReference.svg" Size="1713" HashValue="8DF41F661EB0C4BB1CA77B8A4787459B" ProjectDependent="1"/>
-									<File Name="Graph.svg" Size="2449" HashValue="040A55898CDAA8DDA7496D14EC11A899" ProjectDependent="1"/>
-									<File Name="Hide.svg" Size="1149" HashValue="8D47D58D300361E8907548B476A01C09" ProjectDependent="1"/>
-									<File Name="Home.svg" Size="607" HashValue="5DF99124C4DA3B841C171B114BFA2AC7" ProjectDependent="1"/>
-									<File Name="InProgress.svg" Size="3093" HashValue="6EA475CB9062A318D7A08A533FD960AD" ProjectDependent="1"/>
-									<File Name="Mail.svg" Size="525" HashValue="22FD1B921B906845F90B3B71DA6FF9ED" ProjectDependent="1"/>
-									<File Name="Max.svg" Size="1063" HashValue="CFFD48A6A2C319A33A93A9C645F30257" ProjectDependent="1"/>
-									<File Name="Min.svg" Size="1066" HashValue="906C69E5548957414BCE0CE43C60457F" ProjectDependent="1"/>
-									<File Name="Mode.svg" Size="755" HashValue="C17ED7BCAF2A535EB65D77AE70D61AA3" ProjectDependent="1"/>
-									<File Name="Off.svg" Size="885" HashValue="647E915304BE372320ECFE724869DA36" ProjectDependent="1"/>
-									<File Name="On.svg" Size="879" HashValue="2EC68F8DE45E5BE05F4049D51F674268" ProjectDependent="1"/>
-									<File Name="PDF.svg" Size="1798" HashValue="7452F2A038066A5BE355D3A9D8B1B04A" ProjectDependent="1"/>
-									<File Name="Remote1.svg" Size="967" HashValue="AA667CA83A153C202EB3E71F49E19B0F" ProjectDependent="1"/>
-									<File Name="Remote2.svg" Size="1708" HashValue="47EA1658F0063BA867CCE41D66FB19BA" ProjectDependent="1"/>
-									<File Name="Remote3.svg" Size="2648" HashValue="9A792F2A3EEC04BCA788045186FE9A99" ProjectDependent="1"/>
-									<File Name="Remote4.svg" Size="1924" HashValue="A2ADE40767A1F2289E13F1939D00716B" ProjectDependent="1"/>
-									<File Name="Reset.svg" Size="883" HashValue="3234B56398B6A8F37D87B79ED66C3BB6" ProjectDependent="1"/>
-									<File Name="Restart.svg" Size="1188" HashValue="ED9A5FDD89EE5BD259BAB0C80C1DAD3C" ProjectDependent="1"/>
-									<File Name="Robot.svg" Size="1821" HashValue="FA146D8CA948C87D9D76F8CB7FFF1060" ProjectDependent="1"/>
-									<File Name="Safety.svg" Size="891" HashValue="3A960CA0F265571772E19E80885CEC0D" ProjectDependent="1"/>
-									<File Name="Server.svg" Size="1253" HashValue="7B0E1E88799E08CFC45799874B6C37C7" ProjectDependent="1"/>
-									<File Name="Service.svg" Size="1310" HashValue="8841F8536224D0FD840A15A380BD105F" ProjectDependent="1"/>
-									<File Name="Settings.svg" Size="1442" HashValue="9BD100A3F4D8EE914C0B23FD99B6B472" ProjectDependent="1"/>
-									<File Name="Slider_Symbol.svg" Size="693" HashValue="5EBDFBC0027A9CB3F9B3F5B8FAD5F431" ProjectDependent="1"/>
-									<File Name="Start.svg" Size="591" HashValue="EB10FE520345BF5C0889140B10DEFCBD" ProjectDependent="1"/>
-									<File Name="Stop.svg" Size="578" HashValue="CC7B923404DAC4256A415997628FB208" ProjectDependent="1"/>
-									<File Name="SystemSettings.svg" Size="1002" HashValue="A126C7A2A388311EA1CC3E67809EC4A5" ProjectDependent="1"/>
-									<File Name="Temperature.svg" Size="962" HashValue="2FDD29AE764DEE59E3A07875F72ED575" ProjectDependent="1"/>
-									<File Name="Tool.svg" Size="974" HashValue="A828D44F035EE9C7B163AE19D3DC0C74" ProjectDependent="1"/>
-									<File Name="TouchMe.svg" Size="1518" HashValue="6257708ADC7FF425B91A460D0A63C300" ProjectDependent="1"/>
-									<File Name="UnHide.svg" Size="1083" HashValue="7057F80843A928FE9FA51FE8448F014E" ProjectDependent="1"/>
-									<File Name="Upload.svg" Size="713" HashValue="D09B086BA7E7F33050C62A0DE0E0D7F1" ProjectDependent="1"/>
-									<File Name="USB.svg" Size="1542" HashValue="EE3BB7D55F53B35911EF456A9A3F50AD" ProjectDependent="1"/>
-									<File Name="Wait.svg" Size="1170" HashValue="C78CD8CFEE9C1821E83FF6E38CEA8782" ProjectDependent="1"/>
-									<File Name="Webcam.svg" Size="966" HashValue="968E4C97401117186608BD9811CCD218" ProjectDependent="1"/>
+									<File Name="Accept.svg" Size="727" HashValue="2BD19ABB941AD483E74FAEA18C25757F" ProjectDependent="1"/>
+									<File Name="Button.svg" Size="1270" HashValue="23157313FD8060C16856A8E35B726830" ProjectDependent="1"/>
+									<File Name="Conveyor.svg" Size="767" HashValue="AB048879CE0B22DA03222D04E673A6E2" ProjectDependent="1"/>
+									<File Name="Download.svg" Size="770" HashValue="DEF06CFE810F4B5EB38F1C0418E24B8B" ProjectDependent="1"/>
+									<File Name="Energy.svg" Size="759" HashValue="B2E72832DE6D66DFD4D8EA315FC8146C" ProjectDependent="1"/>
+									<File Name="Engine.svg" Size="999" HashValue="F62B39581500C2C1B977E007C7E15E3D" ProjectDependent="1"/>
+									<File Name="EngineMove.svg" Size="1691" HashValue="6A6379CEC9894004AA2087D7D55C91FB" ProjectDependent="1"/>
+									<File Name="EngineReference.svg" Size="1733" HashValue="CAF5D187E89F89800BF876D05E7E0A52" ProjectDependent="1"/>
+									<File Name="Graph.svg" Size="2479" HashValue="C5C5541CEA1F0700308F79510AF7F2C4" ProjectDependent="1"/>
+									<File Name="Hide.svg" Size="1164" HashValue="3C03E4C68BD0884443BCBD370E9AF49E" ProjectDependent="1"/>
+									<File Name="Home.svg" Size="618" HashValue="E172DFE89483BAAAE858B49C11DB1770" ProjectDependent="1"/>
+									<File Name="InProgress.svg" Size="3141" HashValue="A323B237C1D336F2A8AA9276C2D1ED3A" ProjectDependent="1"/>
+									<File Name="Mail.svg" Size="535" HashValue="703DC6E889EAF175D715C0FD48FCE786" ProjectDependent="1"/>
+									<File Name="Max.svg" Size="1082" HashValue="4766815C822B3596C067FFBA2663A80B" ProjectDependent="1"/>
+									<File Name="Min.svg" Size="1085" HashValue="4AF6A842D7ECE8CE09E78A021BFED19F" ProjectDependent="1"/>
+									<File Name="Mode.svg" Size="767" HashValue="3CFF262D39475227760E333E0F439507" ProjectDependent="1"/>
+									<File Name="Off.svg" Size="898" HashValue="549D3DB6325F0F0427C68A30F073E735" ProjectDependent="1"/>
+									<File Name="On.svg" Size="892" HashValue="2B43816D796C5858F23C31008D306C12" ProjectDependent="1"/>
+									<File Name="PDF.svg" Size="1821" HashValue="CD6D0B5C7D82A0C74EBB6A5DFBBDCF1D" ProjectDependent="1"/>
+									<File Name="Remote1.svg" Size="981" HashValue="61E80054BBBB32C9F86F03052416F113" ProjectDependent="1"/>
+									<File Name="Remote2.svg" Size="1728" HashValue="11B0FA4855181AE4FF7737E7693FDB30" ProjectDependent="1"/>
+									<File Name="Remote3.svg" Size="2676" HashValue="F023A015B60927CBECB5FE4FE386C47A" ProjectDependent="1"/>
+									<File Name="Remote4.svg" Size="1945" HashValue="0956ED78046B428EB806498019CB7610" ProjectDependent="1"/>
+									<File Name="Reset.svg" Size="896" HashValue="1E5E4A273D5602502CFF60C1336F19B2" ProjectDependent="1"/>
+									<File Name="Restart.svg" Size="1204" HashValue="4268DF485A83563A25F97750FC4F7173" ProjectDependent="1"/>
+									<File Name="Robot.svg" Size="1842" HashValue="9CE89BCCE2DD7999A284AEDA6B640E5B" ProjectDependent="1"/>
+									<File Name="Safety.svg" Size="904" HashValue="B11000C22FFAF35A204C70D7242A1779" ProjectDependent="1"/>
+									<File Name="Server.svg" Size="1269" HashValue="C31F46C88B36D8F2BDE22ED1D958C48A" ProjectDependent="1"/>
+									<File Name="Service.svg" Size="1326" HashValue="6E96839CD5141E9CC922F5B6DD829410" ProjectDependent="1"/>
+									<File Name="Settings.svg" Size="1460" HashValue="4DFF4F36C1C53ED066CC793C3B97A364" ProjectDependent="1"/>
+									<File Name="Slider_Symbol.svg" Size="704" HashValue="4CD73589706F2B6E1B9FE90E3381EB6D" ProjectDependent="1"/>
+									<File Name="Start.svg" Size="602" HashValue="35F8DBB868C11B61DDEE2C8A2014A6C5" ProjectDependent="1"/>
+									<File Name="Stop.svg" Size="588" HashValue="B55FEE74BF2421FFFAFBEA0E2947587F" ProjectDependent="1"/>
+									<File Name="SystemSettings.svg" Size="1016" HashValue="182986B9FF657E037E199BADFCCF615F" ProjectDependent="1"/>
+									<File Name="Temperature.svg" Size="976" HashValue="81B5E0E9A300EDC386F2A23BD2E73A8E" ProjectDependent="1"/>
+									<File Name="Tool.svg" Size="988" HashValue="9EF30862AF5A8EC4B57675FC1C58F7FA" ProjectDependent="1"/>
+									<File Name="TouchMe.svg" Size="1536" HashValue="D93EC9132D3A1AA3839AE9A930A693D3" ProjectDependent="1"/>
+									<File Name="UnHide.svg" Size="1098" HashValue="3F1D84471CDE576F793AF90710BE52F1" ProjectDependent="1"/>
+									<File Name="Upload.svg" Size="725" HashValue="CAD1905AC2615C51894FB07730464E1D" ProjectDependent="1"/>
+									<File Name="USB.svg" Size="1560" HashValue="2978B0882FDAEA72F4F8CD9992CAAC7D" ProjectDependent="1"/>
+									<File Name="Wait.svg" Size="1185" HashValue="A98C161D86A75E4E88DC4CFEEDD618F0" ProjectDependent="1"/>
+									<File Name="Webcam.svg" Size="980" HashValue="12BFF0A1ECD79D3D473D513F4104741E" ProjectDependent="1"/>
 								</Folder>
 								<Folder Name="User" ProjectDependent="1">
-									<File Name="AddUser.svg" Size="1127" HashValue="67CDEE57C73AD9F0305E4EA6E045FB45" ProjectDependent="1"/>
-									<File Name="DeleteUser.svg" Size="989" HashValue="6408AA4B737A72D2DCDD207E8842C978" ProjectDependent="1"/>
-									<File Name="Lock.svg" Size="905" HashValue="31269EB7646204C812D4E617F99EB889" ProjectDependent="1"/>
-									<File Name="Login.svg" Size="1245" HashValue="3024AF8BDDA8F415D8098EA67B55DE9B" ProjectDependent="1"/>
-									<File Name="Logout.svg" Size="1209" HashValue="ECAA753436ABAC247B7E71EB05C9E834" ProjectDependent="1"/>
-									<File Name="NoAccessRights.svg" Size="1105" HashValue="DFD9B47E9AA6E287EC11205E1120C1BF" ProjectDependent="1"/>
-									<File Name="Unlock.svg" Size="895" HashValue="DE30036C3D86E6A9656D9B32AE15EB4F" ProjectDependent="1"/>
-									<File Name="User.svg" Size="785" HashValue="356AFFF1CAD95BDE37782F3966FC1562" ProjectDependent="1"/>
-									<File Name="UserGroup.svg" Size="1472" HashValue="27A652AAA9C07919E36C65407294A22C" ProjectDependent="1"/>
+									<File Name="AddUser.svg" Size="1142" HashValue="CA410444B271D021198EC22CD852FBB9" ProjectDependent="1"/>
+									<File Name="DeleteUser.svg" Size="1003" HashValue="52B1DF8A5AA5761E58A5EBA0F7153689" ProjectDependent="1"/>
+									<File Name="Lock.svg" Size="918" HashValue="CA612670F3021A4CA21415985C984900" ProjectDependent="1"/>
+									<File Name="Login.svg" Size="1261" HashValue="87446443502A83C28A0B0C7468F54112" ProjectDependent="1"/>
+									<File Name="Logout.svg" Size="1225" HashValue="AA8FCFBD118F5B3186EE0DF29ECE8078" ProjectDependent="1"/>
+									<File Name="NoAccessRights.svg" Size="1120" HashValue="C6C08CBCE3D606809B1DF4010D96749D" ProjectDependent="1"/>
+									<File Name="Unlock.svg" Size="908" HashValue="AB9843C3732A5BB606C5920957738F84" ProjectDependent="1"/>
+									<File Name="User.svg" Size="797" HashValue="AA80A9B44A3E3210CF8D0646605EDCD5" ProjectDependent="1"/>
+									<File Name="UserGroup.svg" Size="1490" HashValue="7E19C5AD240255302F56CDBFB726E829" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="1440822" HashValue="CFF4C9DBD137827EE10D70848709DF3D" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="519705" HashValue="B86E156F58F5B11F14C45384E249601C" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1400895" HashValue="7545DBB032433219286ADD606B9FB7A7" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="519790" HashValue="B933C20F87F9C9C6B4BD84078166064D" ProjectDependent="1"/>
 							<File Name="BuRTheme1.min.css" Size="255146" HashValue="D3B0F1270C6F6D7529D1EB8DF5382200" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
@@ -823,7 +822,7 @@
 										<File Name="FocusManager.js" Size="3011" HashValue="71163EC147A9F2F3B6B4A56B5D3B4C14" ProjectDependent="1"/>
 										<File Name="InputProcessor.js" Size="11063" HashValue="8C3B55B4185CA839FDF1DFE0146E91DF" ProjectDependent="1"/>
 										<File Name="InputValidator.js" Size="12491" HashValue="8E79174AAA012951696EA8317D2524BF" ProjectDependent="1"/>
-										<File Name="KeyCollector.js" Size="18940" HashValue="5EFFF9C46773116D0613D612F77E21D8" ProjectDependent="1"/>
+										<File Name="KeyCollector.js" Size="18972" HashValue="E4E7AFBB174788F0A77007516F6BFD95" ProjectDependent="1"/>
 										<File Name="LayoutSelector.js" Size="4935" HashValue="80D8456563EFCF23528039CF52D993B0" ProjectDependent="1"/>
 										<Folder Name="external" ProjectDependent="1">
 											<File Name="cdict_zh_cn.js" Size="1062" HashValue="1143A0CCAAD7A0DC3ADD7B161B44663B" ProjectDependent="1"/>
@@ -933,35 +932,6 @@
 										<File Name="AlarmListStyle_doc.html" Size="15780" HashValue="4D136067FEA85A7A92F9EF94DA134D27" ProjectDependent="1"/>
 										<File Name="AlarmListStyle_EventsActions.xsd" Size="3127" HashValue="75DB588EFFB0B3648EDCB29404B64BEE" ProjectDependent="1"/>
 										<File Name="AlarmListStyle_Styles.xsd" Size="976" HashValue="87A9C2AFEE87B6218417DFABAFF2E767" ProjectDependent="1"/>
-									</Folder>
-								</Folder>
-								<Folder Name="BasicSlider" ProjectDependent="1">
-									<File Name="BasicSlider.html" Size="75" HashValue="ADCBF443224BD79B8DCE4A7212368A7B" ProjectDependent="1"/>
-									<File Name="BasicSlider.js" Size="29116" HashValue="DCD304A0ABACAC2FF4A8C56C7014AA0D" ProjectDependent="1"/>
-									<Folder Name="css" ProjectDependent="1">
-										<File Name="BasicSlider.sass.css" Size="3222" HashValue="3FB075094B0FC79EA87B49B4C6DA44E8" ProjectDependent="1"/>
-										<File Name="BasicSlider.scss" Size="3896" HashValue="BA65705202D5CC5A09865E715E493566" ProjectDependent="1"/>
-									</Folder>
-									<Folder Name="designer" ProjectDependent="1">
-										<File Name="ClassInfo.js" Size="3903" HashValue="58C73A8CF634163925AAF48ACE7998E8" ProjectDependent="1"/>
-									</Folder>
-									<Folder Name="libs" ProjectDependent="1">
-										<File Name="Config.js" Size="4775" HashValue="0DE60B9F2807BA6E87D92238DAC9FDEE" ProjectDependent="1"/>
-										<File Name="EditorHandles.js" Size="3091" HashValue="3C26EF0CD007954FEA26DBAECF4EFA90" ProjectDependent="1"/>
-										<File Name="Renderer.js" Size="35113" HashValue="98D7F1D8119C1FEFEA6EA2026837A3A8" ProjectDependent="1"/>
-									</Folder>
-									<Folder Name="meta" ProjectDependent="1">
-										<File Name="BasicSlider.json" Size="35577" HashValue="D52BCD85F40F632A4B961DEAA25BA0D7" ProjectDependent="1"/>
-										<File Name="BasicSlider.style" Size="13954" HashValue="7C92B253F9D0D3A0F47F62EFC87FFF7A" ProjectDependent="1"/>
-										<File Name="BasicSlider.widget" Size="30304" HashValue="4FE9727F8F0E5388CA33B490C4C82305" ProjectDependent="1"/>
-										<File Name="BasicSlider.xsd" Size="6546" HashValue="37BB1B2197B446CAC75DF5CFB223D911" ProjectDependent="1"/>
-										<File Name="BasicSlider_base.scss" Size="3119" HashValue="79A016D01392190725A67BD7A8A4A0B4" ProjectDependent="1"/>
-										<File Name="BasicSlider_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
-										<File Name="BasicSlider_default.sass.css" Size="2987" HashValue="26AD7DACDAA5775A34CDD949837AF80D" ProjectDependent="1"/>
-										<File Name="BasicSlider_default.scss" Size="3206" HashValue="8282459063C91AD53E68F253D9C42087" ProjectDependent="1"/>
-										<File Name="BasicSlider_doc.html" Size="43497" HashValue="7A84306F4C1F1092EB2E2DBEC898799C" ProjectDependent="1"/>
-										<File Name="BasicSlider_EventsActions.xsd" Size="4841" HashValue="DB4497284408EF955C24D4E2EC9A2C32" ProjectDependent="1"/>
-										<File Name="BasicSlider_Styles.xsd" Size="3329" HashValue="8D2D94131FDF5F14425C6EF460199278" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="BusyIndicator" ProjectDependent="1">
@@ -1345,11 +1315,11 @@
 										</Folder>
 										<Folder Name="wfUtils" ProjectDependent="1">
 											<File Name="broken.svg" Size="1632" HashValue="2D6B4549FF7E2907C7345C94EDC7AC7D" ProjectDependent="1"/>
-											<File Name="SVGCache.js" Size="882" HashValue="934A22F76849E25D0F0433F9D3131F73" ProjectDependent="1"/>
+											<File Name="SVGCache.js" Size="1110" HashValue="6623EE0C2CD5EF390C710683A49B0081" ProjectDependent="1"/>
 											<File Name="Utils_FileTransfer.js" Size="1809" HashValue="B3F00DD9570F7F87EAE42F3C2D49C0E4" ProjectDependent="1"/>
 											<File Name="UtilsCommon.js" Size="1892" HashValue="79AABB59B5F29B306B05CB1F7419A1A6" ProjectDependent="1"/>
 											<File Name="UtilsEditableBinding.js" Size="2467" HashValue="7F80BC007ED0FE559F868ACAA740532E" ProjectDependent="1"/>
-											<File Name="UtilsImage.js" Size="8205" HashValue="1FC0ACEEA4E98918DD8C2C7A830662DE" ProjectDependent="1"/>
+											<File Name="UtilsImage.js" Size="8206" HashValue="45A0D7B62071D8FD14537A4F21260C86" ProjectDependent="1"/>
 											<File Name="UtilsLocalize.js" Size="2367" HashValue="7ED2C92D467F297A212497914C4EDCD8" ProjectDependent="1"/>
 											<File Name="UtilsObject.js" Size="1410" HashValue="F905006E1E063269DC174CB0B4FB0A5C" ProjectDependent="1"/>
 										</Folder>
@@ -1988,7 +1958,7 @@
 								</Folder>
 								<Folder Name="NumericInput" ProjectDependent="1">
 									<File Name="NumericInput.html" Size="76" HashValue="EA4C3AD285AFC7F9BBF77457C2E4ACDE" ProjectDependent="1"/>
-									<File Name="NumericInput.js" Size="52217" HashValue="84CFF0A4744BAEA528BBD4D698B19B26" ProjectDependent="1"/>
+									<File Name="NumericInput.js" Size="52142" HashValue="A66658232EFC99A88F0045F9543E2E50" ProjectDependent="1"/>
 									<Folder Name="css" ProjectDependent="1">
 										<File Name="NumericInput.sass.css" Size="4807" HashValue="723C8B30A80CEE6039F501488CE4D124" ProjectDependent="1"/>
 										<File Name="NumericInput.scss" Size="2865" HashValue="D71E99766733D8F7094DA5EB1489F094" ProjectDependent="1"/>
@@ -2213,7 +2183,7 @@
 								</Folder>
 								<Folder Name="TextInput" ProjectDependent="1">
 									<File Name="TextInput.html" Size="73" HashValue="3714F627DB3590D715C9ACAD2B01582A" ProjectDependent="1"/>
-									<File Name="TextInput.js" Size="29786" HashValue="02121D68968BE15914557CDD5E7BF258" ProjectDependent="1"/>
+									<File Name="TextInput.js" Size="29707" HashValue="E7BBBC643C24A9EF7D55D065F89BE202" ProjectDependent="1"/>
 									<Folder Name="css" ProjectDependent="1">
 										<File Name="TextInput.sass.css" Size="1329" HashValue="EAA3879EFF1285BA6D0B99778D405467" ProjectDependent="1"/>
 										<File Name="TextInput.scss" Size="2152" HashValue="BA84B8CF7349486C33997BC8E100CC11" ProjectDependent="1"/>
@@ -2543,11 +2513,11 @@
 							<File Name="content_9.html" Size="546" HashValue="804CB5194DF57E318E2FC06164FDEB5C" ProjectDependent="1"/>
 							<File Name="Header.html" Size="3418" HashValue="B4A964E126F4351EBE57153B32EA511A" ProjectDependent="1"/>
 							<File Name="LoginPage.html" Size="4310" HashValue="E57D41B2A0D33D1D281D2836B7050873" ProjectDependent="1"/>
-							<File Name="Navigation.html" Size="2062" HashValue="F89629C1A29AC0B04D65F26B2DFC7B01" ProjectDependent="1"/>
+							<File Name="Navigation.html" Size="2067" HashValue="5EB7378C3972726171532D0699E5DF77" ProjectDependent="1"/>
 							<File Name="OverviewEx1.html" Size="47157" HashValue="F52C436760557AB0B4BEA7DD43C481A9" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
 							<File Name="OverviewPageExmaple.html" Size="47491" HashValue="1A35EC622D92A6D6F755754D4CCB3AF2" ProjectDependent="1"/>
-							<File Name="QCS.html" Size="3923" HashValue="33A17D8D1A036921E101587239F03BBF" ProjectDependent="1"/>
+							<File Name="QCS.html" Size="4209" HashValue="FA08EF50EC41AA2728047CD43C8273CA" ProjectDependent="1"/>
 							<File Name="SiteStatuses.html" Size="362" HashValue="B70EB6D9ED4B1FF68230794F74649C21" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
@@ -2625,7 +2595,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="818" HashValue="7655B6C835301628E0393604821DC8D9" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="819" HashValue="B1F75385146CD95A171A432A0CE50C58" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>
@@ -2637,29 +2607,31 @@
 			</Folder>
 		</Class>
 		<Class Name="Os">
+			<File Name="arsimproxy.dll" Size="221696" HashValue="11E3F85AC111386D5CBEF8AC4E6B29E1" ProjectDependent="1"/>
+			<File Name="InaFrms.dll" Size="98304" HashValue="BCBB8AB4B7168E2BB538CF86E5B742A3" ProjectDependent="1"/>
 			<Folder Name="Brm" ProjectDependent="1">
-				<File Name="@cfAR000.br" Size="4328" HashValue="5D9935CCB8A3D722167F6BD167346D17" ProjectDependent="1"/>
-				<File Name="@sbAR000.br" Size="2068" HashValue="FB8FF309D75EFD31EA486A51DC4C344B" ProjectDependent="1"/>
+				<File Name="@cfAR000.br" Size="4328" HashValue="6E906DBC583FB07809C54BFF803D8F30" ProjectDependent="1"/>
+				<File Name="@sbAR000.br" Size="2068" HashValue="D93F13C79B4CECCEEE28C17567F7BD46" ProjectDependent="1"/>
 			</Folder>
 			<Folder Name="System" ProjectDependent="1">
 				<Folder Name="BASE" ProjectDependent="1">
 					<Folder Name="COMPONENTS" ProjectDependent="1">
-						<File Name="ArLcTextP.br" Size="298204" HashValue="AD2AFA5B8B366E1CD2CF614FBB0E94A0" ProjectDependent="1"/>
-						<File Name="ArUnitSys.br" Size="480512" HashValue="DB2816C69BEF768490166E69FBB2D728" ProjectDependent="1"/>
+						<File Name="ArLcTextP.br" Size="298208" HashValue="C6DFC41EF8C31381FD8C0357751A81C3" ProjectDependent="1"/>
+						<File Name="ArUnitSys.br" Size="476228" HashValue="CE3F96837303ADA6203FFEA1FCD8E225" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="HWD" ProjectDependent="1">
-						<File Name="AsHwdhw_upl.xml.gz" Size="16565" HashValue="08E771AEF52A7D9A71ED14A5F349867A" ProjectDependent="1"/>
-						<File Name="AsHwdSimulation.xml.gz" Size="12860" HashValue="3036626C82AA60A7758FA1BB4AF32B6B" ProjectDependent="1"/>
+						<File Name="AsHwdhw_upl.xml.gz" Size="16671" HashValue="E6F488F6887AF286764F40CF53A0C237" ProjectDependent="1"/>
+						<File Name="AsHwdSimulation.xml.gz" Size="12860" HashValue="0D4FE50E32BC96BBBB4F3E7544F2D8BA" ProjectDependent="1"/>
 					</Folder>
 				</Folder>
 				<Folder Name="SDM" ProjectDependent="1">
-					<File Name="arsdm.tar.gz" Size="506700" HashValue="A5E38E2B6B701064F9AF87C5A39A275B" ProjectDependent="1"/>
+					<File Name="arsdm.tar.gz" Size="506478" HashValue="2BF3D9A4D03F4499E48AA626EC53587B" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="TOC" ProjectDependent="1">
-					<File Name="ftoc.xml" Size="443" HashValue="BB69CD15F121226A55058A39A897AB29" ProjectDependent="1"/>
+					<File Name="ftoc.xml" Size="670" HashValue="1188893D6CCACD93535968A53F0C30D1" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="WEBSERV" ProjectDependent="1">
-					<File Name="ArWebServ.br" Size="108756" HashValue="FDCC8A530C56975B67A6E2B43864AF46" ProjectDependent="1"/>
+					<File Name="ArWebServ.br" Size="108916" HashValue="A433CD9A370CE0712D8CF87D6EC45AA2" ProjectDependent="1"/>
 				</Folder>
 			</Folder>
 		</Class>

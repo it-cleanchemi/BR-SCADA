@@ -607,6 +607,21 @@ define(['DOMPurify', 'brease/enum/Enum'], function (DOMPurify, Enum) {
         }
         return pointerId;
     };
+
+    /**
+     * @method isPrintableKeyEvent
+     * @static
+     * Detect whether a DOM KeyboardEvent key event is printable; that is, typed by a user. 
+     * This is useful for custom input components that need ignore control keys such as Alt and only be triggered when 'regular', 
+     * printable keys are pressed such as a or €.
+     * Before using this function, check if you can use Core JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/API/InputEvent" target="_blank" style="text-decoration:underline;">InputEvent</a> instead of KeyboardEvent.
+     * @param {KeyboardEvent} e Keyboard event.
+     * @returns {Boolean} true when printable key is pressed
+     */
+    Utils.isPrintableKeyEvent = function (e) {
+        return (e.key.length === 1 && !e.ctrlKey && !e.altKey && !e.metaKey) || e.key === 'Unidentified';
+    };
+        
     /**
     * @method getWidgetId
     * @static

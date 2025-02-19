@@ -1,0 +1,4 @@
+VAR
+	IdxModbusBlocks : USINT;
+	ModbusDelay_TON : ARRAY[0..MAX_MODBUS_BLOCKS] OF TON;
+END_VAR

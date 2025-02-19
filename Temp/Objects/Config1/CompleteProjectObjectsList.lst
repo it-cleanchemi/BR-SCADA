@@ -2,2049 +2,2176 @@
 <?AutomationStudio Version="4.12.6.106"?>
 <Objects>
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133758258922521993" />
+    LastWriteTime="133843854147357716" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Global.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133758219834503405"
+    LastWriteTime="133843853883613973"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Global.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Constants.var"
+    LogicalPath="Constants.var"
+    Type="File"
+    LastWriteTime="133843897556357597"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133761694467603904"
+    LastWriteTime="133843851069348897"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Enum.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Enum.typ"
     LogicalPath="Enum.typ"
     Type="File"
-    LastWriteTime="133758246486061076"
+    LastWriteTime="133834387665294965"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Par.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Par.typ"
     LogicalPath="Par.typ"
     Type="File"
-    LastWriteTime="133758246495005845"
+    LastWriteTime="133834387665425673"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Vis.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Vis.typ"
     LogicalPath="Vis.typ"
     Type="File"
-    LastWriteTime="133758246338047803"
+    LastWriteTime="133834387665425673"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Process.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Process.typ"
     LogicalPath="Process.typ"
     Type="File"
-    LastWriteTime="133758250641772542"
+    LastWriteTime="133834387665425673"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Services.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Services.typ"
     LogicalPath="Services.typ"
     Type="File"
-    LastWriteTime="133758250664277927"
+    LastWriteTime="133834387665425673"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\IO.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\IO.typ"
     LogicalPath="IO.typ"
     Type="File"
-    LastWriteTime="133758246485399789"
+    LastWriteTime="133834387665306468"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133725536860028753" />
+    LastWriteTime="133843858092262105" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\operator\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
     Type="Library"
-    LastWriteTime="133573205480000000" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\operator\operator.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\operator\operator.fun"
     LogicalPath="Libraries.operator.operator.fun"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\operator\operator.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\operator\operator.typ"
     LogicalPath="Libraries.operator.operator.typ"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\operator\operator.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\operator\operator.var"
     LogicalPath="Libraries.operator.operator.var"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\runtime\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\runtime\binary.lby"
     LogicalPath="Libraries.runtime"
     Type="Library"
-    LastWriteTime="133573205480000000" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\runtime\runtime.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\runtime\runtime.fun"
     LogicalPath="Libraries.runtime.runtime.fun"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\runtime\runtime.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\runtime\runtime.typ"
     LogicalPath="Libraries.runtime.runtime.typ"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\runtime\runtime.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\runtime\runtime.var"
     LogicalPath="Libraries.runtime.runtime.var"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\astime\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\astime\binary.lby"
     LogicalPath="Libraries.astime"
     Type="Library"
-    LastWriteTime="133573205480000000" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\astime\astime.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\astime\astime.fun"
     LogicalPath="Libraries.astime.astime.fun"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\astime\astime.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\astime\astime.typ"
     LogicalPath="Libraries.astime.astime.typ"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\astime\astime.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\astime\astime.var"
     LogicalPath="Libraries.astime.astime.var"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsIecCon\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsIecCon\binary.lby"
     LogicalPath="Libraries.AsIecCon"
     Type="Library"
-    LastWriteTime="133573205480000000" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.fun"
     LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.typ"
     LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsIecCon\AsIecCon.var"
     LogicalPath="Libraries.AsIecCon.AsIecCon.var"
     Type="File"
-    LastWriteTime="133573205480000000"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUas\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUas\binary.lby"
     LogicalPath="Libraries.AsOpcUas"
     Type="Library"
-    LastWriteTime="133725536859562425" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.fun"
     LogicalPath="Libraries.AsOpcUas.AsOpcUas.fun"
     Type="File"
-    LastWriteTime="133725536859542421"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.typ"
     LogicalPath="Libraries.AsOpcUas.AsOpcUas.typ"
     Type="File"
-    LastWriteTime="133725536859552451"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUas\AsOpcUas.var"
     LogicalPath="Libraries.AsOpcUas.AsOpcUas.var"
     Type="File"
-    LastWriteTime="133725536859562425"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUac\binary.lby"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUac\binary.lby"
     LogicalPath="Libraries.AsOpcUac"
     Type="Library"
-    LastWriteTime="133725536859808599" />
+    LastWriteTime="133710483220000000" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.fun"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.fun"
     LogicalPath="Libraries.AsOpcUac.AsOpcUac.fun"
     Type="File"
-    LastWriteTime="133725536859789238"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.typ"
     LogicalPath="Libraries.AsOpcUac.AsOpcUac.typ"
     Type="File"
-    LastWriteTime="133725536859798534"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\AsOpcUac\AsOpcUac.var"
     LogicalPath="Libraries.AsOpcUac.AsOpcUac.var"
     Type="File"
-    LastWriteTime="133725536859808599"
+    LastWriteTime="133710483220000000"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Main\IEC.prg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="133836985081906750" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="133836985081901618"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="133836985082546419" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="133836985082541400"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="133836985082717033" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\NcGlobal\NcGlobal.fun"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.fun"
+    Type="File"
+    LastWriteTime="133836985082697039"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\NcGlobal\NcGlobal.typ"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.typ"
+    Type="File"
+    LastWriteTime="133836985082707038"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\NcGlobal\NcGlobal.var"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.var"
+    Type="File"
+    LastWriteTime="133836985082707038"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133843858092201665" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133843858092155437"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133843858092175941"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133843858092196493"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\IEC.prg"
     LogicalPath="Main"
     Type="Program"
-    LastWriteTime="133725536854981840" />
+    LastWriteTime="133834387665415665" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Main\Main.st"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Main.st"
     LogicalPath="Main.Main.st"
     Type="File"
-    LastWriteTime="133754757313473480"
+    LastWriteTime="133834387665415665"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Main\Types.typ"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Types.typ"
     LogicalPath="Main.Types.typ"
     Type="File"
-    LastWriteTime="133645129940000000"
+    LastWriteTime="133834387665415665"
     Private="true" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Main\Variables.var"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Variables.var"
     LogicalPath="Main.Variables.var"
     Type="File"
-    LastWriteTime="133725558609569779"
+    LastWriteTime="133834387665415665"
     Private="true" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\Main\Methods.uam"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Methods.uam"
     LogicalPath="Main.Methods.uam"
     Type="File"
-    LastWriteTime="133725536854971829"
+    LastWriteTime="133834387665415665"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Package.pkg"
     LogicalPath="mappView"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665435668" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Layouts\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Layouts\Package.pkg"
     LogicalPath="mappView.Layouts"
     Type="Package"
-    LastWriteTime="133645145680000000" />
+    LastWriteTime="133834387665435668" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\Package.pkg"
     LogicalPath="mappView.Widgets"
     Type="Package"
-    LastWriteTime="133655291362472865" />
+    LastWriteTime="133834387665972757" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib"
     Type="Package"
-    LastWriteTime="133736638943865296" />
+    LastWriteTime="133834387666005762" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Description.widgetlibrary"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Description.widgetlibrary"
     LogicalPath="mappView.Widgets.WidgetLib.Description.widgetlibrary"
     Type="File"
-    LastWriteTime="133650235531595898"
+    LastWriteTime="133834387666003472"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.Resources"
     Type="Package"
-    LastWriteTime="133650235531635891" />
+    LastWriteTime="133834387666015893" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Texts\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Texts\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.Resources.Texts"
     Type="Package"
-    LastWriteTime="133650235531615890" />
+    LastWriteTime="133834387666015893" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Media\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Resources\Media\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.Resources.Media"
     Type="Package"
-    LastWriteTime="133650236030407651" />
+    LastWriteTime="133834387666015893" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.CompoundWidget"
     Type="Package"
-    LastWriteTime="133650344360737764" />
+    LastWriteTime="133834387665987873" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CompoundWidget\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.CompoundWidget.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133661360539525498"
+    LastWriteTime="133834387665993328"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\PumpVisual\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\PumpVisual\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.PumpVisual"
     Type="Package"
-    LastWriteTime="133661338851423516" />
+    LastWriteTime="133834387666005762" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\PumpVisual\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\PumpVisual\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.PumpVisual.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133703964655020330"
+    LastWriteTime="133834387666005762"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Rectangle.derivedwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\Rectangle.derivedwidget"
     LogicalPath="mappView.Widgets.WidgetLib.Rectangle.derivedwidget"
     Type="File"
-    LastWriteTime="133651068377337324"
+    LastWriteTime="133834387666005762"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.BufferTankVisual"
     Type="Package"
-    LastWriteTime="133662229083586657" />
+    LastWriteTime="133834387665972757" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\BufferTankVisual\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.BufferTankVisual.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133667577970618160"
+    LastWriteTime="133834387665972757"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.DosingPumpInformatic"
     Type="Package"
-    LastWriteTime="133670224927237454" />
+    LastWriteTime="133834387666005762" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\DosingPumpInformatic\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.DosingPumpInformatic.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133677010837372959"
+    LastWriteTime="133834387666005762"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CDSensor1\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CDSensor1\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.CDSensor1"
     Type="Package"
-    LastWriteTime="133671058147167420" />
+    LastWriteTime="133834387665972757" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CDSensor1\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\CDSensor1\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.CDSensor1.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133687348492115962"
+    LastWriteTime="133834387665987873"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\SendDataButton\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\SendDataButton\Package.pkg"
     LogicalPath="mappView.Widgets.WidgetLib.SendDataButton"
     Type="Package"
-    LastWriteTime="133736638805404954" />
+    LastWriteTime="133834387666015893" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Widgets\WidgetLib\SendDataButton\Widget.compoundwidget"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Widgets\WidgetLib\SendDataButton\Widget.compoundwidget"
     LogicalPath="mappView.Widgets.WidgetLib.SendDataButton.Widget.compoundwidget"
     Type="File"
-    LastWriteTime="133736638805404954"
+    LastWriteTime="133834387666025888"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Package.pkg"
     LogicalPath="mappView.Resources"
     Type="Package"
-    LastWriteTime="133650236111722900" />
+    LastWriteTime="133834387665756956" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Texts\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Texts\Package.pkg"
     LogicalPath="mappView.Resources.Texts"
     Type="Package"
-    LastWriteTime="133645145680000000" />
+    LastWriteTime="133834387665766952" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Snippets\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Snippets\Package.pkg"
     LogicalPath="mappView.Resources.Snippets"
     Type="Package"
-    LastWriteTime="133645145680000000" />
+    LastWriteTime="133834387665756956" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\Package.pkg"
     LogicalPath="mappView.Resources.Themes"
     Type="Package"
-    LastWriteTime="133655260373292690" />
+    LastWriteTime="133834387665802285" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\Package.pkg"
     LogicalPath="mappView.Resources.Themes.BuRTheme1"
     Type="Package"
-    LastWriteTime="133655260155778302" />
+    LastWriteTime="133834387665766952" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\BuRTheme1.theme"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.BuRTheme1.theme"
     Type="File"
-    LastWriteTime="133655260155678246"
+    LastWriteTime="133834387665766952"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Package.pkg"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease"
     Type="Package"
-    LastWriteTime="133655260598254791" />
+    LastWriteTime="133834387665802285" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\BuRTheme1.stylesset"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.BuRTheme1.stylesset"
     Type="File"
-    LastWriteTime="133655273456521317"
+    LastWriteTime="133834387665776936"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Default.styles"
     Type="File"
-    LastWriteTime="133655260155698259"
+    LastWriteTime="133834387665786937"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.System.styles"
     Type="File"
-    LastWriteTime="133655260155708268"
+    LastWriteTime="133834387665802285"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Buttons.styles"
     Type="File"
-    LastWriteTime="133655260155718254"
+    LastWriteTime="133834387665776936"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Common.styles"
     Type="File"
-    LastWriteTime="133655260155728321"
+    LastWriteTime="133834387665776936"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Container.styles"
     Type="File"
-    LastWriteTime="133655260155728321"
+    LastWriteTime="133834387665786937"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Numeric.styles"
     Type="File"
-    LastWriteTime="133655260155738271"
+    LastWriteTime="133834387665792116"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.LabelTexts.styles"
     Type="File"
-    LastWriteTime="133655260155748294"
+    LastWriteTime="133834387665792116"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Graphic.styles"
     Type="File"
-    LastWriteTime="133655260155748294"
+    LastWriteTime="133834387665786937"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Charts.styles"
     Type="File"
-    LastWriteTime="133655260155758300"
+    LastWriteTime="133834387665776936"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Sequencer.styles"
     Type="File"
-    LastWriteTime="133655260155768287"
+    LastWriteTime="133834387665802285"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.Lists.styles"
     Type="File"
-    LastWriteTime="133655260155768287"
+    LastWriteTime="133834387665792116"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\MyStyles.styles"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Themes\BuRTheme1\brease\MyStyles.styles"
     LogicalPath="mappView.Resources.Themes.BuRTheme1.brease.MyStyles.styles"
     Type="File"
-    LastWriteTime="133655288252542408"
+    LastWriteTime="133834387665792116"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\Package.pkg"
     LogicalPath="mappView.Resources.Media"
     Type="Package"
-    LastWriteTime="133655242434758996" />
+    LastWriteTime="133834387665435668" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\CleanChemi.png.png"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\CleanChemi.png.png"
     LogicalPath="mappView.Resources.Media.CleanChemi.png.png"
     Type="File"
-    LastWriteTime="133650236111962903"
+    LastWriteTime="133834387665435668"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib"
     Type="Package"
-    LastWriteTime="133655242434748998" />
+    LastWriteTime="133834387665656611" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
     Type="Package"
-    LastWriteTime="133655242433779103" />
+    LastWriteTime="133834387665455664" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
     Type="File"
-    LastWriteTime="133655242433749435"
+    LastWriteTime="133834387665445667"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
     Type="File"
-    LastWriteTime="133655242433759059"
+    LastWriteTime="133834387665445667"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
     Type="File"
-    LastWriteTime="133655242433769411"
+    LastWriteTime="133834387665445667"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
     Type="File"
-    LastWriteTime="133655242433769411"
+    LastWriteTime="133834387665445667"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
     Type="Package"
-    LastWriteTime="133655242433859215" />
+    LastWriteTime="133834387665475659" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
     Type="File"
-    LastWriteTime="133655242433789136"
+    LastWriteTime="133834387665455664"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
     Type="File"
-    LastWriteTime="133655242433799102"
+    LastWriteTime="133834387665455664"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
     Type="File"
-    LastWriteTime="133655242433809080"
+    LastWriteTime="133834387665455664"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
     Type="File"
-    LastWriteTime="133655242433809080"
+    LastWriteTime="133834387665465666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
     Type="File"
-    LastWriteTime="133655242433819011"
+    LastWriteTime="133834387665465666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
     Type="File"
-    LastWriteTime="133655242433819011"
+    LastWriteTime="133834387665475659"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
     Type="File"
-    LastWriteTime="133655242433829091"
+    LastWriteTime="133834387665465666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
     Type="File"
-    LastWriteTime="133655242433839460"
+    LastWriteTime="133834387665475659"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
     Type="File"
-    LastWriteTime="133655242433839460"
+    LastWriteTime="133834387665475659"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
     Type="File"
-    LastWriteTime="133655242433849137"
+    LastWriteTime="133834387665475659"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
     Type="File"
-    LastWriteTime="133655242433859215"
+    LastWriteTime="133834387665475659"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
     Type="File"
-    LastWriteTime="133655242433859215"
+    LastWriteTime="133834387665485667"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
     Type="Package"
-    LastWriteTime="133655242433889089" />
+    LastWriteTime="133834387665495863" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
     Type="File"
-    LastWriteTime="133655242433879103"
+    LastWriteTime="133834387665490771"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
     Type="File"
-    LastWriteTime="133655242433889089"
+    LastWriteTime="133834387665490771"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
     Type="File"
-    LastWriteTime="133655242433889089"
+    LastWriteTime="133834387665495863"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
     Type="Package"
-    LastWriteTime="133655242433919845" />
+    LastWriteTime="133834387665506721" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
     Type="File"
-    LastWriteTime="133655242433909093"
+    LastWriteTime="133834387665495863"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
     Type="File"
-    LastWriteTime="133655242433919845"
+    LastWriteTime="133834387665495863"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
     Type="File"
-    LastWriteTime="133655242433919845"
+    LastWriteTime="133834387665505987"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
     Type="Package"
-    LastWriteTime="133655242433939153" />
+    LastWriteTime="133834387665506721" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
     Type="File"
-    LastWriteTime="133655242433939153"
+    LastWriteTime="133834387665506721"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
     Type="Package"
-    LastWriteTime="133655242433969007" />
+    LastWriteTime="133834387665516096" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
     Type="File"
-    LastWriteTime="133655242433949074"
+    LastWriteTime="133834387665516096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
     Type="File"
-    LastWriteTime="133655242433959012"
+    LastWriteTime="133834387665516096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
     Type="File"
-    LastWriteTime="133655242433969007"
+    LastWriteTime="133834387665516096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
     Type="Package"
-    LastWriteTime="133655242434128996" />
+    LastWriteTime="133834387665556097" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
     Type="File"
-    LastWriteTime="133655242433979002"
+    LastWriteTime="133834387665526089"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
     Type="File"
-    LastWriteTime="133655242433988999"
+    LastWriteTime="133834387665526089"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
     Type="File"
-    LastWriteTime="133655242433988999"
+    LastWriteTime="133834387665526089"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
     Type="File"
-    LastWriteTime="133655242433998997"
+    LastWriteTime="133834387665526089"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
     Type="File"
-    LastWriteTime="133655242434008998"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
     Type="File"
-    LastWriteTime="133655242434008998"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
     Type="File"
-    LastWriteTime="133655242434018996"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
     Type="File"
-    LastWriteTime="133655242434028999"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
     Type="File"
-    LastWriteTime="133655242434028999"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
     Type="File"
-    LastWriteTime="133655242434038998"
+    LastWriteTime="133834387665536092"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
     Type="File"
-    LastWriteTime="133655242434038998"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
     Type="File"
-    LastWriteTime="133655242434048998"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
     Type="File"
-    LastWriteTime="133655242434058997"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
     Type="File"
-    LastWriteTime="133655242434069000"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
     Type="File"
-    LastWriteTime="133655242434069000"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
     Type="File"
-    LastWriteTime="133655242434078998"
+    LastWriteTime="133834387665546096"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
     Type="File"
-    LastWriteTime="133655242434088993"
+    LastWriteTime="133834387665556097"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
     Type="File"
-    LastWriteTime="133655242434088993"
+    LastWriteTime="133834387665556097"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
     Type="File"
-    LastWriteTime="133655242434098996"
+    LastWriteTime="133834387665556097"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
     Type="File"
-    LastWriteTime="133655242434108997"
+    LastWriteTime="133834387665556097"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
     Type="File"
-    LastWriteTime="133655242434108997"
+    LastWriteTime="133834387665556097"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
     Type="File"
-    LastWriteTime="133655242434118996"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
     Type="File"
-    LastWriteTime="133655242434118996"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File"
     Type="Package"
-    LastWriteTime="133655242434168994" />
+    LastWriteTime="133834387665566077" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
     Type="File"
-    LastWriteTime="133655242434138994"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
     Type="File"
-    LastWriteTime="133655242434148997"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
     Type="File"
-    LastWriteTime="133655242434148997"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
     Type="File"
-    LastWriteTime="133655242434158994"
+    LastWriteTime="133834387665566077"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
     Type="File"
-    LastWriteTime="133655242434158994"
+    LastWriteTime="133834387665576848"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
     Type="Package"
-    LastWriteTime="133655242434258996" />
+    LastWriteTime="133834387665596490" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
     Type="File"
-    LastWriteTime="133655242434178994"
+    LastWriteTime="133834387665576848"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
     Type="File"
-    LastWriteTime="133655242434178994"
+    LastWriteTime="133834387665576848"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
     Type="File"
-    LastWriteTime="133655242434188999"
+    LastWriteTime="133834387665576848"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
     Type="File"
-    LastWriteTime="133655242434198996"
+    LastWriteTime="133834387665586086"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
     Type="File"
-    LastWriteTime="133655242434198996"
+    LastWriteTime="133834387665586086"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
     Type="File"
-    LastWriteTime="133655242434209001"
+    LastWriteTime="133834387665586086"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
     Type="File"
-    LastWriteTime="133655242434218999"
+    LastWriteTime="133834387665596490"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
     Type="File"
-    LastWriteTime="133655242434218999"
+    LastWriteTime="133834387665596490"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
     Type="File"
-    LastWriteTime="133655242434229000"
+    LastWriteTime="133834387665606623"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
     Type="File"
-    LastWriteTime="133655242434238997"
+    LastWriteTime="133834387665606623"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
     Type="File"
-    LastWriteTime="133655242434238997"
+    LastWriteTime="133834387665616632"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
     Type="File"
-    LastWriteTime="133655242434248997"
+    LastWriteTime="133834387665616632"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
     Type="File"
-    LastWriteTime="133655242434248997"
+    LastWriteTime="133834387665616632"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media"
     Type="Package"
-    LastWriteTime="133655242434348992" />
+    LastWriteTime="133834387665636662" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
     Type="File"
-    LastWriteTime="133655242434269000"
+    LastWriteTime="133834387665626621"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
     Type="File"
-    LastWriteTime="133655242434278996"
+    LastWriteTime="133834387665626621"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
     Type="File"
-    LastWriteTime="133655242434278996"
+    LastWriteTime="133834387665626621"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
     Type="File"
-    LastWriteTime="133655242434288996"
+    LastWriteTime="133834387665626621"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
     Type="File"
-    LastWriteTime="133655242434298996"
+    LastWriteTime="133834387665626621"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
     Type="File"
-    LastWriteTime="133655242434298996"
+    LastWriteTime="133834387665636662"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
     Type="File"
-    LastWriteTime="133655242434308995"
+    LastWriteTime="133834387665636662"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
     Type="File"
-    LastWriteTime="133655242434318997"
+    LastWriteTime="133834387665636662"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
     Type="File"
-    LastWriteTime="133655242434318997"
+    LastWriteTime="133834387665636662"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
     Type="File"
-    LastWriteTime="133655242434348992"
+    LastWriteTime="133834387665636662"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
     Type="Package"
-    LastWriteTime="133655242434408995" />
+    LastWriteTime="133834387665656611" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
     Type="File"
-    LastWriteTime="133655242434358995"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
     Type="File"
-    LastWriteTime="133655242434368997"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
     Type="File"
-    LastWriteTime="133655242434378997"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
     Type="File"
-    LastWriteTime="133655242434378997"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
     Type="File"
-    LastWriteTime="133655242434388999"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
     Type="File"
-    LastWriteTime="133655242434398994"
+    LastWriteTime="133834387665646625"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
     Type="File"
-    LastWriteTime="133655242434398994"
+    LastWriteTime="133834387665656611"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
     Type="File"
-    LastWriteTime="133655242434408995"
+    LastWriteTime="133834387665656611"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
     Type="Package"
-    LastWriteTime="133655242434688994" />
+    LastWriteTime="133834387665696824" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
     Type="File"
-    LastWriteTime="133655242434428995"
+    LastWriteTime="133834387665656611"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
     Type="File"
-    LastWriteTime="133655242434428995"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
     Type="File"
-    LastWriteTime="133655242434438995"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
     Type="File"
-    LastWriteTime="133655242434448998"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
     Type="File"
-    LastWriteTime="133655242434448998"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
     Type="File"
-    LastWriteTime="133655242434458995"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
     Type="File"
-    LastWriteTime="133655242434468994"
+    LastWriteTime="133834387665666666"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
     Type="File"
-    LastWriteTime="133655242434468994"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
     Type="File"
-    LastWriteTime="133655242434478998"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
     Type="File"
-    LastWriteTime="133655242434478998"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
     Type="File"
-    LastWriteTime="133655242434488995"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
     Type="File"
-    LastWriteTime="133655242434498994"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
     Type="File"
-    LastWriteTime="133655242434498994"
+    LastWriteTime="133834387665676634"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
     Type="File"
-    LastWriteTime="133655242434508997"
+    LastWriteTime="133834387665686613"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
     Type="File"
-    LastWriteTime="133655242434508997"
+    LastWriteTime="133834387665686613"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
     Type="File"
-    LastWriteTime="133655242434518996"
+    LastWriteTime="133834387665686613"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
     Type="File"
-    LastWriteTime="133655242434528994"
+    LastWriteTime="133834387665691738"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
     Type="File"
-    LastWriteTime="133655242434528994"
+    LastWriteTime="133834387665691738"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
     Type="File"
-    LastWriteTime="133655242434539000"
+    LastWriteTime="133834387665691738"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
     Type="File"
-    LastWriteTime="133655242434548996"
+    LastWriteTime="133834387665696824"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
     Type="File"
-    LastWriteTime="133655242434548996"
+    LastWriteTime="133834387665696824"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
     Type="File"
-    LastWriteTime="133655242434558997"
+    LastWriteTime="133834387665696824"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
     Type="File"
-    LastWriteTime="133655242434558997"
+    LastWriteTime="133834387665696824"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
     Type="File"
-    LastWriteTime="133655242434569000"
+    LastWriteTime="133834387665706995"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
     Type="File"
-    LastWriteTime="133655242434569000"
+    LastWriteTime="133834387665706995"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
     Type="File"
-    LastWriteTime="133655242434578995"
+    LastWriteTime="133834387665709521"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
     Type="File"
-    LastWriteTime="133655242434588998"
+    LastWriteTime="133834387665709521"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
     Type="File"
-    LastWriteTime="133655242434588998"
+    LastWriteTime="133834387665709521"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
     Type="File"
-    LastWriteTime="133655242434598995"
+    LastWriteTime="133834387665709521"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
     Type="File"
-    LastWriteTime="133655242434598995"
+    LastWriteTime="133834387665709521"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
     Type="File"
-    LastWriteTime="133655242434608995"
+    LastWriteTime="133834387665716964"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
     Type="File"
-    LastWriteTime="133655242434618993"
+    LastWriteTime="133834387665716964"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
     Type="File"
-    LastWriteTime="133655242434618993"
+    LastWriteTime="133834387665716964"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
     Type="File"
-    LastWriteTime="133655242434629015"
+    LastWriteTime="133834387665716964"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
     Type="File"
-    LastWriteTime="133655242434638999"
+    LastWriteTime="133834387665716964"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
     Type="File"
-    LastWriteTime="133655242434638999"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
     Type="File"
-    LastWriteTime="133655242434648999"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
     Type="File"
-    LastWriteTime="133655242434658997"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
     Type="File"
-    LastWriteTime="133655242434658997"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
     Type="File"
-    LastWriteTime="133655242434668995"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
     Type="File"
-    LastWriteTime="133655242434678996"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
     Type="File"
-    LastWriteTime="133655242434678996"
+    LastWriteTime="133834387665726939"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User"
     Type="Package"
-    LastWriteTime="133655242434748998" />
+    LastWriteTime="133834387665756956" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
     Type="File"
-    LastWriteTime="133655242434699002"
+    LastWriteTime="133834387665736944"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
     Type="File"
-    LastWriteTime="133655242434699002"
+    LastWriteTime="133834387665736944"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
     Type="File"
-    LastWriteTime="133655242434708999"
+    LastWriteTime="133834387665746946"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
     Type="File"
-    LastWriteTime="133655242434718995"
+    LastWriteTime="133834387665746946"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
     Type="File"
-    LastWriteTime="133655242434718995"
+    LastWriteTime="133834387665746946"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
     Type="File"
-    LastWriteTime="133655242434728997"
+    LastWriteTime="133834387665746946"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
     Type="File"
-    LastWriteTime="133655242434728997"
+    LastWriteTime="133834387665756956"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
     Type="File"
-    LastWriteTime="133655242434739000"
+    LastWriteTime="133834387665756956"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
     LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
     Type="File"
-    LastWriteTime="133655242434748998"
+    LastWriteTime="133834387665756956"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Package.pkg"
     LogicalPath="mappView.Visualization"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665842215" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Package.pkg"
     LogicalPath="mappView.Visualization.Pages"
     Type="Package"
-    LastWriteTime="133746909847052632" />
+    LastWriteTime="133834387665932772" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.Main"
     Type="Package"
-    LastWriteTime="133710649763161450" />
+    LastWriteTime="133834387665902772" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPage.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPage.page"
     LogicalPath="mappView.Visualization.Pages.Main.LoginPage.page"
     Type="File"
-    LastWriteTime="133710660120320830"
+    LastWriteTime="133834387665902772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPage.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPage.content"
     LogicalPath="mappView.Visualization.Pages.Main.LoginPage.content"
     Type="File"
-    LastWriteTime="133703338384748308"
+    LastWriteTime="133834387665893396"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\QAQC_Setup.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\QAQC_Setup.content"
     LogicalPath="mappView.Visualization.Pages.Main.QAQC_Setup.content"
     Type="File"
-    LastWriteTime="133686516230092305"
+    LastWriteTime="133834387665902772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPageExample.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPageExample.content"
     LogicalPath="mappView.Visualization.Pages.Main.LoginPageExample.content"
     Type="File"
-    LastWriteTime="133703898866653369"
+    LastWriteTime="133834387665902772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\Main\AdminONLY.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\AdminONLY.content"
     LogicalPath="mappView.Visualization.Pages.Main.AdminONLY.content"
     Type="File"
-    LastWriteTime="133704616574118744"
+    LastWriteTime="133834387665893396"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.OverviewPage"
     Type="Package"
-    LastWriteTime="133752238208097755" />
+    LastWriteTime="133834387665932772" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Overview.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Overview.page"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.Overview.page"
     Type="File"
-    LastWriteTime="133752253102848878"
+    LastWriteTime="133837800622632903"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPage.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPage.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewPage.content"
     Type="File"
-    LastWriteTime="133703343973920936"
+    LastWriteTime="133834387665932772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPageExample.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewPageExample.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewPageExample.content"
     Type="File"
-    LastWriteTime="133710668961079825"
+    LastWriteTime="133834387665932772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx1.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx1.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewEx1.content"
     Type="File"
-    LastWriteTime="133728726539982427"
+    LastWriteTime="133834387665922742"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx2.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\OverviewEx2.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.OverviewEx2.content"
     Type="File"
-    LastWriteTime="133710701978949810"
+    LastWriteTime="133834387665922742"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Header.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\Header.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.Header.content"
     Type="File"
-    LastWriteTime="133752237917359874"
+    LastWriteTime="133834387665912738"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\NavigationPage.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\NavigationPage.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.NavigationPage.content"
     Type="File"
-    LastWriteTime="133752243112169107"
+    LastWriteTime="133837693844179995"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\QCS.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\QCS.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.QCS.content"
     Type="File"
-    LastWriteTime="133752236247305537"
+    LastWriteTime="133837601380752317"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\SiteStatus.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\OverviewPage\SiteStatus.content"
     LogicalPath="mappView.Visualization.Pages.OverviewPage.SiteStatus.content"
     Type="File"
-    LastWriteTime="133752239063117030"
+    LastWriteTime="133834387665932772"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.AreaContents"
     Type="Package"
-    LastWriteTime="133704628731703874" />
+    LastWriteTime="133834387665852248" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\AreaContents\Content.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\AreaContents\Content.content"
     LogicalPath="mappView.Visualization.Pages.AreaContents.Content.content"
     Type="File"
-    LastWriteTime="133704628731703874"
+    LastWriteTime="133834387665852248"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors"
     Type="Package"
-    LastWriteTime="133710634358181939" />
+    LastWriteTime="133834387665877447" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\CDBlock.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\CDBlock.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.CDBlock.content"
     Type="File"
-    LastWriteTime="133686500681256373"
+    LastWriteTime="133834387665867338"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Pump.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Pump.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.Pump.content"
     Type="File"
-    LastWriteTime="133752385915048272"
+    LastWriteTime="133834387665877447"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\BufferTankLevelIndicator.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\BufferTankLevelIndicator.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.BufferTankLevelIndicator.content"
     Type="File"
-    LastWriteTime="133692733183604341"
+    LastWriteTime="133834387665867338"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\StatusLight.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\StatusLight.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.StatusLight.content"
     Type="File"
-    LastWriteTime="133673674610942375"
+    LastWriteTime="133834387665887478"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\DosingPumpInfo.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\DosingPumpInfo.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.DosingPumpInfo.content"
     Type="File"
-    LastWriteTime="133749715172502352"
+    LastWriteTime="133834387665867338"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Flowmeter.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\Flowmeter.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.Flowmeter.content"
     Type="File"
-    LastWriteTime="133675309243201973"
+    LastWriteTime="133834387665877447"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\LocationBox.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\LocationBox.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.LocationBox.content"
     Type="File"
-    LastWriteTime="133686500699200844"
+    LastWriteTime="133834387665877447"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\FillPercentCircle.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\EquipmentAndSensors\FillPercentCircle.content"
     LogicalPath="mappView.Visualization.Pages.EquipmentAndSensors.FillPercentCircle.content"
     Type="File"
-    LastWriteTime="133710634260832378"
+    LastWriteTime="133834387665877447"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs"
     Type="Package"
-    LastWriteTime="133677042787645453" />
+    LastWriteTime="133834387665942770" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page"
     Type="Package"
-    LastWriteTime="133704601660676025" />
+    LastWriteTime="133834387665942770" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PopUp.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PopUp.page"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.PopUp.page"
     Type="File"
-    LastWriteTime="133749724883141684"
+    LastWriteTime="133834387665952747"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PumpPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\PumpPopUp.content"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.PumpPopUp.content"
     Type="File"
-    LastWriteTime="133677159739689639"
+    LastWriteTime="133834387665952747"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\BufferTankPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\BufferTankPopUp.content"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.BufferTankPopUp.content"
     Type="File"
-    LastWriteTime="133752216467759470"
+    LastWriteTime="133834387665942770"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\CDPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\PopUpTabs\Page\CDPopUp.content"
     LogicalPath="mappView.Visualization.Pages.PopUpTabs.Page.CDPopUp.content"
     Type="File"
-    LastWriteTime="133704601581203331"
+    LastWriteTime="133834387665942770"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.NavigationWindow"
     Type="Package"
-    LastWriteTime="133703411733717689" />
+    LastWriteTime="133834387665912738" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.NavigationWindow.Navigation"
     Type="Package"
-    LastWriteTime="133710659328080409" />
+    LastWriteTime="133834387665912738" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\NavigationPage.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\NavigationWindow\Navigation\NavigationPage.page"
     LogicalPath="mappView.Visualization.Pages.NavigationWindow.Navigation.NavigationPage.page"
     Type="File"
-    LastWriteTime="133710660481522078"
+    LastWriteTime="133834387665912738"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\ExamplePages\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\ExamplePages\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.ExamplePages"
     Type="Package"
-    LastWriteTime="133703412423905906" />
+    LastWriteTime="133834387665887478" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures"
     Type="Package"
-    LastWriteTime="133746912119045765" />
+    LastWriteTime="133834387665852248" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton"
     Type="Package"
-    LastWriteTime="133746911458755781" />
+    LastWriteTime="133834387665852248" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.page"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton.AutomaticSendAckButton.page"
     Type="File"
-    LastWriteTime="133746922083809187"
+    LastWriteTime="133834387665852248"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\AutomaticSendAckButton\AutomaticSendAckButton.content"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures.AutomaticSendAckButton.AutomaticSendAckButton.content"
     Type="File"
-    LastWriteTime="133746922012869222"
+    LastWriteTime="133834387665852248"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Package.pkg"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures.SwapPageButton"
     Type="Package"
-    LastWriteTime="133746912008576683" />
+    LastWriteTime="133834387665867338" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Page.page"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\CustomFeatures\SwapPageButton\Page.page"
     LogicalPath="mappView.Visualization.Pages.CustomFeatures.SwapPageButton.Page.page"
     Type="File"
-    LastWriteTime="133746934385406906"
+    LastWriteTime="133834387665867338"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Variables\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Variables\Package.pkg"
     LogicalPath="mappView.Visualization.Variables"
     Type="Package"
-    LastWriteTime="133725589888871756" />
+    LastWriteTime="133834387665962756" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Variables\ColorVar.svar"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Variables\ColorVar.svar"
     LogicalPath="mappView.Visualization.Variables.ColorVar.svar"
     Type="File"
-    LastWriteTime="133685668691079704"
+    LastWriteTime="133834387665962756"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Variables\sessionvar.svar"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Variables\sessionvar.svar"
     LogicalPath="mappView.Visualization.Variables.sessionvar.svar"
     Type="File"
-    LastWriteTime="133661339348845753"
+    LastWriteTime="133834387665972757"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Variables\AutoManVar.svar"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Variables\AutoManVar.svar"
     LogicalPath="mappView.Visualization.Variables.AutoManVar.svar"
     Type="File"
-    LastWriteTime="133679689519733338"
+    LastWriteTime="133834387665962756"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Variables\PumpOnScreen.svar"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Variables\PumpOnScreen.svar"
     LogicalPath="mappView.Visualization.Variables.PumpOnScreen.svar"
     Type="File"
-    LastWriteTime="133685670537429199"
+    LastWriteTime="133834387665962756"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Expressions\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Expressions\Package.pkg"
     LogicalPath="mappView.Visualization.Expressions"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665832242" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\Package.pkg"
     LogicalPath="mappView.Visualization.Layouts"
     Type="Package"
-    LastWriteTime="133752237083670126" />
+    LastWriteTime="133834387665842215" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\Main_QAQCScreen.layout"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\Main_QAQCScreen.layout"
     LogicalPath="mappView.Visualization.Layouts.Main_QAQCScreen.layout"
     Type="File"
-    LastWriteTime="133645146760000000"
+    LastWriteTime="133834387665842215"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\Landscape16_1.layout"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\Landscape16_1.layout"
     LogicalPath="mappView.Visualization.Layouts.Landscape16_1.layout"
     Type="File"
-    LastWriteTime="133752209262657461"
+    LastWriteTime="133834387665832242"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\Header.layout"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\Header.layout"
     LogicalPath="mappView.Visualization.Layouts.Header.layout"
     Type="File"
-    LastWriteTime="133655282500588545"
+    LastWriteTime="133834387665832242"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\Layout.layout"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\Layout.layout"
     LogicalPath="mappView.Visualization.Layouts.Layout.layout"
     Type="File"
-    LastWriteTime="133677156971139708"
+    LastWriteTime="133834387665842215"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Layouts\PopUpLayout.layout"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Layouts\PopUpLayout.layout"
     LogicalPath="mappView.Visualization.Layouts.PopUpLayout.layout"
     Type="File"
-    LastWriteTime="133681486917274884"
+    LastWriteTime="133834387665842215"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\Package.pkg"
     LogicalPath="mappView.Visualization.Dialogs"
     Type="Package"
-    LastWriteTime="133686532377558050" />
+    LastWriteTime="133834387665822240" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
     LogicalPath="mappView.Visualization.Dialogs.AreaContents"
     Type="Package"
-    LastWriteTime="133686532724062558" />
+    LastWriteTime="133834387665812245" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\CDPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\CDPopUp.content"
     LogicalPath="mappView.Visualization.Dialogs.AreaContents.CDPopUp.content"
     Type="File"
-    LastWriteTime="133681396457641337"
+    LastWriteTime="133834387665812245"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\BufferTankPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\BufferTankPopUp.content"
     LogicalPath="mappView.Visualization.Dialogs.AreaContents.BufferTankPopUp.content"
     Type="File"
-    LastWriteTime="133681486918106728"
+    LastWriteTime="133834387665812245"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\PumpPopUp.content"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\AreaContents\PumpPopUp.content"
     LogicalPath="mappView.Visualization.Dialogs.AreaContents.PumpPopUp.content"
     Type="File"
-    LastWriteTime="133686532662457151"
+    LastWriteTime="133834387665812245"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\Dialog\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\Dialog\Package.pkg"
     LogicalPath="mappView.Visualization.Dialogs.Dialog"
     Type="Package"
-    LastWriteTime="133681397614032951" />
+    LastWriteTime="133834387665822240" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\Dialog\testpopup.dialog"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\Dialog\testpopup.dialog"
     LogicalPath="mappView.Visualization.Dialogs.Dialog.testpopup.dialog"
     Type="File"
-    LastWriteTime="133681397873818387"
+    LastWriteTime="133834387665822240"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\Package.pkg"
     LogicalPath="mappView.Visualization.Dialogs.BufferTankPopUp"
     Type="Package"
-    LastWriteTime="133681484354259145" />
+    LastWriteTime="133834387665822240" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\BufferTankPopUP.dialog"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\BufferTankPopUP.dialog"
     LogicalPath="mappView.Visualization.Dialogs.BufferTankPopUp.BufferTankPopUP.dialog"
     Type="File"
-    LastWriteTime="133682173063207769"
+    LastWriteTime="133834387665822240"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\PumpPopUp\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\PumpPopUp\Package.pkg"
     LogicalPath="mappView.Visualization.Dialogs.PumpPopUp"
     Type="Package"
-    LastWriteTime="133686532285791163" />
+    LastWriteTime="133834387665832242" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Dialogs\PumpPopUp\PumpPopUp.dialog"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Dialogs\PumpPopUp\PumpPopUp.dialog"
     LogicalPath="mappView.Visualization.Dialogs.PumpPopUp.PumpPopUp.dialog"
     Type="File"
-    LastWriteTime="133687350202851049"
+    LastWriteTime="133834387665832242"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Resources\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Resources\Package.pkg"
     LogicalPath="mappView.Visualization.Resources"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665952747" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
     LogicalPath="mappView.Visualization.Resources.Texts"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665962756" />
   <Object
-    Path="C:\projects\BR-SCADA\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
     LogicalPath="mappView.Visualization.Resources.Snippets"
     Type="Package"
-    LastWriteTime="133645145780000000" />
+    LastWriteTime="133834387665952747" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\Config.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\ModbusDriver\IEC.prg"
+    LogicalPath="ModbusDriver"
+    Type="Program"
+    LastWriteTime="133843854054460987" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\ModbusDriver\Main.st"
+    LogicalPath="ModbusDriver.Main.st"
+    Type="File"
+    LastWriteTime="133843900712816209"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\ModbusDriver\Types.typ"
+    LogicalPath="ModbusDriver.Types.typ"
+    Type="File"
+    LastWriteTime="133843854054435570"
+    Private="true" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\ModbusDriver\Variables.var"
+    LogicalPath="ModbusDriver.Variables.var"
+    Type="File"
+    LastWriteTime="133843867916225333"
+    Private="true" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
     Type="Configuration.ParentUnknown"
-    LastWriteTime="133645125300000000" />
+    LastWriteTime="133834387666025888" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\Hardware.hw"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133761755710869786"
+    LastWriteTime="133844763746579338"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\Hardware.hwl"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="133703424876225600"
+    LastWriteTime="133834387666025888"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133754760752219171" />
+    LastWriteTime="133844761852214198" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Cpu.sw"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="133725536864517914"
+    LastWriteTime="133843874893563129"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Cpu.per"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.per"
     LogicalPath="Config1.PC.Cpu.per"
     Type="File"
-    LastWriteTime="133645125280000000"
+    LastWriteTime="133834387666096224"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\IoMap.iom"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\IoMap.iom"
     LogicalPath="Config1.PC.IoMap.iom"
     Type="File"
-    LastWriteTime="133747023929714610"
+    LastWriteTime="133843874292860334"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\PvMap.vvm"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\PvMap.vvm"
     LogicalPath="Config1.PC.PvMap.vvm"
     Type="File"
-    LastWriteTime="133645125280000000"
+    LastWriteTime="133834387666106357"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Connectivity\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\Package.pkg"
     LogicalPath="Config1.PC.Connectivity"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666096224" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\Package.pkg"
     LogicalPath="Config1.PC.Connectivity.OpcUA"
     Type="Package"
-    LastWriteTime="133645147900000000" />
+    LastWriteTime="133834387666091065" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133752382724171145"
+    LastWriteTime="133834387666091065"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUaFx\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUaFx\Package.pkg"
     LogicalPath="Config1.PC.Connectivity.OpcUaFx"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666096224" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\TextSystem\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\TextSystem\Package.pkg"
     LogicalPath="Config1.PC.TextSystem"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666106357" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\UnitSystem\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\UnitSystem\Package.pkg"
     LogicalPath="Config1.PC.UnitSystem"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666106357" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666075845" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem"
     Type="Package"
-    LastWriteTime="133650277388274975" />
+    LastWriteTime="133834387666085924" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Role.role"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\Role.role"
     LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem.Role.role"
     Type="File"
-    LastWriteTime="133728729727722303"
+    LastWriteTime="133834387666085924"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\User.user"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\UserRoleSystem\User.user"
     LogicalPath="Config1.PC.AccessAndSecurity.UserRoleSystem.User.user"
     Type="File"
-    LastWriteTime="133728806671313895"
+    LastWriteTime="133837644770403676"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666065902" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666055914" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666055914" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666065902" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666065902" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666065902" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666045907" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666045907" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.TransportLayerSecurity"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666075845" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Firewall\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Firewall\Package.pkg"
     LogicalPath="Config1.PC.AccessAndSecurity.Firewall"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666075845" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules"
     LogicalPath="Config1.PC.AccessAndSecurity.Firewall.Rules.firewallRules"
     Type="File"
-    LastWriteTime="133645125280000000"
+    LastWriteTime="133834387666075845"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappControl\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappControl\Package.pkg"
     LogicalPath="Config1.PC.mappControl"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666116329" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappMotion\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappMotion\Package.pkg"
     LogicalPath="Config1.PC.mappMotion"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666116329" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappServices\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappServices\Package.pkg"
     LogicalPath="Config1.PC.mappServices"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666126355" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappSafety\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappSafety\Package.pkg"
     LogicalPath="Config1.PC.mappSafety"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666116329" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappSafety\SafeApplication\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappSafety\SafeApplication\Package.pkg"
     LogicalPath="Config1.PC.mappSafety.SafeApplication"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666126355" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappSafety\SafeCommissioning\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappSafety\SafeCommissioning\Package.pkg"
     LogicalPath="Config1.PC.mappSafety.SafeCommissioning"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666126355" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\Package.pkg"
     LogicalPath="Config1.PC.mappView"
     Type="Package"
-    LastWriteTime="133749566807517705" />
+    LastWriteTime="133834387666136369" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\Visualizat.vis"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\Visualizat.vis"
     LogicalPath="Config1.PC.mappView.Visualizat.vis"
     Type="File"
-    LastWriteTime="133754757308507395"
+    LastWriteTime="133834387666136369"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\Config.mappviewcfg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\Config.mappviewcfg"
     LogicalPath="Config1.PC.mappView.Config.mappviewcfg"
     Type="File"
-    LastWriteTime="133728725448000390"
+    LastWriteTime="133834387666126355"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\Main_content.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\Main_content.binding"
     LogicalPath="Config1.PC.mappView.Main_content.binding"
     Type="File"
-    LastWriteTime="133728788295634725"
+    LastWriteTime="133834387666126355"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_1.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_1.binding"
     LogicalPath="Config1.PC.mappView.content_1.binding"
     Type="File"
-    LastWriteTime="133725581110851493"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_9.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_9.binding"
     LogicalPath="Config1.PC.mappView.content_9.binding"
     Type="File"
-    LastWriteTime="133725581775569980"
+    LastWriteTime="133834387666156344"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_2.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_2.binding"
     LogicalPath="Config1.PC.mappView.content_2.binding"
     Type="File"
-    LastWriteTime="133752374857071928"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_11.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_11.binding"
     LogicalPath="Config1.PC.mappView.content_11.binding"
     Type="File"
-    LastWriteTime="133676968058875052"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_3.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_3.binding"
     LogicalPath="Config1.PC.mappView.content_3.binding"
     Type="File"
-    LastWriteTime="133677010507972136"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_2.eventbinding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_2.eventbinding"
     LogicalPath="Config1.PC.mappView.content_2.eventbinding"
     Type="File"
-    LastWriteTime="133681400052723254"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_15.eventbinding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_15.eventbinding"
     LogicalPath="Config1.PC.mappView.content_15.eventbinding"
     Type="File"
-    LastWriteTime="133682173044092005"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_6.eventbinding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_6.eventbinding"
     LogicalPath="Config1.PC.mappView.content_6.eventbinding"
     Type="File"
-    LastWriteTime="133746919213919418"
+    LastWriteTime="133834387666146374"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.binding"
     LogicalPath="Config1.PC.mappView.OverviewEx1.binding"
     Type="File"
-    LastWriteTime="133728787433862076"
+    LastWriteTime="133834387666136369"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\QCS.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\QCS.binding"
     LogicalPath="Config1.PC.mappView.QCS.binding"
     Type="File"
-    LastWriteTime="133746951770045515"
+    LastWriteTime="133834387666136369"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\QCS.eventbinding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\QCS.eventbinding"
     LogicalPath="Config1.PC.mappView.QCS.eventbinding"
     Type="File"
-    LastWriteTime="133746998297633385"
+    LastWriteTime="133834387666136369"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappView\content_7.binding"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappView\content_7.binding"
     LogicalPath="Config1.PC.mappView.content_7.binding"
     Type="File"
-    LastWriteTime="133752101007702945"
+    LastWriteTime="133834387666156344"
     Private="false" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappVision\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappVision\Package.pkg"
     LogicalPath="Config1.PC.mappVision"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666156344" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\PC\mappCockpit\Package.pkg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\mappCockpit\Package.pkg"
     LogicalPath="Config1.PC.mappCockpit"
     Type="Package"
-    LastWriteTime="133645125280000000" />
+    LastWriteTime="133834387666116329" />
   <Object
-    Path="C:\projects\BR-SCADA\Physical\Config1\Hardware.jpg"
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\IoMap_1.iom"
+    LogicalPath="Config1.PC.IoMap_1.iom"
+    Type="File"
+    LastWriteTime="133836984889964565"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Arnc0cfg.ncc"
+    LogicalPath="Config1.PC.Arnc0cfg.ncc"
+    Type="File"
+    LastWriteTime="133836985075891512"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Acp10cfg.ncc"
+    LogicalPath="Config1.PC.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="133836985115366609"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Acp10map.ncm"
+    LogicalPath="Config1.PC.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="133836985118055952"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Acp10sys.br"
+    LogicalPath="Config1.PC.Acp10sys.br"
+    Type="File"
+    LastWriteTime="133836985120728933"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="133645128820000000"
+    LastWriteTime="133834387666035894"
     Private="false" />
 </Objects>
