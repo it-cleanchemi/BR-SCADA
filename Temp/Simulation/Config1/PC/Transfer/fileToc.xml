@@ -43,7 +43,7 @@
 					<File Name="-1284390361.binding" Size="1022" HashValue="541D2F33A893611E0EC315CC233DEF0D" ProjectDependent="1"/>
 					<File Name="-1285506712.binding" Size="1107" HashValue="24F508FCDA753ABA3198A4FD3ABEC370" ProjectDependent="1"/>
 					<File Name="-1291218519.binding" Size="1086" HashValue="191BFA36C99DBC1827A9D2E042409CAE" ProjectDependent="1"/>
-					<File Name="-1300688991.binding" Size="781" HashValue="40EAAF248D9ACEECA0BBD5F3C996698C" ProjectDependent="1"/>
+					<File Name="-1300688991.binding" Size="805" HashValue="4127EA544A7EE696AEB0E98A396E1102" ProjectDependent="1"/>
 					<File Name="-1828126927.binding" Size="283" HashValue="C5617E7865015AE9024DB1791182060C" ProjectDependent="1"/>
 					<File Name="1546160238.eventbinding" Size="836" HashValue="5DD47DD1A9D5E670AEED8763CEA6FA0B" ProjectDependent="1"/>
 					<File Name="1549922855.binding" Size="1204" HashValue="C3F3411054F12B40A67322896BF63C39" ProjectDependent="1"/>
@@ -2595,7 +2595,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="819" HashValue="B1F75385146CD95A171A432A0CE50C58" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="368" HashValue="60BF51E23E4C58DE4B04E91359399007" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

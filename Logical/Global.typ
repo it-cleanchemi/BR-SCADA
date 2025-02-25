@@ -1,29 +1,47 @@
-(*Testing Variables*)
+(*Global Structrues*)
 
 TYPE
+	Pump_Data_Real : 	STRUCT 
+	END_STRUCT;
+	Modbus_Type : 	STRUCT 
+		Pump_Data_Real : ARRAY[0..5]OF USINT;
+	END_STRUCT;
+	Skid_type : 	STRUCT 
+		Pmax_Pumps : Pmax_Pumps_type;
+		Pmax_Pump_101 : Pmax_Pump_101_type;
+		Pmax_Pump_101b : Pmax_Pump_101b_type;
+		Pmax_Pump_102 : Pmax_Pump_102_type;
+		BufferTank : BufferTank_Variables;
+		GeneralDosingVariables : Dosing_General_Variables_type;
+		Pmax_General_Variables : Pmax_General_Variables_type;
+	END_STRUCT;
+	Vis_Type : 	STRUCT 
+		Pumps : USINT;
+		Main : Vis_Main_type;
+		Global : USINT;
+	END_STRUCT;
+	Par_Type : 	STRUCT 
+	END_STRUCT;
+	Rem_Type : 	STRUCT 
+		New_Member : USINT;
+	END_STRUCT;
 	CMD_type : 	STRUCT 
 		Stop : BOOL;
 		Start : BOOL;
 	END_STRUCT;
-	IO_type : 	STRUCT 
-		Modbus : Modbus_type;
-	END_STRUCT;
-	Modbus_type : 	STRUCT 
-		pmax_rate : REAL;
-		pmax_conc : REAL;
-		msgbox : UINT;
-		start_stop : BOOL;
-		skid_id : UINT;
-		SkidIDWrite : UINT;
-		SkidIDAck : BOOL;
-		SkidIDSend : BOOL;
-	END_STRUCT;
 END_TYPE
 
 (**)
-(*Dosing Pump Alarms*)
 
 TYPE
+	Vis_Main_In_type : 	STRUCT 
+		TestButton : BOOL;
+	END_STRUCT;
+	Vis_Main_type : 	STRUCT 
+		In : Vis_Main_In_type;
+		Internal : USINT;
+		Out : USINT;
+	END_STRUCT;
 	Dosing_Alarms : 	STRUCT  (*Dosing Pump Alarm Variables*)
 		alarm : UINT;
 		p201_alarm : UINT;
@@ -37,21 +55,22 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*Dosing Pump Alarms*)
 (**)
 (*Dosing Side General Variables*)
 
 TYPE
-	Dosing_General_Variables : 	STRUCT  (*Dosing Pump Variables*)
+	Dosing_General_Variables_type : 	STRUCT  (*Dosing Pump Variables*)
 		skid_id_dose : UINT;
 		time_stamp : UINT;
-		Pump_201 : Dosing_Pump_201;
-		Pump_202 : Dosing_Pump_202;
-		Pump_203 : Dosing_Pump_203;
-		Pump_204 : Dosing_Pump_204;
-		Pump_205 : Dosing_Pump_205;
-		Pump_206 : Dosing_Pump_206;
-		Pump_207 : Dosing_Pump_207;
-		Pump_208 : Dosing_Pump_208;
+		Pump_201 : Dosing_Pump_201_type;
+		Pump_202 : Dosing_Pump_202_type;
+		Pump_203 : Dosing_Pump_203_type;
+		Pump_204 : Dosing_Pump_204_type;
+		Pump_205 : Dosing_Pump_205_type;
+		Pump_206 : Dosing_Pump_206_type;
+		Pump_207 : Dosing_Pump_207_type;
+		Pump_208 : Dosing_Pump_208_type;
 	END_STRUCT;
 END_TYPE
 
@@ -117,7 +136,7 @@ END_TYPE
 (*Pmax Generation General Variables*)
 
 TYPE
-	Pmax_General_Variables : 	STRUCT  (*PeroxyMax General Variables*)
+	Pmax_General_Variables_type : 	STRUCT  (*PeroxyMax General Variables*)
 		time_stamp : UINT; (*Pmax Time Stamp*)
 		skid_id : UINT; (*Pmax Skid ID*)
 		is_on : UINT; (*Pmax Generation is ON*)
@@ -150,14 +169,14 @@ END_TYPE
 (*All Pumps Below*)
 
 TYPE
-	Pmax_Pumps : 	STRUCT  (*Peroxymax Pump Variables*)
-		Pump_101 : Pmax_Pump_101;
-		Pump_101b : Pmax_Pump_101b;
-		Pump_102 : Pmax_Pump_102;
-		Pump_103 : Pmax_Pump_103;
-		Pump_104 : Pmax_Pump_104;
+	Pmax_Pumps_type : 	STRUCT  (*Peroxymax Pump Variables*)
+		Pump_101 : Pmax_Pump_101_type;
+		Pump_101b : Pmax_Pump_101b_type;
+		Pump_102 : Pmax_Pump_102_type;
+		Pump_103 : Pmax_Pump_103_type;
+		Pump_104 : Pmax_Pump_104_type;
 	END_STRUCT;
-	Pmax_Pump_101 : 	STRUCT  (*Pmax Generation Variables for Pump 101*)
+	Pmax_Pump_101_type : 	STRUCT  (*Pmax Generation Variables for Pump 101*)
 		p101_sp : REFERENCE TO UINT; (*Pump 101 Setpoint*)
 		p101_sp_Write : UINT; (*Pump 101 Write to Setpoint*)
 		p101_sp_Ack : BOOL; (*Pump 101 Ack for Setpoint*)
@@ -168,7 +187,7 @@ TYPE
 		p101_fm_tot : UINT; (*Pump 101 Flowmeter Totatilizer*)
 		p101_g_tm : UINT; (*Pump 101 Graph Time Setpoint*)
 	END_STRUCT;
-	Pmax_Pump_101b : 	STRUCT  (*Pmax Generation Variables for Pump 101b*)
+	Pmax_Pump_101b_type : 	STRUCT  (*Pmax Generation Variables for Pump 101b*)
 		p101b_sp_Write : UINT; (*Pump 101 Write to Setpoint*)
 		p101b_sp_Ack : BOOL; (*Pump 101 Ack for Setpoint*)
 		p101_sp_Send : BOOL; (*Pump 101 Send for Setpoint*)
@@ -177,7 +196,7 @@ TYPE
 		p101b_fb : UINT; (*Pump 101b Feedback percentage*)
 		p101b_g_tm : UINT; (*Pump 101b Graph time*)
 	END_STRUCT;
-	Pmax_Pump_102 : 	STRUCT  (*Pmax Generation Variables for Pump 102*)
+	Pmax_Pump_102_type : 	STRUCT  (*Pmax Generation Variables for Pump 102*)
 		p102_sp : UINT; (*Pump 102 Setpoint*)
 		p102_sp_Write : UINT; (*Pump 102 Write to Setpoint*)
 		p102_sp_Ack : BOOL; (*Pump 102 Ack for Setpoint*)
@@ -188,7 +207,7 @@ TYPE
 		p102_fm_tot : UINT; (*Pump 102 Flowmeter Totatilizer*)
 		p102_g_tm : UINT; (*Pump 102 Graph Time*)
 	END_STRUCT;
-	Pmax_Pump_103 : 	STRUCT  (*Pmax Generation Variables for Pump 103*)
+	Pmax_Pump_103_type : 	STRUCT  (*Pmax Generation Variables for Pump 103*)
 		p103_sp : UINT; (*Pump 103 Setpoint*)
 		p103_sp_Write : UINT; (*Pump 103 Write to Setpoint*)
 		p103_sp_Ack : BOOL; (*Pump 103 Ack for Setpoint*)
@@ -199,7 +218,7 @@ TYPE
 		p103_fm_tot : UINT; (*Pump 103 Flowmeter Totatilizer*)
 		p103_g_tm : UINT; (*Pump 103 Graph Time*)
 	END_STRUCT;
-	Pmax_Pump_104 : 	STRUCT  (*Pmax Generation Variables for Pump 104*)
+	Pmax_Pump_104_type : 	STRUCT  (*Pmax Generation Variables for Pump 104*)
 		p104_sp : UINT; (*Pump 104 Setpoint*)
 		p104_sp_Write : UINT; (*Pump 104 Write to Setpoint*)
 		p104_sp_Ack : BOOL; (*Pump 104 Ack for Setpoint*)
@@ -210,7 +229,7 @@ TYPE
 		p104_g_tm : UINT; (*Pump 104 Graph Time *)
 		p104_fm_tot : UINT; (*Pump 104 Flowmeter Totatilizer*)
 	END_STRUCT;
-	Dosing_Pump_201 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
+	Dosing_Pump_201_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
 		p201_is_on : UINT;
 		p201_sp_Write : UINT; (*Pump 201 Write to Setpoint*)
 		p201_sp_Ack : BOOL; (*Pump 201 Ack for Setpoint*)
@@ -229,7 +248,7 @@ TYPE
 		p201_pi : UINT;
 		p201_g_tm : UINT; (*Pump 201 Graph Time *)
 	END_STRUCT;
-	Dosing_Pump_202 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
+	Dosing_Pump_202_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		p202_is_on : UINT;
 		p202_chem : UINT;
 		p202_ref_fm : UINT;
@@ -248,7 +267,7 @@ TYPE
 		p202_pi : UINT;
 		p202_g_tm : UINT; (*Pump 202 Graph Time*)
 	END_STRUCT;
-	Dosing_Pump_203 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
+	Dosing_Pump_203_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		p203_is_on : UINT;
 		p203_chem : UINT;
 		p203_ref_fm : UINT;
@@ -267,7 +286,7 @@ TYPE
 		p203_pi : UINT;
 		p203_g_tm : UINT; (*Pump 203 Graph Time *)
 	END_STRUCT;
-	Dosing_Pump_204 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
+	Dosing_Pump_204_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
 		p204_is_on : UINT;
 		p204_chem : UINT;
 		p204_ref_fm : UINT;
@@ -286,7 +305,7 @@ TYPE
 		p204_pi : UINT;
 		p204_g_tm : UINT; (*Pump 204 Graph Time*)
 	END_STRUCT;
-	Dosing_Pump_205 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 205*)
+	Dosing_Pump_205_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 205*)
 		p205_is_on : UINT;
 		p205_chem : UINT;
 		p205_ref_fm : UINT;
@@ -305,7 +324,7 @@ TYPE
 		p205_pi : UINT;
 		p205_g_tm : UINT; (*Pump 205 Graph Time*)
 	END_STRUCT;
-	Dosing_Pump_206 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 206*)
+	Dosing_Pump_206_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 206*)
 		p206_is_on : UINT;
 		p206_chem : UINT;
 		p206_ref_fm : UINT;
@@ -324,7 +343,7 @@ TYPE
 		p206_pi : UINT;
 		p206_g_tm : UINT; (*Pump 206 Graph Time*)
 	END_STRUCT;
-	Dosing_Pump_207 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
+	Dosing_Pump_207_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
 		p207_is_on : UINT;
 		p207_chem : UINT;
 		p207_ref_fm : UINT;
@@ -343,7 +362,7 @@ TYPE
 		p207_pi : UINT;
 		p207_g_tm : UINT; (*Pump 207 Graph time*)
 	END_STRUCT;
-	Dosing_Pump_208 : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
+	Dosing_Pump_208_type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
 		p208_is_on : UINT;
 		p208_chem : UINT;
 		p208_ref_fm : UINT;
@@ -370,10 +389,6 @@ END_TYPE
 TYPE
 	Sys_Mode_Information : 	STRUCT 
 		Sys_Mode : UINT; (*Mode for Visability/Changability of Variables*)
-	END_STRUCT;
-	Skid_Type : 	STRUCT 
-		Pmax_Pumps : Pmax_Pumps;
-		Pmax_Pump_101 : Pmax_Pump_101;
 	END_STRUCT;
 	ModbusDriver_type : 	STRUCT 
 		BlockRecieved : BOOL;

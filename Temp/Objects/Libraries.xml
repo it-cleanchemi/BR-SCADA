@@ -14,8 +14,20 @@
     UseAsStatic="false"
     Version="3.13.1" />
   <Library
+    Name="AsARCfg"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
     Name="AsIecCon"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
@@ -32,11 +44,29 @@
     UseAsStatic="false"
     Version="" />
   <Library
-    Name="astime"
-    IsDeployed="false"
+    Name="AsTCP"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="IDEC_Real"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="MbusTCP"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="2.00.0" />
   <Library
     Name="NcGlobal"
     IsDeployed="true"
@@ -57,6 +87,12 @@
     Version="" />
   <Library
     Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"

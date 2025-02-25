@@ -12,8 +12,9 @@
     <Object Type="File" Description="Global data types">Services.typ</Object>
     <Object Type="File" Description="Global data types">IO.typ</Object>
     <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package" Description="Programs">modbusTCP</Object>
     <Object Type="Program" Language="IEC">Main</Object>
     <Object Type="Package">mappView</Object>
-    <Object Type="Program" Language="IEC">ModbusDriver</Object>
+    <Object Type="Program" Language="IEC">Vis</Object>
   </Objects>
 </Package>

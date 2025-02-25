@@ -1,0 +1,13 @@
+$(AS_CPU_PATH)/mbustcp/mbmaster.c.o:
+$(AS_PROJECT_PATH)/logical/modbustcp/mbustcp/mbmaster.c
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/mbustcp.h
+$(AS_TEMP_PATH)/includes/astime.h
+$(AS_TEMP_PATH)/includes/runtime.h
+$(AS_TEMP_PATH)/includes/asieccon.h
+$(AS_TEMP_PATH)/includes/standard.h
+$(AS_TEMP_PATH)/includes/astcp.h
+$(AS_TEMP_PATH)/includes/asbrstr.h
+$(AS_TEMP_PATH)/includes/asarcfg.h
+$(AS_TEMP_PATH)/includes/sys_lib.h

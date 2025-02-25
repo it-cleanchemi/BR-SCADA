@@ -1,15 +1,16 @@
 
 PROGRAM _INIT
-	gIO;
+	
+	gVis;
 	
 END_PROGRAM
 
 PROGRAM _CYCLIC
 	
-	FOR IdxSkid := 0 TO MAX_SKIDS DO
+	FOR IdxSkids := 0 TO MAX_SKIDS DO
 		
-	  	gSkid_General[IdxSkid].Start := gCmd[IdxSkid].Start;
-
+		//gSkid[IdxSkid].GeneralDosingVariables.Pump_204.p204_appm := 
+		
 	END_FOR;
 
 	
@@ -19,4 +20,3 @@ PROGRAM _EXIT
 	(* Insert code here *)
 	 
 END_PROGRAM
-

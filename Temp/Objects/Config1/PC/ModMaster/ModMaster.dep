@@ -1,0 +1,10 @@
+$(AS_PROJECT_PATH)/Logical/modbusTCP/IDEC_Real/IDEC_Real.fun
+$(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/MbusTCP.fun
+$(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/Types.typ
+$(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsARCfg/AsARCfg.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/modbusTCP/ModMaster/ModMaster.var
+$(AS_PROJECT_PATH)/Logical/Constants.var

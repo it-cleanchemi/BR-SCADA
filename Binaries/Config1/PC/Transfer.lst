@@ -3,13 +3,18 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="B4.93"/>
   <Hardware Target="SG4"/>
-  <Operation Delete="ModbusDriv.br"/>
   <Operation Delete="Main.br"/>
-  <Operation Delete="mvLoader.br"/>
+  <Operation Delete="ModMaster.br"/>
   <Operation Delete="AsOpcUas.br"/>
-  <Operation Delete="asieccon.br"/>
-  <Operation Delete="arssl.br"/>
+  <Operation Delete="mvLoader.br"/>
+  <Operation Delete="IDEC_Real.br"/>
+  <Operation Delete="MbusTCP.br"/>
+  <Operation Delete="AsTCP.br"/>
+  <Operation Delete="AsARCfg.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="AsIecCon.br"/>
   <Operation Delete="AsOpcUac.br"/>
+  <Operation Delete="arssl.br"/>
   <Operation Delete="Acp10man.br"/>
   <Operation Delete="fileio.br"/>
   <Operation Delete="astime.br"/>
@@ -18,6 +23,9 @@
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
+  <Operation Download="acp10cfg.br" Memory="UserROM"/>
+  <Operation Download="arnc0cfg.br" Memory="UserROM"/>
+  <Operation Download="Acp10map.br" Memory="UserROM"/>
   <Operation Download="NcGlobal.br" Memory="UserROM"/>
   <Operation Download="powerlnk.br" Memory="UserROM"/>
   <Operation Download="Acp10par.br" Memory="UserROM"/>
@@ -26,23 +34,26 @@
   <Operation Download="fileio.br" Memory="UserROM"/>
   <Operation Download="Acp10man.br" Memory="UserROM"/>
   <Operation Download="Acp10sys.br" Memory="UserROM"/>
-  <Operation Download="acp10cfg.br" Memory="UserROM"/>
-  <Operation Download="Acp10map.br" Memory="UserROM"/>
-  <Operation Download="arnc0cfg.br" Memory="UserROM"/>
   <Operation Restart="warm"/>
-  <Operation Download="AsOpcUac.br" Memory="UserROM"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
-  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="AsOpcUac.br" Memory="UserROM"/>
+  <Operation Download="AsIecCon.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="AsARCfg.br" Memory="UserROM"/>
   <Operation Download="standard.br" Memory="UserROM"/>
-  <Operation Download="AsOpcUas.br" Memory="UserROM"/>
-  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="AsTCP.br" Memory="UserROM"/>
+  <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="MbusTCP.br" Memory="UserROM"/>
+  <Operation Download="IDEC_Real.br" Memory="UserROM"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
-  <Operation Download="iomap.br" Memory="UserROM"/>
-  <Operation Download="mvLoader.br" Memory="UserROM"/>
-  <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="AsOpcUas.br" Memory="UserROM"/>
+  <Operation Download="ModMaster.br" Memory="UserROM"/>
   <Operation Download="Main.br" Memory="UserROM"/>
-  <Operation Download="ModbusDriv.br" Memory="UserROM"/>
 </Transfer>

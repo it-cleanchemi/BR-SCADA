@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250219150620_
-#define _LIBRARIES_20250219150620_
+#ifndef _LIBRARIES_20250224121316_
+#define _LIBRARIES_20250224121316_
 
 __asm__(".section \".plc\"");
 
@@ -33,6 +33,24 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsARCfg/AsARCfg.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsARCfg/AsARCfg.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsARCfg/AsARCfg.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -550,9 +568,199 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope 
 	__asm__(".ascii \"plcexport \\\"REPLACE\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"FIND\\\" FUN\\n\"");
 #endif
+#ifdef _ASTCP_EXPORT
+	__asm__(".ascii \"plcexport \\\"TcpOpen\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpOpenSsl\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpServer\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpClient\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpClose\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpSend\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpRecv\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TcpIoctl\\\" FUB\\n\"");
+#endif
+#ifdef _ASBRSTR_EXPORT
+	__asm__(".ascii \"plcexport \\\"brsftoa\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsatof\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsatod\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsitoa\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsatoi\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsmemset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsmemcpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsmemmove\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsmemcmp\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsstrcat\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsstrlen\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsstrcpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brsstrcmp\\\" FUN\\n\"");
+#endif
+#ifdef _ASARCFG_EXPORT
+	__asm__(".ascii \"plcexport \\\"CfgGetInaNode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetInaNode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetIPAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetIPAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSubnetMask\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSubnetMask\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetClusterIPAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetClusterIPAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDefaultGateway\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDefaultGateway\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetBroadcastAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetBroadcastAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetEthBaudrate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetEthBaudrate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetEthConfigMode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetEthConfigMode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetHostName\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetHostName\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetHostNameIf\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetHostNameIf\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetMacAddr\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetFTPServer\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetTimeOffset\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetTimeOffset\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSntpServer\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSntpClient\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSntpcData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSntpsData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetNtpServer\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetNtpsData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetNtpClient\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetNtpcData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetTimeZone\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetTimeZone\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetTimeZoneInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetTimeZoneEntry\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDst\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDst\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetCIFSDomain\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetCIFSDomain\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetCIFSDefaultuser\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetCIFSDefaultuser\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDhcpServer\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDhcpsData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDhcpsData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDhcpcOption\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSdmStatus\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSdmStatus\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgClearNV\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSdmColor\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSdmColor\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSdmCustomData1\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSdmCustomData1\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetSdmCustomData2\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetSdmCustomData2\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebMimeType\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetWebMimeType\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebServerHttpsConfig\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebServerPort\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebServerDevice\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebAspGoform\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetWebAspGoform\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetWebServerStatus\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetWebServerStatus\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDns\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDnsMode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDnsMode\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDnsSuffix\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDnsSuffix\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgGetDnsAddress\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgSetDnsAddress\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgRouteAdd\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"CfgRouteDelete\\\" FUB\\n\"");
+#endif
+#ifdef _SYS_LIB_EXPORT
+	__asm__(".ascii \"plcexport \\\"Byte2Bit\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"Bit2Byte\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"KEY_read\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"KEY_enadis\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_fix\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_copy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_store\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_burn\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_delete\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_read\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_write\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DA_create\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DIS_clr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DIS_chr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DIS_str\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERRxfatal\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERR_read\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERRxread\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERR_fatal\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERR_warning\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ERRxwarning\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SM_release\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SM_attach\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SM_delete\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SM_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SM_create\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TIM_ticks\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TIM_musec\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SW_settime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SW_gettime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTC_settime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTC_gettime\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TMP_free\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"TMP_alloc\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MEM_free\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MEM_alloc\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_release\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_attach\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_cancel\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"AVT_create\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_sleep\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_exit\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_freemsg\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_recmsg\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_sendmsg\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_resume\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_suspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"UT_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_name\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_allsuspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_tmp_resume\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_tmp_suspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_resume\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_suspend\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ST_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"FORCE_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_ver\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_list\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MO_info\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SYS_battery\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SYSreset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SYSxinfo\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"SYS_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xlist\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_ninfo\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_item\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_ident\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_list\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_info\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xgetval\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xsetval\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_xgetadr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_getadr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_getval\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"PV_setval\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"slMoList\\\" FUB\\n\"");
+#endif
+#ifdef _MBUSTCP_EXPORT
+	__asm__(".ascii \"plcexport \\\"MBslave\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MBmaster\\\" FUB\\n\"");
+#endif
+#ifdef _IDEC_REAL_EXPORT
+	__asm__(".ascii \"plcexport \\\"IDEC_REAL_Conv\\\" FUN\\n\"");
+#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250219150620_ */
+#endif /* _LIBRARIES_20250224121316_ */
 

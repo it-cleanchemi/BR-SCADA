@@ -1,25 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
-    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwac.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
-    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
-    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
+    <BuildReason>Target "modmaster.st.o" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
@@ -29,9 +15,14 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\arnc0cfg.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
+    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
+    <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
+    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" differs.
@@ -43,35 +34,7 @@
   <Rule ID=".mappView_IntegrationBuild">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iomap.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sysconf.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\acp10cfg.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asfw.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\acp10map.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ashwd.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\hardware.hw" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\pc\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\arconfig.br" differs.
-</BuildReason>
   </Rule>
 </BuildReasons>

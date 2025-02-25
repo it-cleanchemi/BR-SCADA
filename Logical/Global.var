@@ -1,48 +1,10 @@
 VAR
-	gSkid_General : ARRAY[0..MAX_SKIDS] OF Skid_Type;
 	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_type;
-	gIO : IO_type;
+	gModbus : ARRAY[0..MAX_SKIDS] OF Modbus_Type;
+	gSkid : ARRAY[0..MAX_SKIDS] OF Skid_type;
+	gVis : Vis_Type;
 END_VAR
-(*Pumps 101 - 104*)
-VAR
-	p101_gIO : Pmax_Pump_101;
-	p101b_gIO : Pmax_Pump_101b;
-	p102_gIO : Pmax_Pump_102;
-	p103_gIO : Pmax_Pump_103;
-	p104_gIO : Pmax_Pump_104;
-END_VAR
-(*Pumps 201 - 208*)
-VAR
-	p201_gIO : Dosing_Pump_201;
-	p202_gIO : Dosing_Pump_202;
-	p203_gIO : Dosing_Pump_203;
-	p204_gIO : Dosing_Pump_204;
-	p205_gIO : Dosing_Pump_205;
-	p206_gIO : Dosing_Pump_206;
-	p207_gIO : Dosing_Pump_207;
-	p208_gIO : Dosing_Pump_208;
-END_VAR
-(*Buffer Tank Variables*)
-VAR
-	BufferTank_Var : BufferTank_Variables;
-	gModbusDriver : ARRAY[0..MAX_MODBUS_BLOCKS] OF ModbusDriver_type;
-END_VAR
-(*Conversion Ratio Variables*)
-VAR
-	ConversionRatios_gIO : ConversionRatios;
-END_VAR
-(*Alarm Variables*)
-VAR
-	Pmax_Alarms_gIO : Pmax_Alarms;
-	Dosing_Alarms_gIO : Dosing_Alarms;
-END_VAR
-(*General Variables*)
-VAR
-	Dosing_General_Var_gIO : Dosing_General_Variables;
-	Pmax_General_Var_gIO : Pmax_General_Variables;
-	Sensor_Var_gIO : Sensor_Variables;
-END_VAR
-(*SystemInformation Variables (Space to add MISC)*)
-VAR
-	Sys_Mode_Info_gIO : Sys_Mode_Information;
+VAR RETAIN
+	gPar : Par_Type;
+	gRem : Rem_Type;
 END_VAR
