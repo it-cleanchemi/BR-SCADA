@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250224121316_
-#define _LIBRARIES_20250224121316_
+#ifndef _LIBRARIES_20250225133513_
+#define _LIBRARIES_20250225133513_
 
 __asm__(".section \".plc\"");
 
@@ -49,7 +49,6 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/Types.typ\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
@@ -762,5 +761,5 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250224121316_ */
+#endif /* _LIBRARIES_20250225133513_ */
 

@@ -4,18 +4,6 @@
   <TaskClass
     Name="Cyclic#1">
     <Task
-      Name="ModMaster"
-      Disable="false"
-      Source="modbusTCP.ModMaster"
-      Language="IEC">
-      <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
-      <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
-      <InternalFile
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
-    </Task>
-    <Task
       Name="Main"
       Disable="false"
       Source="Main"
@@ -31,7 +19,20 @@
     </Task>
   </TaskClass>
   <TaskClass
-    Name="Cyclic#2" />
+    Name="Cyclic#2">
+    <Task
+      Name="ModMaster"
+      Disable="false"
+      Source="modbusTCP.ModMaster"
+      Language="IEC">
+      <File
+        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
+      <File
+        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
+      <InternalFile
+        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#3" />
   <TaskClass

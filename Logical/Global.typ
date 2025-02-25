@@ -5,6 +5,12 @@ TYPE
 	END_STRUCT;
 	Modbus_Type : 	STRUCT 
 		Pump_Data_Real : ARRAY[0..5]OF USINT;
+		Pump_Data_201 : Modbus_Pump_Type;
+		Pump_Data_202 : Modbus_Pump_Type;
+		Pump_Data_203 : Modbus_Pump_Type;
+		Pump_Data5 : Modbus_Pump_Type;
+		Pump_Data1 : Modbus_Pump_Type;
+		Modbus_SkidMisc : Modbus_SkidMisc_Type;
 	END_STRUCT;
 	Skid_type : 	STRUCT 
 		Pmax_Pumps : Pmax_Pumps_type;
@@ -14,6 +20,7 @@ TYPE
 		BufferTank : BufferTank_Variables;
 		GeneralDosingVariables : Dosing_General_Variables_type;
 		Pmax_General_Variables : Pmax_General_Variables_type;
+		Dosing_Pump_201 : Dosing_Pump_201_type;
 	END_STRUCT;
 	Vis_Type : 	STRUCT 
 		Pumps : USINT;
@@ -56,6 +63,18 @@ TYPE
 END_TYPE
 
 (*Dosing Pump Alarms*)
+
+TYPE
+	Modbus_Pump_Type : 	STRUCT 
+		Block_Int : ARRAY[0..7]OF INT;
+		Block_Real : ARRAY[0..13]OF REAL;
+	END_STRUCT;
+	Modbus_SkidMisc_Type : 	STRUCT 
+		Block_Int : ARRAY[0..10]OF INT;
+		Block_Real : ARRAY[0..20]OF REAL;
+	END_STRUCT;
+END_TYPE
+
 (**)
 (*Dosing Side General Variables*)
 

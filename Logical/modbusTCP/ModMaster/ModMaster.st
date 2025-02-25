@@ -11,22 +11,97 @@ PROGRAM _INIT
 	// --------------------------------------------------------------------
 	// Sample FOR reading/writing data from/TO a modbusTCP slave
 	// --------------------------------------------------------------------
+	
+	
+	// AS Block 1
 	MasterConfig.action_enable[0].cyclic 	:= 1;			// Read data cyclic 
-	MasterConfig.action_param[0].p_pv		:= ADR(REAL_In[0]);	// Store data in this variable 
-	MasterConfig.action_param[0].quantity 	:= 8;			// Number of items to read 
+	MasterConfig.action_param[0].p_pv		:= ADR(gModbus[IdxSkids].Modbus_SkidMisc.Block_Int[0]);	// Store data in this variable 
+	MasterConfig.action_param[0].quantity 	:= 1;			// Number of items to read 
 	MasterConfig.action_param[0].unit 		:= 1;			// Unit address - ignore if not specified 
-	MasterConfig.action_param[0].start_addr := 6050;		// Read from this modbus address 
+	MasterConfig.action_param[0].start_addr := 7000;		// Read from this modbus address 
 	MasterConfig.action_param[0].timer 		:= 100;			// Refresh timer for this item 
 	MasterConfig.action_param[0].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
-
 	
+	// AS Block 2
 	MasterConfig.action_enable[1].cyclic 	:= 1;			// Read data cyclic 
-	MasterConfig.action_param[1].p_pv		:= ADR(UINT_In[0]);	// Store data in this variable 
-	MasterConfig.action_param[1].quantity 	:= 10;			// Number of items to read 
+	MasterConfig.action_param[1].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_201.Block_Int[0]);	// Store data in this variable 
+	MasterConfig.action_param[1].quantity 	:= 5;			// Number of items to read 
 	MasterConfig.action_param[1].unit 		:= 1;			// Unit address - ignore if not specified 
-	MasterConfig.action_param[1].start_addr := 7000;		// Read from this modbus address 
+	MasterConfig.action_param[1].start_addr := 7100;		// Read from this modbus address 
 	MasterConfig.action_param[1].timer 		:= 100;			// Refresh timer for this item 
 	MasterConfig.action_param[1].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+	
+	// AS Block 3
+	MasterConfig.action_enable[2].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[2].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_201.Block_Real[0]);	// Store data in this variable 
+	MasterConfig.action_param[2].quantity 	:= 22;			// Number of items to read 
+	MasterConfig.action_param[2].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[2].start_addr := 7110;		// Read from this modbus address 
+	MasterConfig.action_param[2].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[2].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+	
+	// AS Block 4
+	MasterConfig.action_enable[3].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[3].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_202.Block_Int[0]);	// Store data in this variable 
+	MasterConfig.action_param[3].quantity 	:= 5;			// Number of items to read 
+	MasterConfig.action_param[3].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[3].start_addr := 7140;		// Read from this modbus address 
+	MasterConfig.action_param[3].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[3].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
+	
+	// AS Block 5
+	MasterConfig.action_enable[4].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[4].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_202.Block_Real[0]);	// Store data in this variable 
+	MasterConfig.action_param[4].quantity 	:= 22;			// Number of items to read 
+	MasterConfig.action_param[4].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[4].start_addr := 7150;		// Read from this modbus address 
+	MasterConfig.action_param[4].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[4].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+	
+	// AS Block 6
+	MasterConfig.action_enable[5].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[5].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_203.Block_Int[0]);	// Store data in this variable 
+	MasterConfig.action_param[5].quantity 	:= 5;			// Number of items to read 
+	MasterConfig.action_param[5].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[5].start_addr := 7180;		// Read from this modbus address 
+	MasterConfig.action_param[5].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[5].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
+	
+	// AS Block 7
+	MasterConfig.action_enable[6].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[6].p_pv		:= ADR(gModbus[IdxSkids].Pump_Data_203.Block_Real[0]);	// Store data in this variable 
+	MasterConfig.action_param[6].quantity 	:= 22;			// Number of items to read 
+	MasterConfig.action_param[6].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[6].start_addr := 7190;		// Read from this modbus address 
+	MasterConfig.action_param[6].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[6].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
+	
+	// AS Block 8
+	MasterConfig.action_enable[7].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[7].p_pv		:= ADR(gModbus[IdxSkids].Modbus_SkidMisc.Block_Real[0]);	// Store data in this variable 
+	MasterConfig.action_param[7].quantity 	:= 10;			// Number of items to read 
+	MasterConfig.action_param[7].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[7].start_addr := 7620;		// Read from this modbus address 
+	MasterConfig.action_param[7].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[7].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+	
+	// AS Block 9
+	MasterConfig.action_enable[8].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[8].p_pv		:= ADR(gModbus[IdxSkids].Modbus_SkidMisc.Block_Real[5]);	// Store data in this variable 
+	MasterConfig.action_param[8].quantity 	:= 7;			// Number of items to read 
+	MasterConfig.action_param[8].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[8].start_addr := 6050;		// Read from this modbus address 
+	MasterConfig.action_param[8].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[8].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+	
+	// AS Block 10
+	MasterConfig.action_enable[9].cyclic 	:= 1;			// Read data cyclic 
+	MasterConfig.action_param[9].p_pv		:= ADR(gModbus[IdxSkids].Modbus_SkidMisc.Block_Int[1]);	// Store data in this variable 
+	MasterConfig.action_param[9].quantity 	:= 3;			// Number of items to read 
+	MasterConfig.action_param[9].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[9].start_addr := 6100;		// Read from this modbus address 
+	MasterConfig.action_param[9].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[9].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	//	MasterConfig.action_enable[1].cyclic 	:= 1;			// Read data cyclic 
 	//	MasterConfig.action_param[1].p_pv		:= ADR(A_In[1]);	// Store data in this variable 
@@ -738,8 +813,14 @@ PROGRAM _CYCLIC
 				reset_error := 0;
 			END_IF
 			
+			//AS Block 1
+			gSkid[IdxSkids].Pmax_General_Variables.skid_id := UINT_In[0];
+			//AS Block 2
+			gSkid[IdxSkids].Dosing_Pump_201.p201_is_on := UINT_In[1];
+			gSkid[IdxSkids].Dosing_Pump_201.p201_ref_fm := UINT_In[5];
+			//AS Block 3
+			//AS Block 4
 			
-			gSkid[IdxSkids].Pmax_General_Variables.skid_id := UINT_In[0]);
 			
 		END_FOR;
 	END_IF

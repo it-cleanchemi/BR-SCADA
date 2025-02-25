@@ -1,16 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\MbusTCP\MBcommon.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="81">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\MbusTCP\MBslave.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="391">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\MbusTCP\MBmaster.c" CaretLine="1" CaretColumn="1" FirstVisibleLine="136">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="743" CaretColumn="4" FirstVisibleLine="722">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="103" CaretColumn="65" FirstVisibleLine="76">
     <Bookmarks />
   </TextEdit>
 </State>

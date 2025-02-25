@@ -3,7 +3,6 @@
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="PC" Type="PC_any" Version="1.1.1.0" OrderNumber="PC">
     <Connector Name="IF3">
-      <Parameter ID="InternetAddress" Value="0.0.0.0" />
       <Parameter ID="ActivateModbus" Value="1" />
       <Parameter ID="NumSlaves" Value="-1" />
       <Parameter ID="NumAllBlocks" Value="-1" />
@@ -12,8 +11,7 @@
       <Parameter ID="SlaveDiagnostics" Value="1" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
-    <Parameter ID="SystemTick" Value="1000" />
-    <Parameter ID="Cyclic1Duration" Value="5000" />
+    <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="0" />
     <Group ID="FileDevice1" />
     <Parameter ID="FileDeviceName1" Value="USER" />
