@@ -14,14 +14,11 @@ TYPE
 		Modbus_SkidMisc : Modbus_SkidMisc_Type;
 	END_STRUCT;
 	Skid_type : 	STRUCT 
-		Pmax_Pumps : Pmax_Pumps_Type;
 		Pmax_Pump_101 : Pmax_Pump_101_Type;
-		Pmax_Pump_101b : Pmax_Pump_101b_Type;
 		Pmax_Pump_103 : Pmax_Pump_103_Type;
 		Pmax_Pump_104 : Pmax_Pump_104_Type;
 		Pmax_Pump_102 : Pmax_Pump_102_Type;
 		BufferTank : BufferTank_Variables_Type;
-		GeneralDosingVariables : Dosing_General_Variables_Type;
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
@@ -37,7 +34,7 @@ END_TYPE
 TYPE
 	Vis_Type : 	STRUCT 
 		Pumps : USINT;
-		Main : Vis_Main_type;
+		Main : Vis_Main_Type;
 		Global : USINT;
 	END_STRUCT;
 END_TYPE
@@ -76,7 +73,7 @@ TYPE
 		TestButton : BOOL;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
-		In : Vis_Main_In_type;
+		In : Vis_Main_In_Type;
 		Internal : USINT;
 		Out : USINT;
 	END_STRUCT;
@@ -104,24 +101,6 @@ TYPE
 	Modbus_SkidMisc_Type : 	STRUCT 
 		Block_Int : ARRAY[0..10]OF INT;
 		Block_Real : ARRAY[0..30]OF REAL;
-	END_STRUCT;
-END_TYPE
-
-(**)
-(*Dosing Side General Variables   ---   Delete??*)
-
-TYPE
-	Dosing_General_Variables_type : 	STRUCT  (*Dosing Pump Variables*)
-		skid_id_dose : UINT;
-		time_stamp : UINT;
-		Pump_201 : Dosing_Pump_201_type;
-		Pump_202 : Dosing_Pump_202_type;
-		Pump_203 : Dosing_Pump_203_type;
-		Pump_204 : Dosing_Pump_204_type;
-		Pump_205 : Dosing_Pump_205_type;
-		Pump_206 : Dosing_Pump_206_type;
-		Pump_207 : Dosing_Pump_207_type;
-		Pump_208 : Dosing_Pump_208_type;
 	END_STRUCT;
 END_TYPE
 

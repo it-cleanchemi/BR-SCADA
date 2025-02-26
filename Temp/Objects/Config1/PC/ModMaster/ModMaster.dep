@@ -1,3 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/modbusTCP/IDEC_Real/IDEC_Real.fun
 $(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/MbusTCP.fun
 $(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/Types.typ
 $(AS_PROJECT_PATH)/Logical/modbusTCP/MbusTCP/Variables.var

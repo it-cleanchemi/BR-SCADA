@@ -1,5 +1,5 @@
 VAR
-	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_type;
+	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_Type;
 	gModbus : ARRAY[0..MAX_SKIDS] OF Modbus_Type;
 	gSkid : ARRAY[0..MAX_SKIDS] OF Skid_type;
 	gVis : Vis_Type;

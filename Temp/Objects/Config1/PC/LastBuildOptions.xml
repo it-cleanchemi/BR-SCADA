@@ -54,11 +54,11 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\system\widgets\changepassworddialog\meta\changepassworddialog_copied.markerfile" LastWriteTime="2025-02-25 16:29:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 15:43:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 21:41:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile" LastWriteTime="2025-02-25 16:29:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_visualization._markerfile" LastWriteTime="2025-02-25 16:29:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\vis_0.json" LastWriteTime="2025-02-25 16:30:08" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json" LastWriteTime="2025-02-26 15:43:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json" LastWriteTime="2025-02-26 21:41:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\binding_trans._markerfile" LastWriteTime="2025-02-25 16:30:04" />
@@ -79,15 +79,15 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss" LastWriteTime="2025-02-25 16:30:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss" LastWriteTime="2025-02-25 16:30:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 15:28:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 20:57:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\colorvars.sessionvar" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_3.sessionvar" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_2.sessionvar" LastWriteTime="2025-02-25 16:29:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_1.sessionvar" LastWriteTime="2025-02-25 16:29:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\__systemvariables.sessionvar" LastWriteTime="2025-02-25 16:30:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\vis_0.vis" LastWriteTime="2025-02-25 16:29:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 15:43:44" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2025-02-26 15:43:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 21:41:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2025-02-26 21:41:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2025-02-25 16:30:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2025-02-25 16:30:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\config.mappviewcfg" LastWriteTime="2025-02-07 21:52:46" />
@@ -508,7 +508,7 @@
     <CommandLine Parameter="-category CopyDirectory -i &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\IATC\BRVisu\system\widgets\ChangePasswordDialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\system\widgets\ChangePasswordDialog&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\system\widgets\ChangePasswordDialog\meta\ChangePasswordDialog_Copied.markerFile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 15:43:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 21:41:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\cleanchemi.png.png" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\symbollib\alarm\acknowledge.svg" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\symbollib\alarm\alarm.svg" LastWriteTime="2025-02-07 21:52:46" />
@@ -667,7 +667,7 @@
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\mappView\Visualizat.vis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\vis_0.json&quot; -indexFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\BR.IAT.indexfile&quot; -fileList &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\vis_0_json.bin&quot; -logicalDir &quot;$(AS_PROJECT_PATH)\Logical&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" LastWriteTime="2025-02-26 15:43:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" LastWriteTime="2025-02-26 21:41:18" />
     <CommandLine Parameter="-category CopyFile -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\0_visulist.json&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\0_visulist.json&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\0_visulist.json&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_pages._markerfile">
@@ -1087,7 +1087,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 15:28:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 20:57:04" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2024-09-06 06:30:44" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericinput\meta\numericinput.widget" LastWriteTime="2024-09-06 06:30:40" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\login\meta\login.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -1141,7 +1141,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 15:43:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 21:41:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
@@ -1264,8 +1264,8 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\opcuamap\opcuamap.uar">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\connectivity\opcua\opcuamap.uad" LastWriteTime="2025-02-24 18:56:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\userrolesystem\role.role" LastWriteTime="2025-02-07 21:52:46" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\OpcUaMap\OpcUaMap.uar&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -B B4.93 -c Config1 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -UseBaseObjectTypeForStructures -Sampling &quot;7,10,20,50,100,200,500,1000,5000&quot; " />
   </Rule>
@@ -1354,11 +1354,11 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\FWRules.br&quot; -zip -B B4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox" LastWriteTime="2025-02-26 20:56:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;Main&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
@@ -1367,44 +1367,45 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out" LastWriteTime="2025-02-26 20:56:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 15:43:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 20:56:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o" LastWriteTime="2025-02-26 20:56:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\main.st" LastWriteTime="2025-02-24 19:01:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Main\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o">
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 20:56:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
     <CommandLine Parameter="&quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" LastWriteTime="2025-02-26 21:41:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2025-02-07 21:52:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
@@ -1414,8 +1415,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic2 -p 2 -s &quot;modbusTCP.ModMaster&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
@@ -1423,7 +1424,8 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
@@ -1433,13 +1435,14 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot; -T SG4 -r Cyclic2 -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 15:43:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
@@ -1449,12 +1452,13 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.st" LastWriteTime="2025-02-26 15:43:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.st" LastWriteTime="2025-02-26 21:41:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
@@ -1464,14 +1468,15 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.ModMaster&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o">
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
@@ -1481,8 +1486,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-24 19:16:52" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 15:43:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
     <CommandLine Parameter="&quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\_bur_pvdef.st.o&quot; -S &quot;ModMaster.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.ModMaster&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
@@ -1608,26 +1613,26 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MBcommon.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\MbusTCP\MBcommon.c.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.MbusTCP&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\modbusTCP\MbusTCP&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Libraries.h&quot; -D _MBUSTCP_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real.ox" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real.ox" LastWriteTime="2025-02-26 20:50:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\iec.lby" LastWriteTime="2025-02-25 16:29:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\IDEC_Real.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Library -s &quot;modbusTCP.IDEC_Real&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\a.out" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\a.out" LastWriteTime="2025-02-26 20:50:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\IDEC_Real.ox&quot; -T SG4 -r Library -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real_conv.st.o" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real_conv.st.o" LastWriteTime="2025-02-26 20:50:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\IDEC_REAL_Conv.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\a.out&quot; &quot;-Wl,--version-script=$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.expmap&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real\idec_real_conv.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real_conv.st" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real_conv.st" LastWriteTime="2025-02-26 19:51:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_REAL_Conv.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\IDEC_Real\IDEC_REAL_Conv.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.IDEC_Real&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -r Library -D _SG4 -g &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
@@ -1676,8 +1681,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\role.br" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\user.br" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\fwrules.br" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br" LastWriteTime="2025-02-26 15:43:42" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br" LastWriteTime="2025-02-26 15:43:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br" LastWriteTime="2025-02-26 20:56:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br" LastWriteTime="2025-02-26 21:41:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asopcuas.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asopcuac.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\runtime.br" LastWriteTime="2022-06-22 07:30:20" />
@@ -1686,7 +1691,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ncglobal.br" LastWriteTime="2016-04-13 14:09:42" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\standard.br" LastWriteTime="2022-06-22 07:30:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp.br" LastWriteTime="2025-02-26 14:03:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real.br" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real.br" LastWriteTime="2025-02-26 20:50:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\astime.br" LastWriteTime="2022-06-22 07:30:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asieccon.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\astcp.br" LastWriteTime="2022-06-22 07:30:18" />
