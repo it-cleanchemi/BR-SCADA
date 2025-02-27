@@ -2,12 +2,11 @@
 <?AutomationStudio FileVersion="4.9"?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
+    <Task Name="ModMaster" Source="modbusTCP.ModMaster.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="Main" Source="Main.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ModbusDriv" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
-  <TaskClass Name="Cyclic#2">
-    <Task Name="ModMaster" Source="modbusTCP.ModMaster.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-  </TaskClass>
+  <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4" />
   <TaskClass Name="Cyclic#5" />

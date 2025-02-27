@@ -3,8 +3,8 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="B4.93"/>
   <Hardware Target="SG4"/>
-  <Operation Delete="ModMaster.br"/>
   <Operation Delete="Main.br"/>
+  <Operation Delete="ModMaster.br"/>
   <Operation Delete="AsOpcUas.br"/>
   <Operation Delete="mvLoader.br"/>
   <Operation Delete="IDEC_Real.br"/>
@@ -54,6 +54,6 @@
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="AsOpcUas.br" Memory="UserROM"/>
-  <Operation Download="Main.br" Memory="UserROM"/>
   <Operation Download="ModMaster.br" Memory="UserROM"/>
+  <Operation Download="Main.br" Memory="UserROM"/>
 </Transfer>

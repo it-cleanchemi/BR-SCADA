@@ -10,7 +10,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133850769079030236"
+    LastWriteTime="133851511107833399"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Constants.var"
@@ -22,7 +22,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133850768701101041"
+    LastWriteTime="133851503902663675"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Enum.typ"
@@ -383,7 +383,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\MbusTCP\Variables.var"
     LogicalPath="modbusTCP.MbusTCP.Variables.var"
     Type="File"
-    LastWriteTime="133848958322997705"
+    LastWriteTime="133851508982335789"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\MbusTCP\MbusTCP.fun"
@@ -436,7 +436,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st"
     LogicalPath="modbusTCP.ModMaster.ModMaster.st"
     Type="File"
-    LastWriteTime="133850796695548555"
+    LastWriteTime="133851511210906223"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\IDEC_Real\IEC.lby"
@@ -1645,7 +1645,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\QAQC_Setup.content"
     LogicalPath="mappView.Visualization.Pages.Main.QAQC_Setup.content"
     Type="File"
-    LastWriteTime="133834387665902772"
+    LastWriteTime="133851508979319465"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\mappView\Visualization\Pages\Main\LoginPageExample.content"
@@ -2065,12 +2065,12 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133850770426550672" />
+    LastWriteTime="133851510990026711" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="133849748391867894"
+    LastWriteTime="133851492257483226"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Cpu.per"
@@ -2104,7 +2104,7 @@
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133848969632095501"
+    LastWriteTime="133851504406818335"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUaFx\Package.pkg"

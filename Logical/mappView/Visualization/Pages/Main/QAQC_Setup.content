@@ -6,5 +6,11 @@
     <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox3" top="110" left="35" width="190" zIndex="2" text="Input 2 Pump Active" />
     <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox4" top="150" left="35" width="185" zIndex="3" text="Input 3 Pump Active" />
     <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox5" top="190" left="35" width="185" zIndex="4" text="Input 4 Pump Active" />
+    <Widget xsi:type="widgets.brease.ButtonBar" id="ButtonBar1" top="460" left="200" width="400" zIndex="5">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton1" top="0" left="20" zIndex="0" text="ToggleButton1" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton2" top="0" left="140" zIndex="1" text="ToggleButton2" />
+      </Widgets>
+    </Widget>
   </Widgets>
 </Content>

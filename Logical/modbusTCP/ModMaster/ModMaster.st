@@ -19,7 +19,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[0].quantity 	:= 1;			// Number of items to read 
 	MasterConfig.action_param[0].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[0].start_addr := 7000;		// Read from this modbus address 
-	MasterConfig.action_param[0].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[0].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[0].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 2
@@ -28,7 +28,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[1].quantity 	:= 5;			// Number of items to read 
 	MasterConfig.action_param[1].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[1].start_addr := 7100;		// Read from this modbus address 
-	MasterConfig.action_param[1].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[1].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[1].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 3
@@ -37,7 +37,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[2].quantity 	:= 22;			// Number of items to read 
 	MasterConfig.action_param[2].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[2].start_addr := 7110;		// Read from this modbus address 
-	MasterConfig.action_param[2].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[2].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[2].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 4
@@ -46,7 +46,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[3].quantity 	:= 5;			// Number of items to read 
 	MasterConfig.action_param[3].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[3].start_addr := 7140;		// Read from this modbus address 
-	MasterConfig.action_param[3].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[3].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[3].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
 	
 	// AS Block 5
@@ -55,7 +55,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[4].quantity 	:= 22;			// Number of items to read 
 	MasterConfig.action_param[4].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[4].start_addr := 7150;		// Read from this modbus address 
-	MasterConfig.action_param[4].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[4].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[4].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 6
@@ -64,7 +64,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[5].quantity 	:= 5;			// Number of items to read 
 	MasterConfig.action_param[5].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[5].start_addr := 7180;		// Read from this modbus address 
-	MasterConfig.action_param[5].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[5].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[5].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
 	
 	// AS Block 7
@@ -73,7 +73,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[6].quantity 	:= 22;			// Number of items to read 
 	MasterConfig.action_param[6].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[6].start_addr := 7190;		// Read from this modbus address 
-	MasterConfig.action_param[6].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[6].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[6].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 	
 	
 	// AS Block 8
@@ -82,7 +82,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[7].quantity 	:= 10;			// Number of items to read 
 	MasterConfig.action_param[7].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[7].start_addr := 7620;		// Read from this modbus address 
-	MasterConfig.action_param[7].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[7].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[7].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 9
@@ -91,7 +91,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[8].quantity 	:= 7;			// Number of items to read 
 	MasterConfig.action_param[8].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[8].start_addr := 6050;		// Read from this modbus address 
-	MasterConfig.action_param[8].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[8].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[8].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 10
@@ -100,7 +100,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[9].quantity 	:= 3;			// Number of items to read 
 	MasterConfig.action_param[9].unit 		:= 1;			// Unit address - ignore if not specified 
 	MasterConfig.action_param[9].start_addr := 6100;		// Read from this modbus address 
-	MasterConfig.action_param[9].timer 		:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[9].timer 		:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[9].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 	
 	// AS Block 11
@@ -193,6 +193,14 @@ PROGRAM _INIT
 	MasterConfig.action_param[19].timer 	:= 100;			// Refresh timer for this item 
 	MasterConfig.action_param[19].type 		:= 3;			// Function code for this item (2 := read discrete inputs)	
 	
+	// Write 6000
+	MasterConfig.action_enable[20].cyclic 	:= FALSE;			// Read data cyclic 
+	MasterConfig.action_param[20].p_pv		:= ADR(SkidID);	// Store data in this variable 
+	MasterConfig.action_param[20].quantity 	:= 1;			// Number of items to read 
+	MasterConfig.action_param[20].unit 		:= 1;			// Unit address - ignore if not specified 
+	MasterConfig.action_param[20].start_addr := 6000;		// Read from this modbus address 
+	MasterConfig.action_param[20].timer 	:= 100;			// Refresh timer for this item 
+	MasterConfig.action_param[20].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
 	
 	// --------------------------------------------------------------------
 	// Sample FOR reading data from a modbusTCP slave

@@ -5,6 +5,7 @@
   <widget name="widgets.brease.AlarmListStyle" />
   <widget name="widgets.brease.BusyIndicator" />
   <widget name="widgets.brease.Button" />
+  <widget name="widgets.brease.ButtonBar" />
   <widget name="widgets.brease.ChartWidget" />
   <widget name="widgets.brease.ChartXAxisWidget" />
   <widget name="widgets.brease.ChartYAxisWidget" />

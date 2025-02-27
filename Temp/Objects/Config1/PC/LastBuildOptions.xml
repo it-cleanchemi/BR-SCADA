@@ -4,8 +4,8 @@
   <Rule ID=".mappView_Build">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numericoutput\meta\numericoutput_copied.markerfile" LastWriteTime="2025-02-25 16:30:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numericinput\meta\numericinput_copied.markerfile" LastWriteTime="2025-02-25 16:30:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\login\meta\login_copied.markerfile" LastWriteTime="2025-02-25 16:30:00" />
@@ -49,47 +49,48 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linechartyaxis\meta\linechartyaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\chartyaxiswidget\meta\chartyaxiswidget_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\system\widgets\changepassworddialog\meta\changepassworddialog_copied.markerfile" LastWriteTime="2025-02-25 16:29:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 21:41:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-27 17:32:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile" LastWriteTime="2025-02-25 16:29:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_visualization._markerfile" LastWriteTime="2025-02-25 16:29:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\vis_0.json" LastWriteTime="2025-02-25 16:30:08" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json" LastWriteTime="2025-02-26 21:41:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\vis_0.json" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json" LastWriteTime="2025-02-27 17:32:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\binding_trans._markerfile" LastWriteTime="2025-02-25 16:30:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\binding_trans._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\bindinglist_trans._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validateeventbindings._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\eventbinding_trans._markerfile" LastWriteTime="2025-02-25 16:30:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\eventbinding_trans._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_themes._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_keywordsets._markerfile" LastWriteTime="2025-02-25 16:29:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 20:57:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-27 17:31:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\colorvars.sessionvar" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_3.sessionvar" LastWriteTime="2025-02-25 16:29:56" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_2.sessionvar" LastWriteTime="2025-02-25 16:29:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\svar_1.sessionvar" LastWriteTime="2025-02-25 16:29:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\__systemvariables.sessionvar" LastWriteTime="2025-02-25 16:30:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\vis_0.vis" LastWriteTime="2025-02-25 16:29:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 21:41:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2025-02-26 21:41:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2025-02-25 16:30:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2025-02-25 16:30:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-27 17:32:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2025-02-27 17:32:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2025-02-27 17:31:34" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2025-02-27 17:31:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\config.mappviewcfg" LastWriteTime="2025-02-07 21:52:46" />
   </Rule>
   <Rule ID=".mappView_IntegrationBuild">
@@ -154,7 +155,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\areacontents\buffertankpopup.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\popuptabs\page\pumppopup.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\equipmentandsensors\locationbox.content" LastWriteTime="2025-02-07 21:52:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\qaqc_setup.content" LastWriteTime="2025-02-07 21:52:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\qaqc_setup.content" LastWriteTime="2025-02-27 17:28:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\areacontents\pumppopup.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\loginpageexample.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\overviewpage\overviewpageexample.content" LastWriteTime="2025-02-07 21:52:46" />
@@ -214,6 +215,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linechartyaxis\meta\linechartyaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\chartyaxiswidget\meta\chartyaxiswidget_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
@@ -477,6 +479,12 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <CommandLine Parameter="-category CopyDirectory -i &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\LineChartTimeAxis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\Widgets\brease\LineChartTimeAxis&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\Widgets\brease\LineChartTimeAxis\meta\LineChartTimeAxis_Copied.markerFile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile">
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\buttonbar\buttonbar.js" LastWriteTime="2024-09-06 06:25:16" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\common\busyindicatorhandler\libs\busyindicatorhandler.js._markerfile" LastWriteTime="2025-02-25 16:29:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
+    <CommandLine Parameter="-category CopyDirectory -i &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\ButtonBar&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\Widgets\brease\ButtonBar&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\Widgets\brease\ButtonBar\meta\ButtonBar_Copied.markerFile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\messagebox\messagebox.js" LastWriteTime="2024-09-06 06:25:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\common\busyindicatorhandler\libs\busyindicatorhandler.js._markerfile" LastWriteTime="2025-02-25 16:29:56" />
@@ -508,7 +516,7 @@
     <CommandLine Parameter="-category CopyDirectory -i &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\IATC\BRVisu\system\widgets\ChangePasswordDialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\system\widgets\ChangePasswordDialog&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu\system\widgets\ChangePasswordDialog\meta\ChangePasswordDialog_Copied.markerFile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-26 21:41:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" LastWriteTime="2025-02-27 17:32:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\cleanchemi.png.png" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\symbollib\alarm\acknowledge.svg" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\media\symbollib\alarm\alarm.svg" LastWriteTime="2025-02-07 21:52:46" />
@@ -656,18 +664,18 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\mappview\visualizat.vis" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_visualization._markerfile" LastWriteTime="2025-02-25 16:29:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_pages._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_navs._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_layouts._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\eventbinding_trans._markerfile" LastWriteTime="2025-02-25 16:30:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\eventbinding_trans._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_themes._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\mappView\Visualizat.vis&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\vis_0.json&quot; -indexFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\BR.IAT.indexfile&quot; -fileList &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\vis_0_json.bin&quot; -logicalDir &quot;$(AS_PROJECT_PATH)\Logical&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" LastWriteTime="2025-02-26 21:41:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" LastWriteTime="2025-02-27 17:32:10" />
     <CommandLine Parameter="-category CopyFile -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\0_visulist.json&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\0_visulist.json&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\0_visulist.json&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_pages._markerfile">
@@ -679,30 +687,30 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-command &quot;buildStyleableProperties&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\Dialog_Sass._markerfile&quot; -workingDir &quot;.&quot; -fileBuildStepType &quot;DialogSass&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\dialog\testpopup.dialog" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_layouts._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Visualization\Dialogs\Dialog\testpopup.dialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css/pages\mappView\Visualization\Dialogs\Dialog\testpopup_Styles.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/dialog/engineering/DialogDefinition.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/dialog/StyleBuilder.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\buffertankpopup\buffertankpopup.dialog" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_layouts._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Visualization\Dialogs\BufferTankPopUp\BufferTankPopUP.dialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css/pages\mappView\Visualization\Dialogs\BufferTankPopUp\BufferTankPopUP_Styles.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/dialog/engineering/DialogDefinition.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/dialog/StyleBuilder.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\pumppopup\pumppopup.dialog" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_layouts._markerfile" LastWriteTime="2025-02-25 16:29:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Visualization\Dialogs\PumpPopUp\PumpPopUp.dialog&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css/pages\mappView\Visualization\Dialogs\PumpPopUp\PumpPopUp_Styles.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/dialog/engineering/DialogDefinition.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/dialog/StyleBuilder.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_navs._markerfile">
@@ -770,8 +778,9 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\popuptabs\page\pumppopup.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\equipmentandsensors\locationbox.content" LastWriteTime="2025-02-07 21:52:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\qaqc_setup.content" LastWriteTime="2025-02-07 21:52:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\qaqc_setup.content" LastWriteTime="2025-02-27 17:28:16" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\checkbox\meta\checkbox_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\dialogs\areacontents\pumppopup.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\loginpageexample.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\overviewpage\overviewpageexample.content" LastWriteTime="2025-02-07 21:52:46" />
@@ -787,12 +796,12 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-command &quot;buildStyleableProperties&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\Content_Sass._markerfile&quot; -workingDir &quot;.&quot; -fileBuildStepType &quot;ContentSass&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validatebindings._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\mappview\content_1.binding" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\loginpage.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\image\meta\image.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -818,8 +827,8 @@
     <CommandLine Parameter="-category &quot;bindings&quot; -iatFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\IatFiles.bin&quot; -opcUaFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\opcUaFileList.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\ValidateBindings._markerfile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\duplicatebindingsfinder._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validatebindings._markerfile" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validatebindings._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\mappview\content_1.binding" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\loginpage.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\image\meta\image.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -847,7 +856,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\binding_trans._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations_copy._markerfile" LastWriteTime="2025-02-25 16:29:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\mappview\content_1.binding" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\main\loginpage.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\image\meta\image.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -888,7 +897,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\eventbinding_trans._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\mappview\content_2.eventbinding" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\equipmentandsensors\pump.content" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\ellipse\meta\ellipse.widget" LastWriteTime="2024-09-06 06:30:46" />
@@ -924,7 +933,7 @@
     <CommandLine Parameter="-category &quot;stylesSet&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\mappViewBuildInfrastructure.bin&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\Validate_StylesSets._markerfile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-25 16:29:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-27 17:31:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\default.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\system.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\buttons.styles" LastWriteTime="2025-02-07 21:52:46" />
@@ -942,94 +951,94 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\default.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Default.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\157945538.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\system.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\System.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\1074141008.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\buttons.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Buttons.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\877119071.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\common.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Common.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\560097432.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\container.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Container.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\118132788.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\labeltexts.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\LabelTexts.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\1354067113.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\numeric.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Numeric.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\1800426408.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\graphic.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Graphic.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\-1398646705.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\charts.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Charts.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\1597950609.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\sequencer.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Sequencer.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\2062906418.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\lists.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_stylessets._markerfile" LastWriteTime="2025-02-25 16:29:56" />
     <CommandLine Parameter="-i &quot;$(AS_PROJECT_PATH)\Logical\mappView\Resources\Themes\BuRTheme1\brease\Lists.styles&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css\Themes\BuRTheme1\1570227076\-1912066981.scss&quot; -schemaset &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/styles/Styles.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4/Schemas/content/engineering/WidgetLibrary.xmlschemaset;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\mappView\5.24.4\Widgets\brease\WidgetStyles.xmlschemaset;$(AS_PROJECT_PATH)\Temp\mappView\Widgets\widgetlibrary_1\WidgetStyles.xmlschemaset&quot; -t &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/Transformations/styles/ThemeStyleTransformation.xsl&quot; -workingDir &quot;.&quot; -validationEnabled &quot;True&quot;  -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-25 16:29:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-27 17:31:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\burtheme1.sasssources" LastWriteTime="2025-02-25 16:29:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\burtheme1.stylesset" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\default.styles" LastWriteTime="2025-02-07 21:52:46" />
@@ -1043,17 +1052,17 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\charts.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\sequencer.styles" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\resources\themes\burtheme1\brease\lists.styles" LastWriteTime="2025-02-07 21:52:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss" LastWriteTime="2025-02-25 16:30:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss" LastWriteTime="2025-02-25 16:30:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss" LastWriteTime="2025-02-27 17:31:26" />
     <CommandLine Parameter="-command &quot;buildTheme&quot; -i &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\BuRTheme1.sasssources&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/release\BuRTheme1.min.css&quot; -infrastructure &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView\mappViewBuildInfrastructure.bin&quot; -theme &quot;BuRTheme1&quot; -themesRoot &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot/BRVisu/css/Themes&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\colorvars.sessionvar">
@@ -1087,7 +1096,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-26 20:57:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" LastWriteTime="2025-02-27 17:31:30" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2024-09-06 06:30:44" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericinput\meta\numericinput.widget" LastWriteTime="2024-09-06 06:30:40" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\login\meta\login.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -1131,6 +1140,7 @@
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\linechartyaxis\meta\linechartyaxis.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\chartyaxiswidget\meta\chartyaxiswidget.widget" LastWriteTime="2024-09-06 06:30:42" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis.widget" LastWriteTime="2024-09-06 06:30:46" />
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\buttonbar\meta\buttonbar.widget" LastWriteTime="2024-09-06 06:30:42" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\messagebox\meta\messagebox.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\dialogwindow\meta\dialogwindow.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numpad\meta\numpad.widget" LastWriteTime="2024-09-06 06:30:46" />
@@ -1140,18 +1150,18 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-26 21:41:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2025-02-27 17:32:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2025-02-25 16:30:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css" LastWriteTime="2025-02-27 17:31:28" />
     <CommandLine Parameter="-workingDir &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/build/node_modules/.bin&quot; -gruntCommand &quot;breaseCsso --buildpath=&quot;&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot&quot;&quot;&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/wwwRoot\grunt.breaseCsso._markerfile&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2025-02-25 16:29:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-25 16:29:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" LastWriteTime="2025-02-27 17:31:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericoutput\meta\numericoutput.widget" LastWriteTime="2024-09-06 06:30:44" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numericinput\meta\numericinput.widget" LastWriteTime="2024-09-06 06:30:40" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\login\meta\login.widget" LastWriteTime="2024-09-06 06:30:40" />
@@ -1195,6 +1205,7 @@
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\linechartyaxis\meta\linechartyaxis.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\chartyaxiswidget\meta\chartyaxiswidget.widget" LastWriteTime="2024-09-06 06:30:42" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis.widget" LastWriteTime="2024-09-06 06:30:46" />
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\buttonbar\meta\buttonbar.widget" LastWriteTime="2024-09-06 06:30:42" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\messagebox\meta\messagebox.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\dialogwindow\meta\dialogwindow.widget" LastWriteTime="2024-09-06 06:30:46" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\mappview\5.24.4\widgets\brease\numpad\meta\numpad.widget" LastWriteTime="2024-09-06 06:30:46" />
@@ -1204,7 +1215,7 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.concatfile" LastWriteTime="2025-02-25 16:29:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-25 16:30:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" LastWriteTime="2025-02-27 17:31:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numericoutput\meta\numericoutput_copied.markerfile" LastWriteTime="2025-02-25 16:30:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numericinput\meta\numericinput_copied.markerfile" LastWriteTime="2025-02-25 16:30:00" />
@@ -1249,6 +1260,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linechartyaxis\meta\linechartyaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\chartyaxiswidget\meta\chartyaxiswidget_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\linecharttimeaxis\meta\linecharttimeaxis_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile" LastWriteTime="2025-02-25 16:30:02" />
@@ -1263,9 +1275,9 @@
     <CommandLine Parameter="-category CopyFile -i &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\mappView\Config.mappviewcfg&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/server\Config.mappviewcfg&quot; -markerFile &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\.mappView/data/server\Config.mappviewcfg&quot; -cultureName &quot;en-US&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\opcuamap\opcuamap.uar">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\connectivity\opcua\opcuamap.uad" LastWriteTime="2025-02-24 18:56:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\connectivity\opcua\opcuamap.uad" LastWriteTime="2025-02-27 17:20:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\userrolesystem\role.role" LastWriteTime="2025-02-07 21:52:46" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\OpcUaMap\OpcUaMap.uar&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -B B4.93 -c Config1 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -UseBaseObjectTypeForStructures -Sampling &quot;7,10,20,50,100,200,500,1000,5000&quot; " />
   </Rule>
@@ -1324,7 +1336,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\pvmap.vvm" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\iomap_1.iom" LastWriteTime="2025-02-10 22:01:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2025-02-25 17:40:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2025-02-25 16:33:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2025-02-27 17:00:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\channelconfiguration.xml" LastWriteTime="2025-02-25 16:29:58" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\PvMap.vvm&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\IoMap_1.iom&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\iomap.br&quot; -T SG4 -B B4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.PC&quot;" />
   </Rule>
@@ -1353,142 +1365,142 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2025-02-07 21:52:46" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\FWRules.br&quot; -zip -B B4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2025-02-07 21:52:46" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;Main&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
-    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
-    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
-    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
-    <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B B4.93 " />
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\main.st" LastWriteTime="2025-02-24 19:01:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Main\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
-    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o">
-    <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <CommandLine Parameter="&quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
-    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" LastWriteTime="2025-02-27 17:32:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2025-02-07 21:52:46" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic2 -p 2 -s &quot;modbusTCP.ModMaster&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;modbusTCP.ModMaster&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
     <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out" LastWriteTime="2025-02-27 17:32:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot; -T SG4 -r Cyclic2 -G V4.1.2  -B B4.93 " />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 21:41:20" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-27 17:32:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o" LastWriteTime="2025-02-27 17:32:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.st" LastWriteTime="2025-02-26 21:41:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.st" LastWriteTime="2025-02-27 17:32:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.ModMaster&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o">
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" LastWriteTime="2025-02-27 17:32:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\idec_real\idec_real.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asbrstr\asbrstr.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.var" LastWriteTime="2025-02-24 18:47:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-26 20:55:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-26 20:54:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
     <CommandLine Parameter="&quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\ModMaster\_bur_pvdef.st.o&quot; -S &quot;ModMaster.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;modbusTCP.ModMaster&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\ModMaster\ModMaster.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox" LastWriteTime="2025-02-27 17:32:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.per" LastWriteTime="2025-02-07 21:52:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 3 -s &quot;Main&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out" LastWriteTime="2025-02-27 17:32:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B B4.93 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-27 17:32:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o" LastWriteTime="2025-02-27 17:32:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libIDEC_Real.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Config1\PC\libMbusTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUas.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libsys_lib.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsARCfg.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsTCP.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\SG4\Ia32\libNcGlobal.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\main.st" LastWriteTime="2025-02-24 19:01:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Main\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\Main.st.o&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o">
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2024-05-07 13:22:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" LastWriteTime="2025-02-27 17:32:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\main\variables.var" LastWriteTime="2025-02-24 18:49:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.var" LastWriteTime="2025-02-27 17:31:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\global.typ" LastWriteTime="2025-02-27 17:19:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\constants.var" LastWriteTime="2025-02-24 18:47:36" />
+    <CommandLine Parameter="&quot;C:\Program Files\BRAutomation4\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\Main\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B B4.93 -G V4.1.2  -s &quot;Main&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Main\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Main\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Enum.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Par.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Vis.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Process.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Services.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\IO.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10man\Acp10man.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\MbusTCP.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\IDEC_Real\IDEC_Real.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUas\AsOpcUas.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Acp10par\Acp10par.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\NcGlobal\NcGlobal.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsTCP\AsTCP.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsARCfg\AsARCfg.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\sys_lib\sys_lib.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\modbusTCP\MbusTCP\Variables.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asopcuas.br">
@@ -1520,11 +1532,11 @@
     <CommandLine Parameter="C:\Program Files\BRAutomation4\AS\System\B0493\SG4\Ia32\standard.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\standard.br" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbustcp.ox" LastWriteTime="2025-02-26 14:03:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbustcp.ox" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\ansic.lby" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
@@ -1536,10 +1548,10 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\MbusTCP\MbusTCP.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\MbusTCP.br&quot; -v V2.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\PC\LT.ofs&quot; -T SG4 -M IA32 -B B4.93 -G V4.1.2  -extConstants -d &quot;astcp: V* - V*,standard: V* - V*,astime: V* - V*,AsBrStr: V* - V*,AsARCfg: V* - V*,sys_lib: V* - V*,AsIecCon: V* - V*&quot; -r Library -s &quot;modbusTCP.MbusTCP&quot; -L &quot;Acp10man: V3.13.1, Acp10par: V3.13.1, AsARCfg: V*, AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, AsOpcUas: V*, AsTCP: V*, astime: V*, IDEC_Real: V*, MbusTCP: V2.00.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbustcp.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\a.out" LastWriteTime="2025-02-26 14:03:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\a.out" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
@@ -1551,12 +1563,12 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\MbusTCP\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\PC\MbusTCP\MbusTCP.ox&quot; -T SG4 -r Library -G V4.1.2  -B B4.93 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbmaster.c.o" LastWriteTime="2025-02-26 14:03:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbslave.c.o" LastWriteTime="2025-02-25 16:29:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbcommon.c.o" LastWriteTime="2025-02-25 16:29:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbmaster.c.o" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbslave.c.o" LastWriteTime="2025-02-27 17:31:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp\mbcommon.c.o" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbustcp.fun" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\types.typ" LastWriteTime="2025-02-24 18:37:12" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-24 18:37:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\variables.var" LastWriteTime="2025-02-27 17:28:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asarcfg\asarcfg.fun" LastWriteTime="2025-02-24 18:36:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\astcp\astcp.typ" LastWriteTime="2025-02-24 18:36:00" />
@@ -1571,7 +1583,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbmaster.c" LastWriteTime="2025-02-26 13:45:16" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2024-05-07 13:22:22" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-25 16:29:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-27 17:31:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\astime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\runtime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\asieccon.h" LastWriteTime="2024-09-17 12:05:22" />
@@ -1586,7 +1598,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbslave.c" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2024-05-07 13:22:22" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-25 16:29:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-27 17:31:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\astime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\runtime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\asieccon.h" LastWriteTime="2024-09-17 12:05:22" />
@@ -1601,7 +1613,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\modbustcp\mbustcp\mbcommon.c" LastWriteTime="2025-02-24 18:37:12" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plctypes.h" LastWriteTime="2024-05-07 13:22:22" />
     <Prerequisite ID="c:\program files\brautomation4\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\plc.h" LastWriteTime="2024-05-07 13:22:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-25 16:29:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mbustcp.h" LastWriteTime="2025-02-27 17:31:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\astime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\runtime.h" LastWriteTime="2024-09-17 12:05:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\asieccon.h" LastWriteTime="2024-09-17 12:05:22" />
@@ -1681,8 +1693,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\role.br" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\user.br" LastWriteTime="2025-02-25 16:30:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\fwrules.br" LastWriteTime="2025-02-25 16:30:02" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br" LastWriteTime="2025-02-26 20:56:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br" LastWriteTime="2025-02-26 21:41:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br" LastWriteTime="2025-02-27 17:32:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br" LastWriteTime="2025-02-27 17:32:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asopcuas.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asopcuac.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\runtime.br" LastWriteTime="2022-06-22 07:30:20" />
@@ -1690,7 +1702,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\acp10par.br" LastWriteTime="2016-04-13 14:12:52" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\ncglobal.br" LastWriteTime="2016-04-13 14:09:42" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\standard.br" LastWriteTime="2022-06-22 07:30:20" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp.br" LastWriteTime="2025-02-26 14:03:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\mbustcp.br" LastWriteTime="2025-02-27 17:31:26" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\idec_real.br" LastWriteTime="2025-02-26 20:50:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\astime.br" LastWriteTime="2022-06-22 07:30:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asieccon.br" LastWriteTime="2022-06-22 07:30:18" />
@@ -1698,7 +1710,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asbrstr.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\asarcfg.br" LastWriteTime="2022-06-22 07:30:18" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\sys_lib.br" LastWriteTime="2022-06-22 07:30:20" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2025-02-25 16:33:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\pc\cpu.sw" LastWriteTime="2025-02-27 17:00:24" />
     <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\CleanChemi_SiteManagementSystem.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\Program Files\BRAutomation4\AS412&quot; -S &quot;PC&quot; -A &quot;AR000&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\PC\Cpu.sw&quot; -Z &quot;mappView: 5.24.4, Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

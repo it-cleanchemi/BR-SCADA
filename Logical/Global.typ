@@ -70,7 +70,7 @@ END_TYPE
 
 TYPE
 	Vis_Main_In_Type : 	STRUCT 
-		TestButton : BOOL;
+		TestButton : ARRAY[0..5]OF BOOL;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;

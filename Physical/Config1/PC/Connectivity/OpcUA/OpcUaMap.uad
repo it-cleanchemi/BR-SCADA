@@ -29,7 +29,13 @@
   <DefaultView AclId="2">
     <Module Name="&lt;Default&gt;">
       <GlobalVariables Name="Global Variables">
-        <Variable Name="gVis" RecursiveEnable="2" />
+        <Variable Name="gVis" RecursiveEnable="2">
+          <Variable Name="Main">
+            <Variable Name="In">
+              <Variable Name="TestButton" RecursiveEnable="2" />
+            </Variable>
+          </Variable>
+        </Variable>
       </GlobalVariables>
     </Module>
   </DefaultView>

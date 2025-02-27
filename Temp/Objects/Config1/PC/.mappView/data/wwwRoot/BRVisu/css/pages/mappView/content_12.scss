@@ -49,3 +49,33 @@
 }
 #content_12_CheckBox5 {	z-index: 4;
 }
+#content_12_ButtonBar1 {	@include elemHeight(30);
+}
+#content_12_ButtonBar1 {	@include elemTop(460);
+}
+#content_12_ButtonBar1 {	@include elemLeft(200);
+}
+#content_12_ButtonBar1 {	@include elemWidth(400);
+}
+#content_12_ButtonBar1 {	z-index: 5;
+}
+#content_12_ToggleButton1 {	@include elemAutoWidth(100);
+}
+#content_12_ToggleButton1 {	@include elemAutoHeight(30);
+}
+#content_12_ToggleButton1 {	@include elemTop(0);
+}
+#content_12_ToggleButton1 {	@include elemLeft(20);
+}
+#content_12_ToggleButton1 {	z-index: 0;
+}
+#content_12_ToggleButton2 {	@include elemAutoWidth(100);
+}
+#content_12_ToggleButton2 {	@include elemAutoHeight(30);
+}
+#content_12_ToggleButton2 {	@include elemTop(0);
+}
+#content_12_ToggleButton2 {	@include elemLeft(140);
+}
+#content_12_ToggleButton2 {	z-index: 1;
+}

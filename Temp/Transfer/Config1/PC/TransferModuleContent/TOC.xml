@@ -303,6 +303,32 @@
 									<File Name="Button.html" Size="77" HashValue="92F7FB66518A853A5AD3CDA8B6A2F658" ProjectDependent="1" IgnoreDifference="0" />
 									<File Name="Button.js" Size="26712" HashValue="A1DE55FB7ED422F92E617AE102B71EE4" ProjectDependent="1" IgnoreDifference="0" />
 								</Folder>
+								<Folder Name="ButtonBar" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ButtonBar.sass.css" Size="821" HashValue="0A3436049A0D5D382D2BA2684245E249" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar.scss" Size="1112" HashValue="44B24F5856895F12B76D496CE59260B0" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ClassInfo.js" Size="1877" HashValue="AB7F950C65254EEB567184B251B98994" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="EditorHandles.js" Size="3455" HashValue="DFDFD2F113163AC4E2F28C6E96989C35" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ButtonBar.json" Size="17255" HashValue="ADA382D586E1D9887C291F9AFFF3163B" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar.style" Size="1955" HashValue="681A34D4659B04231B65AB56F62EFAD0" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar.widget" Size="14203" HashValue="020FD39A0F2F348600CBB553359ADE4B" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar.xsd" Size="2036" HashValue="CA518FE2445C27252B8D7270CFBF6FED" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_EventsActions.xsd" Size="4091" HashValue="8D95B8A693859A2BD4043B6E632C492F" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_base.scss" Size="228" HashValue="4BA748E8E4FFC9E1CBEA3EB4DF53D962" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_default.sass.css" Size="125" HashValue="510146A99A98C17815784C09F7D1E0B6" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_default.scss" Size="311" HashValue="6456DD8225491FC315D156021DAD61A9" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="ButtonBar_doc.html" Size="22662" HashValue="2D9D96F8868681A05721D36DED1DEC02" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<File Name="ButtonBar.html" Size="80" HashValue="8803E49721C1FFC2F14190C296513F9A" ProjectDependent="1" IgnoreDifference="0" />
+									<File Name="ButtonBar.js" Size="22774" HashValue="74E30A2607D35F7D7F75941A874D9BDB" ProjectDependent="1" IgnoreDifference="0" />
+								</Folder>
 								<Folder Name="ChartWidget" ProjectDependent="1" IgnoreDifference="0">
 									<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
 										<File Name="ChartWidget.sass.css" Size="1678" HashValue="FB76C8FB762328FA6C7A3D57DAC714A8" ProjectDependent="1" IgnoreDifference="0" />
@@ -2288,8 +2314,8 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="BuRTheme1.min.css" Size="255146" HashValue="D3B0F1270C6F6D7529D1EB8DF5382200" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease.js" Size="1400895" HashValue="7545DBB032433219286ADD606B9FB7A7" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="519790" HashValue="B933C20F87F9C9C6B4BD84078166064D" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease.js" Size="1411945" HashValue="549A2DB2EC21FAFE04AA9BBA28DAB118" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="520079" HashValue="F626E4355DB7664664E9A2041B57A89D" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -2464,7 +2490,7 @@
 							<File Name="buffertank.html" Size="1085" HashValue="6718081B01920E1F79996D2A9B0782D2" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_1.html" Size="3819" HashValue="1A5F72B95C6A381ECD68A9DBF0F4144D" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_11.html" Size="3028" HashValue="5CCA271499F51608A108A63270F20EF6" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="content_12.html" Size="1437" HashValue="508D071DF7149C8B2C5191B25DAD74B3" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="content_12.html" Size="2287" HashValue="66F0F911DACA4CF10CA5D4B529D5310F" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_14.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_15.html" Size="59404" HashValue="2A59A6BE5D067B1E2CB9F1F1795ADA4B" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="content_17.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
@@ -2560,7 +2586,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="518" HashValue="47516FFD607168BC121D03A92DF016A7" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="571" HashValue="4C0CFE260C5525B5AEA2B75B9253C02B" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -2654,9 +2680,9 @@
 			<Module Name="::FWRules" Type="136" Size="456" Modified="2025-02-25 09:30:02" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="39196" Modified="2022-06-22 07:46:56" Version="4.93" ProjectDependent="1" />
 			<Module Name="::IDEC_Real" Type="18" Size="1712" Modified="2025-02-26 13:50:25" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Main" Type="17" Size="2356" Modified="2025-02-26 13:56:22" Version="1.00" ProjectDependent="1" />
-			<Module Name="::MbusTCP" Type="18" Size="9876" Modified="2025-02-26 07:03:31" Version="2.00" ProjectDependent="1" />
-			<Module Name="::ModMaster" Type="17" Size="12460" Modified="2025-02-26 14:41:20" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Main" Type="17" Size="2376" Modified="2025-02-27 10:32:14" Version="1.00" ProjectDependent="1" />
+			<Module Name="::MbusTCP" Type="18" Size="9876" Modified="2025-02-27 10:31:27" Version="2.00" ProjectDependent="1" />
+			<Module Name="::ModMaster" Type="17" Size="12532" Modified="2025-02-27 10:32:14" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="1036" Modified="2025-02-25 09:30:02" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="1564" Modified="2025-02-25 09:30:02" Version="1.00" ProjectDependent="1" />
 			<Module Name="::acp10cfg" Type="70" Size="160" Modified="2025-02-25 09:30:03" Version="3.131" ProjectDependent="1" Reboot="1" />
