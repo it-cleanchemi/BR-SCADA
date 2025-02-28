@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarms_Active_Table_TableItem_Timestamp">
+      <tuv xml:lang="en">
+        <seg>Timestamp</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Marca Tiempo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Horodatage</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Zeitstempel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Table_TableItem_Code">
+      <tuv xml:lang="en">
+        <seg>Code</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Código</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Code</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Code</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Table_TableItem_Severity">
+      <tuv xml:lang="en">
+        <seg>Severity</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Gravedad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Gravité</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Schweregrad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Table_TableItem_Description">
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Descripción</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beschreibung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Flyout_Backtrace">
+      <tuv xml:lang="en">
+        <seg>Backtrace</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Retroceso</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Retour</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Rückver</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID">
+      <tuv xml:lang="en">
+        <seg>EventID</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>ID Evento</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Événement</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ereignis-ID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_Flyout_Backtrace_Table_TableItem_Description">
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Descripción</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beschreibung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_Active_PushButton_AcknowledgeAll">
+      <tuv xml:lang="en">
+        <seg>Acknowledge All</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Reconocer Todo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Acknowledger Tout</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alles Bestätigen</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

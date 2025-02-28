@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Diagnostics_SDM" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.WebViewer" id="Diagnostics_SDM_WebViewer_SDM" top="50" left="0" width="1114" height="500" zIndex="0" port="82" />
+  </Widgets>
+</Content>

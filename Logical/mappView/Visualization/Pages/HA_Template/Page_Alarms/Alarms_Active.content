@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Alarms_Active" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="0" left="0" width="1114" height="520" zIndex="0" headerSize="30" multiLine="true" stopRefreshAtScroll="true" wordWrap="true" cellPadding="5px" fontSize="14px" headerFontSize="16px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Timestamp" zIndex="2" columnWidth="180" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Timestamp" />
+        <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Code" zIndex="0" columnWidth="85" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Code" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Severity" zIndex="3" columnWidth="85" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Severity" useDigitGrouping="false" />
+        <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Description" zIndex="1" columnWidth="764" text="$IAT/Alarms_Active_Table_TableItem_Description" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_AcknowledgeAll" top="520" left="0" width="320" height="80" zIndex="1" image="Media/Images/AckAll.svg" text="$IAT/Alarms_Active_PushButton_AcknowledgeAll" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Down" top="520" left="956" width="160" height="80" zIndex="2" image="Media/Images/Down.svg" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Up" top="520" left="796" width="160" height="80" zIndex="3" image="Media/Images/Up.svg" />
+    <Widget xsi:type="widgets.brease.FlyOut" id="Alarms_Active_Flyout_Backtrace" top="0" left="0" width="1114" height="300" zIndex="4" autoClose="true" buttonOffset="634" docking="bottom" image="Media/Images/BatchStart.svg" text="$IAT/Alarms_Active_Flyout_Backtrace" buttonHeight="80" buttonWidth="160" style="default_Alarms">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Flyout_Backtrace_Table" top="0" left="0" width="1114" zIndex="0" filterConfiguration="[{&quot;value&quot;:&quot;&quot;,&quot;conditionType&quot;:&quot;&lt;&gt;&quot;,&quot;columnPosition&quot;:0}]" headerSize="30" multiLine="true" cellPadding="5px" fontSize="14px" headerFontSize="16px">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID" zIndex="1" columnWidth="200" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':10},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':10},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':10}}" text="$IAT/Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID" useDigitGrouping="false" bold="false" />
+            <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Flyout_Backtrace_Table_TableItem_Description" zIndex="0" columnWidth="914" text="$IAT/Alarms_Active_Flyout_Backtrace_Table_TableItem_Description" bold="false" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

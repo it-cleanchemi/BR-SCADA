@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Diagnostics_ConvInIO" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_ConvInIO_HA_IO_Digital_Labels_DI_Right" top="65" left="560" zIndex="0" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_ConvInIO_HA_IO_Digital_Labels_DO_Left" top="240" left="175" zIndex="1" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_ConvInIO_HA_IO_Digital_DI_Overflow" top="165" left="175" zIndex="2" IO_Label="$IAT/Diagnostics_ConvInIO_HA_IO_Digital_DI_Overflow" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_ConvInIO_HA_IO_Digital_DI_High" top="115" left="560" zIndex="3" IO_Label="$IAT/Diagnostics_ConvInIO_HA_IO_Digital_DI_High" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_ConvInIO_HA_IO_Digital_DI_Low" top="165" left="560" zIndex="4" IO_Label="$IAT/Diagnostics_ConvInIO_HA_IO_Digital_DI_Low" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_ConvInIO_HA_IO_Digital_DO_Enable" top="290" left="175" zIndex="5" IO_Label="$IAT/Diagnostics_ConvInIO_HA_IO_Digital_DO_Enable" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_ConvInIO_HA_IO_Digital_DI_Active" top="115" left="175" zIndex="6" IO_Label="$IAT/Diagnostics_ConvInIO_HA_IO_Digital_DI_Active" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Header" id="Diagnostics_ConvInIO_HA_IO_Header_DI" top="30" left="50" width="1000" zIndex="7" HeaderText="$IAT/Diagnostics_ConvInIO_HA_IO_Header_DI" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_ConvInIO_HA_IO_Digital_Labels_DI_Left" top="66" left="175" zIndex="8" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Header" id="Diagnostics_ConvInIO_HA_IO_Header_DO" top="205" left="50" width="1000" zIndex="9" HeaderText="$IAT/Diagnostics_ConvInIO_HA_IO_Header_DO" />
+  </Widgets>
+</Content>

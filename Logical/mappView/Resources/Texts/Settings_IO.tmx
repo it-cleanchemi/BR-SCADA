@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Settings_IO_GroupBox_ConvIn">
+      <tuv xml:lang="es">
+        <seg>Entrada de Cinta</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Entrée Convoyeur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Förderer-Eingang</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ConvIn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Header_DI">
+      <tuv xml:lang="es">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DI</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Digital_Scaling_DI_Overflow">
+      <tuv xml:lang="es">
+        <seg>Desbordamiento</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Débordement</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Überlauf</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Overflow</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Digital_Scaling_DI_High">
+      <tuv xml:lang="es">
+        <seg>Alto</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Haut</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Hoch</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>High</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Digital_Scaling_DI_Low">
+      <tuv xml:lang="es">
+        <seg>Bajo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bas</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Niedrig</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Low</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Digital_Scaling_DI_Active">
+      <tuv xml:lang="es">
+        <seg>Activo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Actif</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Active</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Header_DO">
+      <tuv xml:lang="es">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_ConvIn_HA_IO_Digital_Scaling_DO_Enable">
+      <tuv xml:lang="es">
+        <seg>Habilitar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Activer</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aktivieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel">
+      <tuv xml:lang="es">
+        <seg>Rueda</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Roue</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Rad</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wheel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Header_DI">
+      <tuv xml:lang="es">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DI</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Digital_Scaling_DI_ProductPresent">
+      <tuv xml:lang="es">
+        <seg>Producto Presente</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Produit Présent</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Produkt Vorhanden</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Product Present</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Digital_Scaling_DI_RunningVFD">
+      <tuv xml:lang="es">
+        <seg>VFD en Funcionamiento</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>VFD En Marche</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Laufender VFD</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Running VFD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Header_DO">
+      <tuv xml:lang="es">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Digital_Scaling_DO_DirectionVFD">
+      <tuv xml:lang="es">
+        <seg>Dirección VFD</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Direction VFD</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Richtung VFD</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Direction VFD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Digital_Scaling_DO_RunVFD">
+      <tuv xml:lang="es">
+        <seg>Ejecutar VFD</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Lancer VFD</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>VFD starten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run VFD</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Header_AO">
+      <tuv xml:lang="es">
+        <seg>AO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>AO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>AO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_IO_GroupBox_Wheel_HA_IO_Analog_Scaling_AO_SetSpeedVFD">
+      <tuv xml:lang="es">
+        <seg>Configurar Velocidad VFD</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Régler Vitesse VFD</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Geschwindigkeit VFD einstellen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Speed VFD</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

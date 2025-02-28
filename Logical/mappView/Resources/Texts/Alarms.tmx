@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarms_ButtonBar_ToggleButton_Active">
+      <tuv xml:lang="en">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Activo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Actif</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aktiv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_ButtonBar_ToggleButton_History">
+      <tuv xml:lang="en">
+        <seg>History</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Historia</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Historique</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Verlauf</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

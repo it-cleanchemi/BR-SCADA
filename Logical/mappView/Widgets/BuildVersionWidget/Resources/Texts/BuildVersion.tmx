@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/BuildVersion</prop>
+  </header>
+  <body>
+    <tu tuid="BuildVersion">
+      <note>BuildVersion package</note>
+      <tuv xml:lang="en">
+        <seg>Build Version</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AS">
+      <note>Automation Studio version</note>
+      <tuv xml:lang="de">
+        <seg>AS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AS</seg>
+      </tuv>
+    </tu>
+    <tu tuid="User">
+      <note>Windows user</note>
+      <tuv xml:lang="de">
+        <seg>NUTZER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>USER</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Project">
+      <note>Project name</note>
+      <tuv xml:lang="de">
+        <seg>PROJEKT</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PROJECT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Configuration">
+      <note>Configuration name</note>
+      <tuv xml:lang="de">
+        <seg>KONFIGURATION</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>CONFIGURATION</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildMode">
+      <note>Build mode</note>
+      <tuv xml:lang="de">
+        <seg>BAUEN MODUS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>BUILD MODE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildDate">
+      <note>Build date from powershell</note>
+      <tuv xml:lang="de">
+        <seg>BAUEN DATUM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>BUILD DATE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Branch">
+      <note>Current branch</note>
+      <tuv xml:lang="de">
+        <seg>ZWEIG</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>BRANCH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Version">
+      <note>&lt;tag&gt;-&lt;add_commits&gt;</note>
+      <tuv xml:lang="en">
+        <seg>VERSION</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Tag">
+      <note>Latest tag</note>
+      <tuv xml:lang="de">
+        <seg>ETIKETT</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>TAG</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AdditionalCommits">
+      <note>Additional commits since latest tag</note>
+      <tuv xml:lang="en">
+        <seg>ADD. COMMITS</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Sha1">
+      <note>Hash of latest commit</note>
+      <tuv xml:lang="en">
+        <seg>SHA1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UncommittedChanges">
+      <note>Uncommitted changes in working tree</note>
+      <tuv xml:lang="en">
+        <seg>CHANGES</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CommitDate">
+      <note>Date of latest commit</note>
+      <tuv xml:lang="de">
+        <seg>DATUM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>COMMIT DATE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BasicDate">
+      <note>Commit date in basic widget</note>
+      <tuv xml:lang="de">
+        <seg>DATUM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>DATE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CommitAuthor">
+      <note>Author of latest commit</note>
+      <tuv xml:lang="de">
+        <seg>VERFASSER</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AUTHOR</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

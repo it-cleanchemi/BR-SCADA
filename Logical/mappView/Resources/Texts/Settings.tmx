@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Settings_ButtonBar_ToggleButton_IO">
+      <tuv xml:lang="en">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_ButtonBar_ToggleButton_Timers">
+      <tuv xml:lang="en">
+        <seg>Timers</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Temporiz.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Minut.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Zeitgeber</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_ButtonBar_ToggleButton_System">
+      <tuv xml:lang="en">
+        <seg>System</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>System</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>System</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>System</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

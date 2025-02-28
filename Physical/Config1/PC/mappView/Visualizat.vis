@@ -5,6 +5,12 @@
     <Page refId="Overview_Page" />
     <Page refId="page_2" />
     <Page refId="page_4" />
+    <Page refId="Page_Main" />
+    <Page refId="Page_Process" />
+    <Page refId="Page_Services" />
+    <Page refId="Page_Settings" />
+    <Page refId="Page_Diagnostics" />
+    <Page refId="Page_Alarms" />
   </Pages>
   <Navigations />
   <BindingsSets>
@@ -33,7 +39,6 @@
     <Content refId="content_2" />
     <Content refId="content_9" />
     <Content refId="content_11" />
-    <Content refId="Header" />
     <Content refId="content_15" />
     <Content refId="content_3" />
     <Content refId="content_5" />
@@ -57,6 +62,20 @@
     <Content refId="QCS" />
     <Content refId="content_6" />
     <Content refId="SiteStatuses" />
+    <Content refId="Header" />
+    <Content refId="Main" />
+    <Content refId="Process" />
+    <Content refId="Services" />
+    <Content refId="Services_DirMan" />
+    <Content refId="Services_Help" />
+    <Content refId="Settings" />
+    <Content refId="Settings_Timers" />
+    <Content refId="Settings_System" />
+    <Content refId="Diagnostics" />
+    <Content refId="Diagnostics_SDM" />
+    <Content refId="Alarms" />
+    <Content refId="Alarms_Active" />
+    <Content refId="Alarms_History" />
   </Contents>
   <SnippetsSets />
   <VariablesSets>
@@ -66,12 +85,14 @@
     <VariablesSet refId="svar_1" />
   </VariablesSets>
   <ExpressionsSets />
+  <StartTheme themeRefId="HartfielTheme" />
   <Themes>
     <Theme refId="BuRTheme1" />
+    <Theme refId="HartfielTheme" />
   </Themes>
   <Configurations>
-		<Configuration key="activityCount" value="false" />
-		<Configuration key="zoom" value="true" />
+    <Configuration key="activityCount" value="false" />
+    <Configuration key="zoom" value="true" />
     <Gestures>
       <!--<SystemGesture1 touchPoints="2" />
 			<SystemGesture2 touchPoints="2" />

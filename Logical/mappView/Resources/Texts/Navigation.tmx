@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Navigation_NavigationButton_1">
+      <tuv xml:lang="en">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Inicio</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Accueil</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Startseite</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_NavigationButton_2">
+      <tuv xml:lang="en">
+        <seg>Process</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Proceso</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Processus</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Prozess</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_NavigationButton_3">
+      <tuv xml:lang="en">
+        <seg>Services</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Servicios</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Services</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Dienstle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_NavigationButton_4">
+      <tuv xml:lang="en">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Ajustes</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Paramètres</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Einstellungen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_NavigationButton_5">
+      <tuv xml:lang="en">
+        <seg>Diagnostics</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Diagnósticos</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Diagnostics</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Diagnose</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_NavigationButton_6">
+      <tuv xml:lang="en">
+        <seg>Alarms</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Alarmas</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Alarmes</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alarme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Navigation_PushButton_STOP">
+      <tuv xml:lang="en">
+        <seg>STOP</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>DETENER</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>ARRÊT</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>STOPP</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

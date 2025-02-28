@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_0">
+      <tuv xml:lang="en">
+        <seg>Ack All</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Reconocer Todo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Acquitter Tout</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alle bestätigen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_1">
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Alarma</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Alarme</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_2">
+      <tuv xml:lang="en">
+        <seg>Unsaved</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Cambios no Guard</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Non Enregistré</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ungespeichert</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_3">
+      <tuv xml:lang="en">
+        <seg>Forced</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Forzado</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcé</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwungen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_4">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_5">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_6">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_7">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_8">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Header_FlexBox_Notifications_FlexBoxItem_PushButton_Notification_9">
+      <tuv xml:lang="en">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Notificación</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Notification</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benachrichtigung</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

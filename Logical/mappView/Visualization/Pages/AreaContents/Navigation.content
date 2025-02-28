@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Navigation" height="720" width="166" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_1" top="0" left="0" width="166" height="104" zIndex="0" image="Media/Images/Home.svg" imageAlign="top" pageId="Page_Main" text="$IAT/Navigation_NavigationButton_1" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_2" top="104" left="0" width="166" height="104" zIndex="2" image="Media/Images/Process.svg" imageAlign="top" pageId="Page_Process" text="$IAT/Navigation_NavigationButton_2" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_3" top="208" left="0" width="166" height="104" zIndex="3" image="Media/Images/Services.svg" imageAlign="top" pageId="Page_Services" text="$IAT/Navigation_NavigationButton_3" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_4" top="312" left="0" width="166" height="104" zIndex="4" image="Media/Images/Settings.svg" imageAlign="top" pageId="Page_Settings" text="$IAT/Navigation_NavigationButton_4" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_5" top="416" left="0" width="166" height="104" zIndex="1" image="Media/Images/Diagnostics.svg" imageAlign="top" pageId="Page_Diagnostics" text="$IAT/Navigation_NavigationButton_5" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_6" top="520" left="0" width="166" height="104" zIndex="5" image="Media/Images/Alarms.svg" imageAlign="top" pageId="Page_Alarms" text="$IAT/Navigation_NavigationButton_6" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Navigation_PushButton_STOP" top="624" left="0" width="166" height="96" zIndex="6" image="Media/Images/ESTOP.svg" text="$IAT/Navigation_PushButton_STOP" imageColor="rgba(255, 0, 0, 1)" mouseDownImageColor="rgba(255, 0, 0, 1)" mouseDownBackGroundGradient="linear-gradient(to right,#111111 90%,#FF0000 100%)" textColor="rgba(255, 0, 0, 1)" textAlign="left" fontSize="24px" style="default_Navigation" />
+  </Widgets>
+</Content>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Header_DI">
+      <tuv xml:lang="en">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DI</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DI</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Digital_DI_Overflow">
+      <tuv xml:lang="en">
+        <seg>Overflow</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Desbordamiento</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Débordement</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Überlauf</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Digital_DI_High">
+      <tuv xml:lang="en">
+        <seg>High</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Alto</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Haut</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Hoch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Digital_DI_Low">
+      <tuv xml:lang="en">
+        <seg>Low</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Bajo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bas</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Niedrig</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Digital_DI_Active">
+      <tuv xml:lang="en">
+        <seg>Active</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Activo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Actif</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aktiv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Header_DO">
+      <tuv xml:lang="en">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>DO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>DO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ConvInIO_HA_IO_Digital_DO_Enable">
+      <tuv xml:lang="en">
+        <seg>Enable</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Habilitar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Activer</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Aktivieren</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

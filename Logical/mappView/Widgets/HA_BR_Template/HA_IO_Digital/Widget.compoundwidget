@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="HA_IO_Digital" width="280" height="35" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="IO_Label" top="0" left="0" width="120" height="35" zIndex="0" breakWord="true" multiLine="true" text="Default" textAlign="right" fontSize="12px" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="IO_EllipseIOMapping" top="8" left="130" width="20" height="20" zIndex="1" style="Off" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="IO_EllipseFiltered" top="8" left="160" width="20" height="20" zIndex="2" style="Off" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="IO_CheckBoxForceOff" top="0" left="195" width="35" height="35" zIndex="3" boxSize="35" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.CheckBox" id="IO_CheckBoxForceOn" top="0" left="245" width="35" height="35" zIndex="4" boxSize="35" permissionOperate="['Administrators']" />
+  </Widgets>
+  <Properties>
+    <!-- 
+    Simple non bindable property:
+    Property Attributes
+    xsi:type: NonBindableProperty
+    name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+    <Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property=""/>
+        <Mapping widget="" property=""/>
+      </Mappings>
+    </Property>
+
+    Simple bindable property:
+    <Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" category="" localizable="" typeRefId="" nodeRefId="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property="" mode=""/>
+        <Mapping widget="" property="" mode=""/>
+      </Mappings>
+    </Property>
+
+    Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+			</Mappings>
+		</Property>
+    -->
+
+    <Property xsi:type="NonBindableProperty" name="IO_Label" type="String" defaultValue="$IAT/">
+      <Description>IO Label</Description>
+      <Mappings>
+        <Mapping widget="IO_Label" property="text"/>
+      </Mappings>
+    </Property>
+
+	<Property xsi:type="StructureBindableProperty" name="HA_IO_Digital_Forcing_typ" type="HA_IO_Digital_Forcing_typ" readOnly="false" >
+		<Description>Digital Forcing</Description>
+		<Mappings>
+			<Mapping widget="IO_CheckBoxForceOff" type="Boolean" property="value" mode="twoWay" memberPath="Off" mapToNode="false" samplingRate="fast"/>
+			<Mapping widget="IO_CheckBoxForceOn" type="Boolean" property="value" mode="twoWay" memberPath="On" mapToNode="false" samplingRate="fast"/>
+		</Mappings>
+	</Property>
+
+	<Property xsi:type="StructureBindableProperty" name="HA_IO_Digital_Signal_typ" type="HA_IO_Digital_Signal_typ" readOnly="false" >
+		<Description>Digital Signal</Description>
+		<Mappings>
+			<Mapping widget="IO_EllipseIOMapping" type="Boolean" property="enable" mode="twoWay" memberPath="VisIOMapping" mapToNode="false" samplingRate="fast"/>
+			<Mapping widget="IO_EllipseFiltered" type="Boolean" property="enable" mode="twoWay" memberPath="Filtered" mapToNode="false" samplingRate="fast"/>
+			<Mapping widget="IO_Label" type="Boolean" property="enable" mode="twoWay" memberPath="VisRefresher" mapToNode="false" samplingRate="fast"/>
+		</Mappings>
+	</Property>
+  </Properties>
+
+  <Events>
+    <!--
+    <Event name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" event="" />
+      </Mappings>
+    </Event>
+    -->
+  </Events>
+
+  <Actions>
+    <!--
+    <Action name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" action="" />
+      </Mappings>
+    </Action>
+    -->
+  </Actions>
+
+  <EventBindings>
+    <!-- source and target can only be widgets within the compound widget.
+    <EventBinding id="">
+      <Source xsi:type="widget.Event" widgetRefId="" event="" />
+      <EventHandler condition="">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="">
+            <Method name="" value="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    -->
+    <EventBinding id="IOMappingStyle">
+      <Source xsi:type="widget.Event" widgetRefId="IO_EllipseIOMapping" event="EnableChanged" />
+      <EventHandler condition="value">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseIOMapping">
+            <Method name="SetStyle" value="On" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseIOMapping">
+            <Method name="SetStyle" value="Off" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="FilteredStyle">
+      <Source xsi:type="widget.Event" widgetRefId="IO_EllipseFiltered" event="EnableChanged" />
+      <EventHandler condition="value">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseFiltered">
+            <Method name="SetStyle" value="On" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseFiltered">
+            <Method name="SetStyle" value="Off" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="RefresherEnable">
+      <Source xsi:type="widget.Event" widgetRefId="IO_Label" event="EnableChanged" />
+      <EventHandler>
+	    <Parallel>
+	        <Action>
+	          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseFiltered">
+	            <Method name="SetEnable" value="false" />
+	          </Target>
+	        </Action>
+	        <Action>
+	          <Target xsi:type="widget.Action" widgetRefId="IO_EllipseIOMapping">
+	            <Method name="SetEnable" value="false" />
+	          </Target>
+	        </Action>
+	    </Parallel>
+      </EventHandler>
+    </EventBinding>
+  </EventBindings>
+</CompoundWidget>

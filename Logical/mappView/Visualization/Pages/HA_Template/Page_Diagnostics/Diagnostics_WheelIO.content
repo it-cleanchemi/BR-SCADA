@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Diagnostics_WheelIO" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_WheelIO_HA_IO_Digital_Labels_DI_Left" top="65" left="175" zIndex="3" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_WheelIO_HA_IO_Digital_Labels_DI_Right" top="65" left="560" zIndex="0" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFD" top="115" left="175" zIndex="1" IO_Label="$IAT/Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFD" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresent" top="115" left="560" zIndex="2" IO_Label="$IAT/Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresent" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_WheelIO_HA_IO_Digital_Labels_DO_Left" top="185" left="175" zIndex="4" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels" id="Diagnostics_WheelIO_HA_IO_Digital_Labels_DO_Right" top="185" left="560" zIndex="5" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFD" top="235" left="175" zIndex="6" IO_Label="$IAT/Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFD" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Digital" id="Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFD" top="235" left="560" zIndex="7" IO_Label="$IAT/Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFD" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Analog_Labels" id="Diagnostics_WheelIO_HA_IO_Analog_Labels_AO" top="305" left="242" zIndex="9" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Analog" id="Diagnostics_WheelIO_HA_IO_Analog_AO_SetSpeedVFD" top="355" left="242" zIndex="8" IO_Label="$IAT/Diagnostics_WheelIO_HA_IO_Analog_AO_SetSpeedVFD" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Header" id="Diagnostics_WheelIO_HA_IO_Header_DI" top="30" left="50" width="1000" zIndex="10" HeaderText="$IAT/Diagnostics_WheelIO_HA_IO_Header_DI" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Header" id="Diagnostics_WheelIO_HA_IO_Header_DO" top="150" left="50" width="1000" zIndex="11" HeaderText="$IAT/Settings_IO_GroupBox_Wheel_HA_IO_Header_DO" />
+    <Widget xsi:type="widgets.HA_BR_Template_WL.HA_IO_Header" id="Diagnostics_WheelIO_HA_IO_Header_AO" top="265" left="50" width="1000" zIndex="12" HeaderText="$IAT/Diagnostics_WheelIO_HA_IO_Header_AO" />
+  </Widgets>
+</Content>

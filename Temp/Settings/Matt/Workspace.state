@@ -27,6 +27,9 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
   <TreeView ID="SwConfiguration-ProjectTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="130" Position="0" />
@@ -67,7 +70,4 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
-    <Bookmarks />
-  </TextEdit>
 </State>

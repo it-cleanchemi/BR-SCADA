@@ -10,5 +10,6 @@
     <Object Type="Package">NavigationWindow</Object>
     <Object Type="Package">ExamplePages</Object>
     <Object Type="Package">CustomFeatures</Object>
+    <Object Type="Package">HA_Template</Object>
   </Objects>
 </Package>

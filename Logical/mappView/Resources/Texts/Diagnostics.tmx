@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Diagnostics_ButtonBar_ToggleButton_ConvInIO">
+      <tuv xml:lang="en">
+        <seg>ConvIn IO</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>ConvIn IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>ConvIn IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>ConvIn IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ButtonBar_ToggleButton_WheelIO">
+      <tuv xml:lang="en">
+        <seg>Wheel IO</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Rueda IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Roue IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Rad IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_ButtonBar_ToggleButton_SDM">
+      <tuv xml:lang="en">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>SDM</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>SDM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics_CheckBox_ForceEnable">
+      <tuv xml:lang="en">
+        <seg>Force Enable</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Habilitar Forzar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer l'Activation</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin Aktivi</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

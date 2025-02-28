@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="HA_IO_Analog_Scaling" width="895" height="35" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="IO_Label" top="0" left="0" width="120" height="35" zIndex="0" breakWord="true" multiLine="true" text="Default" textAlign="right" fontSize="12px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="IO_NumericOutputRaw" top="0" left="125" width="110" height="35" zIndex="1" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" maxValue="9999999" showUnit="false" useDigitGrouping="true" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="IO_NumericOutputApp" top="0" left="240" width="105" height="35" zIndex="2" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" maxValue="9999999" unitAlign="right" unitTextAlign="left" useDigitGrouping="true" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="IO_NumericInputSlope" top="0" left="350" width="105" height="35" zIndex="3" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" limitViolationPolicy="submitAll" maxValue="9999999" minValue="-9999999" unitAlign="right" unitTextAlign="left" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="IO_NumericInputIntercept" top="0" left="460" width="105" height="35" zIndex="4" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" limitViolationPolicy="submitAll" maxValue="9999999" minValue="-9999999" unitAlign="right" unitTextAlign="left" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="IO_NumericInputFilter" top="0" left="570" width="105" height="35" zIndex="5" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" limitViolationPolicy="setToLimitAndSubmit" maxValue="1" showUnit="false" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="IO_NumericInputMin" top="0" left="680" width="105" height="35" zIndex="6" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" limitViolationPolicy="submitAll" maxValue="9999999" minValue="-9999999" unitAlign="right" unitTextAlign="left" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="IO_NumericInputMax" top="0" left="790" width="105" height="35" zIndex="7" format="{'metric':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':4,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':4,'minimumIntegerDigits':1}}" limitViolationPolicy="submitAll" maxValue="9999999" minValue="-9999999" unitAlign="right" unitTextAlign="left" value="10000" textAlign="center" fontSize="12px" unitFontSize="12px" padding="0px 5px 0px 5px" permissionOperate="['Administrators']" />
+  </Widgets>
+  <Properties>
+    <!-- 
+    Simple non bindable property:
+    Property Attributes
+    xsi:type: NonBindableProperty
+    name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+    <Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property=""/>
+        <Mapping widget="" property=""/>
+      </Mappings>
+    </Property>
+    
+    Simple bindable property:
+    <Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" category="" localizable="" typeRefId="" nodeRefId="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property="" mode=""/>
+        <Mapping widget="" property="" mode=""/>
+      </Mappings>
+    </Property>
+
+
+    Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+			</Mappings>
+		</Property>
+    -->
+    <Property xsi:type="NonBindableProperty" name="IO_Label" type="String" defaultValue="$IAT/">
+      <Description>IO Label</Description>
+      <Mappings>
+        <Mapping widget="IO_Label" property="text"/>
+      </Mappings>
+    </Property>
+    <Property xsi:type="BindableProperty" name="unit" type="String" defaultValue="{}">
+      <Description>Units</Description>
+      <Mappings>
+        <Mapping widget="IO_NumericInputSlope" property="unit" mode="twoWay"/>
+        <Mapping widget="IO_NumericInputIntercept" property="unit" mode="twoWay"/>
+        <Mapping widget="IO_NumericInputMin" property="unit" mode="twoWay"/>
+        <Mapping widget="IO_NumericInputMax" property="unit" mode="twoWay"/>
+        <Mapping widget="IO_NumericOutputApp" property="unit" mode="twoWay"/>
+      </Mappings>
+    </Property>
+	<Property xsi:type="StructureBindableProperty" name="HA_IO_Analog_Par_typ" type="HA_IO_Analog_Par_typ" readOnly="false" >
+		<Description>Analog Par</Description>
+		<Mappings>
+			<Mapping widget="IO_NumericInputSlope" type="Number" property="node" mode="twoWay" memberPath="M" mapToNode="true" samplingRate="fast"/>
+			<Mapping widget="IO_NumericInputIntercept" type="Number" property="node" mode="twoWay" memberPath="B" mapToNode="true" samplingRate="fast"/>
+			<Mapping widget="IO_NumericInputFilter" type="Number" property="node" mode="twoWay" memberPath="Filter" mapToNode="true" samplingRate="fast"/>
+			<Mapping widget="IO_NumericInputMin" type="Number" property="node" mode="twoWay" memberPath="MinValue" mapToNode="true" samplingRate="fast"/>
+			<Mapping widget="IO_NumericInputMax" type="Number" property="node" mode="twoWay" memberPath="MaxValue" mapToNode="true" samplingRate="fast"/>
+		</Mappings>
+	</Property>
+	<Property xsi:type="StructureBindableProperty" name="HA_IO_Analog_Signal_typ" type="HA_IO_Analog_Signal_typ" readOnly="false" >
+		<Description>Analog Signal</Description>
+		<Mappings>
+			<Mapping widget="IO_NumericOutputRaw" type="Number" property="node" mode="twoWay" memberPath="Vis.Raw" mapToNode="true" samplingRate="fast"/>
+			<Mapping widget="IO_NumericOutputApp" type="Number" property="node" mode="twoWay" memberPath="Vis.App" mapToNode="true" samplingRate="fast"/>
+		</Mappings>
+	</Property>
+  </Properties>
+
+  <Events>
+    <!--
+    <Event name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" event="" />
+      </Mappings>
+    </Event>
+    -->
+  </Events>
+
+  <Actions>
+    <!--
+    <Action name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" action="" />
+      </Mappings>
+    </Action>
+    -->
+  </Actions>
+
+  <EventBindings>
+    <!-- source and target can only be widgets within the compound widget.
+    <EventBinding id="">
+      <Source xsi:type="widget.Event" widgetRefId="" event="" />
+      <EventHandler condition="">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="">
+            <Method name="" value="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    -->
+  </EventBindings>
+
+</CompoundWidget>

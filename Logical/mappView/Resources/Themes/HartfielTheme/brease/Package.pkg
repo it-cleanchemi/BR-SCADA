@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="StylesSetPackage" PackageType="StylesSetPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Styles Set">HartfielTheme.stylesset</Object>
+    <Object Type="File">HartfielDefaultStyles.styles</Object>
+    <Object Type="File">Custom.styles</Object>
+  </Objects>
+</Package>

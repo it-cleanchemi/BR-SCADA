@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Settings_System_GroupBox_Accessibility">
+      <tuv xml:lang="en">
+        <seg>Accessibility</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Accesibilidad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Accessibilité</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Barrierefreiheit</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_System_GroupBox_Info">
+      <tuv xml:lang="en">
+        <seg>Info</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Info</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Info</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Info</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Settings_System_GroupBox_Info_TextInput_Serial">
+      <tuv xml:lang="en">
+        <seg>Serial</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Serial</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Série</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Seriell</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

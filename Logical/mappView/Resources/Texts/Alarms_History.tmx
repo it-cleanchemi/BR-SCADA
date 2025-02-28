@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarms_History_Table_TableItem_Timestamp">
+      <tuv xml:lang="en">
+        <seg>Timestamp</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Marca Tiempo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Horodatage</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Zeitstempel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Table_TableItem_Code">
+      <tuv xml:lang="en">
+        <seg>Code</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Código</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Code</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Code</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Table_TableItem_Severity">
+      <tuv xml:lang="en">
+        <seg>Severity</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Gravedad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Gravité</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Schweregrad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Table_TableItem_Description">
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Descripción</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beschreibung</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Flyout_AlarmData">
+      <tuv xml:lang="en">
+        <seg>Alarm Data</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Datos</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Données</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>daten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Flyout_AlarmData_Table_TableItem_Value">
+      <tuv xml:lang="en">
+        <seg>Value</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Valor</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Valeur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Wert</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarms_History_Flyout_AlarmData_Table_TableItem_Description">
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Descripción</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Beschreibung</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

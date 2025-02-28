@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="HA_IO_Digital_Labels.ForceOff">
+      <tuv xml:lang="es">
+        <seg>Forzar\nOff</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer\nOff</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin\nOff</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force\nOff</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Labels.ForceOn">
+      <tuv xml:lang="es">
+        <seg>Forzar\nOn</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer\nOn</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin\nOn</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force\nOn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Labels.App">
+      <tuv xml:lang="es">
+        <seg>Apl</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>App</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Labels.IO">
+      <tuv xml:lang="es">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Labels.ForceOff">
+      <tuv xml:lang="es">
+        <seg>Forzar\nOff</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer\nOff</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin\nOff</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force\nOff</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Labels.ForceOn">
+      <tuv xml:lang="es">
+        <seg>Forzar\nOn</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer\nOn</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin\nOn</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force\nOn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Labels.App">
+      <tuv xml:lang="es">
+        <seg>Apl</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>App</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Labels.IO">
+      <tuv xml:lang="es">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Labels.ForceValue">
+      <tuv xml:lang="es">
+        <seg>Forzar\nValor</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Forcer\nValeur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Erzwin\nWert</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force\nValue</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Raw">
+      <tuv xml:lang="es">
+        <seg>Crudo</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Brut</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Roh</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Raw</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.App">
+      <tuv xml:lang="es">
+        <seg>Apl</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>App</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Slope">
+      <tuv xml:lang="es">
+        <seg>Incl.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Pente</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Neigung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Slope</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Intercept">
+      <tuv xml:lang="es">
+        <seg>Interceptar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Intercepter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Abfangen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Intercept</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Filter">
+      <tuv xml:lang="es">
+        <seg>Filtro</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Filtre</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Filter</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Min">
+      <tuv xml:lang="es">
+        <seg>Min</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Min</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Min</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Min</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Analog_Scaling_Labels.Max">
+      <tuv xml:lang="es">
+        <seg>Max</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Max</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Max</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Max</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Scaling_Labels.IO">
+      <tuv xml:lang="es">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>IO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IO</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Scaling_Labels.App">
+      <tuv xml:lang="es">
+        <seg>Apl</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>App</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>App</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Scaling_Labels.Invert">
+      <tuv xml:lang="es">
+        <seg>Inv</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Inv</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Umk</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Invert</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Scaling_Labels.FilterOn">
+      <tuv xml:lang="es">
+        <seg>Filtro On</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Filtre On</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Filter On</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filter On</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Digital_Scaling_Labels.FilterOff">
+      <tuv xml:lang="es">
+        <seg>Filtro Off</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Filtre Off</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Filter Off</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filter Off</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Calibrate_Labels.Run">
+      <tuv xml:lang="es">
+        <seg>Ejecutar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Exécuter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>
+Ausführen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Calibrate_Labels.RunTime">
+      <tuv xml:lang="es">
+        <seg>
+Tiempo de ejecución</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Durée</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>
+Laufzeit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="HA_IO_Calibrate_Labels.SpeedPercent">
+      <tuv xml:lang="es">
+        <seg>Porcentaje de velocidad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Pourcentage de vitesse</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Geschwindigkeitsprozent</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speed Percent</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

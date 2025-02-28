@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="HartfielDefaultStyles" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<!--	Light 			(White) 	#FFFFFF 	-->
+	<!--	Dark_Neutral 	(Gray)	 	#333333 	-->
+	<!--	Neutral 		(Gray)	 	#555555 	-->
+	<!--	Light_Neutral 	(Gray)	 	#888888 	-->
+	<!--	Background 		(Dark) 		#111111 	-->
+	<!--	Primary 		(Bright 1) 	#CC0000 	-->
+	<!--	Highlight 		(Bright 2) 	#FEFEFE 	-->
+	<!--	Warning 		(Bright 3) 	#00FFFF 	-->
+	<!--	Error	 		(Bright 4) 	#FFFF00 	-->
+
+	<!--Surrounding background color-->
+	<Style id="default" xsi:type="system.brease.Body"
+		backColor="#111111"
+	/>   
+	<!--Area-->
+	<Style id="header" xsi:type="system.brease.Area" 
+		backGroundGradient="linear-gradient(to right,#111111,#555555)" 
+	/>
+	<Style id="default" xsi:type="system.brease.Area" 
+		backColor="#111111" 
+	/>
+	<!--Startup Progress Bar-->
+	<Style id="default" xsi:type="system.brease.StartupProgressBar"
+		barBackColor="#111111"
+	  	barColor="#CC0000"
+		barCornerRadius="0px"
+	/>  
+	<!--image-->
+	<Style id="default" xsi:type="widgets.brease.Image" 
+		imageColor="#000000" 
+	/>	
+	<Style id="default_Light" xsi:type="widgets.brease.Image" 
+		imageColor="#FFFFFF" 
+	/>
+	<Style id="default_Dark_Neutral" xsi:type="widgets.brease.Image" 
+		imageColor="#333333" 
+	/>
+	<Style id="default_Neutral" xsi:type="widgets.brease.Image" 
+		imageColor="#555555" 
+	/>
+	<Style id="default_Light_Neutral" xsi:type="widgets.brease.Image" 
+		imageColor="#888888" 
+	/>
+	<Style id="default_Background" xsi:type="widgets.brease.Image" 
+		imageColor="#111111" 
+	/>
+	<Style id="default_Primary" xsi:type="widgets.brease.Image" 
+		imageColor="#CC0000" 
+	/>	
+	<Style id="default_Highlight" xsi:type="widgets.brease.Image" 
+		imageColor="#FEFEFE" 
+	/>	
+	<Style id="default_Warning" xsi:type="widgets.brease.Image" 
+		imageColor="#00FFFF" 
+	/>	
+	<Style id="default_Error" xsi:type="widgets.brease.Image" 
+		imageColor="#FFFF00" 
+	/>	
+	<!--button-->
+	
+	<Style id="default" xsi:type="widgets.brease.Button" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)" 
+	/>
+
+	<!--momentary push button-->
+	
+	<Style id="default" xsi:type="widgets.brease.MomentaryPushButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)" 
+	/>
+	
+	<!--navigation button-->
+		
+	<Style id="default" xsi:type="widgets.brease.NavigationButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#888888" 
+		imageColor="#888888" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to right,#111111 90%,#888888 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#111111 90%,#CC0000 100%)" 
+		checkedBackGroundGradient="linear-gradient(to right,#111111 90%,#CC0000 100%)" 
+		mouseDownImageColor="#CC0000" 
+		checkedImageColor="#CC0000" 
+		checkedTextColor="#FFFFFF" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"  
+		shadow="none" 
+		mouseDownShadow="none" 
+	/>	
+
+	<!--navigation button-->
+		
+	<Style id="default_error" xsi:type="widgets.brease.NavigationButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#555555" 
+		imageColor="#CC0000" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to right,#111111 90%,#555555 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#111111 90%,#FFFFFF 100%)" 
+		checkedBackGroundGradient="linear-gradient(to right,#111111 90%,#FFFFFF 100%)" 
+		mouseDownImageColor="#CC0000" 
+		checkedImageColor="#CC0000" 
+		checkedTextColor="#FFFFFF" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"  
+		shadow="none" 
+		mouseDownShadow="none" 
+	/>	
+
+	<!--automatic navigation button-->
+		
+	<Style id="default" xsi:type="widgets.brease.SystemNavButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#555555" 
+		imageColor="#CC0000" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to right,#111111 90%,#555555 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#111111 90%,#FFFFFF 100%)" 
+		checkedBackGroundGradient="linear-gradient(to right,#111111 90%,#FFFFFF 100%)" 
+		mouseDownImageColor="#CC0000" 
+		checkedImageColor="#CC0000" 
+		checkedTextColor="#FFFFFF" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"  
+		shadow="none" 
+		mouseDownShadow="none" 
+	/>	
+
+		
+	<!--toggle button-->
+	
+	<Style id="default_ButtonBar" xsi:type="widgets.brease.ToggleButton" 
+		shadow="none"
+		bold="true" 
+		textColor="#555555" 
+		imageColor="#555555"
+		fontSize="20px" 
+		cornerRadius="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to bottom,#111111 70%,#555555 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to bottom,#111111 70%,#CC0000 100%)" 
+		checkedBackGroundGradient="linear-gradient(to bottom,#111111 70%,#CC0000 100%)" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		checkedTextColor="#FFFFFF"
+		checkedImageColor="#FFFFFF"
+		mouseDownTextColor="#FFFFFF"
+		mouseDownImageColor="#FFFFFF"
+	/>
+
+	<Style id="default" xsi:type="widgets.brease.ToggleButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+	/>
+	
+	<Style id="default_Flyout" xsi:type="widgets.brease.ToggleButton" 
+		imageColor="#111111" 
+		mouseDownImageColor="#CC0000" 
+		checkedImageColor="#CC0000" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="0px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="none" 
+		mouseDownBackGroundGradient="none" 
+		disabledBackGroundGradient="none"
+	/>
+	<!--toggle switch-->
+	
+	<Style id="default" xsi:type="widgets.brease.ToggleSwitch" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+	/>
+		
+	<!--push button-->
+	
+	<Style id="default" xsi:type="widgets.brease.PushButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+		disabledImageColor="#989898" 
+	/>
+	<Style id="default_Play" xsi:type="widgets.brease.PushButton" 
+		imageColor="#00FF00" 
+		mouseDownImageColor="#111111" 
+		borderStyle="outset" 
+		borderWidth="2px" 
+		backColor="#111111" 
+		backGroundGradient="none" 
+		mouseDownBackGroundGradient="none" 
+		borderColor="#888888" 
+		mouseDownBorderColor="#111111" 
+		mouseDownBorderWidth="2px" 
+		mouseDownBackColor="#00FF00"
+		fontSize="16px" 
+		bold="true" 
+		textColor="#00FF00" 
+		mouseDownTextColor="#111111"
+		cornerRadius="15px"
+		shadow="none"
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+		disabledImageColor="#989898" 
+	/>
+	<Style id="default_Pause" xsi:type="widgets.brease.PushButton" 
+		imageColor="#FFFF00" 
+		mouseDownImageColor="#111111" 
+		borderStyle="outset" 
+		borderWidth="2px" 
+		backColor="#111111" 
+		backGroundGradient="none" 
+		mouseDownBackGroundGradient="none" 
+		borderColor="#888888" 
+		mouseDownBorderColor="#111111" 
+		mouseDownBorderWidth="2px" 
+		mouseDownBackColor="#FFFF00"
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFF00" 
+		mouseDownTextColor="#111111"
+		cornerRadius="15px"
+		shadow="none"
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+		disabledImageColor="#989898" 
+	/>
+	<Style id="default_Stop" xsi:type="widgets.brease.PushButton" 
+		imageColor="#FF0000" 
+		mouseDownImageColor="#111111" 
+		borderStyle="outset" 
+		borderWidth="2px" 
+		backColor="#111111" 
+		backGroundGradient="none" 
+		mouseDownBackGroundGradient="none" 
+		borderColor="#888888" 
+		mouseDownBorderColor="#111111" 
+		mouseDownBorderWidth="2px" 
+		mouseDownBackColor="#FF0000"
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FF0000" 
+		mouseDownTextColor="#111111"
+		cornerRadius="15px"
+		shadow="none"
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+		disabledImageColor="#989898" 
+	/>
+	<Style id="default_Navigation" xsi:type="widgets.brease.PushButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#888888" 
+		imageColor="#888888" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to right,#111111 90%,#888888 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#111111 90%,#CC0000 100%)" 
+		mouseDownImageColor="#CC0000" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"  
+		shadow="none" 
+		mouseDownShadow="none" 
+	/>
+
+	<!--radio button-->
+	
+	<Style id="default" xsi:type="widgets.brease.RadioButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backColor="transparent" 
+		mouseDownBackColor="transparent" 
+	/>		
+	
+	<!--label-->
+	
+	<Style id="default" xsi:type="widgets.brease.Label" 
+		fontSize="16px" 
+		textColor="#FFFFFF" 
+		backColor="transparent" 
+		borderStyle="none" 
+		padding="5px"
+		shadow="none" 
+		bold="true"
+	 />
+	<Style id="default_primary" xsi:type="widgets.brease.Label" 
+		fontSize="16px" 
+		textColor="#CC0000" 
+		backColor="transparent" 
+		borderStyle="none" 
+		padding="5px"
+		shadow="none" 
+		bold="true"
+	 />
+	<Style id="default_highlight" xsi:type="widgets.brease.Label" 
+		fontSize="16px" 
+		textColor="#FEFEFE" 
+		backColor="transparent" 
+		borderStyle="none" 
+		padding="5px"
+		shadow="none" 
+		bold="true"
+	 />
+	<Style id="default_neutral" xsi:type="widgets.brease.Label" 
+		fontSize="16px" 
+		textColor="#555555" 
+		backColor="transparent" 
+		borderStyle="none" 
+		padding="5px"
+		shadow="none" 
+		bold="true"
+	 />
+	<Style id="default_background" xsi:type="widgets.brease.Label" 
+		fontSize="16px" 
+		textColor="#111111" 
+		backColor="transparent" 
+		borderStyle="none" 
+		padding="5px"
+		shadow="none" 
+		bold="true"
+	 />
+
+	<!--date time input-->
+
+	<Style id="default" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="#FFFFFF" 
+		borderWidth="0px" 
+		borderColor="#CC0000" 
+		activeBorderColor="#CC0000" 
+		fontSize="16px" 
+		backColor="transparent" 
+		activeBackColor="transparent" 
+		activeTextColor="#CC0000"
+		bold="true" 
+		shadow="none" 
+		textAlign="right" />
+
+	<Style id="default_lightNeutral" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="#888888" 
+		borderWidth="0px" 
+		borderColor="#CC0000" 
+		activeBorderColor="#CC0000" 
+		fontSize="16px" 
+		backColor="transparent" 
+		activeBackColor="transparent" 
+		activeTextColor="#CC0000"
+		bold="true" 
+		shadow="none" 
+		textAlign="right" />
+
+	<Style id="default_invisible" xsi:type="widgets.brease.DateTimeInput" 
+		textColor="transparent" 
+		borderWidth="0px" 
+		borderColor="transparent" 
+		activeBorderColor="transparent" 
+		fontSize="16px" 
+		backColor="transparent" 
+		activeBackColor="transparent" 
+		activeTextColor="transparent"
+		bold="true" 
+		shadow="none" 
+		textAlign="right" />
+	
+	<!--date time output-->
+	
+	<Style id="default" xsi:type="widgets.brease.DateTimeOutput" 
+		textColor="#474747"
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		textAlign="left" 
+	/>
+	
+	<Style id="default_lightNeutral" xsi:type="widgets.brease.DateTimeOutput" 
+		textColor="#888888" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		textAlign="left" 
+	/>
+
+	<!--alphanumeric keyboard-->
+	
+	<Style id="default" xsi:type="widgets.brease.KeyBoard"
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		buttonBackGroundGradient="linear-gradient(to bottom, #555555 0%,#111111 100%)" 
+		borderColor="#333333" 
+		backColor="#333333"
+		mouseDownBackColor="#CC0000" 
+		textColor="#FFFFFF" 
+	/>
+	
+	<!--numeric keyboard-->
+	
+	<Style id="default" xsi:type="widgets.brease.NumPad" 
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		buttonBackGroundGradient="linear-gradient(to bottom, #555555 0%,#111111 100%)" 
+		borderColor="#333333" 
+		backColor="#333333"
+		mouseDownBackColor="#CC0000" 
+		textColor="#FFFFFF" 
+		valueTextColor="#FFFFFF" 
+		sliderForeGroundGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" />
+
+	<!--date time picker keyboard-->
+	
+	<Style id="default" xsi:type="widgets.brease.DateTimePicker" 
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		borderColor="#333333"  
+		backColor="#333333"
+		activeLineColor="#CC0000"
+		textColor="#FFFFFF" 
+	/>
+
+	<!--tabcontrol / tabitem-->
+	
+	<Style id="default" xsi:type="widgets.brease.TabControl" 
+		borderStyle="none" 
+		borderWidth="0px" 
+		borderColor="transparent" />
+	
+	<Style id="default" xsi:type="widgets.brease.TabItem" 
+		textColor="#555555" 
+		imageColor="#555555"
+		fontSize="20px" 
+		cornerRadius="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to bottom,#111111 70%,#555555 100%)" 
+		activeBackGroundGradient="linear-gradient(to bottom,#111111 70%,#CC0000 100%)" 
+		borderWidth="0px 0px 0px 0px" 
+		activeBorderWidth="0px 0px 0px 0px" 
+		borderColor="#CC0000 #CC0000 #CC0000 #CC0000" 
+		activeBorderColor="#FFFFFF #FFFFFF #FFFFFF #FFFFFF" 
+		activeTextColor="#FFFFFF"
+		mouseDownImageColor="#FFFFFF"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.WebViewer" 
+		borderStyle="none"
+	/>
+
+	<!--group box-->
+	
+	<Style id="default" xsi:type="widgets.brease.GroupBox" 
+		headerBackColor="#333333" 
+		backColor="#111111" 
+		fontSize="18px" 
+		textColor="#FFFFFF" 
+		cornerRadius="0px 0px 0px 0px" 
+		borderWidth="1px" 
+		borderColor="#333333" 
+		shadow="none"
+	/>
+
+	<Style id="default_Blank" xsi:type="widgets.brease.GroupBox" 
+		headerBackColor="rgba(255,255,255,0)" 
+		backColor="rgba(255,255,255,0)" 
+		fontSize="0px" 
+		textColor="rgba(255,255,255,0)" 
+		cornerRadius="0px 0px 0px 0px" 
+		borderWidth="0px" 
+		borderColor="rgba(255,255,255,0)" 
+		shadow="none"
+	/>
+	
+	<!--numeric input-->
+	
+	<Style id="default" xsi:type="widgets.brease.NumericInput" 
+		textColor="#FFFFFF" 
+		borderWidth="2px 6px 2px 2px" 
+		activeBorderWidth="2px 6px 2px 2px" 
+		borderColor="#CC0000" 
+		activeBorderColor="#CC0000" 
+		fontSize="16px" 
+		backColor="#111111" 
+		activeBackColor="#CC0000" 
+		activeTextColor="#FFFFFF" 
+		disabledBackColor="#333333" 
+		disabledTextColor="#888888" 
+		bold="true" 
+		shadow="none"
+	/>
+	
+	<!--numeric output-->
+	
+	<Style id="default" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#FFFFFF" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		shadow="none"
+		bold="true"
+	/>
+	<Style id="default_primary" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#CC0000" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		shadow="none"
+		bold="true"
+	/>
+	<Style id="default_light_neutral" xsi:type="widgets.brease.NumericOutput" 
+		textColor="#888888" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		shadow="none"
+		bold="true"
+	/>
+	<!--text input-->
+	
+	<Style id="default" xsi:type="widgets.brease.TextInput" 
+		textColor="#FFFFFF" 
+		borderWidth="2px 6px 2px 2px" 
+		activeBorderWidth="2px 6px 2px 2px" 
+		borderColor="#CC0000" 
+		activeBorderColor="#CC0000" 
+		fontSize="16px" 
+		backColor="#111111" 
+		activeBackColor="#CC0000" 
+		activeTextColor="#FFFFFF" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+		cornerRadius="0px"
+	/>
+	
+	<!--text output-->
+	
+	<Style id="default" xsi:type="widgets.brease.TextOutput" 
+		textColor="#FFFFFF" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+	/>
+
+	<Style id="default_primary" xsi:type="widgets.brease.TextOutput" 
+		textColor="#CC0000" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+	/>
+	
+	<Style id="default_neutral" xsi:type="widgets.brease.TextOutput" 
+		textColor="#555555" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+	/>
+
+	<Style id="default_darkNeutral" xsi:type="widgets.brease.TextOutput" 
+		textColor="#333333" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+	/>
+
+	<Style id="default_lightNeutral" xsi:type="widgets.brease.TextOutput" 
+		textColor="#888888" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent" 
+		bold="true" 
+		shadow="none"
+		textAlign="center"
+	/>
+
+	<!--password-->
+	
+	<Style id="default" xsi:type="widgets.brease.Password" 
+		textColor="#FFFFFF" 
+		borderWidth="2px 6px 2px 2px" 
+		activeBorderWidth="2px 6px 2px 2px" 
+		borderColor="#CC0000" 
+		activeBorderColor="#CC0000" 
+		fontSize="16px" 
+		backColor="#111111" 
+		activeBackColor="#CC0000" 
+		activeTextColor="#FFFFFF" 
+		bold="true" 
+		shadow="none"
+	/>
+	
+	<!--dropdown box-->
+	
+	<Style id="default" xsi:type="widgets.brease.DropDownBox" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		mouseDownTextColor="#FFFFFF" 
+		listTextColor="#FFFFFF" 
+		activeTextColor="#FFFFFF" 
+		disabledTextColor="#111111" 
+		showOpenIndicator="true" 
+		openIndicatorColor="#CC0000" 
+		mouseDownOpenIndicatorColor="#FFFFFF" 
+		disabledOpenIndicatorColor="#555555" 
+		backGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		disabledBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		listBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		activeBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		listBorderWidth="0px" 
+		textAlign="left"
+	/>
+	
+	<!--logout button-->
+	
+	<Style id="default" xsi:type="widgets.brease.LogoutButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+	/>
+
+	<!--login button-->
+	
+	<Style id="default" xsi:type="widgets.brease.LoginButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#111111" 
+		mouseDownTextColor="#111111" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#CC0000 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)"
+	/>
+
+		
+	<!--login info-->
+	
+	<Style id="default" xsi:type="widgets.brease.LoginInfo" 
+		textColor="#FFFFFF" 
+		borderWidth="0px" 
+		fontSize="16px" 
+		backColor="transparent"
+		bold="true" 
+		textAlign="left" />
+	
+	<!--rectangle-->
+	
+	<Style id="default" xsi:type="widgets.brease.Rectangle" 
+		borderWidth="2px" 
+		cornerRadius="0px" 
+		backColor="transparent" 
+		lineColor="#555555" 
+		opacity="1" />
+	
+	<!--ellipse-->
+
+	<Style id="default" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#555555" 
+		opacity="1" />
+
+	<Style id="On" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#00FF00" 
+		lineColor="#00CC00" 
+		opacity="1" />
+
+	<Style id="Off" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="transparent" 
+		lineColor="#555555" 
+		opacity="1" />
+	
+	<!--line-->
+	
+	<Style id="default" xsi:type="widgets.brease.Line" 
+		lineColor="#CC0000" 
+		lineWidth="1px" 
+		opacity="1" />
+	
+	<!--listbox-->
+	
+	<Style id="default" xsi:type="widgets.brease.ListBox" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		activeTextColor="#FFFFFF" 
+		borderWidth="0px" 
+		backColor="#111111" 
+		backGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		activeBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		borderColor="#555555" 
+		textAlign="left"
+	 />
+		
+	<!--check box-->
+	
+	<Style id="default" xsi:type="widgets.brease.CheckBox" 
+		borderStyle="none" 
+		checkedBoxImageColor="#CC0000"
+		mouseDownBoxBorderColor="#CC0000"
+		textColor="#FFFFFF" 
+		mouseDownForeColor="#FFFFFF" 
+		foreColor="#FFFFFF" 
+		checkedTextColor="#CC0000" 
+		mouseDownTextColor="#FFFFFF" 
+		disabledForeColor="#888888" 
+		disabledTextColor="#888888" 
+		disabledCheckedTextColor="#CC0000" 
+		backColor="transparent" 
+		mouseDownBackColor="transparent" 
+		disabledBackColor="transparent" 
+		fontSize="16px" 
+		bold="true"
+	/>
+	
+	<!--language selector-->
+
+	<Style id="default" xsi:type="widgets.brease.LanguageSelector" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		mouseDownTextColor="#FFFFFF" 
+		listTextColor="#FFFFFF" 
+		activeTextColor="#FFFFFF" 
+		disabledTextColor="#111111" 
+		showOpenIndicator="true" 
+		openIndicatorColor="#CC0000" 
+		mouseDownOpenIndicatorColor="#FFFFFF" 
+		disabledOpenIndicatorColor="#555555" 
+		backGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		disabledBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		listBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		activeBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		listBorderWidth="0px" 
+		textAlign="left"
+	/>
+	
+	<!--measurement system selector-->
+	<Style id="default" xsi:type="widgets.brease.MeasurementSystemSelector"	
+		fontSize="16px" 
+		bold="true" 
+		textColor="#FFFFFF" 
+		mouseDownTextColor="#FFFFFF" 
+		listTextColor="#FFFFFF" 
+		activeTextColor="#FFFFFF" 
+		disabledTextColor="#111111" 
+		showOpenIndicator="true" 
+		openIndicatorColor="#CC0000" 
+		mouseDownOpenIndicatorColor="#FFFFFF" 
+		disabledOpenIndicatorColor="#555555" 
+		backGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		disabledBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		listBackGroundGradient="linear-gradient(to left,#111111 0%,#555555 100%)" 
+		activeBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to left,#111111 0%,#CC0000 100%)" 
+		cornerRadius="0px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		listBorderWidth="0px" 
+		textAlign="left"
+	/>
+	
+	<!--fly out-->
+	
+	<Style id="default" xsi:type="widgets.brease.FlyOut" 
+		imageColor="#CC0000" 
+		backColor="transparent" 
+		borderStyle="none" 
+		borderWidth="0px" 
+		buttonBorderWidth="0px" 
+		buttonCornerRadius="0px" 
+		buttonBackColor="transparent" 
+		buttonBackGroundGradient="none" 
+	/>
+	<Style id="default_Alarms" xsi:type="widgets.brease.FlyOut" 
+		fontSize="16px"
+		imageColor="#CC0000" 
+		borderStyle="none" 
+		borderWidth="0px" 
+		buttonBorderWidth="0px" 
+		buttonBackColor="transparent" 
+		buttonCornerRadius="15px" 
+		buttonBackGroundGradient="linear-gradient(to right,#555555 0%,#FFFFFF 100%)" 
+		backColor="rgba(17, 17, 17, 1)" 
+	/>
+
+	<!--radial gauge-->
+		
+	<Style id="default" xsi:type="widgets.brease.RadialGauge" 	
+		borderWidth="2px" 
+		borderColor="#CC0000" 
+		pointerBackColor="#CC0000" 	
+		backGroundGradient="radial-gradient(ellipse at center, #111111 0%, #CC0000 100%)"
+	/>
+
+	<!--table and table item-->
+	
+	<Style id="default" xsi:type="widgets.brease.Table" 
+		headerTextColor="#111111" 
+		headerBackColor="#888888" 
+		activeTextColor="#FFFFFF" 
+		activeBackColor="#CC0000" 
+		backColorOddRow="#555555" 
+		backColorEvenRow="#333333"
+		textColor="#FFFFFF" 
+		headerFontSize="20px" 
+		fontSize="16px" 
+		bold="true" 
+		shadow="none" 
+		headerCellPadding="10px"
+		cellPadding="10px"
+		cellBorderWidth="1px 0px 0px 1px" 
+		cellBorderColor="#111111" 
+		disabledCellBorderColor="#111111" 
+		disabledHeaderTextColor="#111111" 
+		disabledHeaderBackColor="#555555" 
+		disabledActiveTextColor="#888888" 
+		disabledActiveBackColor="#AA0000" 
+		disabledBackColorOddRow="#333333" 
+		disabledBackColorEvenRow="#111111"
+		disabledTextColor="#888888" 
+	/>
+			
+	<!--version 1.1 widgets-->
+	
+	<!-- basic slider -->
+	
+	<Style id="default" xsi:type="widgets.brease.BasicSlider" 
+		borderStyle="none" 
+		thumbGradient="radial-gradient(ellipse at center, #111111 25%,#CC0000 100%)"
+		trackGradient="linear-gradient(to right,#333333 0%,#888888 100%)"
+	/>
+	
+	<!-- favorite watch -->
+	
+	<Style id="default" xsi:type="widgets.brease.FavoriteWatch"
+		backColor="transparent" 
+		backGroundGradient="none" 
+		borderColor="#000000" 
+		borderWidth="2px" 
+		borderStyle="none"
+		boxBackColor="transparent" 
+		boxBackGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" 
+		boxBorderColor="transparent" 
+		boxBorderWidth="2px" 
+		boxBorderStyle="solid"
+		boxSelectedValidBackColor="transparent"	
+		boxSelectedValidBackGroundGradient="linear-gradient(to bottom, rgba(252,183,0,1) 0%,rgba(255,133,0,1) 100%)" 
+		boxSelectedValidBorderColor="transparent" 
+		boxSelectedValidBorderWidth="2px" 
+		boxSelectedValidBorderStyle="solid"
+		boxSelectedInvalidBackColor="transparent" 
+		boxSelectedInvalidBackGroundGradient="linear-gradient(to bottom, rgba(255,101,37,1) 0%,rgba(255,0,0,1) 100%)" boxSelectedInvalidBorderColor="transparent" boxSelectedInvalidBorderWidth="2px" boxSelectedInvalidBorderStyle="solid" />
+	
+	<!-- linear gauge -->
+	
+	<Style id="default" xsi:type="widgets.brease.LinearGauge" 
+		borderWidthArea1="0px" 
+		borderWidthArea2="0px" 
+		borderWidthArea3="0px" 
+		borderWidthArea4="0px" 
+		borderWidthArea5="0px" 
+		pointerBorderWidth="0px"/>
+	
+	<!-- line chart -->
+	
+	<Style id="default" xsi:type="widgets.brease.LineChart" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"  />
+	
+	<Style id="default" xsi:type="widgets.brease.LineChartGraph" 
+		lineColor="#FF8500"  />
+	
+	<Style id="default" xsi:type="widgets.brease.LineChartIndexAxis" 
+		axisColor="#474747" />
+	
+	<Style id="default" xsi:type="widgets.brease.LineChartTimeAxis" 
+		axisColor="#474747" />
+		
+	<Style id="default" xsi:type="widgets.brease.LineChartYAxis" 
+		axisColor="#474747"/>
+	
+	<Style id="default" xsi:type="widgets.brease.LineChartXAxisIndexCursor" 
+		lineColor="#999999" 
+		activeLineColor="#646464" 
+		disabledLineColor="#d9d9d9" />
+
+	<Style id="default" xsi:type="widgets.brease.LineChartXAxisTimeCursor" 
+		lineColor="#999999" activeLineColor="#646464" disabledLineColor="#d9d9d9" />
+
+	<!-- online chart -->
+	
+	<Style id="default" xsi:type="widgets.brease.OnlineChart" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"  />
+	
+	<Style id="default" xsi:type="widgets.brease.OnlineChartGraph" 
+		lineColor="#FF8500"  />
+	
+	<Style id="default" xsi:type="widgets.brease.OnlineChartTimeAxis" 
+		axisColor="#474747" />
+		
+	<Style id="default" xsi:type="widgets.brease.OnlineChartYAxis" 
+		axisColor="#474747"/>
+	
+	<!-- profile generator -->
+	
+	<Style id="default" xsi:type="widgets.brease.ProfileGenerator" 
+		borderStyle="none" 
+		backColor="rgba(255,255,255,0)" />
+	
+	<Style id="default" xsi:type="widgets.brease.ProfileGeneratorXAxis" 
+		axisColor="#474747" />
+	
+	<Style id="default" xsi:type="widgets.brease.ProfileGeneratorYAxis" 
+		axisColor="#474747" />
+	
+	<Style id="default" xsi:type="widgets.brease.ProfileGeneratorYAxisItem" 
+		lineColor="#FF8500" />
+	
+	<Style id="default" xsi:type="widgets.brease.ProfileGeneratorYAxisStepItem" 
+		lineColor="#FF8500" 
+		editLineColor="#CC0000" 
+		editLineWidth="6px" />
+	
+	<!-- progress bar -->
+	
+	<Style id="default" xsi:type="widgets.brease.ProgressBar" 
+		borderStyle="none" />
+		
+	<!-- timeline -->
+	
+	<Style id="default" xsi:type="widgets.brease.Timeline" 
+		scaleColor="#000000" 
+		scaleWidth="2px" 
+		ticksColor="rgba(128, 128, 128, 1)" 
+		scaleTextColor="#474747" 
+		scaleFontSize="14px" />	
+	
+	<!-- video player -->
+	
+	<Style id="default" xsi:type="widgets.brease.VideoPlayer"  />
+	
+	<!--version 1.2 widgets-->
+	
+	<!-- bar chart -->
+	<Style id="default" xsi:type="widgets.brease.BarChart" 
+		borderStyle="none" />
+	
+	<Style id="default" xsi:type="widgets.brease.BarChartItem" 
+		borderWidth="0px" 
+		fontSize="16px" />
+	
+	<!-- version 1.3 widgets-->
+	
+	<!-- flex box -->
+	
+	<Style id="default" xsi:type="widgets.brease.FlexBox" 
+	borderStyle="none" />
+	
+	<Style id="default" xsi:type="widgets.brease.FlexBoxItem" 
+		margin="0px" 
+		headerGradient="none" 
+		backColor="transparent" 
+		fontSize="40px" 
+		textColor="#FFFFFF" 
+		cornerRadius="0px" 
+		borderWidth="0px" 
+		borderColor="#111111" 
+		shadow="none" />
+	
+	<!-- pie chart -->
+	
+	<Style id="default" xsi:type="widgets.brease.PieChart"
+		backColor="transparent"
+		borderColor="#FFFFFF"
+		textColor="#474747" 
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.PieChartItem"
+		backColor="rgba(255, 136, 0, 1)"
+	/>
+	
+	<!-- version 5.0 widgets-->
+	
+	<!-- sequencer -->
+	
+	<Style id="default" xsi:type="widgets.brease.Sequencer"  
+		backColor="transparent" 
+		borderStyle="none" 
+	/> 
+	
+	<Style id="default" xsi:type="widgets.brease.SequencerEditArea"  
+		backColor="transparent" 
+		borderStyle="solid"
+		borderWidth="1px"
+		borderColor="#bebebe"
+		lineSelectedColor="#000000"
+	/> 
+	
+	<Style id="default" xsi:type="widgets.brease.SequencerStepItem" 
+		backColor="#FFFFFF"
+		activeBackColor="rgba(219, 219, 219, 1)"
+		margin="20px"
+	/> 
+	
+	
+	<Style id="default" xsi:type="widgets.brease.SequencerStepItemParameterForm" 
+		backColor="transparent"
+		borderWidth="0px"
+		borderColor="#000000"
+		padding="10px"
+	/> 
+	
+	<Style id="default" xsi:type="widgets.brease.SequencerStepItemPopup" 
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		backColor="#FFFFFF" 
+		fontSize="16px" 
+		textColor="#474747" 
+		cornerRadius="8px 8px 0px 0px" 
+		borderWidth="1px" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" />
+	
+	<!--radial slider-->
+	
+	<Style id="default" xsi:type="widgets.brease.RadialSlider" 
+		borderStyle="none"  
+		thumbColor="#ff9900" 
+		trackColor="#FFFFFF"
+		borderWidth="0px"
+		textColor="#b4b4b4" 
+	/>
+	
+	<!--alarm list-->
+	
+	<Style id="default" xsi:type="widgets.brease.AlarmList" 
+		headerBackColor="rgba(221,221,221,1)"
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	/>
+	
+	
+	<!-- version 5.1 widgets-->
+	
+	<Style id="default" xsi:type="widgets.brease.LadderEditor"
+		titleBarBackColor="rgba(221,221,221,1)"
+		borderStyle="none"
+		borderColor="#A899A0"
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)"
+		titleBarTextColor="#474747"
+		/>
+	
+	<Style id="default" xsi:type="widgets.brease.LadderEditorDialog"
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		backColor="#FFFFFF" 
+		cornerRadius="8px 8px 0px 0px" 
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)"
+	/>
+		
+	<Style id="default" xsi:type="widgets.brease.SequencerMonitor" 
+		backColor="transparent"
+		borderWidth="1px"
+		borderColor="rgba(168, 153, 160, 1) rgba(95, 95, 95, 1) rgba(95, 95, 95, 1) rgba(168, 153, 160, 1)"
+		padding="10px"
+	/> 
+	
+	<!-- version 5.2 widgets-->
+	
+	<Style id="default" xsi:type="widgets.brease.TextPicker" 
+		backColor="transparent"
+		bold="true"
+		borderWidth="1px"
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+		fontSize="16px"
+		itemTextColor="rgba(71, 71, 71, 1)"
+		itemActiveBorderWidth="0px"
+		itemShadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)"
+		itemBorderWidth="0px"
+	/> 
+	
+	<Style id="default" xsi:type="widgets.brease.AlarmHistory" 
+		headerBackColor="rgba(221,221,221,1)"
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	/>
+	
+	
+	<Style id="default" xsi:type="widgets.brease.RadialButtonBar"
+		borderStyle="none"
+		backColor="rgba(255,255,255,0)"
+		trackColor="rgba(204, 204, 204, 1)"
+	/>
+
+	<Style id="default" xsi:type="widgets.brease.StackedBarChart"
+		borderStyle="none"
+		borderWidth="0px"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.StackedBarChartItem"
+		backColor="rgba(153, 204, 255, 1),rgba(153, 255, 153, 1),rgba(71, 209, 71, 1),rgba(255, 204, 102, 1),rgba(255, 112, 77, 1),rgba(255,255,255,0)"
+		borderWidth="0px"
+		borderColor="rgba(100, 100, 100, 1)"
+	/>
+	<Style id="default" xsi:type="widgets.brease.BarChartThreshold"
+		windowLinesWidth="1px"
+	/>
+	<Style id="default" xsi:type="widgets.brease.AuditList" 
+		headerBackColor="rgba(221,221,221,1)" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+	/>
+	
+	<!--version 5.4 widgets-->
+	
+	<Style id="default" xsi:type="widgets.brease.XYJoystick" 
+		borderStyle="none" 
+		thumbGradient="radial-gradient(ellipse at center, #FF8500 0%,#FF8500 20%, #FFFFFF 95%,#1F1F1F 100%)" 
+		trackGradient="linear-gradient(to bottom, #FFFFFF 0%, #dbdbdb 50%, #d1d1d1 51%, #FFFFFF 100%)"
+	/>
+	
+		
+	<Style id="default" xsi:type="widgets.brease.HoverButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#474747" 
+		mouseDownTextColor="#FFFFFF" 
+		cornerRadius="15px" 
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		backGroundGradient="linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to bottom, #4A4A4A 0%,#7C7C7C 100%) " 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)" 
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)" 
+		mouseDownShadow="2px 2px 8px 0px rgba(62, 79, 92, 0.75)" 
+	/>
+	
+	<!--version 5.5 widgets-->
+	
+	<Style id="default" xsi:type="widgets.brease.RangeSlider" 
+		borderStyle="none" 
+		minThumbGradient="radial-gradient(ellipse at center, #111111 20%,#CC0000 100%)" 
+		maxThumbGradient="radial-gradient(ellipse at center, #111111 20%,#CC0000 100%)"
+		trackGradient="linear-gradient(to right, #333333 0%, #888888 100%)"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.DonutChart"
+		backColor="transparent"
+		borderColor="#FFFFFF"
+		textColor="#474747" 
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.DonutChartItem"
+		backColor="rgba(255, 136, 0, 1)"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.MotionKeyPad"
+		buttonBackGroundGradient="linear-gradient(to bottom, #555555 0%,#111111 100%)" 
+		backColor="#333333"
+		mouseDownBackColor="#CC0000" 
+		textColor="#FFFFFF" 
+	/>
+		
+	<!--version 5.6 widgets-->
+	
+	<Style id="default" xsi:type="widgets.brease.TextKeyPad"
+		buttonBackGroundGradient="linear-gradient(to bottom, #555555 0%,#111111 100%)" 
+		backColor="#333333"
+		mouseDownBackColor="#CC0000" 
+		textColor="#FFFFFF" 
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.AlarmLine"
+		borderColor="#CC0000"
+		borderWidth="2px"
+		backColor="rgba(249, 249, 249, 1)"
+		textAlign="left"
+		textColor="rgba(0,0,0,1)"
+		bold="true"
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)"
+	/>
+	
+	<Style id="default" xsi:type="widgets.brease.StackedBarChartThreshold"
+		windowLinesWidth="1px"
+	/>	
+	
+	<Style id="default" xsi:type="widgets.brease.GridLine"
+		borderWidth="0px"
+		borderStyle="none"
+		backColor="rgba(255,255,255,0)"
+		margin="0px 10px 0px 0px"
+	/>	
+	
+	<Style id="default" xsi:type="widgets.brease.GridLineItem"
+		borderWidth="1px"
+		borderStyle="solid"
+		borderColor="rgba(168, 153, 160, 1) rgba(95, 95, 95, 1) rgba(95, 95, 95, 1) rgba(168, 153, 160, 1)"
+		backColor="rgba(255, 255, 255, 1)"
+		shadow="4px 4px 14px 0px rgba(62, 79, 92, 0.75)"
+		margin="0px 10px 10px 0px"
+		cornerRadius="4px"
+	/>	
+	
+	<Style id="default" xsi:type="widgets.brease.InfoBanner"
+		backColor="rgba(255, 0, 0, 0.8)"
+		borderWidth="0px"
+		borderStyle="none"
+	/>		
+
+	<Style id="default" xsi:type="system.brease.Page"  />
+	
+	<Style id="default" xsi:type="system.brease.Dialog" 
+		showCloseButton="false"
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		fontSize="20px" 
+		textColor="#FFFFFF" 
+		cornerRadius="8px 8px 8px 8px" 
+		borderWidth="0px" 
+		borderColor="#000000" 
+		shadow="none" />
+	
+	<Style id="default" xsi:type="system.brease.MessageBox"	
+		headerGradient="linear-gradient(to bottom, #CC0000 0%,#111111 100%)" 
+		fontSize="20px" 
+		textColor="rgba(32, 54, 95, 1)" 
+		bold="true"
+		buttonFontSize="18px"
+		buttonCornerRadius="8px 8px 8px 8px"
+		cornerRadius="8px 8px 8px 8px" 
+		borderWidth="1px" 
+		backColor="#ECBA44"
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0" 
+		shadow="5px 5px 20px 0px rgba(62, 79, 92, 0.75)" />
+	
+	<Style id="default" xsi:type="system.brease.Scrollbar"
+		backColor="rgba(77,77,77,0.5)"
+		borderColor="rgba(214,214,214,0.9)"  />
+	
+	<Style id="default" xsi:type="system.brease.Tooltip" 
+		showArrow="true"
+		fontSize="14px"
+		shadow="5px 5px 20px 0px rgba(62, 79, 92, 0.75)"
+		borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"	/>
+
+</Styles>

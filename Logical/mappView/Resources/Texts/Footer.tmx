@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Footer_FlyOut_Modified">
+      <tuv xml:lang="es">
+        <seg>Cambios no Guardados</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Modif Non Enregistrées</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ungespeicherte Änderungen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Unsaved Changes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_Modified_PushButton_Save">
+      <tuv xml:lang="es">
+        <seg>Guardar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Enregistrer</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Speichern</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_Modified_PushButton_Discard">
+      <tuv xml:lang="es">
+        <seg>Descartar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Rejeter</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Verwerfen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Discard</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_User_LoginButton">
+      <tuv xml:lang="es">
+        <seg>Inicio Sesión</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Connexion</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmeldung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_User_LogoutButton">
+      <tuv xml:lang="es">
+        <seg>Cerrar Sesión</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Déconnexion</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Abmeldung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_User_Label_User">
+      <tuv xml:lang="es">
+        <seg>Nombre Usuario</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Nom d'Utilisateur</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benutzername</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_FlyOut_User_Label_Password">
+      <tuv xml:lang="es">
+        <seg>Contraseña</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mot de Passe</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Passwort</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_Invalid_Time_Message">
+      <tuv xml:lang="en">
+        <seg>Time Isn't Set Correctly, Critical Functions May not work correctly.  To set time, click on the date in the bottom right corner of the page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Footer_Invalid_Time">
+      <tuv xml:lang="en">
+        <seg>Invalid Time</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

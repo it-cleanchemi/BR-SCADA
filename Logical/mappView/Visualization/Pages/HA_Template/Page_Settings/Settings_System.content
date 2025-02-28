@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Settings_System" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="Settings_System_GroupBox_Accessibility" top="5" left="5" width="260" height="170" zIndex="0" ellipsis="true" text="$IAT/Settings_System_GroupBox_Accessibility" bold="true">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.LanguageSelector" id="Settings_System_GroupBox_Accessibility_LanguageSelector" top="10" left="10" width="240" height="50" zIndex="0" textAlign="center" />
+        <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="Settings_System_GroupBox_Accessibility_MeasurementSystemSelector" top="70" left="10" width="240" height="50" zIndex="1" textAlign="center" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="Settings_System_GroupBox_Info" top="185" left="5" width="260" height="95" zIndex="1" ellipsis="true" text="$IAT/Settings_System_GroupBox_Info" bold="true">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Settings_System_GroupBox_Info_Label_Serial" top="10" left="5" width="120" height="35" zIndex="0" text="$IAT/Settings_System_GroupBox_Info_TextInput_Serial" textAlign="center" fontSize="12px" />
+        <Widget xsi:type="widgets.brease.TextInput" id="Settings_System_GroupBox_Info_TextInput_Serial" top="10" left="130" width="120" height="35" zIndex="1" value="Serial" fontSize="12px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

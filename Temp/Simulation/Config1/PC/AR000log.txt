@@ -1,18 +1,21 @@
-Fri Feb 28 06:24:34 2025
+Fri Feb 28 07:48:04 2025
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Fri Feb 28 06:24:34 2025
+Fri Feb 28 07:48:04 2025
 No ARsim registration found!
 
-Fri Feb 28 06:24:34 2025
-InstanceName: 000000aedec94e55
+Fri Feb 28 07:48:04 2025
+InstanceName: 000000006f5f851a
 
-Fri Feb 28 06:24:34 2025
+Fri Feb 28 07:48:04 2025
 WorkingDirectory: C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Simulation\Config1\PC\
 
-Fri Feb 28 06:24:34 2025
+Fri Feb 28 07:48:04 2025
 COMMAND_COLDSTART
 
-Fri Feb 28 06:24:37 2025
+Fri Feb 28 07:48:06 2025
 Version: B4.93
+
+Fri Feb 28 09:43:30 2025
+COMMAND_TERMINATE
 

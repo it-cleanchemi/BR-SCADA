@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompoundWidget id="HA_IO_Digital_Labels" width="280" height="40" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label_IOMap" top="0" left="123" width="35" height="35" zIndex="0" multiLine="true" text="$IAT/HA_IO_Digital_Labels.IO" textAlign="center bottom" fontSize="12px" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Labal_App" top="0" left="153" width="35" height="35" zIndex="1" multiLine="true" text="$IAT/HA_IO_Digital_Labels.App" textAlign="center bottom" fontSize="12px" padding="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label_ForceOff" top="0" left="195" width="35" height="35" zIndex="2" multiLine="true" text="$IAT/HA_IO_Digital_Labels.ForceOff" textAlign="center bottom" fontSize="12px" padding="0px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label_ForceOn" top="0" left="245" width="35" height="35" zIndex="3" multiLine="true" text="$IAT/HA_IO_Digital_Labels.ForceOn" textAlign="center bottom" fontSize="12px" padding="0px" permissionOperate="['Administrators']" />
+    <Widget xsi:type="widgets.brease.Line" id="Line_Underline" zIndex="4" x1="125" x2="280" y1="40" y2="40" />
+  </Widgets>
+  <Properties>
+    <!-- 
+    Simple non bindable property:
+    Property Attributes
+    xsi:type: NonBindableProperty
+    name: name of the property (not allowed: width, height, top, left, id, enable, visible, zindex, margin, premissionview, permissionoperate, description)
+    <Property xsi:type="NonBindableProperty" name="" type="" defaultValue="" required="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property=""/>
+        <Mapping widget="" property=""/>
+      </Mappings>
+    </Property>
+    
+    Simple bindable property:
+    <Property xsi:type="BindableProperty" name="" type="" defaultValue="" readOnly="" category="" localizable="" typeRefId="" nodeRefId="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" property="" mode=""/>
+        <Mapping widget="" property="" mode=""/>
+      </Mappings>
+    </Property>
+
+
+    Structure bindable property:
+		<Property xsi:type="StructureBindableProperty" name="" type="" readOnly="" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+				<Mapping widget="" type="" property="" mode="" memberPath="" mapToNode=""/>
+			</Mappings>
+		</Property>
+    -->
+  </Properties>
+
+  <Events>
+    <!--
+    <Event name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" event="" />
+      </Mappings>
+    </Event>
+    -->
+  </Events>
+
+  <Actions>
+    <!--
+    <Action name="">
+      <Description>Description will be shown in property grid.</Description>
+      <Mappings>
+        <Mapping widget="" action="" />
+      </Mappings>
+    </Action>
+    -->
+  </Actions>
+
+  <EventBindings>
+    <!-- source and target can only be widgets within the compound widget.
+    <EventBinding id="">
+      <Source xsi:type="widget.Event" widgetRefId="" event="" />
+      <EventHandler condition="">
+        <Action>
+          <Target xsi:type="widget.Action" widgetRefId="">
+            <Method name="" value="" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    -->
+  </EventBindings>
+
+</CompoundWidget>

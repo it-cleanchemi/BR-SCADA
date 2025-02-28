@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="WidgetLibrary" PackageType="WidgetLibrary" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Widget Library Description">Description.widgetlibrary</Object>
+    <Object Type="Package" Description="Resources">Resources</Object>
+    <Object Type="Package" Description="550 x 30 banner">BuildVersionBasic</Object>
+    <Object Type="Package" Description="500 x 100 table">BuildVersionStandard</Object>
+    <Object Type="Package" Description="500 x 150 table">BuildVersionAdvanced</Object>
+    <Object Type="File" Description="Toolbox icon">BuildVersionWidget.png</Object>
+  </Objects>
+</Package>

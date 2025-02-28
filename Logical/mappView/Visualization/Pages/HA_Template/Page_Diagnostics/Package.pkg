@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="PagePackage" PackageType="PagePackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Page description">Page_Diagnostics.page</Object>
+    <Object Type="File">Diagnostics.content</Object>
+    <Object Type="File">Diagnostics_ConvInIO.content</Object>
+    <Object Type="File">Diagnostics_WheelIO.content</Object>
+    <Object Type="File">Diagnostics_SDM.content</Object>
+  </Objects>
+</Package>
