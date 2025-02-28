@@ -9,7 +9,7 @@ PROGRAM _INIT
 	brsmemset(ADR(logger), 0, SIZEOF(logger));
 
 	// --------------------------------------------------------------------
-	// Sample FOR reading/writing data from/TO a modbusTCP slave
+	// FOR Reading data FROM modbusTCP slave
 	// --------------------------------------------------------------------
 	
 	
@@ -193,6 +193,11 @@ PROGRAM _INIT
 	MasterConfig.action_param[19].timer 	:= 10;			// Refresh timer for this item 
 	MasterConfig.action_param[19].type 		:= 3;			// Function code for this item (2 := read discrete inputs)	
 	
+	
+	// --------------------------------------------------------------------
+	// Writing data TO modbusTCP slave
+	// --------------------------------------------------------------------
+	
 	// Write 6000
 	MasterConfig.action_enable[20].cyclic 	:= FALSE;			// Read data cyclic 
 	MasterConfig.action_param[20].p_pv		:= ADR(SkidID);	// Store data in this variable 
@@ -203,7 +208,7 @@ PROGRAM _INIT
 	MasterConfig.action_param[20].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
 	
 	// --------------------------------------------------------------------
-	// Sample FOR reading data from a modbusTCP slave
+	// FOR Modbus Read/Write
 	// --------------------------------------------------------------------
 	FOR IdxSkids := 0 TO MAX_SKIDS DO
 		ModbusTcpMaster[IdxSkids].enable 			:= 1;						// Start master 
@@ -211,11 +216,8 @@ PROGRAM _INIT
 		ModbusTcpMaster[IdxSkids].p_cfg 			:= ADR(MasterConfig); 		// Pointer to configuration 
 		ModbusTcpMaster[IdxSkids].p_log 			:= ADR(logger);				// Pointer to logger string array. The logger information will show communication details. Enable for debugging, disable for production to save system resources.
 		ModbusTcpMaster[IdxSkids].port				:= 510;
-		ModbusTcpMaster[IdxSkids].slave_ip_addr 	:= SLAVE_IP_ADDRESSES[IdxSkids]; 						// Transfer slave device IP address 
+		ModbusTcpMaster[IdxSkids].slave_ip_addr 	:= SLAVE_IP_ADDRESSES[IdxSkids]; 		// Transfer slave device IP address 
 	END_FOR;
-	
-	//Set IP Per Skid
-
 	
 	StartStop := 1;
 	
@@ -238,10 +240,11 @@ PROGRAM _CYCLIC
 				reset_error := 0;
 			END_IF
 			
-	// --------------------------------------------------------------------
-	// Final Variable Mapping
-	// --------------------------------------------------------------------			
 			
+			
+			// --------------------------------------------------------------------
+			// Final Variable Mapping AND Data Conversion - READ
+			// --------------------------------------------------------------------			
 			
 			// AS Block 1 Misc (Skid ID) INT
 			gSkid[IdxSkids].Pmax_General_Variables.skid_id := gModbus[IdxSkids].Modbus_SkidMisc.Block_Int[0];
@@ -327,7 +330,7 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].Pmax_Pump_101.p101_fm_tot := IDEC_REAL_Conv(gModbus[IdxSkids].Pump_Data_101.Block_Real[4]);
 			gSkid[IdxSkids].Pmax_Pump_101.p101_ti := IDEC_REAL_Conv(gModbus[IdxSkids].Pump_Data_101.Block_Real[6]);
 			gSkid[IdxSkids].Pmax_Pump_101.p101_pi := IDEC_REAL_Conv(gModbus[IdxSkids].Pump_Data_101.Block_Real[7]);
-//			
+			//			
 			// AS Block 14 P102 INT
 			gSkid[IdxSkids].Pmax_Pump_102.p102_is_on := gModbus[IdxSkids].Pump_Data_102.Block_Int[0];
 			
@@ -373,8 +376,5 @@ PROGRAM _CYCLIC
 	END_IF
 
 
-	
 
-
-	
 END_PROGRAM

@@ -10,7 +10,7 @@
       <Column Index="4" Width="0" Position="4" />
       <Column Index="5" Width="0" Position="5" />
       <Column Index="6" Width="0" Position="6" />
-      <Column Index="7" Width="344" Position="7" />
+      <Column Index="7" Width="172" Position="7" />
       <Column Index="8" Width="0" Position="8" />
       <Column Index="9" Width="108" Position="9" />
       <Column Index="10" Width="114" Position="10" />
@@ -27,10 +27,7 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="202" CaretColumn="43" FirstVisibleLine="180">
-    <Bookmarks />
-  </TextEdit>
-  <TreeView ID="SwConfiguration-ProjectTree" EditColumn="7" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
+  <TreeView ID="SwConfiguration-ProjectTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="130" Position="0" />
       <Column Index="1" Width="50" Position="1" />
@@ -70,4 +67,7 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
 </State>
