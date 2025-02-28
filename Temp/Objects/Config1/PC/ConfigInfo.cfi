@@ -9,11 +9,11 @@
       Source="modbusTCP.ModMaster"
       Language="IEC">
       <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
       <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
       <InternalFile
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
     </Task>
     <Task
       Name="Main"
@@ -21,13 +21,13 @@
       Source="Main"
       Language="IEC">
       <InternalFile
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Temp\Objects\Config1\PC\Main\Main.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Main.st.var" />
       <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Types.typ" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Types.typ" />
       <File
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Logical\Main\Variables.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Variables.var" />
       <InternalFile
-        Path="C:\Users\Matt\Documents\GitHub-MG\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
     </Task>
   </TaskClass>
   <TaskClass

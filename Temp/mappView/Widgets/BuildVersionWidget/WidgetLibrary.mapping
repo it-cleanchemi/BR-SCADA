@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionAdvanced.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionAdvanced.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionBasic.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionBasic.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionStandard.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.BuildVersionWidget.BuildVersionStandard.Action.SetVisible.value" type="BOOL"/>
+</Mappings>

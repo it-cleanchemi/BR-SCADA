@@ -1,0 +1,55 @@
+@import "mixins.scss";
+#HA_IO_Digital_IO_Label {	@include elemTop(0);
+}
+#HA_IO_Digital_IO_Label {	@include elemLeft(0);
+}
+#HA_IO_Digital_IO_Label {	@include elemAutoWidth(120);
+}
+#HA_IO_Digital_IO_Label {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_IO_Label {	z-index: 0;
+}
+#HA_IO_Digital_IO_Label {	@include text-alignment-all('right');
+}
+#HA_IO_Digital_IO_Label {	font-size: 12px;
+}
+#HA_IO_Digital_IO_EllipseIOMapping {	@include elemTop(8);
+}
+#HA_IO_Digital_IO_EllipseIOMapping {	@include elemLeft(130);
+}
+#HA_IO_Digital_IO_EllipseIOMapping {	@include elemWidth(20);
+}
+#HA_IO_Digital_IO_EllipseIOMapping {	@include elemHeight(20);
+}
+#HA_IO_Digital_IO_EllipseIOMapping {	z-index: 1;
+}
+#HA_IO_Digital_IO_EllipseFiltered {	@include elemTop(8);
+}
+#HA_IO_Digital_IO_EllipseFiltered {	@include elemLeft(160);
+}
+#HA_IO_Digital_IO_EllipseFiltered {	@include elemWidth(20);
+}
+#HA_IO_Digital_IO_EllipseFiltered {	@include elemHeight(20);
+}
+#HA_IO_Digital_IO_EllipseFiltered {	z-index: 2;
+}
+#HA_IO_Digital_IO_CheckBoxForceOff {	@include elemTop(0);
+}
+#HA_IO_Digital_IO_CheckBoxForceOff {	@include elemLeft(195);
+}
+#HA_IO_Digital_IO_CheckBoxForceOff {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_IO_CheckBoxForceOff {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_IO_CheckBoxForceOff {	z-index: 3;
+}
+#HA_IO_Digital_IO_CheckBoxForceOn {	@include elemTop(0);
+}
+#HA_IO_Digital_IO_CheckBoxForceOn {	@include elemLeft(245);
+}
+#HA_IO_Digital_IO_CheckBoxForceOn {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_IO_CheckBoxForceOn {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_IO_CheckBoxForceOn {	z-index: 4;
+}

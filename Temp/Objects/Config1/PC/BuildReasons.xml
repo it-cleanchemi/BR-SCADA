@@ -1,44 +1,339 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_1.html_delete">
+    <BuildReason>Target "content_1.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_15.html_delete">
+    <BuildReason>Target "content_15.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_1.scss_delete">
+    <BuildReason>Target "content_1.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_2.html_delete">
+    <BuildReason>Target "content_2.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_1.scss.css_delete">
+    <BuildReason>Target "content_1.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_11.html_delete">
+    <BuildReason>Target "content_11.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_9.scss_delete">
+    <BuildReason>Target "content_9.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_2.scss_delete">
+    <BuildReason>Target "content_2.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_2.scss.css_delete">
+    <BuildReason>Target "content_2.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_9.html_delete">
+    <BuildReason>Target "content_9.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_9.scss.css_delete">
+    <BuildReason>Target "content_9.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_11.scss_delete">
+    <BuildReason>Target "content_11.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_11.scss.css_delete">
+    <BuildReason>Target "content_11.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\header.html_delete">
+    <BuildReason>Target "header.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\header.scss_delete">
+    <BuildReason>Target "header.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\header.scss.css_delete">
+    <BuildReason>Target "header.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_15.scss_delete">
+    <BuildReason>Target "content_15.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_15.scss.css_delete">
+    <BuildReason>Target "content_15.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_3.html_delete">
+    <BuildReason>Target "content_3.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_3.scss_delete">
+    <BuildReason>Target "content_3.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_3.scss.css_delete">
+    <BuildReason>Target "content_3.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_5.html_delete">
+    <BuildReason>Target "content_5.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_5.scss_delete">
+    <BuildReason>Target "content_5.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_5.scss.css_delete">
+    <BuildReason>Target "content_5.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_14.html_delete">
+    <BuildReason>Target "content_14.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_14.scss_delete">
+    <BuildReason>Target "content_14.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_14.scss.css_delete">
+    <BuildReason>Target "content_14.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_19.html_delete">
+    <BuildReason>Target "content_19.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_19.scss_delete">
+    <BuildReason>Target "content_19.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_19.scss.css_delete">
+    <BuildReason>Target "content_19.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\buffertank.html_delete">
+    <BuildReason>Target "buffertank.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\buffertank.scss_delete">
+    <BuildReason>Target "buffertank.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\buffertank.scss.css_delete">
+    <BuildReason>Target "buffertank.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_4.html_delete">
+    <BuildReason>Target "content_4.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_4.scss_delete">
+    <BuildReason>Target "content_4.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_4.scss.css_delete">
+    <BuildReason>Target "content_4.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\navigation.html_delete">
+    <BuildReason>Target "navigation.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\navigation.scss_delete">
+    <BuildReason>Target "navigation.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\navigation.scss.css_delete">
+    <BuildReason>Target "navigation.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_8.html_delete">
+    <BuildReason>Target "content_8.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_8.scss_delete">
+    <BuildReason>Target "content_8.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_8.scss.css_delete">
+    <BuildReason>Target "content_8.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_12.html_delete">
+    <BuildReason>Target "content_12.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_12.scss_delete">
+    <BuildReason>Target "content_12.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_12.scss.css_delete">
+    <BuildReason>Target "content_12.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_17.html_delete">
+    <BuildReason>Target "content_17.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_17.scss_delete">
+    <BuildReason>Target "content_17.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_17.scss.css_delete">
+    <BuildReason>Target "content_17.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\loginpage.html_delete">
+    <BuildReason>Target "loginpage.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\loginpage.scss_delete">
+    <BuildReason>Target "loginpage.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\loginpage.scss.css_delete">
+    <BuildReason>Target "loginpage.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\overviewpageexmaple.html_delete">
+    <BuildReason>Target "overviewpageexmaple.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewpageexmaple.scss_delete">
+    <BuildReason>Target "overviewpageexmaple.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewpageexmaple.scss.css_delete">
+    <BuildReason>Target "overviewpageexmaple.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\buffertankpopup.html_delete">
+    <BuildReason>Target "buffertankpopup.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\buffertankpopup.scss_delete">
+    <BuildReason>Target "buffertankpopup.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\buffertankpopup.scss.css_delete">
+    <BuildReason>Target "buffertankpopup.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_18.html_delete">
+    <BuildReason>Target "content_18.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_18.scss_delete">
+    <BuildReason>Target "content_18.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_18.scss.css_delete">
+    <BuildReason>Target "content_18.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_21.html_delete">
+    <BuildReason>Target "content_21.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_21.scss_delete">
+    <BuildReason>Target "content_21.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_21.scss.css_delete">
+    <BuildReason>Target "content_21.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\overviewex1.html_delete">
+    <BuildReason>Target "overviewex1.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewex1.scss_delete">
+    <BuildReason>Target "overviewex1.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewex1.scss.css_delete">
+    <BuildReason>Target "overviewex1.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\overviewex2.html_delete">
+    <BuildReason>Target "overviewex2.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewex2.scss_delete">
+    <BuildReason>Target "overviewex2.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\overviewex2.scss.css_delete">
+    <BuildReason>Target "overviewex2.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_24.html_delete">
+    <BuildReason>Target "content_24.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_24.scss_delete">
+    <BuildReason>Target "content_24.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_24.scss.css_delete">
+    <BuildReason>Target "content_24.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\contents\mappview\content_6.html_delete">
+    <BuildReason>Target "content_6.html_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_6.scss_delete">
+    <BuildReason>Target "content_6.scss_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\content_6.scss.css_delete">
+    <BuildReason>Target "content_6.scss.css_delete" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validate_visualization._markerfile">
+    <BuildReason>Target "validate_visualization._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
+    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\0_visulist.json">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\0_visulist.json" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\modmaster.st" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>ExternalCommand line differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile">
+    <BuildReason>Target "content_trans._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\vis_0.vis">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\pc\mappview\visualizat.vis" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1074141008.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\877119071.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\560097432.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1800426408.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.widgetsfile" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\dialog\testpopup_styles.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\buffertankpopup\buffertankpopup_styles.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualization\dialogs\pumppopup\pumppopup_styles.scss">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_trans._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
+    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\vis_0.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\pc\mappview\visualizat.vis" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
     <BuildReason>Target "dialog_sass._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
-    <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
-    <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\br.iat.concatfile" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
@@ -53,9 +348,5 @@
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\pc\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br" differs.
-</BuildReason>
   </Rule>
 </BuildReasons>

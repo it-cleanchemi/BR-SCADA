@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Content id="BuildVersionStandard" width="500" height="100" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="LabelBuildVersion" top="0" left="0" width="250" height="25" zIndex="0" text="$IAT/BuildVersion/BuildVersion" textAlign="center" fontSize="20px" padding="0px 15px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelProject" top="25" left="0" width="100" height="25" zIndex="1" text="$IAT/BuildVersion/Project" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputProject" top="25" left="100" width="150" height="25" zIndex="2" ellipsis="true" value="WireBender" fontSize="14px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelConfiguration" top="50" left="0" width="100" height="25" zIndex="3" text="$IAT/BuildVersion/Configuration" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="11px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputConfiguration" top="50" left="100" width="150" height="25" zIndex="4" ellipsis="true" value="PPC2100" fontSize="14px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelBuildDate" top="75" left="0" width="100" height="25" zIndex="5" text="$IAT/BuildVersion/BuildDate" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutputBuild" top="75" left="100" width="150" height="25" zIndex="6" format="yyyy-MM-dd HH:mm:ss" textAlign="left" fontSize="14px" bold="false" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabeBranch" top="0" left="250" width="100" height="20" zIndex="7" text="$IAT/BuildVersion/Branch" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputBranch" top="0" left="350" width="150" height="20" zIndex="8" ellipsis="true" value="main" fontSize="14px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelVersion" top="20" left="250" width="100" height="20" zIndex="9" text="$IAT/BuildVersion/Version" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputVersion" top="20" left="350" width="150" height="20" zIndex="10" ellipsis="true" value="1.2.3-4" fontSize="14px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelChanges" top="40" left="250" width="100" height="20" zIndex="11" text="$IAT/BuildVersion/UncommittedChanges" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputChanges" top="40" left="350" width="150" height="20" zIndex="12" ellipsis="true" multiLine="true" value="8 files changed, 21 insertions(+), 17 deletions(-)" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelCommitDate" top="60" left="250" width="100" height="20" zIndex="13" text="$IAT/BuildVersion/CommitDate" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutputCommit" top="60" left="350" width="150" height="20" zIndex="14" format="yyyy-MM-dd HH:mm:ss" textAlign="left" fontSize="14px" bold="false" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Label" id="LabelCommitAuthor" top="80" left="250" width="100" height="20" zIndex="15" text="$IAT/BuildVersion/CommitAuthor" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputCommitAuthor" top="80" left="350" width="150" height="20" zIndex="16" ellipsis="true" value="John Smith" fontSize="14px" padding="0px 5px"/>
+    <Widget xsi:type="widgets.brease.Image" id="ImageWarning" top="40" left="263" width="20" height="20" zIndex="17" image="LibraryMedia/BuildVersionWidget/Warning.svg" visible="false"/>
+  </Widgets>
+</Content>

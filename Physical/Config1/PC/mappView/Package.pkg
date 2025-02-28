@@ -4,18 +4,5 @@
   <Objects>
     <Object Type="File">Visualizat.vis</Object>
     <Object Type="File">Config.mappviewcfg</Object>
-    <Object Type="File">Main_content.binding</Object>
-    <Object Type="File">content_1.binding</Object>
-    <Object Type="File">content_9.binding</Object>
-    <Object Type="File">content_2.binding</Object>
-    <Object Type="File">content_11.binding</Object>
-    <Object Type="File">content_3.binding</Object>
-    <Object Type="File">content_2.eventbinding</Object>
-    <Object Type="File">content_15.eventbinding</Object>
-    <Object Type="File">content_6.eventbinding</Object>
-    <Object Type="File">OverviewEx1.binding</Object>
-    <Object Type="File">QCS.binding</Object>
-    <Object Type="File">QCS.eventbinding</Object>
-    <Object Type="File">content_7.binding</Object>
   </Objects>
 </Package>

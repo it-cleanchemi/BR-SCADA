@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Labels.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Labels.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Scaling.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Scaling.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Scaling_Labels.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Analog_Scaling_Labels.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Labels.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Scaling.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Scaling.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Scaling_Labels.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Digital_Scaling_Labels.Action.SetVisible.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Header.Action.SetEnable.value" type="BOOL"/>
+  <Mapping parameter="widgets.HA_BR_Template_WL.HA_IO_Header.Action.SetVisible.value" type="BOOL"/>
+</Mappings>

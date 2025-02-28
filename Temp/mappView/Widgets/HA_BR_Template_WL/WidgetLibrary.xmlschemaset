@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
+  <Schema href="HA_IO_Analog/meta/HA_IO_Analog.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Analog_Labels/meta/HA_IO_Analog_Labels.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Analog_Scaling/meta/HA_IO_Analog_Scaling.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Analog_Scaling_Labels/meta/HA_IO_Analog_Scaling_Labels.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Digital/meta/HA_IO_Digital.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Digital_Labels/meta/HA_IO_Digital_Labels.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Digital_Scaling/meta/HA_IO_Digital_Scaling.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Digital_Scaling_Labels/meta/HA_IO_Digital_Scaling_Labels.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+  <Schema href="HA_IO_Header/meta/HA_IO_Header.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+</SchemaCatalog>

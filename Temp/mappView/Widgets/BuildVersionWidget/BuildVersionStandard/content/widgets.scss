@@ -1,0 +1,337 @@
+@import "mixins.scss";
+#BuildVersionStandard_LabelBuildVersion {	@include elemTop(0);
+}
+#BuildVersionStandard_LabelBuildVersion {	@include elemLeft(0);
+}
+#BuildVersionStandard_LabelBuildVersion {	@include elemAutoWidth(250);
+}
+#BuildVersionStandard_LabelBuildVersion {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_LabelBuildVersion {	z-index: 0;
+}
+#BuildVersionStandard_LabelBuildVersion {	@include text-alignment-all('center');
+}
+#BuildVersionStandard_LabelBuildVersion {	font-size: 20px;
+}
+#BuildVersionStandard_LabelBuildVersion {	span {
+		padding: 0px 15px;
+	}
+}
+#BuildVersionStandard_LabelProject {	@include elemTop(25);
+}
+#BuildVersionStandard_LabelProject {	@include elemLeft(0);
+}
+#BuildVersionStandard_LabelProject {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelProject {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_LabelProject {	z-index: 1;
+}
+#BuildVersionStandard_LabelProject {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelProject {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelProject {	font-size: 12px;
+}
+#BuildVersionStandard_LabelProject {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputProject {	@include elemTop(25);
+}
+#BuildVersionStandard_TextOutputProject {	@include elemLeft(100);
+}
+#BuildVersionStandard_TextOutputProject {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputProject {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_TextOutputProject {	z-index: 2;
+}
+#BuildVersionStandard_TextOutputProject {	font-size: 14px;
+}
+#BuildVersionStandard_TextOutputProject {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_LabelConfiguration {	@include elemTop(50);
+}
+#BuildVersionStandard_LabelConfiguration {	@include elemLeft(0);
+}
+#BuildVersionStandard_LabelConfiguration {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelConfiguration {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_LabelConfiguration {	z-index: 3;
+}
+#BuildVersionStandard_LabelConfiguration {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelConfiguration {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelConfiguration {	font-size: 11px;
+}
+#BuildVersionStandard_LabelConfiguration {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputConfiguration {	@include elemTop(50);
+}
+#BuildVersionStandard_TextOutputConfiguration {	@include elemLeft(100);
+}
+#BuildVersionStandard_TextOutputConfiguration {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputConfiguration {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_TextOutputConfiguration {	z-index: 4;
+}
+#BuildVersionStandard_TextOutputConfiguration {	font-size: 14px;
+}
+#BuildVersionStandard_TextOutputConfiguration {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_LabelBuildDate {	@include elemTop(75);
+}
+#BuildVersionStandard_LabelBuildDate {	@include elemLeft(0);
+}
+#BuildVersionStandard_LabelBuildDate {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelBuildDate {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_LabelBuildDate {	z-index: 5;
+}
+#BuildVersionStandard_LabelBuildDate {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelBuildDate {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelBuildDate {	font-size: 12px;
+}
+#BuildVersionStandard_LabelBuildDate {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include elemTop(75);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include elemLeft(100);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include elemAutoHeight(25);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	z-index: 6;
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include text-alignment(left);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	font-size: 14px;
+}
+#BuildVersionStandard_DateTimeOutputBuild {	@include font-weight-bold(false);
+}
+#BuildVersionStandard_DateTimeOutputBuild {	padding: 0px 5px;
+}
+#BuildVersionStandard_LabeBranch {	@include elemTop(0);
+}
+#BuildVersionStandard_LabeBranch {	@include elemLeft(250);
+}
+#BuildVersionStandard_LabeBranch {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabeBranch {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_LabeBranch {	z-index: 7;
+}
+#BuildVersionStandard_LabeBranch {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabeBranch {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabeBranch {	font-size: 12px;
+}
+#BuildVersionStandard_LabeBranch {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputBranch {	@include elemTop(0);
+}
+#BuildVersionStandard_TextOutputBranch {	@include elemLeft(350);
+}
+#BuildVersionStandard_TextOutputBranch {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputBranch {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_TextOutputBranch {	z-index: 8;
+}
+#BuildVersionStandard_TextOutputBranch {	font-size: 14px;
+}
+#BuildVersionStandard_TextOutputBranch {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_LabelVersion {	@include elemTop(20);
+}
+#BuildVersionStandard_LabelVersion {	@include elemLeft(250);
+}
+#BuildVersionStandard_LabelVersion {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelVersion {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_LabelVersion {	z-index: 9;
+}
+#BuildVersionStandard_LabelVersion {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelVersion {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelVersion {	font-size: 12px;
+}
+#BuildVersionStandard_LabelVersion {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputVersion {	@include elemTop(20);
+}
+#BuildVersionStandard_TextOutputVersion {	@include elemLeft(350);
+}
+#BuildVersionStandard_TextOutputVersion {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputVersion {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_TextOutputVersion {	z-index: 10;
+}
+#BuildVersionStandard_TextOutputVersion {	font-size: 14px;
+}
+#BuildVersionStandard_TextOutputVersion {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_LabelChanges {	@include elemTop(40);
+}
+#BuildVersionStandard_LabelChanges {	@include elemLeft(250);
+}
+#BuildVersionStandard_LabelChanges {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelChanges {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_LabelChanges {	z-index: 11;
+}
+#BuildVersionStandard_LabelChanges {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelChanges {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelChanges {	font-size: 12px;
+}
+#BuildVersionStandard_LabelChanges {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputChanges {	@include elemTop(40);
+}
+#BuildVersionStandard_TextOutputChanges {	@include elemLeft(350);
+}
+#BuildVersionStandard_TextOutputChanges {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputChanges {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_TextOutputChanges {	z-index: 12;
+}
+#BuildVersionStandard_TextOutputChanges {	font-size: 12px;
+}
+#BuildVersionStandard_TextOutputChanges {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_LabelCommitDate {	@include elemTop(60);
+}
+#BuildVersionStandard_LabelCommitDate {	@include elemLeft(250);
+}
+#BuildVersionStandard_LabelCommitDate {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelCommitDate {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_LabelCommitDate {	z-index: 13;
+}
+#BuildVersionStandard_LabelCommitDate {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelCommitDate {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelCommitDate {	font-size: 12px;
+}
+#BuildVersionStandard_LabelCommitDate {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include elemTop(60);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include elemLeft(350);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	z-index: 14;
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include text-alignment(left);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	font-size: 14px;
+}
+#BuildVersionStandard_DateTimeOutputCommit {	@include font-weight-bold(false);
+}
+#BuildVersionStandard_DateTimeOutputCommit {	padding: 0px 5px;
+}
+#BuildVersionStandard_LabelCommitAuthor {	@include elemTop(80);
+}
+#BuildVersionStandard_LabelCommitAuthor {	@include elemLeft(250);
+}
+#BuildVersionStandard_LabelCommitAuthor {	@include elemAutoWidth(100);
+}
+#BuildVersionStandard_LabelCommitAuthor {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_LabelCommitAuthor {	z-index: 15;
+}
+#BuildVersionStandard_LabelCommitAuthor {	& span {
+		color: rgba(0, 0, 0, 0.7);
+	}
+}
+#BuildVersionStandard_LabelCommitAuthor {	@include text-alignment-all('right');
+}
+#BuildVersionStandard_LabelCommitAuthor {	font-size: 12px;
+}
+#BuildVersionStandard_LabelCommitAuthor {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	@include elemTop(80);
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	@include elemLeft(350);
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	@include elemAutoWidth(150);
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	z-index: 16;
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	font-size: 14px;
+}
+#BuildVersionStandard_TextOutputCommitAuthor {	span {
+		padding: 0px 5px;
+	}
+}
+#BuildVersionStandard_ImageWarning {	@include elemTop(40);
+}
+#BuildVersionStandard_ImageWarning {	@include elemLeft(263);
+}
+#BuildVersionStandard_ImageWarning {	@include elemAutoWidth(20);
+}
+#BuildVersionStandard_ImageWarning {	@include elemAutoHeight(20);
+}
+#BuildVersionStandard_ImageWarning {	z-index: 17;
+}
