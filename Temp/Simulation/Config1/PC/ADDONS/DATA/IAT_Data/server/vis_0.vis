@@ -1,38 +1,27 @@
 
 <vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
-  <StartPage pageRefId="Overview_Page" />
+  <StartPage pageRefId="Page_Main" />
   <Pages>
-    <Page refId="Overview_Page" />
-    <Page refId="page_2" />
-    <Page refId="page_4" />
+    <Page refId="Page_Main" />
+    <Page refId="Page_Process" />
+	<Page refId="Page_Services" />
+	<Page refId="Page_Settings" />
+	<Page refId="Page_Diagnostics" />
+	<Page refId="Page_Alarms" />	
   </Pages>
   <Navigations />
-  <BindingsSets>
-    <BindingsSet refId="-1291218519" />
-    <BindingsSet refId="-1300688991" />
-    <BindingsSet refId="-1285506712" />
-    <BindingsSet refId="767750272" />
-    <BindingsSet refId="-1284390361" />
-    <BindingsSet refId="-1828126927" />
-    <BindingsSet refId="1549922855" />
-    <BindingsSet refId="791355259" />
-    <BindingsSet refId="-1279655381" />
-  </BindingsSets>
-  <EventBindingsSets>
-    <EventBindingsSet refId="1546160238" />
-    <EventBindingsSet refId="2113181802" />
-    <EventBindingsSet refId="415004159" />
-  </EventBindingsSets>
+  <BindingsSets />
+  <EventBindingsSets />
   <Dialogs>
-    <Dialog refId="TestPopUp" />
+    <!--<Dialog refId="TestPopUp" />
     <Dialog refId="BufferTankPopUp" />
-    <Dialog refId="dialog_7" />
+    <Dialog refId="dialog_7" />-->
   </Dialogs>
   <Contents>
-    <Content refId="content_1" />
+    <!--<Content refId="content_1" />
     <Content refId="content_2" />
     <Content refId="content_9" />
-    <Content refId="content_11" />
+		<Content refId="content_11" />
     <Content refId="Header" />
     <Content refId="content_15" />
     <Content refId="content_3" />
@@ -56,7 +45,7 @@
     <Content refId="content_24" />
     <Content refId="QCS" />
     <Content refId="content_6" />
-    <Content refId="SiteStatuses" />
+    <Content refId="SiteStatuses" />-->
   </Contents>
   <SnippetsSets />
   <VariablesSets>
@@ -70,8 +59,8 @@
     <Theme refId="BuRTheme1" />
   </Themes>
   <Configurations>
-		<Configuration key="activityCount" value="false" />
-		<Configuration key="zoom" value="true" />
+    <Configuration key="activityCount" value="false" />
+    <Configuration key="zoom" value="true" />
     <Gestures>
       <!--<SystemGesture1 touchPoints="2" />
 			<SystemGesture2 touchPoints="2" />

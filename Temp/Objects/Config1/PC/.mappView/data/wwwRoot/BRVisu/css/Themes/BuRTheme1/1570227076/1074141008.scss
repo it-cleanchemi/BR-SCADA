@@ -153,6 +153,78 @@ header {
 	background-color: transparent;
 
 }
+@import "../../../../widgets/brease/Image/meta/Image_base";
+.widgets_brease_Image_style_tableConfigurationDialogStyle {
+@include widgets_brease_Image_base; 
+& > .ImageView > svg {
+	fill: #474747;
+}
+
+}
+@import "../../../../widgets/brease/CheckBox/meta/CheckBox_base";
+.widgets_brease_CheckBox_style_tableConfigurationDialogStyle {
+@include widgets_brease_CheckBox_base; 
+	border-style: none;
+span {
+	font-size: 16px;
+}
+&:not(.disabled) span {
+	color: #474747;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.disabled) {
+	background-color: transparent;
+}
+&.disabled {
+	background-color: transparent;
+}
+&.disabled span {
+	color: #CCCCCC;
+}
+&.disabled.checked span {
+	border-color: #CCCCCC;
+}
+&.disabled.active span {
+	border-color: #CCCCCC;
+}
+span {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/GroupBox/meta/GroupBox_base";
+.widgets_brease_GroupBox_style_tableConfigurationDialogStyle {
+@include widgets_brease_GroupBox_base; 
+> .header {
+@include backGroundGradient('linear-gradient(to bottom,#F7F7F7 0%,#C6C6C6 100%)');
+}
+	background-color: #FFFFFF;
+> .header span {
+	font-size: 16px;
+}
+> .header {
+height: 16px + 20px;
+}
+> .header span {
+	color: #474747;
+}
+@include border-radius(8px 8px 0px 0px);
+	border-width: 1px;
+> .header {
+	border-width: 1px;
+}
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+> .header {
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+@include box-shadow(4px 4px 14px 0px rgba(62, 79, 92, 0.75));
+
+}
 @import "../../../../widgets/brease/TextInput/meta/TextInput_base";
 .widgets_brease_TextInput_style_tableConfigurationDialogStyle {
 @include widgets_brease_TextInput_base; 
@@ -190,6 +262,36 @@ input {
 input {
 @include text-alignment(left);
 }
+
+}
+@import "../../../../widgets/brease/DateTimeInput/meta/DateTimeInput_base";
+.widgets_brease_DateTimeInput_style_tableConfigurationDialogStyle {
+@include widgets_brease_DateTimeInput_base; 
+&:not(.active):not(.disabled) span {
+	color: #474747;
+}
+&:not(.disabled):not(.active) {
+	border-width: 2px 2px 1px 1px;
+}
+&:not(.active):not(.disabled) {
+	border-color: #FF8800;
+}
+&.active:not(.disabled) {
+	border-color: #FF8800;
+}
+	font-size: 16px;
+&:not(.active):not(.disabled) {
+	background-color: #FFFFFF;
+}
+&.active:not(.disabled) {
+	background-color: #EBEBEB;
+}
+&.active:not(.disabled) span {
+	color: #555555;
+}
+@include font-weight-bold(true);
+@include box-shadow(4px 1px 3px 0px rgba(255, 113, 0, 0.75));
+@include text-alignment(left);
 
 }
 @import "../../../../widgets/brease/Label/meta/Label_base";

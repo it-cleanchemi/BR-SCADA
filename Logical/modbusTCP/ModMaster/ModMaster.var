@@ -2,7 +2,7 @@
 (*Modbus master function block and configuration*)
 VAR
 	ModbusTcpMaster : ARRAY[0..MAX_SKIDS] OF MBmaster;
-	MasterConfig : modbus_master_cfg_typ;
+	MasterConfig : ARRAY[0..MAX_SKIDS] OF modbus_master_cfg_typ;
 	reset_error : BOOL := FALSE;
 END_VAR
 (*IO sample arrays*)

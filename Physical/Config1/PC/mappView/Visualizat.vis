@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
-  <StartPage pageRefId="Overview_Page" />
+  <StartPage pageRefId="Page_Main" />
   <Pages>
-    <Page refId="Overview_Page" />
-    <Page refId="page_2" />
-    <Page refId="page_4" />
+    <Page refId="Page_Main" />
+    <Page refId="Page_Process" />
+	<Page refId="Page_Services" />
+	<Page refId="Page_Settings" />
+	<Page refId="Page_Diagnostics" />
+	<Page refId="Page_Alarms" />	
   </Pages>
   <Navigations />
   <BindingsSets />
   <EventBindingsSets />
   <Dialogs>
-    <Dialog refId="TestPopUp" />
+    <!--<Dialog refId="TestPopUp" />
     <Dialog refId="BufferTankPopUp" />
-    <Dialog refId="dialog_7" />
+    <Dialog refId="dialog_7" />-->
   </Dialogs>
   <Contents>
     <!--<Content refId="content_1" />

@@ -5,7 +5,7 @@ VAR CONSTANT
 	LOG_LINE_LEN : USINT := 100; (*Size of one log entry*)
 	SLAVE_MAX_CONNECTION_NUM : USINT := 3; (*Maximum number of slave connections to master*)
 	SLAVE_MAX_REGISTER_NUM : UINT := 256; (*Maximum number of slave registers*)
-	MASTER_MAX_ACTION_NUM : UINT := 90; (*Maximum number of master actions*)
+	MASTER_MAX_ACTION_NUM : UINT := 30; (*Maximum number of master actions*)
 END_VAR
 (*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*)
 (*Modbus functions*)

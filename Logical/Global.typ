@@ -60,9 +60,20 @@ END_TYPE
 (*Insert your comment here.*)
 
 TYPE
+	CMD_WriteP101_SP_Type : 	STRUCT 
+		Send : BOOL;
+		P101_SP : REAL;
+		P101_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_WriteSkidID_Type : 	STRUCT 
+		Send : BOOL;
+		SkidID : UINT;
+	END_STRUCT;
 	CMD_Type : 	STRUCT 
 		Stop : BOOL;
 		Start : BOOL;
+		WriteSkidID : CMD_WriteSkidID_Type;
+		WriteP101_SP : CMD_WriteP101_SP_Type;
 	END_STRUCT;
 END_TYPE
 

@@ -52,7 +52,7 @@ extern "C"
  #define LOG_LINE_LEN 100U
  #define SLAVE_MAX_CONNECTION_NUM 3U
  #define SLAVE_MAX_REGISTER_NUM 256U
- #define MASTER_MAX_ACTION_NUM 90U
+ #define MASTER_MAX_ACTION_NUM 30U
  #define READ_COILS 1U
  #define READ_DISCRETE_INPUTS 2U
  #define READ_HOLDING_REGISTERS 3U
@@ -88,7 +88,7 @@ extern "C"
  #define TYP_RESPONSE 1U
  #define SLAVE_MAX_CONNECTION_INDEX 2U
  #define SLAVE_MAX_REGISTER_INDEX 255U
- #define MASTER_MAX_ACTION_INDEX 89U
+ #define MASTER_MAX_ACTION_INDEX 29U
  #define MODBUS_TCP_PORT 502U
  #define MODBUS_MAX_REG 125U
  #define DISABLE 65534U
@@ -225,8 +225,8 @@ typedef struct modbus_master_action_param_typ
 } modbus_master_action_param_typ;
 
 typedef struct modbus_master_cfg_typ
-{	struct modbus_master_action_enable_typ action_enable[90];
-	struct modbus_master_action_param_typ action_param[90];
+{	struct modbus_master_action_enable_typ action_enable[30];
+	struct modbus_master_action_param_typ action_param[30];
 } modbus_master_cfg_typ;
 
 typedef struct modbus_master_internal_typ
@@ -243,7 +243,7 @@ typedef struct modbus_master_internal_typ
 	struct tcpLINGER_typ linger_opt;
 	unsigned char last_req;
 	unsigned long receive_timer;
-	unsigned long send_timer[90];
+	unsigned long send_timer[30];
 	unsigned char send_buff[501];
 	unsigned char receive_buff[501];
 	unsigned short transaction_id;

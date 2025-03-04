@@ -1,0 +1,41 @@
+@import "mixins.scss";
+#Alarms_Alarms_ButtonBar {	@include elemTop(0);
+}
+#Alarms_Alarms_ButtonBar {	@include elemLeft(0);
+}
+#Alarms_Alarms_ButtonBar {	@include elemWidth(1114);
+}
+#Alarms_Alarms_ButtonBar {	@include elemHeight(60);
+}
+#Alarms_Alarms_ButtonBar {	z-index: 0;
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_Active {	@include elemTop(0);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_Active {	@include elemLeft(0);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_Active {	@include elemAutoWidth(557);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_Active {	@include elemAutoHeight(60);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_Active {	z-index: 0;
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_History {	@include elemTop(0);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_History {	@include elemLeft(0);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_History {	@include elemAutoWidth(557);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_History {	@include elemAutoHeight(60);
+}
+#Alarms_Alarms_ButtonBar_ToggleButton_History {	z-index: 1;
+}
+#Alarms_Alarms_GroupBox_Content {	@include elemTop(60);
+}
+#Alarms_Alarms_GroupBox_Content {	@include elemLeft(0);
+}
+#Alarms_Alarms_GroupBox_Content {	@include elemWidth(1114);
+}
+#Alarms_Alarms_GroupBox_Content {	@include elemHeight(600);
+}
+#Alarms_Alarms_GroupBox_Content {	z-index: 1;
+}

@@ -1,0 +1,8 @@
+@import "mixins.scss";
+@mixin widgets_BuildVersionWidget_BuildVersionAdvanced_base {
+	@include elemWidth(500);
+	@include elemHeight(150);
+	margin: 0px;
+
+}
+

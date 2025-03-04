@@ -10,7 +10,7 @@
     </Widget>
     <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="60" left="0" width="1114" height="600" zIndex="1" style="default_Blank">
       <Widgets>
-        <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="0" width="1114" height="600" zIndex="0" contentId="Diagnostics_ConvInIO" />
+
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.CheckBox" id="Diagnostics_CheckBox_ForceEnable" top="11" left="949" width="160" height="40" zIndex="2" boxSize="35" text="$IAT/Diagnostics_CheckBox_ForceEnable" permissionOperate="['Administrators']" />
