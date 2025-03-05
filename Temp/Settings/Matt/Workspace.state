@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="18" CaretColumn="16" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="52" CaretColumn="117" FirstVisibleLine="75">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="97" CaretColumn="4" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="116" CaretColumn="57" FirstVisibleLine="57">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st" CaretLine="16" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>
