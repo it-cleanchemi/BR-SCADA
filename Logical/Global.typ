@@ -49,23 +49,219 @@ TYPE
 END_TYPE
 
 (**)
-(*Insert your comment here.*)
+(*Misc. Write Commands*)
 
 TYPE
-	CMD_WriteP101_SP_Type : 	STRUCT 
+	CMD_Write_EFF_1_Type : 	STRUCT 
 		Send : BOOL;
-		P101_SP : REAL;
-		P101_SP_SWAPPED : REAL;
+		wEFF_1 : REAL;
+		wEFF_1_SWAPPED : REAL;
 	END_STRUCT;
-	CMD_WriteSkidID_Type : 	STRUCT 
+	CMD_Write_EFF_2_Type : 	STRUCT 
 		Send : BOOL;
-		SkidID : UINT;
+		wEFF_2 : REAL;
+		wEFF_2_SWAPPED : REAL;
 	END_STRUCT;
+	CMD_Write_NAOH_TO_H2O2_Type : 	STRUCT 
+		Send : BOOL;
+		wNAOH_TO_H2O2 : REAL;
+		wNAOH_TO_H2O2_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_TRI_TO_H2O2_Type : 	STRUCT 
+		Send : BOOL;
+		wTRI_TO_H2O2 : REAL;
+		wTRI_TO_H2O2_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_PMAX_HOA_Type : 	STRUCT 
+		Send : BOOL;
+		wPMAX_HOA : UINT;
+	END_STRUCT;
+	CMD_Write_PMAX_CONC_Type : 	STRUCT 
+		Send : BOOL;
+		wPMAX_CONC : REAL;
+		wPMAX_CONC_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_HP_CONC_Type : 	STRUCT 
+		Send : BOOL;
+		wHP_CONC : REAL;
+		wHP_CONC_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_NAOH_CONC_Type : 	STRUCT 
+		Send : BOOL;
+		wNAOH_CONC : REAL;
+		wNAOH_CONC_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*P101 Write Commands*)
+
+TYPE
+	CMD_Write_P101_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP101_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P101_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP101_SP : REAL;
+		wP101_SP_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*P102 Write Commands*)
+
+TYPE
+	CMD_Write_P102_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP102_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P102_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP102_SP : REAL;
+		wP102_SP_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*P103 Write Commands*)
+
+TYPE
+	CMD_Write_P103_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP103_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P103_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP103_SP : REAL;
+		wP103_SP_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*P104 Write Commands*)
+
+TYPE
+	CMD_Write_P104_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP104_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P104_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP104_SP : REAL;
+		wP104_SP_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*P201 Write Commands*)
+
+TYPE
+	CMD_Write_P201_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_SP : REAL;
+		wP201_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P201_PPM_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_PPM : REAL;
+		wP201_PPM_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P201_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P201_HOA_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_HOA : UINT;
+	END_STRUCT;
+END_TYPE
+
+(*P202 Write Commands*)
+
+TYPE
+	CMD_Write_P202_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_SP : REAL;
+		wP202_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P202_PPM_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_PPM : REAL;
+		wP202_PPM_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P202_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P202_HOA_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_HOA : UINT;
+	END_STRUCT;
+END_TYPE
+
+(*P203 Write Commands*)
+
+TYPE
+	CMD_Write_P203_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_SP : REAL;
+		wP203_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P203_PPM_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_PPM : REAL;
+		wP203_PPM_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P203_XS_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_XS : UINT;
+	END_STRUCT;
+	CMD_Write_P203_HOA_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_HOA : UINT;
+	END_STRUCT;
+END_TYPE
+
+(*UID Write Command*)
+
+TYPE
+	CMD_Write_UNIT_ID_Type : 	STRUCT 
+		Send : BOOL;
+		wUNIT_ID : UINT;
+	END_STRUCT;
+END_TYPE
+
+(*Write Command *)
+
+TYPE
 	CMD_Type : 	STRUCT 
 		Stop : BOOL;
 		Start : BOOL;
-		WriteSkidID : CMD_WriteSkidID_Type;
-		WriteP101_SP : CMD_WriteP101_SP_Type;
+		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
+		Write_P203_XS : CMD_Write_P203_XS_Type;
+		Write_P203_HOA : CMD_Write_P203_HOA_Type;
+		Write_P203_PPM : CMD_Write_P203_PPM_Type;
+		Write_P203_SP : CMD_Write_P203_SP_Type;
+		Write_P202_XS : CMD_Write_P202_XS_Type;
+		Write_P202_HOA : CMD_Write_P202_HOA_Type;
+		Write_P202_PPM : CMD_Write_P202_PPM_Type;
+		Write_P202_SP : CMD_Write_P202_SP_Type;
+		Write_P104_XS : CMD_Write_P104_XS_Type;
+		Write_P104_SP : CMD_Write_P104_SP_Type;
+		Write_P103_XS : CMD_Write_P103_XS_Type;
+		Write_P103_SP : CMD_Write_P103_SP_Type;
+		Write_P102_XS : CMD_Write_P102_XS_Type;
+		Write_P102_SP : CMD_Write_P102_SP_Type;
+		Write_P101_XS : CMD_Write_P101_XS_Type;
+		Write_P101_SP : CMD_Write_P101_SP_Type;
+		Write_P201_XS : CMD_Write_P201_XS_Type;
+		Write_P201_HOA : CMD_Write_P201_HOA_Type;
+		Write_P201_PPM : CMD_Write_P201_PPM_Type;
+		Write_P201_SP : CMD_Write_P201_SP_Type;
+		Write_EFF_1 : CMD_Write_EFF_1_Type;
+		Write_EFF_2 : CMD_Write_EFF_2_Type;
+		Write_NAOH_TO_H2O2 : CMD_Write_NAOH_TO_H2O2_Type;
+		Write_TRI_TO_H2O2 : CMD_Write_TRI_TO_H2O2_Type;
+		Write_PMAX_HOA : CMD_Write_PMAX_HOA_Type;
+		Write_PMAX_CONC : CMD_Write_PMAX_CONC_Type;
+		Write_HP_CONC : CMD_Write_HP_CONC_Type;
+		Write_NAOH_CONC : CMD_Write_NAOH_CONC_Type;
 	END_STRUCT;
 END_TYPE
 
