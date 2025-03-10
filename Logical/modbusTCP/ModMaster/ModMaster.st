@@ -63,16 +63,16 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[4].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[4].start_addr := 6000;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[4].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[4].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
+		MasterConfig[IdxSkids].action_param[4].type 		:= 16;			// Function code for this item (2 := read discrete inputs)	
 
 		// AS Block 6 - P201_XS
 		MasterConfig[IdxSkids].action_enable[5].cyclic 	:= FALSE;			// Read data cyclic 
 		MasterConfig[IdxSkids].action_param[5].p_pv		:= ADR(gCmd[IdxSkids].Write_P201_XS.wP201_XS);	// Store data in this variable 
 		MasterConfig[IdxSkids].action_param[5].quantity 	:= 1;			// Number of items to read 
 		MasterConfig[IdxSkids].action_param[5].unit 		:= 1;			// Unit address - ignore if not specified 
-		MasterConfig[IdxSkids].action_param[5].start_addr := 20000;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[5].start_addr := 20000.00;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[5].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[5].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
+		MasterConfig[IdxSkids].action_param[5].type 		:= 16;			// Function code for this item (2 := read discrete inputs)	
 		
 		// AS Block 7 - P201_HOA
 		MasterConfig[IdxSkids].action_enable[6].cyclic 	:= FALSE;			// Read data cyclic 
@@ -81,7 +81,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[6].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[6].start_addr := 21010;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[6].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[6].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[6].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 8 - P201_PPM
 		MasterConfig[IdxSkids].action_enable[7].cyclic 	:= FALSE;			// Read data cyclic 
@@ -90,7 +90,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[7].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[7].start_addr := 21140;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[7].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[7].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[7].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 9 - P201_SP
 		MasterConfig[IdxSkids].action_enable[8].cyclic 	:= FALSE;			// Read data cyclic 
@@ -99,7 +99,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[8].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[8].start_addr := 21100;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[8].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[8].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[8].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 10 - P202_XS
 		MasterConfig[IdxSkids].action_enable[9].cyclic 	:= FALSE;			// Read data cyclic 
@@ -108,7 +108,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[9].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[9].start_addr := 20000;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[9].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[9].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
+		MasterConfig[IdxSkids].action_param[9].type 		:= 16;			// Function code for this item (2 := read discrete inputs)	
 		
 		// AS Block 11 - P202_HOA
 		MasterConfig[IdxSkids].action_enable[10].cyclic 	:= FALSE;			// Read data cyclic 
@@ -117,7 +117,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[10].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[10].start_addr := 22010;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[10].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[10].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[10].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 12 - P202_PPM
 		MasterConfig[IdxSkids].action_enable[11].cyclic 	:= FALSE;			// Read data cyclic 
@@ -126,7 +126,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[11].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[11].start_addr := 22140;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[11].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[11].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[11].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 13 - P202_SP
 		MasterConfig[IdxSkids].action_enable[12].cyclic 	:= FALSE;			// Read data cyclic 
@@ -135,7 +135,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[12].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[12].start_addr := 22100;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[12].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[12].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[12].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 14 - P203_XS
 		MasterConfig[IdxSkids].action_enable[13].cyclic 	:= FALSE;			// Read data cyclic 
@@ -144,7 +144,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[13].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[13].start_addr := 20000;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[13].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[13].type 		:= 6;			// Function code for this item (2 := read discrete inputs)	
+		MasterConfig[IdxSkids].action_param[13].type 		:= 16;			// Function code for this item (2 := read discrete inputs)	
 		
 		// AS Block 15 - P203_HOA
 		MasterConfig[IdxSkids].action_enable[14].cyclic 	:= FALSE;			// Read data cyclic 
@@ -153,7 +153,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[14].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[14].start_addr := 23010;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[14].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[14].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[14].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 16 - P203_PPM
 		MasterConfig[IdxSkids].action_enable[15].cyclic 	:= FALSE;			// Read data cyclic 
@@ -162,7 +162,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[15].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[15].start_addr := 23140;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[15].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[15].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[15].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 17 - P203_SP
 		MasterConfig[IdxSkids].action_enable[16].cyclic 	:= FALSE;			// Read data cyclic 
@@ -171,7 +171,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[16].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[16].start_addr := 23100;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[16].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[16].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[16].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 18 - EFF_1
 		MasterConfig[IdxSkids].action_enable[17].cyclic 	:= FALSE;			// Read data cyclic 
@@ -180,7 +180,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[17].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[17].start_addr := 10910;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[17].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[17].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[17].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 19 - EFF_2
 		MasterConfig[IdxSkids].action_enable[18].cyclic 	:= FALSE;			// Read data cyclic 
@@ -208,7 +208,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[20].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[20].start_addr := 10920;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[20].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[20].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[20].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 22 - PMAX_HOA
 		MasterConfig[IdxSkids].action_enable[21].cyclic 	:= FALSE;			// Read data cyclic 
@@ -217,7 +217,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[21].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[21].start_addr := 10010;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[21].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[21].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[21].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 23 - PMAX_CONC
 		MasterConfig[IdxSkids].action_enable[22].cyclic 	:= FALSE;			// Read data cyclic 
@@ -226,7 +226,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[22].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[22].start_addr := 10900;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[22].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[22].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[22].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 24 - HP_CONC
 		MasterConfig[IdxSkids].action_enable[23].cyclic 	:= FALSE;			// Read data cyclic 
@@ -235,7 +235,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[23].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[23].start_addr := 13130;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[23].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[23].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[23].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 25 - NAOH_CONC
 		MasterConfig[IdxSkids].action_enable[24].cyclic 	:= FALSE;			// Read data cyclic 
@@ -244,7 +244,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[24].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[24].start_addr := 12130;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[24].timer 	:= 10;			// Refresh timer for this item 
-		MasterConfig[IdxSkids].action_param[24].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		MasterConfig[IdxSkids].action_param[24].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
 		
 		

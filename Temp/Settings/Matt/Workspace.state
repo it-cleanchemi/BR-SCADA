@@ -4,13 +4,13 @@
   <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st" CaretLine="104" CaretColumn="96" FirstVisibleLine="82">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="94" CaretColumn="120" FirstVisibleLine="51">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="199" CaretColumn="100" FirstVisibleLine="175">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="136" CaretColumn="11" FirstVisibleLine="93">
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IDEC_REAL_Conv.st" CaretLine="6" CaretColumn="25" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="247" CaretColumn="54" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>

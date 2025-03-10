@@ -16,6 +16,7 @@ ACTION Modbus_CMD_action:
 	IF gCmd[IdxSkids].Write_P201_XS.Send THEN
 		MasterConfig[IdxSkids].action_enable[5].single := TRUE;
 		gCmd[IdxSkids].Write_P201_XS.Send := FALSE;
+		gCmd[IdxSkids].Write_P201_XS.wP201_XS.2 := 1;
 	END_IF;
 	
 	// AS Block 7 - P201_HOA
@@ -99,8 +100,6 @@ ACTION Modbus_CMD_action:
 	
 	// AS Block 19 - EFF_2
 	IF gCmd[IdxSkids].Write_EFF_2.Send THEN
-//		brsmemcpy(ADR(gCmd[IdxSkids].Write_EFF_2.wEFF_2_SWAPPED[0]),ADR(gCmd[IdxSkids].Write_EFF_2.wEFF_2)+2,SIZEOF(gCmd[IdxSkids].Write_EFF_2.wEFF_2_SWAPPED[0]));
-		//		brsmemcpy(ADR(gCmd[IdxSkids].Write_EFF_2.wEFF_2_SWAPPED[1]),ADR(gCmd[IdxSkids].Write_EFF_2.wEFF_2),SIZEOF(gCmd[IdxSkids].Write_EFF_2.wEFF_2_SWAPPED[0]));
 		gCmd[IdxSkids].Write_EFF_2.wEFF_2_SWAPPED := IDEC_REAL_Conv(gCmd[IdxSkids].Write_EFF_2.wEFF_2);
 		MasterConfig[IdxSkids].action_enable[18].single := TRUE;
 		gCmd[IdxSkids].Write_EFF_2.Send := FALSE;
