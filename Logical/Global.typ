@@ -7,16 +7,22 @@ TYPE
 	END_STRUCT;
 	Skid_type : 	STRUCT 
 		Pmax_Pump_101 : Pmax_Pump_101_Type;
+		Pmax_Pump_102 : Pmax_Pump_102_Type;
 		Pmax_Pump_103 : Pmax_Pump_103_Type;
 		Pmax_Pump_104 : Pmax_Pump_104_Type;
-		Pmax_Pump_102 : Pmax_Pump_102_Type;
 		BufferTank : BufferTank_Variables_Type;
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
+		Pmax_Alarms : Pmax_Alarms_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
-		Dosing_Pump_203 : Dosing_Pump_203_Type;
-		Dosing_Pump_202 : Dosing_Pump_202_Type;
 		Dosing_Pump_201 : Dosing_Pump_201_Type;
+		Dosing_Pump_202 : Dosing_Pump_202_Type;
+		Dosing_Pump_203 : Dosing_Pump_203_Type;
+		Dosing_Pump_204 : Dosing_Pump_204_Type;
+		Dosing_Pump_205 : Dosing_Pump_205_Type;
+		Dosing_Pump_206 : Dosing_Pump_206_Type;
+		Dosing_Pump_207 : Dosing_Pump_207_Type;
+		Dosing_Pump_208 : Dosing_Pump_208_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -283,12 +289,19 @@ END_TYPE
 
 TYPE
 	Modbus_6000_Type : 	STRUCT 
-		Block3_Int : ARRAY[0..124]OF INT;
+		Block1_Int : ARRAY[0..124]OF INT;
+		Block2_Int : ARRAY[0..124]OF INT;
+		Block3_Real : ARRAY[0..62]OF REAL;
 		Block4_Real : ARRAY[0..62]OF REAL;
+		Block5_Real : ARRAY[0..62]OF REAL;
 	END_STRUCT;
 	Modbus_7000_Type : 	STRUCT 
-		Block1_Int : ARRAY[0..124]OF INT;
-		Block2_Real : ARRAY[0..62]OF REAL;
+		Block6_Int : ARRAY[0..124]OF INT;
+		Block7_Int : ARRAY[0..124]OF INT;
+		Block8_Real : ARRAY[0..62]OF REAL;
+		Block9_Real : ARRAY[0..62]OF REAL;
+		Block10_Real : ARRAY[0..62]OF REAL;
+		Block11_Real : ARRAY[0..62]OF REAL;
 	END_STRUCT;
 END_TYPE
 
@@ -304,8 +317,11 @@ TYPE
 		CD101_SP : REAL; (*Current Transducer 101 Setpoint*)
 		CD102 : REAL; (*Current Transducer 102*)
 		CD102_SP : REAL; (*Current Transducer 102 Setpoint*)
+		CD103 : REAL; (*Current Transducer 103*)
+		CD103_SP : REAL; (*Current Transducer 103 Setpoint*)
 		CD101_TI : REAL; (*Temperature After Caustic*)
 		CD102_TI : REAL; (*Temperature After Hydrogen Peroxide*)
+		CD103_TI : REAL; (*Temperature After Hydrogen Peroxide*)
 	END_STRUCT;
 END_TYPE
 
@@ -313,13 +329,13 @@ END_TYPE
 (*PeroxyMax Generation Alarms*)
 
 TYPE
-	Pmax_Alarms : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
-		pmax_alarm : UINT; (*General Pmax Generation Side Alarm*)
-		p101_alarm : UINT; (*Pump 101 Alarms*)
-		p101b_alarm : UINT; (*Pump 101b Alarms*)
-		p102_alarm : UINT; (*Pump 102 Alarms*)
-		p103_alarm : UINT; (*Pump 103 Alarms*)
-		p104_alarm : UINT; (*Pump 104 Alarms*)
+	Pmax_Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
+		PMAX_ALARM : UINT; (*General Pmax Generation Side Alarm*)
+		P101_ALARM : UINT; (*Pump 101 Alarms*)
+		P101B_ALARM : UINT; (*Pump 101b Alarms*)
+		P102_ALARM : UINT; (*Pump 102 Alarms*)
+		P103_ALARM : UINT; (*Pump 103 Alarms*)
+		P104_ALARM : UINT; (*Pump 104 Alarms*)
 	END_STRUCT;
 	Dosing_Alarms : 	STRUCT  (*Dosing Pump Alarm Variables*)
 		alarm : UINT;
@@ -342,6 +358,7 @@ TYPE
 		EFF_1 : REAL; (*HP to PAA Conversion Efficiency *)
 		EFF_2 : REAL; (*Acetyl Conversion Efficiency *)
 		TRI_TO_H2O2 : REAL; (*Molar Ratio of Triacetin to HP*)
+		NAOH_TO_TRI : REAL; (*Molar Ratio of NaOH to TRI*)
 		NAOH_TO_H2O2 : REAL; (*Molar Ratio of NaOH to HP*)
 	END_STRUCT;
 END_TYPE
@@ -355,11 +372,15 @@ TYPE
 		PMAX_HOA : UINT; (*Pmax Generation is ON*)
 		PMAX_STATUS : UINT; (*Pmax Status*)
 		PMAX_CONC : REAL; (*Pmax Concentration*)
+		PMAX_PV : REAL; (*Pmax Present Value*)
 		PMAX_RATE : REAL; (*Pmax Rate*)
+		HP_CONC_OD : REAL; (*HP Concentration On Deck*)
 		HP_CONC : REAL; (*HP Concentration*)
+		NAOH_CONC_OD : REAL; (*NaOh Concentration On Deck*)
 		NAOH_CONC : REAL; (*NaOh Concentration*)
 		USER_ID : UINT; (*Current User*)
 		USER_ACCESS : UINT; (*Current User Access Level*)
+		UNIT_ID_DOSE : UINT;
 	END_STRUCT;
 END_TYPE
 
@@ -370,6 +391,10 @@ TYPE
 	BufferTank_Variables_Type : 	STRUCT  (*Buffer Tank Variables*)
 		LSHH200 : REAL; (*Buffer Tank High High Sensor*)
 		LI200 : REAL; (*Buffer Tank Level*)
+		DRAINTIME_SP : REAL; (*Tank Draintime Setpoint*)
+		DRAINTIME_PV : REAL; (*Tank Draintime Present Value*)
+		FILLTIME_SP : REAL; (*Tank Filltime Setpoint*)
+		FILLTIME_PV : REAL; (*Tank Filltime Present Value*)
 	END_STRUCT;
 END_TYPE
 
@@ -379,6 +404,8 @@ END_TYPE
 TYPE
 	Pmax_Pump_101_Type : 	STRUCT  (*Pmax Generation Variables for Pump 101 - Water Pump*)
 		P101_XS : UINT; (*Pump 101 On/Off Status*)
+		P101_LS : REAL; (*Pump 101 Inlet Point Level*)
+		P101_PFI : REAL; (*Pump 101 Feedback Percent*)
 		P101_SP : REAL; (*Pump 101 Setpoint*)
 		P101_PV : REAL; (*Pump 101 Current Value*)
 		P101_OP : REAL; (*Pump 101 Output Percent*)
@@ -389,19 +416,27 @@ TYPE
 	Pmax_Pump_102_Type : 	STRUCT  (*Pmax Generation Variables for Pump 102 - Sodium Hydroxide (Caustic) Pump*)
 		P102_XS : UINT; (*Pump 102 On/Off Status*)
 		P102_SP : REAL; (*Pump 102 Setpoint*)
+		P102_PV : REAL; (*Pump 102 Current Value*)
 		P102_OP : REAL; (*Pump 102 Output Percent*)
 		P102_PFI : REAL; (*Pump 102 Feedback Percent*)
+		P102_FQ : REAL; (*Pump 102 Totalized Flowmeter*)
 		P102_PFQ : REAL; (*Pump 102 Totalizer*)
 		P102_PPI : REAL; (*Pump 102 Internal Pressure*)
+		P102_TI : REAL; (*Pump 102 Temperature*)
+		P102_PI : REAL; (*Pump 102 Pressure*)
 		P102_LS : REAL; (*Pump 102 Inlet Point Level*)
 	END_STRUCT;
 	Pmax_Pump_103_Type : 	STRUCT  (*Pmax Generation Variables for Pump 103 - Hydrogen Peroxide Pump*)
 		P103_XS : UINT; (*Pump 103 On/Off Status*)
 		P103_SP : REAL; (*Pump 103 Setpoint*)
+		P103_PV : REAL; (*Pump 103 Current Value*)
 		P103_OP : REAL; (*Pump 103 Output Percent*)
 		P103_PFI : REAL; (*Pump 103 Feedback Percent*)
+		P103_FQ : REAL; (*Pump 103 Totalized Flowmeter*)
 		P103_PFQ : REAL; (*Pump 103 Totalizer*)
 		P103_PPI : REAL; (*Pump 103 Internal Pressure*)
+		P103_TI : REAL; (*Pump 103 Temperature*)
+		P103_PI : REAL; (*Pump 103 Pressure*)
 		P103_LS : REAL; (*Pump 103 Inlet Point Level*)
 	END_STRUCT;
 	Pmax_Pump_104_Type : 	STRUCT  (*Pmax Generation Variables for Pump 104 - Triacetin Pump*)
@@ -412,6 +447,8 @@ TYPE
 		P104_PFI : REAL; (*Pump 104  Feedback Percent*)
 		P104_FQ : REAL; (*Pump 104 Totalized Flowmeter*)
 		P104_PFQ : REAL; (*Pump 104 Totalizer*)
+		P104_PI : REAL; (*Pump 104 Pressure*)
+		P104_LS : REAL; (*Pump 104 Inlet Point Level*)
 		P104_PPI : REAL; (*Pump 104 Internal Pressure*)
 	END_STRUCT;
 END_TYPE
@@ -422,6 +459,7 @@ END_TYPE
 TYPE
 	Dosing_Pump_201_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
 		P201_XS : UINT; (*Pump 201 On/Off Status*)
+		P201_CHEM : UINT; (*Pump 201 Chemical*)
 		P201_HOA : UINT; (*Pump 201 Mode*)
 		P201_PPM : REAL; (*Pump 201 Dose*)
 		P201_APPM : REAL; (*Pump 201 Adjusted Dose*)
@@ -433,11 +471,15 @@ TYPE
 		P201_PI : REAL; (*Pump 201 Pressure*)
 		P201_TI : REAL; (*Pump 201 Temperature*)
 		P201_PFQ : REAL; (*Pump 201 Totalizer*)
+		P201_CONC : REAL; (*Pump 201 Concentration*)
+		P201_REF_SENSOR : REAL; (*Pump 201 Reference Sensor*)
+		P201_LS : REAL; (*Pump 201 Inlet Point Level*)
 		P201_PPI : REAL; (*Pump 201 Internal Pressure*)
 	END_STRUCT;
 	Dosing_Pump_202_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		P202_XS : UINT; (*Pump 202 On/Off Status*)
 		P202_HOA : UINT; (*Pump 202 Mode*)
+		P202_CHEM : UINT; (*Pump 202 Chemical*)
 		P202_PPM : REAL; (*Pump 202 Dose*)
 		P202_APPM : REAL; (*Pump 202 Adjusted Dose*)
 		P202_SP : REAL; (*Pump 202 Setpoint*)
@@ -448,11 +490,15 @@ TYPE
 		P202_PI : REAL; (*Pump 202 Pressure*)
 		P202_TI : REAL; (*Pump 202 Temperature*)
 		P202_PFQ : REAL; (*Pump 202 Totalizer*)
+		P202_CONC : REAL; (*Pump 202 Concentration*)
+		P202_REF_SENSOR : REAL; (*Pump 202 Reference Sensor*)
+		P202_LS : REAL; (*Pump 202 Inlet Point Level*)
 		P202_PPI : REAL; (*Pump 202 Internal Pressure*)
 	END_STRUCT;
 	Dosing_Pump_203_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		P203_XS : UINT; (*Pump 203 On/Off Status*)
 		P203_HOA : UINT; (*Pump 203 Mode*)
+		P203_CHEM : UINT; (*Pump 203 Chemical*)
 		P203_PPM : REAL; (*Pump 203 Dose*)
 		P203_APPM : REAL; (*Pump 203 Adjusted Dose*)
 		P203_SP : REAL; (*Pump 203 Setpoint*)
@@ -463,7 +509,105 @@ TYPE
 		P203_PI : REAL; (*Pump 203 Pressure*)
 		P203_TI : REAL; (*Pump 203 Temperature*)
 		P203_PFQ : REAL; (*Pump 203 Totalizer*)
+		P203_CONC : REAL; (*Pump 203 Concentration*)
+		P203_REF_SENSOR : REAL; (*Pump 203 Reference Sensor*)
+		P203_LS : REAL; (*Pump 203 Inlet Point Level*)
 		P203_PPI : REAL; (*Pump 203 Internal Pressure*)
+	END_STRUCT;
+	Dosing_Pump_204_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
+		P204_XS : UINT; (*Pump 204 On/Off Status*)
+		P204_HOA : UINT; (*Pump 204 Mode*)
+		P204_CHEM : UINT; (*Pump 204 Chemical*)
+		P204_PPM : REAL; (*Pump 204 Dose*)
+		P204_APPM : REAL; (*Pump 204 Adjusted Dose*)
+		P204_SP : REAL; (*Pump 204 Setpoint*)
+		P204_PV : REAL; (*Pump 204 Present Value*)
+		P204_OP : REAL; (*Pump 204 Output %*)
+		P204_PFI : REAL; (*Pump 204 Feedback %*)
+		P204_FQ : REAL; (*Pump 204 Totalized Flowmeter*)
+		P204_PI : REAL; (*Pump 204 Pressure*)
+		P204_TI : REAL; (*Pump 204 Temperature*)
+		P204_PFQ : REAL; (*Pump 204 Totalizer*)
+		P204_CONC : REAL; (*Pump 204 Concentration*)
+		P204_REF_SENSOR : REAL; (*Pump 204 Reference Sensor*)
+		P204_LS : REAL; (*Pump 204 Inlet Point Level*)
+		P204_PPI : REAL; (*Pump 204 Internal Pressure*)
+	END_STRUCT;
+	Dosing_Pump_205_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 205*)
+		P205_XS : UINT; (*Pump 205 On/Off Status*)
+		P205_HOA : UINT; (*Pump 205 Mode*)
+		P205_CHEM : UINT; (*Pump 205 Chemical*)
+		P205_PPM : REAL; (*Pump 205 Dose*)
+		P205_APPM : REAL; (*Pump 205 Adjusted Dose*)
+		P205_SP : REAL; (*Pump 205 Setpoint*)
+		P205_PV : REAL; (*Pump 205 Present Value*)
+		P205_OP : REAL; (*Pump 205 Output %*)
+		P205_PFI : REAL; (*Pump 205 Feedback %*)
+		P205_FQ : REAL; (*Pump 205 Totalized Flowmeter*)
+		P205_PI : REAL; (*Pump 205 Pressure*)
+		P205_TI : REAL; (*Pump 205 Temperature*)
+		P205_PFQ : REAL; (*Pump 205 Totalizer*)
+		P205_CONC : REAL; (*Pump 205 Concentration*)
+		P205_REF_SENSOR : REAL; (*Pump 205 Reference Sensor*)
+		P205_LS : REAL; (*Pump 205 Inlet Point Level*)
+		P205_PPI : REAL; (*Pump 205 Internal Pressure*)
+	END_STRUCT;
+	Dosing_Pump_206_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 206*)
+		P206_XS : UINT; (*Pump 206 On/Off Status*)
+		P206_HOA : UINT; (*Pump 206 Mode*)
+		P206_CHEM : UINT; (*Pump 206 Chemical*)
+		P206_PPM : REAL; (*Pump 206 Dose*)
+		P206_APPM : REAL; (*Pump 206 Adjusted Dose*)
+		P206_SP : REAL; (*Pump 206 Setpoint*)
+		P206_PV : REAL; (*Pump 206 Present Value*)
+		P206_OP : REAL; (*Pump 206 Output %*)
+		P206_PFI : REAL; (*Pump 206 Feedback %*)
+		P206_FQ : REAL; (*Pump 206 Totalized Flowmeter*)
+		P206_PI : REAL; (*Pump 206 Pressure*)
+		P206_TI : REAL; (*Pump 206 Temperature*)
+		P206_PFQ : REAL; (*Pump 206 Totalizer*)
+		P206_CONC : REAL; (*Pump 206 Concentration*)
+		P206_REF_SENSOR : REAL; (*Pump 206 Reference Sensor*)
+		P206_LS : REAL; (*Pump 206 Inlet Point Level*)
+		P206_PPI : REAL; (*Pump 206 Internal Pressure*)
+	END_STRUCT;
+	Dosing_Pump_207_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
+		P207_XS : UINT; (*Pump 207 On/Off Status*)
+		P207_HOA : UINT; (*Pump 207 Mode*)
+		P207_CHEM : UINT; (*Pump 207 Chemical*)
+		P207_PPM : REAL; (*Pump 207 Dose*)
+		P207_APPM : REAL; (*Pump 207 Adjusted Dose*)
+		P207_SP : REAL; (*Pump 207 Setpoint*)
+		P207_PV : REAL; (*Pump 207 Present Value*)
+		P207_OP : REAL; (*Pump 207 Output %*)
+		P207_PFI : REAL; (*Pump 207 Feedback %*)
+		P207_FQ : REAL; (*Pump 207 Totalized Flowmeter*)
+		P207_PI : REAL; (*Pump 207 Pressure*)
+		P207_TI : REAL; (*Pump 207 Temperature*)
+		P207_PFQ : REAL; (*Pump 207 Totalizer*)
+		P207_CONC : REAL; (*Pump 207 Concentration*)
+		P207_REF_SENSOR : REAL; (*Pump 207 Reference Sensor*)
+		P207_LS : REAL; (*Pump 207 Inlet Point Level*)
+		P207_PPI : REAL; (*Pump 207 Internal Pressure*)
+	END_STRUCT;
+	Dosing_Pump_208_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 208*)
+		P208_XS : UINT; (*Pump 208 On/Off Status*)
+		P208_HOA : UINT; (*Pump 208 Mode*)
+		P208_CHEM : UINT; (*Pump 208 Chemical*)
+		P208_PPM : REAL; (*Pump 208 Dose*)
+		P208_APPM : REAL; (*Pump 208 Adjusted Dose*)
+		P208_SP : REAL; (*Pump 208 Setpoint*)
+		P208_PV : REAL; (*Pump 208 Present Value*)
+		P208_OP : REAL; (*Pump 208 Output %*)
+		P208_PFI : REAL; (*Pump 208 Feedback %*)
+		P208_FQ : REAL; (*Pump 208 Totalized Flowmeter*)
+		P208_PI : REAL; (*Pump 208 Pressure*)
+		P208_TI : REAL; (*Pump 208 Temperature*)
+		P208_PFQ : REAL; (*Pump 208 Totalizer*)
+		P208_CONC : REAL; (*Pump 208 Concentration*)
+		P208_REF_SENSOR : REAL; (*Pump 208 Reference Sensor*)
+		P208_LS : REAL; (*Pump 208 Inlet Point Level*)
+		P208_PPI : REAL; (*Pump 208 Internal Pressure*)
 	END_STRUCT;
 END_TYPE
 
