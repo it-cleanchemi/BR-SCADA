@@ -22,7 +22,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133858638085418395"
+    LastWriteTime="133861732464087495"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Enum.typ"
@@ -436,19 +436,19 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st"
     LogicalPath="modbusTCP.ModMaster.ModMaster.st"
     Type="File"
-    LastWriteTime="133860854494761357"
+    LastWriteTime="133861733796851639"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st"
     LogicalPath="modbusTCP.ModMaster.CMD.st"
     Type="File"
-    LastWriteTime="133860847239846701"
+    LastWriteTime="133860962705807852"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st"
     LogicalPath="modbusTCP.ModMaster.Status.st"
     Type="File"
-    LastWriteTime="133860843670573364"
+    LastWriteTime="133861733490066246"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IEC.lby"

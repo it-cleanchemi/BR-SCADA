@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st" CaretLine="104" CaretColumn="96" FirstVisibleLine="82">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st" CaretLine="104" CaretColumn="59" FirstVisibleLine="82">
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="136" CaretColumn="11" FirstVisibleLine="93">
@@ -10,7 +10,7 @@
   <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IDEC_REAL_Conv.st" CaretLine="6" CaretColumn="25" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="247" CaretColumn="54" FirstVisibleLine="1">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st" CaretLine="72" CaretColumn="64" FirstVisibleLine="52">
     <Bookmarks />
   </TextEdit>
 </State>

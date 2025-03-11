@@ -283,12 +283,12 @@ END_TYPE
 
 TYPE
 	Modbus_6000_Type : 	STRUCT 
-		Block3_Int : ARRAY[0..55]OF INT;
-		Block4_Real : ARRAY[0..117]OF REAL;
+		Block3_Int : ARRAY[0..124]OF INT;
+		Block4_Real : ARRAY[0..62]OF REAL;
 	END_STRUCT;
 	Modbus_7000_Type : 	STRUCT 
-		Block1_Int : ARRAY[0..35]OF INT;
-		Block2_Real : ARRAY[0..103]OF REAL;
+		Block1_Int : ARRAY[0..124]OF INT;
+		Block2_Real : ARRAY[0..62]OF REAL;
 	END_STRUCT;
 END_TYPE
 

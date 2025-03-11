@@ -129,8 +129,9 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Sensor_Variables.CD102_SP := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[53]);
 	gSkid[IdxSkids].Sensor_Variables.CD101_TI := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[54]);
 	gSkid[IdxSkids].Sensor_Variables.CD102_TI := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[55]);
-	gSkid[IdxSkids].BufferTank.LI200 := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[56]);
+
 	gSkid[IdxSkids].BufferTank.LSHH200 := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[57]);
 
+	gSkid[IdxSkids].BufferTank.LI200 := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[62]);
 
 END_ACTION

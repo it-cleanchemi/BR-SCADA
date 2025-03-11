@@ -45,7 +45,7 @@ PROGRAM _INIT
 		// AS Block 4 - 6000 REAL
 		MasterConfig[IdxSkids].action_enable[3].cyclic 	:= 1;			// Read data cyclic 
 		MasterConfig[IdxSkids].action_param[3].p_pv		:= ADR(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[0]);	// Store data in this variable 
-		MasterConfig[IdxSkids].action_param[3].quantity 	:= 117;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[3].quantity 	:= 125;			// Number of items to read 
 		MasterConfig[IdxSkids].action_param[3].unit 		:= 1;			// Unit address - ignore if not specified 
 		MasterConfig[IdxSkids].action_param[3].start_addr := 6150;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[3].timer 		:= 100;			// Refresh timer for this item 
@@ -70,7 +70,7 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[5].p_pv		:= ADR(gCmd[IdxSkids].Write_P201_XS.wP201_XS);	// Store data in this variable 
 		MasterConfig[IdxSkids].action_param[5].quantity 	:= 1;			// Number of items to read 
 		MasterConfig[IdxSkids].action_param[5].unit 		:= 1;			// Unit address - ignore if not specified 
-		MasterConfig[IdxSkids].action_param[5].start_addr := 20000.00;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[5].start_addr := 20000;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[5].timer 	:= 10;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[5].type 		:= 16;			// Function code for this item (2 := read discrete inputs)	
 		
