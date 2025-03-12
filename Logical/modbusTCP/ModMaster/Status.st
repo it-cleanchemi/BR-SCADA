@@ -53,9 +53,9 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_CONC:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[8]);
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_RATE:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[9]);
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_PV:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[10]);
-	gSkid[IdxSkids].Pmax_General_Variables.HP_CONC:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[11]);
-	gSkid[IdxSkids].Pmax_General_Variables.HP_CONC_OD:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[12]);
-	gSkid[IdxSkids].Pmax_General_Variables.NAOH_CONC:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[13]);
+	gSkid[IdxSkids].Pmax_General_Variables.NAOH_CONC:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[11]);
+	gSkid[IdxSkids].Pmax_General_Variables.NAOH_CONC_OD:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[12]);
+	gSkid[IdxSkids].Pmax_General_Variables.HP_CONC:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[13]);
 	gSkid[IdxSkids].Pmax_General_Variables.HP_CONC_OD:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[14]);
 	
 	gSkid[IdxSkids].Pmax_Pump_101.P101_SP:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block3_Real[21]);
@@ -97,7 +97,6 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Pmax_Pump_103.P103_LS:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[5]);
 	
 	gSkid[IdxSkids].Pmax_Pump_104.P104_SP:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[10]);
-	
 	gSkid[IdxSkids].Pmax_Pump_104.P104_PV:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[11]);
 	gSkid[IdxSkids].Pmax_Pump_104.P104_OP:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[12]);
 	gSkid[IdxSkids].Pmax_Pump_104.P104_PFI:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_PeroxyMAX.Block4_Real[13]);
