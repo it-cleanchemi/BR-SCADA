@@ -1,18 +1,48 @@
 (*Global Structrues*)
+(**)
+(*Raw Modbus Data*)
 
 TYPE
 	Modbus_Type : 	STRUCT 
 		Modbus_Dosing : Modbus_7000_Type;
 		Modbus_PeroxyMAX : Modbus_6000_Type;
 	END_STRUCT;
+END_TYPE
+
+(*Raw Modbus IO*)
+
+TYPE
+	Modbus_6000_Type : 	STRUCT 
+		Block1_Int : ARRAY[0..124]OF INT;
+		Block2_Int : ARRAY[0..124]OF INT;
+		Block3_Real : ARRAY[0..62]OF REAL;
+		Block4_Real : ARRAY[0..62]OF REAL;
+		Block5_Real : ARRAY[0..62]OF REAL;
+	END_STRUCT;
+	Modbus_7000_Type : 	STRUCT 
+		Block6_Int : ARRAY[0..124]OF INT;
+		Block7_Int : ARRAY[0..124]OF INT;
+		Block8_Real : ARRAY[0..62]OF REAL;
+		Block9_Real : ARRAY[0..62]OF REAL;
+		Block10_Real : ARRAY[0..62]OF REAL;
+		Block11_Real : ARRAY[0..62]OF REAL;
+	END_STRUCT;
+END_TYPE
+
+(**)
+(*Final Mapping Variables*)
+
+TYPE
 	Skid_type : 	STRUCT 
 		Pmax_Pump_101 : Pmax_Pump_101_Type;
+		Pmax_Pump_101B : Pmax_Pump_101B_Type;
 		Pmax_Pump_102 : Pmax_Pump_102_Type;
 		Pmax_Pump_103 : Pmax_Pump_103_Type;
 		Pmax_Pump_104 : Pmax_Pump_104_Type;
 		BufferTank : BufferTank_Variables_Type;
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
+		Dosing_Alarms : Dosing_Alarms_Type;
 		Pmax_Alarms : Pmax_Alarms_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
 		Dosing_Pump_201 : Dosing_Pump_201_Type;
@@ -55,6 +85,44 @@ TYPE
 END_TYPE
 
 (**)
+(*Master Write Command *)
+
+TYPE
+	CMD_Type : 	STRUCT 
+		Stop : BOOL;
+		Start : BOOL;
+		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
+		Write_P203_XS : CMD_Write_P203_XS_Type;
+		Write_P203_HOA : CMD_Write_P203_HOA_Type;
+		Write_P203_PPM : CMD_Write_P203_PPM_Type;
+		Write_P203_SP : CMD_Write_P203_SP_Type;
+		Write_P202_XS : CMD_Write_P202_XS_Type;
+		Write_P202_HOA : CMD_Write_P202_HOA_Type;
+		Write_P202_PPM : CMD_Write_P202_PPM_Type;
+		Write_P202_SP : CMD_Write_P202_SP_Type;
+		Write_P104_XS : CMD_Write_P104_XS_Type;
+		Write_P104_SP : CMD_Write_P104_SP_Type;
+		Write_P103_XS : CMD_Write_P103_XS_Type;
+		Write_P103_SP : CMD_Write_P103_SP_Type;
+		Write_P102_XS : CMD_Write_P102_XS_Type;
+		Write_P102_SP : CMD_Write_P102_SP_Type;
+		Write_P101_XS : CMD_Write_P101_XS_Type;
+		Write_P101_SP : CMD_Write_P101_SP_Type;
+		Write_P201_XS : CMD_Write_P201_XS_Type;
+		Write_P201_HOA : CMD_Write_P201_HOA_Type;
+		Write_P201_PPM : CMD_Write_P201_PPM_Type;
+		Write_P201_SP : CMD_Write_P201_SP_Type;
+		Write_EFF_1 : CMD_Write_EFF_1_Type;
+		Write_EFF_2 : CMD_Write_EFF_2_Type;
+		Write_NAOH_TO_H2O2 : CMD_Write_NAOH_TO_H2O2_Type;
+		Write_TRI_TO_H2O2 : CMD_Write_TRI_TO_H2O2_Type;
+		Write_PMAX_HOA : CMD_Write_PMAX_HOA_Type;
+		Write_PMAX_CONC : CMD_Write_PMAX_CONC_Type;
+		Write_HP_CONC : CMD_Write_HP_CONC_Type;
+		Write_NAOH_CONC : CMD_Write_NAOH_CONC_Type;
+	END_STRUCT;
+END_TYPE
+
 (*Misc. Write Commands*)
 
 TYPE
@@ -233,44 +301,6 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
-(*Write Command *)
-
-TYPE
-	CMD_Type : 	STRUCT 
-		Stop : BOOL;
-		Start : BOOL;
-		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
-		Write_P203_XS : CMD_Write_P203_XS_Type;
-		Write_P203_HOA : CMD_Write_P203_HOA_Type;
-		Write_P203_PPM : CMD_Write_P203_PPM_Type;
-		Write_P203_SP : CMD_Write_P203_SP_Type;
-		Write_P202_XS : CMD_Write_P202_XS_Type;
-		Write_P202_HOA : CMD_Write_P202_HOA_Type;
-		Write_P202_PPM : CMD_Write_P202_PPM_Type;
-		Write_P202_SP : CMD_Write_P202_SP_Type;
-		Write_P104_XS : CMD_Write_P104_XS_Type;
-		Write_P104_SP : CMD_Write_P104_SP_Type;
-		Write_P103_XS : CMD_Write_P103_XS_Type;
-		Write_P103_SP : CMD_Write_P103_SP_Type;
-		Write_P102_XS : CMD_Write_P102_XS_Type;
-		Write_P102_SP : CMD_Write_P102_SP_Type;
-		Write_P101_XS : CMD_Write_P101_XS_Type;
-		Write_P101_SP : CMD_Write_P101_SP_Type;
-		Write_P201_XS : CMD_Write_P201_XS_Type;
-		Write_P201_HOA : CMD_Write_P201_HOA_Type;
-		Write_P201_PPM : CMD_Write_P201_PPM_Type;
-		Write_P201_SP : CMD_Write_P201_SP_Type;
-		Write_EFF_1 : CMD_Write_EFF_1_Type;
-		Write_EFF_2 : CMD_Write_EFF_2_Type;
-		Write_NAOH_TO_H2O2 : CMD_Write_NAOH_TO_H2O2_Type;
-		Write_TRI_TO_H2O2 : CMD_Write_TRI_TO_H2O2_Type;
-		Write_PMAX_HOA : CMD_Write_PMAX_HOA_Type;
-		Write_PMAX_CONC : CMD_Write_PMAX_CONC_Type;
-		Write_HP_CONC : CMD_Write_HP_CONC_Type;
-		Write_NAOH_CONC : CMD_Write_NAOH_CONC_Type;
-	END_STRUCT;
-END_TYPE
-
 (**)
 
 TYPE
@@ -285,34 +315,24 @@ TYPE
 END_TYPE
 
 (**)
-(*Raw Modbus IO*)
-
-TYPE
-	Modbus_6000_Type : 	STRUCT 
-		Block1_Int : ARRAY[0..124]OF INT;
-		Block2_Int : ARRAY[0..124]OF INT;
-		Block3_Real : ARRAY[0..62]OF REAL;
-		Block4_Real : ARRAY[0..62]OF REAL;
-		Block5_Real : ARRAY[0..62]OF REAL;
-	END_STRUCT;
-	Modbus_7000_Type : 	STRUCT 
-		Block6_Int : ARRAY[0..124]OF INT;
-		Block7_Int : ARRAY[0..124]OF INT;
-		Block8_Real : ARRAY[0..62]OF REAL;
-		Block9_Real : ARRAY[0..62]OF REAL;
-		Block10_Real : ARRAY[0..62]OF REAL;
-		Block11_Real : ARRAY[0..62]OF REAL;
-	END_STRUCT;
-END_TYPE
-
 (**)
 (*Sensors and Flowmeters Variables*)
 
 TYPE
 	Sensor_Variables_Type : 	STRUCT  (*Flowmeter and Other Misc Sensor Variables*)
+		SERNSORS_CONFIG : UINT; (*Datamap for sensors: DCBA >> sensor301 is type A, sensor302 is type B, sensor303 is type C, sensor304 is type D*)
+		SENSOR301 : REAL; (*Sensor 301 Reading*)
+		SENSOR302 : REAL; (*Sensor 302 Reading*)
+		SENSOR303 : REAL; (*Sensor 303 Reading*)
+		SENSOR304 : REAL; (*Sensor 304 Reading*)
 		FI301 : REAL; (*Flowmeter 1 Reading*)
+		FI301_QT : REAL; (*Totalized Flowmeter 1*)
 		FI302 : REAL; (*Flowmeter 2 Reading*)
+		FI302_QT : REAL; (*Totalized Flowmeter 2*)
 		FI303 : REAL; (*Flowmeter 3 Reading*)
+		FI303_QT : REAL; (*Totalized Flowmeter 3*)
+		FI304 : REAL; (*Flowmeter 4 Reading*)
+		FI304_QT : REAL; (*Totalized Flowmeter 4*)
 		CD101 : REAL; (*Current Transducer 101*)
 		CD101_SP : REAL; (*Current Transducer 101 Setpoint*)
 		CD102 : REAL; (*Current Transducer 102*)
@@ -326,7 +346,7 @@ TYPE
 END_TYPE
 
 (**)
-(*PeroxyMax Generation Alarms*)
+(*Alarms*)
 
 TYPE
 	Pmax_Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
@@ -337,16 +357,16 @@ TYPE
 		P103_ALARM : UINT; (*Pump 103 Alarms*)
 		P104_ALARM : UINT; (*Pump 104 Alarms*)
 	END_STRUCT;
-	Dosing_Alarms : 	STRUCT  (*Dosing Pump Alarm Variables*)
-		alarm : UINT;
-		p201_alarm : UINT;
-		p202_alarm : UINT;
-		p203_alarm : UINT;
-		p204_alarm : UINT;
-		p205_alarm : UINT;
-		p207_alarm : UINT;
-		p206_alarm : UINT;
-		p208_alarm : UINT;
+	Dosing_Alarms_Type : 	STRUCT  (*Dosing Pump Alarm Variables*)
+		DOSE_ALARM : UINT; (*General Dosing Side Alarm*)
+		P201_ALARM : UINT; (*Pump 201 Alarms*)
+		P202_ALARM : UINT; (*Pump 202 Alarms*)
+		P203_ALARM : UINT; (*Pump 203 Alarms*)
+		P204_ALARM : UINT; (*Pump 204 Alarms*)
+		P205_ALARM : UINT; (*Pump 205 Alarms*)
+		P206_ALARM : UINT; (*Pump 206 Alarms*)
+		P207_ALARM : UINT; (*Pump 207 Alarms*)
+		P208_ALARM : UINT; (*Pump 208 Alarms*)
 	END_STRUCT;
 END_TYPE
 
@@ -412,6 +432,12 @@ TYPE
 		P101_FQ : REAL; (*Pump 101 Totalized Flowmeter*)
 		P101_TI : REAL; (*Pump 101 Temperature*)
 		P101_PI : REAL; (*Pump 101 Pressure*)
+	END_STRUCT;
+	Pmax_Pump_101B_Type : 	STRUCT  (*Pmax Generation Variables for Pump 101 - Redundant Water Pump*)
+		P101B_LS : REAL; (*Pump 101B Inlet Point Level*)
+		P101B_PFI : REAL; (*Pump 101B Feedback Percent*)
+		P101B_SP : REAL; (*Pump 101B Setpoint*)
+		P101B_OP : REAL; (*Pump 101B Output Percent*)
 	END_STRUCT;
 	Pmax_Pump_102_Type : 	STRUCT  (*Pmax Generation Variables for Pump 102 - Sodium Hydroxide (Caustic) Pump*)
 		P102_XS : UINT; (*Pump 102 On/Off Status*)

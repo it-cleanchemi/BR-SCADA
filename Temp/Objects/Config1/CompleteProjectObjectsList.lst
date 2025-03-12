@@ -22,7 +22,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133861732464087495"
+    LastWriteTime="133862632277361256"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Enum.typ"
@@ -383,7 +383,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\Variables.var"
     LogicalPath="modbusTCP.MbusTCP.Variables.var"
     Type="File"
-    LastWriteTime="133855814283845560"
+    LastWriteTime="133862668820470136"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\MbusTCP.fun"
@@ -430,25 +430,25 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var"
     LogicalPath="modbusTCP.ModMaster.ModMaster.var"
     Type="File"
-    LastWriteTime="133855798478291345"
+    LastWriteTime="133862668416138217"
     Private="true" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st"
     LogicalPath="modbusTCP.ModMaster.ModMaster.st"
     Type="File"
-    LastWriteTime="133861733796851639"
+    LastWriteTime="133862672220816348"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st"
     LogicalPath="modbusTCP.ModMaster.CMD.st"
     Type="File"
-    LastWriteTime="133860962705807852"
+    LastWriteTime="133861913907697637"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st"
     LogicalPath="modbusTCP.ModMaster.Status.st"
     Type="File"
-    LastWriteTime="133861733490066246"
+    LastWriteTime="133862633320996582"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IEC.lby"
@@ -2561,7 +2561,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133860849205989570" />
+    LastWriteTime="133862668995042467" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"

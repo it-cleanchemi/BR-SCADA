@@ -50,9 +50,11 @@ extern "C"
 #ifdef _REPLACE_CONST
  #define LOG_LINE_NUM 50U
  #define LOG_LINE_LEN 100U
+ #define LLN 50U
+ #define LLL 100U
  #define SLAVE_MAX_CONNECTION_NUM 3U
  #define SLAVE_MAX_REGISTER_NUM 256U
- #define MASTER_MAX_ACTION_NUM 30U
+ #define MASTER_MAX_ACTION_NUM 50U
  #define READ_COILS 1U
  #define READ_DISCRETE_INPUTS 2U
  #define READ_HOLDING_REGISTERS 3U
@@ -88,7 +90,7 @@ extern "C"
  #define TYP_RESPONSE 1U
  #define SLAVE_MAX_CONNECTION_INDEX 2U
  #define SLAVE_MAX_REGISTER_INDEX 255U
- #define MASTER_MAX_ACTION_INDEX 29U
+ #define MASTER_MAX_ACTION_INDEX 49U
  #define MODBUS_TCP_PORT 502U
  #define MODBUS_MAX_REG 125U
  #define DISABLE 65534U
@@ -98,6 +100,8 @@ extern "C"
 #else
  _GLOBAL_CONST unsigned char LOG_LINE_NUM;
  _GLOBAL_CONST unsigned char LOG_LINE_LEN;
+ _GLOBAL_CONST unsigned char LLN;
+ _GLOBAL_CONST unsigned char LLL;
  _GLOBAL_CONST unsigned char SLAVE_MAX_CONNECTION_NUM;
  _GLOBAL_CONST unsigned short SLAVE_MAX_REGISTER_NUM;
  _GLOBAL_CONST unsigned short MASTER_MAX_ACTION_NUM;
@@ -225,8 +229,8 @@ typedef struct modbus_master_action_param_typ
 } modbus_master_action_param_typ;
 
 typedef struct modbus_master_cfg_typ
-{	struct modbus_master_action_enable_typ action_enable[30];
-	struct modbus_master_action_param_typ action_param[30];
+{	struct modbus_master_action_enable_typ action_enable[50];
+	struct modbus_master_action_param_typ action_param[50];
 } modbus_master_cfg_typ;
 
 typedef struct modbus_master_internal_typ
@@ -243,7 +247,7 @@ typedef struct modbus_master_internal_typ
 	struct tcpLINGER_typ linger_opt;
 	unsigned char last_req;
 	unsigned long receive_timer;
-	unsigned long send_timer[30];
+	unsigned long send_timer[50];
 	unsigned char send_buff[501];
 	unsigned char receive_buff[501];
 	unsigned short transaction_id;
