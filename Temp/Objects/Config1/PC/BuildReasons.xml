@@ -7,12 +7,12 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\type_sass._markerfile">
     <BuildReason>Target "type_sass._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\modbustcp\modmaster\status.st" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\dialog_sass._markerfile">
@@ -21,28 +21,15 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\content_sass._markerfile">
     <BuildReason>Target "content_sass._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\constants.var" differs.
-</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o">
+    <BuildReason>Target "modmaster.st.o" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\_bur_pvdef.st.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\_bur_pvdef.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\a.out">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.st.o" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.st.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox">
@@ -51,14 +38,6 @@
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\modmaster\modmaster.ox" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\a.out" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\main.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\main\main.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">

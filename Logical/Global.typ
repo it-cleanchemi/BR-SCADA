@@ -92,23 +92,30 @@ TYPE
 		Stop : BOOL;
 		Start : BOOL;
 		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
-		Write_P203_XS : CMD_Write_P203_XS_Type;
+		Write_P203_STP_CMD : CMD_Write_P203_STP_CMD_Type;
+		Write_P203_STRT_CMD : CMD_Write_P203_STRT_CMD_Type;
 		Write_P203_HOA : CMD_Write_P203_HOA_Type;
 		Write_P203_PPM : CMD_Write_P203_PPM_Type;
 		Write_P203_SP : CMD_Write_P203_SP_Type;
-		Write_P202_XS : CMD_Write_P202_XS_Type;
+		Write_P202_STP_CMD : CMD_Write_P202_STP_CMD_Type;
+		Write_P202_STRT_CMD : CMD_Write_P202_STRT_CMD_Type;
 		Write_P202_HOA : CMD_Write_P202_HOA_Type;
 		Write_P202_PPM : CMD_Write_P202_PPM_Type;
 		Write_P202_SP : CMD_Write_P202_SP_Type;
-		Write_P104_XS : CMD_Write_P104_XS_Type;
+		Write_P104_STP_CMD : CMD_Write_P104_STP_CMD_Type;
+		Write_P104_STRT_CMD : CMD_Write_P104_STRT_CMD_Type;
 		Write_P104_SP : CMD_Write_P104_SP_Type;
-		Write_P103_XS : CMD_Write_P103_XS_Type;
+		Write_P103_STP_CMD : CMD_Write_P103_STP_CMD_Type;
+		Write_P103_STRT_CMD : CMD_Write_P103_STRT_CMD_Type;
 		Write_P103_SP : CMD_Write_P103_SP_Type;
-		Write_P102_XS : CMD_Write_P102_XS_Type;
+		Write_P102_STP_CMD : CMD_Write_P102_STP_CMD_Type;
+		Write_P102_STRT_CMD : CMD_Write_P102_STRT_CMD_Type;
 		Write_P102_SP : CMD_Write_P102_SP_Type;
-		Write_P101_XS : CMD_Write_P101_XS_Type;
+		Write_P101_STP_CMD : CMD_Write_P101_STP_CMD_Type;
+		Write_P101_STRT_CMD : CMD_Write_P101_STRT_CMD_Type;
 		Write_P101_SP : CMD_Write_P101_SP_Type;
-		Write_P201_XS : CMD_Write_P201_XS_Type;
+		Write_P201_STP_CMD : CMD_Write_P201_STP_CMD_Type;
+		Write_P201_STRT_CMD : CMD_Write_P201_STRT_CMD_Type;
 		Write_P201_HOA : CMD_Write_P201_HOA_Type;
 		Write_P201_PPM : CMD_Write_P201_PPM_Type;
 		Write_P201_SP : CMD_Write_P201_SP_Type;
@@ -170,9 +177,13 @@ END_TYPE
 (*P101 Write Commands*)
 
 TYPE
-	CMD_Write_P101_XS_Type : 	STRUCT 
+	CMD_Write_P101_STP_CMD_Type : 	STRUCT 
 		Send : BOOL;
-		wP101_XS : UINT;
+		wP101_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P101_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP101_STRT_CMD : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P101_SP_Type : 	STRUCT 
 		Send : BOOL;
@@ -184,9 +195,13 @@ END_TYPE
 (*P102 Write Commands*)
 
 TYPE
-	CMD_Write_P102_XS_Type : 	STRUCT 
+	CMD_Write_P102_STP_CMD_Type : 	STRUCT 
 		Send : BOOL;
-		wP102_XS : UINT;
+		wP102_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P102_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP102_STRT_CMD : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P102_SP_Type : 	STRUCT 
 		Send : BOOL;
@@ -198,9 +213,13 @@ END_TYPE
 (*P103 Write Commands*)
 
 TYPE
-	CMD_Write_P103_XS_Type : 	STRUCT 
+	CMD_Write_P103_STP_CMD_Type : 	STRUCT 
 		Send : BOOL;
-		wP103_XS : UINT;
+		wP103_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P103_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP103_STRT_CMD : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P103_SP_Type : 	STRUCT 
 		Send : BOOL;
@@ -212,9 +231,13 @@ END_TYPE
 (*P104 Write Commands*)
 
 TYPE
-	CMD_Write_P104_XS_Type : 	STRUCT 
+	CMD_Write_P104_STP_CMD_Type : 	STRUCT 
 		Send : BOOL;
-		wP104_XS : UINT;
+		wP104_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P104_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP104_STRT_CMD : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P104_SP_Type : 	STRUCT 
 		Send : BOOL;
@@ -226,6 +249,14 @@ END_TYPE
 (*P201 Write Commands*)
 
 TYPE
+	CMD_Write_P201_STP_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P201_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_STRT_CMD : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P201_SP_Type : 	STRUCT 
 		Send : BOOL;
 		wP201_SP : REAL;
@@ -236,10 +267,6 @@ TYPE
 		wP201_PPM : REAL;
 		wP201_PPM_SWAPPED : REAL;
 	END_STRUCT;
-	CMD_Write_P201_XS_Type : 	STRUCT 
-		Send : BOOL;
-		wP201_XS : UINT;
-	END_STRUCT;
 	CMD_Write_P201_HOA_Type : 	STRUCT 
 		Send : BOOL;
 		wP201_HOA : UINT;
@@ -249,6 +276,14 @@ END_TYPE
 (*P202 Write Commands*)
 
 TYPE
+	CMD_Write_P202_STP_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P202_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_STRT_CMD : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P202_SP_Type : 	STRUCT 
 		Send : BOOL;
 		wP202_SP : REAL;
@@ -259,10 +294,6 @@ TYPE
 		wP202_PPM : REAL;
 		wP202_PPM_SWAPPED : REAL;
 	END_STRUCT;
-	CMD_Write_P202_XS_Type : 	STRUCT 
-		Send : BOOL;
-		wP202_XS : UINT;
-	END_STRUCT;
 	CMD_Write_P202_HOA_Type : 	STRUCT 
 		Send : BOOL;
 		wP202_HOA : UINT;
@@ -272,6 +303,14 @@ END_TYPE
 (*P203 Write Commands*)
 
 TYPE
+	CMD_Write_P203_STP_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P203_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_STRT_CMD : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P203_SP_Type : 	STRUCT 
 		Send : BOOL;
 		wP203_SP : REAL;
@@ -281,10 +320,6 @@ TYPE
 		Send : BOOL;
 		wP203_PPM : REAL;
 		wP203_PPM_SWAPPED : REAL;
-	END_STRUCT;
-	CMD_Write_P203_XS_Type : 	STRUCT 
-		Send : BOOL;
-		wP203_XS : UINT;
 	END_STRUCT;
 	CMD_Write_P203_HOA_Type : 	STRUCT 
 		Send : BOOL;

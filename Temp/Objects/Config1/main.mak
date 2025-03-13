@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
 export PATH := C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Matt\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Matt\AppData\Local\Programs\Python\Python313\;C:\Users\Matt\AppData\Local\Microsoft\WindowsApps;C:\Users\Matt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\Matt\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Matt\AppData\Local\Programs\Python\Python313\;C:\Users\Matt\AppData\Local\Microsoft\WindowsApps;C:\Users\Matt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Program Files\BRAutomation4\AS412\bin-en\4.12;C:\Program Files\BRAutomation4\AS412\bin-en\4.11;C:\Program Files\BRAutomation4\AS412\bin-en\4.10;C:\Program Files\BRAutomation4\AS412\bin-en\4.9;C:\Program Files\BRAutomation4\AS412\bin-en\4.8;C:\Program Files\BRAutomation4\AS412\bin-en\4.7;C:\Program Files\BRAutomation4\AS412\bin-en\4.6;C:\Program Files\BRAutomation4\AS412\bin-en\4.5;C:\Program Files\BRAutomation4\AS412\bin-en\4.4;C:\Program Files\BRAutomation4\AS412\bin-en\4.3;C:\Program Files\BRAutomation4\AS412\bin-en\4.2;C:\Program Files\BRAutomation4\AS412\bin-en\4.1;C:\Program Files\BRAutomation4\AS412\bin-en\4.0;C:\Program Files\BRAutomation4\AS412\bin-en
-export AS_BUILD_MODE := BuildAndTransfer
+export AS_BUILD_MODE := Build
 export AS_VERSION := 4.12.6.106
 export AS_WORKINGVERSION := 4.12
 export AS_COMPANY_NAME := HP Inc.
@@ -35,5 +35,5 @@ export WIN32_AS_INSTALL_PATH := "C:\Program Files\BRAutomation4\AS412"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/CleanChemi_SiteManagementSystem.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'BuildAndTransfer'   
+	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/CleanChemi_SiteManagementSystem.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Build'   
 
