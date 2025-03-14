@@ -1956,7 +1956,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="570" HashValue="29EAB111050F35E7473397FADE740ECC" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="571" HashValue="5EA29E71C14372407AF103649CC2F8E1" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>
