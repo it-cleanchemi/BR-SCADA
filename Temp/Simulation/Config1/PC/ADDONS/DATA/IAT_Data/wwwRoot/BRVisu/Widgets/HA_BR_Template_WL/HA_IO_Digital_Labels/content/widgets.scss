@@ -1,0 +1,75 @@
+@import "mixins.scss";
+#HA_IO_Digital_Labels_Label_IOMap {	@include elemTop(0);
+}
+#HA_IO_Digital_Labels_Label_IOMap {	@include elemLeft(123);
+}
+#HA_IO_Digital_Labels_Label_IOMap {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_Labels_Label_IOMap {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_Labels_Label_IOMap {	z-index: 0;
+}
+#HA_IO_Digital_Labels_Label_IOMap {	@include text-alignment-all('center bottom');
+}
+#HA_IO_Digital_Labels_Label_IOMap {	font-size: 12px;
+}
+#HA_IO_Digital_Labels_Label_IOMap {	span {
+		padding: 0px;
+	}
+}
+#HA_IO_Digital_Labels_Labal_App {	@include elemTop(0);
+}
+#HA_IO_Digital_Labels_Labal_App {	@include elemLeft(153);
+}
+#HA_IO_Digital_Labels_Labal_App {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_Labels_Labal_App {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_Labels_Labal_App {	z-index: 1;
+}
+#HA_IO_Digital_Labels_Labal_App {	@include text-alignment-all('center bottom');
+}
+#HA_IO_Digital_Labels_Labal_App {	font-size: 12px;
+}
+#HA_IO_Digital_Labels_Labal_App {	span {
+		padding: 0px;
+	}
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	@include elemTop(0);
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	@include elemLeft(195);
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	z-index: 2;
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	@include text-alignment-all('center bottom');
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	font-size: 12px;
+}
+#HA_IO_Digital_Labels_Label_ForceOff {	span {
+		padding: 0px;
+	}
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	@include elemTop(0);
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	@include elemLeft(245);
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	@include elemAutoWidth(35);
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	@include elemAutoHeight(35);
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	z-index: 3;
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	@include text-alignment-all('center bottom');
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	font-size: 12px;
+}
+#HA_IO_Digital_Labels_Label_ForceOn {	span {
+		padding: 0px;
+	}
+}
+#HA_IO_Digital_Labels_Line_Underline {	z-index: 4;
+}

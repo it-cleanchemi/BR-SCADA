@@ -14,6 +14,12 @@
     UseAsStatic="false"
     Version="3.13.1" />
   <Library
+    Name="ArTextSys"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
     Name="AsARCfg"
     IsDeployed="true"
     IsStatic="false"

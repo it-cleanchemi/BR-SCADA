@@ -4,5 +4,8 @@
   <Objects>
     <Object Type="File">CleanChemi.png.png</Object>
     <Object Type="Package">SymbolLib</Object>
+    <Object Type="Package">Images</Object>
+    <Object Type="Package">Monitor</Object>
+    <Object Type="File">HA_Comms.js</Object>
   </Objects>
 </Package>

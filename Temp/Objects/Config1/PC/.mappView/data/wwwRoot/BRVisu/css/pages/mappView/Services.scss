@@ -39,3 +39,13 @@
 }
 #Services_Services_GroupBox_Content {	z-index: 1;
 }
+#Services_Services_GroupBox_Content_ContentControl {	@include elemTop(0);
+}
+#Services_Services_GroupBox_Content_ContentControl {	@include elemLeft(0);
+}
+#Services_Services_GroupBox_Content_ContentControl {	@include elemWidth(1114);
+}
+#Services_Services_GroupBox_Content_ContentControl {	@include elemHeight(600);
+}
+#Services_Services_GroupBox_Content_ContentControl {	z-index: 0;
+}

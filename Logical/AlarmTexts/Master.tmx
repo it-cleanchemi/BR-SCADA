@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarm.MasterCmdIgnored">
+      <tuv xml:lang="es">
+        <seg>Comando del Master Ignorado. Cmd: {=$IAT/MasterCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Razón: {=$IAT/MasterIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Commande du Master Ignorée. Cmd : {=$IAT/MasterCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Raison : {=$IAT/MasterIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Master-Befehl Ignoriert. Befehl: {=$IAT/MasterCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Grund: {=$IAT/MasterIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Master Command Ignored. Cmd: {=$IAT/MasterCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Reason: {=$IAT/MasterIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterUnhandledCmd">
+      <tuv xml:lang="es">
+        <seg>Master recibió comando no gestionado. Último Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Master a reçu une commande non traitée. Dernier État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Master hat unbehandelten Befehl empfangen. Letzter Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Master Received Unhandled Command. Last State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterSeverity1">
+      <tuv xml:lang="es">
+        <seg>S1; Subproceso: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S1; Sous-processus : Master ; Erreur : {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S1; Teilprozess: Master; Fehler: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S1; Subprocess: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterSeverity2">
+      <tuv xml:lang="es">
+        <seg>S2; Subproceso: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S2; Sous-processus : Master ; Erreur : {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S2; Teilprozess: Master; Fehler: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S2; Subprocess: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterSeverity3">
+      <tuv xml:lang="es">
+        <seg>S3; Subproceso: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S3; Sous-processus : Master ; Erreur : {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S3; Teilprozess: Master; Fehler: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S3; Subprocess: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterSeverity4">
+      <tuv xml:lang="es">
+        <seg>S4; Subproceso: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S4; Sous-processus : Master ; Erreur : {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S4; Teilprozess: Master; Fehler: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S4; Subprocess: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.MasterSeverity5">
+      <tuv xml:lang="es">
+        <seg>S5; Subproceso: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S5; Sous-processus : Master ; Erreur : {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S5; Teilprozess: Master; Fehler: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S5; Subprocess: Master; Error: {=$IAT/MasterErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/MasterState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_RESET_C">
+      <tuv xml:lang="es">
+        <seg>réinitialiser</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>reiniciar</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>zurücksetzen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_CHECKPARREADY_W">
+      <tuv xml:lang="es">
+        <seg>Vérifiez les paramètres</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Verificar Parámetros</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Parameter prüfen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Check Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_CHECKMODULESREADY_W">
+      <tuv xml:lang="es">
+        <seg>Vérifiez que le module est prêt </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Verificar módulo listo</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Überprüfen Sie, ob das Modul bereit ist</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Check Module Ready</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_IDLE_I">
+      <tuv xml:lang="es">
+        <seg>Inactif</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Inactivo</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Leerlauf</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_EVAL_I">
+      <tuv xml:lang="es">
+        <seg>Évaluation</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Evaluación</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Auswertung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Evaluation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_RUN_D">
+      <tuv xml:lang="es">
+        <seg>Délai d'exécution </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Retardo de ejecución</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Laufverzögerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_RUN_C">
+      <tuv xml:lang="es">
+        <seg>Exécuter la commande </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ejecutar comando</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Befehl ausführen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run Command</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_RUN_W">
+      <tuv xml:lang="es">
+        <seg>Exécutez Attendez </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ejecutar Esperar</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ausführen, warten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Run Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_FINISH_D">
+      <tuv xml:lang="es">
+        <seg>Délai d'exécution </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Retardo de ejecución</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Laufverzögerung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Finish Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_FINISH_C">
+      <tuv xml:lang="es">
+        <seg>Exécuter la commande </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ejecutar comando</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Befehl ausführen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Finish Command</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_AUTO_FINISH_W">
+      <tuv xml:lang="es">
+        <seg>Exécutez Attendez </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ejecutar Esperar</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Ausführen, warten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Finish Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterState.MASTER_ERROR_I">
+      <tuv xml:lang="es">
+        <seg>Erreur</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Fehler</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.Reset">
+      <tuv xml:lang="es">
+        <seg>Reiniciar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Réinitialiser</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Zurücksetzen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.Start">
+      <tuv xml:lang="es">
+        <seg>Comenzar</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Commencer</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Starten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.Pause">
+      <tuv xml:lang="es">
+        <seg>Pausa</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pause</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.Unpause">
+      <tuv xml:lang="es">
+        <seg>Reanudar la pausa</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Reprendre la pause</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Machen Sie eine Pause</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Unpause</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.SingleStep">
+      <tuv xml:lang="es">
+        <seg>Un solo paso</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Une seule étape</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Einzelschritt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>SingleStep</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.UncontrolledStop">
+      <tuv xml:lang="es">
+        <seg>Parada incontrolada</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Arrêt incontrôlé</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Unkontrollierter Stopp</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>UncontrolledStop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.ControlledStop">
+      <tuv xml:lang="es">
+        <seg>Parada controlada</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Arrêt contrôlé</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Kontrollierter Stopp</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ControlledStop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterCmd.NormalStop">
+      <tuv xml:lang="es">
+        <seg>Parada normal</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Arrêt normal</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Normaler Stopp</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>NormalStop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterIgnoreReason.NotReady">
+      <tuv xml:lang="es">
+        <seg>
+Master no está en estado de espera de comando</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Master n'est pas en attente d'un état de commande</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Master befindet sich nicht im Status „Warten auf Befehl“</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Master not in a waiting for command state</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MasterErrorText.Timeout">
+      <tuv xml:lang="es">
+        <seg>
+Se acabó el tiempo </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Temps mort</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time-out</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timeout</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

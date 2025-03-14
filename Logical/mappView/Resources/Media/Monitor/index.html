@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<base href="/BRVisu/" />
+	<meta charset="UTF-8">
+	<title>FHE</title>
+    <link href="Media/Monitor/styles.css" rel="stylesheet">
+  </head>
+  <body>
+	<button id="clear">Clear Plot</button>
+	<select id="select_0" class="myDropDown">
+	</select>
+	<select id="select_1" class="myDropDown">
+	</select>
+	<select id="select_2" class="myDropDown">
+	</select>
+	<select id="select_3" class="myDropDown">
+	</select>
+	<select id="dataLength" class="dataDropDown">
+	  <option id="dataLengthOption_0" value="100">100</option>
+	  <option id="dataLengthOption_1" value="500" selected="selected">500</option>
+	  <option id="dataLengthOption_2" value="2000">2000</option>
+	</select>
+	<div id="graph"></div>
+    <script src="Media/HA_Comms.js"></script>
+    <script src="Media/Monitor/plotly-1.58.5.min.js"></script>
+    <script src="Media/Monitor/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="Main">
+    <EventBinding id="Main.DropDownBox1.SelectedIndexChanged">
+      <Source type="widgets.brease.DropDownBox.Event" event="SelectedIndexChanged" refId="Main_DropDownBox1" />
+      <EventHandler condition="selectedIndex=0">
+        <Action>
+          <Target type="widgets.brease.ContentControl.Action" refId="Main_Diagnostics_GroupBox_Content_ContentControl">
+            <Method type="widgets.brease.ContentControl.Action.LoadContent"><Parameter name="contentId" xsi:type="ANY_STRING" value="OverviewEx1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="selectedIndex=1">
+        <Action>
+          <Target type="widgets.brease.ContentControl.Action" refId="Main_Diagnostics_GroupBox_Content_ContentControl">
+            <Method type="widgets.brease.ContentControl.Action.LoadContent"><Parameter name="contentId" xsi:type="ANY_STRING" value="OverviewEx2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

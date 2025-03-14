@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">Time</prop>
+  </header>
+  <body>
+    <tu tuid="Alarm.TimeCmdIgnored">
+      <tuv xml:lang="es">
+        <seg>Comando del Time Ignorado. Cmd: {=$IAT/TimeCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Razón: {=$IAT/TimeIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Commande du Time Ignorée. Cmd : {=$IAT/TimeCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Raison : {=$IAT/TimeIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time-Befehl Ignoriert. Befehl: {=$IAT/TimeCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Grund: {=$IAT/TimeIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time Command Ignored. Cmd: {=$IAT/TimeCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Reason: {=$IAT/TimeIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeUnhandledCmd">
+      <tuv xml:lang="es">
+        <seg>Time recibió comando no gestionado. Último Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Time a reçu une commande non traitée. Dernier État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time hat unbehandelten Befehl empfangen. Letzter Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time Received Unhandled Command. Last State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeSeverity1">
+      <tuv xml:lang="es">
+        <seg>S1; Subproceso: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S1; Sous-processus : Time ; Erreur : {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S1; Teilprozess: Time; Fehler: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S1; Subprocess: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeSeverity2">
+      <tuv xml:lang="es">
+        <seg>S2; Subproceso: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S2; Sous-processus : Time ; Erreur : {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S2; Teilprozess: Time; Fehler: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S2; Subprocess: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeSeverity3">
+      <tuv xml:lang="es">
+        <seg>S3; Subproceso: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S3; Sous-processus : Time ; Erreur : {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S3; Teilprozess: Time; Fehler: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S3; Subprocess: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeSeverity4">
+      <tuv xml:lang="es">
+        <seg>S4; Subproceso: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S4; Sous-processus : Time ; Erreur : {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S4; Teilprozess: Time; Fehler: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S4; Subprocess: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.TimeSeverity5">
+      <tuv xml:lang="es">
+        <seg>S5; Subproceso: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S5; Sous-processus : Time ; Erreur : {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S5; Teilprozess: Time; Fehler: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S5; Subprocess: Time; Error: {=$IAT/TimeErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/TimeState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_RESET_C">
+      <tuv xml:lang="es">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_CHECKPARREADY_W">
+      <tuv xml:lang="es">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Check Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_IDLE_I">
+      <tuv xml:lang="es">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_SET_C">
+      <tuv xml:lang="es">
+        <seg>Set Time Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Set Time Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Set Time Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Time Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_SET_W">
+      <tuv xml:lang="es">
+        <seg>Set Time Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Set Time Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Set Time Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Time Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeState.TIME_ERROR">
+      <tuv xml:lang="es">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeErrorText.Timeout">
+      <tuv xml:lang="es">
+        <seg>
+Se acabó el tiempo </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Temps mort</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time-out</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timeout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TimeErrorText.FBError">
+      <tuv xml:lang="en">
+        <seg>{=$HA_SysErr/HA_SysErr.{#::AsGlobalPV:gAlarmAddData.AddData[2]}}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFD.IOMappingStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseIOMapping" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFD.FilteredStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseFiltered" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFD.RefresherEnable">
+      <Source type="widgets.brease.Label.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_Label" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseFiltered">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_RunningVFDΘIO_EllipseIOMapping">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresent.IOMappingStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseIOMapping" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresent.FilteredStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseFiltered" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresent.RefresherEnable">
+      <Source type="widgets.brease.Label.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_Label" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseFiltered">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DI_ProductPresentΘIO_EllipseIOMapping">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFD.IOMappingStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseIOMapping" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFD.FilteredStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseFiltered" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFD.RefresherEnable">
+      <Source type="widgets.brease.Label.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_Label" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseFiltered">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_RunVFDΘIO_EllipseIOMapping">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFD.IOMappingStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseIOMapping" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseIOMapping">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFD.FilteredStyle">
+      <Source type="widgets.brease.Ellipse.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseFiltered" />
+      <EventHandler condition="value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="On" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="NOT value">
+        <Action>
+          <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseFiltered">
+            <Method type="widgets.brease.Ellipse.Action.SetStyle"><Parameter name="value" xsi:type="ANY_STRING" value="Off" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="Diagnostics_WheelIO">
+    <EventBinding id="Diagnostics_WheelIO.Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFD.RefresherEnable">
+      <Source type="widgets.brease.Label.Event" event="EnableChanged" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_Label" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseFiltered">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+          <Action>
+            <Target type="widgets.brease.Ellipse.Action" refId="Diagnostics_WheelIO_Diagnostics_WheelIO_HA_IO_Digital_DO_DirectionVFDΘIO_EllipseIOMapping">
+              <Method type="widgets.brease.Ellipse.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

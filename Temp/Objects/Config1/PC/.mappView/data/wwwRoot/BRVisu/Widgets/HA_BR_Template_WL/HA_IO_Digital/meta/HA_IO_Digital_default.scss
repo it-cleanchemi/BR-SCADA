@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_HA_BR_Template_WL_HA_IO_Digital_base {
+	@include elemWidth(280);
+	@include elemHeight(35);
+	margin: 0px;
+
+}
+
+.widgets_HA_BR_Template_WL_HA_IO_Digital_style_default {
+@include widgets_HA_BR_Template_WL_HA_IO_Digital_base
+}

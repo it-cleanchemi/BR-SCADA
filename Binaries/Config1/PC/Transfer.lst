@@ -54,6 +54,9 @@
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="AsOpcUas.br" Memory="UserROM"/>
+  <Operation Download="ArTextSys.br" Memory="UserROM"/>
+  <Operation Download="TC.br" Memory="UserROM"/>
+  <Operation Download="TCLang.br" Memory="UserROM"/>
   <Operation Download="ModMaster.br" Memory="UserROM"/>
   <Operation Download="Main.br" Memory="UserROM"/>
 </Transfer>

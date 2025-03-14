@@ -1,0 +1,149 @@
+@import "mixins.scss";
+#Alarms_Active_Alarms_Active_Table {	@include elemTop(0);
+}
+#Alarms_Active_Alarms_Active_Table {	@include elemLeft(0);
+}
+#Alarms_Active_Alarms_Active_Table {	@include elemWidth(1114);
+}
+#Alarms_Active_Alarms_Active_Table {	@include elemHeight(520);
+}
+#Alarms_Active_Alarms_Active_Table {	z-index: 0;
+}
+#Alarms_Active_Alarms_Active_Table {	&.breaseTable .horizontalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#Alarms_Active_Alarms_Active_Table {	&.breaseTable .verticalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#Alarms_Active_Alarms_Active_Table {	.tableCells tbody tr td:not(.override) {
+		font-size: 14px;
+	}
+}
+#Alarms_Active_Alarms_Active_Table {	.tableHeader div:not(.override) {
+		font-size: 16px;
+	}
+}
+#Alarms_Active_Alarms_Active_Table_TableItem_Timestamp {	z-index: 2;
+}
+#Alarms_Active_Alarms_Active_Table_TableItem_Code {	z-index: 0;
+}
+#Alarms_Active_Alarms_Active_Table_TableItem_Severity {	z-index: 3;
+}
+#Alarms_Active_Alarms_Active_Table_TableItem_Description {	z-index: 1;
+}
+#Alarms_Active_Alarms_Active_PushButton_AcknowledgeAll {	@include elemTop(520);
+}
+#Alarms_Active_Alarms_Active_PushButton_AcknowledgeAll {	@include elemLeft(0);
+}
+#Alarms_Active_Alarms_Active_PushButton_AcknowledgeAll {	@include elemAutoWidth(320);
+}
+#Alarms_Active_Alarms_Active_PushButton_AcknowledgeAll {	@include elemAutoHeight(80);
+}
+#Alarms_Active_Alarms_Active_PushButton_AcknowledgeAll {	z-index: 1;
+}
+#Alarms_Active_Alarms_Active_PushButton_Down {	@include elemTop(520);
+}
+#Alarms_Active_Alarms_Active_PushButton_Down {	@include elemLeft(956);
+}
+#Alarms_Active_Alarms_Active_PushButton_Down {	@include elemAutoWidth(160);
+}
+#Alarms_Active_Alarms_Active_PushButton_Down {	@include elemAutoHeight(80);
+}
+#Alarms_Active_Alarms_Active_PushButton_Down {	z-index: 2;
+}
+#Alarms_Active_Alarms_Active_PushButton_Up {	@include elemTop(520);
+}
+#Alarms_Active_Alarms_Active_PushButton_Up {	@include elemLeft(796);
+}
+#Alarms_Active_Alarms_Active_PushButton_Up {	@include elemAutoWidth(160);
+}
+#Alarms_Active_Alarms_Active_PushButton_Up {	@include elemAutoHeight(80);
+}
+#Alarms_Active_Alarms_Active_PushButton_Up {	z-index: 3;
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	&.right {
+		@include elemTop(0);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	&.left {
+		@include elemTop(0);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	&.top {
+		@include elemLeft(0);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	&.bottom {
+		@include elemLeft(0);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .container {
+		@include elemWidth(1114);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .container {
+		@include elemHeight(300);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	z-index: 4;
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton {
+		@include elemHeight(80);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	@include elemHeight(80);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_breaseFlyOutWrapper {	.breaseFlyOutWrapper > .flyoutButton {
+		@include elemWidth(160);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace {	@include elemWidth(160);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	@include elemHeight(300);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	@include elemTop(0);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	@include elemLeft(0);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	@include elemWidth(1114);
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	z-index: 0;
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	&.breaseTable .horizontalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	&.breaseTable .verticalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	.tableCells tbody tr td:not(.override) {
+		font-size: 14px;
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table {	.tableHeader div:not(.override) {
+		font-size: 16px;
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID {	z-index: 1;
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID {	&:not(.headerElement):not(.disabled).override {
+		@include importantBoldText(false);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_EventID {	&:not(.headerElement).override.disabled {
+		@include importantBoldText(false);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_Description {	z-index: 0;
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_Description {	&:not(.headerElement):not(.disabled).override {
+		@include importantBoldText(false);
+	}
+}
+#Alarms_Active_Alarms_Active_Flyout_Backtrace_Table_TableItem_Description {	&:not(.headerElement).override.disabled {
+		@include importantBoldText(false);
+	}
+}

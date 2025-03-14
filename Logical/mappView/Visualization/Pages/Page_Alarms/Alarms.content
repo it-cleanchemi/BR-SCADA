@@ -9,7 +9,7 @@
     </Widget>
     <Widget xsi:type="widgets.brease.GroupBox" id="Alarms_GroupBox_Content" top="60" left="0" width="1114" height="600" zIndex="1" style="default_Blank">
       <Widgets>
-
+        <Widget xsi:type="widgets.brease.ContentControl" id="Alarms_GroupBox_Content_ContentControl" top="0" left="0" width="1114" height="600" zIndex="0" contentId="Alarms_Active" />
       </Widgets>
     </Widget>
   </Widgets>

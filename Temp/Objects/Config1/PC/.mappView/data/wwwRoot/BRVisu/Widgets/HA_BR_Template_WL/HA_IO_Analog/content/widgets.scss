@@ -1,0 +1,125 @@
+@import "mixins.scss";
+#HA_IO_Analog_IO_Label {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_Label {	@include elemLeft(0);
+}
+#HA_IO_Analog_IO_Label {	@include elemAutoWidth(120);
+}
+#HA_IO_Analog_IO_Label {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_Label {	z-index: 2;
+}
+#HA_IO_Analog_IO_Label {	@include text-alignment-all('right');
+}
+#HA_IO_Analog_IO_Label {	font-size: 12px;
+}
+#HA_IO_Analog_IO_Label {	@include font-weight-bold(true);
+}
+#HA_IO_Analog_IO_NumericOutputIO {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_NumericOutputIO {	@include elemLeft(125);
+}
+#HA_IO_Analog_IO_NumericOutputIO {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_NumericOutputIO {	z-index: 0;
+}
+#HA_IO_Analog_IO_NumericOutputIO {	input {
+		@include text-alignment(center);
+	}
+}
+#HA_IO_Analog_IO_NumericOutputIO {	input {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericOutputIO {	.breaseNumericOutput_unit {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericOutputIO {	padding: 0px 5px 0px 5px;
+}
+#HA_IO_Analog_IO_NumericOutputIO {	@include elemAutoWidth(100);
+}
+#HA_IO_Analog_IO_NumericOutputApp {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_NumericOutputApp {	@include elemLeft(230);
+}
+#HA_IO_Analog_IO_NumericOutputApp {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_NumericOutputApp {	z-index: 1;
+}
+#HA_IO_Analog_IO_NumericOutputApp {	input {
+		@include text-alignment(center);
+	}
+}
+#HA_IO_Analog_IO_NumericOutputApp {	input {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericOutputApp {	.breaseNumericOutput_unit {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericOutputApp {	padding: 0px 5px 0px 5px;
+}
+#HA_IO_Analog_IO_NumericOutputApp {	@include elemAutoWidth(100);
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	@include elemLeft(335);
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	@include elemAutoWidth(35);
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	z-index: 3;
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	span {
+		text-align: center;
+	}
+}
+#HA_IO_Analog_IO_CheckBoxForceOff {	span {
+		font-size: 14px;
+	}
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	@include elemLeft(385);
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	@include elemAutoWidth(35);
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	z-index: 4;
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	span {
+		text-align: center;
+	}
+}
+#HA_IO_Analog_IO_CheckBoxForceOn {	span {
+		font-size: 14px;
+	}
+}
+#HA_IO_Analog_IO_NumericInputForce {	@include elemTop(0);
+}
+#HA_IO_Analog_IO_NumericInputForce {	@include elemLeft(435);
+}
+#HA_IO_Analog_IO_NumericInputForce {	@include elemAutoWidth(105);
+}
+#HA_IO_Analog_IO_NumericInputForce {	@include elemAutoHeight(35);
+}
+#HA_IO_Analog_IO_NumericInputForce {	z-index: 5;
+}
+#HA_IO_Analog_IO_NumericInputForce {	input {
+		@include text-alignment(center);
+	}
+}
+#HA_IO_Analog_IO_NumericInputForce {	input {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericInputForce {	.breaseNumericInput_unit {
+		font-size: 12px;
+	}
+}
+#HA_IO_Analog_IO_NumericInputForce {	padding: 0px 5px 0px 5px;
+}

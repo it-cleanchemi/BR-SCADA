@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.widgetlibrary_1.Rectangle" 
+		xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <StyleProperties>
+<StyleProperty name="width" type="Size" not_styleable="true" default="20" category="Layout" groupRefId="Size" groupOrder="1">
+  <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+  <Description>outer width of widget</Description>
+</StyleProperty>
+<StyleProperty name="height" type="Size" not_styleable="true" default="20" category="Layout" groupRefId="Size" groupOrder="2">
+  <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+  <Description>outer height of widget</Description>
+</StyleProperty>&lt;StyleProperties&gt;
+  &lt;StyleProperty name="borderStyle" category="Appearance" type="BorderStyle" default="solid" &gt;
+    &lt;StyleElement attribute="border-style"/&gt;
+    &lt;Description&gt;Sets the style of the border of the widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="borderWidth" category="Appearance" type="PixelValCollection" default="1px" &gt;
+    &lt;StyleElement attribute="border-width"/&gt;
+    &lt;Description&gt;Sets the width of the border. For further information, please check its type&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="cornerRadius" category="Appearance" type="PixelValCollection" default="0px" &gt;
+    &lt;StyleElement attribute="@include border-radius($value)"/&gt;
+    &lt;Description&gt;Sets the radius of the widget rounded corners. For further information, please check its type&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="lineColor" category="Appearance" type="ColorCollection" default="rgba(0, 0, 0, 1)" &gt;
+    &lt;StyleElement attribute="border-color"/&gt;
+    &lt;Description&gt;Sets the border color. For further information, please check its type&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="backColor" category="Appearance" type="Color" default="rgba(255, 136, 0, 1)" &gt;
+    &lt;StyleElement attribute="background-color"/&gt;
+    &lt;Description&gt;Sets the background color&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="opacity" category="Appearance" type="Opacity" default="1" &gt;
+    &lt;StyleElement attribute="opacity"/&gt;
+    &lt;Description&gt;Sets the opacity of the widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="rotation" category="Appearance" type="Rotation" default="0deg" &gt;
+    &lt;StyleElement attribute="@include rotate($value)"/&gt;
+    &lt;Description&gt;Sets the rotation of the widget with respect to its center. Positive values for clockwise direction&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="margin" category="Layout" type="Margin" default="0px" &gt;
+    &lt;StyleElement attribute="margin"/&gt;
+    &lt;Description&gt;Sets the margin around the widget. For further information, please check its type&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="shadow" category="Appearance" type="Shadow" default="none" &gt;
+    &lt;StyleElement attribute="@include box-shadow($value)"/&gt;
+    &lt;Description&gt;Sets the shadow effect of the widget. For further information, please check its type&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="" &gt;
+    &lt;StyleElement attribute="@include backGroundGradient('$value')"/&gt;
+    &lt;Description&gt;Sets the background color of the widget as gradient. For further information, please check CSS Gradients&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="lineGradient" category="Appearance" type="Gradient" default="" &gt;
+    &lt;StyleElement attribute="@include borderImageGradient('$value')"/&gt;
+    &lt;Description&gt;Sets the border color of the widget as gradient. For further information, please check CSS Gradients&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="minWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="3" &gt;
+    &lt;StyleElement attribute="@include elemMinWidth($value)"/&gt;
+    &lt;Description&gt;minimum outer width of widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="maxWidth" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="4" &gt;
+    &lt;StyleElement attribute="@include elemMaxWidth($value)"/&gt;
+    &lt;Description&gt;maximum outer width of widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="minHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="5" &gt;
+    &lt;StyleElement attribute="@include elemMinHeight($value)"/&gt;
+    &lt;Description&gt;minimum outer height of widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+  &lt;StyleProperty name="maxHeight" type="Size" not_styleable="true" default="0" category="Layout" groupRefId="Size" groupOrder="6" &gt;
+    &lt;StyleElement attribute="@include elemMaxHeight($value)"/&gt;
+    &lt;Description&gt;maximum outer height of widget&lt;/Description&gt;
+  &lt;/StyleProperty&gt;
+&lt;/StyleProperties&gt;</StyleProperties>
+  
+</StyleInformation>

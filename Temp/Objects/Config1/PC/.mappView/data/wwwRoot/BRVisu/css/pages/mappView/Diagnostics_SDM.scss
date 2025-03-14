@@ -1,0 +1,11 @@
+@import "mixins.scss";
+#Diagnostics_SDM_Diagnostics_SDM_WebViewer_SDM {	@include elemTop(50);
+}
+#Diagnostics_SDM_Diagnostics_SDM_WebViewer_SDM {	@include elemLeft(0);
+}
+#Diagnostics_SDM_Diagnostics_SDM_WebViewer_SDM {	@include elemWidth(1114);
+}
+#Diagnostics_SDM_Diagnostics_SDM_WebViewer_SDM {	@include elemHeight(500);
+}
+#Diagnostics_SDM_Diagnostics_SDM_WebViewer_SDM {	z-index: 0;
+}

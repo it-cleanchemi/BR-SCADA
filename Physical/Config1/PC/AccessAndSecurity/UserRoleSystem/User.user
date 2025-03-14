@@ -3,9 +3,11 @@
 <Configuration>
   <Element ID="Admin" Type="User" Description="Admininstrator Account">
     <Property ID="UserID" Value="1" />
-    <Property ID="Password" Value="bSEKrtCQc0HSxSzm5v0q94H22kr7zdLAY1zgqCwFbX9TfagmIVM=" Description="123abc" />
+    <Property ID="Password" Value="wfHn9GJh5KSniWjnMSiIj9OAH8LozHsYIIy6bXOhX532cmCDlN0=" Description="123abc" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Administrator_Role" />
+      <Property ID="Role[2]" Value="Anonymous1" />
+      <Property ID="Role[3]" Value="Operator_Role" />
     </Group>
   </Element>
   <Element ID="Operator" Type="User" Description="LR104_Operator">

@@ -1,73 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
-  <StartPage pageRefId="Page_Main" />
-  <Pages>
-    <Page refId="Page_Main" />
-    <Page refId="Page_Process" />
-	<Page refId="Page_Services" />
-	<Page refId="Page_Settings" />
-	<Page refId="Page_Diagnostics" />
-	<Page refId="Page_Alarms" />	
-  </Pages>
-  <Navigations />
-  <BindingsSets />
-  <EventBindingsSets />
-  <Dialogs>
-    <!--<Dialog refId="TestPopUp" />
-    <Dialog refId="BufferTankPopUp" />
-    <Dialog refId="dialog_7" />-->
-  </Dialogs>
-  <Contents>
-    <!--<Content refId="content_1" />
-    <Content refId="content_2" />
-    <Content refId="content_9" />
-		<Content refId="content_11" />
-    <Content refId="Header" />
-    <Content refId="content_15" />
-    <Content refId="content_3" />
-    <Content refId="content_5" />
-    <Content refId="content_14" />
-    <Content refId="content_19" />
-    <Content refId="buffertank" />
-    <Content refId="content_4" />
-    <Content refId="Navigation" />
-    <Content refId="content_8" />
-    <Content refId="content_12" />
-    <Content refId="content_17" />
-    <Content refId="LoginPage" />
-    <Content refId="OverviewPageExmaple" />
-    <Content refId="BufferTankPopup" />
-    <Content refId="content_18" />
-    <Content refId="content_21" />
-    <Content refId="content_23" />
-    <Content refId="OverviewEx1" />
-    <Content refId="OverviewEx2" />
-    <Content refId="content_24" />
-    <Content refId="QCS" />
-    <Content refId="content_6" />
-    <Content refId="SiteStatuses" />-->
-  </Contents>
-  <SnippetsSets />
-  <VariablesSets>
-    <VariablesSet refId="ColorVars" />
-    <VariablesSet refId="svar_3" />
-    <VariablesSet refId="svar_2" />
-    <VariablesSet refId="svar_1" />
-  </VariablesSets>
-  <ExpressionsSets />
-  <Themes>
-    <Theme refId="BuRTheme1" />
-  </Themes>
-  <Configurations>
-    <Configuration key="activityCount" value="false" />
-    <Configuration key="zoom" value="true" />
-    <Gestures>
-      <!--<SystemGesture1 touchPoints="2" />
+	<StartPage pageRefId="Page_Main" />
+	<Pages>
+		<Page refId="Page_Main" />
+		<Page refId="Page_Process" />
+		<Page refId="Page_Services" />
+		<Page refId="Page_Settings" />
+		<Page refId="Page_Diagnostics" />
+		<Page refId="Page_Alarms" />
+	</Pages>
+	<Navigations />
+	<BindingsSets />
+	<EventBindingsSets>
+		<EventBindingsSet refId="Diagnostics_eventbinding" />
+		<EventBindingsSet refId="Main_eventbinding" />
+	</EventBindingsSets>
+	<Dialogs />
+	<Contents>
+		<Content refId="Header" />
+		<Content refId="Footer" />
+		<Content refId="Navigation" />
+		<Content refId="Main" />
+		<Content refId="Process" />
+		<Content refId="Services" />
+		<Content refId="Services_DirMan" />
+		<Content refId="Services_Help" />
+		<Content refId="Settings" />
+		<Content refId="Settings_IO" />
+		<Content refId="Settings_Timers" />
+		<Content refId="Settings_System" />
+		<Content refId="Diagnostics" />
+		<Content refId="Diagnostics_ConvInIO" />
+		<Content refId="Diagnostics_WheelIO" />
+		<Content refId="Diagnostics_SDM" />
+		<Content refId="Alarms" />
+		<Content refId="Alarms_Active" />
+		<Content refId="OverviewEx1" />
+		<Content refId="OverviewEx2" />
+		<Content refId="Alarms_History" />
+	</Contents>
+	<SnippetsSets />
+	<VariablesSets>
+		<VariablesSet refId="ColorVars" />
+		<VariablesSet refId="svar_3" />
+		<VariablesSet refId="svar_2" />
+		<VariablesSet refId="svar_1" />
+	</VariablesSets>
+	<ExpressionsSets />
+	<StartTheme themeRefId="HartfielTheme" />
+	<Themes>
+		<Theme refId="HartfielTheme" />
+	</Themes>
+	<Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="zoom" value="true" />
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="bootLogo" value="Media\Images\Logo.svg" />
+		<Configuration key="bootColor" value="#111111" />
+		<Configuration key="bootProgressBar" value="true" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
 			<SystemGesture2 touchPoints="2" />
 			<SystemGesture3 touchPoints="2" />-->
-    </Gestures>
-    <VirtualKeyboards>
-      <!--<InputProcessing onKeyDown="true" />-->
-    </VirtualKeyboards>
-  </Configurations>
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards>
+	</Configurations>
 </vdef:Visualization>

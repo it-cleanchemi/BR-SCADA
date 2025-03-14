@@ -1,0 +1,15 @@
+@import "mixins.scss";
+#HA_IO_Header_Label_Header {	@include elemTop(0);
+}
+#HA_IO_Header_Label_Header {	@include elemLeft(0);
+}
+#HA_IO_Header_Label_Header {	@include elemAutoWidth(300);
+}
+#HA_IO_Header_Label_Header {	z-index: 0;
+}
+#HA_IO_Header_Label_Header {	@include text-alignment-all('left');
+}
+#HA_IO_Header_Label_Header {	@include elemAutoHeight(30);
+}
+#HA_IO_Header_Line_Header {	z-index: 1;
+}

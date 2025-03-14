@@ -39,3 +39,13 @@
 }
 #Alarms_Alarms_GroupBox_Content {	z-index: 1;
 }
+#Alarms_Alarms_GroupBox_Content_ContentControl {	@include elemTop(0);
+}
+#Alarms_Alarms_GroupBox_Content_ContentControl {	@include elemLeft(0);
+}
+#Alarms_Alarms_GroupBox_Content_ContentControl {	@include elemWidth(1114);
+}
+#Alarms_Alarms_GroupBox_Content_ContentControl {	@include elemHeight(600);
+}
+#Alarms_Alarms_GroupBox_Content_ContentControl {	z-index: 0;
+}

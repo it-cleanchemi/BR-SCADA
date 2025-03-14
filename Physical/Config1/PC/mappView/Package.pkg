@@ -4,5 +4,7 @@
   <Objects>
     <Object Type="File">Visualizat.vis</Object>
     <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">Diagnostics.eventbinding</Object>
+    <Object Type="File">Main.eventbinding</Object>
   </Objects>
 </Package>

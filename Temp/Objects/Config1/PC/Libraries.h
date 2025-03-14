@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250314063552_
-#define _LIBRARIES_20250314063552_
+#ifndef _LIBRARIES_20250314120121_
+#define _LIBRARIES_20250314120121_
 
 __asm__(".section \".plc\"");
 
@@ -45,6 +45,9 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsARCfg/AsARCfg.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
@@ -750,6 +753,14 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 	__asm__(".ascii \"plcexport \\\"PV_setval\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"slMoList\\\" FUB\\n\"");
 #endif
+#ifdef _ARTEXTSYS_EXPORT
+	__asm__(".ascii \"plcexport \\\"ArTextSysGetSystemLanguage\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArTextSysSetSystemLanguage\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArTextSysGetNamespaceLanguages\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArTextSysGetText\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArTextSysFormatString\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArTextSysGetFormattedText\\\" FUB\\n\"");
+#endif
 #ifdef _MBUSTCP_EXPORT
 	__asm__(".ascii \"plcexport \\\"MBslave\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"MBmaster\\\" FUB\\n\"");
@@ -761,5 +772,5 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250314063552_ */
+#endif /* _LIBRARIES_20250314120121_ */
 

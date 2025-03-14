@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarm.EmailCmdIgnored">
+      <tuv xml:lang="es">
+        <seg>Comando del Email Ignorado. Cmd: {=$IAT/EmailCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Razón: {=$IAT/EmailIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Commande du Email Ignorée. Cmd : {=$IAT/EmailCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Raison : {=$IAT/EmailIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Email-Befehl Ignoriert. Befehl: {=$IAT/EmailCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Grund: {=$IAT/EmailIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Email Command Ignored. Cmd: {=$IAT/EmailCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Reason: {=$IAT/EmailIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailUnhandledCmd">
+      <tuv xml:lang="es">
+        <seg>Email recibió comando no gestionado. Último Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Email a reçu une commande non traitée. Dernier État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Email hat unbehandelten Befehl empfangen. Letzter Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Email Received Unhandled Command. Last State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailSeverity1">
+      <tuv xml:lang="es">
+        <seg>S1; Subproceso: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S1; Sous-processus : Email ; Erreur : {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S1; Teilprozess: Email; Fehler: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S1; Subprocess: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailSeverity2">
+      <tuv xml:lang="es">
+        <seg>S2; Subproceso: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S2; Sous-processus : Email ; Erreur : {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S2; Teilprozess: Email; Fehler: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S2; Subprocess: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailSeverity3">
+      <tuv xml:lang="es">
+        <seg>S3; Subproceso: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S3; Sous-processus : Email ; Erreur : {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S3; Teilprozess: Email; Fehler: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S3; Subprocess: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailSeverity4">
+      <tuv xml:lang="es">
+        <seg>S4; Subproceso: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S4; Sous-processus : Email ; Erreur : {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S4; Teilprozess: Email; Fehler: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S4; Subprocess: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.EmailSeverity5">
+      <tuv xml:lang="es">
+        <seg>S5; Subproceso: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S5; Sous-processus : Email ; Erreur : {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S5; Teilprozess: Email; Fehler: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S5; Subprocess: Email; Error: {=$IAT/EmailErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/EmailState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_RESET_C">
+      <tuv xml:lang="es">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_CHECKPARREADY_W">
+      <tuv xml:lang="es">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Check Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_IDLE_I">
+      <tuv xml:lang="es">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_SEND_D">
+      <tuv xml:lang="es">
+        <seg>Send Email Delay</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Send Email Delay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Send Email Delay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Send Email Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_SEND_C">
+      <tuv xml:lang="es">
+        <seg>Send Email Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Send Email Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Send Email Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Send Email Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_SEND_W">
+      <tuv xml:lang="es">
+        <seg>Send Email Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Send Email Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Send Email Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Send Email Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailState.EMAIL_ERROR_I">
+      <tuv xml:lang="es">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailErrorText.Timeout">
+      <tuv xml:lang="es">
+        <seg>
+Se acabó el tiempo </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Temps mort</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time-out</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timeout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="EmailErrorText.FBError">
+      <tuv xml:lang="en">
+        <seg>{=$HA_SysErr/HA_SysErr.{#::AsGlobalPV:gAlarmAddData.AddData[2]}}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

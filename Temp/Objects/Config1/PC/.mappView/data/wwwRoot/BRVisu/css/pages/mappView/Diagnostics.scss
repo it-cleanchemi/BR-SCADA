@@ -49,6 +49,16 @@
 }
 #Diagnostics_Diagnostics_GroupBox_Content {	z-index: 1;
 }
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemTop(119);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemLeft(-61);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemWidth(1114);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemHeight(600);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	z-index: 0;
+}
 #Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemTop(11);
 }
 #Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemLeft(949);

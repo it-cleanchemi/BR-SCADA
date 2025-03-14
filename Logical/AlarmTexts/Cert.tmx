@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarm.CertCmdIgnored">
+      <tuv xml:lang="es">
+        <seg>Comando del Cert Ignorado. Cmd: {=$IAT/CertCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Razón: {=$IAT/CertIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Commande du Cert Ignorée. Cmd : {=$IAT/CertCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Raison : {=$IAT/CertIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Cert-Befehl Ignoriert. Befehl: {=$IAT/CertCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Grund: {=$IAT/CertIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cert Command Ignored. Cmd: {=$IAT/CertCmd.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}, Reason: {=$IAT/CertIgnoreReason.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertUnhandledCmd">
+      <tuv xml:lang="es">
+        <seg>Cert recibió comando no gestionado. Último Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Cert a reçu une commande non traitée. Dernier État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Cert hat unbehandelten Befehl empfangen. Letzter Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cert Received Unhandled Command. Last State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertSeverity1">
+      <tuv xml:lang="es">
+        <seg>S1; Subproceso: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S1; Sous-processus : Cert ; Erreur : {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S1; Teilprozess: Cert; Fehler: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S1; Subprocess: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertSeverity2">
+      <tuv xml:lang="es">
+        <seg>S2; Subproceso: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S2; Sous-processus : Cert ; Erreur : {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S2; Teilprozess: Cert; Fehler: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S2; Subprocess: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertSeverity3">
+      <tuv xml:lang="es">
+        <seg>S3; Subproceso: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S3; Sous-processus : Cert ; Erreur : {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S3; Teilprozess: Cert; Fehler: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S3; Subprocess: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertSeverity4">
+      <tuv xml:lang="es">
+        <seg>S4; Subproceso: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S4; Sous-processus : Cert ; Erreur : {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S4; Teilprozess: Cert; Fehler: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S4; Subprocess: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.CertSeverity5">
+      <tuv xml:lang="es">
+        <seg>S5; Subproceso: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Estado: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>S5; Sous-processus : Cert ; Erreur : {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}} ; État : {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>S5; Teilprozess: Cert; Fehler: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; Zustand: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S5; Subprocess: Cert; Error: {=$IAT/CertErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; State: {=$IAT/CertState.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_RESET_C">
+      <tuv xml:lang="es">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Reset</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_CHECKPARREADY_W">
+      <tuv xml:lang="es">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Check Parameters</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Check Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_IDLE_I">
+      <tuv xml:lang="es">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_GEN_CERT_D">
+      <tuv xml:lang="es">
+        <seg>Generate Certificate Delay</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Generate Certificate Delay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Generate Certificate Delay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Generate Certificate Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_GEN_CERT_C">
+      <tuv xml:lang="es">
+        <seg>Generate Certificate Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Generate Certificate Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Generate Certificate Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Generate Certificate Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_GEN_CERT_W">
+      <tuv xml:lang="es">
+        <seg>Generate Certificate Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Generate Certificate Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Generate Certificate Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Generate Certificate Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_DELETE_SSL_D">
+      <tuv xml:lang="es">
+        <seg>Delete SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Delete SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Delete SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete SSL Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_DELETE_SSL_C">
+      <tuv xml:lang="es">
+        <seg>Delete SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Delete SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Delete SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete SSL Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_DELETE_SSL_W">
+      <tuv xml:lang="es">
+        <seg>Delete SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Delete SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Delete SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delete SSL Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_CREATE_SSL_D">
+      <tuv xml:lang="es">
+        <seg>Create SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Create SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Create SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Create SSL Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_CREATE_SSL_C">
+      <tuv xml:lang="es">
+        <seg>Create SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Create SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Create SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Create SSL Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_CREATE_SSL_W">
+      <tuv xml:lang="es">
+        <seg>Create SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Create SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Create SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Create SSL Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_OPEN_SSL_D">
+      <tuv xml:lang="es">
+        <seg>Open SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Open SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Open SSL Delay</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Open SSL Delay</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_OPEN_SSL_C">
+      <tuv xml:lang="es">
+        <seg>Open SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Open SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Open SSL Cmd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Open SSL Cmd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_OPEN_SSL_W">
+      <tuv xml:lang="es">
+        <seg>Open SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Open SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Open SSL Wait</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Open SSL Wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertState.CERT_ERROR_I">
+      <tuv xml:lang="es">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertErrorText.Timeout">
+      <tuv xml:lang="es">
+        <seg>
+Se acabó el tiempo </seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>
+Temps mort</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Time-out</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timeout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CertErrorText.FBError">
+      <tuv xml:lang="en">
+        <seg>{=$HA_SysErr/HA_SysErr.{#::AsGlobalPV:gAlarmAddData.AddData[2]}}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

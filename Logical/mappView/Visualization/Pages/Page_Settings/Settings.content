@@ -10,7 +10,7 @@
     </Widget>
     <Widget xsi:type="widgets.brease.GroupBox" id="Settings_GroupBox_Content" top="60" left="0" width="1114" height="600" zIndex="1" style="default_Blank">
       <Widgets>
-
+        <Widget xsi:type="widgets.brease.ContentControl" id="Settings_GroupBox_Content_ContentControl" top="0" left="0" width="1114" height="600" zIndex="0" contentId="Settings_IO" />
       </Widgets>
     </Widget>
   </Widgets>

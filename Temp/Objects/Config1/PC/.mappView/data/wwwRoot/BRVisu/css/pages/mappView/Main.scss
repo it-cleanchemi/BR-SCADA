@@ -1,1 +1,43 @@
 @import "mixins.scss";
+#Main_DropDownBox1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#Main_DropDownBox1 {	@include elemTop(20);
+}
+#Main_DropDownBox1 {	@include elemLeft(720);
+}
+#Main_DropDownBox1 {	&.DropDownBoxView {
+		@include elemWidth(340);
+	}
+}
+#Main_DropDownBox1 {	z-index: 0;
+}
+#Main_DropDownBox1 {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#Main_DropDownBox1_listBoxWrapper {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemTop(60);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemLeft(0);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemWidth(1754);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemHeight(880);
+}
+#Main_Diagnostics_GroupBox_Content {	z-index: 1;
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemTop(0);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemLeft(0);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemWidth(1754);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemHeight(880);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	z-index: 0;
+}

@@ -49,3 +49,13 @@
 }
 #Settings_Settings_GroupBox_Content {	z-index: 1;
 }
+#Settings_Settings_GroupBox_Content_ContentControl {	@include elemTop(0);
+}
+#Settings_Settings_GroupBox_Content_ContentControl {	@include elemLeft(0);
+}
+#Settings_Settings_GroupBox_Content_ContentControl {	@include elemWidth(1114);
+}
+#Settings_Settings_GroupBox_Content_ContentControl {	@include elemHeight(600);
+}
+#Settings_Settings_GroupBox_Content_ContentControl {	z-index: 0;
+}
