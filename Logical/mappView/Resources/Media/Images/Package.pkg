@@ -68,5 +68,6 @@
     <Object Type="File">System.svg</Object>
     <Object Type="File">Version.svg</Object>
     <Object Type="File">Logo.svg</Object>
+    <Object Type="File">Pump_Style2.bmp</Object>
   </Objects>
 </Package>

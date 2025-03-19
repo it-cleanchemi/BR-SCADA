@@ -940,19 +940,6 @@ span {
 }
 
 }
-@import "../../../../widgets/brease/LoginInfo/meta/LoginInfo_base";
-.widgets_brease_LoginInfo_style_default {
-@include widgets_brease_LoginInfo_base; 
-& span {
-	color: #FFFFFF;
-}
-	border-width: 0px;
-	font-size: 16px;
-	background-color: transparent;
-@include font-weight-bold(true);
-@include text-alignment-all('left');
-
-}
 @import "../../../../widgets/brease/Rectangle/meta/Rectangle_base";
 .widgets_brease_Rectangle_style_default {
 @include widgets_brease_Rectangle_base; 
@@ -1535,6 +1522,71 @@ span {
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr.even td.override:not(.selected).disabled {
 @include importantTextColor(#888888);
+}
+
+}
+@import "../../../../widgets/brease/OnlineChart/meta/OnlineChart_base";
+.widgets_brease_OnlineChart_style_default {
+@include widgets_brease_OnlineChart_base; 
+&:not(.disabled) {
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartGraph/meta/OnlineChartGraph_base";
+.widgets_brease_OnlineChartGraph_style_default {
+@include widgets_brease_OnlineChartGraph_base; 
+&:not(.disabled).graph {
+	stroke: #FF8500;
+}
+&.breaseChartYValueListWidget.editMode {
+	border-color: #FF8500;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartTimeAxis/meta/OnlineChartTimeAxis_base";
+.widgets_brease_OnlineChartTimeAxis_style_default {
+@include widgets_brease_OnlineChartTimeAxis_base; 
+&:not(.disabled) path {
+	stroke: #474747;
+}
+&:not(.disabled) line {
+	stroke: #474747;
+}
+&:not(.disabled) text {
+	fill: #474747;
+}
+&.editMode.breaseChartXAxisWidget:not(.disabled) path {
+	stroke: #474747;
+}
+&.editMode.breaseChartXAxisWidget:not(.disabled) line {
+	stroke: #474747;
+}
+&.editMode.breaseChartXAxisWidget:not(.disabled) text {
+	fill: #474747;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartYAxis/meta/OnlineChartYAxis_base";
+.widgets_brease_OnlineChartYAxis_style_default {
+@include widgets_brease_OnlineChartYAxis_base; 
+&:not(.disabled) path {
+	stroke: #474747;
+}
+&:not(.disabled) line {
+	stroke: #474747;
+}
+&:not(.disabled) text {
+	fill: #474747;
+}
+&.editMode.breaseChartYAxisWidget:not(.disabled) path {
+	stroke: #474747;
+}
+&.editMode.breaseChartYAxisWidget:not(.disabled) line {
+	stroke: #474747;
+}
+&.editMode.breaseChartYAxisWidget:not(.disabled) text {
+	fill: #474747;
 }
 
 }

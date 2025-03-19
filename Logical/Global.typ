@@ -339,13 +339,19 @@ END_TYPE
 (**)
 
 TYPE
+	Vis_Main_Internal_Type : 	STRUCT 
+		IP_WSTRING_Temp : WSTRING[80];
+	END_STRUCT;
+	Vis_Main_Out_Type : 	STRUCT 
+		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
+	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
-		TestButton : ARRAY[0..5]OF BOOL;
+		SelectedSkid : UDINT;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;
-		Internal : USINT;
-		Out : USINT;
+		Internal : Vis_Main_Internal_Type;
+		Out : Vis_Main_Out_Type;
 	END_STRUCT;
 END_TYPE
 

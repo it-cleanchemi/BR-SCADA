@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250314120121_
-#define _LIBRARIES_20250314120121_
+#ifndef _LIBRARIES_20250319112133_
+#define _LIBRARIES_20250319112133_
 
 __asm__(".section \".plc\"");
 
@@ -36,6 +36,9 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Str2DtPvdr/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Str2DtPvdr/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Str2DtPvdr/Str2DtPvdr.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrStr/AsBrStr.var\\\" scope \\\"global\\\"\\n\"");
@@ -48,6 +51,12 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/sys_lib/sys_lib.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/ArTextSys/ArTextSys.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/asstring/asstring.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/asstring/asstring.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/asstring/asstring.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
@@ -580,6 +589,11 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 	__asm__(".ascii \"plcexport \\\"TcpRecv\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"TcpIoctl\\\" FUB\\n\"");
 #endif
+#ifdef _STR2DTPVDR_EXPORT
+	__asm__(".ascii \"plcexport \\\"WString2DataProvider\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"StepListElementCreator\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"String2DataProvider\\\" FUN\\n\"");
+#endif
 #ifdef _ASBRSTR_EXPORT
 	__asm__(".ascii \"plcexport \\\"brsftoa\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"brsatof\\\" FUN\\n\"");
@@ -761,6 +775,33 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 	__asm__(".ascii \"plcexport \\\"ArTextSysFormatString\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"ArTextSysGetFormattedText\\\" FUB\\n\"");
 #endif
+#ifdef _ASSTRING_EXPORT
+	__asm__(".ascii \"plcexport \\\"ftoa\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"atof\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"itoa\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"atoi\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"memset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"memcpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"memmove\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"memcmp\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"strcat\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"strlen\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"strcpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"strcmp\\\" FUN\\n\"");
+#endif
+#ifdef _ASBRWSTR_EXPORT
+	__asm__(".ascii \"plcexport \\\"brwcsconv\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcsncpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcsncat\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcscat\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcscmp\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcslen\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcsset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcsncmp\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcscpy\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcsrchr\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"brwcschr\\\" FUN\\n\"");
+#endif
 #ifdef _MBUSTCP_EXPORT
 	__asm__(".ascii \"plcexport \\\"MBslave\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"MBmaster\\\" FUB\\n\"");
@@ -772,5 +813,5 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250314120121_ */
+#endif /* _LIBRARIES_20250319112133_ */
 

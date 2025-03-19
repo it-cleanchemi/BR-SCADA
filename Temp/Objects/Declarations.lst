@@ -36,6 +36,9 @@ C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\standard\standard.var
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsTCP\AsTCP.fun
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsTCP\AsTCP.typ
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsTCP\AsTCP.var
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\Str2DtPvdr\Types.typ
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\Str2DtPvdr\Constants.var
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\Str2DtPvdr\Str2DtPvdr.fun
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrStr\AsBrStr.fun
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrStr\AsBrStr.typ
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrStr\AsBrStr.var
@@ -48,6 +51,12 @@ C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\sys_lib\sys_lib.var
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArTextSys\ArTextSys.fun
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArTextSys\ArTextSys.typ
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArTextSys\ArTextSys.var
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\asstring\asstring.fun
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\asstring\asstring.typ
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\asstring\asstring.var
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrWStr\AsBrWStr.fun
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrWStr\AsBrWStr.typ
+C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsBrWStr\AsBrWStr.var
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\Types.typ
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\Variables.var
 C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\MbusTCP.fun

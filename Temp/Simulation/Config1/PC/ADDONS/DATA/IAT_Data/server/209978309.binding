@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+		<Content id="Main"><Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.Out.IPAddressDataProv" attribute="value" />
+			<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="dataProvider" />
+		</Binding></Content>
+			
+			
+		
+		<Content id="Main"><Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+			<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="selectedIndex" />
+		</Binding><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="editable" />
+			<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="editable::selectedIndex" />
+		</Binding></Content>
+			
+			
+		
+	
+</BindingDefinition>

@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Vis 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=143 Scope=60 Force=60 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                    gVis                                 Vis_Type    0 "                                                               *"    0   24    1    0    0    1         
+                                    Main                            Vis_Main_Type    0 "                                                               *"    1   24    1    0    0    1         
+                                     Out                        Vis_Main_Out_Type    0 "                                                               *"    2   24    1    0    0    1         
+                       IPAddressDataProv                        WSTRING[40][0..0]    0 "                                                               *"    3   21   81    0    0    1        a
+                    IPAddressDataProv[0]                              WSTRING[40]    0 "                   "{$"value$":$"0$",$"text$":$"172.16.1.101$"}""    4   21   81    1    0    0         

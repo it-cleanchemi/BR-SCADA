@@ -6,6 +6,10 @@
   <widget name="widgets.brease.BusyIndicator" />
   <widget name="widgets.brease.Button" />
   <widget name="widgets.brease.ButtonBar" />
+  <widget name="widgets.brease.ChartWidget" />
+  <widget name="widgets.brease.ChartXAxisWidget" />
+  <widget name="widgets.brease.ChartYAxisWidget" />
+  <widget name="widgets.brease.ChartYValueListWidget" />
   <widget name="widgets.brease.CheckBox" />
   <widget name="widgets.brease.ContentControl" />
   <widget name="widgets.brease.DataHandlerWidget" />
@@ -25,9 +29,7 @@
   <widget name="widgets.brease.Label" />
   <widget name="widgets.brease.LanguageSelector" />
   <widget name="widgets.brease.Line" />
-  <widget name="widgets.brease.Login" />
   <widget name="widgets.brease.LoginButton" />
-  <widget name="widgets.brease.LoginInfo" />
   <widget name="widgets.brease.LogoutButton" />
   <widget name="widgets.brease.MeasurementSystemSelector" />
   <widget name="widgets.brease.MessageBox" />
@@ -35,6 +37,10 @@
   <widget name="widgets.brease.NumericInput" />
   <widget name="widgets.brease.NumericOutput" />
   <widget name="widgets.brease.NumPad" />
+  <widget name="widgets.brease.OnlineChart" />
+  <widget name="widgets.brease.OnlineChartGraph" />
+  <widget name="widgets.brease.OnlineChartTimeAxis" />
+  <widget name="widgets.brease.OnlineChartYAxis" />
   <widget name="widgets.brease.Password" />
   <widget name="widgets.brease.PDFViewer" />
   <widget name="widgets.brease.ProgressBar" />

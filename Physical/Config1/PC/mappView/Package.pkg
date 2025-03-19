@@ -6,5 +6,7 @@
     <Object Type="File">Config.mappviewcfg</Object>
     <Object Type="File">Diagnostics.eventbinding</Object>
     <Object Type="File">Main.eventbinding</Object>
+    <Object Type="File">OverviewEx1.binding</Object>
+    <Object Type="File">Main.binding</Object>
   </Objects>
 </Package>

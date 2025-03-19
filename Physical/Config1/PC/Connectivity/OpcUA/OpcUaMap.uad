@@ -22,8 +22,12 @@
       <EURanges Id="2" AclInherit="0" />
     </EURangesAliases>
     <EngineeringUnitAliases>
-      <EngineeringUnit Id="1" UnitId="0" AclInherit="0" />
-      <EngineeringUnit Id="2" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="3" UnitId="4604232" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Fahrenheit" Symbol="°F" />
+      <EngineeringUnit Id="4" UnitId="4672588" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="gallon (US)" Symbol="gal[US]" />
+      <EngineeringUnit Id="6" UnitId="13361" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millilitre per minute" Symbol="ml/min" />
+      <EngineeringUnit Id="7" UnitId="5065812" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millilitre" Symbol="ml" />
+      <EngineeringUnit Id="8" UnitId="4732465" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millisiemens per centimetre" Symbol="mS/cm" />
+      <EngineeringUnit Id="9" UnitId="14384" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="pound per square inch absolute" Symbol="lb/in²" />
     </EngineeringUnitAliases>
   </Aliases>
   <DefaultView AclId="2">
@@ -31,11 +35,109 @@
       <GlobalVariables Name="Global Variables">
         <Variable Name="gVis" RecursiveEnable="2">
           <Variable Name="Main">
-            <Variable Name="In">
-              <Variable Name="TestButton" RecursiveEnable="2" />
-            </Variable>
+            <Variable Name="In" />
           </Variable>
         </Variable>
+        <Variable Name="gSkid" RecursiveEnable="2">
+          <VariableCommon Name="Common Properties">
+            <Variable Name="Pmax_Pump_101">
+              <Variable Name="P101_TI" EngineeringUnitId="3" />
+              <Variable Name="P101_FQ" EngineeringUnitId="4" />
+              <Variable Name="P101_PI" EngineeringUnitId="9" />
+              <Variable Name="P101_PV" EngineeringUnitId="6" />
+              <Variable Name="P101_SP" EngineeringUnitId="6" />
+              <Variable Name="P101_PFI" EngineeringUnitId="6" />
+            </Variable>
+            <Variable Name="Pmax_Pump_102">
+              <Variable Name="P102_TI" EngineeringUnitId="3" />
+              <Variable Name="P102_PFI" EngineeringUnitId="6" />
+              <Variable Name="P102_PPI" EngineeringUnitId="9" />
+              <Variable Name="P102_PI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_201">
+              <Variable Name="P201_TI" EngineeringUnitId="3" />
+              <Variable Name="P201_PV" EngineeringUnitId="6" />
+              <Variable Name="P201_FQ" EngineeringUnitId="4" />
+              <Variable Name="P201_PI" EngineeringUnitId="9" />
+              <Variable Name="P201_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_202">
+              <Variable Name="P202_TI" EngineeringUnitId="3" />
+              <Variable Name="P202_PV" EngineeringUnitId="6" />
+              <Variable Name="P202_FQ" EngineeringUnitId="4" />
+              <Variable Name="P202_PI" EngineeringUnitId="9" />
+              <Variable Name="P202_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_203">
+              <Variable Name="P203_TI" EngineeringUnitId="3" />
+              <Variable Name="P203_PV" EngineeringUnitId="6" />
+              <Variable Name="P203_FQ" EngineeringUnitId="4" />
+              <Variable Name="P203_PI" EngineeringUnitId="9" />
+              <Variable Name="P203_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_204">
+              <Variable Name="P204_TI" EngineeringUnitId="3" />
+              <Variable Name="P204_PV" EngineeringUnitId="6" />
+              <Variable Name="P204_FQ" EngineeringUnitId="4" />
+              <Variable Name="P204_PI" EngineeringUnitId="9" />
+              <Variable Name="P204_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_205">
+              <Variable Name="P205_TI" EngineeringUnitId="3" />
+              <Variable Name="P205_PV" EngineeringUnitId="6" />
+              <Variable Name="P205_FQ" EngineeringUnitId="4" />
+              <Variable Name="P205_PI" EngineeringUnitId="9" />
+              <Variable Name="P205_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_206">
+              <Variable Name="P206_TI" EngineeringUnitId="3" />
+              <Variable Name="P206_PV" EngineeringUnitId="6" />
+              <Variable Name="P206_FQ" EngineeringUnitId="4" />
+              <Variable Name="P206_PI" EngineeringUnitId="9" />
+              <Variable Name="P206_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_207">
+              <Variable Name="P207_TI" EngineeringUnitId="3" />
+              <Variable Name="P207_PV" EngineeringUnitId="6" />
+              <Variable Name="P207_FQ" EngineeringUnitId="4" />
+              <Variable Name="P207_PI" EngineeringUnitId="9" />
+              <Variable Name="P207_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Dosing_Pump_208">
+              <Variable Name="P208_TI" EngineeringUnitId="3" />
+              <Variable Name="P208_PV" EngineeringUnitId="6" />
+              <Variable Name="P208_FQ" EngineeringUnitId="4" />
+              <Variable Name="P208_PI" EngineeringUnitId="9" />
+              <Variable Name="P208_PPI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Pmax_Pump_103">
+              <Variable Name="P103_PFI" EngineeringUnitId="6" />
+              <Variable Name="P103_PPI" EngineeringUnitId="9" />
+              <Variable Name="P103_PI" EngineeringUnitId="9" />
+            </Variable>
+            <Variable Name="Pmax_Pump_104">
+              <Variable Name="P104_PFI" EngineeringUnitId="6" />
+              <Variable Name="P104_PPI" EngineeringUnitId="9" />
+              <Variable Name="P104_PI" EngineeringUnitId="9" />
+              <Variable Name="P104_PV" EngineeringUnitId="6" />
+            </Variable>
+            <Variable Name="BufferTank">
+              <Variable Name="LI200" EngineeringUnitId="7" />
+            </Variable>
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101_TI" EngineeringUnitId="3" />
+              <Variable Name="CD102_TI" EngineeringUnitId="3" />
+              <Variable Name="CD103_TI" EngineeringUnitId="3" />
+              <Variable Name="CD101" EngineeringUnitId="8" />
+              <Variable Name="CD101_SP" EngineeringUnitId="8" />
+              <Variable Name="CD102" EngineeringUnitId="8" />
+              <Variable Name="CD102_SP" EngineeringUnitId="8" />
+              <Variable Name="CD103" EngineeringUnitId="8" />
+              <Variable Name="CD103_SP" EngineeringUnitId="8" />
+            </Variable>
+          </VariableCommon>
+        </Variable>
+        <Variable Name="gCmd" RecursiveEnable="2" />
       </GlobalVariables>
     </Module>
   </DefaultView>

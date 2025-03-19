@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Str2DtPvdr/Str2DtPvdr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/Vis/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Constants.var

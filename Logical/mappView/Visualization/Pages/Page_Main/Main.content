@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Main" height="940" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="20" left="720" width="340" zIndex="0" dataProvider="[{'value':'0','text':'Skid1'},{'value':'1','text':'Skid2'}]" selectedValue="0" textAlign="center" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="20" left="720" width="340" zIndex="0" textAlign="center" />
     <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="60" left="0" width="1754" height="880" zIndex="1" style="default_Blank">
       <Widgets>
         <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="0" width="1754" height="880" zIndex="0" contentId="OverviewEx1" />

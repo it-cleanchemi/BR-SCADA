@@ -32,6 +32,12 @@
     UseAsStatic="false"
     Version="" />
   <Library
+    Name="AsBrWStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
     Name="AsIecCon"
     IsDeployed="true"
     IsStatic="false"
@@ -45,6 +51,12 @@
     Version="" />
   <Library
     Name="AsOpcUas"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="asstring"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
@@ -93,6 +105,12 @@
     Version="" />
   <Library
     Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Str2DtPvdr"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"

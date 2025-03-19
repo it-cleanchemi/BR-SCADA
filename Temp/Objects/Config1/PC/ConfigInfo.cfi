@@ -35,7 +35,22 @@
     </Task>
   </TaskClass>
   <TaskClass
-    Name="Cyclic#2" />
+    Name="Cyclic#2">
+    <Task
+      Name="Vis"
+      Disable="false"
+      Source="Vis"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Vis\Main.st.var" />
+      <File
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Types.typ" />
+      <File
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Variables.var" />
+      <InternalFile
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Vis\Methods.uam.var" />
+    </Task>
+  </TaskClass>
   <TaskClass
     Name="Cyclic#3" />
   <TaskClass
