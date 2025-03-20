@@ -4,8 +4,8 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
-					<File Name="-1828126927.binding" Size="34348" HashValue="0AF32978FA5BA08BFDC5AFEA138B3A21" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="1247078581.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1828126927.binding" Size="135010" HashValue="322061F6D44852F5970903B132583532" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="1247078581.eventbinding" Size="1160" HashValue="B9D56C11B4622F04046B05B53043159E" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="2007136254.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="209978309.binding" Size="1048" HashValue="D6D2E8F9EECDD17C0D55B7AB335A4262" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="ColorVars.sessionVar" Size="1397" HashValue="69C94369697C3610884C962F69B5196C" ProjectDependent="1" IgnoreDifference="0" />
@@ -54,6 +54,7 @@
 								<File Name="ESTOP.svg" Size="326" HashValue="207956356F0DB9582142724C291AC950" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Expand.svg" Size="121" HashValue="8967E6336BF452C6B5ACC0995C1F74AE" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="ExportHistory.svg" Size="384" HashValue="8161DE96FF93738740B2659849E1A761" ProjectDependent="1" IgnoreDifference="0" />
+								<File Name="FM1.png" Size="37913" HashValue="3D565BAD4EABEB356CB0722F9136DAA1" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="FileManager.svg" Size="327" HashValue="123CC28565F164528180440F67607BD5" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Filter.svg" Size="178" HashValue="3535AF3330159C00ED4E201AE3E38994" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Forced.svg" Size="3652" HashValue="CBAFFF736069A4E1B27CFCDB1D270C59" ProjectDependent="1" IgnoreDifference="0" />
@@ -73,7 +74,8 @@
 								<File Name="Pause.svg" Size="457" HashValue="CB5DB61C2E9D535AC465312731371D65" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Play.svg" Size="438" HashValue="9824B2E74C5FFB42576B7EDB475B92E9" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Process.svg" Size="612" HashValue="AA9F1FD5A09BDF4A911BE4D4D0399D67" ProjectDependent="1" IgnoreDifference="0" />
-								<File Name="Pump_Style2.bmp" Size="6732" HashValue="D2F09EFDFFFF6AB9D1C4BE2B83CDAB76" ProjectDependent="1" IgnoreDifference="0" />
+								<File Name="PumpStyle1.png" Size="30439" HashValue="F5B16D82236E7E550E31E09D7173B409" ProjectDependent="1" IgnoreDifference="0" />
+								<File Name="PumpStyle2.png" Size="64311" HashValue="017F782A897C9D5B9CD34DCAF58413FE" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Recipe.svg" Size="589" HashValue="A30AEEB0FF1EBB55BA7008BFE14D4A80" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Report.svg" Size="760" HashValue="1BE006892A273B4A0E3214E1F2C04B49" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="SDM.svg" Size="1839" HashValue="AAD292985AA8DA3B4077BFB10764C7F2" ProjectDependent="1" IgnoreDifference="0" />
@@ -3515,7 +3517,7 @@
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="HartfielTheme.min.css" Size="189317" HashValue="4284C5ED33C0D9BC2E26B373C3063F69" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="592878" HashValue="5EFA7EB93C50E4EBA941A1376643A2E7" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="587112" HashValue="677C14E397D9BC393BB737C163839C3A" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -3689,7 +3691,7 @@
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="OverviewEx1.html" Size="40522" HashValue="579449AEA6CF0D2E4D3775BBF81D5D2E" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="OverviewEx1.html" Size="27331" HashValue="D57CBB0BD804D1614123A3943EECAA6E" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Process.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Services.html" Size="1971" HashValue="42757BCB64658BCC144F9FB3901D914E" ProjectDependent="1" IgnoreDifference="0" />

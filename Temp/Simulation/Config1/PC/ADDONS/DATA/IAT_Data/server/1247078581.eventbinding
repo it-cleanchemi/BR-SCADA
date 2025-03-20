@@ -1,2 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2" />
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="OverviewEx1">
+    <EventBinding id="EventBinding_1">
+      <Source type="opcUa.Event" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" event="ValueChanged" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.OnlineChart.Action" refId="OverviewEx1_OnlineChart1">
+            <Method type="widgets.brease.OnlineChart.Action.GraphReset"><Parameter name="id" xsi:type="ANY_STRING" value="CD101_CHART" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.OnlineChart.Action" refId="OverviewEx1_OnlineChart2">
+            <Method type="widgets.brease.OnlineChart.Action.GraphReset"><Parameter name="id" xsi:type="ANY_STRING" value="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

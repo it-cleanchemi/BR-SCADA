@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EventBindingSet id="Main_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Bindings>
-    <!--<EventBinding id="Main.DropDownBox1.SelectedIndexChanged">
-      <Source xsi:type="widgets.brease.DropDownBox.Event" contentRefId="Main" widgetRefId="DropDownBox1" event="SelectedIndexChanged" />
-      <EventHandler condition="selectedIndex=0">
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" event="ValueChanged" />
+      <EventHandler>
         <Action>
-          <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-            <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewEx1" />
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewEx1" widgetRefId="OnlineChart1">
+            <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD101_CHART" />
           </Target>
         </Action>
       </EventHandler>
-      <EventHandler condition="selectedIndex=1">
+      <EventHandler>
         <Action>
-          <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-            <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewEx2" />
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewEx1" widgetRefId="OnlineChart2">
+            <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="" />
           </Target>
         </Action>
       </EventHandler>
-    </EventBinding>-->
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

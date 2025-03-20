@@ -1,23 +1,11 @@
 @import "mixins.scss";
-#OverviewEx1_Line22 {	z-index: 1;
-}
-#OverviewEx1_Line22 {	line {
-		stroke-width: 2px;
-	}
-}
-#OverviewEx1_Line23 {	z-index: 2;
-}
-#OverviewEx1_Line23 {	line {
-		stroke-width: 2px;
-	}
-}
-#OverviewEx1_Line24 {	z-index: 3;
+#OverviewEx1_Line24 {	z-index: 0;
 }
 #OverviewEx1_Line24 {	line {
 		stroke-width: 2px;
 	}
 }
-#OverviewEx1_Line25 {	z-index: 4;
+#OverviewEx1_Line25 {	z-index: 1;
 }
 #OverviewEx1_Line25 {	line {
 		stroke-width: 2px;
@@ -25,13 +13,13 @@
 }
 #OverviewEx1_TextOutput5 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput5 {	@include elemTop(163);
+#OverviewEx1_TextOutput5 {	@include elemTop(23);
 }
-#OverviewEx1_TextOutput5 {	@include elemLeft(15);
+#OverviewEx1_TextOutput5 {	@include elemLeft(35);
 }
 #OverviewEx1_TextOutput5 {	@include elemAutoWidth(75);
 }
-#OverviewEx1_TextOutput5 {	z-index: 6;
+#OverviewEx1_TextOutput5 {	z-index: 3;
 }
 #OverviewEx1_TextOutput5 {	border-width: 1px;
 }
@@ -59,15 +47,15 @@
 }
 #OverviewEx1_TextOutput5 {	@include text-alignment-all('center');
 }
-#OverviewEx1_Rectangle1 {	@include elemTop(165);
+#OverviewEx1_Rectangle1 {	@include elemTop(25);
 }
-#OverviewEx1_Rectangle1 {	@include elemLeft(15);
+#OverviewEx1_Rectangle1 {	@include elemLeft(35);
 }
 #OverviewEx1_Rectangle1 {	@include elemWidth(75);
 }
 #OverviewEx1_Rectangle1 {	@include elemHeight(25);
 }
-#OverviewEx1_Rectangle1 {	z-index: 5;
+#OverviewEx1_Rectangle1 {	z-index: 2;
 }
 #OverviewEx1_Rectangle1 {	background-color: rgba(224, 224, 224, 1);
 }
@@ -75,11 +63,11 @@
 }
 #OverviewEx1_TextOutput6 {	@include elemTop(362);
 }
-#OverviewEx1_TextOutput6 {	@include elemLeft(15);
+#OverviewEx1_TextOutput6 {	@include elemLeft(96);
 }
 #OverviewEx1_TextOutput6 {	@include elemAutoWidth(75);
 }
-#OverviewEx1_TextOutput6 {	z-index: 8;
+#OverviewEx1_TextOutput6 {	z-index: 5;
 }
 #OverviewEx1_TextOutput6 {	border-width: 1px;
 }
@@ -109,25 +97,25 @@
 }
 #OverviewEx1_Rectangle2 {	@include elemTop(364);
 }
-#OverviewEx1_Rectangle2 {	@include elemLeft(15);
+#OverviewEx1_Rectangle2 {	@include elemLeft(96);
 }
 #OverviewEx1_Rectangle2 {	@include elemWidth(75);
 }
 #OverviewEx1_Rectangle2 {	@include elemHeight(25);
 }
-#OverviewEx1_Rectangle2 {	z-index: 7;
+#OverviewEx1_Rectangle2 {	z-index: 4;
 }
 #OverviewEx1_Rectangle2 {	background-color: rgba(224, 224, 224, 1);
 }
 #OverviewEx1_TextOutput7 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput7 {	@include elemTop(581);
+#OverviewEx1_TextOutput7 {	@include elemTop(561);
 }
-#OverviewEx1_TextOutput7 {	@include elemLeft(35);
+#OverviewEx1_TextOutput7 {	@include elemLeft(95);
 }
 #OverviewEx1_TextOutput7 {	@include elemAutoWidth(79);
 }
-#OverviewEx1_TextOutput7 {	z-index: 10;
+#OverviewEx1_TextOutput7 {	z-index: 7;
 }
 #OverviewEx1_TextOutput7 {	border-width: 1px;
 }
@@ -155,27 +143,27 @@
 }
 #OverviewEx1_TextOutput7 {	@include text-alignment-all('center');
 }
-#OverviewEx1_Rectangle3 {	@include elemTop(583);
+#OverviewEx1_Rectangle3 {	@include elemTop(563);
 }
-#OverviewEx1_Rectangle3 {	@include elemLeft(35);
+#OverviewEx1_Rectangle3 {	@include elemLeft(95);
 }
 #OverviewEx1_Rectangle3 {	@include elemWidth(75);
 }
 #OverviewEx1_Rectangle3 {	@include elemHeight(25);
 }
-#OverviewEx1_Rectangle3 {	z-index: 9;
+#OverviewEx1_Rectangle3 {	z-index: 6;
 }
 #OverviewEx1_Rectangle3 {	background-color: rgba(224, 224, 224, 1);
 }
 #OverviewEx1_TextOutput8 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput8 {	@include elemTop(762);
+#OverviewEx1_TextOutput8 {	@include elemTop(782);
 }
-#OverviewEx1_TextOutput8 {	@include elemLeft(35);
+#OverviewEx1_TextOutput8 {	@include elemLeft(75);
 }
 #OverviewEx1_TextOutput8 {	@include elemAutoWidth(75);
 }
-#OverviewEx1_TextOutput8 {	z-index: 12;
+#OverviewEx1_TextOutput8 {	z-index: 9;
 }
 #OverviewEx1_TextOutput8 {	border-width: 1px;
 }
@@ -203,533 +191,115 @@
 }
 #OverviewEx1_TextOutput8 {	@include text-alignment-all('center');
 }
-#OverviewEx1_Rectangle4 {	@include elemTop(764);
+#OverviewEx1_Rectangle4 {	@include elemTop(784);
 }
-#OverviewEx1_Rectangle4 {	@include elemLeft(35);
+#OverviewEx1_Rectangle4 {	@include elemLeft(75);
 }
 #OverviewEx1_Rectangle4 {	@include elemWidth(75);
 }
 #OverviewEx1_Rectangle4 {	@include elemHeight(25);
 }
-#OverviewEx1_Rectangle4 {	z-index: 11;
+#OverviewEx1_Rectangle4 {	z-index: 8;
 }
 #OverviewEx1_Rectangle4 {	background-color: rgba(224, 224, 224, 1);
 }
-#OverviewEx1_Ellipse1 {	@include elemTop(131);
-}
-#OverviewEx1_Ellipse1 {	@include elemLeft(125);
-}
-#OverviewEx1_Ellipse1 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse1 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse1 {	z-index: 15;
-}
-#OverviewEx1_Ellipse1 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle8 {	@include elemTop(131);
-}
-#OverviewEx1_Rectangle8 {	@include elemLeft(155);
-}
-#OverviewEx1_Rectangle8 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle8 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle8 {	z-index: 13;
-}
-#OverviewEx1_Rectangle8 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle9 {	@include elemTop(171);
-}
-#OverviewEx1_Rectangle9 {	@include elemLeft(115);
-}
-#OverviewEx1_Rectangle9 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle9 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle9 {	z-index: 14;
-}
-#OverviewEx1_Rectangle9 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse2 {	@include elemTop(132);
-}
-#OverviewEx1_Ellipse2 {	@include elemLeft(144);
-}
-#OverviewEx1_Ellipse2 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse2 {	@include elemHeight(24);
-}
-#OverviewEx1_Ellipse2 {	z-index: 16;
-}
-#OverviewEx1_Ellipse2 {	background-color: rgba(255, 255, 255, 1);
-}
 #OverviewEx1_TextOutput1 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput1 {	@include elemTop(181);
+#OverviewEx1_TextOutput1 {	@include elemTop(41);
 }
-#OverviewEx1_TextOutput1 {	@include elemLeft(115);
+#OverviewEx1_TextOutput1 {	@include elemLeft(135);
 }
 #OverviewEx1_TextOutput1 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput1 {	z-index: 17;
+#OverviewEx1_TextOutput1 {	z-index: 10;
 }
 #OverviewEx1_TextOutput1 {	@include text-alignment-all('center');
-}
-#OverviewEx1_TextOutput2 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput2 {	@include elemTop(126);
-}
-#OverviewEx1_TextOutput2 {	@include elemLeft(95);
-}
-#OverviewEx1_TextOutput2 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput2 {	z-index: 18;
-}
-#OverviewEx1_Ellipse3 {	@include elemTop(330);
-}
-#OverviewEx1_Ellipse3 {	@include elemLeft(125);
-}
-#OverviewEx1_Ellipse3 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse3 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse3 {	z-index: 21;
-}
-#OverviewEx1_Ellipse3 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle10 {	@include elemTop(330);
-}
-#OverviewEx1_Rectangle10 {	@include elemLeft(155);
-}
-#OverviewEx1_Rectangle10 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle10 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle10 {	z-index: 19;
-}
-#OverviewEx1_Rectangle10 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle11 {	@include elemTop(370);
-}
-#OverviewEx1_Rectangle11 {	@include elemLeft(115);
-}
-#OverviewEx1_Rectangle11 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle11 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle11 {	z-index: 20;
-}
-#OverviewEx1_Rectangle11 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse4 {	@include elemTop(350);
-}
-#OverviewEx1_Ellipse4 {	@include elemLeft(145);
-}
-#OverviewEx1_Ellipse4 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse4 {	@include elemHeight(10);
-}
-#OverviewEx1_Ellipse4 {	z-index: 22;
-}
-#OverviewEx1_Ellipse4 {	background-color: rgba(255, 255, 255, 1);
 }
 #OverviewEx1_TextOutput4 {	@include elemAutoHeight(30);
 }
 #OverviewEx1_TextOutput4 {	@include elemTop(380);
 }
-#OverviewEx1_TextOutput4 {	@include elemLeft(115);
+#OverviewEx1_TextOutput4 {	@include elemLeft(196);
 }
 #OverviewEx1_TextOutput4 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput4 {	z-index: 23;
+#OverviewEx1_TextOutput4 {	z-index: 11;
 }
 #OverviewEx1_TextOutput4 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput12 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput12 {	@include elemTop(325);
-}
-#OverviewEx1_TextOutput12 {	@include elemLeft(95);
-}
-#OverviewEx1_TextOutput12 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput12 {	z-index: 24;
-}
 #OverviewEx1_TextOutput14 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput14 {	@include elemTop(599);
+#OverviewEx1_TextOutput14 {	@include elemTop(579);
 }
-#OverviewEx1_TextOutput14 {	@include elemLeft(135);
+#OverviewEx1_TextOutput14 {	@include elemLeft(195);
 }
 #OverviewEx1_TextOutput14 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput14 {	z-index: 25;
+#OverviewEx1_TextOutput14 {	z-index: 12;
 }
 #OverviewEx1_TextOutput14 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput15 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput15 {	@include elemTop(544);
-}
-#OverviewEx1_TextOutput15 {	@include elemLeft(115);
-}
-#OverviewEx1_TextOutput15 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput15 {	z-index: 26;
-}
-#OverviewEx1_Ellipse7 {	@include elemTop(730);
-}
-#OverviewEx1_Ellipse7 {	@include elemLeft(145);
-}
-#OverviewEx1_Ellipse7 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse7 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse7 {	z-index: 29;
-}
-#OverviewEx1_Ellipse7 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Rectangle14 {	@include elemTop(730);
-}
-#OverviewEx1_Rectangle14 {	@include elemLeft(175);
-}
-#OverviewEx1_Rectangle14 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle14 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle14 {	z-index: 27;
-}
-#OverviewEx1_Rectangle14 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Rectangle15 {	@include elemTop(770);
-}
-#OverviewEx1_Rectangle15 {	@include elemLeft(135);
-}
-#OverviewEx1_Rectangle15 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle15 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle15 {	z-index: 28;
-}
-#OverviewEx1_Rectangle15 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Ellipse8 {	@include elemTop(750);
-}
-#OverviewEx1_Ellipse8 {	@include elemLeft(165);
-}
-#OverviewEx1_Ellipse8 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse8 {	@include elemHeight(10);
-}
-#OverviewEx1_Ellipse8 {	z-index: 30;
-}
-#OverviewEx1_Ellipse8 {	background-color: rgba(128, 128, 128, 1);
-}
 #OverviewEx1_TextOutput17 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput17 {	@include elemTop(780);
+#OverviewEx1_TextOutput17 {	@include elemTop(800);
 }
-#OverviewEx1_TextOutput17 {	@include elemLeft(135);
+#OverviewEx1_TextOutput17 {	@include elemLeft(175);
 }
 #OverviewEx1_TextOutput17 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput17 {	z-index: 31;
+#OverviewEx1_TextOutput17 {	z-index: 13;
 }
 #OverviewEx1_TextOutput17 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput18 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput18 {	@include elemTop(725);
-}
-#OverviewEx1_TextOutput18 {	@include elemLeft(115);
-}
-#OverviewEx1_TextOutput18 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput18 {	z-index: 32;
-}
-#OverviewEx1_Ellipse9 {	@include elemTop(549);
-}
-#OverviewEx1_Ellipse9 {	@include elemLeft(145);
-}
-#OverviewEx1_Ellipse9 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse9 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse9 {	z-index: 35;
-}
-#OverviewEx1_Ellipse9 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Rectangle16 {	@include elemTop(549);
-}
-#OverviewEx1_Rectangle16 {	@include elemLeft(175);
-}
-#OverviewEx1_Rectangle16 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle16 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle16 {	z-index: 33;
-}
-#OverviewEx1_Rectangle16 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Rectangle17 {	@include elemTop(589);
-}
-#OverviewEx1_Rectangle17 {	@include elemLeft(135);
-}
-#OverviewEx1_Rectangle17 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle17 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle17 {	z-index: 34;
-}
-#OverviewEx1_Rectangle17 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Ellipse10 {	@include elemTop(569);
-}
-#OverviewEx1_Ellipse10 {	@include elemLeft(165);
-}
-#OverviewEx1_Ellipse10 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse10 {	@include elemHeight(10);
-}
-#OverviewEx1_Ellipse10 {	z-index: 36;
-}
-#OverviewEx1_Ellipse10 {	background-color: rgba(128, 128, 128, 1);
-}
-#OverviewEx1_Ellipse5 {	@include elemTop(170);
-}
-#OverviewEx1_Ellipse5 {	@include elemLeft(1290);
-}
-#OverviewEx1_Ellipse5 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse5 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse5 {	z-index: 39;
-}
-#OverviewEx1_Ellipse5 {	border-width: 2px;
-}
-#OverviewEx1_Ellipse5 {	border-color: rgba(255, 0, 0, 1);
-}
-#OverviewEx1_Ellipse5 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle12 {	@include elemTop(170);
-}
-#OverviewEx1_Rectangle12 {	@include elemLeft(1320);
-}
-#OverviewEx1_Rectangle12 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle12 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle12 {	z-index: 37;
-}
-#OverviewEx1_Rectangle12 {	border-width: 2px;
-}
-#OverviewEx1_Rectangle12 {	border-color: rgba(255, 0, 0, 1);
-}
-#OverviewEx1_Rectangle12 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle13 {	@include elemTop(210);
-}
-#OverviewEx1_Rectangle13 {	@include elemLeft(1290);
-}
-#OverviewEx1_Rectangle13 {	@include elemWidth(50);
-}
-#OverviewEx1_Rectangle13 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle13 {	z-index: 38;
-}
-#OverviewEx1_Rectangle13 {	border-width: 2px;
-}
-#OverviewEx1_Rectangle13 {	border-color: rgba(255, 0, 0, 1);
-}
-#OverviewEx1_Rectangle13 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse6 {	@include elemTop(185);
-}
-#OverviewEx1_Ellipse6 {	@include elemLeft(1305);
-}
-#OverviewEx1_Ellipse6 {	@include elemWidth(20);
-}
-#OverviewEx1_Ellipse6 {	@include elemHeight(20);
-}
-#OverviewEx1_Ellipse6 {	z-index: 40;
-}
-#OverviewEx1_Ellipse6 {	background-color: rgba(255, 255, 255, 1);
-}
 #OverviewEx1_TextOutput20 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput20 {	@include elemTop(220);
+#OverviewEx1_TextOutput20 {	@include elemTop(340);
 }
-#OverviewEx1_TextOutput20 {	@include elemLeft(1280);
+#OverviewEx1_TextOutput20 {	@include elemLeft(1340);
 }
 #OverviewEx1_TextOutput20 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput20 {	z-index: 41;
+#OverviewEx1_TextOutput20 {	z-index: 14;
 }
 #OverviewEx1_TextOutput20 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput21 {	@include elemAutoHeight(30);
+#OverviewEx1_Line33 {	z-index: 16;
 }
-#OverviewEx1_TextOutput21 {	@include elemTop(165);
-}
-#OverviewEx1_TextOutput21 {	@include elemLeft(1260);
-}
-#OverviewEx1_TextOutput21 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput21 {	z-index: 42;
-}
-#OverviewEx1_Line33 {	z-index: 44;
-}
-#OverviewEx1_Line34 {	z-index: 43;
-}
-#OverviewEx1_Ellipse11 {	@include elemTop(410);
-}
-#OverviewEx1_Ellipse11 {	@include elemLeft(1295);
-}
-#OverviewEx1_Ellipse11 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse11 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse11 {	z-index: 47;
-}
-#OverviewEx1_Ellipse11 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle21 {	@include elemTop(410);
-}
-#OverviewEx1_Rectangle21 {	@include elemLeft(1325);
-}
-#OverviewEx1_Rectangle21 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle21 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle21 {	z-index: 45;
-}
-#OverviewEx1_Rectangle21 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle22 {	@include elemTop(448);
-}
-#OverviewEx1_Rectangle22 {	@include elemLeft(1295);
-}
-#OverviewEx1_Rectangle22 {	@include elemWidth(51);
-}
-#OverviewEx1_Rectangle22 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle22 {	z-index: 46;
-}
-#OverviewEx1_Rectangle22 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse12 {	@include elemTop(430);
-}
-#OverviewEx1_Ellipse12 {	@include elemLeft(1315);
-}
-#OverviewEx1_Ellipse12 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse12 {	@include elemHeight(10);
-}
-#OverviewEx1_Ellipse12 {	z-index: 48;
-}
-#OverviewEx1_Ellipse12 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_TextOutput57 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput57 {	@include elemTop(400);
-}
-#OverviewEx1_TextOutput57 {	@include elemLeft(1265);
-}
-#OverviewEx1_TextOutput57 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput57 {	z-index: 49;
+#OverviewEx1_Line34 {	z-index: 15;
 }
 #OverviewEx1_TextOutput56 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput56 {	@include elemTop(460);
+#OverviewEx1_TextOutput56 {	@include elemTop(580);
 }
-#OverviewEx1_TextOutput56 {	@include elemLeft(1280);
+#OverviewEx1_TextOutput56 {	@include elemLeft(1340);
 }
 #OverviewEx1_TextOutput56 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput56 {	z-index: 50;
+#OverviewEx1_TextOutput56 {	z-index: 17;
 }
 #OverviewEx1_TextOutput56 {	@include text-alignment-all('center');
 }
-#OverviewEx1_Ellipse13 {	@include elemTop(630);
-}
-#OverviewEx1_Ellipse13 {	@include elemLeft(1305);
-}
-#OverviewEx1_Ellipse13 {	@include elemWidth(50);
-}
-#OverviewEx1_Ellipse13 {	@include elemHeight(50);
-}
-#OverviewEx1_Ellipse13 {	z-index: 53;
-}
-#OverviewEx1_Ellipse13 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle23 {	@include elemTop(630);
-}
-#OverviewEx1_Rectangle23 {	@include elemLeft(1335);
-}
-#OverviewEx1_Rectangle23 {	@include elemWidth(30);
-}
-#OverviewEx1_Rectangle23 {	@include elemHeight(12);
-}
-#OverviewEx1_Rectangle23 {	z-index: 51;
-}
-#OverviewEx1_Rectangle23 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Rectangle24 {	@include elemTop(670);
-}
-#OverviewEx1_Rectangle24 {	@include elemLeft(1305);
-}
-#OverviewEx1_Rectangle24 {	@include elemWidth(50);
-}
-#OverviewEx1_Rectangle24 {	@include elemHeight(10);
-}
-#OverviewEx1_Rectangle24 {	z-index: 52;
-}
-#OverviewEx1_Rectangle24 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse14 {	@include elemTop(650);
-}
-#OverviewEx1_Ellipse14 {	@include elemLeft(1325);
-}
-#OverviewEx1_Ellipse14 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse14 {	@include elemHeight(10);
-}
-#OverviewEx1_Ellipse14 {	z-index: 54;
-}
-#OverviewEx1_Ellipse14 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_TextOutput59 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_TextOutput59 {	@include elemTop(625);
-}
-#OverviewEx1_TextOutput59 {	@include elemLeft(1275);
-}
-#OverviewEx1_TextOutput59 {	@include elemAutoWidth(30);
-}
-#OverviewEx1_TextOutput59 {	z-index: 55;
-}
 #OverviewEx1_TextOutput60 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput60 {	@include elemTop(680);
+#OverviewEx1_TextOutput60 {	@include elemTop(780);
 }
-#OverviewEx1_TextOutput60 {	@include elemLeft(1300);
+#OverviewEx1_TextOutput60 {	@include elemLeft(1360);
 }
 #OverviewEx1_TextOutput60 {	@include elemAutoWidth(70);
 }
-#OverviewEx1_TextOutput60 {	z-index: 56;
+#OverviewEx1_TextOutput60 {	z-index: 18;
 }
 #OverviewEx1_TextOutput60 {	@include text-alignment-all('center');
 }
-#OverviewEx1_ProgressBar7 {	@include elemTop(320);
+#OverviewEx1_ProgressBar7 {	@include elemTop(620);
 }
-#OverviewEx1_ProgressBar7 {	@include elemLeft(980);
+#OverviewEx1_ProgressBar7 {	@include elemLeft(1240);
 }
 #OverviewEx1_ProgressBar7 {	@include elemWidth(70);
 }
 #OverviewEx1_ProgressBar7 {	@include elemHeight(230);
 }
-#OverviewEx1_ProgressBar7 {	z-index: 60;
+#OverviewEx1_ProgressBar7 {	z-index: 22;
 }
 #OverviewEx1_ProgressBar7 {	.pb-bar-container {
 		border-style: none;
@@ -763,681 +333,475 @@
 		@include backGroundGradient('');
 	}
 }
-#OverviewEx1_Rectangle25 {	@include elemTop(315);
+#OverviewEx1_Rectangle25 {	@include elemTop(615);
 }
-#OverviewEx1_Rectangle25 {	@include elemLeft(970);
+#OverviewEx1_Rectangle25 {	@include elemLeft(1230);
 }
 #OverviewEx1_Rectangle25 {	@include elemWidth(90);
 }
 #OverviewEx1_Rectangle25 {	@include elemHeight(240);
 }
-#OverviewEx1_Rectangle25 {	z-index: 59;
+#OverviewEx1_Rectangle25 {	z-index: 21;
 }
 #OverviewEx1_Rectangle25 {	background-color: rgba(128, 128, 128, 1);
 }
-#OverviewEx1_Ellipse15 {	@include elemTop(525);
+#OverviewEx1_Ellipse15 {	@include elemTop(825);
 }
-#OverviewEx1_Ellipse15 {	@include elemLeft(970);
+#OverviewEx1_Ellipse15 {	@include elemLeft(1230);
 }
 #OverviewEx1_Ellipse15 {	@include elemWidth(90);
 }
 #OverviewEx1_Ellipse15 {	@include elemHeight(50);
 }
-#OverviewEx1_Ellipse15 {	z-index: 57;
+#OverviewEx1_Ellipse15 {	z-index: 19;
 }
 #OverviewEx1_Ellipse15 {	background-color: rgba(128, 128, 128, 1);
 }
-#OverviewEx1_Ellipse16 {	@include elemTop(295);
+#OverviewEx1_Ellipse16 {	@include elemTop(595);
 }
-#OverviewEx1_Ellipse16 {	@include elemLeft(970);
+#OverviewEx1_Ellipse16 {	@include elemLeft(1230);
 }
 #OverviewEx1_Ellipse16 {	@include elemWidth(90);
 }
 #OverviewEx1_Ellipse16 {	@include elemHeight(50);
 }
-#OverviewEx1_Ellipse16 {	z-index: 58;
+#OverviewEx1_Ellipse16 {	z-index: 20;
 }
 #OverviewEx1_Ellipse16 {	background-color: rgba(128, 128, 128, 1);
 }
-#OverviewEx1_Line39 {	z-index: 61;
+#OverviewEx1_Line39 {	z-index: 23;
 }
-#OverviewEx1_Line40 {	z-index: 62;
+#OverviewEx1_Line40 {	z-index: 24;
 }
-#OverviewEx1_Line41 {	z-index: 63;
-}
-#OverviewEx1_Rectangle27 {	@include elemTop(315);
-}
-#OverviewEx1_Rectangle27 {	@include elemLeft(610);
-}
-#OverviewEx1_Rectangle27 {	@include elemWidth(150);
-}
-#OverviewEx1_Rectangle27 {	@include elemHeight(105);
-}
-#OverviewEx1_Rectangle27 {	z-index: 64;
-}
-#OverviewEx1_Rectangle27 {	background-color: rgba(192, 192, 192, 1);
+#OverviewEx1_Line41 {	z-index: 25;
 }
 #OverviewEx1_TextOutput66 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput66 {	@include elemTop(320);
+#OverviewEx1_TextOutput66 {	@include elemTop(480);
 }
-#OverviewEx1_TextOutput66 {	@include elemLeft(620);
+#OverviewEx1_TextOutput66 {	@include elemLeft(700);
 }
 #OverviewEx1_TextOutput66 {	@include elemAutoWidth(135);
 }
-#OverviewEx1_TextOutput66 {	z-index: 65;
-}
-#OverviewEx1_TextOutput71 {	@include elemTop(40);
-}
-#OverviewEx1_TextOutput71 {	@include elemLeft(1360);
-}
-#OverviewEx1_TextOutput71 {	@include elemAutoWidth(145);
-}
-#OverviewEx1_TextOutput71 {	@include elemAutoHeight(45);
-}
-#OverviewEx1_TextOutput71 {	z-index: 66;
-}
-#OverviewEx1_TextOutput71 {	border-width: 2px;
-}
-#OverviewEx1_TextOutput71 {	background-color: rgba(0, 255, 0, 1);
-}
-#OverviewEx1_TextOutput71 {	border-color: rgba(71, 71, 71, 1);
-}
-#OverviewEx1_TextOutput71 {	&:before {
-		border-color: rgba(71, 71, 71, 1);
-	}
-}
-#OverviewEx1_TextOutput71 {	&:after {
-		border-color: rgba(71, 71, 71, 1);
-	}
-}
-#OverviewEx1_TextOutput71 {	border-style: solid;
-}
-#OverviewEx1_TextOutput71 {	&:before {
-		border-style: solid;
-	}
-}
-#OverviewEx1_TextOutput71 {	&:after {
-		border-style: solid;
-	}
-}
-#OverviewEx1_TextOutput71 {	@include text-alignment-all('center');
-}
-#OverviewEx1_TextOutput73 {	@include elemTop(40);
-}
-#OverviewEx1_TextOutput73 {	@include elemLeft(1520);
-}
-#OverviewEx1_TextOutput73 {	@include elemAutoWidth(110);
-}
-#OverviewEx1_TextOutput73 {	@include elemAutoHeight(45);
-}
-#OverviewEx1_TextOutput73 {	z-index: 67;
-}
-#OverviewEx1_TextOutput73 {	border-width: 2px;
-}
-#OverviewEx1_TextOutput73 {	background-color: rgba(255, 0, 0, 1);
-}
-#OverviewEx1_TextOutput73 {	border-color: rgba(71, 71, 71, 1);
-}
-#OverviewEx1_TextOutput73 {	&:before {
-		border-color: rgba(71, 71, 71, 1);
-	}
-}
-#OverviewEx1_TextOutput73 {	&:after {
-		border-color: rgba(71, 71, 71, 1);
-	}
-}
-#OverviewEx1_TextOutput73 {	border-style: solid;
-}
-#OverviewEx1_TextOutput73 {	&:before {
-		border-style: solid;
-	}
-}
-#OverviewEx1_TextOutput73 {	&:after {
-		border-style: solid;
-	}
-}
-#OverviewEx1_TextOutput73 {	@include text-alignment-all('center');
-}
-#OverviewEx1_Rectangle31 {	@include elemTop(500);
-}
-#OverviewEx1_Rectangle31 {	@include elemLeft(620);
-}
-#OverviewEx1_Rectangle31 {	@include elemWidth(150);
-}
-#OverviewEx1_Rectangle31 {	@include elemHeight(105);
-}
-#OverviewEx1_Rectangle31 {	z-index: 68;
-}
-#OverviewEx1_Rectangle31 {	background-color: rgba(192, 192, 192, 1);
+#OverviewEx1_TextOutput66 {	z-index: 26;
 }
 #OverviewEx1_TextOutput74 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput74 {	@include elemTop(505);
+#OverviewEx1_TextOutput74 {	@include elemTop(705);
 }
-#OverviewEx1_TextOutput74 {	@include elemLeft(630);
+#OverviewEx1_TextOutput74 {	@include elemLeft(730);
 }
 #OverviewEx1_TextOutput74 {	@include elemAutoWidth(135);
 }
-#OverviewEx1_TextOutput74 {	z-index: 69;
+#OverviewEx1_TextOutput74 {	z-index: 27;
 }
-#OverviewEx1_Line3 {	z-index: 0;
+#OverviewEx1_P101_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_Line3 {	line {
-		stroke-width: 2px;
-	}
+#OverviewEx1_P101_PV {	@include elemTop(60);
 }
-#OverviewEx1_Line14 {	z-index: 70;
+#OverviewEx1_P101_PV {	@include elemLeft(-80);
 }
-#OverviewEx1_Line14 {	line {
-		stroke-width: 2px;
-	}
+#OverviewEx1_P101_PV {	@include elemAutoWidth(220);
 }
-#OverviewEx1_Line15 {	z-index: 71;
+#OverviewEx1_P101_PV {	z-index: 28;
 }
-#OverviewEx1_Line15 {	line {
-		stroke-width: 2px;
-	}
+#OverviewEx1_P101_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_Line16 {	z-index: 72;
+#OverviewEx1_P101_FQ {	@include elemTop(80);
 }
-#OverviewEx1_Line16 {	line {
-		stroke-width: 2px;
-	}
+#OverviewEx1_P101_FQ {	@include elemLeft(-80);
 }
-#OverviewEx1_Ellipse17 {	@include elemTop(425);
+#OverviewEx1_P101_FQ {	@include elemAutoWidth(220);
 }
-#OverviewEx1_Ellipse17 {	@include elemLeft(1310);
+#OverviewEx1_P101_FQ {	z-index: 29;
 }
-#OverviewEx1_Ellipse17 {	@include elemWidth(21);
-}
-#OverviewEx1_Ellipse17 {	@include elemHeight(20);
-}
-#OverviewEx1_Ellipse17 {	z-index: 73;
-}
-#OverviewEx1_Ellipse17 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse18 {	@include elemTop(645);
-}
-#OverviewEx1_Ellipse18 {	@include elemLeft(1320);
-}
-#OverviewEx1_Ellipse18 {	@include elemWidth(20);
-}
-#OverviewEx1_Ellipse18 {	@include elemHeight(20);
-}
-#OverviewEx1_Ellipse18 {	z-index: 74;
-}
-#OverviewEx1_Ellipse18 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse19 {	@include elemTop(156);
-}
-#OverviewEx1_Ellipse19 {	@include elemLeft(144);
-}
-#OverviewEx1_Ellipse19 {	@include elemWidth(10);
-}
-#OverviewEx1_Ellipse19 {	@include elemHeight(25);
-}
-#OverviewEx1_Ellipse19 {	z-index: 75;
-}
-#OverviewEx1_Ellipse19 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse20 {	@include elemTop(150);
-}
-#OverviewEx1_Ellipse20 {	@include elemLeft(126);
-}
-#OverviewEx1_Ellipse20 {	@include elemWidth(21);
-}
-#OverviewEx1_Ellipse20 {	@include elemHeight(12);
-}
-#OverviewEx1_Ellipse20 {	z-index: 76;
-}
-#OverviewEx1_Ellipse20 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse21 {	@include elemTop(150);
-}
-#OverviewEx1_Ellipse21 {	@include elemLeft(150);
-}
-#OverviewEx1_Ellipse21 {	@include elemWidth(24);
-}
-#OverviewEx1_Ellipse21 {	@include elemHeight(12);
-}
-#OverviewEx1_Ellipse21 {	z-index: 77;
-}
-#OverviewEx1_Ellipse21 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Ellipse22 {	@include elemTop(345);
-}
-#OverviewEx1_Ellipse22 {	@include elemLeft(140);
-}
-#OverviewEx1_Ellipse22 {	@include elemWidth(20);
-}
-#OverviewEx1_Ellipse22 {	@include elemHeight(20);
-}
-#OverviewEx1_Ellipse22 {	z-index: 78;
-}
-#OverviewEx1_Ellipse22 {	background-color: rgba(255, 255, 255, 1);
-}
-#OverviewEx1_Line20 {	z-index: 79;
-}
-#OverviewEx1_Line21 {	z-index: 80;
-}
-#OverviewEx1_NumericOutput1 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_NumericOutput1 {	@include elemTop(120);
-}
-#OverviewEx1_NumericOutput1 {	@include elemLeft(100);
-}
-#OverviewEx1_NumericOutput1 {	@include elemAutoWidth(220);
-}
-#OverviewEx1_NumericOutput1 {	z-index: 81;
-}
-#OverviewEx1_NumericOutput3 {	@include elemAutoHeight(30);
-}
-#OverviewEx1_NumericOutput3 {	@include elemTop(140);
-}
-#OverviewEx1_NumericOutput3 {	@include elemLeft(100);
-}
-#OverviewEx1_NumericOutput3 {	@include elemAutoWidth(220);
-}
-#OverviewEx1_NumericOutput3 {	z-index: 82;
-}
-#OverviewEx1_NumericOutput3 {	padding: 0px 15px 0px 15px;
+#OverviewEx1_P101_FQ {	padding: 0px 15px 0px 15px;
 }
 #OverviewEx1_P101_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P101_TI {	@include elemTop(160);
+#OverviewEx1_P101_TI {	@include elemTop(100);
 }
-#OverviewEx1_P101_TI {	@include elemLeft(100);
+#OverviewEx1_P101_TI {	@include elemLeft(-80);
 }
 #OverviewEx1_P101_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_P101_TI {	z-index: 83;
+#OverviewEx1_P101_TI {	z-index: 30;
 }
 #OverviewEx1_P101_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P101_PI {	@include elemTop(140);
+#OverviewEx1_P101_PI {	@include elemTop(80);
 }
-#OverviewEx1_P101_PI {	@include elemLeft(200);
+#OverviewEx1_P101_PI {	@include elemLeft(20);
 }
 #OverviewEx1_P101_PI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_P101_PI {	z-index: 84;
+#OverviewEx1_P101_PI {	z-index: 31;
 }
-#OverviewEx1_NumericOutput7 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput7 {	@include elemTop(200);
+#OverviewEx1_P201_PV {	@include elemTop(260);
 }
-#OverviewEx1_NumericOutput7 {	@include elemLeft(1360);
+#OverviewEx1_P201_PV {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput7 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_PV {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput7 {	z-index: 85;
+#OverviewEx1_P201_PV {	z-index: 32;
 }
-#OverviewEx1_NumericOutput8 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput8 {	@include elemTop(220);
+#OverviewEx1_P201_FQ {	@include elemTop(280);
 }
-#OverviewEx1_NumericOutput8 {	@include elemLeft(1360);
+#OverviewEx1_P201_FQ {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput8 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_FQ {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput8 {	z-index: 86;
+#OverviewEx1_P201_FQ {	z-index: 33;
 }
-#OverviewEx1_NumericOutput8 {	padding: 0px 15px 0px 15px;
+#OverviewEx1_P201_FQ {	padding: 0px 15px 0px 15px;
 }
-#OverviewEx1_NumericOutput9 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput9 {	@include elemTop(240);
+#OverviewEx1_P201_TI {	@include elemTop(300);
 }
-#OverviewEx1_NumericOutput9 {	@include elemLeft(1360);
+#OverviewEx1_P201_TI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput9 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput9 {	z-index: 87;
+#OverviewEx1_P201_TI {	z-index: 34;
 }
-#OverviewEx1_NumericOutput10 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput10 {	@include elemTop(219);
+#OverviewEx1_P201_PI {	@include elemTop(280);
 }
-#OverviewEx1_NumericOutput10 {	@include elemLeft(1460);
+#OverviewEx1_P201_PI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput10 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_PI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput10 {	z-index: 88;
+#OverviewEx1_P201_PI {	z-index: 35;
 }
-#OverviewEx1_NumericOutput11 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput11 {	@include elemTop(460);
+#OverviewEx1_P202_PV {	@include elemTop(520);
 }
-#OverviewEx1_NumericOutput11 {	@include elemLeft(1360);
+#OverviewEx1_P202_PV {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput11 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_PV {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput11 {	z-index: 89;
+#OverviewEx1_P202_PV {	z-index: 36;
 }
-#OverviewEx1_NumericOutput12 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput12 {	@include elemTop(480);
+#OverviewEx1_P202_FQ {	@include elemTop(540);
 }
-#OverviewEx1_NumericOutput12 {	@include elemLeft(1360);
+#OverviewEx1_P202_FQ {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput12 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_FQ {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput12 {	z-index: 90;
+#OverviewEx1_P202_FQ {	z-index: 37;
 }
-#OverviewEx1_NumericOutput12 {	padding: 0px 15px 0px 15px;
+#OverviewEx1_P202_FQ {	padding: 0px 15px 0px 15px;
 }
-#OverviewEx1_NumericOutput13 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput13 {	@include elemTop(500);
+#OverviewEx1_P202_TI {	@include elemTop(560);
 }
-#OverviewEx1_NumericOutput13 {	@include elemLeft(1360);
+#OverviewEx1_P202_TI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput13 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput13 {	z-index: 91;
+#OverviewEx1_P202_TI {	z-index: 38;
 }
-#OverviewEx1_NumericOutput14 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput14 {	@include elemTop(480);
+#OverviewEx1_P202_PI {	@include elemTop(540);
 }
-#OverviewEx1_NumericOutput14 {	@include elemLeft(1460);
+#OverviewEx1_P202_PI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput14 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_PI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput14 {	z-index: 92;
+#OverviewEx1_P202_PI {	z-index: 39;
 }
-#OverviewEx1_NumericOutput15 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput15 {	@include elemTop(720);
+#OverviewEx1_P203_PV {	@include elemTop(760);
 }
-#OverviewEx1_NumericOutput15 {	@include elemLeft(1360);
+#OverviewEx1_P203_PV {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput15 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_PV {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput15 {	z-index: 93;
+#OverviewEx1_P203_PV {	z-index: 40;
 }
-#OverviewEx1_NumericOutput16 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput16 {	@include elemTop(740);
+#OverviewEx1_P203_FQ {	@include elemTop(780);
 }
-#OverviewEx1_NumericOutput16 {	@include elemLeft(1360);
+#OverviewEx1_P203_FQ {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput16 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_FQ {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput16 {	z-index: 94;
+#OverviewEx1_P203_FQ {	z-index: 41;
 }
-#OverviewEx1_NumericOutput16 {	padding: 0px 15px 0px 15px;
+#OverviewEx1_P203_FQ {	padding: 0px 15px 0px 15px;
 }
-#OverviewEx1_NumericOutput17 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput17 {	@include elemTop(760);
+#OverviewEx1_P203_TI {	@include elemTop(800);
 }
-#OverviewEx1_NumericOutput17 {	@include elemLeft(1360);
+#OverviewEx1_P203_TI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput17 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput17 {	z-index: 95;
+#OverviewEx1_P203_TI {	z-index: 42;
 }
-#OverviewEx1_NumericOutput18 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput18 {	@include elemTop(740);
+#OverviewEx1_P203_PI {	@include elemTop(780);
 }
-#OverviewEx1_NumericOutput18 {	@include elemLeft(1460);
+#OverviewEx1_P203_PI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput18 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_PI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput18 {	z-index: 96;
+#OverviewEx1_P203_PI {	z-index: 43;
 }
-#OverviewEx1_NumericOutput19 {	@include elemAutoHeight(30);
+#OverviewEx1_P102_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput19 {	@include elemTop(400);
+#OverviewEx1_P102_PPI {	@include elemTop(420);
 }
-#OverviewEx1_NumericOutput19 {	@include elemLeft(180);
+#OverviewEx1_P102_PPI {	@include elemLeft(81);
 }
-#OverviewEx1_NumericOutput19 {	@include elemAutoWidth(220);
+#OverviewEx1_P102_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput19 {	z-index: 97;
+#OverviewEx1_P102_PPI {	z-index: 44;
 }
-#OverviewEx1_NumericOutput20 {	@include elemAutoHeight(30);
+#OverviewEx1_P102_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput20 {	@include elemTop(400);
+#OverviewEx1_P102_PFI {	@include elemTop(420);
 }
-#OverviewEx1_NumericOutput20 {	@include elemLeft(80);
+#OverviewEx1_P102_PFI {	@include elemLeft(-19);
 }
-#OverviewEx1_NumericOutput20 {	@include elemAutoWidth(220);
+#OverviewEx1_P102_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput20 {	z-index: 98;
+#OverviewEx1_P102_PFI {	z-index: 45;
 }
-#OverviewEx1_NumericOutput21 {	@include elemAutoHeight(30);
+#OverviewEx1_P103_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput21 {	@include elemTop(620);
+#OverviewEx1_P103_PPI {	@include elemTop(620);
 }
-#OverviewEx1_NumericOutput21 {	@include elemLeft(180);
+#OverviewEx1_P103_PPI {	@include elemLeft(60);
 }
-#OverviewEx1_NumericOutput21 {	@include elemAutoWidth(220);
+#OverviewEx1_P103_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput21 {	z-index: 99;
+#OverviewEx1_P103_PPI {	z-index: 46;
 }
-#OverviewEx1_NumericOutput22 {	@include elemAutoHeight(30);
+#OverviewEx1_P103_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput22 {	@include elemTop(620);
+#OverviewEx1_P103_PFI {	@include elemTop(620);
 }
-#OverviewEx1_NumericOutput22 {	@include elemLeft(80);
+#OverviewEx1_P103_PFI {	@include elemLeft(-40);
 }
-#OverviewEx1_NumericOutput22 {	@include elemAutoWidth(220);
+#OverviewEx1_P103_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput22 {	z-index: 100;
+#OverviewEx1_P103_PFI {	z-index: 47;
 }
-#OverviewEx1_NumericOutput23 {	@include elemAutoHeight(30);
+#OverviewEx1_P104_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput23 {	@include elemTop(800);
+#OverviewEx1_P104_PPI {	@include elemTop(860);
 }
-#OverviewEx1_NumericOutput23 {	@include elemLeft(180);
+#OverviewEx1_P104_PPI {	@include elemLeft(40);
 }
-#OverviewEx1_NumericOutput23 {	@include elemAutoWidth(220);
+#OverviewEx1_P104_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput23 {	z-index: 101;
+#OverviewEx1_P104_PPI {	z-index: 48;
 }
-#OverviewEx1_NumericOutput24 {	@include elemAutoHeight(30);
+#OverviewEx1_P104_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput24 {	@include elemTop(800);
+#OverviewEx1_P104_PFI {	@include elemTop(860);
 }
-#OverviewEx1_NumericOutput24 {	@include elemLeft(80);
+#OverviewEx1_P104_PFI {	@include elemLeft(-60);
 }
-#OverviewEx1_NumericOutput24 {	@include elemAutoWidth(220);
+#OverviewEx1_P104_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput24 {	z-index: 102;
+#OverviewEx1_P104_PFI {	z-index: 49;
 }
-#OverviewEx1_NumericOutput25 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput25 {	@include elemTop(300);
+#OverviewEx1_P201_PPI {	@include elemTop(380);
 }
-#OverviewEx1_NumericOutput25 {	@include elemLeft(1340);
+#OverviewEx1_P201_PPI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput25 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput25 {	z-index: 103;
+#OverviewEx1_P201_PPI {	z-index: 50;
 }
-#OverviewEx1_NumericOutput27 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput27 {	@include elemTop(540);
+#OverviewEx1_P202_PPI {	@include elemTop(640);
 }
-#OverviewEx1_NumericOutput27 {	@include elemLeft(1340);
+#OverviewEx1_P202_PPI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput27 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput27 {	z-index: 104;
+#OverviewEx1_P202_PPI {	z-index: 51;
 }
-#OverviewEx1_NumericOutput28 {	@include elemAutoHeight(30);
+#OverviewEx1_P202_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput28 {	@include elemTop(540);
+#OverviewEx1_P202_PFI {	@include elemTop(640);
 }
-#OverviewEx1_NumericOutput28 {	@include elemLeft(1240);
+#OverviewEx1_P202_PFI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput28 {	@include elemAutoWidth(220);
+#OverviewEx1_P202_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput28 {	z-index: 105;
+#OverviewEx1_P202_PFI {	z-index: 52;
 }
-#OverviewEx1_NumericOutput29 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_PPI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput29 {	@include elemTop(820);
+#OverviewEx1_P203_PPI {	@include elemTop(880);
 }
-#OverviewEx1_NumericOutput29 {	@include elemLeft(1340);
+#OverviewEx1_P203_PPI {	@include elemLeft(1520);
 }
-#OverviewEx1_NumericOutput29 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_PPI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput29 {	z-index: 106;
+#OverviewEx1_P203_PPI {	z-index: 53;
 }
-#OverviewEx1_NumericOutput30 {	@include elemAutoHeight(30);
+#OverviewEx1_P203_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput30 {	@include elemTop(820);
+#OverviewEx1_P203_PFI {	@include elemTop(880);
 }
-#OverviewEx1_NumericOutput30 {	@include elemLeft(1240);
+#OverviewEx1_P203_PFI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput30 {	@include elemAutoWidth(220);
+#OverviewEx1_P203_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput30 {	z-index: 107;
+#OverviewEx1_P203_PFI {	z-index: 54;
 }
-#OverviewEx1_NumericOutput26 {	@include elemAutoHeight(30);
+#OverviewEx1_LI200 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput26 {	@include elemTop(260);
+#OverviewEx1_LI200 {	@include elemTop(560);
 }
-#OverviewEx1_NumericOutput26 {	@include elemLeft(920);
+#OverviewEx1_LI200 {	@include elemLeft(1100);
 }
-#OverviewEx1_NumericOutput26 {	@include elemAutoWidth(220);
+#OverviewEx1_LI200 {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput26 {	z-index: 108;
+#OverviewEx1_LI200 {	z-index: 55;
 }
-#OverviewEx1_NumericOutput31 {	@include elemAutoHeight(30);
+#OverviewEx1_P201_PFI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput31 {	@include elemTop(300);
+#OverviewEx1_P201_PFI {	@include elemTop(380);
 }
-#OverviewEx1_NumericOutput31 {	@include elemLeft(1240);
+#OverviewEx1_P201_PFI {	@include elemLeft(1420);
 }
-#OverviewEx1_NumericOutput31 {	@include elemAutoWidth(220);
+#OverviewEx1_P201_PFI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput31 {	z-index: 109;
+#OverviewEx1_P201_PFI {	z-index: 56;
 }
-#OverviewEx1_NumericOutput32 {	@include elemAutoHeight(30);
+#OverviewEx1_CD101_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput32 {	@include elemTop(340);
+#OverviewEx1_CD101_TI {	@include elemTop(500);
 }
-#OverviewEx1_NumericOutput32 {	@include elemLeft(520);
+#OverviewEx1_CD101_TI {	@include elemLeft(600);
 }
-#OverviewEx1_NumericOutput32 {	@include elemAutoWidth(220);
+#OverviewEx1_CD101_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput32 {	z-index: 110;
+#OverviewEx1_CD101_TI {	z-index: 57;
 }
-#OverviewEx1_NumericOutput33 {	@include elemAutoHeight(30);
+#OverviewEx1_CD101 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput33 {	@include elemTop(360);
+#OverviewEx1_CD101 {	@include elemTop(520);
 }
-#OverviewEx1_NumericOutput33 {	@include elemLeft(520);
+#OverviewEx1_CD101 {	@include elemLeft(600);
 }
-#OverviewEx1_NumericOutput33 {	@include elemAutoWidth(220);
+#OverviewEx1_CD101 {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput33 {	z-index: 111;
+#OverviewEx1_CD101 {	z-index: 58;
 }
-#OverviewEx1_NumericOutput34 {	@include elemAutoHeight(30);
+#OverviewEx1_CD101_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput34 {	@include elemTop(380);
+#OverviewEx1_CD101_SP {	@include elemTop(540);
 }
-#OverviewEx1_NumericOutput34 {	@include elemLeft(520);
+#OverviewEx1_CD101_SP {	@include elemLeft(600);
 }
-#OverviewEx1_NumericOutput34 {	@include elemAutoWidth(220);
+#OverviewEx1_CD101_SP {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput34 {	z-index: 112;
+#OverviewEx1_CD101_SP {	z-index: 59;
 }
-#OverviewEx1_NumericOutput35 {	@include elemAutoHeight(30);
+#OverviewEx1_CD102_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput35 {	@include elemTop(540);
+#OverviewEx1_CD102_TI {	@include elemTop(740);
 }
-#OverviewEx1_NumericOutput35 {	@include elemLeft(520);
+#OverviewEx1_CD102_TI {	@include elemLeft(620);
 }
-#OverviewEx1_NumericOutput35 {	@include elemAutoWidth(220);
+#OverviewEx1_CD102_TI {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput35 {	z-index: 113;
+#OverviewEx1_CD102_TI {	z-index: 60;
 }
-#OverviewEx1_NumericOutput36 {	@include elemAutoHeight(30);
+#OverviewEx1_CD102 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput36 {	@include elemTop(560);
+#OverviewEx1_CD102 {	@include elemTop(760);
 }
-#OverviewEx1_NumericOutput36 {	@include elemLeft(520);
+#OverviewEx1_CD102 {	@include elemLeft(620);
 }
-#OverviewEx1_NumericOutput36 {	@include elemAutoWidth(220);
+#OverviewEx1_CD102 {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput36 {	z-index: 114;
+#OverviewEx1_CD102 {	z-index: 61;
 }
-#OverviewEx1_NumericOutput37 {	@include elemAutoHeight(30);
+#OverviewEx1_CD102_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput37 {	@include elemTop(580);
+#OverviewEx1_CD102_SP {	@include elemTop(780);
 }
-#OverviewEx1_NumericOutput37 {	@include elemLeft(520);
+#OverviewEx1_CD102_SP {	@include elemLeft(620);
 }
-#OverviewEx1_NumericOutput37 {	@include elemAutoWidth(220);
+#OverviewEx1_CD102_SP {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput37 {	z-index: 115;
+#OverviewEx1_CD102_SP {	z-index: 62;
 }
-#OverviewEx1_NumericOutput2 {	@include elemAutoHeight(30);
+#OverviewEx1_P104_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput2 {	@include elemTop(740);
+#OverviewEx1_P104_PV {	@include elemTop(820);
 }
-#OverviewEx1_NumericOutput2 {	@include elemLeft(260);
+#OverviewEx1_P104_PV {	@include elemLeft(200);
 }
-#OverviewEx1_NumericOutput2 {	@include elemAutoWidth(220);
+#OverviewEx1_P104_PV {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput2 {	z-index: 116;
+#OverviewEx1_P104_PV {	z-index: 63;
 }
 #OverviewEx1_NumericOutput38 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NumericOutput38 {	@include elemTop(120);
+#OverviewEx1_NumericOutput38 {	@include elemTop(40);
 }
-#OverviewEx1_NumericOutput38 {	@include elemLeft(540);
+#OverviewEx1_NumericOutput38 {	@include elemLeft(1480);
 }
 #OverviewEx1_NumericOutput38 {	@include elemAutoWidth(220);
 }
-#OverviewEx1_NumericOutput38 {	z-index: 117;
+#OverviewEx1_NumericOutput38 {	z-index: 64;
 }
 #OverviewEx1_NI_Write_EFF_1 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_EFF_1 {	@include elemTop(220);
+#OverviewEx1_NI_Write_EFF_1 {	@include elemTop(180);
 }
-#OverviewEx1_NI_Write_EFF_1 {	@include elemLeft(380);
+#OverviewEx1_NI_Write_EFF_1 {	@include elemLeft(840);
 }
 #OverviewEx1_NI_Write_EFF_1 {	@include elemAutoWidth(180);
 }
-#OverviewEx1_NI_Write_EFF_1 {	z-index: 118;
+#OverviewEx1_NI_Write_EFF_1 {	z-index: 65;
 }
 #OverviewEx1_PB_Write_EFF_1 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_EFF_1 {	@include elemTop(260);
+#OverviewEx1_PB_Write_EFF_1 {	@include elemTop(220);
 }
-#OverviewEx1_PB_Write_EFF_1 {	@include elemLeft(380);
+#OverviewEx1_PB_Write_EFF_1 {	@include elemLeft(840);
 }
 #OverviewEx1_PB_Write_EFF_1 {	@include elemAutoWidth(180);
 }
-#OverviewEx1_PB_Write_EFF_1 {	z-index: 119;
+#OverviewEx1_PB_Write_EFF_1 {	z-index: 66;
 }
-#OverviewEx1_Image1 {	@include elemTop(40);
+#OverviewEx1_OnlineChart1 {	@include elemTop(460);
 }
-#OverviewEx1_Image1 {	@include elemLeft(900);
+#OverviewEx1_OnlineChart1 {	@include elemLeft(800);
 }
-#OverviewEx1_Image1 {	@include elemAutoWidth(160);
+#OverviewEx1_OnlineChart1 {	@include elemWidth(380);
 }
-#OverviewEx1_Image1 {	@include elemAutoHeight(120);
+#OverviewEx1_OnlineChart1 {	@include elemHeight(221);
 }
-#OverviewEx1_Image1 {	z-index: 120;
-}
-#OverviewEx1_OnlineChart1 {	@include elemTop(620);
-}
-#OverviewEx1_OnlineChart1 {	@include elemLeft(760);
-}
-#OverviewEx1_OnlineChart1 {	@include elemWidth(440);
-}
-#OverviewEx1_OnlineChart1 {	@include elemHeight(280);
-}
-#OverviewEx1_OnlineChart1 {	z-index: 121;
+#OverviewEx1_OnlineChart1 {	z-index: 67;
 }
 #OverviewEx1_OnlineChartTimeAxis1 {	@include elemHeight(50);
 }
@@ -1451,5 +815,119 @@
 }
 #OverviewEx1_OnlineChartYAxis1 {	z-index: 1;
 }
-#OverviewEx1_OnlineChartGraph1 {	z-index: 0;
+#OverviewEx1_CD101_CHART {	z-index: 0;
+}
+#OverviewEx1_OnlineChart2 {	@include elemTop(700);
+}
+#OverviewEx1_OnlineChart2 {	@include elemLeft(800);
+}
+#OverviewEx1_OnlineChart2 {	@include elemWidth(380);
+}
+#OverviewEx1_OnlineChart2 {	@include elemHeight(221);
+}
+#OverviewEx1_OnlineChart2 {	z-index: 68;
+}
+#OverviewEx1_OnlineChartTimeAxis2 {	@include elemHeight(50);
+}
+#OverviewEx1_OnlineChartTimeAxis2 {	@include elemFlexBasis(50);
+}
+#OverviewEx1_OnlineChartTimeAxis2 {	z-index: 0;
+}
+#OverviewEx1_OnlineChartYAxis2 {	@include elemWidth(60);
+}
+#OverviewEx1_OnlineChartYAxis2 {	@include elemFlexBasis(60);
+}
+#OverviewEx1_OnlineChartYAxis2 {	z-index: 1;
+}
+#OverviewEx1_CD1 {	z-index: 0;
+}
+#OverviewEx1_Image6 {	@include elemAutoHeight(100);
+}
+#OverviewEx1_Image6 {	@include elemTop(420);
+}
+#OverviewEx1_Image6 {	@include elemLeft(300);
+}
+#OverviewEx1_Image6 {	@include elemAutoWidth(121);
+}
+#OverviewEx1_Image6 {	z-index: 69;
+}
+#OverviewEx1_Image7 {	@include elemAutoHeight(100);
+}
+#OverviewEx1_Image7 {	@include elemTop(580);
+}
+#OverviewEx1_Image7 {	@include elemLeft(280);
+}
+#OverviewEx1_Image7 {	@include elemAutoWidth(121);
+}
+#OverviewEx1_Image7 {	z-index: 70;
+}
+#OverviewEx1_Image8 {	@include elemAutoHeight(100);
+}
+#OverviewEx1_Image8 {	@include elemTop(720);
+}
+#OverviewEx1_Image8 {	@include elemLeft(280);
+}
+#OverviewEx1_Image8 {	@include elemAutoWidth(121);
+}
+#OverviewEx1_Image8 {	z-index: 71;
+}
+#OverviewEx1_Image9 {	@include elemTop(40);
+}
+#OverviewEx1_Image9 {	@include elemLeft(239);
+}
+#OverviewEx1_Image9 {	@include elemAutoWidth(241);
+}
+#OverviewEx1_Image9 {	@include elemAutoHeight(140);
+}
+#OverviewEx1_Image9 {	z-index: 72;
+}
+#OverviewEx1_Image10 {	@include elemTop(200);
+}
+#OverviewEx1_Image10 {	@include elemLeft(1360);
+}
+#OverviewEx1_Image10 {	@include elemAutoWidth(181);
+}
+#OverviewEx1_Image10 {	@include elemAutoHeight(140);
+}
+#OverviewEx1_Image10 {	z-index: 73;
+}
+#OverviewEx1_Image11 {	@include elemAutoHeight(100);
+}
+#OverviewEx1_Image11 {	@include elemTop(460);
+}
+#OverviewEx1_Image11 {	@include elemLeft(1380);
+}
+#OverviewEx1_Image11 {	@include elemAutoWidth(121);
+}
+#OverviewEx1_Image11 {	z-index: 74;
+}
+#OverviewEx1_Image12 {	@include elemAutoHeight(100);
+}
+#OverviewEx1_Image12 {	@include elemTop(700);
+}
+#OverviewEx1_Image12 {	@include elemLeft(1400);
+}
+#OverviewEx1_Image12 {	@include elemAutoWidth(121);
+}
+#OverviewEx1_Image12 {	z-index: 75;
+}
+#OverviewEx1_Image13 {	@include elemTop(60);
+}
+#OverviewEx1_Image13 {	@include elemLeft(540);
+}
+#OverviewEx1_Image13 {	@include elemAutoWidth(60);
+}
+#OverviewEx1_Image13 {	@include elemAutoHeight(40);
+}
+#OverviewEx1_Image13 {	z-index: 76;
+}
+#OverviewEx1_Image14 {	@include elemTop(640);
+}
+#OverviewEx1_Image14 {	@include elemLeft(540);
+}
+#OverviewEx1_Image14 {	@include elemAutoWidth(60);
+}
+#OverviewEx1_Image14 {	@include elemAutoHeight(40);
+}
+#OverviewEx1_Image14 {	z-index: 77;
 }
