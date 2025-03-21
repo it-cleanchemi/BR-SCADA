@@ -39,7 +39,7 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1">
-					<File Name="-1828126927.binding" Size="135010" HashValue="322061F6D44852F5970903B132583532" ProjectDependent="1"/>
+					<File Name="-1828126927.binding" Size="308657" HashValue="534C33749EE5EC8A11ECFACE5E676EFD" ProjectDependent="1"/>
 					<File Name="1247078581.eventbinding" Size="1160" HashValue="B9D56C11B4622F04046B05B53043159E" ProjectDependent="1"/>
 					<File Name="2007136254.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1"/>
 					<File Name="209978309.binding" Size="1048" HashValue="D6D2E8F9EECDD17C0D55B7AB335A4262" ProjectDependent="1"/>
@@ -598,7 +598,9 @@
 								<File Name="Pause.svg" Size="457" HashValue="CB5DB61C2E9D535AC465312731371D65" ProjectDependent="1"/>
 								<File Name="Play.svg" Size="438" HashValue="9824B2E74C5FFB42576B7EDB475B92E9" ProjectDependent="1"/>
 								<File Name="Process.svg" Size="612" HashValue="AA9F1FD5A09BDF4A911BE4D4D0399D67" ProjectDependent="1"/>
-								<File Name="PumpStyle1.png" Size="30439" HashValue="F5B16D82236E7E550E31E09D7173B409" ProjectDependent="1"/>
+								<File Name="PT1.png" Size="28872" HashValue="8EEA593E3AC39BACC789C749384537C6" ProjectDependent="1"/>
+								<File Name="PT2.png" Size="26738" HashValue="FA95DE1603ACDDA56936044E85D2564D" ProjectDependent="1"/>
+								<File Name="PumpStyle1.png" Size="31299" HashValue="F27A2EC9A03F9A8541D9C473F798900A" ProjectDependent="1"/>
 								<File Name="PumpStyle2.png" Size="64311" HashValue="017F782A897C9D5B9CD34DCAF58413FE" ProjectDependent="1"/>
 								<File Name="Recipe.svg" Size="589" HashValue="A30AEEB0FF1EBB55BA7008BFE14D4A80" ProjectDependent="1"/>
 								<File Name="Report.svg" Size="760" HashValue="1BE006892A273B4A0E3214E1F2C04B49" ProjectDependent="1"/>
@@ -795,8 +797,8 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="587112" HashValue="677C14E397D9BC393BB737C163839C3A" ProjectDependent="1"/>
-							<File Name="HartfielTheme.min.css" Size="189317" HashValue="4284C5ED33C0D9BC2E26B373C3063F69" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="594290" HashValue="CBC86143210E246F5DEAAED82B63F848" ProjectDependent="1"/>
+							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -3730,7 +3732,7 @@
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1"/>
 							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1"/>
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1"/>
-							<File Name="OverviewEx1.html" Size="27331" HashValue="D57CBB0BD804D1614123A3943EECAA6E" ProjectDependent="1"/>
+							<File Name="OverviewEx1.html" Size="47210" HashValue="F06AA1F21A71A58A0366882C11BA4238" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
 							<File Name="Process.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1"/>
 							<File Name="Services.html" Size="1971" HashValue="42757BCB64658BCC144F9FB3901D914E" ProjectDependent="1"/>
@@ -3816,7 +3818,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="5005" HashValue="DC2A60FC4E61307954E1B322C8B9F8FF" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="5201" HashValue="F9AB4D9FB023280C54E0EDE8DC3E4B35" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

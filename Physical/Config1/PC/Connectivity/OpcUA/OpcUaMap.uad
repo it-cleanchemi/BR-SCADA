@@ -28,6 +28,8 @@
       <EngineeringUnit Id="7" UnitId="5065812" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millilitre" Symbol="ml" />
       <EngineeringUnit Id="8" UnitId="4732465" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millisiemens per centimetre" Symbol="mS/cm" />
       <EngineeringUnit Id="9" UnitId="14384" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="pound per square inch absolute" Symbol="lb/in²" />
+      <EngineeringUnit Id="10" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
+      <EngineeringUnit Id="11" UnitId="19506" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="litre per minute" Symbol="l/min" />
     </EngineeringUnitAliases>
   </Aliases>
   <DefaultView AclId="2">
@@ -134,6 +136,13 @@
               <Variable Name="CD102_SP" EngineeringUnitId="8" />
               <Variable Name="CD103" EngineeringUnitId="8" />
               <Variable Name="CD103_SP" EngineeringUnitId="8" />
+            </Variable>
+            <Variable Name="Pmax_General_Variables">
+              <Variable Name="HP_CONC" EngineeringUnitId="10" />
+              <Variable Name="HP_CONC_OD" EngineeringUnitId="10" />
+              <Variable Name="NAOH_CONC_OD" EngineeringUnitId="10" />
+              <Variable Name="NAOH_CONC" EngineeringUnitId="10" />
+              <Variable Name="PMAX_RATE" EngineeringUnitId="11" />
             </Variable>
           </VariableCommon>
         </Variable>

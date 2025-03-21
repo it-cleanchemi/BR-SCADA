@@ -2,19 +2,19 @@
 @import "../../../../../types/Body_base";
 .system_brease_Body_style_default {
 @include system_brease_Body_base; 
-	background-color: #111111;
+	background-color: #D1F2FF;
 
 }
 @import "../../../../../types/Area_base";
 .system_brease_Area_style_default {
 @include system_brease_Area_base; 
-	background-color: #111111;
+	background-color: #D1F2FF;
 
 }
 @import "../../../../../types/StartupProgressBar_base";
 .system_brease_StartupProgressBar_style_default {
 @include system_brease_StartupProgressBar_base; 
-	background-color: #111111;
+	background-color: #D1F2FF;
 .startupProgressBar {
 	background-color: #CC0000;
 }
@@ -41,13 +41,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -72,7 +72,7 @@ span {
 @include box-shadow(none);
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
@@ -81,13 +81,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 
 }
@@ -107,10 +107,10 @@ span {
 	fill: #888888;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active.checked:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(0px);
 &:not(.active):not(.checked) {
@@ -126,16 +126,16 @@ span {
 	border-width: 0px 0px 0px 0px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#888888 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#888888 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#0096a9 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#0096a9 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#0096a9 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#0096a9 100%)');
 }
 &.checked:not(.disabled):not(.active) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#0096a9 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#0096a9 100%)');
 }
 &.active svg {
 	fill: #CC0000;
@@ -144,16 +144,16 @@ span {
 	fill: #0096a9;
 }
 &.checked:not(.disabled):not(.active) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &:not(.active):not(.checked) {
 @include box-shadow(none);
@@ -185,13 +185,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -216,7 +216,7 @@ span {
 @include box-shadow(none);
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
@@ -225,13 +225,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 
 }
@@ -245,13 +245,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -276,7 +276,7 @@ span {
 @include box-shadow(none);
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
@@ -285,13 +285,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled svg {
 	fill: #989898;
@@ -303,7 +303,7 @@ span {
 @include widgets_brease_Label_base; 
 	font-size: 16px;
 & span {
-	color: #FFFFFF;
+	color: #111111;
 }
 	background-color: transparent;
 	border-style: none;
@@ -324,7 +324,7 @@ span {
 .widgets_brease_DateTimeInput_style_default {
 @include widgets_brease_DateTimeInput_base; 
 &:not(.active):not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled):not(.active) {
 	border-width: 0px;
@@ -367,13 +367,13 @@ span {
 .widgets_brease_KeyBoard_style_default {
 @include widgets_brease_KeyBoard_base; 
 .keyBoardHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 .dropdown {
-@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)');
 }
 .keyBoardBody button:not(.active):not(.selected) {
-@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)');
 }
 	border-color: #333333;
 header {
@@ -401,22 +401,22 @@ header {
 	color: #CC0000;
 }
 .dropdown {
-	color: #FFFFFF;
+	color: #111111;
 }
 .keyBoardButtons button {
-	color: #FFFFFF;
+	color: #111111;
 }
 .keyBoardButtons button sub {
-	color: #FFFFFF;
+	color: #111111;
 }
 .keyBoardButtons button svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 .keyBoardBody button .icon-shift {
-	background-color: #FFFFFF;
+	background-color: #111111;
 }
 .keyBoardBody button .icon-shift:after {
-	border-bottom-color: #FFFFFF;
+	border-bottom-color: #111111;
 }
 
 }
@@ -424,10 +424,10 @@ header {
 .widgets_brease_NumPad_style_default {
 @include widgets_brease_NumPad_base; 
 .numpadHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 .breaseNumPadButtons button:not(.active) {
-@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)');
 }
 	border-color: #333333;
 header {
@@ -452,34 +452,34 @@ header {
 	background-color: #CC0000;
 }
 .breaseNumPadButtons button {
-	color: #FFFFFF;
+	color: #111111;
 }
 .maxValueBox .maxValue {
-	color: #FFFFFF;
+	color: #111111;
 }
 .maxValueBox label {
-	color: #FFFFFF;
+	color: #111111;
 }
 .minValueBox .minValue {
-	color: #FFFFFF;
+	color: #111111;
 }
 .minValueBox label {
-	color: #FFFFFF;
+	color: #111111;
 }
 .breaseNumPadDeleteIcon {
-@include svgcolordelete('#FFFFFF');
+@include svgcolordelete('#111111');
 }
 .breaseNumPadEnterIcon {
-@include svgcolorenter('#FFFFFF');
+@include svgcolorenter('#111111');
 }
 .numpad .breaseNumpadNumericValueOutterWrapper .breaseNumpadNumericValueInnerWrapper .breaseNumpadNumericValue {
-	color: #FFFFFF;
+	color: #111111;
 }
 .breaseNumpadSlider .numpadSlider_thumb .numpadSlider_output span {
-	color: #FFFFFF;
+	color: #111111;
 }
 .breaseNumpadSlider .numpadSlider_thumb .numpadSlider_knob {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 
 }
@@ -487,7 +487,7 @@ header {
 .widgets_brease_DateTimePicker_style_default {
 @include widgets_brease_DateTimePicker_base; 
 header {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 	border-color: #333333;
 header {
@@ -530,10 +530,10 @@ header {
 	background-color: #CC0000;
 }
 .dateTimePickerBody button {
-	color: #FFFFFF;
+	color: #111111;
 }
 .dateTimePickerBody .dateTimePickerHeadings .actDate {
-	color: #FFFFFF;
+	color: #111111;
 }
 
 }
@@ -554,7 +554,7 @@ header {
 > .header {
 	background-color: #333333;
 }
-	background-color: #111111;
+	background-color: #D1F2FF;
 > .header span {
 	font-size: 18px;
 }
@@ -562,7 +562,7 @@ header {
 height: 18px + 20px;
 }
 > .header span {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(0px 0px 0px 0px);
 	border-width: 1px;
@@ -580,10 +580,10 @@ height: 18px + 20px;
 .widgets_brease_NumericInput_style_default {
 @include widgets_brease_NumericInput_base; 
 &:not(.disabled):not(.active) input {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled):not(.active) span.breaseNumericInput_unit {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.active):not(.disabled) {
 	border-width: 2px 6px 2px 2px;
@@ -601,16 +601,16 @@ input {
 	font-size: 16px;
 }
 &:not(.disabled):not(.active) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &.active:not(.disabled) {
 	background-color: #CC0000;
 }
 &.active:not(.disabled) input {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active:not(.disabled) span.breaseNumericInput_unit {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.disabled {
 	background-color: #333333;
@@ -631,10 +631,10 @@ input {
 .widgets_brease_NumericOutput_style_default {
 @include widgets_brease_NumericOutput_base; 
 input {
-	color: #FFFFFF;
+	color: #111111;
 }
 span.breaseNumericOutput_unit {
-	color: #FFFFFF;
+	color: #111111;
 }
 	border-width: 0px;
 input {
@@ -651,7 +651,7 @@ input {
 .widgets_brease_TextInput_style_default {
 @include widgets_brease_TextInput_base; 
 &:not(.disabled):not(.active) input {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled):not(.active) {
 	border-width: 2px 6px 2px 2px;
@@ -669,13 +669,13 @@ input {
 	font-size: 16px;
 }
 &:not(.disabled):not(.active) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &:not(.disabled).active {
 	background-color: #CC0000;
 }
 &:not(.disabled).active input {
-	color: #FFFFFF;
+	color: #111111;
 }
 input {
 @include font-weight-bold(true);
@@ -691,7 +691,7 @@ input {
 .widgets_brease_TextOutput_style_default {
 @include widgets_brease_TextOutput_base; 
 & span {
-	color: #FFFFFF;
+	color: #111111;
 }
 	border-width: 0px;
 	font-size: 16px;
@@ -705,7 +705,7 @@ input {
 .widgets_brease_Password_style_default {
 @include widgets_brease_Password_base; 
 &:not(.disabled):not(.active) input {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.active):not(.disabled) {
 	border-width: 2px 6px 2px 2px;
@@ -723,13 +723,13 @@ input {
 	font-size: 16px;
 }
 &:not(.disabled):not(.active) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &:not(.disabled).active {
 	background-color: #CC0000;
 }
 &:not(.disabled).active input {
-	color: #FFFFFF;
+	color: #111111;
 }
 input {
 @include font-weight-bold(true);
@@ -753,19 +753,19 @@ input {
 @include font-weight-bold(true);
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemDisabled > .TextView {
-	color: #111111;
+	color: #D1F2FF;
 }
 & > .ItemView > .ImageView.ImageIndicator {
 @include display(true, 'flex');
@@ -774,25 +774,25 @@ input {
 	fill: #CC0000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 & > .ItemView.itemDisabled > .ImageView.ImageIndicator svg {
 	fill: #555555;
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ItemView.itemDisabled {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -830,13 +830,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -861,7 +861,7 @@ span {
 @include box-shadow(none);
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
@@ -870,13 +870,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 
 }
@@ -890,13 +890,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -921,7 +921,7 @@ span {
 @include box-shadow(none);
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
@@ -930,13 +930,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 
 }
@@ -984,25 +984,25 @@ line {
 	border-color: #CC0000;
 }
 &:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active:not(.disabled):not(.editMode) .checkbox {
-	background-color: #FFFFFF;
+	background-color: #111111;
 }
 &.checked:not(.disabled) .checkbox {
-	background-color: #FFFFFF;
+	background-color: #111111;
 }
 &:not(.disabled):not(.active) .checkbox {
-	background-color: #FFFFFF;
+	background-color: #111111;
 }
 &.checked:not(.disabled):not(.active) span {
 	color: #CC0000;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.checked:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.disabled .checkbox {
 	background-color: #888888;
@@ -1061,19 +1061,19 @@ span {
 @include font-weight-bold(true);
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemDisabled > .TextView {
-	color: #111111;
+	color: #D1F2FF;
 }
 & > .ItemView > .ImageView.ImageIndicator {
 @include display(true, 'flex');
@@ -1082,25 +1082,25 @@ span {
 	fill: #CC0000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 & > .ItemView.itemDisabled > .ImageView.ImageIndicator svg {
 	fill: #555555;
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ItemView.itemDisabled {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -1144,19 +1144,19 @@ span {
 @include font-weight-bold(true);
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
-	color: #FFFFFF;
+	color: #111111;
 }
 & > .ItemView.itemDisabled > .TextView {
-	color: #111111;
+	color: #D1F2FF;
 }
 & > .ItemView > .ImageView.ImageIndicator {
 @include display(true, 'flex');
@@ -1165,25 +1165,25 @@ span {
 	fill: #CC0000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 & > .ItemView.itemDisabled > .ImageView.ImageIndicator svg {
 	fill: #555555;
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ItemView.itemDisabled {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#111111 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -1244,28 +1244,28 @@ span {
 .widgets_brease_Table_style_default {
 @include widgets_brease_Table_base; 
 &:not(.disabled)> .container > .dataTables_wrapper > .dataTables_scrollHead > .tableHeader > .headerElement:not(.override):not(.disabled) > span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &:not(.disabled) .tableHeader>.headerElement:not(.override):not(.disabled) {
 	background-color: #888888;
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.selected td.override:not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(odd).selected.override:not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(even).selected.override:not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.selected td:not(.override):not(.disabled):not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(odd).selected:not(.override):not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(even).selected:not(.override):not(.activeInput):not(.disabled) {
-	color: #FFFFFF;
+	color: #111111;
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.selected td.selected.override:not(.disabled):not(.activeInput) {
 	background-color: #CC0000;
@@ -1292,7 +1292,7 @@ span {
 	background-color: #333333;
 }
 &:not(.disabled) .tableCells td:not(.selected):not(.override):not(.disabled):not([input=true]) {
-	color: #FFFFFF;
+	color: #111111;
 }
 .tableHeader div:not(.override) {
 	font-size: 20px;
@@ -1347,31 +1347,31 @@ span {
 	border-width: 1px 0px 0px 1px;
 }
 .tableCells tbody tr td:not(.override) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 .tableHeader div:not(.override) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &:not(.disabled) .tableCells tbody tr td.disabled {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.disabled .tableCells tbody tr td {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.disabled .tableHeader div {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.disabled .tableHeader>.headerElement.override > span {
-@include importantTextColor(#111111);
+@include importantTextColor(#D1F2FF);
 }
 &.disabled .tableHeader>.headerElement > span {
-@include importantTextColor(#111111);
+@include importantTextColor(#D1F2FF);
 }
 .tableHeader div:not(.override).disabled > span {
-	color: #111111;
+	color: #D1F2FF;
 }
 .tableHeader div.override.disabled > span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.disabled .tableHeader>.headerElement.override {
 @include importantBackColor(#555555);
@@ -1482,16 +1482,16 @@ span {
 	background-color: #333333;
 }
 &.disabled .verticalOrientation .tableCells tbody tr.even td:not(.override) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &.disabled .verticalOrientation .tableCells tbody tr.even {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 .verticalOrientation .tableCells tbody tr.even td:not(.override).disabled {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 & .verticalOrientation .tableCells tbody tr.even.override.disabled {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &.disabled .tableCells td:not(.override) {
 @include importantTextColor(#888888);
@@ -1622,16 +1622,16 @@ span {
 height: 40px + 20px;
 }
 > .header span {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(0px);
 	border-width: 0px;
 > .header {
 	border-width: 0px;
 }
-	border-color: #111111;
+	border-color: #D1F2FF;
 > .header {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 @include box-shadow(none);
 
@@ -1657,13 +1657,13 @@ height: 40px + 20px;
 @include display(false);
 }
 .breaseDialogWindowHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 .breaseDialogWindowHeader .textDiv {
 	font-size: 20px;
 }
 .breaseDialogWindowHeader .textDiv {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(8px 8px 8px 8px);
 .breaseDialogWindowContentBox {
@@ -1688,7 +1688,7 @@ height: 40px + 20px;
 .system_brease_MessageBox_style_default {
 @include system_brease_MessageBox_base; 
 .breaseMessageBoxHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#111111 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
 }
 .breaseMessageBoxContentBox div.content {
 	font-size: 20px;
@@ -1763,14 +1763,14 @@ height: 40px + 20px;
 @import "../../../../../types/Area_base";
 .system_brease_Area_style_header {
 @include system_brease_Area_base; 
-@include backGroundGradient('linear-gradient(to right,#111111,#555555)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF,#555555)');
 
 }
 @import "../../../../widgets/brease/Image/meta/Image_base";
 .widgets_brease_Image_style_default_Light {
 @include widgets_brease_Image_base; 
 & > .ImageView > svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 
 }
@@ -1802,7 +1802,7 @@ height: 40px + 20px;
 .widgets_brease_Image_style_default_Background {
 @include widgets_brease_Image_base; 
 & > .ImageView > svg {
-	fill: #111111;
+	fill: #D1F2FF;
 }
 
 }
@@ -1854,10 +1854,10 @@ span {
 	fill: #CC0000;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active.checked:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(0px);
 &:not(.active):not(.checked) {
@@ -1873,16 +1873,16 @@ span {
 	border-width: 0px 0px 0px 0px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#555555 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#111111 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#111111 100%)');
 }
 &.checked:not(.disabled):not(.active) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#111111 100%)');
 }
 &.active svg {
 	fill: #CC0000;
@@ -1891,16 +1891,16 @@ span {
 	fill: #CC0000;
 }
 &.checked:not(.disabled):not(.active) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &:not(.active):not(.checked) {
 @include box-shadow(none);
@@ -1948,16 +1948,16 @@ span {
 }
 @include border-radius(0px 0px 0px 0px);
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to bottom,#111111 70%,#555555 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#555555 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to bottom,#111111 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to bottom,#111111 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
 }
 &.checked:not(.disabled):not(.active) {
-@include backGroundGradient('linear-gradient(to bottom,#111111 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
 }
 &:not(.active):not(.checked) {
 	border-width: 0px 0px 0px 0px;
@@ -1972,19 +1972,19 @@ span {
 	border-width: 0px 0px 0px 0px;
 }
 &.checked:not(.disabled):not(.active) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.checked:not(.disabled):not(.active) svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active.checked:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active svg {
-	fill: #FFFFFF;
+	fill: #111111;
 }
 
 }
@@ -1992,7 +1992,7 @@ span {
 .widgets_brease_ToggleButton_style_default_Flyout {
 @include widgets_brease_ToggleButton_base; 
 &:not(.active):not(.disabled):not(.checked) svg {
-	fill: #111111;
+	fill: #D1F2FF;
 }
 &.active svg {
 	fill: #CC0000;
@@ -2007,13 +2007,13 @@ span {
 @include font-weight-bold(true);
 }
 &:not(.disabled):not(.active):not(.checked) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(0px);
 &:not(.active):not(.checked) {
@@ -2064,7 +2064,7 @@ span {
 	fill: #00FF00;
 }
 &.active svg {
-	fill: #111111;
+	fill: #D1F2FF;
 }
 	border-style: outset;
 &.active {
@@ -2083,7 +2083,7 @@ span {
 	border-width: 2px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &:not(.disabled):not(.active):not(.checked) {
 @include backGroundGradient('none');
@@ -2098,10 +2098,10 @@ span {
 	border-color: #888888;
 }
 &.active:not(.disabled):not(.editMode) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.checked:not(.disabled) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) {
 	border-width: 2px;
@@ -2125,10 +2125,10 @@ span {
 	color: #00FF00;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -2141,13 +2141,13 @@ span {
 @include box-shadow(none);
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled svg {
 	fill: #989898;
@@ -2161,7 +2161,7 @@ span {
 	fill: #FFFF00;
 }
 &.active svg {
-	fill: #111111;
+	fill: #D1F2FF;
 }
 	border-style: outset;
 &.active {
@@ -2180,7 +2180,7 @@ span {
 	border-width: 2px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &:not(.disabled):not(.active):not(.checked) {
 @include backGroundGradient('none');
@@ -2195,10 +2195,10 @@ span {
 	border-color: #888888;
 }
 &.active:not(.disabled):not(.editMode) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.checked:not(.disabled) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) {
 	border-width: 2px;
@@ -2222,10 +2222,10 @@ span {
 	color: #FFFF00;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -2238,13 +2238,13 @@ span {
 @include box-shadow(none);
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled svg {
 	fill: #989898;
@@ -2258,7 +2258,7 @@ span {
 	fill: #FF0000;
 }
 &.active svg {
-	fill: #111111;
+	fill: #D1F2FF;
 }
 	border-style: outset;
 &.active {
@@ -2277,7 +2277,7 @@ span {
 	border-width: 2px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-	background-color: #111111;
+	background-color: #D1F2FF;
 }
 &:not(.disabled):not(.active):not(.checked) {
 @include backGroundGradient('none');
@@ -2292,10 +2292,10 @@ span {
 	border-color: #888888;
 }
 &.active:not(.disabled):not(.editMode) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.checked:not(.disabled) {
-	border-color: #111111;
+	border-color: #D1F2FF;
 }
 &.active:not(.disabled):not(.editMode) {
 	border-width: 2px;
@@ -2319,10 +2319,10 @@ span {
 	color: #FF0000;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 &.active.checked:not(.disabled) span {
-	color: #111111;
+	color: #D1F2FF;
 }
 @include border-radius(15px);
 &:not(.active):not(.checked) {
@@ -2335,13 +2335,13 @@ span {
 @include box-shadow(none);
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled svg {
 	fill: #989898;
@@ -2364,10 +2364,10 @@ span {
 	fill: #888888;
 }
 &.active:not(.disabled):not(.editMode) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 &.active.checked:not(.disabled) span {
-	color: #FFFFFF;
+	color: #111111;
 }
 @include border-radius(0px);
 &:not(.active):not(.checked) {
@@ -2383,25 +2383,25 @@ span {
 	border-width: 0px 0px 0px 0px;
 }
 &:not(.disabled):not(.active):not(.checked) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#888888 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#888888 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#CC0000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#111111 90%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#CC0000 100%)');
 }
 &.active svg {
 	fill: #CC0000;
 }
 &.disabled {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.active {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &.disabled.checked {
-@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
 }
 &:not(.active):not(.checked) {
 @include box-shadow(none);
@@ -2491,7 +2491,7 @@ span {
 @include widgets_brease_Label_base; 
 	font-size: 16px;
 & span {
-	color: #111111;
+	color: #D1F2FF;
 }
 	background-color: transparent;
 	border-style: none;
@@ -2748,7 +2748,7 @@ input {
 @include border-radius(15px);
 }
 :not(.disabled):not(.active):not(.checked).breaseFlyOutWrapper > .flyoutButton {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#FFFFFF 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 .breaseFlyOutWrapper > .container {
 	background-color: rgba(17, 17, 17, 1);

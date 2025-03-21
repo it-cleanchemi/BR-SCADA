@@ -68,8 +68,10 @@
     <Object Type="File">System.svg</Object>
     <Object Type="File">Version.svg</Object>
     <Object Type="File">Logo.svg</Object>
-    <Object Type="File">PumpStyle1.png</Object>
     <Object Type="File">PumpStyle2.png</Object>
     <Object Type="File">FM1.png</Object>
+    <Object Type="File">PumpStyle1.png</Object>
+    <Object Type="File">PT1.png</Object>
+    <Object Type="File">PT2.png</Object>
   </Objects>
 </Package>
