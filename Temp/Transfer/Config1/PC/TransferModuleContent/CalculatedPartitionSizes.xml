@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CFG>
+  <PROJECT ID="RemoteVis_CleanChemistry_Config1" OSVERSION="B4.93" INITIALTRANSFER="true" />
+  <FILESYSTEM>
+    <VOL ID="0" PARTITIONS="1">
+      <PARTITION ID="0" LABEL="SYSTEM" MINSIZE="327520526" />
+    </VOL>
+  </FILESYSTEM>
+</CFG>

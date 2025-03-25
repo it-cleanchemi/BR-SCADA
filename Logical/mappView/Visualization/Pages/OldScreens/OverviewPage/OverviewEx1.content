@@ -234,5 +234,7 @@
     <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P9" top="134" left="1025" width="60" zIndex="211" text="Set" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle22" top="61" left="709" width="380" height="60" zIndex="1" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle23" top="119" left="709" width="380" height="60" zIndex="0" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="380" left="1320" width="160" zIndex="212" borderWidth="3px" backColor="rgba(220, 220, 220, 1)" borderStyle="solid" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput36" top="620" left="1300" width="160" zIndex="213" borderWidth="3px" backColor="rgba(220, 220, 220, 1)" borderStyle="solid" textAlign="center" />
   </Widgets>
 </Content>

@@ -7,5 +7,7 @@
     <Object Type="Package">BufferTankPopUp</Object>
     <Object Type="Package">PumpPopUp</Object>
     <Object Type="Package">P201_Status_Popup</Object>
+    <Object Type="Package">P202_Status_Popup</Object>
+    <Object Type="Package">P203_Status_Popup</Object>
   </Objects>
 </Package>

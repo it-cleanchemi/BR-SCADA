@@ -297,7 +297,9 @@ TYPE
 		wP202_PPM_SWAPPED : REAL;
 	END_STRUCT;
 	CMD_Write_P202_HOA_Type : 	STRUCT 
+		Cancel : BOOL;
 		Send : BOOL;
+		wP202_HOA_String : STRING[80];
 		wP202_HOA : UINT;
 	END_STRUCT;
 END_TYPE
@@ -326,6 +328,8 @@ TYPE
 	CMD_Write_P203_HOA_Type : 	STRUCT 
 		Send : BOOL;
 		wP203_HOA : UINT;
+		Cancel : BOOL;
+		wP203_HOA_String : STRING[80];
 	END_STRUCT;
 END_TYPE
 

@@ -61,8 +61,11 @@ ACTION Modbus_CMD_action:
 	
 	// AS Block 20 - P202_HOA
 	IF gCmd[IdxSkids].Write_P202_HOA.Send THEN
+		gCmd[IdxSkids].Write_P202_HOA.wP202_HOA := STRING_TO_UINT(gCmd[IdxSkids].Write_P202_HOA.wP202_HOA_String);
 		MasterConfig[IdxSkids].action_enable[19].single := TRUE;
 		gCmd[IdxSkids].Write_P202_HOA.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCmd[IdxSkids].Write_P202_HOA.wP202_HOA_String := UINT_TO_STRING(gSkid[gVis.Main.In.SelectedSkid].Dosing_Pump_202.P202_HOA);
 	END_IF;
 	
 	// AS Block 21 - P202_PPM
@@ -93,8 +96,11 @@ ACTION Modbus_CMD_action:
 
 	// AS Block 25 - P203_HOA
 	IF gCmd[IdxSkids].Write_P203_HOA.Send THEN
+		gCmd[IdxSkids].Write_P203_HOA.wP203_HOA := STRING_TO_UINT(gCmd[IdxSkids].Write_P203_HOA.wP203_HOA_String);
 		MasterConfig[IdxSkids].action_enable[24].single := TRUE;
 		gCmd[IdxSkids].Write_P203_HOA.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCmd[IdxSkids].Write_P203_HOA.wP203_HOA_String := UINT_TO_STRING(gSkid[gVis.Main.In.SelectedSkid].Dosing_Pump_203.P203_HOA);
 	END_IF;
 	
 	// AS Block 26 - P203_PPM

@@ -11,5 +11,25 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewEx1" widgetRefId="TextOutput4" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Status_Popup" horizontalPos="1280px" verticalPos="380px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewEx1" widgetRefId="TextOutput36" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Status_Popup" horizontalPos="1280px" verticalPos="620px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

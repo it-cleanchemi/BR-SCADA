@@ -14,15 +14,20 @@
     <BindingsSet refId="Main_binding" />
     <BindingsSet refId="OverviewEx1_binding" />
     <BindingsSet refId="P201_Status_Content_binding" />
+    <BindingsSet refId="P202_Status_Content_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />
     <EventBindingsSet refId="Main_eventbinding" />
     <EventBindingsSet refId="P201_Status_Content_eventbinding" />
     <EventBindingsSet refId="OverviewEx1_eventbinding" />
+    <EventBindingsSet refId="P202_Status_Content_eventbinding" />
+    <EventBindingsSet refId="P203_Status_Content_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />
+    <Dialog refId="P202_Status_Popup" />
+    <Dialog refId="P203_Status_Popup" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -47,6 +52,8 @@
     <Content refId="OverviewEx2" />
     <Content refId="Alarms_History" />
     <Content refId="P201_Status_Content" />
+    <Content refId="P202_Status_Content" />
+    <Content refId="P203_Status_Content" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

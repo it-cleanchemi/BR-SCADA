@@ -61,6 +61,90 @@
 			 
 		
 		
+		<Session><Binding mode="oneWay">
+			<Source mode="oneWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="snippet*P202_STATUS*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_202.P202_HOA" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_202.P202_HOA" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="snippet" refId="P202_STATUS" attribute="value" /> 
+		</Binding></Session>
+		
+		<Content id="OverviewEx1"><Binding mode="oneWay"> 
+			<Source xsi:type="snippet" refId="P202_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" refId="OverviewEx1_TextOutput4" attribute="value" /> 
+		</Binding></Content> 
+			 
+			 
+		
+		
+		<Session><Binding mode="oneWay">
+			<Source mode="oneWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="snippet*P203_STATUS*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_203.P203_HOA" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_203.P203_HOA" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="snippet" refId="P203_STATUS" attribute="value" /> 
+		</Binding></Session>
+		
+		<Content id="OverviewEx1"><Binding mode="oneWay"> 
+			<Source xsi:type="snippet" refId="P203_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" refId="OverviewEx1_TextOutput36" attribute="value" /> 
+		</Binding></Content> 
+			 
+			 
+		
+		
 		
 	
 </BindingDefinition>

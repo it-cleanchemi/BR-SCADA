@@ -2373,3 +2373,55 @@
 }
 #OverviewEx1_Rectangle23 {	background-color: rgba(211, 211, 211, 1);
 }
+#OverviewEx1_TextOutput4 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput4 {	@include elemTop(380);
+}
+#OverviewEx1_TextOutput4 {	@include elemLeft(1320);
+}
+#OverviewEx1_TextOutput4 {	@include elemAutoWidth(160);
+}
+#OverviewEx1_TextOutput4 {	z-index: 212;
+}
+#OverviewEx1_TextOutput4 {	border-width: 3px;
+}
+#OverviewEx1_TextOutput4 {	background-color: rgba(220, 220, 220, 1);
+}
+#OverviewEx1_TextOutput4 {	border-style: solid;
+}
+#OverviewEx1_TextOutput4 {	&:before {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput4 {	&:after {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput4 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput36 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput36 {	@include elemTop(620);
+}
+#OverviewEx1_TextOutput36 {	@include elemLeft(1300);
+}
+#OverviewEx1_TextOutput36 {	@include elemAutoWidth(160);
+}
+#OverviewEx1_TextOutput36 {	z-index: 213;
+}
+#OverviewEx1_TextOutput36 {	border-width: 3px;
+}
+#OverviewEx1_TextOutput36 {	background-color: rgba(220, 220, 220, 1);
+}
+#OverviewEx1_TextOutput36 {	border-style: solid;
+}
+#OverviewEx1_TextOutput36 {	&:before {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput36 {	&:after {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput36 {	@include text-alignment-all('center');
+}
