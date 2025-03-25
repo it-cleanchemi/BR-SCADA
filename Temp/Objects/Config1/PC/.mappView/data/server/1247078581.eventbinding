@@ -13,7 +13,7 @@
       <EventHandler>
         <Action>
           <Target type="widgets.brease.OnlineChart.Action" refId="OverviewEx1_OnlineChart2">
-            <Method type="widgets.brease.OnlineChart.Action.GraphReset"><Parameter name="id" xsi:type="ANY_STRING" value="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+            <Method type="widgets.brease.OnlineChart.Action.GraphReset"><Parameter name="id" xsi:type="ANY_STRING" value="CD102_CHART" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
           </Target>
         </Action>
       </EventHandler>

@@ -7,9 +7,6 @@
       <Property ID="UserFallbackLanguage" Value="en" />
       <Group ID="TargetLanguages">
         <Property ID="TargetLanguage[1]" Value="en" />
-        <Property ID="TargetLanguage[2]" Value="de" />
-        <Property ID="TargetLanguage[3]" Value="fr" />
-        <Property ID="TargetLanguage[4]" Value="es" />
       </Group>
     </Group>
     <Group ID="TargetFiles">
@@ -39,7 +36,7 @@
       <Property ID="TargetFile[24]" Value="AlarmTexts.Cert.tmx" />
       <Property ID="TargetFile[25]" Value="AlarmTexts.Time.tmx" />
       <Property ID="TargetFile[26]" Value="AlarmTexts.Monitor.tmx" />
-      <Property ID="TargetFile[27]" Value="" />
+      <Property ID="TargetFile[27]" Value="mappView.Resources.Texts.SkidStatus.tmx" />
       <Property ID="TargetFile[28]" Value="" />
     </Group>
   </Element>

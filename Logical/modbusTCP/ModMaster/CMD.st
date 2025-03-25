@@ -4,7 +4,7 @@ ACTION Modbus_CMD_action:
 	// --------------------------------------------------------------------
 	// Variable Write Commands
 	// --------------------------------------------------------------------	
-	
+
 	
 	// AS Block 12 - UNIT_ID
 	IF gCmd[IdxSkids].Write_UNIT_ID.Send THEN
@@ -26,8 +26,11 @@ ACTION Modbus_CMD_action:
 	
 	// AS Block 15 - P201_HOA
 	IF gCmd[IdxSkids].Write_P201_HOA.Send THEN
+		gCmd[IdxSkids].Write_P201_HOA.wP201_HOA := STRING_TO_UINT(gCmd[IdxSkids].Write_P201_HOA.wP201_HOA_String);
 		MasterConfig[IdxSkids].action_enable[14].single := TRUE;
 		gCmd[IdxSkids].Write_P201_HOA.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCmd[IdxSkids].Write_P201_HOA.wP201_HOA_String := UINT_TO_STRING(gSkid[gVis.Main.In.SelectedSkid].Dosing_Pump_201.P201_HOA);
 	END_IF;
 
 	// AS Block 16 - P201_PPM

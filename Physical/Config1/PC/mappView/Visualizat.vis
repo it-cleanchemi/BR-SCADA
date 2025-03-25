@@ -13,12 +13,17 @@
   <BindingsSets>
     <BindingsSet refId="Main_binding" />
     <BindingsSet refId="OverviewEx1_binding" />
+    <BindingsSet refId="P201_Status_Content_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />
     <EventBindingsSet refId="Main_eventbinding" />
+    <EventBindingsSet refId="P201_Status_Content_eventbinding" />
+    <EventBindingsSet refId="OverviewEx1_eventbinding" />
   </EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="P201_Status_Popup" />
+  </Dialogs>
   <Contents>
     <Content refId="Header" />
     <Content refId="Footer" />
@@ -41,8 +46,11 @@
     <Content refId="OverviewEx1" />
     <Content refId="OverviewEx2" />
     <Content refId="Alarms_History" />
+    <Content refId="P201_Status_Content" />
   </Contents>
-  <SnippetsSets />
+  <SnippetsSets>
+    <SnippetsSet refId="snippet_0" />
+  </SnippetsSets>
   <VariablesSets>
     <VariablesSet refId="ColorVars" />
     <VariablesSet refId="svar_3" />

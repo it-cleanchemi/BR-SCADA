@@ -19,5 +19,6 @@
     <Object Type="File">Diagnostics.tmx</Object>
     <Object Type="File">Diagnostics_ConvInIO.tmx</Object>
     <Object Type="File">Diagnostics_WheelIO.tmx</Object>
+    <Object Type="File">SkidStatus.tmx</Object>
   </Objects>
 </Package>

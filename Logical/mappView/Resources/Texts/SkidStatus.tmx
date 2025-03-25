@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="p201_Status.0">
+      <tuv xml:lang="en">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.1">
+      <tuv xml:lang="en">
+        <seg>FM 301</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.2">
+      <tuv xml:lang="en">
+        <seg>FM 302</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.3">
+      <tuv xml:lang="en">
+        <seg>FM 301+302</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.4">
+      <tuv xml:lang="en">
+        <seg>FM 303</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.5">
+      <tuv xml:lang="en">
+        <seg>FM 301+303</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.6">
+      <tuv xml:lang="en">
+        <seg>FM 302+303</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.7">
+      <tuv xml:lang="en">
+        <seg>FM 301+302+303</seg>
+      </tuv>
+    </tu>
+    <tu tuid="p201_Status.8">
+      <tuv xml:lang="en">
+        <seg>MANUAL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PM_Status.0">
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PM_Status.2">
+      <tuv xml:lang="en">
+        <seg>MANUAL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PM_Status.3">
+      <tuv xml:lang="en">
+        <seg>AUTO</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

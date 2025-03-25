@@ -8,5 +8,8 @@
     <Object Type="File">Main.eventbinding</Object>
     <Object Type="File">OverviewEx1.binding</Object>
     <Object Type="File">Main.binding</Object>
+    <Object Type="File">P201_Status_Content.eventbinding</Object>
+    <Object Type="File">P201_Status_Content.binding</Object>
+    <Object Type="File">OverviewEx1.eventbinding</Object>
   </Objects>
 </Package>

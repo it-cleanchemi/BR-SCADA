@@ -9,7 +9,7 @@ PROGRAM _CYCLIC
 	
 	FOR IdxSkids := 0 TO MAX_SKIDS DO
 		
-		//gSkid[IdxSkid].GeneralDosingVariables.Pump_204.p204_appm := 
+		gSkid[IdxSkids].BufferTank.LI200P := (gSkid[IdxSkids].BufferTank.LI200 / BT_VOLUME)*100;
 		
 	END_FOR;
 

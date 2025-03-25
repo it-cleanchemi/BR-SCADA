@@ -6,5 +6,6 @@
     <Object Type="Package">Dialog</Object>
     <Object Type="Package">BufferTankPopUp</Object>
     <Object Type="Package">PumpPopUp</Object>
+    <Object Type="Package">P201_Status_Popup</Object>
   </Objects>
 </Package>

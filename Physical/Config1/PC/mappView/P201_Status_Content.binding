@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="P201_Status_Content_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.wP201_HOA_String" />
+				</be:List>
+</Source>
+<Target xsi:type="brease" contentRefId="P201_Status_Content" widgetRefId="DropDownBox1" attribute="selectedValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Send" />
+				</be:List>
+</Source>
+<Target xsi:type="brease" contentRefId="P201_Status_Content" widgetRefId="PushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Cancel" />
+				</be:List>
+</Source>
+<Target xsi:type="brease" contentRefId="P201_Status_Content" widgetRefId="PushButton2" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -13,12 +13,17 @@
   <BindingsSets>
     <BindingsSet refId="209978309" />
     <BindingsSet refId="-1828126927" />
+    <BindingsSet refId="1300665706" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="2007136254" />
     <EventBindingsSet refId="1247078581" />
+    <EventBindingsSet refId="-2141128440" />
+    <EventBindingsSet refId="184480425" />
   <EventBindingsSet refId="_Settings_IO" /><EventBindingsSet refId="_Diagnostics_ConvInIO" /><EventBindingsSet refId="_Diagnostics_WheelIO" /></EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="P201_Status_Popup" />
+  </Dialogs>
   <Contents>
     <Content refId="Header" />
     <Content refId="Footer" />
@@ -41,8 +46,11 @@
     <Content refId="OverviewEx1" />
     <Content refId="OverviewEx2" />
     <Content refId="Alarms_History" />
+    <Content refId="P201_Status_Content" />
   </Contents>
-  <SnippetsSets />
+  <SnippetsSets>
+    <SnippetsSet refId="snippet_0" />
+  </SnippetsSets>
   <VariablesSets>
     <VariablesSet refId="ColorVars" />
     <VariablesSet refId="svar_3" />

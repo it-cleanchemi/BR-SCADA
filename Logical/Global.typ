@@ -268,7 +268,9 @@ TYPE
 		wP201_PPM_SWAPPED : REAL;
 	END_STRUCT;
 	CMD_Write_P201_HOA_Type : 	STRUCT 
+		Cancel : BOOL;
 		Send : BOOL;
+		wP201_HOA_String : STRING[80];
 		wP201_HOA : UINT;
 	END_STRUCT;
 END_TYPE
@@ -344,6 +346,7 @@ TYPE
 	END_STRUCT;
 	Vis_Main_Out_Type : 	STRUCT 
 		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
+		DialogOpen : BOOL;
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
 		SelectedSkid : UDINT;
@@ -451,6 +454,7 @@ END_TYPE
 TYPE
 	BufferTank_Variables_Type : 	STRUCT  (*Buffer Tank Variables*)
 		LSHH200 : REAL; (*Buffer Tank High High Sensor*)
+		LI200P : REAL; (*Buffer Tank Level Percent*)
 		LI200 : REAL; (*Buffer Tank Level*)
 		DRAINTIME_SP : REAL; (*Tank Draintime Setpoint*)
 		DRAINTIME_PV : REAL; (*Tank Draintime Present Value*)

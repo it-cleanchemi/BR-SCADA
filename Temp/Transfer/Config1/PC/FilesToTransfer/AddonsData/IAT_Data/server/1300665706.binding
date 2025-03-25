@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="P201_Status_Content"><Binding mode="twoWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_DropDownBox1*selectedValue">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.wP201_HOA_String" attribute="value" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_DropDownBox1" attribute="selectedValue" />
+</Binding><Binding mode="oneWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_DropDownBox1*selectedValue">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.wP201_HOA_String" attribute="editable" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_DropDownBox1" attribute="editable::selectedValue" />
+</Binding></Content>
+
+				
+								
+					
+				
+
+
+
+<Content id="P201_Status_Content"><Binding mode="twoWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_PushButton1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Send" attribute="value" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_PushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_PushButton1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Send" attribute="editable" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_PushButton1" attribute="editable::value" />
+</Binding></Content>
+
+				
+								
+					
+				
+
+
+
+<Content id="P201_Status_Content"><Binding mode="twoWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_PushButton2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Cancel" attribute="value" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_PushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*P201_Status_Content_PushButton2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_HOA.Cancel" attribute="editable" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="P201_Status_Content_PushButton2" attribute="editable::value" />
+</Binding></Content>
+
+				
+								
+					
+				
+
+
+
+
+</BindingDefinition>

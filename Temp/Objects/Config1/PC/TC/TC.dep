@@ -24,4 +24,5 @@ $(AS_PROJECT_PATH)/Logical/AlarmTexts/Email.tmx
 $(AS_PROJECT_PATH)/Logical/AlarmTexts/Cert.tmx
 $(AS_PROJECT_PATH)/Logical/AlarmTexts/Time.tmx
 $(AS_PROJECT_PATH)/Logical/AlarmTexts/Monitor.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/SkidStatus.tmx
 $(AS_PROJECT_PATH)/Logical/Libraries/Project.language

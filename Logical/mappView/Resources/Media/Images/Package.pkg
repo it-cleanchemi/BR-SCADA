@@ -73,5 +73,6 @@
     <Object Type="File">PumpStyle1.png</Object>
     <Object Type="File">PT1.png</Object>
     <Object Type="File">PT2.png</Object>
+    <Object Type="File">BT3.png</Object>
   </Objects>
 </Package>
