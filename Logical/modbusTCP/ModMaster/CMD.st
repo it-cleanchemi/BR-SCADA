@@ -147,8 +147,11 @@ ACTION Modbus_CMD_action:
 	
 	// AS Block 32 - PMAX_HOA
 	IF gCmd[IdxSkids].Write_PMAX_HOA.Send THEN
+		gCmd[IdxSkids].Write_PMAX_HOA.wPMAX_HOA := STRING_TO_UINT(gCmd[IdxSkids].Write_PMAX_HOA.wPMAX_HOA_String);
 		MasterConfig[IdxSkids].action_enable[31].single := TRUE;
 		gCmd[IdxSkids].Write_PMAX_HOA.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCmd[IdxSkids].Write_PMAX_HOA.wPMAX_HOA_String := UINT_TO_STRING(gSkid[gVis.Main.In.SelectedSkid].Pmax_General_Variables.PMAX_HOA);
 	END_IF;
 	
 	// AS Block 33 - PMAX_CONC

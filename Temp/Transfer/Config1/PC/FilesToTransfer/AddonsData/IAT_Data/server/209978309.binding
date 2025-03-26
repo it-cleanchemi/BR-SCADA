@@ -145,6 +145,48 @@
 			 
 		
 		
+		<Session><Binding mode="oneWay">
+			<Source mode="oneWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="snippet*PM_STATUS*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.PMAX_HOA" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="snippet" refId="PM_STATUS" attribute="value" /> 
+		</Binding></Session>
+		
+		<Content id="OverviewEx1"><Binding mode="oneWay"> 
+			<Source xsi:type="snippet" refId="PM_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" refId="OverviewEx1_TextOutput37" attribute="value" /> 
+		</Binding></Content> 
+			 
+			 
+		
+		
 		
 	
 </BindingDefinition>

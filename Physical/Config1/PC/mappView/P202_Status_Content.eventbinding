@@ -28,7 +28,7 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="EventBinding_2">
+    <EventBinding id="EventBinding_5">
       <Source xsi:type="clientSystem.Event" event="DialogOpened" />
       <EventHandler>
         <Action>

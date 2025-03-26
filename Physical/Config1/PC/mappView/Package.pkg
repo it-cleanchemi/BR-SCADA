@@ -15,5 +15,7 @@
     <Object Type="File">P202_Status_Content.binding</Object>
     <Object Type="File">P203_Status_Content.eventbinding</Object>
     <Object Type="File">P203_Status_Content.binding</Object>
+    <Object Type="File">PM_Status_Content.eventbinding</Object>
+    <Object Type="File">PM_Status_Content.binding</Object>
   </Objects>
 </Package>

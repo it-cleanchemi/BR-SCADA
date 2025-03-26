@@ -65,5 +65,50 @@
         <seg>MANUAL</seg>
       </tuv>
     </tu>
+    <tu tuid="SKID_Status.0">
+      <tuv xml:lang="en">
+        <seg>SYSTEM OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.1">
+      <tuv xml:lang="en">
+        <seg>SYSTEM READY</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.2">
+      <tuv xml:lang="en">
+        <seg>PRIMING PMAX</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.3">
+      <tuv xml:lang="en">
+        <seg>PMAX PRIMED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.4">
+      <tuv xml:lang="en">
+        <seg>BATCH PAUSE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.5">
+      <tuv xml:lang="en">
+        <seg>MANUAL MODE</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.6">
+      <tuv xml:lang="en">
+        <seg>SYSTEM ON</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.7">
+      <tuv xml:lang="en">
+        <seg>EMPTYING BT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SKID_Status.8">
+      <tuv xml:lang="en">
+        <seg>P103 SPILL</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

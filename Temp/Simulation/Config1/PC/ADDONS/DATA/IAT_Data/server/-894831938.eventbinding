@@ -32,7 +32,7 @@
     </EventBinding>
   </Content>
   <Visualization>
-    <EventBinding id="EventBinding_2">
+    <EventBinding id="EventBinding_6">
       <Source type="clientSystem.Event" event="DialogOpened" />
       <EventHandler>
         <Action>

@@ -2425,3 +2425,29 @@
 }
 #OverviewEx1_TextOutput36 {	@include text-alignment-all('center');
 }
+#OverviewEx1_TextOutput37 {	@include elemTop(20);
+}
+#OverviewEx1_TextOutput37 {	@include elemLeft(260);
+}
+#OverviewEx1_TextOutput37 {	@include elemAutoWidth(160);
+}
+#OverviewEx1_TextOutput37 {	@include elemAutoHeight(60);
+}
+#OverviewEx1_TextOutput37 {	z-index: 214;
+}
+#OverviewEx1_TextOutput37 {	border-width: 3px;
+}
+#OverviewEx1_TextOutput37 {	background-color: rgba(220, 220, 220, 1);
+}
+#OverviewEx1_TextOutput37 {	border-style: solid;
+}
+#OverviewEx1_TextOutput37 {	&:before {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput37 {	&:after {
+		border-style: solid;
+	}
+}
+#OverviewEx1_TextOutput37 {	@include text-alignment-all('center');
+}

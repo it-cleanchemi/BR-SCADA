@@ -156,6 +156,8 @@ TYPE
 	CMD_Write_PMAX_HOA_Type : 	STRUCT 
 		Send : BOOL;
 		wPMAX_HOA : UINT;
+		Cancel : BOOL;
+		wPMAX_HOA_String : STRING[80];
 	END_STRUCT;
 	CMD_Write_PMAX_CONC_Type : 	STRUCT 
 		Send : BOOL;
