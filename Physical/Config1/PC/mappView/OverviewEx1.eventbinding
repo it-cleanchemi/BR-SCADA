@@ -36,7 +36,17 @@
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup" horizontalPos="1280px" verticalPos="620px" />
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup" horizontalPos="260px" verticalPos="20px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_9">
+      <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewEx1" widgetRefId="TextOutput39" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Settings_Popup" horizontalPos="600px" verticalPos="200px" />
           </Target>
         </Action>
       </EventHandler>

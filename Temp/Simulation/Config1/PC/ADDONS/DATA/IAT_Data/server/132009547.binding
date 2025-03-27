@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_EFF_1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].ConversionRatios.EFF_1" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].ConversionRatios.EFF_1" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_EFF_1" attribute="value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_1.Send" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_1.Send" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_1" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_1.Send" attribute="editable" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_1.Send" attribute="editable" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_1" attribute="editable::value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_1.wEFF_1" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_1.wEFF_1" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_1" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_1.wEFF_1" attribute="editable" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_1.wEFF_1" attribute="editable" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_1" attribute="editable::value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_EFF_2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].ConversionRatios.EFF_2" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].ConversionRatios.EFF_2" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_EFF_2" attribute="value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_2.Send" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_2.Send" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_2" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_2.Send" attribute="editable" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_2.Send" attribute="editable" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_2" attribute="editable::value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="PM_Settings_Content"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_2.wEFF_2" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_2.wEFF_2" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_2" attribute="value" />
+		</Binding><Binding mode="oneWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_2*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="2" refId="::AsGlobalPV:gCmd[2].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="3" refId="::AsGlobalPV:gCmd[3].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="4" refId="::AsGlobalPV:gCmd[4].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="5" refId="::AsGlobalPV:gCmd[5].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="6" refId="::AsGlobalPV:gCmd[6].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="7" refId="::AsGlobalPV:gCmd[7].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="8" refId="::AsGlobalPV:gCmd[8].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="9" refId="::AsGlobalPV:gCmd[9].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="10" refId="::AsGlobalPV:gCmd[10].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="11" refId="::AsGlobalPV:gCmd[11].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="12" refId="::AsGlobalPV:gCmd[12].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="13" refId="::AsGlobalPV:gCmd[13].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="14" refId="::AsGlobalPV:gCmd[14].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="15" refId="::AsGlobalPV:gCmd[15].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="16" refId="::AsGlobalPV:gCmd[16].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="17" refId="::AsGlobalPV:gCmd[17].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="18" refId="::AsGlobalPV:gCmd[18].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="19" refId="::AsGlobalPV:gCmd[19].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="20" refId="::AsGlobalPV:gCmd[20].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="21" refId="::AsGlobalPV:gCmd[21].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="22" refId="::AsGlobalPV:gCmd[22].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="23" refId="::AsGlobalPV:gCmd[23].Write_EFF_2.wEFF_2" attribute="editable" />
+					<br:Element index="24" refId="::AsGlobalPV:gCmd[24].Write_EFF_2.wEFF_2" attribute="editable" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_2" attribute="editable::value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+
+		
+	
+</BindingDefinition>

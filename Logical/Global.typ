@@ -535,6 +535,7 @@ END_TYPE
 
 TYPE
 	Dosing_Pump_201_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
+		P201_PTYPE : BOOL; (*Pump 201 Pump Type*)
 		P201_XS : UINT; (*Pump 201 On/Off Status*)
 		P201_CHEM : UINT; (*Pump 201 Chemical*)
 		P201_HOA : UINT; (*Pump 201 Mode*)

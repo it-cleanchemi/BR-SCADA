@@ -17,6 +17,7 @@
     <BindingsSet refId="1476318688" />
     <BindingsSet refId="-1828126927" />
     <BindingsSet refId="-1472121660" />
+    <BindingsSet refId="132009547" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="2007136254" />
@@ -26,12 +27,14 @@
     <EventBindingsSet refId="-538549277" />
     <EventBindingsSet refId="-894831938" />
     <EventBindingsSet refId="-1800382542" />
+    <EventBindingsSet refId="-2116581325" />
   <EventBindingsSet refId="_Settings_IO" /><EventBindingsSet refId="_Diagnostics_ConvInIO" /><EventBindingsSet refId="_Diagnostics_WheelIO" /></EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />
     <Dialog refId="P202_Status_Popup" />
     <Dialog refId="P203_Status_Popup" />
     <Dialog refId="PM_Status_Popup" />
+    <Dialog refId="PM_Settings_Popup" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -59,6 +62,7 @@
     <Content refId="P202_Status_Content" />
     <Content refId="P203_Status_Content" />
     <Content refId="PM_Status_Content" />
+    <Content refId="PM_Settings_Content" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

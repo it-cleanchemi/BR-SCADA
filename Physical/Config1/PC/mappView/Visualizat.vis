@@ -17,6 +17,7 @@
     <BindingsSet refId="P203_Status_Content_binding" />
     <BindingsSet refId="OverviewEx1_binding" />
     <BindingsSet refId="PM_Status_Content_binding" />
+    <BindingsSet refId="PM_Settings_Content_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />
@@ -26,12 +27,14 @@
     <EventBindingsSet refId="P202_Status_Content_eventbinding" />
     <EventBindingsSet refId="P203_Status_Content_eventbinding" />
     <EventBindingsSet refId="PM_Status_Content_eventbinding" />
+    <EventBindingsSet refId="PM_Settings_Content_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />
     <Dialog refId="P202_Status_Popup" />
     <Dialog refId="P203_Status_Popup" />
     <Dialog refId="PM_Status_Popup" />
+    <Dialog refId="PM_Settings_Popup" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -59,6 +62,7 @@
     <Content refId="P202_Status_Content" />
     <Content refId="P203_Status_Content" />
     <Content refId="PM_Status_Content" />
+    <Content refId="PM_Settings_Content" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

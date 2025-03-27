@@ -1,0 +1,97 @@
+@import "mixins.scss";
+#PM_Settings_Content_NI_Write_EFF_1 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_NI_Write_EFF_1 {	@include elemTop(140);
+}
+#PM_Settings_Content_NI_Write_EFF_1 {	@include elemLeft(280);
+}
+#PM_Settings_Content_NI_Write_EFF_1 {	@include elemAutoWidth(80);
+}
+#PM_Settings_Content_NI_Write_EFF_1 {	z-index: 0;
+}
+#PM_Settings_Content_PB_Write_EFF_1 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_PB_Write_EFF_1 {	@include elemTop(140);
+}
+#PM_Settings_Content_PB_Write_EFF_1 {	@include elemLeft(380);
+}
+#PM_Settings_Content_PB_Write_EFF_1 {	@include elemAutoWidth(60);
+}
+#PM_Settings_Content_PB_Write_EFF_1 {	z-index: 1;
+}
+#PM_Settings_Content_EFF_1 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_EFF_1 {	@include elemTop(140);
+}
+#PM_Settings_Content_EFF_1 {	@include elemLeft(60);
+}
+#PM_Settings_Content_EFF_1 {	@include elemAutoWidth(220);
+}
+#PM_Settings_Content_EFF_1 {	z-index: 2;
+}
+#PM_Settings_Content_TextOutput12 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_TextOutput12 {	@include elemTop(140);
+}
+#PM_Settings_Content_TextOutput12 {	@include elemLeft(120);
+}
+#PM_Settings_Content_TextOutput12 {	@include elemAutoWidth(70);
+}
+#PM_Settings_Content_TextOutput12 {	z-index: 3;
+}
+#PM_Settings_Content_TextOutput12 {	@include text-alignment-all('center');
+}
+#PM_Settings_Content_TextOutput21 {	@include elemTop(180);
+}
+#PM_Settings_Content_TextOutput21 {	@include elemLeft(-40);
+}
+#PM_Settings_Content_TextOutput21 {	@include elemAutoWidth(220);
+}
+#PM_Settings_Content_TextOutput21 {	@include elemAutoHeight(60);
+}
+#PM_Settings_Content_TextOutput21 {	z-index: 4;
+}
+#PM_Settings_Content_TextOutput21 {	@include text-alignment-all('center');
+}
+#PM_Settings_Content_TextOutput21 {	font-size: 16px;
+}
+#PM_Settings_Content_EFF_2 {	@include elemAutoWidth(100);
+}
+#PM_Settings_Content_EFF_2 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_EFF_2 {	@include elemTop(200);
+}
+#PM_Settings_Content_EFF_2 {	@include elemLeft(160);
+}
+#PM_Settings_Content_EFF_2 {	z-index: 5;
+}
+#PM_Settings_Content_PushButton2 {	@include elemTop(480);
+}
+#PM_Settings_Content_PushButton2 {	@include elemLeft(140);
+}
+#PM_Settings_Content_PushButton2 {	@include elemAutoWidth(200);
+}
+#PM_Settings_Content_PushButton2 {	@include elemAutoHeight(80);
+}
+#PM_Settings_Content_PushButton2 {	z-index: 6;
+}
+#PM_Settings_Content_NI_Write_EFF_2 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_NI_Write_EFF_2 {	@include elemTop(200);
+}
+#PM_Settings_Content_NI_Write_EFF_2 {	@include elemLeft(280);
+}
+#PM_Settings_Content_NI_Write_EFF_2 {	@include elemAutoWidth(80);
+}
+#PM_Settings_Content_NI_Write_EFF_2 {	z-index: 7;
+}
+#PM_Settings_Content_PB_Write_EFF_2 {	@include elemAutoHeight(30);
+}
+#PM_Settings_Content_PB_Write_EFF_2 {	@include elemTop(200);
+}
+#PM_Settings_Content_PB_Write_EFF_2 {	@include elemLeft(380);
+}
+#PM_Settings_Content_PB_Write_EFF_2 {	@include elemAutoWidth(60);
+}
+#PM_Settings_Content_PB_Write_EFF_2 {	z-index: 8;
+}

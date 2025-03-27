@@ -2,45 +2,45 @@
 <EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
   <Content id="PM_Status_Content">
     <EventBinding id="PM_Status_Content.Button1.Click">
-      <Source type="widgets.brease.PushButton.Event" event="Click" refId="PM_Status_Content_PushButton2" />
-      <EventHandler>
-        <Action>
-          <Target type="clientSystem.Action">
-            <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="PM_Status_Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
-          </Target>
-        </Action>
-      </EventHandler>
-      <EventHandler>
-        <Action>
-          <Target type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
-            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="PM_Status_Content_PushButton2" />
+			<EventHandler>
+				<Action>
+					<Target type="clientSystem.Action">
+						<Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="PM_Status_Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
   </Content>
   <Content id="PM_Status_Content">
     <EventBinding id="PM_Status_Content.PushButton1.Click">
-      <Source type="widgets.brease.PushButton.Event" event="Click" refId="PM_Status_Content_PushButton1" />
-      <EventHandler>
-        <Action>
-          <Target type="clientSystem.Action">
-            <Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="PM_Status_Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
+			<Source type="widgets.brease.PushButton.Event" event="Click" refId="PM_Status_Content_PushButton1" />
+			<EventHandler>
+				<Action>
+					<Target type="clientSystem.Action">
+						<Method type="clientSystem.Action.CloseDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="PM_Status_Popup" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
   </Content>
   <Visualization>
-    <EventBinding id="EventBinding_6">
-      <Source type="clientSystem.Event" event="DialogOpened" />
-      <EventHandler>
-        <Action>
-          <Target type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
-            <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
+    <EventBinding id="EventBinding_8">
+			<Source type="clientSystem.Event" event="DialogOpened" />
+			<EventHandler>
+				<Action>
+					<Target type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
+						<Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
   </Visualization>
 </EventBindingDefinition>
