@@ -9,11 +9,11 @@ PROGRAM _INIT
 	brsmemset(ADR(logger), 0, SIZEOF(logger));
 
 	FOR IdxSkids := 0 TO MAX_SKIDS DO
+
 		
 		// --------------------------------------------------------------------
 		// FOR Reading data FROM modbusTCP slave
 		// --------------------------------------------------------------------
-	
 	
 		// AS Block 1 - 6000 INT
 		MasterConfig[IdxSkids].action_enable[0].cyclic 	:= 1;			// Read data cyclic 

@@ -9,3 +9,8 @@ div[data-brease-dialogId='PM_Settings_Popup'] {
 @include static('');content:'';
 	}
 }
+div[data-brease-dialogId='PM_Settings_Popup'] {
+	.breaseDialogWindowHeader{
+	background-color: rgba(219, 219, 219, 1);
+	}
+}

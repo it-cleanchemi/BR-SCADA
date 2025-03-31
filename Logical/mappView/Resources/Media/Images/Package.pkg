@@ -74,5 +74,7 @@
     <Object Type="File">PT1.png</Object>
     <Object Type="File">PT2.png</Object>
     <Object Type="File">BT3.png</Object>
+    <Object Type="File">Right_Arrow.png</Object>
+    <Object Type="File">Down_Arrow.png</Object>
   </Objects>
 </Package>

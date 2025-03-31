@@ -10,8 +10,7 @@ ACTION Modbus_Status_action:
 		brsmemset(ADR(ModbusTcpMaster[IdxSkids].last_error), 0, 2);
 		reset_error := 0;
 	END_IF
-			
-			
+		
 			
 	// --------------------------------------------------------------------
 	// Final Variable Mapping AND Data Conversion - READ

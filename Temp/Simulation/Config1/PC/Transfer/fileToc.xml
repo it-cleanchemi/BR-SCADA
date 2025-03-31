@@ -41,7 +41,7 @@
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-1472121660.binding" Size="19294" HashValue="90E227CEC237D83B8244AF1110D2A586" ProjectDependent="1"/>
 					<File Name="-1800382542.eventbinding" Size="2110" HashValue="F6DF06D835DD07967BC4CECDD1220690" ProjectDependent="1"/>
-					<File Name="-1828126927.binding" Size="397268" HashValue="449C63A6ECE5920AAE2F2DEBECE9E6A1" ProjectDependent="1"/>
+					<File Name="-1828126927.binding" Size="407144" HashValue="73563E7A5E2BDBEB8B1F85C308317853" ProjectDependent="1"/>
 					<File Name="-2116581325.eventbinding" Size="739" HashValue="66C38D6452F7DB2E5A61916A88D7E514" ProjectDependent="1"/>
 					<File Name="-2141128440.eventbinding" Size="2261" HashValue="917B449BE87A5FBDCB8BA3DB5314EEE5" ProjectDependent="1"/>
 					<File Name="-538549277.eventbinding" Size="2261" HashValue="F4D618585964C1BAFD41CEDCC3C0368B" ProjectDependent="1"/>
@@ -49,7 +49,7 @@
 					<File Name="-894831938.eventbinding" Size="2261" HashValue="A3F5D86652F67F657649C445F5915066" ProjectDependent="1"/>
 					<File Name="1247078581.eventbinding" Size="1171" HashValue="51BD03F0C230726770AA1AA94A5FFFD8" ProjectDependent="1"/>
 					<File Name="1300665706.binding" Size="19219" HashValue="1819DBA3CAC489B887C2A894F8AE066A" ProjectDependent="1"/>
-					<File Name="132009547.binding" Size="30827" HashValue="9486E8EF617D168A679331451BBA3FDF" ProjectDependent="1"/>
+					<File Name="132009547.binding" Size="115282" HashValue="D54051579AC58DD89045E57C16A380F9" ProjectDependent="1"/>
 					<File Name="1476318688.binding" Size="19324" HashValue="8F1EA888F641BB6E617BB02E1226A10F" ProjectDependent="1"/>
 					<File Name="184480425.eventbinding" Size="4201" HashValue="5A53407736B5FCB9B731CA22E723216B" ProjectDependent="1"/>
 					<File Name="2007136254.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1"/>
@@ -70,7 +70,7 @@
 					<File Name="0_visulist.json" Size="9" HashValue="AA22B0A6B40EAA026CD7BC41E9BACC57" ProjectDependent="1"/>
 					<File Name="favicon.ico" Size="1406" HashValue="B3D2122594565CE5AF565BE898EF539A" ProjectDependent="1"/>
 					<File Name="index.html" Size="4385" HashValue="BC3ED7AA954B2FBC318B1E291F29D2CE" ProjectDependent="1"/>
-					<File Name="vis_0.json" Size="6375" HashValue="18E201173443385E00A655262493DD7D" ProjectDependent="1"/>
+					<File Name="vis_0.json" Size="6375" HashValue="519C06F72830FB62435A8B9258A7DD5D" ProjectDependent="1"/>
 					<Folder Name="BRVisu" ProjectDependent="1">
 						<File Name="bootstrapper.min.js" Size="15653" HashValue="B6639108276524CCFD2503B0704C2536" ProjectDependent="1"/>
 						<File Name="jquery.js" Size="258648" HashValue="AACC43D6F308FA362AC85E3F4FB2B30C" ProjectDependent="1"/>
@@ -588,6 +588,7 @@
 								<File Name="DigitalIn.svg" Size="660" HashValue="77386E90BF24F9C7F63B97EFDC68B993" ProjectDependent="1"/>
 								<File Name="DigitalOut.svg" Size="673" HashValue="94D99136938AF4F1E4EC15B7D2267740" ProjectDependent="1"/>
 								<File Name="Down.svg" Size="133" HashValue="CEE5462A9EE92B34EC9002643878CF8F" ProjectDependent="1"/>
+								<File Name="Down_Arrow.png" Size="3149" HashValue="39FA53D34D0ED8C96DC2545021018E6D" ProjectDependent="1"/>
 								<File Name="ESTOP.svg" Size="326" HashValue="207956356F0DB9582142724C291AC950" ProjectDependent="1"/>
 								<File Name="Expand.svg" Size="121" HashValue="8967E6336BF452C6B5ACC0995C1F74AE" ProjectDependent="1"/>
 								<File Name="ExportHistory.svg" Size="384" HashValue="8161DE96FF93738740B2659849E1A761" ProjectDependent="1"/>
@@ -617,6 +618,7 @@
 								<File Name="PumpStyle2.png" Size="64311" HashValue="017F782A897C9D5B9CD34DCAF58413FE" ProjectDependent="1"/>
 								<File Name="Recipe.svg" Size="589" HashValue="A30AEEB0FF1EBB55BA7008BFE14D4A80" ProjectDependent="1"/>
 								<File Name="Report.svg" Size="760" HashValue="1BE006892A273B4A0E3214E1F2C04B49" ProjectDependent="1"/>
+								<File Name="Right_Arrow.png" Size="2966" HashValue="1FAEEB5017BB5BC1857B0E3E923A59D5" ProjectDependent="1"/>
 								<File Name="Save.svg" Size="369" HashValue="BA97A80D2F8D04D78B7A7E6FDC205481" ProjectDependent="1"/>
 								<File Name="Scale.svg" Size="530" HashValue="4E5FB02753F264375E91D5FC79405EF9" ProjectDependent="1"/>
 								<File Name="SDM.svg" Size="1839" HashValue="AAD292985AA8DA3B4077BFB10764C7F2" ProjectDependent="1"/>
@@ -810,7 +812,7 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="608640" HashValue="8CC3098476665BCE14D7CD16A0903384" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="618363" HashValue="618EDE123E677B364995DB7D3FFCC16F" ProjectDependent="1"/>
 							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
@@ -3745,13 +3747,13 @@
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1"/>
 							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1"/>
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1"/>
-							<File Name="OverviewEx1.html" Size="69922" HashValue="DE2A330A1666EF8C59DBAA7E322102A1" ProjectDependent="1"/>
+							<File Name="OverviewEx1.html" Size="75412" HashValue="5EB74F0D018E8B79B1AE72F9C3300920" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1"/>
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1"/>
 							<File Name="P203_Status_Content.html" Size="1654" HashValue="CDF2A680B8CE31175CD110FE6C768691" ProjectDependent="1"/>
-							<File Name="PM_Settings_Content.html" Size="3488" HashValue="4F9FA0BBCA942ED9951B1F8BF84A05CE" ProjectDependent="1"/>
-							<File Name="PM_Status_Content.html" Size="1420" HashValue="EA794DB5F5CA982EE07F0EF757A78121" ProjectDependent="1"/>
+							<File Name="PM_Settings_Content.html" Size="22039" HashValue="6B3C37B8A164AEF923BDB306B8724346" ProjectDependent="1"/>
+							<File Name="PM_Status_Content.html" Size="1419" HashValue="460BD42E240C6740A37FE009520BB7AA" ProjectDependent="1"/>
 							<File Name="Process.html" Size="17" HashValue="977FD571D75951006FEE6224E29EECC7" ProjectDependent="1"/>
 							<File Name="Services.html" Size="1971" HashValue="42757BCB64658BCC144F9FB3901D914E" ProjectDependent="1"/>
 							<File Name="Services_DirMan.html" Size="10899" HashValue="B1DD310A60EE92B4021562E876FCB77B" ProjectDependent="1"/>
@@ -3836,7 +3838,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="4009" HashValue="F174F61B3B097C10CC382A42978B45B8" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="4099" HashValue="52C9809096D8E61A69EC4C5C3615593C" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

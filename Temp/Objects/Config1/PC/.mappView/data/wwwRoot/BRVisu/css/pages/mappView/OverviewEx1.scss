@@ -1,9 +1,9 @@
 @import "mixins.scss";
 #OverviewEx1_TextOutput17 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput17 {	@include elemTop(714);
+#OverviewEx1_TextOutput17 {	@include elemTop(705);
 }
-#OverviewEx1_TextOutput17 {	@include elemLeft(100);
+#OverviewEx1_TextOutput17 {	@include elemLeft(25);
 }
 #OverviewEx1_TextOutput17 {	@include elemAutoWidth(70);
 }
@@ -11,7 +11,7 @@
 }
 #OverviewEx1_TextOutput17 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput17 {	font-size: 20px;
+#OverviewEx1_TextOutput17 {	font-size: 24px;
 }
 #OverviewEx1_Line33 {	z-index: 44;
 }
@@ -19,7 +19,7 @@
 }
 #OverviewEx1_BT_LVL {	@include elemTop(256);
 }
-#OverviewEx1_BT_LVL {	@include elemLeft(980);
+#OverviewEx1_BT_LVL {	@include elemLeft(960);
 }
 #OverviewEx1_BT_LVL {	@include elemWidth(80);
 }
@@ -69,7 +69,7 @@
 }
 #OverviewEx1_P101_PV {	@include elemTop(155);
 }
-#OverviewEx1_P101_PV {	@include elemLeft(340);
+#OverviewEx1_P101_PV {	@include elemLeft(320);
 }
 #OverviewEx1_P101_PV {	@include elemAutoWidth(220);
 }
@@ -79,7 +79,7 @@
 }
 #OverviewEx1_P101_FQ {	@include elemTop(175);
 }
-#OverviewEx1_P101_FQ {	@include elemLeft(340);
+#OverviewEx1_P101_FQ {	@include elemLeft(320);
 }
 #OverviewEx1_P101_FQ {	@include elemAutoWidth(220);
 }
@@ -91,7 +91,7 @@
 }
 #OverviewEx1_P101_TI {	@include elemTop(195);
 }
-#OverviewEx1_P101_TI {	@include elemLeft(340);
+#OverviewEx1_P101_TI {	@include elemLeft(320);
 }
 #OverviewEx1_P101_TI {	@include elemAutoWidth(220);
 }
@@ -101,7 +101,7 @@
 }
 #OverviewEx1_P101_PI {	@include elemTop(190);
 }
-#OverviewEx1_P101_PI {	@include elemLeft(630);
+#OverviewEx1_P101_PI {	@include elemLeft(610);
 }
 #OverviewEx1_P101_PI {	@include elemAutoWidth(220);
 }
@@ -109,9 +109,9 @@
 }
 #OverviewEx1_P201_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_PV {	@include elemTop(220);
+#OverviewEx1_P201_PV {	@include elemTop(200);
 }
-#OverviewEx1_P201_PV {	@include elemLeft(1400);
+#OverviewEx1_P201_PV {	@include elemLeft(1430);
 }
 #OverviewEx1_P201_PV {	@include elemAutoWidth(220);
 }
@@ -119,9 +119,9 @@
 }
 #OverviewEx1_P201_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_FQ {	@include elemTop(240);
+#OverviewEx1_P201_FQ {	@include elemTop(220);
 }
-#OverviewEx1_P201_FQ {	@include elemLeft(1400);
+#OverviewEx1_P201_FQ {	@include elemLeft(1430);
 }
 #OverviewEx1_P201_FQ {	@include elemAutoWidth(220);
 }
@@ -131,9 +131,9 @@
 }
 #OverviewEx1_P201_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_TI {	@include elemTop(260);
+#OverviewEx1_P201_TI {	@include elemTop(240);
 }
-#OverviewEx1_P201_TI {	@include elemLeft(1400);
+#OverviewEx1_P201_TI {	@include elemLeft(1430);
 }
 #OverviewEx1_P201_TI {	@include elemAutoWidth(220);
 }
@@ -141,9 +141,9 @@
 }
 #OverviewEx1_P201_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_PI {	@include elemTop(260);
+#OverviewEx1_P201_PI {	@include elemTop(240);
 }
-#OverviewEx1_P201_PI {	@include elemLeft(1500);
+#OverviewEx1_P201_PI {	@include elemLeft(1520);
 }
 #OverviewEx1_P201_PI {	@include elemAutoWidth(220);
 }
@@ -151,9 +151,9 @@
 }
 #OverviewEx1_P202_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_PV {	@include elemTop(460);
+#OverviewEx1_P202_PV {	@include elemTop(440);
 }
-#OverviewEx1_P202_PV {	@include elemLeft(1400);
+#OverviewEx1_P202_PV {	@include elemLeft(1430);
 }
 #OverviewEx1_P202_PV {	@include elemAutoWidth(220);
 }
@@ -161,9 +161,9 @@
 }
 #OverviewEx1_P202_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_FQ {	@include elemTop(480);
+#OverviewEx1_P202_FQ {	@include elemTop(460);
 }
-#OverviewEx1_P202_FQ {	@include elemLeft(1400);
+#OverviewEx1_P202_FQ {	@include elemLeft(1430);
 }
 #OverviewEx1_P202_FQ {	@include elemAutoWidth(220);
 }
@@ -173,9 +173,9 @@
 }
 #OverviewEx1_P202_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_TI {	@include elemTop(500);
+#OverviewEx1_P202_TI {	@include elemTop(480);
 }
-#OverviewEx1_P202_TI {	@include elemLeft(1400);
+#OverviewEx1_P202_TI {	@include elemLeft(1430);
 }
 #OverviewEx1_P202_TI {	@include elemAutoWidth(220);
 }
@@ -183,9 +183,9 @@
 }
 #OverviewEx1_P202_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_PI {	@include elemTop(500);
+#OverviewEx1_P202_PI {	@include elemTop(480);
 }
-#OverviewEx1_P202_PI {	@include elemLeft(1500);
+#OverviewEx1_P202_PI {	@include elemLeft(1520);
 }
 #OverviewEx1_P202_PI {	@include elemAutoWidth(220);
 }
@@ -195,7 +195,7 @@
 }
 #OverviewEx1_P102_PPI {	@include elemTop(443);
 }
-#OverviewEx1_P102_PPI {	@include elemLeft(80);
+#OverviewEx1_P102_PPI {	@include elemLeft(60);
 }
 #OverviewEx1_P102_PPI {	@include elemAutoWidth(220);
 }
@@ -205,7 +205,7 @@
 }
 #OverviewEx1_P102_PFI {	@include elemTop(443);
 }
-#OverviewEx1_P102_PFI {	@include elemLeft(-40);
+#OverviewEx1_P102_PFI {	@include elemLeft(-60);
 }
 #OverviewEx1_P102_PFI {	@include elemAutoWidth(220);
 }
@@ -215,7 +215,7 @@
 }
 #OverviewEx1_P103_PPI {	@include elemTop(624);
 }
-#OverviewEx1_P103_PPI {	@include elemLeft(80);
+#OverviewEx1_P103_PPI {	@include elemLeft(60);
 }
 #OverviewEx1_P103_PPI {	@include elemAutoWidth(220);
 }
@@ -225,7 +225,7 @@
 }
 #OverviewEx1_P103_PFI {	@include elemTop(624);
 }
-#OverviewEx1_P103_PFI {	@include elemLeft(-40);
+#OverviewEx1_P103_PFI {	@include elemLeft(-60);
 }
 #OverviewEx1_P103_PFI {	@include elemAutoWidth(220);
 }
@@ -235,7 +235,7 @@
 }
 #OverviewEx1_P104_PPI {	@include elemTop(819);
 }
-#OverviewEx1_P104_PPI {	@include elemLeft(80);
+#OverviewEx1_P104_PPI {	@include elemLeft(60);
 }
 #OverviewEx1_P104_PPI {	@include elemAutoWidth(220);
 }
@@ -245,7 +245,7 @@
 }
 #OverviewEx1_P104_PFI {	@include elemTop(819);
 }
-#OverviewEx1_P104_PFI {	@include elemLeft(-40);
+#OverviewEx1_P104_PFI {	@include elemLeft(-60);
 }
 #OverviewEx1_P104_PFI {	@include elemAutoWidth(220);
 }
@@ -255,7 +255,7 @@
 }
 #OverviewEx1_P201_PPI {	@include elemTop(306);
 }
-#OverviewEx1_P201_PPI {	@include elemLeft(1200);
+#OverviewEx1_P201_PPI {	@include elemLeft(1180);
 }
 #OverviewEx1_P201_PPI {	@include elemAutoWidth(220);
 }
@@ -265,7 +265,7 @@
 }
 #OverviewEx1_P202_PPI {	@include elemTop(540);
 }
-#OverviewEx1_P202_PPI {	@include elemLeft(1200);
+#OverviewEx1_P202_PPI {	@include elemLeft(1180);
 }
 #OverviewEx1_P202_PPI {	@include elemAutoWidth(220);
 }
@@ -275,7 +275,7 @@
 }
 #OverviewEx1_P202_PFI {	@include elemTop(540);
 }
-#OverviewEx1_P202_PFI {	@include elemLeft(1000);
+#OverviewEx1_P202_PFI {	@include elemLeft(980);
 }
 #OverviewEx1_P202_PFI {	@include elemAutoWidth(220);
 }
@@ -285,7 +285,7 @@
 }
 #OverviewEx1_LI200 {	@include elemTop(190);
 }
-#OverviewEx1_LI200 {	@include elemLeft(850);
+#OverviewEx1_LI200 {	@include elemLeft(830);
 }
 #OverviewEx1_LI200 {	@include elemAutoWidth(220);
 }
@@ -295,7 +295,7 @@
 }
 #OverviewEx1_P201_PFI {	@include elemTop(306);
 }
-#OverviewEx1_P201_PFI {	@include elemLeft(1040);
+#OverviewEx1_P201_PFI {	@include elemLeft(1020);
 }
 #OverviewEx1_P201_PFI {	@include elemAutoWidth(220);
 }
@@ -305,7 +305,7 @@
 }
 #OverviewEx1_CD101_TI {	@include elemTop(240);
 }
-#OverviewEx1_CD101_TI {	@include elemLeft(700);
+#OverviewEx1_CD101_TI {	@include elemLeft(680);
 }
 #OverviewEx1_CD101_TI {	@include elemAutoWidth(220);
 }
@@ -315,7 +315,7 @@
 }
 #OverviewEx1_CD101 {	@include elemTop(240);
 }
-#OverviewEx1_CD101 {	@include elemLeft(450);
+#OverviewEx1_CD101 {	@include elemLeft(430);
 }
 #OverviewEx1_CD101 {	@include elemAutoWidth(220);
 }
@@ -333,7 +333,7 @@
 }
 #OverviewEx1_CD101_SP {	@include elemTop(240);
 }
-#OverviewEx1_CD101_SP {	@include elemLeft(615);
+#OverviewEx1_CD101_SP {	@include elemLeft(595);
 }
 #OverviewEx1_CD101_SP {	@include elemAutoWidth(220);
 }
@@ -343,7 +343,7 @@
 }
 #OverviewEx1_CD102_TI {	@include elemTop(480);
 }
-#OverviewEx1_CD102_TI {	@include elemLeft(700);
+#OverviewEx1_CD102_TI {	@include elemLeft(680);
 }
 #OverviewEx1_CD102_TI {	@include elemAutoWidth(220);
 }
@@ -353,7 +353,7 @@
 }
 #OverviewEx1_CD102 {	@include elemTop(480);
 }
-#OverviewEx1_CD102 {	@include elemLeft(450);
+#OverviewEx1_CD102 {	@include elemLeft(430);
 }
 #OverviewEx1_CD102 {	@include elemAutoWidth(220);
 }
@@ -371,7 +371,7 @@
 }
 #OverviewEx1_CD102_SP {	@include elemTop(480);
 }
-#OverviewEx1_CD102_SP {	@include elemLeft(615);
+#OverviewEx1_CD102_SP {	@include elemLeft(595);
 }
 #OverviewEx1_CD102_SP {	@include elemAutoWidth(220);
 }
@@ -381,7 +381,7 @@
 }
 #OverviewEx1_P104_PV {	@include elemTop(735);
 }
-#OverviewEx1_P104_PV {	@include elemLeft(340);
+#OverviewEx1_P104_PV {	@include elemLeft(320);
 }
 #OverviewEx1_P104_PV {	@include elemAutoWidth(220);
 }
@@ -389,7 +389,7 @@
 }
 #OverviewEx1_OnlineChart1 {	@include elemTop(260);
 }
-#OverviewEx1_OnlineChart1 {	@include elemLeft(445);
+#OverviewEx1_OnlineChart1 {	@include elemLeft(425);
 }
 #OverviewEx1_OnlineChart1 {	@include elemWidth(480);
 }
@@ -427,7 +427,7 @@
 }
 #OverviewEx1_OnlineChart2 {	@include elemTop(500);
 }
-#OverviewEx1_OnlineChart2 {	@include elemLeft(445);
+#OverviewEx1_OnlineChart2 {	@include elemLeft(425);
 }
 #OverviewEx1_OnlineChart2 {	@include elemWidth(482);
 }
@@ -459,7 +459,7 @@
 }
 #OverviewEx1_Image8 {	@include elemTop(714);
 }
-#OverviewEx1_Image8 {	@include elemLeft(220);
+#OverviewEx1_Image8 {	@include elemLeft(200);
 }
 #OverviewEx1_Image8 {	@include elemAutoWidth(140);
 }
@@ -467,7 +467,7 @@
 }
 #OverviewEx1_Image9 {	@include elemTop(127);
 }
-#OverviewEx1_Image9 {	@include elemLeft(210);
+#OverviewEx1_Image9 {	@include elemLeft(190);
 }
 #OverviewEx1_Image9 {	@include elemAutoWidth(181);
 }
@@ -477,7 +477,7 @@
 }
 #OverviewEx1_Image13 {	@include elemTop(120);
 }
-#OverviewEx1_Image13 {	@include elemLeft(480);
+#OverviewEx1_Image13 {	@include elemLeft(460);
 }
 #OverviewEx1_Image13 {	@include elemAutoWidth(60);
 }
@@ -485,9 +485,9 @@
 }
 #OverviewEx1_Image13 {	z-index: 89;
 }
-#OverviewEx1_Image14 {	@include elemTop(700);
+#OverviewEx1_Image14 {	@include elemTop(699);
 }
-#OverviewEx1_Image14 {	@include elemLeft(480);
+#OverviewEx1_Image14 {	@include elemLeft(460);
 }
 #OverviewEx1_Image14 {	@include elemAutoWidth(60);
 }
@@ -499,7 +499,7 @@
 }
 #OverviewEx1_TextOutput2 {	@include elemTop(791);
 }
-#OverviewEx1_TextOutput2 {	@include elemLeft(80);
+#OverviewEx1_TextOutput2 {	@include elemLeft(60);
 }
 #OverviewEx1_TextOutput2 {	@include elemAutoWidth(70);
 }
@@ -511,7 +511,7 @@
 }
 #OverviewEx1_NI_Write_P104_SP {	@include elemTop(764);
 }
-#OverviewEx1_NI_Write_P104_SP {	@include elemLeft(60);
+#OverviewEx1_NI_Write_P104_SP {	@include elemLeft(40);
 }
 #OverviewEx1_NI_Write_P104_SP {	@include elemAutoWidth(80);
 }
@@ -521,7 +521,7 @@
 }
 #OverviewEx1_PB_Write_P104_SP {	@include elemTop(764);
 }
-#OverviewEx1_PB_Write_P104_SP {	@include elemLeft(145);
+#OverviewEx1_PB_Write_P104_SP {	@include elemLeft(125);
 }
 #OverviewEx1_PB_Write_P104_SP {	@include elemAutoWidth(60);
 }
@@ -531,7 +531,7 @@
 }
 #OverviewEx1_P104_SP {	@include elemTop(734);
 }
-#OverviewEx1_P104_SP {	@include elemLeft(0);
+#OverviewEx1_P104_SP {	@include elemLeft(-20);
 }
 #OverviewEx1_P104_SP {	@include elemAutoWidth(220);
 }
@@ -541,7 +541,7 @@
 }
 #OverviewEx1_TextOutput3 {	@include elemTop(734);
 }
-#OverviewEx1_TextOutput3 {	@include elemLeft(60);
+#OverviewEx1_TextOutput3 {	@include elemLeft(40);
 }
 #OverviewEx1_TextOutput3 {	@include elemAutoWidth(70);
 }
@@ -551,7 +551,7 @@
 }
 #OverviewEx1_Rectangle4 {	@include elemTop(506);
 }
-#OverviewEx1_Rectangle4 {	@include elemLeft(40);
+#OverviewEx1_Rectangle4 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle4 {	@include elemWidth(400);
 }
@@ -565,7 +565,7 @@
 }
 #OverviewEx1_Rectangle5 {	@include elemTop(818);
 }
-#OverviewEx1_Rectangle5 {	@include elemLeft(40);
+#OverviewEx1_Rectangle5 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle5 {	@include elemWidth(400);
 }
@@ -579,7 +579,7 @@
 }
 #OverviewEx1_Rectangle6 {	@include elemTop(624);
 }
-#OverviewEx1_Rectangle6 {	@include elemLeft(40);
+#OverviewEx1_Rectangle6 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle6 {	@include elemWidth(400);
 }
@@ -595,7 +595,7 @@
 }
 #OverviewEx1_Image11 {	@include elemTop(520);
 }
-#OverviewEx1_Image11 {	@include elemLeft(220);
+#OverviewEx1_Image11 {	@include elemLeft(200);
 }
 #OverviewEx1_Image11 {	@include elemAutoWidth(140);
 }
@@ -605,7 +605,7 @@
 }
 #OverviewEx1_TextOutput8 {	@include elemTop(597);
 }
-#OverviewEx1_TextOutput8 {	@include elemLeft(80);
+#OverviewEx1_TextOutput8 {	@include elemLeft(60);
 }
 #OverviewEx1_TextOutput8 {	@include elemAutoWidth(70);
 }
@@ -615,7 +615,7 @@
 }
 #OverviewEx1_Ellipse1 {	@include elemTop(601);
 }
-#OverviewEx1_Ellipse1 {	@include elemLeft(60);
+#OverviewEx1_Ellipse1 {	@include elemLeft(40);
 }
 #OverviewEx1_Ellipse1 {	@include elemWidth(20);
 }
@@ -627,7 +627,7 @@
 }
 #OverviewEx1_NI_Write_P103_SP {	@include elemTop(568);
 }
-#OverviewEx1_NI_Write_P103_SP {	@include elemLeft(60);
+#OverviewEx1_NI_Write_P103_SP {	@include elemLeft(40);
 }
 #OverviewEx1_NI_Write_P103_SP {	@include elemAutoWidth(80);
 }
@@ -637,7 +637,7 @@
 }
 #OverviewEx1_PB_Write_P103_SP {	@include elemTop(568);
 }
-#OverviewEx1_PB_Write_P103_SP {	@include elemLeft(145);
+#OverviewEx1_PB_Write_P103_SP {	@include elemLeft(125);
 }
 #OverviewEx1_PB_Write_P103_SP {	@include elemAutoWidth(60);
 }
@@ -647,7 +647,7 @@
 }
 #OverviewEx1_P103_SP {	@include elemTop(538);
 }
-#OverviewEx1_P103_SP {	@include elemLeft(0);
+#OverviewEx1_P103_SP {	@include elemLeft(-20);
 }
 #OverviewEx1_P103_SP {	@include elemAutoWidth(220);
 }
@@ -655,9 +655,9 @@
 }
 #OverviewEx1_TextOutput18 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput18 {	@include elemTop(518);
+#OverviewEx1_TextOutput18 {	@include elemTop(511);
 }
-#OverviewEx1_TextOutput18 {	@include elemLeft(100);
+#OverviewEx1_TextOutput18 {	@include elemLeft(25);
 }
 #OverviewEx1_TextOutput18 {	@include elemAutoWidth(70);
 }
@@ -665,13 +665,13 @@
 }
 #OverviewEx1_TextOutput18 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput18 {	font-size: 20px;
+#OverviewEx1_TextOutput18 {	font-size: 24px;
 }
 #OverviewEx1_HP_CONC {	@include elemAutoHeight(30);
 }
 #OverviewEx1_HP_CONC {	@include elemTop(597);
 }
-#OverviewEx1_HP_CONC {	@include elemLeft(-5);
+#OverviewEx1_HP_CONC {	@include elemLeft(-25);
 }
 #OverviewEx1_HP_CONC {	@include elemAutoWidth(220);
 }
@@ -679,7 +679,7 @@
 }
 #OverviewEx1_Rectangle7 {	@include elemTop(700);
 }
-#OverviewEx1_Rectangle7 {	@include elemLeft(40);
+#OverviewEx1_Rectangle7 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle7 {	@include elemWidth(400);
 }
@@ -693,7 +693,7 @@
 }
 #OverviewEx1_Rectangle8 {	@include elemTop(324);
 }
-#OverviewEx1_Rectangle8 {	@include elemLeft(40);
+#OverviewEx1_Rectangle8 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle8 {	@include elemWidth(400);
 }
@@ -709,7 +709,7 @@
 }
 #OverviewEx1_Image12 {	@include elemTop(340);
 }
-#OverviewEx1_Image12 {	@include elemLeft(220);
+#OverviewEx1_Image12 {	@include elemLeft(200);
 }
 #OverviewEx1_Image12 {	@include elemAutoWidth(140);
 }
@@ -719,7 +719,7 @@
 }
 #OverviewEx1_TextOutput10 {	@include elemTop(415);
 }
-#OverviewEx1_TextOutput10 {	@include elemLeft(80);
+#OverviewEx1_TextOutput10 {	@include elemLeft(60);
 }
 #OverviewEx1_TextOutput10 {	@include elemAutoWidth(70);
 }
@@ -729,7 +729,7 @@
 }
 #OverviewEx1_Ellipse2 {	@include elemTop(419);
 }
-#OverviewEx1_Ellipse2 {	@include elemLeft(60);
+#OverviewEx1_Ellipse2 {	@include elemLeft(40);
 }
 #OverviewEx1_Ellipse2 {	@include elemWidth(20);
 }
@@ -741,7 +741,7 @@
 }
 #OverviewEx1_NI_Write_P102_SP {	@include elemTop(386);
 }
-#OverviewEx1_NI_Write_P102_SP {	@include elemLeft(60);
+#OverviewEx1_NI_Write_P102_SP {	@include elemLeft(40);
 }
 #OverviewEx1_NI_Write_P102_SP {	@include elemAutoWidth(80);
 }
@@ -751,7 +751,7 @@
 }
 #OverviewEx1_PB_Write_P102_SP {	@include elemTop(386);
 }
-#OverviewEx1_PB_Write_P102_SP {	@include elemLeft(145);
+#OverviewEx1_PB_Write_P102_SP {	@include elemLeft(125);
 }
 #OverviewEx1_PB_Write_P102_SP {	@include elemAutoWidth(60);
 }
@@ -761,7 +761,7 @@
 }
 #OverviewEx1_P102_SP {	@include elemTop(356);
 }
-#OverviewEx1_P102_SP {	@include elemLeft(0);
+#OverviewEx1_P102_SP {	@include elemLeft(-20);
 }
 #OverviewEx1_P102_SP {	@include elemAutoWidth(220);
 }
@@ -771,7 +771,7 @@
 }
 #OverviewEx1_TextOutput11 {	@include elemTop(356);
 }
-#OverviewEx1_TextOutput11 {	@include elemLeft(60);
+#OverviewEx1_TextOutput11 {	@include elemLeft(40);
 }
 #OverviewEx1_TextOutput11 {	@include elemAutoWidth(70);
 }
@@ -781,9 +781,9 @@
 }
 #OverviewEx1_TextOutput19 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput19 {	@include elemTop(336);
+#OverviewEx1_TextOutput19 {	@include elemTop(329);
 }
-#OverviewEx1_TextOutput19 {	@include elemLeft(100);
+#OverviewEx1_TextOutput19 {	@include elemLeft(25);
 }
 #OverviewEx1_TextOutput19 {	@include elemAutoWidth(70);
 }
@@ -791,13 +791,13 @@
 }
 #OverviewEx1_TextOutput19 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput19 {	font-size: 20px;
+#OverviewEx1_TextOutput19 {	font-size: 24px;
 }
 #OverviewEx1_NAOH_CONC {	@include elemAutoHeight(30);
 }
 #OverviewEx1_NAOH_CONC {	@include elemTop(415);
 }
-#OverviewEx1_NAOH_CONC {	@include elemLeft(-5);
+#OverviewEx1_NAOH_CONC {	@include elemLeft(-25);
 }
 #OverviewEx1_NAOH_CONC {	@include elemAutoWidth(220);
 }
@@ -805,7 +805,7 @@
 }
 #OverviewEx1_Rectangle9 {	@include elemTop(442);
 }
-#OverviewEx1_Rectangle9 {	@include elemLeft(40);
+#OverviewEx1_Rectangle9 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle9 {	@include elemWidth(400);
 }
@@ -821,7 +821,7 @@
 }
 #OverviewEx1_NI_Write_P101_SP {	@include elemTop(205);
 }
-#OverviewEx1_NI_Write_P101_SP {	@include elemLeft(60);
+#OverviewEx1_NI_Write_P101_SP {	@include elemLeft(40);
 }
 #OverviewEx1_NI_Write_P101_SP {	@include elemAutoWidth(80);
 }
@@ -831,7 +831,7 @@
 }
 #OverviewEx1_PB_Write_P101_SP {	@include elemTop(205);
 }
-#OverviewEx1_PB_Write_P101_SP {	@include elemLeft(145);
+#OverviewEx1_PB_Write_P101_SP {	@include elemLeft(125);
 }
 #OverviewEx1_PB_Write_P101_SP {	@include elemAutoWidth(60);
 }
@@ -841,7 +841,7 @@
 }
 #OverviewEx1_P101_SP {	@include elemTop(170);
 }
-#OverviewEx1_P101_SP {	@include elemLeft(0);
+#OverviewEx1_P101_SP {	@include elemLeft(-20);
 }
 #OverviewEx1_P101_SP {	@include elemAutoWidth(220);
 }
@@ -851,7 +851,7 @@
 }
 #OverviewEx1_TextOutput12 {	@include elemTop(170);
 }
-#OverviewEx1_TextOutput12 {	@include elemLeft(60);
+#OverviewEx1_TextOutput12 {	@include elemLeft(40);
 }
 #OverviewEx1_TextOutput12 {	@include elemAutoWidth(70);
 }
@@ -861,9 +861,9 @@
 }
 #OverviewEx1_TextOutput21 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput21 {	@include elemTop(132);
+#OverviewEx1_TextOutput21 {	@include elemTop(124);
 }
-#OverviewEx1_TextOutput21 {	@include elemLeft(100);
+#OverviewEx1_TextOutput21 {	@include elemLeft(25);
 }
 #OverviewEx1_TextOutput21 {	@include elemAutoWidth(70);
 }
@@ -871,13 +871,13 @@
 }
 #OverviewEx1_TextOutput21 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput21 {	font-size: 20px;
+#OverviewEx1_TextOutput21 {	font-size: 24px;
 }
 #OverviewEx1_TextOutput13 {	@include elemAutoHeight(30);
 }
 #OverviewEx1_TextOutput13 {	@include elemTop(240);
 }
-#OverviewEx1_TextOutput13 {	@include elemLeft(80);
+#OverviewEx1_TextOutput13 {	@include elemLeft(60);
 }
 #OverviewEx1_TextOutput13 {	@include elemAutoWidth(70);
 }
@@ -887,7 +887,7 @@
 }
 #OverviewEx1_Rectangle10 {	@include elemTop(119);
 }
-#OverviewEx1_Rectangle10 {	@include elemLeft(40);
+#OverviewEx1_Rectangle10 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle10 {	@include elemWidth(400);
 }
@@ -901,7 +901,7 @@
 }
 #OverviewEx1_TextOutput22 {	@include elemTop(-10);
 }
-#OverviewEx1_TextOutput22 {	@include elemLeft(0);
+#OverviewEx1_TextOutput22 {	@include elemLeft(-20);
 }
 #OverviewEx1_TextOutput22 {	@include elemAutoWidth(260);
 }
@@ -917,7 +917,7 @@
 }
 #OverviewEx1_PMAX_CONC {	@include elemTop(55);
 }
-#OverviewEx1_PMAX_CONC {	@include elemLeft(-40);
+#OverviewEx1_PMAX_CONC {	@include elemLeft(-60);
 }
 #OverviewEx1_PMAX_CONC {	@include elemAutoWidth(220);
 }
@@ -927,7 +927,7 @@
 }
 #OverviewEx1_TextOutput14 {	@include elemTop(538);
 }
-#OverviewEx1_TextOutput14 {	@include elemLeft(60);
+#OverviewEx1_TextOutput14 {	@include elemLeft(40);
 }
 #OverviewEx1_TextOutput14 {	@include elemAutoWidth(70);
 }
@@ -939,7 +939,7 @@
 }
 #OverviewEx1_PMAX_RATE {	@include elemTop(75);
 }
-#OverviewEx1_PMAX_RATE {	@include elemLeft(-40);
+#OverviewEx1_PMAX_RATE {	@include elemLeft(-60);
 }
 #OverviewEx1_PMAX_RATE {	@include elemAutoWidth(220);
 }
@@ -951,7 +951,7 @@
 }
 #OverviewEx1_UNIT_ID_DOSE {	@include elemTop(35);
 }
-#OverviewEx1_UNIT_ID_DOSE {	@include elemLeft(80);
+#OverviewEx1_UNIT_ID_DOSE {	@include elemLeft(60);
 }
 #OverviewEx1_UNIT_ID_DOSE {	z-index: 122;
 }
@@ -959,7 +959,7 @@
 }
 #OverviewEx1_TextOutput15 {	@include elemTop(35);
 }
-#OverviewEx1_TextOutput15 {	@include elemLeft(75);
+#OverviewEx1_TextOutput15 {	@include elemLeft(55);
 }
 #OverviewEx1_TextOutput15 {	@include elemAutoWidth(70);
 }
@@ -969,7 +969,7 @@
 }
 #OverviewEx1_Rectangle11 {	@include elemTop(3);
 }
-#OverviewEx1_Rectangle11 {	@include elemLeft(40);
+#OverviewEx1_Rectangle11 {	@include elemLeft(20);
 }
 #OverviewEx1_Rectangle11 {	@include elemWidth(656);
 }
@@ -985,7 +985,7 @@
 }
 #OverviewEx1_TextOutput23 {	@include elemTop(240);
 }
-#OverviewEx1_TextOutput23 {	@include elemLeft(465);
+#OverviewEx1_TextOutput23 {	@include elemLeft(445);
 }
 #OverviewEx1_TextOutput23 {	@include elemAutoWidth(80);
 }
@@ -999,7 +999,7 @@
 }
 #OverviewEx1_TextOutput16 {	@include elemTop(240);
 }
-#OverviewEx1_TextOutput16 {	@include elemLeft(660);
+#OverviewEx1_TextOutput16 {	@include elemLeft(640);
 }
 #OverviewEx1_TextOutput16 {	@include elemAutoWidth(70);
 }
@@ -1009,7 +1009,7 @@
 }
 #OverviewEx1_Rectangle12 {	@include elemTop(230);
 }
-#OverviewEx1_Rectangle12 {	@include elemLeft(460);
+#OverviewEx1_Rectangle12 {	@include elemLeft(440);
 }
 #OverviewEx1_Rectangle12 {	@include elemWidth(485);
 }
@@ -1025,7 +1025,7 @@
 }
 #OverviewEx1_TextOutput24 {	@include elemTop(480);
 }
-#OverviewEx1_TextOutput24 {	@include elemLeft(465);
+#OverviewEx1_TextOutput24 {	@include elemLeft(445);
 }
 #OverviewEx1_TextOutput24 {	@include elemAutoWidth(80);
 }
@@ -1039,7 +1039,7 @@
 }
 #OverviewEx1_TextOutput25 {	@include elemTop(480);
 }
-#OverviewEx1_TextOutput25 {	@include elemLeft(660);
+#OverviewEx1_TextOutput25 {	@include elemLeft(640);
 }
 #OverviewEx1_TextOutput25 {	@include elemAutoWidth(70);
 }
@@ -1049,7 +1049,7 @@
 }
 #OverviewEx1_Rectangle13 {	@include elemTop(470);
 }
-#OverviewEx1_Rectangle13 {	@include elemLeft(460);
+#OverviewEx1_Rectangle13 {	@include elemLeft(440);
 }
 #OverviewEx1_Rectangle13 {	@include elemWidth(485);
 }
@@ -1063,7 +1063,7 @@
 }
 #OverviewEx1_Image15 {	@include elemTop(190);
 }
-#OverviewEx1_Image15 {	@include elemLeft(698);
+#OverviewEx1_Image15 {	@include elemLeft(678);
 }
 #OverviewEx1_Image15 {	@include elemAutoWidth(60);
 }
@@ -1205,7 +1205,7 @@
 }
 #OverviewEx1_PB_Write_P101_STRT_CMD {	@include elemTop(160);
 }
-#OverviewEx1_PB_Write_P101_STRT_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P101_STRT_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P101_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1215,7 +1215,7 @@
 }
 #OverviewEx1_PB_Write_P101_STP_CMD {	@include elemTop(201);
 }
-#OverviewEx1_PB_Write_P101_STP_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P101_STP_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P101_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1225,7 +1225,7 @@
 }
 #OverviewEx1_PB_Write_P102_STRT_CMD {	@include elemTop(360);
 }
-#OverviewEx1_PB_Write_P102_STRT_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P102_STRT_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P102_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1235,7 +1235,7 @@
 }
 #OverviewEx1_PB_Write_P102_STP_CMD {	@include elemTop(400);
 }
-#OverviewEx1_PB_Write_P102_STP_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P102_STP_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P102_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1245,7 +1245,7 @@
 }
 #OverviewEx1_PB_Write_P103_STRT_CMD {	@include elemTop(540);
 }
-#OverviewEx1_PB_Write_P103_STRT_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P103_STRT_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P103_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1255,7 +1255,7 @@
 }
 #OverviewEx1_PB_Write_P103_STP_CMD {	@include elemTop(581);
 }
-#OverviewEx1_PB_Write_P103_STP_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P103_STP_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P103_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1265,7 +1265,7 @@
 }
 #OverviewEx1_PB_Write_P104_STRT_CMD {	@include elemTop(735);
 }
-#OverviewEx1_PB_Write_P104_STRT_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P104_STRT_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P104_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1275,7 +1275,7 @@
 }
 #OverviewEx1_PB_Write_P104_STP_CMD {	@include elemTop(776);
 }
-#OverviewEx1_PB_Write_P104_STP_CMD {	@include elemLeft(360);
+#OverviewEx1_PB_Write_P104_STP_CMD {	@include elemLeft(340);
 }
 #OverviewEx1_PB_Write_P104_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1283,9 +1283,9 @@
 }
 #OverviewEx1_TextOutput28 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput28 {	@include elemTop(120);
+#OverviewEx1_TextOutput28 {	@include elemTop(125);
 }
-#OverviewEx1_TextOutput28 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput28 {	@include elemLeft(1085);
 }
 #OverviewEx1_TextOutput28 {	@include elemAutoWidth(70);
 }
@@ -1293,13 +1293,13 @@
 }
 #OverviewEx1_TextOutput28 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput28 {	font-size: 20px;
+#OverviewEx1_TextOutput28 {	font-size: 24px;
 }
 #OverviewEx1_Image10 {	@include elemAutoHeight(100);
 }
-#OverviewEx1_Image10 {	@include elemTop(200);
+#OverviewEx1_Image10 {	@include elemTop(180);
 }
-#OverviewEx1_Image10 {	@include elemLeft(1280);
+#OverviewEx1_Image10 {	@include elemLeft(1300);
 }
 #OverviewEx1_Image10 {	@include elemAutoWidth(140);
 }
@@ -1307,17 +1307,17 @@
 }
 #OverviewEx1_NI_Write_P201_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P201_SP {	@include elemTop(180);
+#OverviewEx1_NI_Write_P201_SP {	@include elemTop(172);
 }
-#OverviewEx1_NI_Write_P201_SP {	@include elemLeft(1120);
+#OverviewEx1_NI_Write_P201_SP {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P201_SP {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P201_SP {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P201_SP {	z-index: 139;
 }
 #OverviewEx1_PB_Write_P201_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P201_SP {	@include elemTop(180);
+#OverviewEx1_PB_Write_P201_SP {	@include elemTop(172);
 }
 #OverviewEx1_PB_Write_P201_SP {	@include elemLeft(1210);
 }
@@ -1327,9 +1327,9 @@
 }
 #OverviewEx1_P201_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_SP {	@include elemTop(155);
+#OverviewEx1_P201_SP {	@include elemTop(147);
 }
-#OverviewEx1_P201_SP {	@include elemLeft(1065);
+#OverviewEx1_P201_SP {	@include elemLeft(1060);
 }
 #OverviewEx1_P201_SP {	@include elemAutoWidth(220);
 }
@@ -1337,9 +1337,9 @@
 }
 #OverviewEx1_TextOutput5 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput5 {	@include elemTop(155);
+#OverviewEx1_TextOutput5 {	@include elemTop(147);
 }
-#OverviewEx1_TextOutput5 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput5 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput5 {	@include elemAutoWidth(70);
 }
@@ -1349,9 +1349,9 @@
 }
 #OverviewEx1_Rectangle14 {	@include elemTop(304);
 }
-#OverviewEx1_Rectangle14 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle14 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle14 {	@include elemWidth(400);
+#OverviewEx1_Rectangle14 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle14 {	@include elemHeight(30);
 }
@@ -1363,9 +1363,9 @@
 }
 #OverviewEx1_Rectangle15 {	@include elemTop(120);
 }
-#OverviewEx1_Rectangle15 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle15 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle15 {	@include elemWidth(400);
+#OverviewEx1_Rectangle15 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle15 {	@include elemHeight(187);
 }
@@ -1387,9 +1387,9 @@
 }
 #OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemTop(221);
+#OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemTop(200);
 }
-#OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemLeft(1420);
+#OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P201_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1397,9 +1397,9 @@
 }
 #OverviewEx1_PB_Write_P201_STP_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P201_STP_CMD {	@include elemTop(262);
+#OverviewEx1_PB_Write_P201_STP_CMD {	@include elemTop(240);
 }
-#OverviewEx1_PB_Write_P201_STP_CMD {	@include elemLeft(1420);
+#OverviewEx1_PB_Write_P201_STP_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P201_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1407,17 +1407,17 @@
 }
 #OverviewEx1_NI_Write_P201_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P201_PPM {	@include elemTop(246);
+#OverviewEx1_NI_Write_P201_PPM {	@include elemTop(250);
 }
-#OverviewEx1_NI_Write_P201_PPM {	@include elemLeft(1120);
+#OverviewEx1_NI_Write_P201_PPM {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P201_PPM {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P201_PPM {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P201_PPM {	z-index: 145;
 }
 #OverviewEx1_PB_Write_P201_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P201_PPM {	@include elemTop(246);
+#OverviewEx1_PB_Write_P201_PPM {	@include elemTop(250);
 }
 #OverviewEx1_PB_Write_P201_PPM {	@include elemLeft(1210);
 }
@@ -1427,9 +1427,9 @@
 }
 #OverviewEx1_P201_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P201_PPM {	@include elemTop(220);
+#OverviewEx1_P201_PPM {	@include elemTop(225);
 }
-#OverviewEx1_P201_PPM {	@include elemLeft(1065);
+#OverviewEx1_P201_PPM {	@include elemLeft(1060);
 }
 #OverviewEx1_P201_PPM {	@include elemAutoWidth(220);
 }
@@ -1437,9 +1437,9 @@
 }
 #OverviewEx1_TextOutput6 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput6 {	@include elemTop(220);
+#OverviewEx1_TextOutput6 {	@include elemTop(225);
 }
-#OverviewEx1_TextOutput6 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput6 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput6 {	@include elemAutoWidth(70);
 }
@@ -1449,9 +1449,9 @@
 }
 #OverviewEx1_TextOutput29 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput29 {	@include elemTop(360);
+#OverviewEx1_TextOutput29 {	@include elemTop(365);
 }
-#OverviewEx1_TextOutput29 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput29 {	@include elemLeft(1085);
 }
 #OverviewEx1_TextOutput29 {	@include elemAutoWidth(70);
 }
@@ -1459,13 +1459,13 @@
 }
 #OverviewEx1_TextOutput29 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput29 {	font-size: 20px;
+#OverviewEx1_TextOutput29 {	font-size: 24px;
 }
 #OverviewEx1_Image16 {	@include elemAutoHeight(100);
 }
-#OverviewEx1_Image16 {	@include elemTop(440);
+#OverviewEx1_Image16 {	@include elemTop(420);
 }
-#OverviewEx1_Image16 {	@include elemLeft(1280);
+#OverviewEx1_Image16 {	@include elemLeft(1300);
 }
 #OverviewEx1_Image16 {	@include elemAutoWidth(140);
 }
@@ -1473,17 +1473,17 @@
 }
 #OverviewEx1_NI_Write_P202_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P202_SP {	@include elemTop(420);
+#OverviewEx1_NI_Write_P202_SP {	@include elemTop(412);
 }
-#OverviewEx1_NI_Write_P202_SP {	@include elemLeft(1120);
+#OverviewEx1_NI_Write_P202_SP {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P202_SP {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P202_SP {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P202_SP {	z-index: 150;
 }
 #OverviewEx1_PB_Write_P202_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P202_SP {	@include elemTop(420);
+#OverviewEx1_PB_Write_P202_SP {	@include elemTop(412);
 }
 #OverviewEx1_PB_Write_P202_SP {	@include elemLeft(1210);
 }
@@ -1493,9 +1493,9 @@
 }
 #OverviewEx1_P202_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_SP {	@include elemTop(395);
+#OverviewEx1_P202_SP {	@include elemTop(387);
 }
-#OverviewEx1_P202_SP {	@include elemLeft(1065);
+#OverviewEx1_P202_SP {	@include elemLeft(1060);
 }
 #OverviewEx1_P202_SP {	@include elemAutoWidth(220);
 }
@@ -1503,9 +1503,9 @@
 }
 #OverviewEx1_TextOutput7 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput7 {	@include elemTop(395);
+#OverviewEx1_TextOutput7 {	@include elemTop(387);
 }
-#OverviewEx1_TextOutput7 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput7 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput7 {	@include elemAutoWidth(70);
 }
@@ -1515,9 +1515,9 @@
 }
 #OverviewEx1_Rectangle16 {	@include elemTop(544);
 }
-#OverviewEx1_Rectangle16 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle16 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle16 {	@include elemWidth(400);
+#OverviewEx1_Rectangle16 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle16 {	@include elemHeight(30);
 }
@@ -1529,9 +1529,9 @@
 }
 #OverviewEx1_Rectangle17 {	@include elemTop(360);
 }
-#OverviewEx1_Rectangle17 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle17 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle17 {	@include elemWidth(400);
+#OverviewEx1_Rectangle17 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle17 {	@include elemHeight(187);
 }
@@ -1553,9 +1553,9 @@
 }
 #OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemTop(461);
+#OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemTop(440);
 }
-#OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemLeft(1420);
+#OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P202_STRT_CMD {	@include elemAutoWidth(62);
 }
@@ -1563,9 +1563,9 @@
 }
 #OverviewEx1_PB_Write_P202_STP_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P202_STP_CMD {	@include elemTop(502);
+#OverviewEx1_PB_Write_P202_STP_CMD {	@include elemTop(480);
 }
-#OverviewEx1_PB_Write_P202_STP_CMD {	@include elemLeft(1420);
+#OverviewEx1_PB_Write_P202_STP_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P202_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -1573,17 +1573,17 @@
 }
 #OverviewEx1_NI_Write_P202_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P202_PPM {	@include elemTop(486);
+#OverviewEx1_NI_Write_P202_PPM {	@include elemTop(490);
 }
-#OverviewEx1_NI_Write_P202_PPM {	@include elemLeft(1120);
+#OverviewEx1_NI_Write_P202_PPM {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P202_PPM {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P202_PPM {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P202_PPM {	z-index: 156;
 }
 #OverviewEx1_PB_Write_P202_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P202_PPM {	@include elemTop(486);
+#OverviewEx1_PB_Write_P202_PPM {	@include elemTop(490);
 }
 #OverviewEx1_PB_Write_P202_PPM {	@include elemLeft(1210);
 }
@@ -1593,9 +1593,9 @@
 }
 #OverviewEx1_P202_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P202_PPM {	@include elemTop(460);
+#OverviewEx1_P202_PPM {	@include elemTop(465);
 }
-#OverviewEx1_P202_PPM {	@include elemLeft(1065);
+#OverviewEx1_P202_PPM {	@include elemLeft(1060);
 }
 #OverviewEx1_P202_PPM {	@include elemAutoWidth(220);
 }
@@ -1603,9 +1603,9 @@
 }
 #OverviewEx1_TextOutput9 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput9 {	@include elemTop(460);
+#OverviewEx1_TextOutput9 {	@include elemTop(465);
 }
-#OverviewEx1_TextOutput9 {	@include elemLeft(1120);
+#OverviewEx1_TextOutput9 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput9 {	@include elemAutoWidth(70);
 }
@@ -1615,9 +1615,9 @@
 }
 #OverviewEx1_Rectangle20 {	@include elemTop(3);
 }
-#OverviewEx1_Rectangle20 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle20 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle20 {	@include elemWidth(640);
+#OverviewEx1_Rectangle20 {	@include elemWidth(665);
 }
 #OverviewEx1_Rectangle20 {	@include elemHeight(100);
 }
@@ -1657,9 +1657,9 @@
 		stroke-width: 7px;
 	}
 }
-#OverviewEx1_Image18 {	@include elemTop(184);
+#OverviewEx1_Image18 {	@include elemTop(164);
 }
-#OverviewEx1_Image18 {	@include elemLeft(1540);
+#OverviewEx1_Image18 {	@include elemLeft(1570);
 }
 #OverviewEx1_Image18 {	@include elemAutoWidth(60);
 }
@@ -1667,29 +1667,29 @@
 }
 #OverviewEx1_Image18 {	z-index: 164;
 }
-#OverviewEx1_Image19 {	@include elemTop(426);
+#OverviewEx1_Image19 {	@include elemTop(406);
 }
-#OverviewEx1_Image19 {	@include elemLeft(1540);
+#OverviewEx1_Image19 {	@include elemLeft(1570);
 }
 #OverviewEx1_Image19 {	@include elemAutoWidth(60);
 }
 #OverviewEx1_Image19 {	@include elemAutoHeight(40);
 }
-#OverviewEx1_Image19 {	z-index: 167;
+#OverviewEx1_Image19 {	z-index: 168;
 }
-#OverviewEx1_Image21 {	@include elemTop(203);
+#OverviewEx1_Image21 {	@include elemTop(183);
 }
-#OverviewEx1_Image21 {	@include elemLeft(1660);
+#OverviewEx1_Image21 {	@include elemLeft(1680);
 }
 #OverviewEx1_Image21 {	@include elemAutoWidth(40);
 }
 #OverviewEx1_Image21 {	@include elemAutoHeight(60);
 }
-#OverviewEx1_Image21 {	z-index: 168;
+#OverviewEx1_Image21 {	z-index: 169;
 }
-#OverviewEx1_Image22 {	@include elemTop(444);
+#OverviewEx1_Image22 {	@include elemTop(424);
 }
-#OverviewEx1_Image22 {	@include elemLeft(1660);
+#OverviewEx1_Image22 {	@include elemLeft(1680);
 }
 #OverviewEx1_Image22 {	@include elemAutoWidth(40);
 }
@@ -1699,7 +1699,7 @@
 }
 #OverviewEx1_Rectangle21 {	@include elemTop(3);
 }
-#OverviewEx1_Rectangle21 {	@include elemLeft(709);
+#OverviewEx1_Rectangle21 {	@include elemLeft(689);
 }
 #OverviewEx1_Rectangle21 {	@include elemWidth(380);
 }
@@ -1761,7 +1761,7 @@
 }
 #OverviewEx1_Image24 {	@include elemTop(220);
 }
-#OverviewEx1_Image24 {	@include elemLeft(955);
+#OverviewEx1_Image24 {	@include elemLeft(935);
 }
 #OverviewEx1_Image24 {	@include elemAutoWidth(145);
 }
@@ -1771,9 +1771,9 @@
 }
 #OverviewEx1_TextOutput1 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput1 {	@include elemTop(140);
+#OverviewEx1_TextOutput1 {	@include elemTop(135);
 }
-#OverviewEx1_TextOutput1 {	@include elemLeft(1300);
+#OverviewEx1_TextOutput1 {	@include elemLeft(1340);
 }
 #OverviewEx1_TextOutput1 {	@include elemAutoWidth(160);
 }
@@ -1781,7 +1781,7 @@
 }
 #OverviewEx1_TextOutput1 {	border-width: 3px;
 }
-#OverviewEx1_TextOutput1 {	background-color: rgba(220, 220, 220, 1);
+#OverviewEx1_TextOutput1 {	background-color: rgba(245, 245, 245, 1);
 }
 #OverviewEx1_TextOutput1 {	border-style: solid;
 }
@@ -1799,7 +1799,7 @@
 }
 #OverviewEx1_FI301 {	@include elemTop(20);
 }
-#OverviewEx1_FI301 {	@include elemLeft(620);
+#OverviewEx1_FI301 {	@include elemLeft(600);
 }
 #OverviewEx1_FI301 {	@include elemAutoWidth(220);
 }
@@ -1809,7 +1809,7 @@
 }
 #OverviewEx1_FI302 {	@include elemTop(77);
 }
-#OverviewEx1_FI302 {	@include elemLeft(620);
+#OverviewEx1_FI302 {	@include elemLeft(600);
 }
 #OverviewEx1_FI302 {	@include elemAutoWidth(220);
 }
@@ -1819,7 +1819,7 @@
 }
 #OverviewEx1_FI303 {	@include elemTop(134);
 }
-#OverviewEx1_FI303 {	@include elemLeft(620);
+#OverviewEx1_FI303 {	@include elemLeft(600);
 }
 #OverviewEx1_FI303 {	@include elemAutoWidth(220);
 }
@@ -1829,7 +1829,7 @@
 }
 #OverviewEx1_TextOutput27 {	@include elemTop(20);
 }
-#OverviewEx1_TextOutput27 {	@include elemLeft(710);
+#OverviewEx1_TextOutput27 {	@include elemLeft(690);
 }
 #OverviewEx1_TextOutput27 {	@include elemAutoWidth(70);
 }
@@ -1841,7 +1841,7 @@
 }
 #OverviewEx1_TextOutput31 {	@include elemTop(77);
 }
-#OverviewEx1_TextOutput31 {	@include elemLeft(710);
+#OverviewEx1_TextOutput31 {	@include elemLeft(690);
 }
 #OverviewEx1_TextOutput31 {	@include elemAutoWidth(70);
 }
@@ -1853,7 +1853,7 @@
 }
 #OverviewEx1_TextOutput32 {	@include elemTop(134);
 }
-#OverviewEx1_TextOutput32 {	@include elemLeft(710);
+#OverviewEx1_TextOutput32 {	@include elemLeft(690);
 }
 #OverviewEx1_TextOutput32 {	@include elemAutoWidth(70);
 }
@@ -1865,7 +1865,7 @@
 }
 #OverviewEx1_TextOutput33 {	@include elemTop(20);
 }
-#OverviewEx1_TextOutput33 {	@include elemLeft(800);
+#OverviewEx1_TextOutput33 {	@include elemLeft(780);
 }
 #OverviewEx1_TextOutput33 {	@include elemAutoWidth(70);
 }
@@ -1879,7 +1879,7 @@
 }
 #OverviewEx1_TextOutput34 {	@include elemTop(77);
 }
-#OverviewEx1_TextOutput34 {	@include elemLeft(800);
+#OverviewEx1_TextOutput34 {	@include elemLeft(780);
 }
 #OverviewEx1_TextOutput34 {	@include elemAutoWidth(70);
 }
@@ -1893,7 +1893,7 @@
 }
 #OverviewEx1_TextOutput35 {	@include elemTop(134);
 }
-#OverviewEx1_TextOutput35 {	@include elemLeft(800);
+#OverviewEx1_TextOutput35 {	@include elemLeft(780);
 }
 #OverviewEx1_TextOutput35 {	@include elemAutoWidth(70);
 }
@@ -1905,7 +1905,7 @@
 }
 #OverviewEx1_PB_Write_P1 {	@include elemTop(10);
 }
-#OverviewEx1_PB_Write_P1 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P1 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P1 {	@include elemAutoWidth(60);
 }
@@ -1915,7 +1915,7 @@
 }
 #OverviewEx1_PB_Write_P2 {	@include elemTop(35);
 }
-#OverviewEx1_PB_Write_P2 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P2 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P2 {	@include elemAutoWidth(60);
 }
@@ -1925,7 +1925,7 @@
 }
 #OverviewEx1_PB_Write_P3 {	@include elemTop(68);
 }
-#OverviewEx1_PB_Write_P3 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P3 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P3 {	@include elemAutoWidth(60);
 }
@@ -1935,7 +1935,7 @@
 }
 #OverviewEx1_PB_Write_P4 {	@include elemTop(93);
 }
-#OverviewEx1_PB_Write_P4 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P4 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P4 {	@include elemAutoWidth(60);
 }
@@ -1945,7 +1945,7 @@
 }
 #OverviewEx1_PB_Write_P5 {	@include elemTop(127);
 }
-#OverviewEx1_PB_Write_P5 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P5 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P5 {	@include elemAutoWidth(60);
 }
@@ -1955,7 +1955,7 @@
 }
 #OverviewEx1_PB_Write_P6 {	@include elemTop(152);
 }
-#OverviewEx1_PB_Write_P6 {	@include elemLeft(870);
+#OverviewEx1_PB_Write_P6 {	@include elemLeft(850);
 }
 #OverviewEx1_PB_Write_P6 {	@include elemAutoWidth(60);
 }
@@ -1967,7 +1967,7 @@
 }
 #OverviewEx1_NI_Write_P1 {	@include elemTop(20);
 }
-#OverviewEx1_NI_Write_P1 {	@include elemLeft(940);
+#OverviewEx1_NI_Write_P1 {	@include elemLeft(920);
 }
 #OverviewEx1_NI_Write_P1 {	@include elemAutoWidth(80);
 }
@@ -1977,7 +1977,7 @@
 }
 #OverviewEx1_NI_Write_P2 {	@include elemTop(77);
 }
-#OverviewEx1_NI_Write_P2 {	@include elemLeft(940);
+#OverviewEx1_NI_Write_P2 {	@include elemLeft(920);
 }
 #OverviewEx1_NI_Write_P2 {	@include elemAutoWidth(80);
 }
@@ -1987,7 +1987,7 @@
 }
 #OverviewEx1_NI_Write_P3 {	@include elemTop(134);
 }
-#OverviewEx1_NI_Write_P3 {	@include elemLeft(940);
+#OverviewEx1_NI_Write_P3 {	@include elemLeft(920);
 }
 #OverviewEx1_NI_Write_P3 {	@include elemAutoWidth(80);
 }
@@ -1997,7 +1997,7 @@
 }
 #OverviewEx1_PB_Write_P7 {	@include elemTop(20);
 }
-#OverviewEx1_PB_Write_P7 {	@include elemLeft(1025);
+#OverviewEx1_PB_Write_P7 {	@include elemLeft(1005);
 }
 #OverviewEx1_PB_Write_P7 {	@include elemAutoWidth(60);
 }
@@ -2007,7 +2007,7 @@
 }
 #OverviewEx1_PB_Write_P8 {	@include elemTop(77);
 }
-#OverviewEx1_PB_Write_P8 {	@include elemLeft(1025);
+#OverviewEx1_PB_Write_P8 {	@include elemLeft(1005);
 }
 #OverviewEx1_PB_Write_P8 {	@include elemAutoWidth(60);
 }
@@ -2017,7 +2017,7 @@
 }
 #OverviewEx1_PB_Write_P9 {	@include elemTop(134);
 }
-#OverviewEx1_PB_Write_P9 {	@include elemLeft(1025);
+#OverviewEx1_PB_Write_P9 {	@include elemLeft(1005);
 }
 #OverviewEx1_PB_Write_P9 {	@include elemAutoWidth(60);
 }
@@ -2025,7 +2025,7 @@
 }
 #OverviewEx1_Rectangle22 {	@include elemTop(61);
 }
-#OverviewEx1_Rectangle22 {	@include elemLeft(709);
+#OverviewEx1_Rectangle22 {	@include elemLeft(689);
 }
 #OverviewEx1_Rectangle22 {	@include elemWidth(380);
 }
@@ -2039,7 +2039,7 @@
 }
 #OverviewEx1_Rectangle23 {	@include elemTop(119);
 }
-#OverviewEx1_Rectangle23 {	@include elemLeft(709);
+#OverviewEx1_Rectangle23 {	@include elemLeft(689);
 }
 #OverviewEx1_Rectangle23 {	@include elemWidth(380);
 }
@@ -2053,9 +2053,9 @@
 }
 #OverviewEx1_TextOutput4 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput4 {	@include elemTop(380);
+#OverviewEx1_TextOutput4 {	@include elemTop(375);
 }
-#OverviewEx1_TextOutput4 {	@include elemLeft(1320);
+#OverviewEx1_TextOutput4 {	@include elemLeft(1340);
 }
 #OverviewEx1_TextOutput4 {	@include elemAutoWidth(160);
 }
@@ -2063,7 +2063,7 @@
 }
 #OverviewEx1_TextOutput4 {	border-width: 3px;
 }
-#OverviewEx1_TextOutput4 {	background-color: rgba(220, 220, 220, 1);
+#OverviewEx1_TextOutput4 {	background-color: rgba(245, 245, 245, 1);
 }
 #OverviewEx1_TextOutput4 {	border-style: solid;
 }
@@ -2079,7 +2079,7 @@
 }
 #OverviewEx1_TextOutput37 {	@include elemTop(20);
 }
-#OverviewEx1_TextOutput37 {	@include elemLeft(260);
+#OverviewEx1_TextOutput37 {	@include elemLeft(240);
 }
 #OverviewEx1_TextOutput37 {	@include elemAutoWidth(160);
 }
@@ -2089,7 +2089,7 @@
 }
 #OverviewEx1_TextOutput37 {	border-width: 3px;
 }
-#OverviewEx1_TextOutput37 {	background-color: rgba(220, 220, 220, 1);
+#OverviewEx1_TextOutput37 {	background-color: rgba(245, 245, 245, 1);
 }
 #OverviewEx1_TextOutput37 {	border-style: solid;
 }
@@ -2105,9 +2105,9 @@
 }
 #OverviewEx1_TextOutput36 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput36 {	@include elemTop(620);
+#OverviewEx1_TextOutput36 {	@include elemTop(615);
 }
-#OverviewEx1_TextOutput36 {	@include elemLeft(1300);
+#OverviewEx1_TextOutput36 {	@include elemLeft(1340);
 }
 #OverviewEx1_TextOutput36 {	@include elemAutoWidth(160);
 }
@@ -2115,7 +2115,7 @@
 }
 #OverviewEx1_TextOutput36 {	border-width: 3px;
 }
-#OverviewEx1_TextOutput36 {	background-color: rgba(220, 220, 220, 1);
+#OverviewEx1_TextOutput36 {	background-color: rgba(245, 245, 245, 1);
 }
 #OverviewEx1_TextOutput36 {	border-style: solid;
 }
@@ -2153,9 +2153,9 @@
 		opacity: 0.25;
 	}
 }
-#OverviewEx1_Image23 {	@include elemTop(684);
+#OverviewEx1_Image23 {	@include elemTop(663);
 }
-#OverviewEx1_Image23 {	@include elemLeft(1660);
+#OverviewEx1_Image23 {	@include elemLeft(1680);
 }
 #OverviewEx1_Image23 {	@include elemAutoWidth(40);
 }
@@ -2163,9 +2163,9 @@
 }
 #OverviewEx1_Image23 {	z-index: 205;
 }
-#OverviewEx1_Image20 {	@include elemTop(666);
+#OverviewEx1_Image20 {	@include elemTop(644);
 }
-#OverviewEx1_Image20 {	@include elemLeft(1540);
+#OverviewEx1_Image20 {	@include elemLeft(1570);
 }
 #OverviewEx1_Image20 {	@include elemAutoWidth(60);
 }
@@ -2195,9 +2195,9 @@
 }
 #OverviewEx1_TextOutput26 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput26 {	@include elemTop(700);
+#OverviewEx1_TextOutput26 {	@include elemTop(705);
 }
-#OverviewEx1_TextOutput26 {	@include elemLeft(1121);
+#OverviewEx1_TextOutput26 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput26 {	@include elemAutoWidth(70);
 }
@@ -2207,9 +2207,9 @@
 }
 #OverviewEx1_P203_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_PPM {	@include elemTop(700);
+#OverviewEx1_P203_PPM {	@include elemTop(705);
 }
-#OverviewEx1_P203_PPM {	@include elemLeft(1066);
+#OverviewEx1_P203_PPM {	@include elemLeft(1060);
 }
 #OverviewEx1_P203_PPM {	@include elemAutoWidth(220);
 }
@@ -2217,9 +2217,9 @@
 }
 #OverviewEx1_PB_Write_P203_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P203_PPM {	@include elemTop(726);
+#OverviewEx1_PB_Write_P203_PPM {	@include elemTop(730);
 }
-#OverviewEx1_PB_Write_P203_PPM {	@include elemLeft(1211);
+#OverviewEx1_PB_Write_P203_PPM {	@include elemLeft(1210);
 }
 #OverviewEx1_PB_Write_P203_PPM {	@include elemAutoWidth(60);
 }
@@ -2227,19 +2227,19 @@
 }
 #OverviewEx1_NI_Write_P203_PPM {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P203_PPM {	@include elemTop(726);
+#OverviewEx1_NI_Write_P203_PPM {	@include elemTop(730);
 }
-#OverviewEx1_NI_Write_P203_PPM {	@include elemLeft(1121);
+#OverviewEx1_NI_Write_P203_PPM {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P203_PPM {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P203_PPM {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P203_PPM {	z-index: 185;
 }
 #OverviewEx1_PB_Write_P203_STP_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P203_STP_CMD {	@include elemTop(742);
+#OverviewEx1_PB_Write_P203_STP_CMD {	@include elemTop(720);
 }
-#OverviewEx1_PB_Write_P203_STP_CMD {	@include elemLeft(1421);
+#OverviewEx1_PB_Write_P203_STP_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P203_STP_CMD {	@include elemAutoWidth(62);
 }
@@ -2247,13 +2247,13 @@
 }
 #OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemTop(701);
+#OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemTop(680);
 }
-#OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemLeft(1421);
+#OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemLeft(1440);
 }
 #OverviewEx1_PB_Write_P203_STRT_CMD {	@include elemAutoWidth(62);
 }
-#OverviewEx1_PB_Write_P203_STRT_CMD {	z-index: 169;
+#OverviewEx1_PB_Write_P203_STRT_CMD {	z-index: 170;
 }
 #OverviewEx1_Line18 {	z-index: 6;
 }
@@ -2267,9 +2267,9 @@
 }
 #OverviewEx1_Rectangle19 {	@include elemTop(600);
 }
-#OverviewEx1_Rectangle19 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle19 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle19 {	@include elemWidth(400);
+#OverviewEx1_Rectangle19 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle19 {	@include elemHeight(187);
 }
@@ -2281,9 +2281,9 @@
 }
 #OverviewEx1_Rectangle18 {	@include elemTop(784);
 }
-#OverviewEx1_Rectangle18 {	@include elemLeft(1100);
+#OverviewEx1_Rectangle18 {	@include elemLeft(1080);
 }
-#OverviewEx1_Rectangle18 {	@include elemWidth(400);
+#OverviewEx1_Rectangle18 {	@include elemWidth(440);
 }
 #OverviewEx1_Rectangle18 {	@include elemHeight(30);
 }
@@ -2295,9 +2295,9 @@
 }
 #OverviewEx1_TextOutput20 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput20 {	@include elemTop(635);
+#OverviewEx1_TextOutput20 {	@include elemTop(627);
 }
-#OverviewEx1_TextOutput20 {	@include elemLeft(1121);
+#OverviewEx1_TextOutput20 {	@include elemLeft(1092);
 }
 #OverviewEx1_TextOutput20 {	@include elemAutoWidth(70);
 }
@@ -2307,19 +2307,19 @@
 }
 #OverviewEx1_P203_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_SP {	@include elemTop(635);
+#OverviewEx1_P203_SP {	@include elemTop(627);
 }
-#OverviewEx1_P203_SP {	@include elemLeft(1066);
+#OverviewEx1_P203_SP {	@include elemLeft(1060);
 }
 #OverviewEx1_P203_SP {	@include elemAutoWidth(220);
 }
-#OverviewEx1_P203_SP {	z-index: 170;
+#OverviewEx1_P203_SP {	z-index: 167;
 }
 #OverviewEx1_PB_Write_P203_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_PB_Write_P203_SP {	@include elemTop(660);
+#OverviewEx1_PB_Write_P203_SP {	@include elemTop(652);
 }
-#OverviewEx1_PB_Write_P203_SP {	@include elemLeft(1211);
+#OverviewEx1_PB_Write_P203_SP {	@include elemLeft(1210);
 }
 #OverviewEx1_PB_Write_P203_SP {	@include elemAutoWidth(60);
 }
@@ -2327,19 +2327,19 @@
 }
 #OverviewEx1_NI_Write_P203_SP {	@include elemAutoHeight(30);
 }
-#OverviewEx1_NI_Write_P203_SP {	@include elemTop(660);
+#OverviewEx1_NI_Write_P203_SP {	@include elemTop(652);
 }
-#OverviewEx1_NI_Write_P203_SP {	@include elemLeft(1121);
+#OverviewEx1_NI_Write_P203_SP {	@include elemLeft(1095);
 }
-#OverviewEx1_NI_Write_P203_SP {	@include elemAutoWidth(80);
+#OverviewEx1_NI_Write_P203_SP {	@include elemAutoWidth(105);
 }
 #OverviewEx1_NI_Write_P203_SP {	z-index: 177;
 }
 #OverviewEx1_Image17 {	@include elemAutoHeight(100);
 }
-#OverviewEx1_Image17 {	@include elemTop(680);
+#OverviewEx1_Image17 {	@include elemTop(660);
 }
-#OverviewEx1_Image17 {	@include elemLeft(1281);
+#OverviewEx1_Image17 {	@include elemLeft(1300);
 }
 #OverviewEx1_Image17 {	@include elemAutoWidth(140);
 }
@@ -2347,9 +2347,9 @@
 }
 #OverviewEx1_TextOutput30 {	@include elemAutoHeight(30);
 }
-#OverviewEx1_TextOutput30 {	@include elemTop(600);
+#OverviewEx1_TextOutput30 {	@include elemTop(605);
 }
-#OverviewEx1_TextOutput30 {	@include elemLeft(1121);
+#OverviewEx1_TextOutput30 {	@include elemLeft(1085);
 }
 #OverviewEx1_TextOutput30 {	@include elemAutoWidth(70);
 }
@@ -2357,13 +2357,13 @@
 }
 #OverviewEx1_TextOutput30 {	@include text-alignment-all('center');
 }
-#OverviewEx1_TextOutput30 {	font-size: 20px;
+#OverviewEx1_TextOutput30 {	font-size: 24px;
 }
 #OverviewEx1_P203_PFI {	@include elemAutoHeight(30);
 }
 #OverviewEx1_P203_PFI {	@include elemTop(780);
 }
-#OverviewEx1_P203_PFI {	@include elemLeft(1101);
+#OverviewEx1_P203_PFI {	@include elemLeft(1060);
 }
 #OverviewEx1_P203_PFI {	@include elemAutoWidth(220);
 }
@@ -2373,7 +2373,7 @@
 }
 #OverviewEx1_P203_PPI {	@include elemTop(780);
 }
-#OverviewEx1_P203_PPI {	@include elemLeft(1201);
+#OverviewEx1_P203_PPI {	@include elemLeft(1181);
 }
 #OverviewEx1_P203_PPI {	@include elemAutoWidth(220);
 }
@@ -2381,9 +2381,9 @@
 }
 #OverviewEx1_P203_PI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_PI {	@include elemTop(740);
+#OverviewEx1_P203_PI {	@include elemTop(720);
 }
-#OverviewEx1_P203_PI {	@include elemLeft(1500);
+#OverviewEx1_P203_PI {	@include elemLeft(1520);
 }
 #OverviewEx1_P203_PI {	@include elemAutoWidth(220);
 }
@@ -2391,9 +2391,9 @@
 }
 #OverviewEx1_P203_TI {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_TI {	@include elemTop(740);
+#OverviewEx1_P203_TI {	@include elemTop(720);
 }
-#OverviewEx1_P203_TI {	@include elemLeft(1400);
+#OverviewEx1_P203_TI {	@include elemLeft(1430);
 }
 #OverviewEx1_P203_TI {	@include elemAutoWidth(220);
 }
@@ -2401,9 +2401,9 @@
 }
 #OverviewEx1_P203_FQ {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_FQ {	@include elemTop(720);
+#OverviewEx1_P203_FQ {	@include elemTop(700);
 }
-#OverviewEx1_P203_FQ {	@include elemLeft(1400);
+#OverviewEx1_P203_FQ {	@include elemLeft(1430);
 }
 #OverviewEx1_P203_FQ {	@include elemAutoWidth(220);
 }
@@ -2413,9 +2413,9 @@
 }
 #OverviewEx1_P203_PV {	@include elemAutoHeight(30);
 }
-#OverviewEx1_P203_PV {	@include elemTop(700);
+#OverviewEx1_P203_PV {	@include elemTop(680);
 }
-#OverviewEx1_P203_PV {	@include elemLeft(1400);
+#OverviewEx1_P203_PV {	@include elemLeft(1430);
 }
 #OverviewEx1_P203_PV {	@include elemAutoWidth(220);
 }
@@ -2423,7 +2423,7 @@
 }
 #OverviewEx1_TextOutput38 {	@include elemTop(20);
 }
-#OverviewEx1_TextOutput38 {	@include elemLeft(460);
+#OverviewEx1_TextOutput38 {	@include elemLeft(440);
 }
 #OverviewEx1_TextOutput38 {	@include elemAutoWidth(200);
 }
@@ -2449,29 +2449,19 @@
 }
 #OverviewEx1_TextOutput38 {	font-size: 20px;
 }
-#OverviewEx1_Ellipse3 {	@include elemTop(480);
-}
-#OverviewEx1_Ellipse3 {	@include elemLeft(60);
-}
-#OverviewEx1_Ellipse3 {	@include elemWidth(20);
-}
-#OverviewEx1_Ellipse3 {	@include elemHeight(20);
-}
-#OverviewEx1_Ellipse3 {	z-index: 213;
-}
 #OverviewEx1_TextOutput39 {	@include elemTop(20);
 }
-#OverviewEx1_TextOutput39 {	@include elemLeft(1160);
+#OverviewEx1_TextOutput39 {	@include elemLeft(1140);
 }
 #OverviewEx1_TextOutput39 {	@include elemAutoWidth(160);
 }
 #OverviewEx1_TextOutput39 {	@include elemAutoHeight(60);
 }
-#OverviewEx1_TextOutput39 {	z-index: 214;
+#OverviewEx1_TextOutput39 {	z-index: 213;
 }
 #OverviewEx1_TextOutput39 {	border-width: 3px;
 }
-#OverviewEx1_TextOutput39 {	background-color: rgba(220, 220, 220, 1);
+#OverviewEx1_TextOutput39 {	background-color: rgba(245, 245, 245, 1);
 }
 #OverviewEx1_TextOutput39 {	border-style: solid;
 }
@@ -2484,4 +2474,240 @@
 	}
 }
 #OverviewEx1_TextOutput39 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput40 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput40 {	@include elemTop(615);
+}
+#OverviewEx1_TextOutput40 {	@include elemLeft(1275);
+}
+#OverviewEx1_TextOutput40 {	@include elemAutoWidth(70);
+}
+#OverviewEx1_TextOutput40 {	z-index: 214;
+}
+#OverviewEx1_TextOutput40 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput41 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput41 {	@include elemTop(758);
+}
+#OverviewEx1_TextOutput41 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput41 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput41 {	z-index: 215;
+}
+#OverviewEx1_TextOutput41 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput41 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput42 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput42 {	@include elemTop(680);
+}
+#OverviewEx1_TextOutput42 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput42 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput42 {	z-index: 216;
+}
+#OverviewEx1_TextOutput42 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput42 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput43 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput43 {	@include elemTop(518);
+}
+#OverviewEx1_TextOutput43 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput43 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput43 {	z-index: 217;
+}
+#OverviewEx1_TextOutput43 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput43 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput44 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput44 {	@include elemTop(440);
+}
+#OverviewEx1_TextOutput44 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput44 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput44 {	z-index: 218;
+}
+#OverviewEx1_TextOutput44 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput44 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput45 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput45 {	@include elemTop(278);
+}
+#OverviewEx1_TextOutput45 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput45 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput45 {	z-index: 219;
+}
+#OverviewEx1_TextOutput45 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput45 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput46 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput46 {	@include elemTop(200);
+}
+#OverviewEx1_TextOutput46 {	@include elemLeft(1080);
+}
+#OverviewEx1_TextOutput46 {	@include elemAutoWidth(90);
+}
+#OverviewEx1_TextOutput46 {	z-index: 220;
+}
+#OverviewEx1_TextOutput46 {	& span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_TextOutput46 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput47 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput47 {	@include elemTop(375);
+}
+#OverviewEx1_TextOutput47 {	@include elemLeft(1275);
+}
+#OverviewEx1_TextOutput47 {	@include elemAutoWidth(70);
+}
+#OverviewEx1_TextOutput47 {	z-index: 221;
+}
+#OverviewEx1_TextOutput47 {	@include text-alignment-all('center');
+}
+#OverviewEx1_TextOutput48 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput48 {	@include elemTop(135);
+}
+#OverviewEx1_TextOutput48 {	@include elemLeft(1275);
+}
+#OverviewEx1_TextOutput48 {	@include elemAutoWidth(70);
+}
+#OverviewEx1_TextOutput48 {	z-index: 222;
+}
+#OverviewEx1_TextOutput48 {	@include text-alignment-all('center');
+}
+#OverviewEx1_Image25 {	@include elemTop(812);
+}
+#OverviewEx1_Image25 {	@include elemLeft(1005);
+}
+#OverviewEx1_Image25 {	@include elemAutoWidth(30);
+}
+#OverviewEx1_Image25 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_Image25 {	z-index: 223;
+}
+#OverviewEx1_Image26 {	@include elemTop(733);
+}
+#OverviewEx1_Image26 {	@include elemLeft(860);
+}
+#OverviewEx1_Image26 {	@include elemAutoWidth(30);
+}
+#OverviewEx1_Image26 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_Image26 {	z-index: 224;
+}
+#OverviewEx1_Image27 {	@include elemTop(644);
+}
+#OverviewEx1_Image27 {	@include elemLeft(1720);
+}
+#OverviewEx1_Image27 {	@include elemAutoWidth(30);
+}
+#OverviewEx1_Image27 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_Image27 {	z-index: 225;
+}
+#OverviewEx1_Image28 {	@include elemTop(405);
+}
+#OverviewEx1_Image28 {	@include elemLeft(1720);
+}
+#OverviewEx1_Image28 {	@include elemAutoWidth(30);
+}
+#OverviewEx1_Image28 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_Image28 {	z-index: 226;
+}
+#OverviewEx1_Image29 {	@include elemTop(164);
+}
+#OverviewEx1_Image29 {	@include elemLeft(1720);
+}
+#OverviewEx1_Image29 {	@include elemAutoWidth(30);
+}
+#OverviewEx1_Image29 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_Image29 {	z-index: 227;
+}
+#OverviewEx1_P203_APPM {	@include elemAutoHeight(30);
+}
+#OverviewEx1_P203_APPM {	@include elemTop(758);
+}
+#OverviewEx1_P203_APPM {	@include elemLeft(1060);
+}
+#OverviewEx1_P203_APPM {	@include elemAutoWidth(220);
+}
+#OverviewEx1_P203_APPM {	z-index: 228;
+}
+#OverviewEx1_P203_APPM {	input {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_P203_APPM {	span.breaseNumericOutput_unit {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_P202_APPM {	@include elemAutoHeight(30);
+}
+#OverviewEx1_P202_APPM {	@include elemTop(518);
+}
+#OverviewEx1_P202_APPM {	@include elemLeft(1060);
+}
+#OverviewEx1_P202_APPM {	@include elemAutoWidth(220);
+}
+#OverviewEx1_P202_APPM {	z-index: 229;
+}
+#OverviewEx1_P202_APPM {	input {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_P202_APPM {	span.breaseNumericOutput_unit {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_P201_APPM {	@include elemAutoHeight(30);
+}
+#OverviewEx1_P201_APPM {	@include elemTop(278);
+}
+#OverviewEx1_P201_APPM {	@include elemLeft(1060);
+}
+#OverviewEx1_P201_APPM {	@include elemAutoWidth(220);
+}
+#OverviewEx1_P201_APPM {	z-index: 230;
+}
+#OverviewEx1_P201_APPM {	input {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#OverviewEx1_P201_APPM {	span.breaseNumericOutput_unit {
+		color: rgba(255, 0, 0, 1);
+	}
 }

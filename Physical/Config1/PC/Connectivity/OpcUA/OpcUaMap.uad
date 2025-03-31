@@ -30,6 +30,7 @@
       <EngineeringUnit Id="9" UnitId="14384" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="pound per square inch absolute" Symbol="lb/in²" />
       <EngineeringUnit Id="10" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
       <EngineeringUnit Id="11" UnitId="19506" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="litre per minute" Symbol="l/min" />
+      <EngineeringUnit Id="12" UnitId="13625" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="part per million" Symbol="ppm" />
     </EngineeringUnitAliases>
   </Aliases>
   <DefaultView AclId="2">
@@ -62,6 +63,8 @@
               <Variable Name="P201_FQ" EngineeringUnitId="4" />
               <Variable Name="P201_PI" EngineeringUnitId="9" />
               <Variable Name="P201_PPI" EngineeringUnitId="9" />
+              <Variable Name="P201_PPM" EngineeringUnitId="12" />
+              <Variable Name="P201_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_202">
               <Variable Name="P202_TI" EngineeringUnitId="3" />
@@ -69,6 +72,8 @@
               <Variable Name="P202_FQ" EngineeringUnitId="4" />
               <Variable Name="P202_PI" EngineeringUnitId="9" />
               <Variable Name="P202_PPI" EngineeringUnitId="9" />
+              <Variable Name="P202_PPM" EngineeringUnitId="12" />
+              <Variable Name="P202_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_203">
               <Variable Name="P203_TI" EngineeringUnitId="3" />
@@ -76,6 +81,8 @@
               <Variable Name="P203_FQ" EngineeringUnitId="4" />
               <Variable Name="P203_PI" EngineeringUnitId="9" />
               <Variable Name="P203_PPI" EngineeringUnitId="9" />
+              <Variable Name="P203_PPM" EngineeringUnitId="12" />
+              <Variable Name="P203_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_204">
               <Variable Name="P204_TI" EngineeringUnitId="3" />
@@ -83,6 +90,8 @@
               <Variable Name="P204_FQ" EngineeringUnitId="4" />
               <Variable Name="P204_PI" EngineeringUnitId="9" />
               <Variable Name="P204_PPI" EngineeringUnitId="9" />
+              <Variable Name="P204_PPM" EngineeringUnitId="12" />
+              <Variable Name="P204_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_205">
               <Variable Name="P205_TI" EngineeringUnitId="3" />
@@ -90,6 +99,8 @@
               <Variable Name="P205_FQ" EngineeringUnitId="4" />
               <Variable Name="P205_PI" EngineeringUnitId="9" />
               <Variable Name="P205_PPI" EngineeringUnitId="9" />
+              <Variable Name="P205_PPM" EngineeringUnitId="12" />
+              <Variable Name="P205_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_206">
               <Variable Name="P206_TI" EngineeringUnitId="3" />
@@ -97,6 +108,8 @@
               <Variable Name="P206_FQ" EngineeringUnitId="4" />
               <Variable Name="P206_PI" EngineeringUnitId="9" />
               <Variable Name="P206_PPI" EngineeringUnitId="9" />
+              <Variable Name="P206_PPM" EngineeringUnitId="12" />
+              <Variable Name="P206_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_207">
               <Variable Name="P207_TI" EngineeringUnitId="3" />
@@ -104,6 +117,8 @@
               <Variable Name="P207_FQ" EngineeringUnitId="4" />
               <Variable Name="P207_PI" EngineeringUnitId="9" />
               <Variable Name="P207_PPI" EngineeringUnitId="9" />
+              <Variable Name="P207_PPM" EngineeringUnitId="12" />
+              <Variable Name="P207_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Dosing_Pump_208">
               <Variable Name="P208_TI" EngineeringUnitId="3" />
@@ -111,6 +126,8 @@
               <Variable Name="P208_FQ" EngineeringUnitId="4" />
               <Variable Name="P208_PI" EngineeringUnitId="9" />
               <Variable Name="P208_PPI" EngineeringUnitId="9" />
+              <Variable Name="P208_PPM" EngineeringUnitId="12" />
+              <Variable Name="P208_APPM" EngineeringUnitId="12" />
             </Variable>
             <Variable Name="Pmax_Pump_103">
               <Variable Name="P103_PFI" EngineeringUnitId="6" />
