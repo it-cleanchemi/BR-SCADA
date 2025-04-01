@@ -15,8 +15,8 @@ ACTION Modbus_Status_action:
 	// --------------------------------------------------------------------
 	// Final Variable Mapping AND Data Conversion - READ
 	// --------------------------------------------------------------------	
-				
-	
+			
+	// force transfer
 	// AS Block 1 - 6000 DOSING INT
 	gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[0];
 	gSkid[IdxSkids].Pmax_General_Variables.USER_ID := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[2];

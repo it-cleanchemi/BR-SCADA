@@ -1,160 +1,52 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=ModMaster 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 Index=149 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 Index=177 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                    gCmd                           CMD_Type[0..0]    0 "                                                               *"    0   24    1    0    0    1        a
-                                 gCmd[0]                                 CMD_Type    0 "                                                               *"    1   24    1    0    0    1         
-                                    Stop                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
-                                   Start                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
-                           Write_UNIT_ID                   CMD_Write_UNIT_ID_Type    0 "                                                               *"    2   24    1    0    0    1         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wUNIT_ID                                     UINT    0 "                                                             117"    3    6    1   10    0    0         
-                           Write_P203_XS                   CMD_Write_P203_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wP203_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
-                          Write_P203_HOA                  CMD_Write_P203_HOA_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                               wP203_HOA                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
-                          Write_P203_PPM                  CMD_Write_P203_PPM_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                               wP203_PPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                       wP203_PPM_SWAPPED                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                           Write_P203_SP                   CMD_Write_P203_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wP203_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                        wP203_SP_SWAPPED                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                           Write_P202_XS                   CMD_Write_P202_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wP202_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
-                          Write_P202_HOA                  CMD_Write_P202_HOA_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                               wP202_HOA                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
-                          Write_P202_PPM                  CMD_Write_P202_PPM_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                               wP202_PPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                       wP202_PPM_SWAPPED                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                           Write_P202_SP                   CMD_Write_P202_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wP202_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                        wP202_SP_SWAPPED                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                           Write_P104_XS                   CMD_Write_P104_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                wP104_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                           Write_P104_SP                   CMD_Write_P104_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP104_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wP104_SP_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_P103_XS                   CMD_Write_P103_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP103_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                           Write_P103_SP                   CMD_Write_P103_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP103_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wP103_SP_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_P102_XS                   CMD_Write_P102_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP102_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                           Write_P102_SP                   CMD_Write_P102_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP102_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wP102_SP_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_P101_XS                   CMD_Write_P101_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP101_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                           Write_P101_SP                   CMD_Write_P101_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP101_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wP101_SP_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_P201_XS                   CMD_Write_P201_XS_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP201_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                          Write_P201_HOA                  CMD_Write_P201_HOA_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                               wP201_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                          Write_P201_PPM                  CMD_Write_P201_PPM_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                               wP201_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                       wP201_PPM_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_P201_SP                   CMD_Write_P201_SP_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wP201_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wP201_SP_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                             Write_EFF_1                     CMD_Write_EFF_1_Type    0 "                                                               *"    2   24    1    0    0    1         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                  wEFF_1                                     REAL    0 "                                                            0.94"    3    8    1   10    0    0         
-                          wEFF_1_SWAPPED                                     REAL    0 "                                                 -2.33372135E-17"    3    8    1   10    0    0         
-                             Write_EFF_2                     CMD_Write_EFF_2_Type    0 "                                                               *"    2   24    1    0    0    1         
-                                    Send                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                  wEFF_2                                     REAL    0 "                                                            0.96"    3    8    1   10    0    0         
-                          wEFF_2_SWAPPED                                     REAL    0 "                                                       -71.62394"    3    8    1   10    0    0         
-                      Write_NAOH_TO_H2O2              CMD_Write_NAOH_TO_H2O2_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                           wNAOH_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                   wNAOH_TO_H2O2_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                       Write_TRI_TO_H2O2               CMD_Write_TRI_TO_H2O2_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                            wTRI_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                    wTRI_TO_H2O2_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                          Write_PMAX_HOA                  CMD_Write_PMAX_HOA_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                               wPMAX_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                         Write_PMAX_CONC                 CMD_Write_PMAX_CONC_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                              wPMAX_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                      wPMAX_CONC_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                           Write_HP_CONC                   CMD_Write_HP_CONC_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                                wHP_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        wHP_CONC_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                         Write_NAOH_CONC                 CMD_Write_NAOH_CONC_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                    Send                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
-                              wNAOH_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                      wNAOH_CONC_SWAPPED                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                                   gSkid                          Skid_type[0..0]    0 "                                                               *"    0   24    1    0    0    1        a
+                                   gSkid                          Skid_type[0..1]    0 "                                                               *"    0   24    2    0    0    1         
                                 gSkid[0]                                Skid_type    0 "                                                               *"    1   24    1    0    0    1         
                            Pmax_Pump_101                       Pmax_Pump_101_Type    0 "                                                               *"    2   24    1    0    0    0         
                                  P101_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
                                  P101_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                P101_PFI                                     REAL    0 "                                                      449.796661"    3    8    1   10    0    0         
-                                 P101_SP                                     REAL    0 "                                                      1549.16309"    3    8    1   10    0    0         
-                                 P101_PV                                     REAL    0 "                                                       1628.5697"    3    8    1   10    0    0         
-                                 P101_OP                                     REAL    0 "                                                      1549.16309"    3    8    1   10    0    0         
-                                 P101_FQ                                     REAL    0 "                                                          119.36"    3    8    1   10    0    0         
-                                 P101_TI                                     REAL    0 "                                                            64.1"    3    8    1   10    0    0         
-                                 P101_PI                                     REAL    0 "                                                      3.26339984"    3    8    1   10    0    0         
+                                P101_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P101_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P101_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P101_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P101_FQ                                     REAL    0 "                                                           72.06"    3    8    1   10    0    0         
+                                 P101_TI                                     REAL    0 "                                                            98.1"    3    8    1   10    0    0         
+                                 P101_PI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                           Pmax_Pump_101B                      Pmax_Pump_101B_Type    0 "                                                               *"    2   24    1    0    0    0         
                                 P101B_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                P101B_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                 P101B_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                 P101B_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                            Pmax_Pump_102                       Pmax_Pump_102_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                 P102_XS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                                 P102_SP                                     REAL    0 "                                                      173.437424"    3    8    1   10    0    0         
+                                 P102_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                 P102_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                  P102_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P102_OP                                     REAL    0 "                                                      173.437424"    3    8    1   10    0    0         
-                                P102_PFI                                     REAL    0 "                                                      178.878326"    3    8    1   10    0    0         
-                                 P102_FQ                                     REAL    0 "                                                             0.2"    3    8    1   10    0    0         
-                                P102_PFQ                                     REAL    0 "                                                        3.619159"    3    8    1   10    0    0         
-                                P102_PPI                                     REAL    0 "                                                        60.91596"    3    8    1   10    0    0         
-                                 P102_TI                                     REAL    0 "                                                         13.2579"    3    8    1   10    0    0         
+                                 P102_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P102_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P102_FQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P102_PFQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P102_PPI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P102_TI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                  P102_PI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P102_LS                                     REAL    0 "                                                           100.0"    3    8    1   10    0    0         
+                                 P102_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                            Pmax_Pump_103                       Pmax_Pump_103_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                 P103_XS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                                 P103_SP                                     REAL    0 "                                                      236.930313"    3    8    1   10    0    0         
+                                 P103_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                 P103_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                  P103_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P103_OP                                     REAL    0 "                                                      173.437424"    3    8    1   10    0    0         
-                                P103_PFI                                     REAL    0 "                                                           250.0"    3    8    1   10    0    0         
+                                 P103_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P103_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                  P103_FQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                P103_PFQ                                     REAL    0 "                                                      4.06957245"    3    8    1   10    0    0         
-                                P103_PPI                                     REAL    0 "                                                      55.1144371"    3    8    1   10    0    0         
+                                P103_PFQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P103_PPI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
                                  P103_TI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P103_PI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P103_LS                                     REAL    0 "                                                           100.0"    3    8    1   10    0    0         
+                                 P103_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                            Pmax_Pump_104                       Pmax_Pump_104_Type    0 "                                                               *"    2   24    1    0    0    0         
-                                 P104_XS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                                 P104_SP                                     REAL    0 "                                                        80.46914"    3    8    1   10    0    0         
-                                 P104_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                                 P104_OP                                     REAL    0 "                                                        80.46914"    3    8    1   10    0    0         
+                                 P104_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                 P104_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                 P104_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                  P104_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                 P104_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
@@ -163,17 +55,18 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 I
                                 P104_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                               BufferTank                BufferTank_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
                                  LSHH200                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LI200P                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                    LI200                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                             DRAINTIME_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                             DRAINTIME_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                              FILLTIME_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                              FILLTIME_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
-                        ConversionRatios                    ConversionRatios_Type    0 "                                                               *"    2   24    1    0    0    1         
-                                   EFF_1                                     REAL    0 "                                                            0.94"    3    8    1   10    0    0         
-                                   EFF_2                                     REAL    0 "                                                            0.96"    3    8    1   10    0    0         
-                             TRI_TO_H2O2                                     REAL    0 "                                                            0.33"    3    8    1   10    0    0         
-                             NAOH_TO_TRI                                     REAL    0 "                                                      3.29212117"    3    8    1   10    0    0         
-                            NAOH_TO_H2O2                                     REAL    0 "                                                            1.12"    3    8    1   10    0    0         
+                        ConversionRatios                    ConversionRatios_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                   EFF_1                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   EFF_2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             TRI_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             NAOH_TO_TRI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            NAOH_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                         Sensor_Variables                    Sensor_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
                          SERNSORS_CONFIG                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                SENSOR301                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
@@ -214,21 +107,22 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 I
                               P102_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                               P103_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                               P104_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
-                  Pmax_General_Variables              Pmax_General_Variables_Type    0 "                                                               *"    2   24    1    0    0    1         
-                                 UNIT_ID                                     UINT    0 "                                                             117"    3    6    1   10    0    0         
-                                PMAX_HOA                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                             PMAX_STATUS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                               PMAX_CONC                                     REAL    0 "                                                             4.5"    3    8    1   10    0    0         
-                                 PMAX_PV                                     REAL    0 "                                                        11.14199"    3    8    1   10    0    0         
-                               PMAX_RATE                                     REAL    0 "                                                          1000.0"    3    8    1   10    0    0         
-                              HP_CONC_OD                                     REAL    0 "                                                            83.0"    3    8    1   10    0    0         
-                                 HP_CONC                                     REAL    0 "                                                            17.0"    3    8    1   10    0    0         
-                            NAOH_CONC_OD                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
-                               NAOH_CONC                                     REAL    0 "                                                            25.5"    3    8    1   10    0    0         
-                                 USER_ID                                     UINT    0 "                                                              10"    3    6    1   10    0    0         
-                             USER_ACCESS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
-                            UNIT_ID_DOSE                                     UINT    0 "                                                             115"    3    6    1   10    0    0         
+                  Pmax_General_Variables              Pmax_General_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 UNIT_ID                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                PMAX_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             PMAX_STATUS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               PMAX_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 PMAX_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               PMAX_RATE                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              HP_CONC_OD                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 HP_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            NAOH_CONC_OD                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               NAOH_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 USER_ID                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             USER_ACCESS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            UNIT_ID_DOSE                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                          Dosing_Pump_201                     Dosing_Pump_201_Type    0 "                                                               *"    2   24    1    0    0    0         
+                              P201_PTYPE                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
                                  P201_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                P201_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                 P201_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
@@ -246,6 +140,274 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 I
                          P201_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                  P201_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                 P201_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             P201_ENABLE                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
+                         Dosing_Pump_202                     Dosing_Pump_202_Type    0 "                                                               *"    2   24    1    0    0    1         
+                                 P202_XS                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
+                                P202_HOA                                     UINT    0 "                                                               8"    3    6    1   10    0    0         
+                               P202_CHEM                                     UINT    0 "                                                               1"    3    6    1   10    0    0         
+                                P202_PPM                                     REAL    0 "                                                            22.0"    3    8    1   10    0    0         
+                               P202_APPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P202_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_FQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_PI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_TI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P202_PFQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               P202_CONC                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                         P202_REF_SENSOR                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P202_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P202_PPI                                     REAL    0 "                                                      14.5037994"    3    8    1   10    0    0         
+                             P202_ENABLE                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                         Dosing_Pump_203                     Dosing_Pump_203_Type    0 "                                                               *"    2   24    1    0    0    1         
+                                 P203_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                P203_HOA                                     UINT    0 "                                                               8"    3    6    1   10    0    0         
+                               P203_CHEM                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                P203_PPM                                     REAL    0 "                                                          1000.0"    3    8    1   10    0    0         
+                               P203_APPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P203_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_FQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_PI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_TI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P203_PFQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               P203_CONC                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                         P203_REF_SENSOR                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P203_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P203_PPI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                             P203_ENABLE                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                         Dosing_Pump_204                     Dosing_Pump_204_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P204_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P204_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               P204_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P204_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P204_APPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P204_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P204_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P204_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         P204_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P204_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P204_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         Dosing_Pump_205                     Dosing_Pump_205_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P205_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P205_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               P205_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P205_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P205_APPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P205_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P205_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P205_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         P205_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P205_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P205_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         Dosing_Pump_206                     Dosing_Pump_206_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P206_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P206_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               P206_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P206_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P206_APPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P206_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P206_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P206_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         P206_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P206_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P206_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         Dosing_Pump_207                     Dosing_Pump_207_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P207_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P207_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               P207_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P207_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P207_APPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P207_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P207_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P207_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         P207_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P207_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P207_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         Dosing_Pump_208                     Dosing_Pump_208_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P208_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P208_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               P208_CHEM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                P208_PPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P208_APPM                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P208_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P208_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P208_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                         P208_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P208_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P208_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                gSkid[1]                                Skid_type    0 "                                                               *"    1   24    1    0    0    0         
+                           Pmax_Pump_101                       Pmax_Pump_101_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P101_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                 P101_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P101_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P101_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                          Pmax_Pump_101B                      Pmax_Pump_101B_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                P101B_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               P101B_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P101B_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P101B_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           Pmax_Pump_102                       Pmax_Pump_102_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P102_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                 P102_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P102_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P102_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P102_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P102_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           Pmax_Pump_103                       Pmax_Pump_103_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P103_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                 P103_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P103_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P103_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P103_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P103_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           Pmax_Pump_104                       Pmax_Pump_104_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 P104_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                 P104_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_OP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P104_PFI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_FQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P104_PFQ                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_PI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 P104_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                P104_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              BufferTank                BufferTank_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 LSHH200                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  LI200P                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   LI200                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            DRAINTIME_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            DRAINTIME_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             FILLTIME_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             FILLTIME_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                        ConversionRatios                    ConversionRatios_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                   EFF_1                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   EFF_2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             TRI_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             NAOH_TO_TRI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            NAOH_TO_H2O2                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                        Sensor_Variables                    Sensor_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
+                         SERNSORS_CONFIG                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               SENSOR301                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               SENSOR302                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               SENSOR303                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               SENSOR304                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   FI301                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                FI301_QT                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   FI302                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                FI302_QT                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   FI303                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                FI303_QT                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   FI304                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                FI304_QT                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   CD101                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD101_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   CD102                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD102_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                   CD103                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD103_SP                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD101_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD102_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                CD103_TI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                           Dosing_Alarms                       Dosing_Alarms_Type    0 "                                                               *"    2   24    1    0    0    0         
+                              DOSE_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P201_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P202_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P203_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P204_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P205_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P206_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P207_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P208_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             Pmax_Alarms                         Pmax_Alarms_Type    0 "                                                               *"    2   24    1    0    0    0         
+                              PMAX_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P101_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             P101B_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P102_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P103_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                              P104_ALARM                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                  Pmax_General_Variables              Pmax_General_Variables_Type    0 "                                                               *"    2   24    1    0    0    0         
+                                 UNIT_ID                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                                PMAX_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             PMAX_STATUS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                               PMAX_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 PMAX_PV                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               PMAX_RATE                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                              HP_CONC_OD                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 HP_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                            NAOH_CONC_OD                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                               NAOH_CONC                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 USER_ID                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                             USER_ACCESS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                            UNIT_ID_DOSE                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
+                         Dosing_Pump_201                     Dosing_Pump_201_Type    0 "                                                               *"    2   24    1    0    0    0         
+                              P201_PTYPE                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                 P201_XS                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                               P201_CHEM                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                P201_HOA                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                                P201_PPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               P201_APPM                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P201_SP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P201_PV                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P201_OP                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P201_PFI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P201_FQ                                     REAL    0 "                                                          3323.6"    3    8    1   10    0    0         
+                                 P201_PI                                     REAL    0 "                                                         3.84356"    3    8    1   10    0    0         
+                                 P201_TI                                     REAL    0 "                                                            98.4"    3    8    1   10    0    0         
+                                P201_PFQ                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                               P201_CONC                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                         P201_REF_SENSOR                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                 P201_LS                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                                P201_PPI                                     REAL    0 "                                                             0.0"    3    8    1   10    0    0         
+                             P201_ENABLE                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
                          Dosing_Pump_202                     Dosing_Pump_202_Type    0 "                                                               *"    2   24    1    0    0    0         
                                  P202_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                 P202_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
@@ -264,6 +426,7 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 I
                          P202_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                  P202_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                 P202_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             P202_ENABLE                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
                          Dosing_Pump_203                     Dosing_Pump_203_Type    0 "                                                               *"    2   24    1    0    0    0         
                                  P203_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                 P203_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
@@ -282,6 +445,7 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=115 Type=249 Scope=60 Force=60 I
                          P203_REF_SENSOR                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                  P203_LS                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
                                 P203_PPI                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                             P203_ENABLE                                     BOOL    0 "                                                               *"    3    1    1    2    0    0         
                          Dosing_Pump_204                     Dosing_Pump_204_Type    0 "                                                               *"    2   24    1    0    0    0         
                                  P204_XS                                     UINT    0 "                                                               *"    3    6    1   10    0    0         
                                 P204_HOA                                     UINT    0 "                                                               *"    3    6    1   10    0    0         

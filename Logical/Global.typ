@@ -553,6 +553,7 @@ TYPE
 		P201_REF_SENSOR : REAL; (*Pump 201 Reference Sensor*)
 		P201_LS : REAL; (*Pump 201 Inlet Point Level*)
 		P201_PPI : REAL; (*Pump 201 Internal Pressure*)
+		P201_ENABLE : BOOL; (*Pump 201 Visualization Enable Bit*)
 	END_STRUCT;
 	Dosing_Pump_202_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		P202_XS : UINT; (*Pump 202 On/Off Status*)
@@ -572,6 +573,7 @@ TYPE
 		P202_REF_SENSOR : REAL; (*Pump 202 Reference Sensor*)
 		P202_LS : REAL; (*Pump 202 Inlet Point Level*)
 		P202_PPI : REAL; (*Pump 202 Internal Pressure*)
+		P202_ENABLE : BOOL; (*Pump 202 Visualization Enable Bit*)
 	END_STRUCT;
 	Dosing_Pump_203_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		P203_XS : UINT; (*Pump 203 On/Off Status*)
@@ -591,6 +593,7 @@ TYPE
 		P203_REF_SENSOR : REAL; (*Pump 203 Reference Sensor*)
 		P203_LS : REAL; (*Pump 203 Inlet Point Level*)
 		P203_PPI : REAL; (*Pump 203 Internal Pressure*)
+		P203_ENABLE : BOOL; (*Pump 203 Visualization Enable Bit*)
 	END_STRUCT;
 	Dosing_Pump_204_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
 		P204_XS : UINT; (*Pump 204 On/Off Status*)

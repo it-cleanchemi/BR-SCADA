@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\PM_Settings_Content.binding" CaretLine="747" CaretColumn="28" FirstVisibleLine="696">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="13" CaretColumn="3" FirstVisibleLine="37">
-    <Bookmarks />
-  </TextEdit>
-  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.binding" CaretLine="3204" CaretColumn="13" FirstVisibleLine="3167">
+  <TextEdit ID="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st" CaretLine="17" CaretColumn="9" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>
