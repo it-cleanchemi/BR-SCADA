@@ -41,7 +41,7 @@
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-1472121660.binding" Size="19294" HashValue="90E227CEC237D83B8244AF1110D2A586" ProjectDependent="1"/>
 					<File Name="-1800382542.eventbinding" Size="2110" HashValue="F6DF06D835DD07967BC4CECDD1220690" ProjectDependent="1"/>
-					<File Name="-1828126927.binding" Size="417182" HashValue="056E1D1EF7C1B91F76673E4FB970383B" ProjectDependent="1"/>
+					<File Name="-1828126927.binding" Size="523770" HashValue="CD76AE3046FDDDDF0B01703CFF7DE92A" ProjectDependent="1"/>
 					<File Name="-2116581325.eventbinding" Size="739" HashValue="66C38D6452F7DB2E5A61916A88D7E514" ProjectDependent="1"/>
 					<File Name="-2141128440.eventbinding" Size="2261" HashValue="917B449BE87A5FBDCB8BA3DB5314EEE5" ProjectDependent="1"/>
 					<File Name="-538549277.eventbinding" Size="2261" HashValue="F4D618585964C1BAFD41CEDCC3C0368B" ProjectDependent="1"/>
@@ -612,6 +612,7 @@
 								<File Name="Out.svg" Size="258" HashValue="9E1F1C0CE62B55F5B2006B7660D819F1" ProjectDependent="1"/>
 								<File Name="P1.png" Size="26567" HashValue="F494BF8AD8E92970A479A8992963763C" ProjectDependent="1"/>
 								<File Name="P1G.png" Size="28118" HashValue="88718FE473041FE234658DB267C3C248" ProjectDependent="1"/>
+								<File Name="P2G.png" Size="40044" HashValue="B7129AEE3F31DAB5A52C94D65D7892D1" ProjectDependent="1"/>
 								<File Name="Pause.svg" Size="457" HashValue="CB5DB61C2E9D535AC465312731371D65" ProjectDependent="1"/>
 								<File Name="Play.svg" Size="438" HashValue="9824B2E74C5FFB42576B7EDB475B92E9" ProjectDependent="1"/>
 								<File Name="Process.svg" Size="612" HashValue="AA9F1FD5A09BDF4A911BE4D4D0399D67" ProjectDependent="1"/>
@@ -815,7 +816,7 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="619065" HashValue="EBA6C79B2177F9340E8ACAA92D8A27BC" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="619747" HashValue="890DA53F8A0027DE0FD7593D0659C2D1" ProjectDependent="1"/>
 							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
@@ -3750,7 +3751,7 @@
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1"/>
 							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1"/>
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1"/>
-							<File Name="OverviewEx1.html" Size="77136" HashValue="9277CEB511AFB58534E7038FE2102182" ProjectDependent="1"/>
+							<File Name="OverviewEx1.html" Size="79367" HashValue="5CAEC660EB87E32147832AAD0F945478" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1"/>
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1"/>
@@ -3841,7 +3842,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="4129" HashValue="09CE41841A7671A4CBDA38004F4F85D6" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="4208" HashValue="D137007FDDD4B67893F5327E7B0A3C81" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

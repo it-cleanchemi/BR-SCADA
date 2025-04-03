@@ -6,7 +6,7 @@
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
 					<File Name="-1472121660.binding" Size="19294" HashValue="90E227CEC237D83B8244AF1110D2A586" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-1800382542.eventbinding" Size="2110" HashValue="F6DF06D835DD07967BC4CECDD1220690" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="-1828126927.binding" Size="417182" HashValue="056E1D1EF7C1B91F76673E4FB970383B" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1828126927.binding" Size="523770" HashValue="CD76AE3046FDDDDF0B01703CFF7DE92A" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-2116581325.eventbinding" Size="739" HashValue="66C38D6452F7DB2E5A61916A88D7E514" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-2141128440.eventbinding" Size="2261" HashValue="917B449BE87A5FBDCB8BA3DB5314EEE5" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-538549277.eventbinding" Size="2261" HashValue="F4D618585964C1BAFD41CEDCC3C0368B" ProjectDependent="1" IgnoreDifference="0" />
@@ -88,6 +88,7 @@
 								<File Name="Out.svg" Size="258" HashValue="9E1F1C0CE62B55F5B2006B7660D819F1" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="P1.png" Size="26567" HashValue="F494BF8AD8E92970A479A8992963763C" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="P1G.png" Size="28118" HashValue="88718FE473041FE234658DB267C3C248" ProjectDependent="1" IgnoreDifference="0" />
+								<File Name="P2G.png" Size="40044" HashValue="B7129AEE3F31DAB5A52C94D65D7892D1" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="PT1.png" Size="28872" HashValue="8EEA593E3AC39BACC789C749384537C6" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="PT2.png" Size="26738" HashValue="FA95DE1603ACDDA56936044E85D2564D" ProjectDependent="1" IgnoreDifference="0" />
 								<File Name="Pause.svg" Size="457" HashValue="CB5DB61C2E9D535AC465312731371D65" ProjectDependent="1" IgnoreDifference="0" />
@@ -3537,7 +3538,7 @@
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="619065" HashValue="EBA6C79B2177F9340E8ACAA92D8A27BC" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="619747" HashValue="890DA53F8A0027DE0FD7593D0659C2D1" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -3711,7 +3712,7 @@
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="OverviewEx1.html" Size="77136" HashValue="9277CEB511AFB58534E7038FE2102182" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="OverviewEx1.html" Size="79367" HashValue="5CAEC660EB87E32147832AAD0F945478" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1" IgnoreDifference="0" />
@@ -3806,7 +3807,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="4129" HashValue="09CE41841A7671A4CBDA38004F4F85D6" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="4208" HashValue="D137007FDDD4B67893F5327E7B0A3C81" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -3902,15 +3903,15 @@
 			<Module Name="::FWRules" Type="136" Size="456" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="39196" Modified="2022-06-22 07:46:56" Version="4.93" ProjectDependent="1" />
 			<Module Name="::IDEC_Real" Type="18" Size="1744" Modified="2025-03-25 11:19:31" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Main" Type="17" Size="9020" Modified="2025-04-01 10:54:28" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Main" Type="17" Size="9360" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
 			<Module Name="::MbusTCP" Type="18" Size="9916" Modified="2025-03-25 11:19:31" Version="2.00" ProjectDependent="1" />
-			<Module Name="::ModMaster" Type="17" Size="24972" Modified="2025-04-01 11:36:22" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ModMaster" Type="17" Size="25164" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="1036" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Str2DtPvdr" Type="18" Size="2240" Modified="2025-03-25 11:19:31" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TC" Type="136" Size="3688" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="1840" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="1704" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Vis" Type="17" Size="3092" Modified="2025-04-01 10:54:28" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Vis" Type="17" Size="3092" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
 			<Module Name="::acp10cfg" Type="70" Size="160" Modified="2025-03-25 11:19:36" Version="3.131" ProjectDependent="1" Reboot="1" />
 			<Module Name="::acp10man" Type="18" Size="556552" Modified="2016-04-13 16:11:37" Version="3.131" ProjectDependent="1" Reboot="1" />
 			<Module Name="::acp10par" Type="18" Size="384" Modified="2016-04-13 16:12:52" Version="3.131" ProjectDependent="1" />

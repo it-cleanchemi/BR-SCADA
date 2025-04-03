@@ -53,6 +53,7 @@ TYPE
 		Dosing_Pump_206 : Dosing_Pump_206_Type;
 		Dosing_Pump_207 : Dosing_Pump_207_Type;
 		Dosing_Pump_208 : Dosing_Pump_208_Type;
+		VisBool : VisBool_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -361,6 +362,20 @@ TYPE
 		In : Vis_Main_In_Type;
 		Internal : Vis_Main_Internal_Type;
 		Out : Vis_Main_Out_Type;
+	END_STRUCT;
+END_TYPE
+
+(*Bool Toggles for Hiding Visualiazation Elements*)
+
+TYPE
+	VisBool_Type : 	STRUCT 
+		P201_SP : BOOL;
+		P202_SP : BOOL;
+		P203_SP : BOOL;
+		P201_PPM : BOOL;
+		P202_PPM : BOOL;
+		P203_PPM : BOOL;
+		PMAX_MANUAL : BOOL;
 	END_STRUCT;
 END_TYPE
 
