@@ -16,13 +16,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Constants.var"
     LogicalPath="Constants.var"
     Type="File"
-    LastWriteTime="133881809202579678"
+    LastWriteTime="133882684533611831"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133881745275424008"
+    LastWriteTime="133882691222145381"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Enum.typ"
@@ -586,7 +586,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Main.st"
     LogicalPath="Main.Main.st"
     Type="File"
-    LastWriteTime="133881798067077505"
+    LastWriteTime="133882624537137769"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Types.typ"
@@ -2648,13 +2648,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Main\OverviewEx1.content"
     LogicalPath="mappView.Visualization.Pages.Page_Main.OverviewEx1.content"
     Type="File"
-    LastWriteTime="133881848969882449"
+    LastWriteTime="133882660997180970"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Main\Main.content"
     LogicalPath="mappView.Visualization.Pages.Page_Main.Main.content"
     Type="File"
-    LastWriteTime="133868738523503015"
+    LastWriteTime="133882692182697300"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Process\Package.pkg"
@@ -3202,7 +3202,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Main.st"
     LogicalPath="Vis.Main.st"
     Type="File"
-    LastWriteTime="133868760244443243"
+    LastWriteTime="133882694874338890"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Types.typ"
@@ -3226,49 +3226,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Package.pkg"
     LogicalPath="AlarmTexts"
     Type="Package"
-    LastWriteTime="133864440588177299" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Master.tmx"
-    LogicalPath="AlarmTexts.Master.tmx"
-    Type="File"
-    LastWriteTime="133864440588044123"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\ConvIn.tmx"
-    LogicalPath="AlarmTexts.ConvIn.tmx"
-    Type="File"
-    LastWriteTime="133864440588065792"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Wheel.tmx"
-    LogicalPath="AlarmTexts.Wheel.tmx"
-    Type="File"
-    LastWriteTime="133864440588075765"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Email.tmx"
-    LogicalPath="AlarmTexts.Email.tmx"
-    Type="File"
-    LastWriteTime="133864440588085782"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Cert.tmx"
-    LogicalPath="AlarmTexts.Cert.tmx"
-    Type="File"
-    LastWriteTime="133864440588147355"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Time.tmx"
-    LogicalPath="AlarmTexts.Time.tmx"
-    Type="File"
-    LastWriteTime="133864440588157303"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Monitor.tmx"
-    LogicalPath="AlarmTexts.Monitor.tmx"
-    Type="File"
-    LastWriteTime="133864440588167311"
-    Private="false" />
+    LastWriteTime="133882531953478162" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
@@ -3278,7 +3236,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133851580326451338"
+    LastWriteTime="133882662990490121"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Hardware.hwl"
@@ -3290,7 +3248,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133881842723647033" />
+    LastWriteTime="133882694751986059" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
@@ -3319,23 +3277,18 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Connectivity\Package.pkg"
     LogicalPath="Config1.PC.Connectivity"
     Type="Package"
-    LastWriteTime="133851580326783454" />
+    LastWriteTime="133882531278979226" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\Package.pkg"
     LogicalPath="Config1.PC.Connectivity.OpcUA"
     Type="Package"
-    LastWriteTime="133851580326765965" />
+    LastWriteTime="133882547929839270" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133879100817811195"
+    LastWriteTime="133882691731101832"
     Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUaFx\Package.pkg"
-    LogicalPath="Config1.PC.Connectivity.OpcUaFx"
-    Type="Package"
-    LastWriteTime="133851580326765965" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\TextSystem\Package.pkg"
     LogicalPath="Config1.PC.TextSystem"
@@ -3345,7 +3298,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\TextSystem\TC.textconfig"
     LogicalPath="Config1.PC.TextSystem.TC.textconfig"
     Type="File"
-    LastWriteTime="133873146107905832"
+    LastWriteTime="133882532723137035"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\UnitSystem\Package.pkg"
@@ -3482,7 +3435,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Package.pkg"
     LogicalPath="Config1.PC.mappView"
     Type="Package"
-    LastWriteTime="133875684184059326" />
+    LastWriteTime="133882663119075880" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Visualizat.vis"
     LogicalPath="Config1.PC.mappView.Visualizat.vis"
@@ -3493,7 +3446,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Config.mappviewcfg"
     LogicalPath="Config1.PC.mappView.Config.mappviewcfg"
     Type="File"
-    LastWriteTime="133851580326863819"
+    LastWriteTime="133882670892605058"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Diagnostics.eventbinding"
@@ -3511,7 +3464,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Main.binding"
     LogicalPath="Config1.PC.mappView.Main.binding"
     Type="File"
-    LastWriteTime="133875676294044773"
+    LastWriteTime="133882693703901586"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.eventbinding"
@@ -3523,7 +3476,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.binding"
     LogicalPath="Config1.PC.mappView.OverviewEx1.binding"
     Type="File"
-    LastWriteTime="133881808842262910"
+    LastWriteTime="133882626479047642"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\P201_Status_Content.eventbinding"
@@ -3586,6 +3539,12 @@
     LastWriteTime="133878261983693222"
     Private="false" />
   <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OpcUaServer.uaserver"
+    LogicalPath="Config1.PC.mappView.OpcUaServer.uaserver"
+    Type="File"
+    LastWriteTime="133882663328013480"
+    Private="false" />
+  <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappVision\Package.pkg"
     LogicalPath="Config1.PC.mappVision"
     Type="Package"
@@ -3600,30 +3559,6 @@
     LogicalPath="Config1.PC.IoMap_1.iom"
     Type="File"
     LastWriteTime="133851580326783454"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Arnc0cfg.ncc"
-    LogicalPath="Config1.PC.Arnc0cfg.ncc"
-    Type="File"
-    LastWriteTime="133851580326745878"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Acp10cfg.ncc"
-    LogicalPath="Config1.PC.Acp10cfg.ncc"
-    Type="File"
-    LastWriteTime="133851580326541380"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Acp10map.ncm"
-    LogicalPath="Config1.PC.Acp10map.ncm"
-    Type="File"
-    LastWriteTime="133851580326541380"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Acp10sys.br"
-    LogicalPath="Config1.PC.Acp10sys.br"
-    Type="File"
-    LastWriteTime="133851580326745878"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Hardware.jpg"

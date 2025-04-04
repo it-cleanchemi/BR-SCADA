@@ -6,7 +6,7 @@
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
 					<File Name="-1472121660.binding" Size="19294" HashValue="90E227CEC237D83B8244AF1110D2A586" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-1800382542.eventbinding" Size="2110" HashValue="F6DF06D835DD07967BC4CECDD1220690" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="-1828126927.binding" Size="523770" HashValue="CD76AE3046FDDDDF0B01703CFF7DE92A" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-1828126927.binding" Size="535910" HashValue="59524355E3F56EC321315DE916E3E430" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-2116581325.eventbinding" Size="739" HashValue="66C38D6452F7DB2E5A61916A88D7E514" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-2141128440.eventbinding" Size="2261" HashValue="917B449BE87A5FBDCB8BA3DB5314EEE5" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-538549277.eventbinding" Size="2261" HashValue="F4D618585964C1BAFD41CEDCC3C0368B" ProjectDependent="1" IgnoreDifference="0" />
@@ -18,9 +18,9 @@
 					<File Name="1476318688.binding" Size="19324" HashValue="8F1EA888F641BB6E617BB02E1226A10F" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="184480425.eventbinding" Size="4201" HashValue="5A53407736B5FCB9B731CA22E723216B" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="2007136254.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="209978309.binding" Size="17843" HashValue="202D57EED0C4FA25427A680F37E1FE56" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="209978309.binding" Size="21014" HashValue="926D4C0281BB261E909E3ABB9BC420E4" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="ColorVars.sessionVar" Size="1397" HashValue="69C94369697C3610884C962F69B5196C" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="Config.mappviewcfg" Size="1584" HashValue="413250A5812EA5E06E947E7A0EA4A7F5" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="Config.mappviewcfg" Size="1583" HashValue="C2B674BD59D2A39840516672A250F028" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="_Diagnostics_ConvInIO.eventbinding" Size="19127" HashValue="A8BD49F48AFF399CD303B3A2632ED947" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="_Diagnostics_WheelIO.eventbinding" Size="15471" HashValue="3AD7305F34EBDCF34DFD914745B7B917" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="_Settings_IO.eventbinding" Size="34900" HashValue="514F1001BEC82C461384E9FA50E9EF90" ProjectDependent="1" IgnoreDifference="0" />
@@ -3538,7 +3538,7 @@
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="619747" HashValue="890DA53F8A0027DE0FD7593D0659C2D1" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="619941" HashValue="DFB228487E44F7D7EB214DAE818CD8D5" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -3710,9 +3710,9 @@
 							<File Name="Diagnostics_WheelIO.html" Size="42780" HashValue="38FD2769E97191B59B2F9E2E331C8929" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Footer.html" Size="23567" HashValue="D9D9D183F05B6FBEB0966AF009CE9CA0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="Main.html" Size="1316" HashValue="A11953D9A6FB356F2F0AF8F87BB9C68A" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="OverviewEx1.html" Size="79367" HashValue="5CAEC660EB87E32147832AAD0F945478" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="OverviewEx1.html" Size="79405" HashValue="054653CB08D6F3125898AD62DCC79D12" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1" IgnoreDifference="0" />
@@ -3807,7 +3807,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="4208" HashValue="D137007FDDD4B67893F5327E7B0A3C81" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="4286" HashValue="519035F0434733AEF63AEA749FFFE28E" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -3883,14 +3883,13 @@
 			<File Name="arsimproxy.dll" Size="221696" HashValue="11E3F85AC111386D5CBEF8AC4E6B29E1" ProjectDependent="1" IgnoreDifference="0" />
 		</Class>
 		<Memory Name="SYSROM">
-			<Module Name="::$$sysconf" Type="129" Size="70204" Modified="2025-03-25 11:19:38" Version="4.93" ProjectDependent="1" Reboot="1" />
-			<Module Name="::TCData" Type="209" Size="3938428" Modified="2025-03-27 06:37:42" Version="1.00" ProjectDependent="1" />
+			<Module Name="::$$sysconf" Type="129" Size="70204" Modified="2025-04-04 12:52:30" Version="4.93" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3920880" Modified="2025-04-04 09:13:32" Version="1.00" ProjectDependent="1" />
 			<Module Name="::arconfig" Type="132" Size="880" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" Reboot="1" />
 			<Module Name="::asfw" Type="67" Size="128" Modified="2025-03-25 11:19:38" Version="1.00" ProjectDependent="1" Reboot="1" />
 			<Module Name="::ashwd" Type="67" Size="524" Modified="2025-03-25 11:19:38" Version="1.00" ProjectDependent="1" Reboot="1" />
 		</Memory>
 		<Memory Name="USERROM">
-			<Module Name="::Acp10map" Type="70" Size="224" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" Reboot="1" />
 			<Module Name="::ArSsl" Type="18" Size="13436" Modified="2022-06-22 07:47:50" Version="4.93" ProjectDependent="1" />
 			<Module Name="::ArTextSys" Type="18" Size="12364" Modified="2022-06-22 07:48:00" Version="4.93" ProjectDependent="1" />
 			<Module Name="::AsARCfg" Type="18" Size="49272" Modified="2022-06-22 07:48:15" Version="4.93" ProjectDependent="1" />
@@ -3903,20 +3902,18 @@
 			<Module Name="::FWRules" Type="136" Size="456" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="39196" Modified="2022-06-22 07:46:56" Version="4.93" ProjectDependent="1" />
 			<Module Name="::IDEC_Real" Type="18" Size="1744" Modified="2025-03-25 11:19:31" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Main" Type="17" Size="9360" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Main" Type="17" Size="9720" Modified="2025-04-04 13:42:47" Version="1.00" ProjectDependent="1" />
 			<Module Name="::MbusTCP" Type="18" Size="9916" Modified="2025-03-25 11:19:31" Version="2.00" ProjectDependent="1" />
-			<Module Name="::ModMaster" Type="17" Size="25164" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ModMaster" Type="17" Size="25400" Modified="2025-04-04 13:42:47" Version="1.00" ProjectDependent="1" />
+			<Module Name="::OpcUaSrv" Type="136" Size="1048" Modified="2025-04-04 12:52:29" Version="5.244" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="1036" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Str2DtPvdr" Type="18" Size="2240" Modified="2025-03-25 11:19:31" Version="1.00" ProjectDependent="1" />
-			<Module Name="::TC" Type="136" Size="3688" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TC" Type="136" Size="3072" Modified="2025-04-04 09:14:43" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="1840" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="1704" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Vis" Type="17" Size="3092" Modified="2025-04-03 13:08:50" Version="1.00" ProjectDependent="1" />
-			<Module Name="::acp10cfg" Type="70" Size="160" Modified="2025-03-25 11:19:36" Version="3.131" ProjectDependent="1" Reboot="1" />
+			<Module Name="::Vis" Type="17" Size="9896" Modified="2025-04-04 13:44:49" Version="1.00" ProjectDependent="1" />
 			<Module Name="::acp10man" Type="18" Size="556552" Modified="2016-04-13 16:11:37" Version="3.131" ProjectDependent="1" Reboot="1" />
 			<Module Name="::acp10par" Type="18" Size="384" Modified="2016-04-13 16:12:52" Version="3.131" ProjectDependent="1" />
-			<Module Name="::acp10sys" Type="65" Size="7902244" Modified="2016-04-11 12:55:07" Version="3.131" ProjectDependent="1" Reboot="1" />
-			<Module Name="::arnc0cfg" Type="70" Size="152" Modified="2025-03-25 11:19:35" Version="1.45" ProjectDependent="1" Reboot="1" />
 			<Module Name="::ashwac" Type="136" Size="212" Modified="2025-03-25 11:19:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::asstring" Type="18" Size="8648" Modified="2022-06-22 07:42:20" Version="4.93" ProjectDependent="1" />
 			<Module Name="::astime" Type="18" Size="24304" Modified="2022-06-22 07:43:27" Version="4.93" ProjectDependent="1" />

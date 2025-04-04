@@ -19,5 +19,6 @@
     <Object Type="File">PM_Status_Content.binding</Object>
     <Object Type="File">PM_Settings_Content.eventbinding</Object>
     <Object Type="File">PM_Settings_Content.binding</Object>
+    <Object Type="File">OpcUaServer.uaserver</Object>
   </Objects>
 </Package>

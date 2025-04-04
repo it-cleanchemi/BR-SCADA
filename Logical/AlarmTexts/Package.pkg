@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
-  <Objects>
-    <Object Type="File">Master.tmx</Object>
-    <Object Type="File">ConvIn.tmx</Object>
-    <Object Type="File">Wheel.tmx</Object>
-    <Object Type="File">Email.tmx</Object>
-    <Object Type="File">Cert.tmx</Object>
-    <Object Type="File">Time.tmx</Object>
-    <Object Type="File">Monitor.tmx</Object>
-  </Objects>
+  <Objects />
 </Package>

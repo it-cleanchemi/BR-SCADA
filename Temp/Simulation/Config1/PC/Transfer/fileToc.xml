@@ -41,7 +41,7 @@
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-1472121660.binding" Size="19294" HashValue="90E227CEC237D83B8244AF1110D2A586" ProjectDependent="1"/>
 					<File Name="-1800382542.eventbinding" Size="2110" HashValue="F6DF06D835DD07967BC4CECDD1220690" ProjectDependent="1"/>
-					<File Name="-1828126927.binding" Size="523770" HashValue="CD76AE3046FDDDDF0B01703CFF7DE92A" ProjectDependent="1"/>
+					<File Name="-1828126927.binding" Size="535910" HashValue="59524355E3F56EC321315DE916E3E430" ProjectDependent="1"/>
 					<File Name="-2116581325.eventbinding" Size="739" HashValue="66C38D6452F7DB2E5A61916A88D7E514" ProjectDependent="1"/>
 					<File Name="-2141128440.eventbinding" Size="2261" HashValue="917B449BE87A5FBDCB8BA3DB5314EEE5" ProjectDependent="1"/>
 					<File Name="-538549277.eventbinding" Size="2261" HashValue="F4D618585964C1BAFD41CEDCC3C0368B" ProjectDependent="1"/>
@@ -53,13 +53,13 @@
 					<File Name="1476318688.binding" Size="19324" HashValue="8F1EA888F641BB6E617BB02E1226A10F" ProjectDependent="1"/>
 					<File Name="184480425.eventbinding" Size="4201" HashValue="5A53407736B5FCB9B731CA22E723216B" ProjectDependent="1"/>
 					<File Name="2007136254.eventbinding" Size="138" HashValue="D663B1D65D9EFA72DD6B79CEB92E1A4A" ProjectDependent="1"/>
-					<File Name="209978309.binding" Size="17843" HashValue="202D57EED0C4FA25427A680F37E1FE56" ProjectDependent="1"/>
+					<File Name="209978309.binding" Size="21014" HashValue="926D4C0281BB261E909E3ABB9BC420E4" ProjectDependent="1"/>
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1"/>
 					<File Name="_Diagnostics_ConvInIO.eventbinding" Size="19127" HashValue="A8BD49F48AFF399CD303B3A2632ED947" ProjectDependent="1"/>
 					<File Name="_Diagnostics_WheelIO.eventbinding" Size="15471" HashValue="3AD7305F34EBDCF34DFD914745B7B917" ProjectDependent="1"/>
 					<File Name="_Settings_IO.eventbinding" Size="34900" HashValue="514F1001BEC82C461384E9FA50E9EF90" ProjectDependent="1"/>
 					<File Name="ColorVars.sessionVar" Size="1397" HashValue="69C94369697C3610884C962F69B5196C" ProjectDependent="1"/>
-					<File Name="Config.mappviewcfg" Size="1584" HashValue="413250A5812EA5E06E947E7A0EA4A7F5" ProjectDependent="1"/>
+					<File Name="Config.mappviewcfg" Size="1583" HashValue="C2B674BD59D2A39840516672A250F028" ProjectDependent="1"/>
 					<File Name="snippet_0.snippet" Size="534" HashValue="5FA712D98D5D932AA873A5790739633A" ProjectDependent="1"/>
 					<File Name="svar_1.sessionVar" Size="762" HashValue="449CF311062DAC234C0C84242BA42B3A" ProjectDependent="1"/>
 					<File Name="svar_2.sessionVar" Size="431" HashValue="A0721DE164C45402847DE9AFC2136B84" ProjectDependent="1"/>
@@ -816,7 +816,7 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="619747" HashValue="890DA53F8A0027DE0FD7593D0659C2D1" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="619941" HashValue="DFB228487E44F7D7EB214DAE818CD8D5" ProjectDependent="1"/>
 							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
@@ -3749,9 +3749,9 @@
 							<File Name="Diagnostics_WheelIO.html" Size="42780" HashValue="38FD2769E97191B59B2F9E2E331C8929" ProjectDependent="1"/>
 							<File Name="Footer.html" Size="23567" HashValue="D9D9D183F05B6FBEB0966AF009CE9CA0" ProjectDependent="1"/>
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1"/>
-							<File Name="Main.html" Size="1043" HashValue="A14B28BFA347D2081C48680E09031C1A" ProjectDependent="1"/>
+							<File Name="Main.html" Size="1316" HashValue="A11953D9A6FB356F2F0AF8F87BB9C68A" ProjectDependent="1"/>
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1"/>
-							<File Name="OverviewEx1.html" Size="79367" HashValue="5CAEC660EB87E32147832AAD0F945478" ProjectDependent="1"/>
+							<File Name="OverviewEx1.html" Size="79405" HashValue="054653CB08D6F3125898AD62DCC79D12" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1"/>
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1"/>
@@ -3842,7 +3842,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="4208" HashValue="D137007FDDD4B67893F5327E7B0A3C81" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="4286" HashValue="519035F0434733AEF63AEA749FFFE28E" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

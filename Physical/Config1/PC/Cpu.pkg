@@ -18,10 +18,6 @@
     <Object Type="Package">mappVision</Object>
     <Object Type="Package">mappCockpit</Object>
     <Object Type="File">IoMap_1.iom</Object>
-    <Object Type="File">Arnc0cfg.ncc</Object>
-    <Object Type="File" Description="NC manager configuration">Acp10cfg.ncc</Object>
-    <Object Type="File" Description="NC mapping">Acp10map.ncm</Object>
-    <Object Type="File" Description="NC operating system">Acp10sys.br</Object>
   </Objects>
   <Configuration ModuleId="PC_any">
     <AutomationRuntime Version="B4.93" />

@@ -59,7 +59,37 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.P203_SP := 0;
 		END_IF;
 		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_PTYPE = 0 THEN
+			gSkid[IdxSkids].VisBool.P201_DDA := 1;
+			gSkid[IdxSkids].VisBool.P201_DME := 0;	
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_DDA := 0;
+			gSkid[IdxSkids].VisBool.P201_DME := 1;
+		END_IF;
 		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_PTYPE = 0 AND gSkid[IdxSkids].Dosing_Pump_201.P201_XS = 1 THEN
+			gSkid[IdxSkids].VisBool.P201_DDAGREEN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_DDAGREEN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_PTYPE = 1 AND gSkid[IdxSkids].Dosing_Pump_201.P201_XS = 1 THEN
+			gSkid[IdxSkids].VisBool.P201_DMEGREEN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_DMEGREEN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_ENABLE = 1 THEN
+			gSkid[IdxSkids].VisBool.P201_ENABLE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_ENABLE_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_202.P202_ENABLE = 1 THEN
+			gSkid[IdxSkids].VisBool.P202_ENABLE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.P202_ENABLE_OPP := 1;
+		END_IF;
 		
 		
 		

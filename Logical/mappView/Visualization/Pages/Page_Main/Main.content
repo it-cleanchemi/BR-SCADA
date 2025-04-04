@@ -7,5 +7,6 @@
         <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="0" width="1754" height="880" zIndex="0" contentId="OverviewEx1" />
       </Widgets>
     </Widget>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="20" left="1120" width="340" zIndex="2" textAlign="center" />
   </Widgets>
 </Content>

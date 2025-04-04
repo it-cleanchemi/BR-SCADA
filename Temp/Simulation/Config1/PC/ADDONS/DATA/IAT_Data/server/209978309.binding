@@ -229,6 +229,71 @@
 			 
 		
 		
+		<Content id="Main"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*Main_TextOutput1*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[0]" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[1]" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[2]" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[3]" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[4]" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[5]" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[6]" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[7]" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[8]" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[9]" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[10]" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[11]" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[12]" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[13]" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[14]" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[15]" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[16]" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[17]" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[18]" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[19]" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[20]" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[21]" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[22]" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[23]" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[24]" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="Main_TextOutput1" attribute="value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
 		
 	
 </BindingDefinition>

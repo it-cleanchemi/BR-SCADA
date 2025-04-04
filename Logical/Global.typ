@@ -354,6 +354,7 @@ TYPE
 	Vis_Main_Out_Type : 	STRUCT 
 		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
 		DialogOpen : BOOL;
+		SkidIPAddress : ARRAY[0..MAX_SKIDS]OF STRING[20];
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
 		SelectedSkid : UDINT;
@@ -369,6 +370,8 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		P202_ENABLE_OPP : BOOL;
+		P201_ENABLE_OPP : BOOL;
 		P201_SP : BOOL;
 		P202_SP : BOOL;
 		P203_SP : BOOL;
@@ -376,6 +379,10 @@ TYPE
 		P202_PPM : BOOL;
 		P203_PPM : BOOL;
 		PMAX_MANUAL : BOOL;
+		P201_DDAGREEN : BOOL;
+		P201_DDA : BOOL;
+		P201_DMEGREEN : BOOL;
+		P201_DME : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -550,7 +557,7 @@ END_TYPE
 
 TYPE
 	Dosing_Pump_201_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
-		P201_PTYPE : BOOL; (*Pump 201 Pump Type*)
+		P201_PTYPE : UINT; (*Pump 201 Pump Type*)
 		P201_XS : UINT; (*Pump 201 On/Off Status*)
 		P201_CHEM : UINT; (*Pump 201 Chemical*)
 		P201_HOA : UINT; (*Pump 201 Mode*)

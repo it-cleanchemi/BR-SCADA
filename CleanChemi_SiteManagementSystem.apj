@@ -8,7 +8,6 @@
   <Project StoreRuntimeInProject="false" />
   <Variables DefaultInitValue="0" DefaultRetain="false" DefaultVolatile="true" />
   <TechnologyPackages>
-    <Acp10Arnc0 Version="1.0.0" />
     <mappView Version="5.24.4" />
   </TechnologyPackages>
 </Project>

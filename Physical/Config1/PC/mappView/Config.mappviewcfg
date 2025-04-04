@@ -6,7 +6,7 @@
       <Selector ID="WebServerProtocol" Value="1">
         <Property ID="WebServerPort" Value="81" />
       </Selector>
-      <Property ID="MaxClientConnections" Value="1" />
+      <Property ID="MaxClientConnections" Value="10" />
       <Property ID="MaxBRClientConnections" Value="0" />
       <Selector ID="AuthenticationMode" Value="AuthenticationModeRbac" />
       <Group ID="TcpProxyConf">
@@ -29,12 +29,12 @@
     <Group ID="Timer" />
     <Group ID="Client">
       <Group ID="ContentCaching">
-        <Property ID="cachingSlots" Value="200" />
+        <Property ID="cachingSlots" Value="0" />
         <Property ID="preserveOldValues" Value="TRUE" />
       </Group>
       <Property ID="defaultVisu" Value="vis_0" />
       <Group ID="Widget">
-        <Selector ID="renderingPolicy" Value="1" />
+        <Selector ID="renderingPolicy" Value="2" />
         <Selector ID="securityPolicy" Value="1" />
       </Group>
     </Group>

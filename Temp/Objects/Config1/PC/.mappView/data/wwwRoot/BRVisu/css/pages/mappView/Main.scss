@@ -41,3 +41,15 @@
 }
 #Main_Diagnostics_GroupBox_Content_ContentControl {	z-index: 0;
 }
+#Main_TextOutput1 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput1 {	@include elemTop(20);
+}
+#Main_TextOutput1 {	@include elemLeft(1120);
+}
+#Main_TextOutput1 {	@include elemAutoWidth(340);
+}
+#Main_TextOutput1 {	z-index: 2;
+}
+#Main_TextOutput1 {	@include text-alignment-all('center');
+}
