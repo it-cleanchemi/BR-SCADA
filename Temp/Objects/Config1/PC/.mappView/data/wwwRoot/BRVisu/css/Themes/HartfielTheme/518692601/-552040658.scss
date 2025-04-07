@@ -16,7 +16,7 @@
 @include system_brease_StartupProgressBar_base; 
 	background-color: #D1F2FF;
 .startupProgressBar {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .startupProgressBar {
 	border-radius: 0px;
@@ -75,10 +75,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -138,7 +138,7 @@ span {
 @include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#0096a9 100%)');
 }
 &.active svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.checked:not(.disabled):not(.active) svg {
 	fill: #0096a9;
@@ -219,10 +219,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -279,10 +279,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -330,10 +330,10 @@ span {
 	border-width: 0px;
 }
 &:not(.active):not(.disabled) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &.active:not(.disabled) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 	font-size: 16px;
 &:not(.active):not(.disabled) {
@@ -343,7 +343,7 @@ span {
 	background-color: transparent;
 }
 &.active:not(.disabled) span {
-	color: #CC0000;
+	color: #000000;
 }
 @include font-weight-bold(true);
 @include box-shadow(none);
@@ -367,7 +367,7 @@ span {
 .widgets_brease_KeyBoard_style_default {
 @include widgets_brease_KeyBoard_base; 
 .keyBoardHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 .dropdown {
 @include backGroundGradient('linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)');
@@ -383,22 +383,22 @@ header {
 	background-color: #333333;
 }
 .dropdown .button.active {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .dropdown .button.selected {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .keyBoardBody button.active {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .keyBoardBody button.selected {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .keyBoardBody button.active .icon-delete {
-	color: #CC0000;
+	color: #000000;
 }
 .keyBoardBody button.selected .icon-delete {
-	color: #CC0000;
+	color: #000000;
 }
 .dropdown {
 	color: #111111;
@@ -424,7 +424,7 @@ header {
 .widgets_brease_NumPad_style_default {
 @include widgets_brease_NumPad_base; 
 .numpadHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 .breaseNumPadButtons button:not(.active) {
 @include backGroundGradient('linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)');
@@ -449,7 +449,7 @@ header {
 	background-color: #333333;
 }
 .breaseNumPadButtons button.active {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .breaseNumPadButtons button {
 	color: #111111;
@@ -479,7 +479,7 @@ header {
 	color: #111111;
 }
 .breaseNumpadSlider .numpadSlider_thumb .numpadSlider_knob {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 
 }
@@ -487,7 +487,7 @@ header {
 .widgets_brease_DateTimePicker_style_default {
 @include widgets_brease_DateTimePicker_base; 
 header {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 	border-color: #333333;
 header {
@@ -527,7 +527,7 @@ header {
 	background-color: #333333;
 }
 .dateTimePickerBody .dateTimePickerButtons .marker {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 .dateTimePickerBody button {
 	color: #111111;
@@ -592,10 +592,10 @@ height: 18px + 20px;
 	border-width: 2px 6px 2px 2px;
 }
 &:not(.disabled):not(.active) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &.active:not(.disabled) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 input {
 	font-size: 16px;
@@ -604,7 +604,7 @@ input {
 	background-color: #D1F2FF;
 }
 &.active:not(.disabled) {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 &.active:not(.disabled) input {
 	color: #111111;
@@ -660,10 +660,10 @@ input {
 	border-width: 2px 6px 2px 2px;
 }
 &:not(.disabled):not(.active) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &:not(.disabled).active {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 input {
 	font-size: 16px;
@@ -672,7 +672,7 @@ input {
 	background-color: #D1F2FF;
 }
 &:not(.disabled).active {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 &:not(.disabled).active input {
 	color: #111111;
@@ -714,10 +714,10 @@ input {
 	border-width: 2px 6px 2px 2px;
 }
 &:not(.disabled):not(.active) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &:not(.disabled).active {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 input {
 	font-size: 16px;
@@ -726,7 +726,7 @@ input {
 	background-color: #D1F2FF;
 }
 &:not(.disabled).active {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 &:not(.disabled).active input {
 	color: #111111;
@@ -771,7 +771,7 @@ input {
 @include display(true, 'flex');
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
 	fill: #111111;
@@ -789,10 +789,10 @@ input {
 @include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -864,10 +864,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -924,10 +924,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#555555 0%,#111111 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#555555 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#555555 0%,#000000 100%)');
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -963,7 +963,7 @@ span {
 .widgets_brease_Line_style_default {
 @include widgets_brease_Line_base; 
 line {
-	stroke: #CC0000;
+	stroke: #000000;
 }
 line {
 	stroke-width: 1px;
@@ -978,10 +978,10 @@ line {
 @include widgets_brease_CheckBox_base; 
 	border-style: none;
 &.checked:not(.disabled) svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.active:not(.disabled):not(.editMode) .checkbox {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &:not(.disabled) span {
 	color: #111111;
@@ -996,7 +996,7 @@ line {
 	background-color: #111111;
 }
 &.checked:not(.disabled):not(.active) span {
-	color: #CC0000;
+	color: #000000;
 }
 &.active:not(.disabled):not(.editMode) span {
 	color: #111111;
@@ -1023,7 +1023,7 @@ line {
 	border-color: #888888;
 }
 &.disabled.checked:not(.active) span {
-	color: #CC0000;
+	color: #000000;
 }
 &:not(.disabled):not(.active):not(.checked) {
 	background-color: transparent;
@@ -1079,7 +1079,7 @@ span {
 @include display(true, 'flex');
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
 	fill: #111111;
@@ -1097,10 +1097,10 @@ span {
 @include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -1162,7 +1162,7 @@ span {
 @include display(true, 'flex');
 }
 & > .ItemView:not(.itemSelected):not(.itemDisabled) > .ImageView.ImageIndicator svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 & > .ItemView.itemSelected:not(.itemDisabled) > .ImageView.ImageIndicator svg {
 	fill: #111111;
@@ -1180,10 +1180,10 @@ span {
 @include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#555555 100%)');
 }
 & > .ListView.Container > .ListView.List > .ItemView.itemSelected {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 & > .ItemView.itemSelected:not(.itemDisabled) {
-@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to left,#D1F2FF 0%,#000000 100%)');
 }
 &.DropDownBoxView {
 @include border-radius(0px);
@@ -1215,7 +1215,7 @@ span {
 .widgets_brease_FlyOut_style_default {
 @include widgets_brease_FlyOut_base; 
 .breaseFlyOutWrapper > .flyoutButton svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 .breaseFlyOutWrapper > .container {
 	background-color: transparent;
@@ -1268,22 +1268,22 @@ span {
 	color: #111111;
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.selected td.selected.override:not(.disabled):not(.activeInput) {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.selected td.selected:not(.override):not(.disabled):not(.activeInput) {
-	background-color: #CC0000;
+	background-color: #000000;
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(odd).selected.override:not(.disabled):not(.activeInput) {
-@include active-background-color(#CC0000);
+@include active-background-color(#000000);
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr td:nth-child(even).selected.override:not(.disabled):not(.activeInput) {
-@include active-background-color(#CC0000);
+@include active-background-color(#000000);
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr.even td.selected:not(.override):not(.disabled):not(.activeInput) {
-@include active-background-color(#CC0000);
+@include active-background-color(#000000);
 }
 &:not(.disabled) .horizontalOrientation .tableCells tbody tr.odd td.selected:not(.override):not(.disabled):not(.activeInput) {
-@include active-background-color(#CC0000);
+@include active-background-color(#000000);
 }
 &:not(.disabled) .verticalOrientation .tableCells tbody tr.odd:not(.disabled):not(.override) {
 	background-color: #555555;
@@ -1657,7 +1657,7 @@ height: 40px + 20px;
 @include display(false);
 }
 .breaseDialogWindowHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 .breaseDialogWindowHeader .textDiv {
 	font-size: 20px;
@@ -1688,7 +1688,7 @@ height: 40px + 20px;
 .system_brease_MessageBox_style_default {
 @include system_brease_MessageBox_base; 
 .breaseMessageBoxHeader {
-@include backGroundGradient('linear-gradient(to bottom, #CC0000 0%,#D1F2FF 100%)');
+@include backGroundGradient('linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)');
 }
 .breaseMessageBoxContentBox div.content {
 	font-size: 20px;
@@ -1810,7 +1810,7 @@ height: 40px + 20px;
 .widgets_brease_Image_style_default_Primary {
 @include widgets_brease_Image_base; 
 & > .ImageView > svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 
 }
@@ -1851,7 +1851,7 @@ span {
 	color: #555555;
 }
 &:not(.active):not(.disabled):not(.checked) svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.active:not(.disabled):not(.editMode) span {
 	color: #111111;
@@ -1885,10 +1885,10 @@ span {
 @include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#111111 100%)');
 }
 &.active svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.checked:not(.disabled):not(.active) svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.checked:not(.disabled):not(.active) span {
 	color: #111111;
@@ -1951,13 +1951,13 @@ span {
 @include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#555555 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#000000 100%)');
 }
 &.checked:not(.disabled):not(.active) {
-@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to bottom,#D1F2FF 70%,#000000 100%)');
 }
 &:not(.active):not(.checked) {
 	border-width: 0px 0px 0px 0px;
@@ -1995,10 +1995,10 @@ span {
 	fill: #D1F2FF;
 }
 &.active svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.checked:not(.disabled):not(.active) svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 span {
 	font-size: 16px;
@@ -2386,13 +2386,13 @@ span {
 @include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#888888 100%)');
 }
 &.active:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#000000 100%)');
 }
 &.checked:not(.disabled) {
-@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#CC0000 100%)');
+@include backGroundGradient('linear-gradient(to right,#D1F2FF 90%,#000000 100%)');
 }
 &.active svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 &.disabled {
 @include backGroundGradient('linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)');
@@ -2425,7 +2425,7 @@ span {
 @include widgets_brease_Label_base; 
 	font-size: 16px;
 & span {
-	color: #CC0000;
+	color: #000000;
 }
 	background-color: transparent;
 	border-style: none;
@@ -2518,10 +2518,10 @@ span {
 	border-width: 0px;
 }
 &:not(.active):not(.disabled) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 &.active:not(.disabled) {
-	border-color: #CC0000;
+	border-color: #000000;
 }
 	font-size: 16px;
 &:not(.active):not(.disabled) {
@@ -2531,7 +2531,7 @@ span {
 	background-color: transparent;
 }
 &.active:not(.disabled) span {
-	color: #CC0000;
+	color: #000000;
 }
 @include font-weight-bold(true);
 @include box-shadow(none);
@@ -2613,10 +2613,10 @@ height: 0px + 20px;
 .widgets_brease_NumericOutput_style_default_primary {
 @include widgets_brease_NumericOutput_base; 
 input {
-	color: #CC0000;
+	color: #000000;
 }
 span.breaseNumericOutput_unit {
-	color: #CC0000;
+	color: #000000;
 }
 	border-width: 0px;
 input {
@@ -2653,7 +2653,7 @@ input {
 .widgets_brease_TextOutput_style_default_primary {
 @include widgets_brease_TextOutput_base; 
 & span {
-	color: #CC0000;
+	color: #000000;
 }
 	border-width: 0px;
 	font-size: 16px;
@@ -2730,7 +2730,7 @@ input {
 	font-size: 16px;
 }
 .breaseFlyOutWrapper > .flyoutButton svg {
-	fill: #CC0000;
+	fill: #000000;
 }
 .breaseFlyOutWrapper > .container {
 	border-style: none;

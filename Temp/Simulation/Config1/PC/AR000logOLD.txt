@@ -1,75 +1,66 @@
-Fri Apr  4 06:55:48 2025
+Fri Apr  4 11:34:38 2025
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Fri Apr  4 06:55:48 2025
+Fri Apr  4 11:34:38 2025
 No ARsim registration found!
 
-Fri Apr  4 06:55:48 2025
-InstanceName: 000000cda3b4d783
+Fri Apr  4 11:34:38 2025
+InstanceName: 000000f497783575
 
-Fri Apr  4 06:55:48 2025
+Fri Apr  4 11:34:38 2025
 WorkingDirectory: C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Simulation\Config1\PC\
 
-Fri Apr  4 06:55:48 2025
+Fri Apr  4 11:34:38 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 06:55:50 2025
+Fri Apr  4 11:34:40 2025
 Version: B4.93
 
-Fri Apr  4 07:04:11 2025
+Fri Apr  4 11:39:33 2025
 COMMAND_TERMINATE
 
-Fri Apr  4 08:15:37 2025
+Fri Apr  4 11:39:33 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 08:15:39 2025
+Fri Apr  4 11:39:35 2025
 Version: B4.93
 
-Fri Apr  4 08:23:43 2025
+Fri Apr  4 11:42:07 2025
 COMMAND_TERMINATE
 
-Fri Apr  4 08:23:43 2025
+Fri Apr  4 11:42:07 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 08:23:45 2025
+Fri Apr  4 11:42:09 2025
 Version: B4.93
 
-Fri Apr  4 09:14:54 2025
+Fri Apr  4 12:52:39 2025
 COMMAND_TERMINATE
 
-Fri Apr  4 09:14:54 2025
+Fri Apr  4 12:52:39 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 09:14:56 2025
+Fri Apr  4 12:52:41 2025
 Version: B4.93
 
-Fri Apr  4 09:31:47 2025
+Fri Apr  4 13:58:10 2025
 COMMAND_TERMINATE
 
-Fri Apr  4 09:31:47 2025
+Fri Apr  4 13:58:45 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 09:31:49 2025
+Fri Apr  4 13:58:47 2025
 Version: B4.93
 
-Fri Apr  4 09:52:29 2025
+Fri Apr  4 13:58:49 2025
 COMMAND_TERMINATE
 
-Fri Apr  4 09:52:29 2025
+Fri Apr  4 13:58:50 2025
 COMMAND_COLDSTART
 
-Fri Apr  4 09:52:32 2025
+Fri Apr  4 13:58:53 2025
 Version: B4.93
 
-Fri Apr  4 10:31:06 2025
-COMMAND_TERMINATE
-
-Fri Apr  4 10:31:13 2025
-COMMAND_COLDSTART
-
-Fri Apr  4 10:31:16 2025
-Version: B4.93
-
-Fri Apr  4 11:34:21 2025
+Fri Apr  4 14:38:40 2025
 COMMAND_TERMINATE
 

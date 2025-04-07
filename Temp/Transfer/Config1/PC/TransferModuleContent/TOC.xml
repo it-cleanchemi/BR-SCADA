@@ -3536,9 +3536,9 @@
 							<File Name="require.js" Size="17695" HashValue="1565AF44B896BC4C641F238FD800FC83" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="HartfielTheme.min.css" Size="182663" HashValue="EC9B8A1D3868099E63A75AD890B390FF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="HartfielTheme.min.css" Size="180918" HashValue="4473FE637980412B64869BAD88041F63" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="619941" HashValue="DFB228487E44F7D7EB214DAE818CD8D5" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="622695" HashValue="5BC1BCEFB5F71D1F9627768736BA43F2" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -3710,9 +3710,9 @@
 							<File Name="Diagnostics_WheelIO.html" Size="42780" HashValue="38FD2769E97191B59B2F9E2E331C8929" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Footer.html" Size="23567" HashValue="D9D9D183F05B6FBEB0966AF009CE9CA0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="Main.html" Size="1316" HashValue="A11953D9A6FB356F2F0AF8F87BB9C68A" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="Main.html" Size="2426" HashValue="1C3B8BA17DEB61724C665F28EEF48F84" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="OverviewEx1.html" Size="79405" HashValue="054653CB08D6F3125898AD62DCC79D12" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="OverviewEx1.html" Size="82689" HashValue="CEBB4FCA07D8CAD742C0B8B0C677C088" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P201_Status_Content.html" Size="1654" HashValue="E8698D06CE1F495A79B2A0CB441215BD" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="P202_Status_Content.html" Size="1655" HashValue="37875F1CCDAFFA8DA8F1DD78F6ADE1DA" ProjectDependent="1" IgnoreDifference="0" />
