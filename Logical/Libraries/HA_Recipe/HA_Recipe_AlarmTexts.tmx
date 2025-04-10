@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Alarm.RemMemLost">
+      <tuv xml:lang="es">
+        <seg>Memoria residual perdida. Se cargarán archivos de respaldo. Reemplace la batería de la PC de inmediato.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mémoire résiduelle perdue. Les fichiers de sauvegarde seront chargés. Remplacez immédiatement la batterie du PC.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Restspeicher verloren. Sicherungsdateien werden geladen. Ersetzen Sie sofort die PC-Batterie.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Remnant Memory Lost. Backup Files Will Be Loaded. Replace PC Battery Immediately.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.FileLoadFailed">
+      <tuv xml:lang="es">
+        <seg>¡Error al Cargar Archivo de Respaldo! ¡Se han cargado los valores predeterminados de fábrica!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Échec du Chargement du Fichier de Sauvegarde. Les Paramètres d'Usine Ont Été Chargés !</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Fehler beim Laden der Sicherungsdatei. Werkseinstellungen wurden geladen!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Backup File Failed To Load. Factory Defaults Have Been Loaded!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.FileLoadSuccess">
+      <tuv xml:lang="es">
+        <seg>Archivo de respaldo cargado correctamente. Posible pérdida de datos.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Fichier de sauvegarde chargé avec succès. Perte de données possible.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Sicherungsdatei erfolgreich geladen. Möglicher Datenverlust.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Backup File Loaded Successfully. Possible Data Loss.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.RecipeGeneralError">
+      <tuv xml:lang="es">
+        <seg>Error general en la receta. Verifique el registrador.</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Erreur Générale de Recette. Vérifiez le Journal.</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Allgemeiner Rezeptfehler. Überprüfen Sie den Logger.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>General Recipe Error. Check Logger.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

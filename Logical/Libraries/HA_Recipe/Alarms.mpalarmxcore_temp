@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="RemMemLost" />
+        <Property ID="Message" Value="{$IAT/Alarm.RemMemLost}" />
+        <Property ID="Code" Value="1000" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="FileLoadFailed" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadFailed}" />
+        <Property ID="Code" Value="1001" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="FileLoadSuccess" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadSuccess}" />
+        <Property ID="Code" Value="1002" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="RecipeGeneralError" />
+        <Property ID="Message" Value="{$IAT/Alarm.RecipeGeneralError}" />
+        <Property ID="Code" Value="1003" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

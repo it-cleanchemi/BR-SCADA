@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="1.00.0" SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">HA_SysErr.fun</File>
+    <File>HA_SysErr_Lookup.st</File>
+    <File>HA_SysErr_Log.st</File>
+    <File>HA_SysErr.tmx</File>
+    <File>ConfigSetup.PNG</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="ArTextSys" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="ArEventLog" />
+  </Dependencies>
+</Library>

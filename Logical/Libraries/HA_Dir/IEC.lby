@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">HA_Dir.fun</File>
+    <File>HA_DirMake.st</File>
+    <File>HA_DirSanitize.st</File>
+    <File>HA_Dir_USB_Connect.st</File>
+    <File>HA_Dir_Transfer.st</File>
+    <File>HA_DirReadAll.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="HA" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="FileIO" />
+    <Dependency ObjectName="AsUSB" />
+    <Dependency ObjectName="astime" />
+  </Dependencies>
+</Library>

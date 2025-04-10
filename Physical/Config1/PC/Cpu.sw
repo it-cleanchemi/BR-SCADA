@@ -53,12 +53,29 @@
     <LibraryObject Name="sys_lib" Source="Libraries.sys_lib.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="ArTextSys" Source="Libraries.ArTextSys.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="Str2DtPvdr" Source="Libraries.Str2DtPvdr.lby" Memory="UserROM" Language="IEC" Debugging="true" />
-    <LibraryObject Name="fileio" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="powerlnk" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="arssl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="asstring" Source="Libraries.asstring.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsBrWStr" Source="Libraries.AsBrWStr.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="MpCom" Source="Libraries.MpCom.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="MpBase" Source="Libraries.MpBase.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="HA" Source="Libraries.HA.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Version" Source="Libraries.HA_Version.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_IO" Source="Libraries.HA_IO.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Dir" Source="Libraries.HA_Dir.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Convert" Source="Libraries.HA_Convert.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Str" Source="Libraries.HA_Str.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_AlarmX" Source="Libraries.HA_AlarmX.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Sim" Source="Libraries.HA_Sim.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_ItemX" Source="Libraries.HA_ItemX.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Recipe" Source="Libraries.HA_Recipe.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_RAND" Source="Libraries.HA_RAND.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <LibraryObject Name="ArEventLog" Source="Libraries.ArEventLog.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="ArProject" Source="Libraries.ArProject.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="brsystem" Source="Libraries.brsystem.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="FileIO" Source="Libraries.FileIO.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="AsUSB" Source="Libraries.AsUSB.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="HA_Array" Source="Libraries.HA_Array.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_SysErr" Source="Libraries.HA_SysErr.lby" Memory="UserROM" Language="IEC" Debugging="true" />
   </Libraries>
 </SwConfiguration>

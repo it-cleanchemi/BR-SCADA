@@ -1,0 +1,7 @@
+VAR CONSTANT
+	HA_MODULE_MAX_ALARM : USINT := 6;
+	MAX_ALARM_ADD_DATA : UDINT := 255; (*Maximum Length of the extra alarm text*)
+	MAX_ALARM_NAME_LEN : UDINT := 255; (*Maximum Length of the alarm name*)
+	HA_ALARMX_BUFFER_IDX : UDINT := 255; (*Length of alarm buffer*)
+	HA_ALARMX_MAX_ADD_DATA_IDX : USINT := 3;
+END_VAR

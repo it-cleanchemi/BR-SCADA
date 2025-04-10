@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">HA_ItemX.fun</File>
+    <File>HA_ItemX_FirstOpenIndex.st</File>
+    <File>HA_ItemX_UID_TO_Index.st</File>
+    <File>HA_ItemX_DeleteByUID.st</File>
+    <File>HA_ItemX_DeleteByIndex.st</File>
+    <File>HA_ItemX_IndexLowestUID.st</File>
+    <File>HA_ItemX_IndexHighestUID.st</File>
+    <File>HA_ItemX_Reorder_HighToLowUID.st</File>
+    <File>HA_ItemX_Reorder_LowToHighUID.st</File>
+    <File>HA_ItemX_Sanitize.st</File>
+    <File>HA_ItemX_IncrementUID.st</File>
+    <File>HA_ItemX_AddElem.st</File>
+    <File>HA_ItemX_ModElemByUID.st</File>
+    <File>HA_ItemX_ModElemByIndex.st</File>
+    <File>HA_ItemX_GetElemByUID.st</File>
+    <File>HA_ItemX_GetElemByIndex.st</File>
+  </Files>
+</Library>

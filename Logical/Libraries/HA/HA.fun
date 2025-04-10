@@ -1,0 +1,17 @@
+
+FUNCTION_BLOCK CTON
+	VAR_INPUT
+		IN : BOOL;
+		PT : TIME;
+		PAUSE : BOOL;
+	END_VAR
+	VAR_OUTPUT
+		ET : TIME;
+		Q : BOOL;
+	END_VAR
+	VAR
+		RTInfo_0 : RTInfo;
+		delta : LREAL;
+		counter : LREAL;
+	END_VAR
+END_FUNCTION_BLOCK

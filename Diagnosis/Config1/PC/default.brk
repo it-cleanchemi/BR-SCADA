@@ -1,11 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<breakpoints>
-  <breakpoint>
-    <status>Y</status>
-    <file>Logical/modbusTCP/ModMaster/CMD.st</file>
-    <position>29</position>
-    <condition></condition>
-    <instance></instance>
-    <program>ModMaster</program>
-  </breakpoint>
-</breakpoints>
+<breakpoints />
