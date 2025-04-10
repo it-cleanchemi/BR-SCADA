@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="Alarms_Active">
+    <EventBinding id="Alarms_Active.BUTTON_CONFIG.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="Alarms_Active_BUTTON_CONFIG" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.Table.Action" refId="Alarms_Active_Alarms_Active_Table">
+            <Method type="widgets.brease.Table.Action.OpenConfiguration"><Parameter name="type" xsi:type="ANY_STRING" value="Filtering" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

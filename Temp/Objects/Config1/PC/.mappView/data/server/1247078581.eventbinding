@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
   <Content id="OverviewEx1">
-    <EventBinding id="EventBinding_1">
-      <Source type="opcUa.Event" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" event="ValueChanged" />
+    <EventBinding id="EventBinding_11">
+      <Source type="session.Event" refId="SelectedSkidIndx" event="ValueChanged" />
       <EventHandler>
         <Action>
           <Target type="widgets.brease.OnlineChart.Action" refId="OverviewEx1_OnlineChart1">

@@ -3,7 +3,7 @@
 	
 		<Content id="P203_Status_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_DropDownBox1*selectedValue">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.wP203_HOA_String" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.wP203_HOA_String" attribute="value" />
@@ -35,7 +35,7 @@
 			<Target xsi:type="brease" refId="P203_Status_Content_DropDownBox1" attribute="selectedValue" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_DropDownBox1*selectedValue">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.wP203_HOA_String" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.wP203_HOA_String" attribute="editable" />
@@ -100,7 +100,7 @@
 		
 		<Content id="P203_Status_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_PushButton1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Send" attribute="value" />
@@ -132,7 +132,7 @@
 			<Target xsi:type="brease" refId="P203_Status_Content_PushButton1" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_PushButton1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Send" attribute="editable" />
@@ -197,7 +197,7 @@
 		
 		<Content id="P203_Status_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_PushButton2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Cancel" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Cancel" attribute="value" />
@@ -229,7 +229,7 @@
 			<Target xsi:type="brease" refId="P203_Status_Content_PushButton2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*P203_Status_Content_PushButton2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Cancel" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Cancel" attribute="editable" />

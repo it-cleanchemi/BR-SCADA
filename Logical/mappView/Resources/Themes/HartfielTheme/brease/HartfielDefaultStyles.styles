@@ -25,7 +25,7 @@
 	<!--Startup Progress Bar-->
 	<Style id="default" xsi:type="system.brease.StartupProgressBar"
 		barBackColor="#D1F2FF"
-		barColor="#000000"
+		barColor="#0096a9"
 		barCornerRadius="0px"
 	/>  
 	<!--image-->

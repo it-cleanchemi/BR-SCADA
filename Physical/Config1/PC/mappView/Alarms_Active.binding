@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Alarms_Active_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Alarms.Out.FilterString[0]" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Alarms.Out.FilterString[1]" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

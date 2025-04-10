@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250407111211_
-#define _LIBRARIES_20250407111211_
+#ifndef _LIBRARIES_20250410102158_
+#define _LIBRARIES_20250410102158_
 
 __asm__(".section \".plc\"");
 
@@ -25,8 +25,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUas/AsOpcUas.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsOpcUac/AsOpcUac.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Libraries/Acp10man/Acp10man.typ\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Libraries/Acp10par/Acp10par.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/NcGlobal/NcGlobal.var\\\" scope \\\"global\\\"\\n\"");
@@ -57,6 +55,13 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/asstring/asstring.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsBrWStr/AsBrWStr.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpCom/MpCom.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpCom/MpCom.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpCom/MpComError.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpCom/MpCom.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
@@ -802,6 +807,18 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 	__asm__(".ascii \"plcexport \\\"brwcsrchr\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"brwcschr\\\" FUN\\n\"");
 #endif
+#ifdef _MPCOM_EXPORT
+	__asm__(".ascii \"plcexport \\\"MpComConfigManager\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComLoggerUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComLink\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComLinkToParent\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComDump\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComGetLink\\\" FUB\\n\"");
+#endif
+#ifdef _MPBASE_EXPORT
+	__asm__(".ascii \"plcexport \\\"MpComHandle\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpComVersion\\\" FUN\\n\"");
+#endif
 #ifdef _MBUSTCP_EXPORT
 	__asm__(".ascii \"plcexport \\\"MBslave\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"MBmaster\\\" FUB\\n\"");
@@ -813,5 +830,5 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250407111211_ */
+#endif /* _LIBRARIES_20250410102158_ */
 

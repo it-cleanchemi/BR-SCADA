@@ -3,7 +3,7 @@
 	<Bindings>
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_TI" />
@@ -37,7 +37,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_FQ" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_FQ" />
@@ -71,7 +71,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_PI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_PI" />
@@ -105,7 +105,7 @@
 
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_PV" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_PV" />
@@ -139,7 +139,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_PFI" />
@@ -173,7 +173,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_PPI" />
@@ -207,7 +207,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_PFI" />
@@ -241,7 +241,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_PPI" />
@@ -275,7 +275,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PFI" />
@@ -309,7 +309,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PPI" />
@@ -349,7 +349,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PV" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PV" />
@@ -383,7 +383,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PV" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PV" />
@@ -417,7 +417,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_FQ" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_FQ" />
@@ -451,7 +451,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_TI" />
@@ -485,7 +485,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PI" />
@@ -519,7 +519,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PFI" />
@@ -553,7 +553,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PPI" />
@@ -587,7 +587,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PV" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PV" />
@@ -621,7 +621,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_FQ" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_FQ" />
@@ -655,7 +655,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_TI" />
@@ -689,7 +689,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PI" />
@@ -723,7 +723,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PFI" />
@@ -757,7 +757,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PPI" />
@@ -791,7 +791,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PV" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PV" />
@@ -825,7 +825,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_FQ" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_FQ" />
@@ -859,7 +859,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_TI" />
@@ -893,7 +893,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PI" />
@@ -927,7 +927,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PFI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PFI" />
@@ -961,7 +961,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PPI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PPI" />
@@ -995,7 +995,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].BufferTank.LI200" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].BufferTank.LI200" />
@@ -1029,7 +1029,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101_TI" />
@@ -1063,7 +1063,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101" />
@@ -1097,7 +1097,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101_SP" />
@@ -1131,7 +1131,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102_TI" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102_TI" />
@@ -1165,7 +1165,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102" />
@@ -1199,7 +1199,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102_SP" />
@@ -1233,7 +1233,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101" />
@@ -1267,7 +1267,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">			
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102" />
@@ -1295,13 +1295,13 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.CD102" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.CD102" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="CD102_CHART" attribute="value" />
 		</Binding>
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.wP104_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.wP104_SP" />
@@ -1335,7 +1335,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.Send" />
@@ -1369,7 +1369,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_SP" />
@@ -1403,7 +1403,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.wP103_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.wP103_SP" />
@@ -1437,7 +1437,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.Send" />
@@ -1471,7 +1471,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_SP" />
@@ -1505,7 +1505,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.HP_CONC" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.HP_CONC" />
@@ -1539,7 +1539,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.wP102_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.wP102_SP" />
@@ -1573,7 +1573,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.Send" />
@@ -1607,7 +1607,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_SP" />
@@ -1641,7 +1641,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.NAOH_CONC" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.NAOH_CONC" />
@@ -1675,7 +1675,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.wP101_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.wP101_SP" />
@@ -1709,7 +1709,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.Send" />
@@ -1743,7 +1743,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_SP" />
@@ -1777,7 +1777,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_CONC" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_CONC" />
@@ -1811,7 +1811,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_RATE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_RATE" />
@@ -1845,7 +1845,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.UNIT_ID_DOSE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.UNIT_ID_DOSE" />
@@ -1879,7 +1879,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STRT_CMD.Send" />
@@ -1913,7 +1913,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STP_CMD.Send" />
@@ -1947,7 +1947,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STRT_CMD.Send" />
@@ -1981,7 +1981,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STP_CMD.Send" />
@@ -2015,7 +2015,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STRT_CMD.Send" />
@@ -2049,7 +2049,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STP_CMD.Send" />
@@ -2083,7 +2083,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STRT_CMD.Send" />
@@ -2117,7 +2117,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STP_CMD.Send" />
@@ -2151,7 +2151,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.wP201_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.wP201_SP" />
@@ -2185,7 +2185,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.Send" />
@@ -2219,7 +2219,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_SP" />
@@ -2253,7 +2253,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STRT_CMD.Send" />
@@ -2287,7 +2287,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STP_CMD.Send" />
@@ -2321,7 +2321,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.wP201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.wP201_PPM" />
@@ -2355,7 +2355,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.Send" />
@@ -2389,7 +2389,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PPM" />
@@ -2423,7 +2423,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.wP202_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.wP202_SP" />
@@ -2457,7 +2457,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.Send" />
@@ -2491,7 +2491,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_SP" />
@@ -2525,7 +2525,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STRT_CMD.Send" />
@@ -2559,7 +2559,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STP_CMD.Send" />
@@ -2593,7 +2593,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.wP202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.wP202_PPM" />
@@ -2627,7 +2627,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.Send" />
@@ -2661,7 +2661,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PPM" />
@@ -2695,7 +2695,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.wP203_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.wP203_SP" />
@@ -2729,7 +2729,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.Send" />
@@ -2763,7 +2763,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_SP" />
@@ -2797,7 +2797,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STRT_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STRT_CMD.Send" />
@@ -2831,7 +2831,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STP_CMD.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STP_CMD.Send" />
@@ -2865,7 +2865,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.wP203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.wP203_PPM" />
@@ -2899,7 +2899,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.Send" />
@@ -2933,7 +2933,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PPM" />
@@ -2967,7 +2967,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].BufferTank.LI200P" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].BufferTank.LI200P" />
@@ -2999,43 +2999,11 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="BT_LVL" attribute="value" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI301" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI301" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Sensor_Variables.FI301" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Sensor_Variables.FI301" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Sensor_Variables.FI301" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Sensor_Variables.FI301" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Sensor_Variables.FI301" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Sensor_Variables.FI301" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Sensor_Variables.FI301" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Sensor_Variables.FI301" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Sensor_Variables.FI301" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Sensor_Variables.FI301" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Sensor_Variables.FI301" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Sensor_Variables.FI301" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Sensor_Variables.FI301" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Sensor_Variables.FI301" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Sensor_Variables.FI301" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Sensor_Variables.FI301" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Sensor_Variables.FI301" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Sensor_Variables.FI301" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Sensor_Variables.FI301" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Sensor_Variables.FI301" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Sensor_Variables.FI301" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.FI301" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.FI301" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="FI301" attribute="value" />
-		</Binding>
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI302" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI302" />
@@ -3069,7 +3037,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI303" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI303" />
@@ -3103,7 +3071,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_APPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_APPM" />
@@ -3137,7 +3105,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_APPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_APPM" />
@@ -3171,7 +3139,7 @@
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_APPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_APPM" />
@@ -3206,7 +3174,7 @@
 
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_ENABLE" />
@@ -3240,7 +3208,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_ENABLE" />
@@ -3274,7 +3242,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_ENABLE" />
@@ -3310,7 +3278,7 @@
 
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_XS" />
@@ -3344,7 +3312,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_XS" />
@@ -3378,7 +3346,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_XS" />
@@ -3412,7 +3380,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_XS" />
@@ -3446,7 +3414,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_XS" />
@@ -3480,7 +3448,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_XS" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_XS" />
@@ -3514,7 +3482,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_ENABLE_OPP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_ENABLE_OPP" />
@@ -3548,7 +3516,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_ENABLE_OPP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_ENABLE_OPP" />
@@ -3582,7 +3550,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3617,7 +3585,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3651,7 +3619,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3685,7 +3653,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3719,7 +3687,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3753,7 +3721,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3787,7 +3755,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3821,7 +3789,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" />
@@ -3855,7 +3823,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" />
@@ -3889,7 +3857,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" />
@@ -3923,7 +3891,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" />
@@ -3957,7 +3925,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" />
@@ -3991,7 +3959,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" />
@@ -4025,7 +3993,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" />
@@ -4059,7 +4027,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" />
@@ -4093,7 +4061,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" />
@@ -4127,7 +4095,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" />
@@ -4161,7 +4129,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" />
@@ -4195,7 +4163,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" />
@@ -4229,7 +4197,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" />
@@ -4264,7 +4232,7 @@
 
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_SP" />
@@ -4298,7 +4266,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_SP" />
@@ -4332,7 +4300,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_SP" />
@@ -4366,7 +4334,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_SP" />
@@ -4400,7 +4368,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_SP" />
@@ -4434,7 +4402,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_SP" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_SP" />
@@ -4471,7 +4439,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DDA" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DDA" />
@@ -4505,7 +4473,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DME" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DME" />
@@ -4539,7 +4507,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DDAGREEN" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DDAGREEN" />
@@ -4573,39 +4541,176 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].P201_DMEGREEN" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].P201_DMEGREEN" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].P201_DMEGREEN" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].P201_DMEGREEN" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].P201_DMEGREEN" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].P201_DMEGREEN" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].P201_DMEGREEN" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].P201_DMEGREEN" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].P201_DMEGREEN" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].P201_DMEGREEN" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].P201_DMEGREEN" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].P201_DMEGREEN" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].P201_DMEGREEN" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].P201_DMEGREEN" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].P201_DMEGREEN" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].P201_DMEGREEN" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].P201_DMEGREEN" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].P201_DMEGREEN" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].P201_DMEGREEN" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].P201_DMEGREEN" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].P201_DMEGREEN" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].P201_DMEGREEN" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].P201_DMEGREEN" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].P201_DMEGREEN" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].P201_DMEGREEN" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DMEGREEN" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DMEGREEN" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P201_DMEGREEN" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P201_DMEGREEN" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P201_DMEGREEN" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P201_DMEGREEN" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P201_DMEGREEN" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P201_DMEGREEN" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P201_DMEGREEN" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P201_DMEGREEN" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P201_DMEGREEN" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P201_DMEGREEN" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P201_DMEGREEN" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P201_DMEGREEN" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P201_DMEGREEN" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P201_DMEGREEN" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P201_DMEGREEN" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P201_DMEGREEN" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P201_DMEGREEN" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P201_DMEGREEN" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P201_DMEGREEN" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P201_DMEGREEN" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P201_DMEGREEN" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P201_DMEGREEN" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P201_DMEGREEN" />
 				</be:List>
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P201_GREEN1" attribute="visible" />
 		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.LSHH200" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.LSHH200" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.LSHH200" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.LSHH200" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.LSHH200" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.LSHH200" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.LSHH200" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.LSHH200" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.LSHH200" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.LSHH200" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.LSHH200" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.LSHH200" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.LSHH200" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.LSHH200" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.LSHH200" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.LSHH200" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.LSHH200" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.LSHH200" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.LSHH200" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.LSHH200" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.LSHH200" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.LSHH200" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.LSHH200" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.LSHH200" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.LSHH200" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="LSHH200" attribute="visible" />
+		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P102_LS" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P102_LS" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P102_LS" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P102_LS" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P102_LS" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P102_LS" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P102_LS" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P102_LS" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P102_LS" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P102_LS" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P102_LS" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P102_LS" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P102_LS" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P102_LS" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P102_LS" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P102_LS" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P102_LS" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P102_LS" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P102_LS" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P102_LS" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P102_LS" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P102_LS" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P102_LS" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P102_LS" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P102_LS" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P102_LS" attribute="visible" />
+		</Binding>
 		
-	</Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P103_LS" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P103_LS" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P103_LS" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P103_LS" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P103_LS" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P103_LS" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P103_LS" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P103_LS" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P103_LS" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P103_LS" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P103_LS" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P103_LS" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P103_LS" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P103_LS" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P103_LS" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P103_LS" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P103_LS" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P103_LS" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P103_LS" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P103_LS" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P103_LS" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P103_LS" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P103_LS" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P103_LS" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P103_LS" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P103_LS" attribute="visible" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI301" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI301" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Sensor_Variables.FI301" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Sensor_Variables.FI301" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Sensor_Variables.FI301" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Sensor_Variables.FI301" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Sensor_Variables.FI301" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Sensor_Variables.FI301" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Sensor_Variables.FI301" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Sensor_Variables.FI301" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Sensor_Variables.FI301" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Sensor_Variables.FI301" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Sensor_Variables.FI301" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Sensor_Variables.FI301" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Sensor_Variables.FI301" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Sensor_Variables.FI301" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Sensor_Variables.FI301" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Sensor_Variables.FI301" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Sensor_Variables.FI301" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Sensor_Variables.FI301" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Sensor_Variables.FI301" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Sensor_Variables.FI301" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Sensor_Variables.FI301" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.FI301" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.FI301" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="FI301" attribute="value" />
+		</Binding>
+	<Binding mode="oneWay">
+<Source xsi:type="session" refId="::SYSTEM:clientInfo.userId" attribute="value" />
+<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput53" attribute="value" />
+</Binding>
+</Bindings>
 </BindingsSet>

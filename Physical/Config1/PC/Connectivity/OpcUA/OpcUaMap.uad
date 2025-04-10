@@ -43,6 +43,11 @@
               <Variable Name="SkidIPAddress" RecursiveEnable="2" />
             </Variable>
           </Variable>
+          <Variable Name="Alarms">
+            <Variable Name="Out">
+              <Variable Name="FilterString" RecursiveEnable="2" />
+            </Variable>
+          </Variable>
         </Variable>
         <Variable Name="gSkid" RecursiveEnable="2">
           <VariableCommon Name="Common Properties">

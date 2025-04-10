@@ -93,3 +93,13 @@
 }
 #Main_TextOutput5 {	z-index: 6;
 }
+#Main_USER_ID {	@include elemAutoWidth(100);
+}
+#Main_USER_ID {	@include elemAutoHeight(30);
+}
+#Main_USER_ID {	@include elemTop(20);
+}
+#Main_USER_ID {	@include elemLeft(1620);
+}
+#Main_USER_ID {	z-index: 7;
+}

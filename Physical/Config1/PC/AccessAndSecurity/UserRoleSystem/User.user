@@ -20,6 +20,9 @@
     <Property ID="UserID" Value="3" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Operator_Role" />
+      <Property ID="Role[2]" Value="Administrator_Role" />
+      <Property ID="Role[3]" Value="Operator_Role" />
+      <Property ID="Role[4]" Value="Anonymous1" />
     </Group>
   </Element>
 </Configuration>

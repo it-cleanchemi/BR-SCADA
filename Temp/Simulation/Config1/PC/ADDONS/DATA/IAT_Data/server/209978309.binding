@@ -8,20 +8,11 @@
 			
 			
 		
-		<Content id="Main"><Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
-			<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="selectedIndex" />
-		</Binding><Binding mode="oneWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="editable" />
-			<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="editable::selectedIndex" />
-		</Binding></Content>
-			
-			
 		
 		
 		<Session><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="snippet*P201_STATUS*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_HOA" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_HOA" attribute="value" />
@@ -63,7 +54,7 @@
 		
 		<Session><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="snippet*P202_STATUS*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_HOA" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_HOA" attribute="value" />
@@ -105,7 +96,7 @@
 		
 		<Session><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="snippet*P203_STATUS*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_HOA" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_HOA" attribute="value" />
@@ -147,7 +138,7 @@
 		
 		<Session><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="snippet*PM_STATUS*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_HOA" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_HOA" attribute="value" />
@@ -189,7 +180,7 @@
 		
 		<Session><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="snippet*UNIT_STATUS*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_STATUS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_STATUS" attribute="value" />
@@ -231,7 +222,7 @@
 		
 		<Content id="Main"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*Main_TextOutput1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[0]" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[1]" attribute="value" />

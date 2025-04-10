@@ -12,5 +12,6 @@
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="660" width="240" zIndex="4" value="Unit ID:" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="20" left="220" width="240" zIndex="5" value="PLC Program Rev:" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="20" left="1380" width="240" zIndex="6" value="Local Operator User ID:" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID" top="20" left="1620" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
   </Widgets>
 </Content>

@@ -22,5 +22,6 @@
         </Widget>
       </Widgets>
     </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="BUTTON_CONFIG" top="520" left="340" width="160" height="60" zIndex="5" text="BUTTON_CONFIG" />
   </Widgets>
 </Content>

@@ -3,7 +3,7 @@
 	<Bindings>
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.wP203_HOA_String" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.wP203_HOA_String" />
@@ -36,7 +36,7 @@
 		</Binding>
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Send" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Send" />
@@ -69,7 +69,7 @@
 		</Binding>
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_HOA.Cancel" />
 					<bt:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_HOA.Cancel" />

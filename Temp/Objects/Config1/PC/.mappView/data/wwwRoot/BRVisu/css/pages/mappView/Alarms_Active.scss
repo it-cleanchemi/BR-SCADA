@@ -147,3 +147,13 @@
 		@include importantBoldText(false);
 	}
 }
+#Alarms_Active_BUTTON_CONFIG {	@include elemTop(520);
+}
+#Alarms_Active_BUTTON_CONFIG {	@include elemLeft(340);
+}
+#Alarms_Active_BUTTON_CONFIG {	@include elemAutoWidth(160);
+}
+#Alarms_Active_BUTTON_CONFIG {	@include elemAutoHeight(60);
+}
+#Alarms_Active_BUTTON_CONFIG {	z-index: 5;
+}

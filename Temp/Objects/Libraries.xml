@@ -2,18 +2,6 @@
 <?AutomationStudio Version="4.12.6.106"?>
 <LibraryInfos>
   <Library
-    Name="Acp10man"
-    IsDeployed="true"
-    IsStatic="false"
-    UseAsStatic="false"
-    Version="3.13.1" />
-  <Library
-    Name="Acp10par"
-    IsDeployed="true"
-    IsStatic="false"
-    UseAsStatic="false"
-    Version="3.13.1" />
-  <Library
     Name="ArTextSys"
     IsDeployed="true"
     IsStatic="false"
@@ -85,6 +73,18 @@
     IsStatic="false"
     UseAsStatic="false"
     Version="2.00.0" />
+  <Library
+    Name="MpBase"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="MpCom"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.3" />
   <Library
     Name="NcGlobal"
     IsDeployed="true"

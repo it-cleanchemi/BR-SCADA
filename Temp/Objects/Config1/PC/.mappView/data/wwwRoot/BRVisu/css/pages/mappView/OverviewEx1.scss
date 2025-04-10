@@ -285,7 +285,7 @@
 }
 #OverviewEx1_LI200 {	@include elemTop(190);
 }
-#OverviewEx1_LI200 {	@include elemLeft(830);
+#OverviewEx1_LI200 {	@include elemLeft(835);
 }
 #OverviewEx1_LI200 {	@include elemAutoWidth(220);
 }
@@ -2759,7 +2759,7 @@
 }
 #OverviewEx1_P203_HIDE {	@include elemHeight(220);
 }
-#OverviewEx1_P203_HIDE {	z-index: 0;
+#OverviewEx1_P203_HIDE {	z-index: 2;
 }
 #OverviewEx1_P203_HIDE {	border-width: 2px;
 }
@@ -2791,7 +2791,7 @@
 }
 #OverviewEx1_P201_HIDE {	@include elemHeight(220);
 }
-#OverviewEx1_P201_HIDE {	z-index: 2;
+#OverviewEx1_P201_HIDE {	z-index: 0;
 }
 #OverviewEx1_P201_HIDE {	border-width: 2px;
 }
@@ -3031,7 +3031,7 @@
 }
 #OverviewEx1_PB_Write_P10 {	@include elemTop(40);
 }
-#OverviewEx1_PB_Write_P10 {	@include elemLeft(560);
+#OverviewEx1_PB_Write_P10 {	@include elemLeft(555);
 }
 #OverviewEx1_PB_Write_P10 {	@include elemAutoHeight(19);
 }
@@ -3041,19 +3041,77 @@
 }
 #OverviewEx1_PB_Write_P11 {	@include elemTop(65);
 }
-#OverviewEx1_PB_Write_P11 {	@include elemLeft(560);
+#OverviewEx1_PB_Write_P11 {	@include elemLeft(555);
 }
 #OverviewEx1_PB_Write_P11 {	@include elemAutoHeight(19);
 }
 #OverviewEx1_PB_Write_P11 {	z-index: 250;
 }
-#OverviewEx1_Ellipse3 {	@include elemTop(15);
+#OverviewEx1_Ellipse3 {	@include elemTop(335);
 }
-#OverviewEx1_Ellipse3 {	@include elemLeft(645);
+#OverviewEx1_Ellipse3 {	@include elemLeft(1055);
 }
 #OverviewEx1_Ellipse3 {	@include elemWidth(20);
 }
 #OverviewEx1_Ellipse3 {	@include elemHeight(20);
 }
 #OverviewEx1_Ellipse3 {	z-index: 251;
+}
+#OverviewEx1_LSHH200 {	@include elemTop(335);
+}
+#OverviewEx1_LSHH200 {	@include elemLeft(1055);
+}
+#OverviewEx1_LSHH200 {	@include elemWidth(20);
+}
+#OverviewEx1_LSHH200 {	@include elemHeight(20);
+}
+#OverviewEx1_LSHH200 {	z-index: 252;
+}
+#OverviewEx1_LSHH200 {	background-color: rgba(0, 150, 169, 1);
+}
+#OverviewEx1_P102_LS {	@include elemTop(419);
+}
+#OverviewEx1_P102_LS {	@include elemLeft(40);
+}
+#OverviewEx1_P102_LS {	@include elemWidth(20);
+}
+#OverviewEx1_P102_LS {	@include elemHeight(20);
+}
+#OverviewEx1_P102_LS {	z-index: 253;
+}
+#OverviewEx1_P102_LS {	background-color: rgba(0, 150, 169, 1);
+}
+#OverviewEx1_P103_LS {	@include elemTop(600);
+}
+#OverviewEx1_P103_LS {	@include elemLeft(40);
+}
+#OverviewEx1_P103_LS {	@include elemWidth(20);
+}
+#OverviewEx1_P103_LS {	@include elemHeight(20);
+}
+#OverviewEx1_P103_LS {	z-index: 254;
+}
+#OverviewEx1_P103_LS {	background-color: rgba(0, 150, 169, 1);
+}
+#OverviewEx1_LSHH201 {	@include elemTop(15);
+}
+#OverviewEx1_LSHH201 {	@include elemLeft(645);
+}
+#OverviewEx1_LSHH201 {	@include elemWidth(20);
+}
+#OverviewEx1_LSHH201 {	@include elemHeight(20);
+}
+#OverviewEx1_LSHH201 {	z-index: 255;
+}
+#OverviewEx1_LSHH201 {	background-color: rgba(255, 255, 255, 0);
+}
+#OverviewEx1_TextOutput53 {	@include elemAutoWidth(100);
+}
+#OverviewEx1_TextOutput53 {	@include elemAutoHeight(30);
+}
+#OverviewEx1_TextOutput53 {	@include elemTop(880);
+}
+#OverviewEx1_TextOutput53 {	@include elemLeft(1420);
+}
+#OverviewEx1_TextOutput53 {	z-index: 256;
 }

@@ -11,11 +11,23 @@ PROGRAM _CYCLIC
 		
 		gSkid[IdxSkids].BufferTank.LI200P := (gSkid[IdxSkids].BufferTank.LI200 / BT_VOLUME)*100;
 		
+		IF gSkid[IdxSkids].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
+			gSkid[IdxSkids].VisBool.LSHH200 := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.LSHH200 := 0;
+		END_IF;
 		
+		IF gSkid[IdxSkids].Pmax_Pump_102.P102_LS > P102_LS_TRIGGER THEN
+			gSkid[IdxSkids].VisBool.P102_LS := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P102_LS := 0;
+		END_IF;
 		
-		
-		
-		
+		IF gSkid[IdxSkids].Pmax_Pump_103.P103_LS > P103_LS_TRIGGER THEN
+			gSkid[IdxSkids].VisBool.P103_LS := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P103_LS := 0;
+		END_IF;
 		
 		IF gSkid[IdxSkids].Pmax_General_Variables.PMAX_HOA = 2 THEN
 			gSkid[IdxSkids].VisBool.PMAX_MANUAL := 1;

@@ -32,6 +32,8 @@
         Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Variables.var" />
       <InternalFile
         Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
+      <InternalFile
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Alarms.st.var" />
     </Task>
   </TaskClass>
   <TaskClass

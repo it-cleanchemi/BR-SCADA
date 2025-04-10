@@ -20,5 +20,7 @@
     <Object Type="File">PM_Settings_Content.eventbinding</Object>
     <Object Type="File">PM_Settings_Content.binding</Object>
     <Object Type="File">OpcUaServer.uaserver</Object>
+    <Object Type="File">Alarms_Active.binding</Object>
+    <Object Type="File">Alarms_Active.eventbinding</Object>
   </Objects>
 </Package>

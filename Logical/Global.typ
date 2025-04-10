@@ -64,7 +64,8 @@ TYPE
 	Vis_Type : 	STRUCT 
 		Pumps : USINT;
 		Main : Vis_Main_Type;
-		Global : USINT;
+		Global : Vis_Global;
+		Alarms : Vis_Alarms_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -348,8 +349,38 @@ END_TYPE
 (**)
 
 TYPE
-	Vis_Main_Internal_Type : 	STRUCT 
-		IP_WSTRING_Temp : WSTRING[80];
+	Vis_Global : 	STRUCT 
+		ClientInfo : Vis_Global_ClientInfo;
+	END_STRUCT;
+	Vis_Global_ClientInfo : 	STRUCT 
+		SelectedSkidIdx : ARRAY[0..MAX_CLIENTS]OF USINT;
+	END_STRUCT;
+	Vis_Alarms_Type : 	STRUCT 
+		Active : Vis_Alarms_Active_typ;
+		History : Vis_Alarms_History_typ;
+	END_STRUCT;
+	Vis_Alarms_Active_typ : 	STRUCT 
+		UIConnect : MpAlarmXListUIConnectType;
+		Reset : BOOL;
+		PageDown : BOOL;
+		PageUp : BOOL;
+		SelectedIndex : UINT;
+		TableConfig : STRING[255];
+		TempINT : INT;
+		TempSTRING : STRING[30];
+		FilterString : ARRAY[0..MAX_SKIDS]OF STRING[80];
+	END_STRUCT;
+	Vis_Alarms_History_typ : 	STRUCT 
+		UIConnect : MpAlarmXHistoryUIConnectType;
+		State : ARRAY[0..49]OF UINT;
+		Clear : BOOL;
+		PageDown : BOOL;
+		PageUp : BOOL;
+		Export : BOOL;
+		SelectedIndex : UINT;
+		TableConfig : STRING[255];
+		TempINT : INT;
+		TempSTRING : STRING[30];
 	END_STRUCT;
 	Vis_Main_Out_Type : 	STRUCT 
 		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
@@ -357,7 +388,7 @@ TYPE
 		SkidIPAddress : ARRAY[0..MAX_SKIDS]OF STRING[20];
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
-		SelectedSkid : UDINT;
+		SelectedSkidSessionVar : INT;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;
@@ -370,6 +401,9 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		P102_LS : BOOL;
+		P103_LS : BOOL;
+		LSHH200 : BOOL;
 		P202_ENABLE_OPP : BOOL;
 		P201_ENABLE_OPP : BOOL;
 		P201_SP : BOOL;
@@ -422,23 +456,23 @@ END_TYPE
 
 TYPE
 	Pmax_Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
-		PMAX_ALARM : UINT; (*General Pmax Generation Side Alarm*)
-		P101_ALARM : UINT; (*Pump 101 Alarms*)
-		P101B_ALARM : UINT; (*Pump 101b Alarms*)
-		P102_ALARM : UINT; (*Pump 102 Alarms*)
-		P103_ALARM : UINT; (*Pump 103 Alarms*)
-		P104_ALARM : UINT; (*Pump 104 Alarms*)
+		PMAX_ALARM : INT; (*General Pmax Generation Side Alarm*)
+		P101_ALARM : INT; (*Pump 101 Alarms*)
+		P101B_ALARM : INT; (*Pump 101b Alarms*)
+		P102_ALARM : INT; (*Pump 102 Alarms*)
+		P103_ALARM : INT; (*Pump 103 Alarms*)
+		P104_ALARM : INT; (*Pump 104 Alarms*)
 	END_STRUCT;
 	Dosing_Alarms_Type : 	STRUCT  (*Dosing Pump Alarm Variables*)
-		DOSE_ALARM : UINT; (*General Dosing Side Alarm*)
-		P201_ALARM : UINT; (*Pump 201 Alarms*)
-		P202_ALARM : UINT; (*Pump 202 Alarms*)
-		P203_ALARM : UINT; (*Pump 203 Alarms*)
-		P204_ALARM : UINT; (*Pump 204 Alarms*)
-		P205_ALARM : UINT; (*Pump 205 Alarms*)
-		P206_ALARM : UINT; (*Pump 206 Alarms*)
-		P207_ALARM : UINT; (*Pump 207 Alarms*)
-		P208_ALARM : UINT; (*Pump 208 Alarms*)
+		DOSE_ALARM : INT; (*General Dosing Side Alarm*)
+		P201_ALARM : INT; (*Pump 201 Alarms*)
+		P202_ALARM : INT; (*Pump 202 Alarms*)
+		P203_ALARM : INT; (*Pump 203 Alarms*)
+		P204_ALARM : INT; (*Pump 204 Alarms*)
+		P205_ALARM : INT; (*Pump 205 Alarms*)
+		P206_ALARM : INT; (*Pump 206 Alarms*)
+		P207_ALARM : INT; (*Pump 207 Alarms*)
+		P208_ALARM : INT; (*Pump 208 Alarms*)
 	END_STRUCT;
 END_TYPE
 

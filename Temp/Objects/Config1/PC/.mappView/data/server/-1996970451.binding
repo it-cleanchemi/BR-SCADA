@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+		<Content id="Alarms_Active"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*Alarms_Active_Alarms_Active_Table*filterConfiguration">				
+					<br:Element index="0" refId="::AsGlobalPV:gVis.Alarms.Out.FilterString[0]" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gVis.Alarms.Out.FilterString[1]" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="Alarms_Active_Alarms_Active_Table" attribute="filterConfiguration" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+				
+			
+			
+		
+	
+</BindingDefinition>

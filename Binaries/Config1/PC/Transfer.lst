@@ -6,32 +6,27 @@
   <Operation Delete="Vis.br"/>
   <Operation Delete="Main.br"/>
   <Operation Delete="ModMaster.br"/>
+  <Operation Delete="MpCom.br"/>
   <Operation Delete="AsOpcUas.br"/>
   <Operation Delete="mvLoader.br"/>
   <Operation Delete="Str2DtPvdr.br"/>
   <Operation Delete="IDEC_Real.br"/>
   <Operation Delete="MbusTCP.br"/>
+  <Operation Delete="MpBase.br"/>
   <Operation Delete="AsTCP.br"/>
   <Operation Delete="AsARCfg.br"/>
   <Operation Delete="sys_lib.br"/>
   <Operation Delete="AsIecCon.br"/>
-  <Operation Delete="AsOpcUac.br"/>
-  <Operation Delete="arssl.br"/>
-  <Operation Delete="Acp10man.br"/>
-  <Operation Delete="fileio.br"/>
   <Operation Delete="astime.br"/>
+  <Operation Delete="AsOpcUac.br"/>
+  <Operation Delete="fileio.br"/>
+  <Operation Delete="arssl.br"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
   <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
   <Operation Download="NcGlobal.br" Memory="UserROM"/>
-  <Operation Download="runtime.br" Memory="UserROM"/>
-  <Operation Download="Acp10par.br" Memory="UserROM"/>
-  <Operation Download="powerlnk.br" Memory="UserROM"/>
-  <Operation Download="astime.br" Memory="UserROM"/>
-  <Operation Download="fileio.br" Memory="UserROM"/>
-  <Operation Download="Acp10man.br" Memory="UserROM"/>
   <Operation Restart="warm"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
@@ -42,23 +37,32 @@
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="TC.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
   <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="AsBrStr.br" Memory="UserROM"/>
   <Operation Download="ArTextSys.br" Memory="UserROM"/>
   <Operation Download="asstring.br" Memory="UserROM"/>
   <Operation Download="AsBrWStr.br" Memory="UserROM"/>
+  <Operation Download="Config.br" Memory="UserROM"/>
+  <Operation Download="Config_1.br" Memory="UserROM"/>
+  <Operation Download="Config_2.br" Memory="UserROM"/>
   <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
+  <Operation Download="arsvcreg.br" Memory="UserROM"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
+  <Operation Download="fileio.br" Memory="UserROM"/>
   <Operation Download="AsOpcUac.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
   <Operation Download="AsIecCon.br" Memory="UserROM"/>
   <Operation Download="sys_lib.br" Memory="UserROM"/>
   <Operation Download="AsARCfg.br" Memory="UserROM"/>
   <Operation Download="AsTCP.br" Memory="UserROM"/>
+  <Operation Download="MpBase.br" Memory="UserROM"/>
   <Operation Download="MbusTCP.br" Memory="UserROM"/>
   <Operation Download="IDEC_Real.br" Memory="UserROM"/>
   <Operation Download="Str2DtPvdr.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="AsOpcUas.br" Memory="UserROM"/>
+  <Operation Download="MpCom.br" Memory="UserROM"/>
   <Operation Download="ModMaster.br" Memory="UserROM"/>
   <Operation Download="Main.br" Memory="UserROM"/>
   <Operation Download="Vis.br" Memory="UserROM"/>

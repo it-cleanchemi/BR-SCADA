@@ -4,7 +4,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_EFF_1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.EFF_1" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.EFF_1" attribute="value" />
@@ -70,7 +70,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.Send" attribute="value" />
@@ -102,7 +102,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_1" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.Send" attribute="editable" />
@@ -168,7 +168,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.wEFF_1" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.wEFF_1" attribute="value" />
@@ -200,7 +200,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_1" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_1*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_1.wEFF_1" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_1.wEFF_1" attribute="editable" />
@@ -266,7 +266,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_EFF_2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.EFF_2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.EFF_2" attribute="value" />
@@ -332,7 +332,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.Send" attribute="value" />
@@ -364,7 +364,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_EFF_2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_EFF_2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.Send" attribute="editable" />
@@ -430,7 +430,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.wEFF_2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.wEFF_2" attribute="value" />
@@ -462,7 +462,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_EFF_2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_EFF_2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_EFF_2.wEFF_2" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_EFF_2.wEFF_2" attribute="editable" />
@@ -528,7 +528,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_CONC" attribute="value" />
@@ -594,7 +594,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_PMAX_CONC.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_PMAX_CONC.Send" attribute="value" />
@@ -626,7 +626,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_PMAX_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_PMAX_CONC.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_PMAX_CONC.Send" attribute="editable" />
@@ -692,7 +692,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_PMAX_CONC.wPMAX_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_PMAX_CONC.wPMAX_CONC" attribute="value" />
@@ -724,7 +724,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_PMAX_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_PMAX_CONC.wPMAX_CONC" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_PMAX_CONC.wPMAX_CONC" attribute="editable" />
@@ -790,7 +790,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NAOH_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.NAOH_TO_H2O2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.NAOH_TO_H2O2" attribute="value" />
@@ -856,7 +856,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_NAOH_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_TO_H2O2.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_TO_H2O2.Send" attribute="value" />
@@ -888,7 +888,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_NAOH_TO_H2O2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_NAOH_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_TO_H2O2.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_TO_H2O2.Send" attribute="editable" />
@@ -954,7 +954,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_NAOH_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" attribute="value" />
@@ -986,7 +986,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_NAOH_TO_H2O2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_NAOH_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" attribute="editable" />
@@ -1052,7 +1052,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_TRI_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.TRI_TO_H2O2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.TRI_TO_H2O2" attribute="value" />
@@ -1118,7 +1118,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_TRI_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_TRI_TO_H2O2.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_TRI_TO_H2O2.Send" attribute="value" />
@@ -1150,7 +1150,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_TRI_TO_H2O2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_TRI_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_TRI_TO_H2O2.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_TRI_TO_H2O2.Send" attribute="editable" />
@@ -1216,7 +1216,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_TRI_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_TRI_TO_H2O2.wTRI_TO_H2O2" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_TRI_TO_H2O2.wTRI_TO_H2O2" attribute="value" />
@@ -1248,7 +1248,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_TRI_TO_H2O2" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_TRI_TO_H2O2*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_TRI_TO_H2O2.wTRI_TO_H2O2" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_TRI_TO_H2O2.wTRI_TO_H2O2" attribute="editable" />
@@ -1314,7 +1314,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NAOH_TO_TRI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].ConversionRatios.NAOH_TO_TRI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].ConversionRatios.NAOH_TO_TRI" attribute="value" />
@@ -1380,7 +1380,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.NAOH_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.NAOH_CONC" attribute="value" />
@@ -1446,7 +1446,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_CONC.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_CONC.Send" attribute="value" />
@@ -1478,7 +1478,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_NAOH_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_CONC.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_CONC.Send" attribute="editable" />
@@ -1544,7 +1544,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_CONC.wNAOH_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_CONC.wNAOH_CONC" attribute="value" />
@@ -1576,7 +1576,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_NAOH_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_NAOH_CONC.wNAOH_CONC" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_NAOH_CONC.wNAOH_CONC" attribute="editable" />
@@ -1642,7 +1642,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.HP_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.HP_CONC" attribute="value" />
@@ -1708,7 +1708,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_HP_CONC.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_HP_CONC.Send" attribute="value" />
@@ -1740,7 +1740,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_PB_Write_HP_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_PB_Write_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_HP_CONC.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_HP_CONC.Send" attribute="editable" />
@@ -1806,7 +1806,7 @@
 		
 		<Content id="PM_Settings_Content"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_HP_CONC.wHP_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_HP_CONC.wHP_CONC" attribute="value" />
@@ -1838,7 +1838,7 @@
 			<Target xsi:type="brease" refId="PM_Settings_Content_NI_Write_HP_CONC" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*PM_Settings_Content_NI_Write_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_HP_CONC.wHP_CONC" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_HP_CONC.wHP_CONC" attribute="editable" />

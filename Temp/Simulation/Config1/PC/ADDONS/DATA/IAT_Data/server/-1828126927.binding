@@ -3,7 +3,7 @@
 	
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_TI" attribute="value" />
@@ -69,7 +69,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_FQ*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_FQ" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_FQ" attribute="value" />
@@ -135,7 +135,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_PI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_PI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_PI" attribute="value" />
@@ -201,7 +201,7 @@
 
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_PV*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_PV" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_PV" attribute="value" />
@@ -267,7 +267,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P102_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_PFI" attribute="value" />
@@ -333,7 +333,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P102_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_PPI" attribute="value" />
@@ -399,7 +399,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P103_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_PFI" attribute="value" />
@@ -465,7 +465,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P103_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_PPI" attribute="value" />
@@ -531,7 +531,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P104_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PFI" attribute="value" />
@@ -597,7 +597,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P104_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PPI" attribute="value" />
@@ -669,7 +669,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P104_PV*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_PV" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_PV" attribute="value" />
@@ -735,7 +735,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PV*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PV" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PV" attribute="value" />
@@ -801,7 +801,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_FQ*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_FQ" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_FQ" attribute="value" />
@@ -867,7 +867,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_TI" attribute="value" />
@@ -933,7 +933,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PI" attribute="value" />
@@ -999,7 +999,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PFI" attribute="value" />
@@ -1065,7 +1065,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PPI" attribute="value" />
@@ -1131,7 +1131,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PV*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PV" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PV" attribute="value" />
@@ -1197,7 +1197,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_FQ*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_FQ" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_FQ" attribute="value" />
@@ -1263,7 +1263,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_TI" attribute="value" />
@@ -1329,7 +1329,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PI" attribute="value" />
@@ -1395,7 +1395,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PFI" attribute="value" />
@@ -1461,7 +1461,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PPI" attribute="value" />
@@ -1527,7 +1527,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PV*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PV" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PV" attribute="value" />
@@ -1593,7 +1593,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_FQ*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_FQ" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_FQ" attribute="value" />
@@ -1659,7 +1659,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_TI" attribute="value" />
@@ -1725,7 +1725,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PI" attribute="value" />
@@ -1791,7 +1791,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PFI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PFI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PFI" attribute="value" />
@@ -1857,7 +1857,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PPI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PPI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PPI" attribute="value" />
@@ -1923,7 +1923,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_LI200*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].BufferTank.LI200" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].BufferTank.LI200" attribute="value" />
@@ -1989,7 +1989,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD101_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101_TI" attribute="value" />
@@ -2055,7 +2055,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD101*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101" attribute="value" />
@@ -2121,7 +2121,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101_SP" attribute="value" />
@@ -2187,7 +2187,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD102_TI*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102_TI" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102_TI" attribute="value" />
@@ -2253,7 +2253,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD102*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102" attribute="value" />
@@ -2319,7 +2319,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102_SP" attribute="value" />
@@ -2385,7 +2385,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD101_CHART*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD101" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD101" attribute="value" />
@@ -2451,7 +2451,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_CD102_CHART*value">			
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.CD102" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.CD102" attribute="value" />
@@ -2479,7 +2479,7 @@
 					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.CD102" attribute="value" />
 					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.CD102" attribute="value" />
 				</br:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" refId="OverviewEx1_CD102_CHART" attribute="value" />
 		</Binding></Content>
 			
@@ -2511,13 +2511,13 @@
 					
 					
 				
-
+			
 			
 		
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P104_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.wP104_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.wP104_SP" attribute="value" />
@@ -2549,7 +2549,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P104_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P104_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.wP104_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.wP104_SP" attribute="editable" />
@@ -2615,7 +2615,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.Send" attribute="value" />
@@ -2647,7 +2647,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P104_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_SP.Send" attribute="editable" />
@@ -2713,7 +2713,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P104_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_SP" attribute="value" />
@@ -2779,7 +2779,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P103_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.wP103_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.wP103_SP" attribute="value" />
@@ -2811,7 +2811,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P103_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P103_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.wP103_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.wP103_SP" attribute="editable" />
@@ -2877,7 +2877,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.Send" attribute="value" />
@@ -2909,7 +2909,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P103_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_SP.Send" attribute="editable" />
@@ -2975,7 +2975,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P103_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_SP" attribute="value" />
@@ -3041,7 +3041,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_HP_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.HP_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.HP_CONC" attribute="value" />
@@ -3107,7 +3107,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.wP102_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.wP102_SP" attribute="value" />
@@ -3139,7 +3139,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P102_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.wP102_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.wP102_SP" attribute="editable" />
@@ -3205,7 +3205,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.Send" attribute="value" />
@@ -3237,7 +3237,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P102_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_SP.Send" attribute="editable" />
@@ -3303,7 +3303,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P102_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_SP" attribute="value" />
@@ -3369,7 +3369,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NAOH_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.NAOH_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.NAOH_CONC" attribute="value" />
@@ -3435,7 +3435,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.wP101_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.wP101_SP" attribute="value" />
@@ -3467,7 +3467,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P101_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.wP101_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.wP101_SP" attribute="editable" />
@@ -3533,7 +3533,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.Send" attribute="value" />
@@ -3565,7 +3565,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P101_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_SP.Send" attribute="editable" />
@@ -3631,7 +3631,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_SP" attribute="value" />
@@ -3697,7 +3697,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PMAX_CONC*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_CONC" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_CONC" attribute="value" />
@@ -3763,7 +3763,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PMAX_RATE*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.PMAX_RATE" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.PMAX_RATE" attribute="value" />
@@ -3829,7 +3829,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_UNIT_ID_DOSE*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.UNIT_ID_DOSE" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.UNIT_ID_DOSE" attribute="value" />
@@ -3895,7 +3895,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STRT_CMD.Send" attribute="value" />
@@ -3927,7 +3927,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P101_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STRT_CMD.Send" attribute="editable" />
@@ -3993,7 +3993,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STP_CMD.Send" attribute="value" />
@@ -4025,7 +4025,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P101_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P101_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P101_STP_CMD.Send" attribute="editable" />
@@ -4091,7 +4091,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STRT_CMD.Send" attribute="value" />
@@ -4123,7 +4123,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P102_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STRT_CMD.Send" attribute="editable" />
@@ -4189,7 +4189,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STP_CMD.Send" attribute="value" />
@@ -4221,7 +4221,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P102_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P102_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P102_STP_CMD.Send" attribute="editable" />
@@ -4287,7 +4287,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STRT_CMD.Send" attribute="value" />
@@ -4319,7 +4319,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P103_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STRT_CMD.Send" attribute="editable" />
@@ -4385,7 +4385,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STP_CMD.Send" attribute="value" />
@@ -4417,7 +4417,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P103_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P103_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P103_STP_CMD.Send" attribute="editable" />
@@ -4483,7 +4483,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STRT_CMD.Send" attribute="value" />
@@ -4515,7 +4515,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P104_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STRT_CMD.Send" attribute="editable" />
@@ -4581,7 +4581,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STP_CMD.Send" attribute="value" />
@@ -4613,7 +4613,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P104_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P104_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P104_STP_CMD.Send" attribute="editable" />
@@ -4679,7 +4679,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.wP201_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.wP201_SP" attribute="value" />
@@ -4711,7 +4711,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P201_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.wP201_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.wP201_SP" attribute="editable" />
@@ -4777,7 +4777,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.Send" attribute="value" />
@@ -4809,7 +4809,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P201_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_SP.Send" attribute="editable" />
@@ -4875,7 +4875,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_SP" attribute="value" />
@@ -4941,7 +4941,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STRT_CMD.Send" attribute="value" />
@@ -4973,7 +4973,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P201_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STRT_CMD.Send" attribute="editable" />
@@ -5039,7 +5039,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STP_CMD.Send" attribute="value" />
@@ -5071,7 +5071,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P201_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_STP_CMD.Send" attribute="editable" />
@@ -5137,7 +5137,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.wP201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.wP201_PPM" attribute="value" />
@@ -5169,7 +5169,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P201_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.wP201_PPM" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.wP201_PPM" attribute="editable" />
@@ -5235,7 +5235,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.Send" attribute="value" />
@@ -5267,7 +5267,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P201_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P201_PPM.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P201_PPM.Send" attribute="editable" />
@@ -5333,7 +5333,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_PPM" attribute="value" />
@@ -5399,7 +5399,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.wP202_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.wP202_SP" attribute="value" />
@@ -5431,7 +5431,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P202_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.wP202_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.wP202_SP" attribute="editable" />
@@ -5497,7 +5497,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.Send" attribute="value" />
@@ -5529,7 +5529,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P202_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_SP.Send" attribute="editable" />
@@ -5595,7 +5595,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_SP" attribute="value" />
@@ -5661,7 +5661,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STRT_CMD.Send" attribute="value" />
@@ -5693,7 +5693,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P202_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STRT_CMD.Send" attribute="editable" />
@@ -5759,7 +5759,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STP_CMD.Send" attribute="value" />
@@ -5791,7 +5791,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P202_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_STP_CMD.Send" attribute="editable" />
@@ -5857,7 +5857,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.wP202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.wP202_PPM" attribute="value" />
@@ -5889,7 +5889,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P202_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.wP202_PPM" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.wP202_PPM" attribute="editable" />
@@ -5955,7 +5955,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.Send" attribute="value" />
@@ -5987,7 +5987,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P202_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P202_PPM.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P202_PPM.Send" attribute="editable" />
@@ -6053,7 +6053,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_PPM" attribute="value" />
@@ -6119,7 +6119,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.wP203_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.wP203_SP" attribute="value" />
@@ -6151,7 +6151,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P203_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.wP203_SP" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.wP203_SP" attribute="editable" />
@@ -6217,7 +6217,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.Send" attribute="value" />
@@ -6249,7 +6249,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P203_SP" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_SP.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_SP.Send" attribute="editable" />
@@ -6315,7 +6315,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_SP*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_SP" attribute="value" />
@@ -6381,7 +6381,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STRT_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STRT_CMD.Send" attribute="value" />
@@ -6413,7 +6413,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P203_STRT_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_STRT_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STRT_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STRT_CMD.Send" attribute="editable" />
@@ -6479,7 +6479,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STP_CMD.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STP_CMD.Send" attribute="value" />
@@ -6511,7 +6511,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P203_STP_CMD" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_STP_CMD*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_STP_CMD.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_STP_CMD.Send" attribute="editable" />
@@ -6577,7 +6577,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.wP203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.wP203_PPM" attribute="value" />
@@ -6609,7 +6609,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_NI_Write_P203_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.wP203_PPM" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.wP203_PPM" attribute="editable" />
@@ -6675,7 +6675,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.Send" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.Send" attribute="value" />
@@ -6707,7 +6707,7 @@
 			<Target xsi:type="brease" refId="OverviewEx1_PB_Write_P203_PPM" attribute="value" />
 		</Binding><Binding mode="oneWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gCmd[0].Write_P203_PPM.Send" attribute="editable" />
 					<br:Element index="1" refId="::AsGlobalPV:gCmd[1].Write_P203_PPM.Send" attribute="editable" />
@@ -6773,7 +6773,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_PPM" attribute="value" />
@@ -6839,7 +6839,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_BT_LVL*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].BufferTank.LI200P" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].BufferTank.LI200P" attribute="value" />
@@ -6903,75 +6903,11 @@
 			
 		
 		
-		<Content id="OverviewEx1"><Binding mode="twoWay">
-			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
-				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_FI301*value">				
-					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.FI301" attribute="value" />
-					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.FI301" attribute="value" />
-				</br:List>
-			</Source>
-			<Target xsi:type="brease" refId="OverviewEx1_FI301" attribute="value" />
-		</Binding></Content>
-			
-				
-								
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				
-			
-			
 		
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_FI302*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI302" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI302" attribute="value" />
@@ -7037,7 +6973,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_FI303*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI303" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI303" attribute="value" />
@@ -7103,7 +7039,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_APPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_APPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_APPM" attribute="value" />
@@ -7169,7 +7105,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_APPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_APPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_APPM" attribute="value" />
@@ -7235,7 +7171,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="oneWay">
 			<Source mode="oneWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_APPM*value">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_APPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_APPM" attribute="value" />
@@ -7302,7 +7238,7 @@
 
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_HIDE*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_ENABLE" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_ENABLE" attribute="value" />
@@ -7368,7 +7304,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_HIDE*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_ENABLE" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_ENABLE" attribute="value" />
@@ -7434,7 +7370,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_HIDE*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_ENABLE" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_ENABLE" attribute="value" />
@@ -7502,7 +7438,7 @@
 
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P101_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_101.P101_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_101.P101_XS" attribute="value" />
@@ -7568,7 +7504,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P102_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_102.P102_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_102.P102_XS" attribute="value" />
@@ -7634,7 +7570,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P103_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_103.P103_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_103.P103_XS" attribute="value" />
@@ -7700,7 +7636,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P104_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_Pump_104.P104_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_Pump_104.P104_XS" attribute="value" />
@@ -7766,7 +7702,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_XS" attribute="value" />
@@ -7832,7 +7768,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_XS" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_XS" attribute="value" />
@@ -7898,7 +7834,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_Line26*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_ENABLE_OPP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_ENABLE_OPP" attribute="value" />
@@ -7964,7 +7900,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_Line25*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_ENABLE_OPP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_ENABLE_OPP" attribute="value" />
@@ -8030,7 +7966,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P101_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8097,7 +8033,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P101_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8163,7 +8099,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P102_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8229,7 +8165,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P102_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8295,7 +8231,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P103_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8361,7 +8297,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P103_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8427,7 +8363,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P104_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8493,7 +8429,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P104_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.PMAX_MANUAL" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.PMAX_MANUAL" attribute="value" />
@@ -8559,7 +8495,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" attribute="value" />
@@ -8625,7 +8561,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" attribute="value" />
@@ -8691,7 +8627,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" attribute="value" />
@@ -8757,7 +8693,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_TextOutput6*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_PPM" attribute="value" />
@@ -8823,7 +8759,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" attribute="value" />
@@ -8889,7 +8825,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" attribute="value" />
@@ -8955,7 +8891,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P202_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" attribute="value" />
@@ -9021,7 +8957,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_TextOutput9*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_PPM" attribute="value" />
@@ -9087,7 +9023,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_TextOutput26*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" attribute="value" />
@@ -9153,7 +9089,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" attribute="value" />
@@ -9219,7 +9155,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" attribute="value" />
@@ -9285,7 +9221,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P203_PPM*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_PPM" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_PPM" attribute="value" />
@@ -9352,7 +9288,7 @@
 
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P201_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_SP" attribute="value" />
@@ -9418,7 +9354,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P201_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_SP" attribute="value" />
@@ -9484,7 +9420,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P202_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_SP" attribute="value" />
@@ -9550,7 +9486,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P202_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_SP" attribute="value" />
@@ -9616,7 +9552,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_NI_Write_P203_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_SP" attribute="value" />
@@ -9682,7 +9618,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_PB_Write_P203_SP*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_SP" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_SP" attribute="value" />
@@ -9751,7 +9687,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_Image10*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DDA" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DDA" attribute="value" />
@@ -9817,7 +9753,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_Image30*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DME" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DME" attribute="value" />
@@ -9883,7 +9819,7 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_GREEN*visible">				
 					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DDAGREEN" attribute="value" />
 					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DDAGREEN" attribute="value" />
@@ -9949,33 +9885,33 @@
 		
 		<Content id="OverviewEx1"><Binding mode="twoWay">
 			<Source mode="twoWay" xsi:type="listElement">
-				<Selector xsi:type="opcUa" refId="::AsGlobalPV:gVis.Main.In.SelectedSkid" attribute="value" />
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
 				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P201_GREEN1*visible">				
-					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].P201_DMEGREEN" attribute="value" />
-					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].P201_DMEGREEN" attribute="value" />
-					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].P201_DMEGREEN" attribute="value" />
-					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].P201_DMEGREEN" attribute="value" />
-					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].P201_DMEGREEN" attribute="value" />
-					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].P201_DMEGREEN" attribute="value" />
-					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].P201_DMEGREEN" attribute="value" />
-					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].P201_DMEGREEN" attribute="value" />
-					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].P201_DMEGREEN" attribute="value" />
-					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].P201_DMEGREEN" attribute="value" />
-					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].P201_DMEGREEN" attribute="value" />
-					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].P201_DMEGREEN" attribute="value" />
-					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].P201_DMEGREEN" attribute="value" />
-					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].P201_DMEGREEN" attribute="value" />
-					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].P201_DMEGREEN" attribute="value" />
-					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].P201_DMEGREEN" attribute="value" />
-					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].P201_DMEGREEN" attribute="value" />
-					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].P201_DMEGREEN" attribute="value" />
-					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].P201_DMEGREEN" attribute="value" />
-					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].P201_DMEGREEN" attribute="value" />
-					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].P201_DMEGREEN" attribute="value" />
-					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].P201_DMEGREEN" attribute="value" />
-					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].P201_DMEGREEN" attribute="value" />
-					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].P201_DMEGREEN" attribute="value" />
-					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].P201_DMEGREEN" attribute="value" />
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P201_DMEGREEN" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P201_DMEGREEN" attribute="value" />
 				</br:List>
 			</Source>
 			<Target xsi:type="brease" refId="OverviewEx1_P201_GREEN1" attribute="visible" />
@@ -10013,7 +9949,275 @@
 			
 		
 		
+		<Content id="OverviewEx1"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_LSHH200*visible">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.LSHH200" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.LSHH200" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.LSHH200" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.LSHH200" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.LSHH200" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.LSHH200" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.LSHH200" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.LSHH200" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.LSHH200" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.LSHH200" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.LSHH200" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.LSHH200" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.LSHH200" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.LSHH200" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.LSHH200" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.LSHH200" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.LSHH200" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.LSHH200" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.LSHH200" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.LSHH200" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.LSHH200" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.LSHH200" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.LSHH200" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.LSHH200" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.LSHH200" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="OverviewEx1_LSHH200" attribute="visible" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
 		
 		
-	
+		<Content id="OverviewEx1"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P102_LS*visible">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P102_LS" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P102_LS" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P102_LS" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P102_LS" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P102_LS" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P102_LS" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P102_LS" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P102_LS" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P102_LS" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P102_LS" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P102_LS" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P102_LS" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P102_LS" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P102_LS" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P102_LS" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P102_LS" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P102_LS" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P102_LS" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P102_LS" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P102_LS" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P102_LS" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P102_LS" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P102_LS" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P102_LS" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P102_LS" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="OverviewEx1_P102_LS" attribute="visible" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="OverviewEx1"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_P103_LS*visible">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P103_LS" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P103_LS" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P103_LS" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P103_LS" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P103_LS" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P103_LS" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P103_LS" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P103_LS" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P103_LS" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P103_LS" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P103_LS" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P103_LS" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P103_LS" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P103_LS" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P103_LS" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P103_LS" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P103_LS" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P103_LS" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P103_LS" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P103_LS" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P103_LS" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P103_LS" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P103_LS" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P103_LS" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P103_LS" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="OverviewEx1_P103_LS" attribute="visible" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+		
+		<Content id="OverviewEx1"><Binding mode="twoWay">
+			<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_FI301*value">				
+					<br:Element index="0" refId="::AsGlobalPV:gSkid[0].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gSkid[1].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="2" refId="::AsGlobalPV:gSkid[2].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="3" refId="::AsGlobalPV:gSkid[3].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="4" refId="::AsGlobalPV:gSkid[4].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="5" refId="::AsGlobalPV:gSkid[5].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="6" refId="::AsGlobalPV:gSkid[6].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="7" refId="::AsGlobalPV:gSkid[7].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="8" refId="::AsGlobalPV:gSkid[8].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="9" refId="::AsGlobalPV:gSkid[9].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="10" refId="::AsGlobalPV:gSkid[10].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="11" refId="::AsGlobalPV:gSkid[11].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="12" refId="::AsGlobalPV:gSkid[12].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="13" refId="::AsGlobalPV:gSkid[13].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="14" refId="::AsGlobalPV:gSkid[14].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="15" refId="::AsGlobalPV:gSkid[15].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="16" refId="::AsGlobalPV:gSkid[16].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="17" refId="::AsGlobalPV:gSkid[17].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="18" refId="::AsGlobalPV:gSkid[18].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="19" refId="::AsGlobalPV:gSkid[19].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="20" refId="::AsGlobalPV:gSkid[20].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="21" refId="::AsGlobalPV:gSkid[21].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="22" refId="::AsGlobalPV:gSkid[22].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Sensor_Variables.FI301" attribute="value" />
+					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Sensor_Variables.FI301" attribute="value" />
+				</br:List>
+			</Source>
+			<Target xsi:type="brease" refId="OverviewEx1_FI301" attribute="value" />
+		</Binding></Content>
+			
+				
+								
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				
+			
+			
+		
+	<Content id="OverviewEx1"><Binding mode="oneWay">
+<Source xsi:type="variable" refId="::SYSTEM:clientInfo.userId" attribute="value" />
+<Target xsi:type="brease" refId="OverviewEx1_TextOutput53" attribute="value" />
+</Binding></Content>
+
+
+
+
 </BindingDefinition>
