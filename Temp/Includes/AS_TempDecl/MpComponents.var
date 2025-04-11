@@ -1,6 +1,6 @@
 VAR
-	gAlarmXCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config_1.mpalarmxcore" #2"1" #3"1"*)
-	gAlarmXHistory : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config_2.mpalarmxhistory" #2"1" #3"1"*)
-	gRecipeXml_Par : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config.mprecipexml" #2"1" #3"1"*)
-	gRecipeXml_Rem : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config.mprecipexml" #2"1" #3"1"*)
+	gAlarmXCore : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\Clean Chemistry\BR-SCADA\Physical\Config1\PC\mappServices\Config_1.mpalarmxcore" #2"1" #3"1"*)
+	gAlarmXHistory : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\Clean Chemistry\BR-SCADA\Physical\Config1\PC\mappServices\Config_2.mpalarmxhistory" #2"1" #3"1"*)
+	gRecipeXml_Par : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\Clean Chemistry\BR-SCADA\Physical\Config1\PC\mappServices\Config.mprecipexml" #2"1" #3"1"*)
+	gRecipeXml_Rem : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\Projects\Clean Chemistry\BR-SCADA\Physical\Config1\PC\mappServices\Config.mprecipexml" #2"1" #3"1"*)
 END_VAR

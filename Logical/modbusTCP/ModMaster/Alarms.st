@@ -3,32 +3,29 @@ ACTION Alarms_action:
 	
 	//SP Alarm
 
-	
-	//Error Collection
-
 	IF gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM.0 THEN
-		gSkid[IdxSkids].ErrorInfo.Text		:= 'DoseAlarm0';
+		gSkid[IdxSkids].ErrorInfo.Text		:= 'DosingAlarm0';
 		gSkid[IdxSkids].ErrorInfo.State		:= 'Error';
 		gSkid[IdxSkids].ErrorInfo.Severity	:= 1;
 		gSkid[IdxSkids].Error := TRUE;
 	END_IF;
 	
 	IF gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM.1 THEN
-		gSkid[IdxSkids].ErrorInfo.Text		:= 'DoseAlarm1';
+		gSkid[IdxSkids].ErrorInfo.Text		:= 'DosingAlarm1';
 		gSkid[IdxSkids].ErrorInfo.State		:= 'Warning';
 		gSkid[IdxSkids].ErrorInfo.Severity	:= 2;
 		gSkid[IdxSkids].Error := TRUE;
 	END_IF;
 	
 	IF gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM.2 THEN
-		gSkid[IdxSkids].ErrorInfo.Text		:= 'DoseAlarm2';
+		gSkid[IdxSkids].ErrorInfo.Text		:= 'DosingAlarm2';
 		gSkid[IdxSkids].ErrorInfo.State		:= 'Warning';
 		gSkid[IdxSkids].ErrorInfo.Severity	:= 1;
 		gSkid[IdxSkids].Error := TRUE;
 	END_IF;
 
 
-(*********************************************************************Dont Touch This Code*(*********************************************************************)
+(*********************************************************************Dont Touch This Code**********************************************************************)
 	IF gSkid[IdxSkids].Error THEN
 		IF brsmemcmp(ADR(gSkid[IdxSkids].LastErrorInfo),ADR(gSkid[IdxSkids].ErrorInfo),SIZEOF(gSkid[IdxSkids].LastErrorInfo)) <> 0 THEN
 			brsmemcpy(ADR(gSkid[IdxSkids].LastErrorInfo),ADR(gSkid[IdxSkids].ErrorInfo),SIZEOF(gSkid[IdxSkids].LastErrorInfo));

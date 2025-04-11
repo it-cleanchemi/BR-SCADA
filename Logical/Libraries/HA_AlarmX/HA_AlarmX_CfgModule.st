@@ -22,9 +22,10 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 			
 			1: 
-				internal.AlarmName 														:= 'Severity1';
+				internal.AlarmName															:= Prefix;
+				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity1'), SIZEOF(internal.AlarmName));							
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
-				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
+				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('Severity1'), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
 				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 1;
@@ -36,10 +37,10 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 			
 			2: 
-				internal.AlarmName														:= Prefix;
-				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity2'), SIZEOF(internal.AlarmName));
+				internal.AlarmName															:= Prefix;
+				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity2'), SIZEOF(internal.AlarmName));							
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
-				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
+				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('Severity2'), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
 				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 2;
@@ -51,10 +52,10 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 				
 			3: 
-				internal.AlarmName														:= Prefix;
-				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity3'), SIZEOF(internal.AlarmName));
+				internal.AlarmName															:= Prefix;
+				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity3'), SIZEOF(internal.AlarmName));							
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
-				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
+				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('Severity3'), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
 				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 3;
@@ -66,10 +67,10 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 
 			4: 
-				internal.AlarmName														:= Prefix;
-				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity4'), SIZEOF(internal.AlarmName));
+				internal.AlarmName															:= Prefix;
+				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity4'), SIZEOF(internal.AlarmName));							
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
-				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
+				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('Severity4'), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
 				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 4;
@@ -81,10 +82,10 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 
 			5: 
-				internal.AlarmName														:= Prefix;
-				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity5'), SIZEOF(internal.AlarmName));
+				internal.AlarmName															:= Prefix;
+				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity5'), SIZEOF(internal.AlarmName));							
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
-				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
+				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('Severity5'), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
 				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 5;

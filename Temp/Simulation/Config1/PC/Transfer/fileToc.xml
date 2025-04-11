@@ -819,7 +819,7 @@
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
 							<File Name="brease_core.min.css" Size="624825" HashValue="977CC18D04DF100B44A733B46F4F907B" ProjectDependent="1"/>
-							<File Name="HartfielTheme.min.css" Size="188632" HashValue="98E8AE5C77F1C4BF19524CF0A07E6AE7" ProjectDependent="1"/>
+							<File Name="HartfielTheme.min.css" Size="180896" HashValue="A356A57480062CFA22C7F3AEDDF198D3" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -3844,7 +3844,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="5936" HashValue="3A344CE08A25B953CA4DCE37694BE564" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="5938" HashValue="B9B1C1B63721664913B6574EACE707EE" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

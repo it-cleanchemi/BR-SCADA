@@ -1,20 +1,20 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=ModMaster 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 Index=5 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 Index=77 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                    gSkid                          Skid_type[0..1]    0 "                                                               *"    0   24    2    0    0    1         
                                 gSkid[0]                                Skid_type    0 "                                                               *"    1   24    1    0    0    1         
                               initAlarms                      HA_AlarmX_CfgModule    0 "                                                               *"    2   24    1    0    0    1         
-                                  MpLink                                    UDINT    0 "                                                       125681932"    3    7    1   10    0    0         
+                                  MpLink                                    UDINT    0 "                                                       123228428"    3    7    1   10    0    0         
                                   Prefix                              STRING[255]    0 "                                                         'Skid1'"    3    9  256    1    0    0         
                               CodePrefix                                    UDINT    0 "                                                               1"    3    7    1   10    0    0         
                                    Error                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                internal            HA_AlarmX_CfgMod_Internal_typ    0 "                                                               *"    3   24    1    0    0    0         
+                                internal            HA_AlarmX_CfgMod_Internal_typ    0 "                                                               *"    3   24    1    0    0    1         
                    MpAlarmXConfigAlarm_0                      MpAlarmXConfigAlarm    0 "                                                               *"    4   24    1    0    0    0         
-                                  MpLink                                    UDINT    0 "                                                       125681932"    5    7    1   10    0    0         
+                                  MpLink                                    UDINT    0 "                                                       121946380"    5    7    1   10    0    0         
                                   Enable                                     BOOL    0 "                                                            TRUE"    5    1    1    2    0    0         
                               ErrorReset                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                                    Name                                    UDINT    0 "                                                       125692624"    5    7    1   10    0    0         
-                           Configuration                                    UDINT    0 "                                                       125691824"    5    7    1   10    0    0         
+                                    Name                                    UDINT    0 "                                                       121964328"    5    7    1   10    0    0         
+                           Configuration                                    UDINT    0 "                                                       121963528"    5    7    1   10    0    0         
                                     Load                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
                                     Save                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
                                   Active                                     BOOL    0 "                                                            TRUE"    5    1    1    2    0    0         
@@ -25,24 +25,24 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 I
                                     Info                         MpAlarmXInfoType    0 "                                                               *"    5   24    1    0    0    0         
                                     Diag                         MpAlarmXDiagType    0 "                                                               *"    6   24    1    0    0    0         
                                 StatusID                     MpAlarmXStatusIDType    0 "                                                               *"    7   24    1    0    0    0         
-                                      ID                                     DINT    0 "                                                               0"    8    4    1   10    0    0 e,0,mpAL
+                                      ID                                     DINT    0 "                                                               *"    8    4    1   10    0    0 e,0,mpAL
 
-                                Severity                                     DINT    0 "                                                               0"    8    4    1   10    0    0 e,0,mpCO
+                                Severity                                     DINT    0 "                                                               *"    8    4    1   10    0    0 e,0,mpCO
 
-                                    Code                                     UINT    0 "                                                               0"    8    6    1   10    0    0         
+                                    Code                                     UINT    0 "                                                               *"    8    6    1   10    0    0         
                                 Internal                    MpComInternalDataType    0 "                                                               *"    5   24    1    0    0    0         
-                                 pObject                                    UDINT    0 "                                                       112315008"    6    7    1   10    0    0         
-                                   State                                    UDINT    0 "                                                               1"    6    7    1   10    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    6    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    6    7    1   10    0    0         
                                 AlarmCfg                  MpAlarmXAlarmConfigType    0 "                                                               *"    4   24    1    0    0    0         
                                  Message                              STRING[255]    0 "                                 '{$$IAT/Alarm.Skid1CmdIgnored}'"    5    9  256    1    0    0         
                                     Code                                    UDINT    0 "                                                               7"    5    7    1   10    0    0         
                                 Severity                                    UDINT    0 "                                                               0"    5    7    1   10    0    0         
                                 Behavior                     MpAlarmXBehaviorType    0 "                                                               *"    5   24    1    0    0    0         
-                               AutoReset                                     BOOL    0 "                                                            TRUE"    6    1    1    2    0    0         
-                             Acknowledge                                     DINT    0 "                                                               1"    6    4    1   10    0    0 e,0,mpAL
+                               AutoReset                                     BOOL    0 "                                                               *"    6    1    1    2    0    0         
+                             Acknowledge                                     DINT    0 "                                                               *"    6    4    1   10    0    0 e,0,mpAL
 
-                       MultipleInstances                                     BOOL    0 "                                                            TRUE"    6    1    1    2    0    0         
-               ReactionUntilAcknowledged                                     BOOL    0 "                                                            TRUE"    6    1    1    2    0    0         
+                       MultipleInstances                                     BOOL    0 "                                                               *"    6    1    1    2    0    0         
+               ReactionUntilAcknowledged                                     BOOL    0 "                                                               *"    6    1    1    2    0    0         
                                   Retain                                     BOOL    0 "                                                               *"    6    1    1    2    0    0         
                                    Async                                     BOOL    0 "                                                               *"    6    1    1    2    0    0         
                            HistoryReport                MpAlarmXHistoryReportType    0 "                                                               *"    6   24    1    0    0    0         
@@ -55,11 +55,11 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 I
                               Activation             MpAlarmXActivationUpdateType    0 "                                                               *"    7   24    1    0    0    0         
                                Timestamp                                     BOOL    0 "                                                               *"    8    1    1    2    0    0         
                                  Snippet                                     BOOL    0 "                                                               *"    8    1    1    2    0    0         
-                                 Disable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
-                  AdditionalInformation1                              STRING[255]    0 "                                                               *"    5    9  256    1    0    0         
-                  AdditionalInformation2                              STRING[255]    0 "                                                               *"    5    9  256    1    0    0         
-                               AlarmName                              STRING[255]    0 "                                                               *"    4    9  256    1    0    0         
-                                       i                                    USINT    0 "                                                               *"    4    5    1   10    0    0         
+                                 Disable                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
+                  AdditionalInformation1                              STRING[255]    0 "                                                              ''"    5    9  256    1    0    0         
+                  AdditionalInformation2                              STRING[255]    0 "                                                              ''"    5    9  256    1    0    0         
+                               AlarmName                              STRING[255]    0 "                                               'Skid1CmdIgnored'"    4    9  256    1    0    0         
+                                       i                                    USINT    0 "                                                               7"    4    5    1   10    0    0         
                             CTON_Timeout                                     CTON    0 "                                                               *"    4   24    1    0    0    0         
                                       IN                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
                                       PT                                     TIME    0 "                                                               *"    5   12    1    1    0    0         
@@ -74,39 +74,41 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 I
                               task_class                                     SINT    0 "                                                               *"    6    2    1   10    0    0         
                                    delta                                    LREAL    0 "                                                               *"    5   14    1   10    0    0         
                                  counter                                    LREAL    0 "                                                               *"    5   14    1   10    0    0         
+                           Dosing_Alarms                       Dosing_Alarms_Type    0 "                                                               *"    2   24    1    0    0    1         
+                              DOSE_ALARM                                      INT    0 "                                           2#0000_0000_0000_0011"    3    3    1    2    0    0         
                                 gSkid[1]                                Skid_type    0 "                                                               *"    1   24    1    0    0    1         
                               initAlarms                      HA_AlarmX_CfgModule    0 "                                                               *"    2   24    1    0    0    1         
-                                  MpLink                                    UDINT    0 "                                                       125681932"    3    7    1   10    0    0         
+                                  MpLink                                    UDINT    0 "                                                       123228428"    3    7    1   10    0    0         
                                   Prefix                              STRING[255]    0 "                                                         'Skid2'"    3    9  256    1    0    0         
                               CodePrefix                                    UDINT    0 "                                                               2"    3    7    1   10    0    0         
                                    Error                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
                                 internal            HA_AlarmX_CfgMod_Internal_typ    0 "                                                               *"    3   24    1    0    0    0         
                    MpAlarmXConfigAlarm_0                      MpAlarmXConfigAlarm    0 "                                                               *"    4   24    1    0    0    0         
-                                  MpLink                                    UDINT    0 "                                                       125681932"    5    7    1   10    0    0         
-                                  Enable                                     BOOL    0 "                                                            TRUE"    5    1    1    2    0    0         
-                              ErrorReset                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                                    Name                                    UDINT    0 "                                                       125696252"    5    7    1   10    0    0         
-                           Configuration                                    UDINT    0 "                                                       125695452"    5    7    1   10    0    0         
-                                    Load                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                                    Save                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                                  Active                                     BOOL    0 "                                                            TRUE"    5    1    1    2    0    0         
-                                   Error                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                                StatusID                                     DINT    0 "                                                               0"    5    4    1   10    0    0         
-                             CommandBusy                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
-                             CommandDone                                     BOOL    0 "                                                           FALSE"    5    1    1    2    0    0         
+                                  MpLink                                    UDINT    0 "                                                               *"    5    7    1   10    0    0         
+                                  Enable                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                              ErrorReset                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                    Name                                    UDINT    0 "                                                               *"    5    7    1   10    0    0         
+                           Configuration                                    UDINT    0 "                                                               *"    5    7    1   10    0    0         
+                                    Load                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                    Save                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                  Active                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                                StatusID                                     DINT    0 "                                                               *"    5    4    1   10    0    0         
+                             CommandBusy                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
+                             CommandDone                                     BOOL    0 "                                                               *"    5    1    1    2    0    0         
                                     Info                         MpAlarmXInfoType    0 "                                                               *"    5   24    1    0    0    0         
                                     Diag                         MpAlarmXDiagType    0 "                                                               *"    6   24    1    0    0    0         
                                 StatusID                     MpAlarmXStatusIDType    0 "                                                               *"    7   24    1    0    0    0         
-                                      ID                                     DINT    0 "                                                               0"    8    4    1   10    0    0 e,0,mpAL
+                                      ID                                     DINT    0 "                                                               *"    8    4    1   10    0    0 e,0,mpAL
 
-                                Severity                                     DINT    0 "                                                               0"    8    4    1   10    0    0 e,0,mpCO
+                                Severity                                     DINT    0 "                                                               *"    8    4    1   10    0    0 e,0,mpCO
 
-                                    Code                                     UINT    0 "                                                               0"    8    6    1   10    0    0         
+                                    Code                                     UINT    0 "                                                               *"    8    6    1   10    0    0         
                                 Internal                    MpComInternalDataType    0 "                                                               *"    5   24    1    0    0    0         
-                                 pObject                                    UDINT    0 "                                                       112279808"    6    7    1   10    0    0         
-                                   State                                    UDINT    0 "                                                               1"    6    7    1   10    0    0         
+                                 pObject                                    UDINT    0 "                                                               *"    6    7    1   10    0    0         
+                                   State                                    UDINT    0 "                                                               *"    6    7    1   10    0    0         
                                 AlarmCfg                  MpAlarmXAlarmConfigType    0 "                                                               *"    4   24    1    0    0    0         
-                                 Message                              STRING[255]    0 "                                 '{$$IAT/Alarm.Skid2CmdIgnored}'"    5    9  256    1    0    0         
+                                 Message                              STRING[255]    0 "                                                               *"    5    9  256    1    0    0         
                                     Code                                    UDINT    0 "                                                               *"    5    7    1   10    0    0         
                                 Severity                                    UDINT    0 "                                                               *"    5    7    1   10    0    0         
                                 Behavior                     MpAlarmXBehaviorType    0 "                                                               *"    5   24    1    0    0    0         
@@ -146,3 +148,5 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=240 Type=249 Scope=60 Force=60 I
                               task_class                                     SINT    0 "                                                               *"    6    2    1   10    0    0         
                                    delta                                    LREAL    0 "                                                               *"    5   14    1   10    0    0         
                                  counter                                    LREAL    0 "                                                               *"    5   14    1   10    0    0         
+                           Dosing_Alarms                       Dosing_Alarms_Type    0 "                                                               *"    2   24    1    0    0    1         
+                              DOSE_ALARM                                      INT    0 "                                           2#0000_0000_0000_0011"    3    3    1    2    0    0         

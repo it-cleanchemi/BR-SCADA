@@ -1,3 +1,3 @@
 <?xml version="1.0"?>
 <?AutomationStudio FileVersion="4.9"?>
-<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="6151"/><Configuration Name="Config1"/></Project>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Config1"/><ConfigurationFiles xmlns="" ConfigurationName="Config1" ActiveConfigurationFile="\diagnosis\config1\pc\modmaster.pvm"><ConfigurationFile Placement="\diagnosis\config1\pc\modmaster.pvm,,4,44,0,1,-1,-1,-1,-1,2,24,1364,700"/><ConfigurationFile Placement="\Logical\modbusTCP\ModMaster\Alarms.st,modbusTCP.ModMaster,2,44,0,1,-1,-1,-1,-1,2,24,1364,700"/><ConfigurationFile Placement="\Logical\Libraries\HA_AlarmX\HA_AlarmX_CfgModule.st,Libraries.HA_AlarmX,2,44,0,1,-1,-1,-1,-1,2,24,1364,700"/></ConfigurationFiles></Project>

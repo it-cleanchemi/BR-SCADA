@@ -463,16 +463,11 @@ PROGRAM _INIT
 		ModbusTcpMaster[IdxSkids].slave_ip_addr 	:= SLAVE_IP_ADDRESSES[IdxSkids]; 		// Transfer slave device IP address 
 		
 		
-		
-		
-		
-		
-		
 		//Alarming Setup
 		SkidString := INT_TO_STRING(IdxSkids+1);
 		SkidString := CONCAT('Skid',SkidString);
 		
-		gSkid[IdxSkids].initAlarms(MpLink := ADR(gAlarmXCore), Prefix := SkidString, CodePrefix := IdxSkids);
+		gSkid[IdxSkids].initAlarms(MpLink := ADR(gAlarmXCore), Prefix := SkidString, CodePrefix := IdxSkids+1);
 		
 	END_FOR;
 	
