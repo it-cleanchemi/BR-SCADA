@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20250410102158_
-#define _LIBRARIES_20250410102158_
+#ifndef _LIBRARIES_20250411123741_
+#define _LIBRARIES_20250411123741_
 
 __asm__(".section \".plc\"");
 
@@ -62,6 +62,57 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpCom/MpCom.fun\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_IO/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_IO/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_IO/HA_IO.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA/HA.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Version/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Version/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Version/HA_Version.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Dir/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Dir/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Dir/HA_Dir.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Convert/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Convert/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Convert/HA_Convert.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Str/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Str/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Str/HA_Str.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_AlarmX/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_AlarmX/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_AlarmX/HA_AlarmX.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_ItemX/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_ItemX/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_ItemX/HA_ItemX.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_RAND/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_RAND/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_RAND/HA_RAND.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArEventLog/ArEventLog.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArEventLog/ArEventLog.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArEventLog/ArEventLog.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArProject/ArProject.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArProject/ArProject.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/ArProject/ArProject.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/brsystem/brsystem.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/brsystem/brsystem.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/brsystem/brsystem.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/FileIO/FileIO.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/FileIO/FileIO.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/FileIO/FileIO.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsUSB/AsUSB.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsUSB/AsUSB.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/AsUSB/AsUSB.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Array/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Array/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_Array/HA_Array.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_SysErr/Types.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_SysErr/Constants.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/HA_SysErr/HA_SysErr.fun\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmX.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmXError.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmX.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Types.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/Variables.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/MbusTCP/MbusTCP.fun\\\" scope \\\"global\\\"\\n\"");
@@ -819,6 +870,182 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 	__asm__(".ascii \"plcexport \\\"MpComHandle\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"MpComVersion\\\" FUN\\n\"");
 #endif
+#ifdef _HA_IO_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_IO_DO\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_IO_DI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_IO_AI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_IO_AO\\\" FUB\\n\"");
+#endif
+#ifdef _HA_EXPORT
+	__asm__(".ascii \"plcexport \\\"CTON\\\" FUB\\n\"");
+#endif
+#ifdef _HA_VERSION_EXPORT
+	__asm__(".ascii \"plcexport \\\"IdentifyConfig\\\" FUB\\n\"");
+#endif
+#ifdef _HA_DIR_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_DirMake\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_DirReadAll\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_DirSanitize\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Dir_USB_Connect\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Dir_Transfer\\\" FUB\\n\"");
+#endif
+#ifdef _HA_CONVERT_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_DT_Parser\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_DT_Formatter\\\" FUN\\n\"");
+#endif
+#ifdef _HA_STR_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_brsstrcat\\\" FUN\\n\"");
+#endif
+#ifdef _HA_ALARMX_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_AlarmX_Helper\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_AlarmXCore\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_AlarmX_CfgModule\\\" FUB\\n\"");
+#endif
+#ifdef _HA_ITEMX_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_DeleteByIndex\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_DeleteByUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_UID_TO_Index\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_Sanitize\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_Reorder_LowToHighUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_Reorder_HighToLowUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_IndexLowestUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_IndexHighestUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_FirstOpenIndex\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_GetElemByIndex\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_GetElemByUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_ModElemByIndex\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_ModElemByUID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_AddElem\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_ItemX_IncrementUID\\\" FUN\\n\"");
+#endif
+#ifdef _HA_RAND_EXPORT
+	__asm__(".ascii \"plcexport \\\"SRAND\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"DRAND\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RRAND\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RAND\\\" FUN\\n\"");
+#endif
+#ifdef _AREVENTLOG_EXPORT
+	__asm__(".ascii \"plcexport \\\"ArEventLogCreate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogDelete\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogGetIdent\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogWrite\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogGetLatestRecordID\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogGetPreviousRecordID\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogRead\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogReadDescription\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogReadErrorNumber\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogReadAddData\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogReadObjectID\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogMakeEventID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogIsError\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogIsWarning\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogIsInformation\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogIsSuccess\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogIsCustomerArea\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogAddDataInit\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogAddDataUdint\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogAddDataDint\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogAddDataString\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArEventLogAddDataQuantity\\\" FUN\\n\"");
+#endif
+#ifdef _ARPROJECT_EXPORT
+	__asm__(".ascii \"plcexport \\\"ArProjectGetInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArProjectGetPackageInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ArProjectInstallPackage\\\" FUB\\n\"");
+#endif
+#ifdef _BRSYSTEM_EXPORT
+	__asm__(".ascii \"plcexport \\\"MEMInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MEMxInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SysInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"TARGETInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HWInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SysconfInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SysconfSet\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"BatteryInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"EXCInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ZYKVLenable\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"PMemGet\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"PMemPut\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"PMemSize\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ARwinWindowsInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"ARwinEthWinInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTTolerance\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTCyclic\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTInit\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"RTExit\\\" FUN\\n\"");
+#endif
+#ifdef _FILEIO_EXPORT
+	__asm__(".ascii \"plcexport \\\"FileCreate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileOpen\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileClose\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileRead\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileReadEx\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileWrite\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileWriteEx\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileRename\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileCopy\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileDelete\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileTruncate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirCreate\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirOpen\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirClose\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirRead\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirReadEx\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirRename\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirCopy\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirDelete\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DirDeleteEx\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"SetAttributes\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"GetAttributes\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DevMemInfo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DevLink\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"DevUnlink\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"GetVolumeLabel\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"GetVolumeSerialNo\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FileIoGetSysError\\\" FUN\\n\"");
+#endif
+#ifdef _ASUSB_EXPORT
+	__asm__(".ascii \"plcexport \\\"UsbNodeListGet\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"UsbNodeGet\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"UsbDescriptorGet\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"UsbMsDeviceReady\\\" FUB\\n\"");
+#endif
+#ifdef _HA_ARRAY_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_Array_PeekTop\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_AddTop\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_AddBottom\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_PeekBtm\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_Pop\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_Dequeue\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_Array_Pack\\\" FUN\\n\"");
+#endif
+#ifdef _HA_SYSERR_EXPORT
+	__asm__(".ascii \"plcexport \\\"HA_SysErr_Lookup\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"HA_SysErr_Log\\\" FUB\\n\"");
+#endif
+#ifdef _MPALARMX_EXPORT
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCore\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXListUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXHistoryUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckState\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckStateID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckReaction\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXSet\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledge\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledgeID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXReset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXResetID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXHistory\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXClearHistory\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXConfigAlarm\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXConfigMapping\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXQuery\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledgeAll\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAlarmControl\\\" FUB\\n\"");
+#endif
 #ifdef _MBUSTCP_EXPORT
 	__asm__(".ascii \"plcexport \\\"MBslave\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"MBmaster\\\" FUB\\n\"");
@@ -830,5 +1057,5 @@ __asm__(".ascii \"iecfile \\\"Logical/modbusTCP/IDEC_Real/IDEC_Real.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20250410102158_ */
+#endif /* _LIBRARIES_20250411123741_ */
 

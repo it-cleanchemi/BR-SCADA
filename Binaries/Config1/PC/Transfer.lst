@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=3.0?>
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
-  <OperatingSystem Version="B4.93"/>
+  <OperatingSystem Version="J4.93"/>
   <Hardware Target="SG4"/>
   <Operation Delete="Vis.br"/>
   <Operation Delete="Main.br"/>
   <Operation Delete="ModMaster.br"/>
+  <Operation Delete="HA_SysErr.br"/>
+  <Operation Delete="HA_ItemX.br"/>
+  <Operation Delete="HA_Convert.br"/>
+  <Operation Delete="HA_Dir.br"/>
+  <Operation Delete="HA_IO.br"/>
+  <Operation Delete="HA_Version.br"/>
   <Operation Delete="MpCom.br"/>
   <Operation Delete="AsOpcUas.br"/>
   <Operation Delete="mvLoader.br"/>
   <Operation Delete="Str2DtPvdr.br"/>
+  <Operation Delete="HA_AlarmX.br"/>
   <Operation Delete="IDEC_Real.br"/>
   <Operation Delete="MbusTCP.br"/>
+  <Operation Delete="MpAlarmX.br"/>
+  <Operation Delete="dataobj.br"/>
+  <Operation Delete="HA_Array.br"/>
+  <Operation Delete="HA_Str.br"/>
+  <Operation Delete="AsUSB.br"/>
+  <Operation Delete="HA.br"/>
+  <Operation Delete="ArEventLog.br"/>
+  <Operation Delete="ArProject.br"/>
+  <Operation Delete="brsystem.br"/>
   <Operation Delete="MpBase.br"/>
   <Operation Delete="AsTCP.br"/>
   <Operation Delete="AsARCfg.br"/>
@@ -19,7 +35,7 @@
   <Operation Delete="AsIecCon.br"/>
   <Operation Delete="astime.br"/>
   <Operation Delete="AsOpcUac.br"/>
-  <Operation Delete="fileio.br"/>
+  <Operation Delete="FileIO.br"/>
   <Operation Delete="arssl.br"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
   <Operation Download="asfw.br" Memory="SystemROM"/>
@@ -43,13 +59,14 @@
   <Operation Download="ArTextSys.br" Memory="UserROM"/>
   <Operation Download="asstring.br" Memory="UserROM"/>
   <Operation Download="AsBrWStr.br" Memory="UserROM"/>
+  <Operation Download="HA_RAND.br" Memory="UserROM"/>
   <Operation Download="Config.br" Memory="UserROM"/>
   <Operation Download="Config_1.br" Memory="UserROM"/>
   <Operation Download="Config_2.br" Memory="UserROM"/>
   <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="arsvcreg.br" Memory="UserROM"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
-  <Operation Download="fileio.br" Memory="UserROM"/>
+  <Operation Download="FileIO.br" Memory="UserROM"/>
   <Operation Download="AsOpcUac.br" Memory="UserROM"/>
   <Operation Download="astime.br" Memory="UserROM"/>
   <Operation Download="AsIecCon.br" Memory="UserROM"/>
@@ -57,12 +74,28 @@
   <Operation Download="AsARCfg.br" Memory="UserROM"/>
   <Operation Download="AsTCP.br" Memory="UserROM"/>
   <Operation Download="MpBase.br" Memory="UserROM"/>
+  <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="ArProject.br" Memory="UserROM"/>
+  <Operation Download="ArEventLog.br" Memory="UserROM"/>
+  <Operation Download="HA.br" Memory="UserROM"/>
+  <Operation Download="AsUSB.br" Memory="UserROM"/>
+  <Operation Download="HA_Str.br" Memory="UserROM"/>
+  <Operation Download="HA_Array.br" Memory="UserROM"/>
+  <Operation Download="dataobj.br" Memory="UserROM"/>
+  <Operation Download="MpAlarmX.br" Memory="UserROM"/>
   <Operation Download="MbusTCP.br" Memory="UserROM"/>
   <Operation Download="IDEC_Real.br" Memory="UserROM"/>
+  <Operation Download="HA_AlarmX.br" Memory="UserROM"/>
   <Operation Download="Str2DtPvdr.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="AsOpcUas.br" Memory="UserROM"/>
   <Operation Download="MpCom.br" Memory="UserROM"/>
+  <Operation Download="HA_Version.br" Memory="UserROM"/>
+  <Operation Download="HA_IO.br" Memory="UserROM"/>
+  <Operation Download="HA_Dir.br" Memory="UserROM"/>
+  <Operation Download="HA_Convert.br" Memory="UserROM"/>
+  <Operation Download="HA_ItemX.br" Memory="UserROM"/>
+  <Operation Download="HA_SysErr.br" Memory="UserROM"/>
   <Operation Download="ModMaster.br" Memory="UserROM"/>
   <Operation Download="Main.br" Memory="UserROM"/>
   <Operation Download="Vis.br" Memory="UserROM"/>

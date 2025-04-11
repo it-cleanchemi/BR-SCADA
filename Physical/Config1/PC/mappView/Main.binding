@@ -236,5 +236,9 @@
 			<Target xsi:type="brease" contentRefId="Main" widgetRefId="TextOutput1" attribute="value" />
 		</Binding>
 		
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="DropDownBox1" attribute="selectedIndex" />
+</Binding>
+</Bindings>
 </BindingsSet>

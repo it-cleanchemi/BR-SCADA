@@ -8,7 +8,7 @@
   ActivateSdm="true"
   WebServer="true"
   ARMSimulation="False"
-  ArVersion="B4.93">
+  ArVersion="J4.93">
   <ModuleMemoryData>
     <Module
       Name=""
@@ -17,5 +17,5 @@
   <Memories
     PermanentAnalogMemory="0"
     PermanentDigitalMemory="0"
-    VolatileMemory="65535" />
+    VolatileMemory="655350" />
 </ConfigurationOptions>

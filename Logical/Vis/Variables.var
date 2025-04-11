@@ -1,3 +1,4 @@
 VAR
 	IdxSkids : INT;
+	SkidNumberINT : STRING[5];
 END_VAR

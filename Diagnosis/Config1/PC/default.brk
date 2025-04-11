@@ -1,2 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<breakpoints />
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Libraries/HA_AlarmX/HA_AlarmX_CfgModule.st</file>
+    <position>39</position>
+    <condition></condition>
+    <instance></instance>
+    <program>HA_AlarmX</program>
+  </breakpoint>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Libraries/HA_AlarmX/HA_AlarmX_CfgModule.st</file>
+    <position>26</position>
+    <condition></condition>
+    <instance></instance>
+    <program>HA_AlarmX</program>
+  </breakpoint>
+</breakpoints>

@@ -7266,7 +7266,7 @@
 					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_203.P203_ENABLE" attribute="value" />
 					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_203.P203_ENABLE" attribute="value" />
 				</br:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" refId="OverviewEx1_P203_HIDE" attribute="visible" />
 		</Binding></Content>
 			
@@ -7298,7 +7298,7 @@
 					
 					
 				
-			
+
 			
 		
 		
@@ -7332,7 +7332,7 @@
 					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_202.P202_ENABLE" attribute="value" />
 					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_202.P202_ENABLE" attribute="value" />
 				</br:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" refId="OverviewEx1_P202_HIDE" attribute="visible" />
 		</Binding></Content>
 			
@@ -7364,7 +7364,7 @@
 					
 					
 				
-			
+
 			
 		
 		
@@ -7398,7 +7398,7 @@
 					<br:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_201.P201_ENABLE" attribute="value" />
 					<br:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_201.P201_ENABLE" attribute="value" />
 				</br:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" refId="OverviewEx1_P201_HIDE" attribute="visible" />
 		</Binding></Content>
 			
@@ -7430,7 +7430,7 @@
 					
 					
 				
-			
+
 			
 		
 		
@@ -10216,6 +10216,57 @@
 <Source xsi:type="variable" refId="::SYSTEM:clientInfo.userId" attribute="value" />
 <Target xsi:type="brease" refId="OverviewEx1_TextOutput53" attribute="value" />
 </Binding></Content>
+
+
+
+<Content id="OverviewEx1"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Code" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="editable" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Code" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="OverviewEx1"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="editable" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Timestamp" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+
+
+<Content id="OverviewEx1"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="value" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="editable" />
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table_TableItem_Description" attribute="editable::stringValue" />
+</Binding></Content>
+
+
+
+<Content id="OverviewEx1"><Binding mode="twoWay">
+<Source mode="twoWay" xsi:type="listElement">
+				<Selector xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+				<br:List xsi:type="br:opcUa" id="brease*OverviewEx1_Alarms_Active_Table*filterConfiguration">				
+					<br:Element index="0" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[0]" attribute="value" />
+					<br:Element index="1" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[1]" attribute="value" />
+				</br:List>
+</Source>
+<Target xsi:type="brease" refId="OverviewEx1_Alarms_Active_Table" attribute="filterConfiguration" />
+</Binding></Content>
+
+				
+								
+					
+					
+				
 
 
 

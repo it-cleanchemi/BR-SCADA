@@ -7,5 +7,6 @@
     <File Description="Implementation code">ModMaster.st</File>
     <File>CMD.st</File>
     <File>Status.st</File>
+    <File>Alarms.st</File>
   </Files>
 </Program>

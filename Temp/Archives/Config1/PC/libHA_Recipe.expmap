@@ -1,0 +1,6 @@
+{
+  global:
+    HA_Recipe_Helper;
+  local:
+    *;
+ };

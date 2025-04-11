@@ -1,0 +1,7 @@
+{
+  global:
+    HA_Sim_Actuator_Lin;
+    HA_Sim_Actuator_TF;
+  local:
+    *;
+ };

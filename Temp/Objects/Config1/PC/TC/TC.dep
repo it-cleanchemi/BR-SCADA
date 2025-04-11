@@ -18,4 +18,5 @@ $(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/Diagnostics.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/Diagnostics_ConvInIO.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/Diagnostics_WheelIO.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/SkidStatus.tmx
+$(AS_PROJECT_PATH)/Logical/AlarmTexts/SkidAlarms.tmx
 $(AS_PROJECT_PATH)/Logical/Libraries/Project.language

@@ -461,6 +461,19 @@ PROGRAM _INIT
 		ModbusTcpMaster[IdxSkids].p_log 			:= ADR(logger[0,IdxSkids]);				// Pointer to logger string array. The logger information will show communication details. Enable for debugging, disable for production to save system resources.
 		ModbusTcpMaster[IdxSkids].port				:= 510;
 		ModbusTcpMaster[IdxSkids].slave_ip_addr 	:= SLAVE_IP_ADDRESSES[IdxSkids]; 		// Transfer slave device IP address 
+		
+		
+		
+		
+		
+		
+		
+		//Alarming Setup
+		SkidString := INT_TO_STRING(IdxSkids+1);
+		SkidString := CONCAT('Skid',SkidString);
+		
+		gSkid[IdxSkids].initAlarms(MpLink := ADR(gAlarmXCore), Prefix := SkidString, CodePrefix := IdxSkids);
+		
 	END_FOR;
 	
 	StartStop := 1;
@@ -477,6 +490,7 @@ PROGRAM _CYCLIC
 			
 			Modbus_CMD_action;
 			Modbus_Status_action;
+			Alarms_action;
 			
 		END_FOR;
 		

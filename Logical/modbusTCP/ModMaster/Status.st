@@ -163,7 +163,7 @@ ACTION Modbus_Status_action:
 	
 	gSkid[IdxSkids].Sensor_Variables.SERNSORS_CONFIG := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[86];
 	
-	gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[102];
+//	gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[102];
 	gSkid[IdxSkids].Dosing_Alarms.P201_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[104];
 	gSkid[IdxSkids].Dosing_Alarms.P202_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[106];
 	gSkid[IdxSkids].Dosing_Alarms.P203_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[108];

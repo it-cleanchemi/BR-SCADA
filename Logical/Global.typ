@@ -54,6 +54,11 @@ TYPE
 		Dosing_Pump_207 : Dosing_Pump_207_Type;
 		Dosing_Pump_208 : Dosing_Pump_208_Type;
 		VisBool : VisBool_Type;
+		initAlarms : HA_AlarmX_CfgModule;
+		ErrorInfo : Skid_ErrorInfo_typ;
+		LastErrorInfo : Skid_ErrorInfo_typ;
+		tempAlarm : HA_AlarmX_Core_Buffer_typ;
+		Error : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -61,6 +66,11 @@ END_TYPE
 (*Visualization Components*)
 
 TYPE
+	Skid_ErrorInfo_typ : 	STRUCT 
+		State : STRING[80];
+		Text : STRING[255];
+		Severity : USINT;
+	END_STRUCT;
 	Vis_Type : 	STRUCT 
 		Pumps : USINT;
 		Main : Vis_Main_Type;
@@ -369,6 +379,7 @@ TYPE
 		TempINT : INT;
 		TempSTRING : STRING[30];
 		FilterString : ARRAY[0..MAX_SKIDS]OF STRING[80];
+		Test : STRING[200];
 	END_STRUCT;
 	Vis_Alarms_History_typ : 	STRUCT 
 		UIConnect : MpAlarmXHistoryUIConnectType;
@@ -381,6 +392,9 @@ TYPE
 		TableConfig : STRING[255];
 		TempINT : INT;
 		TempSTRING : STRING[30];
+	END_STRUCT;
+	Vis_Main_Internal_Type : 	STRUCT 
+		IP_WSTRING_Temp : WSTRING[80];
 	END_STRUCT;
 	Vis_Main_Out_Type : 	STRUCT 
 		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];

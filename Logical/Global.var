@@ -1,4 +1,5 @@
 VAR
+	gServices : Services_typ;
 	SkidID : USINT;
 	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_Type;
 	gModbus : ARRAY[0..MAX_SKIDS] OF Modbus_Type;
@@ -8,4 +9,8 @@ END_VAR
 VAR RETAIN
 	gPar : Par_Type;
 	gRem : Rem_Type;
+END_VAR
+VAR
+	gAlarmAddData : HA_AlarmX_AlarmExtraData_typ;
+	gErrorReset : BOOL;
 END_VAR

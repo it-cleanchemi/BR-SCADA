@@ -3202,7 +3202,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_203.P203_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_203.P203_ENABLE" />
 				</be:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P203_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -3236,7 +3236,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_202.P202_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_202.P202_ENABLE" />
 				</be:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P202_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -3270,7 +3270,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_201.P201_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_201.P201_ENABLE" />
 				</be:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P201_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -4711,6 +4711,30 @@
 	<Binding mode="oneWay">
 <Source xsi:type="session" refId="::SYSTEM:clientInfo.userId" attribute="value" />
 <Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput53" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
+<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
+<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="value" />
+<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[0]" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[1]" />
+				</be:List>
+</Source>
+<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
 </Binding>
 </Bindings>
 </BindingsSet>

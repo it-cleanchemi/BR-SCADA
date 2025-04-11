@@ -1,13 +1,9 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=7 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                     gIO                                  IO_type    0 "                                                               *"    0   24    1    0    0    1         
-                                  Modbus                              Modbus_type    0 "                                                               *"    1   24    1    0    0    1         
-                               pmax_rate                                     REAL    1 "                                                             0.0"    2    8    1   10    0    0         
-                               pmax_conc                                     REAL    1 "                                                             0.0"    2    8    1   10    0    0         
-                                  msgbox                                     UINT    1 "                                                               0"    2    6    1   10    0    0         
-                              start_stop                                     BOOL    1 "                                                           FALSE"    2    1    1    2    0    0         
-                                 skid_id                                     UINT    1 "                                                               0"    2    6    1   10    0    0         
-                             SkidIDWrite                                     UINT    4 "                                                             200"    2    6    1   10    0    0         
-                               SkidIDAck                                     BOOL    1 "                                                           FALSE"    2    1    1    2    0    0         
-                              SkidIDSend                                     BOOL    3 "                                                           FALSE"    2    1    1    2    0    0         
+                                    gVis                                 Vis_Type    0 "                                                               *"    0   24    1    0    0    1         
+                                  Alarms                          Vis_Alarms_Type    0 "                                                               *"    1   24    1    0    0    1         
+                                  Active                    Vis_Alarms_Active_typ    0 "                                                               *"    2   24    1    0    0    1         
+                            FilterString                         STRING[80][0..1]    0 "                                                               *"    3    9   81    0    0    1         
+                         FilterString[0]                               STRING[80]    0 "         '[{"value":2,"conditionType":"==","columnPosition":1}]'"    4    9   81    1    0    0         
+                         FilterString[1]                               STRING[80]    0 "          '[{"value":2"conditionType":"==","columnPosition":1}]'"    4    9   81    1    0    0         

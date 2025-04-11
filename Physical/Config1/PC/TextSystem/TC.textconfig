@@ -30,7 +30,7 @@
       <Property ID="TargetFile[18]" Value="mappView.Resources.Texts.Diagnostics_ConvInIO.tmx" />
       <Property ID="TargetFile[19]" Value="mappView.Resources.Texts.Diagnostics_WheelIO.tmx" />
       <Property ID="TargetFile[20]" Value="mappView.Resources.Texts.SkidStatus.tmx" />
-      <Property ID="TargetFile[21]" Value="" />
+      <Property ID="TargetFile[21]" Value="AlarmTexts.SkidAlarms.tmx" />
     </Group>
   </Element>
 </Configuration>

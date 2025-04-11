@@ -1,0 +1,12 @@
+{
+  global:
+    HA_Array_PeekTop;
+    HA_Array_AddTop;
+    HA_Array_AddBottom;
+    HA_Array_PeekBtm;
+    HA_Array_Pop;
+    HA_Array_Dequeue;
+    HA_Array_Pack;
+  local:
+    *;
+ };

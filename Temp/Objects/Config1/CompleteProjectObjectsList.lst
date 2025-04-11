@@ -16,7 +16,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133864440436397576"
+    LastWriteTime="133887796698282023"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Constants.var"
@@ -28,7 +28,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133887757115648115"
+    LastWriteTime="133888653269301348"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Enum.typ"
@@ -58,7 +58,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Services.typ"
     LogicalPath="Services.typ"
     Type="File"
-    LastWriteTime="133851580325277237"
+    LastWriteTime="133887794346941974"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\IO.typ"
@@ -70,7 +70,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133887727475063927" />
+    LastWriteTime="133887762554241451" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -510,10 +510,683 @@
     LastWriteTime="133887727474974397"
     Private="false" />
   <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\IEC.lby"
+    LogicalPath="Libraries.HA_IO"
+    Type="Library"
+    LastWriteTime="133887761233937611" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\Types.typ"
+    LogicalPath="Libraries.HA_IO.Types.typ"
+    Type="File"
+    LastWriteTime="133887761233840312"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\Constants.var"
+    LogicalPath="Libraries.HA_IO.Constants.var"
+    Type="File"
+    LastWriteTime="133887761233850930"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\HA_IO.fun"
+    LogicalPath="Libraries.HA_IO.HA_IO.fun"
+    Type="File"
+    LastWriteTime="133887761233861006"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\HA_IO_DI.st"
+    LogicalPath="Libraries.HA_IO.HA_IO_DI.st"
+    Type="File"
+    LastWriteTime="133887761233875100"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\HA_IO_DO.st"
+    LogicalPath="Libraries.HA_IO.HA_IO_DO.st"
+    Type="File"
+    LastWriteTime="133887761233895434"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\HA_IO_AO.st"
+    LogicalPath="Libraries.HA_IO.HA_IO_AO.st"
+    Type="File"
+    LastWriteTime="133887761233915572"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_IO\HA_IO_AI.st"
+    LogicalPath="Libraries.HA_IO.HA_IO_AI.st"
+    Type="File"
+    LastWriteTime="133887761233925449"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA\IEC.lby"
+    LogicalPath="Libraries.HA"
+    Type="Library"
+    LastWriteTime="133887760878677273" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA\Types.typ"
+    LogicalPath="Libraries.HA.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878677273"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA\Constants.var"
+    LogicalPath="Libraries.HA.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878667293"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA\HA.fun"
+    LogicalPath="Libraries.HA.HA.fun"
+    Type="File"
+    LastWriteTime="133887760878667293"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA\CTON.st"
+    LogicalPath="Libraries.HA.CTON.st"
+    Type="File"
+    LastWriteTime="133887760878667293"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Version\IEC.lby"
+    LogicalPath="Libraries.HA_Version"
+    Type="Library"
+    LastWriteTime="133887760879089044" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Version\Types.typ"
+    LogicalPath="Libraries.HA_Version.Types.typ"
+    Type="File"
+    LastWriteTime="133887760879099027"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Version\Constants.var"
+    LogicalPath="Libraries.HA_Version.Constants.var"
+    Type="File"
+    LastWriteTime="133887760879079051"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Version\HA_Version.fun"
+    LogicalPath="Libraries.HA_Version.HA_Version.fun"
+    Type="File"
+    LastWriteTime="133887760879089044"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Version\IdentifyConfig.st"
+    LogicalPath="Libraries.HA_Version.IdentifyConfig.st"
+    Type="File"
+    LastWriteTime="133887760879099027"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\IEC.lby"
+    LogicalPath="Libraries.HA_Dir"
+    Type="Library"
+    LastWriteTime="133887760878818949" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\Types.typ"
+    LogicalPath="Libraries.HA_Dir.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878818949"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\Constants.var"
+    LogicalPath="Libraries.HA_Dir.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878787305"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_Dir.fun"
+    LogicalPath="Libraries.HA_Dir.HA_Dir.fun"
+    Type="File"
+    LastWriteTime="133887760878787305"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_DirMake.st"
+    LogicalPath="Libraries.HA_Dir.HA_DirMake.st"
+    Type="File"
+    LastWriteTime="133887760878787305"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_DirSanitize.st"
+    LogicalPath="Libraries.HA_Dir.HA_DirSanitize.st"
+    Type="File"
+    LastWriteTime="133887760878807348"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_Dir_USB_Connect.st"
+    LogicalPath="Libraries.HA_Dir.HA_Dir_USB_Connect.st"
+    Type="File"
+    LastWriteTime="133887760878818949"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_Dir_Transfer.st"
+    LogicalPath="Libraries.HA_Dir.HA_Dir_Transfer.st"
+    Type="File"
+    LastWriteTime="133887760878807348"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Dir\HA_DirReadAll.st"
+    LogicalPath="Libraries.HA_Dir.HA_DirReadAll.st"
+    Type="File"
+    LastWriteTime="133887760878797332"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\IEC.lby"
+    LogicalPath="Libraries.HA_Convert"
+    Type="Library"
+    LastWriteTime="133887760878777294" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\Types.typ"
+    LogicalPath="Libraries.HA_Convert.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878777294"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\Constants.var"
+    LogicalPath="Libraries.HA_Convert.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878757300"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\HA_Convert.fun"
+    LogicalPath="Libraries.HA_Convert.HA_Convert.fun"
+    Type="File"
+    LastWriteTime="133887760878757300"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\HA_DT_Formatter.st"
+    LogicalPath="Libraries.HA_Convert.HA_DT_Formatter.st"
+    Type="File"
+    LastWriteTime="133887760878767279"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Convert\HA_DT_Parser.st"
+    LogicalPath="Libraries.HA_Convert.HA_DT_Parser.st"
+    Type="File"
+    LastWriteTime="133887760878767279"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Str\IEC.lby"
+    LogicalPath="Libraries.HA_Str"
+    Type="Library"
+    LastWriteTime="133887760878989035" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Str\Types.typ"
+    LogicalPath="Libraries.HA_Str.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878999020"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Str\Constants.var"
+    LogicalPath="Libraries.HA_Str.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878989035"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Str\HA_Str.fun"
+    LogicalPath="Libraries.HA_Str.HA_Str.fun"
+    Type="File"
+    LastWriteTime="133887760878989035"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Str\HA_brsstrcat.st"
+    LogicalPath="Libraries.HA_Str.HA_brsstrcat.st"
+    Type="File"
+    LastWriteTime="133887760878989035"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\IEC.lby"
+    LogicalPath="Libraries.HA_AlarmX"
+    Type="Library"
+    LastWriteTime="133887760878697306" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\Types.typ"
+    LogicalPath="Libraries.HA_AlarmX.Types.typ"
+    Type="File"
+    LastWriteTime="133887765358962395"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\Constants.var"
+    LogicalPath="Libraries.HA_AlarmX.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878677273"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\HA_AlarmX.fun"
+    LogicalPath="Libraries.HA_AlarmX.HA_AlarmX.fun"
+    Type="File"
+    LastWriteTime="133887760878687271"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\HA_AlarmX_Helper.st"
+    LogicalPath="Libraries.HA_AlarmX.HA_AlarmX_Helper.st"
+    Type="File"
+    LastWriteTime="133887760878687271"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\HA_AlarmXCore.st"
+    LogicalPath="Libraries.HA_AlarmX.HA_AlarmXCore.st"
+    Type="File"
+    LastWriteTime="133887760878687271"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_AlarmX\HA_AlarmX_CfgModule.st"
+    LogicalPath="Libraries.HA_AlarmX.HA_AlarmX_CfgModule.st"
+    Type="File"
+    LastWriteTime="133888701605696415"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\IEC.lby"
+    LogicalPath="Libraries.HA_ItemX"
+    Type="Library"
+    LastWriteTime="133887760878909091" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\Types.typ"
+    LogicalPath="Libraries.HA_ItemX.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878919030"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\Constants.var"
+    LogicalPath="Libraries.HA_ItemX.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878859018"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX.fun"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX.fun"
+    Type="File"
+    LastWriteTime="133887760878859018"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_FirstOpenIndex.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_FirstOpenIndex.st"
+    Type="File"
+    LastWriteTime="133887760878869058"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_UID_TO_Index.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_UID_TO_Index.st"
+    Type="File"
+    LastWriteTime="133887760878899110"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_DeleteByUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_DeleteByUID.st"
+    Type="File"
+    LastWriteTime="133887760878869058"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_DeleteByIndex.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_DeleteByIndex.st"
+    Type="File"
+    LastWriteTime="133887760878869058"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_IndexLowestUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_IndexLowestUID.st"
+    Type="File"
+    LastWriteTime="133887760878889060"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_IndexHighestUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_IndexHighestUID.st"
+    Type="File"
+    LastWriteTime="133887760878879045"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_Reorder_HighToLowUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_Reorder_HighToLowUID.st"
+    Type="File"
+    LastWriteTime="133887760878889060"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_Reorder_LowToHighUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_Reorder_LowToHighUID.st"
+    Type="File"
+    LastWriteTime="133887760878899110"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_Sanitize.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_Sanitize.st"
+    Type="File"
+    LastWriteTime="133887760878899110"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_IncrementUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_IncrementUID.st"
+    Type="File"
+    LastWriteTime="133887760878879045"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_AddElem.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_AddElem.st"
+    Type="File"
+    LastWriteTime="133887760878859018"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_ModElemByUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_ModElemByUID.st"
+    Type="File"
+    LastWriteTime="133887760878889060"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_ModElemByIndex.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_ModElemByIndex.st"
+    Type="File"
+    LastWriteTime="133887760878889060"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_GetElemByUID.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_GetElemByUID.st"
+    Type="File"
+    LastWriteTime="133887760878879045"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_ItemX\HA_ItemX_GetElemByIndex.st"
+    LogicalPath="Libraries.HA_ItemX.HA_ItemX_GetElemByIndex.st"
+    Type="File"
+    LastWriteTime="133887760878869058"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\ANSIC.lby"
+    LogicalPath="Libraries.HA_RAND"
+    Type="Library"
+    LastWriteTime="133887760878919030" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\Types.typ"
+    LogicalPath="Libraries.HA_RAND.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878939031"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\Constants.var"
+    LogicalPath="Libraries.HA_RAND.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878919030"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\HA_RAND.fun"
+    LogicalPath="Libraries.HA_RAND.HA_RAND.fun"
+    Type="File"
+    LastWriteTime="133887760878929028"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\SRAND.c"
+    LogicalPath="Libraries.HA_RAND.SRAND.c"
+    Type="File"
+    LastWriteTime="133887760878939031"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\RAND.c"
+    LogicalPath="Libraries.HA_RAND.RAND.c"
+    Type="File"
+    LastWriteTime="133887760878929028"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\RRAND.c"
+    LogicalPath="Libraries.HA_RAND.RRAND.c"
+    Type="File"
+    LastWriteTime="133887760878939031"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_RAND\DRAND.c"
+    LogicalPath="Libraries.HA_RAND.DRAND.c"
+    Type="File"
+    LastWriteTime="133887760878929028"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArEventLog\binary.lby"
+    LogicalPath="Libraries.ArEventLog"
+    Type="Library"
+    LastWriteTime="133887760878587333" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArEventLog\ArEventLog.fun"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.fun"
+    Type="File"
+    LastWriteTime="133887760878535734"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArEventLog\ArEventLog.typ"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.typ"
+    Type="File"
+    LastWriteTime="133887760878545839"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArEventLog\ArEventLog.var"
+    LogicalPath="Libraries.ArEventLog.ArEventLog.var"
+    Type="File"
+    LastWriteTime="133887760878557194"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArProject\binary.lby"
+    LogicalPath="Libraries.ArProject"
+    Type="Library"
+    LastWriteTime="133887760878607274" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArProject\ArProject.fun"
+    LogicalPath="Libraries.ArProject.ArProject.fun"
+    Type="File"
+    LastWriteTime="133887760878587333"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArProject\ArProject.typ"
+    LogicalPath="Libraries.ArProject.ArProject.typ"
+    Type="File"
+    LastWriteTime="133887760878597380"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\ArProject\ArProject.var"
+    LogicalPath="Libraries.ArProject.ArProject.var"
+    Type="File"
+    LastWriteTime="133887760878597380"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\brsystem\binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="133887760879129044" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="133887760879129044"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="133887760879129044"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="133887760879139041"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\FileIO\binary.lby"
+    LogicalPath="Libraries.FileIO"
+    Type="Library"
+    LastWriteTime="133887760878657274" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\FileIO\FileIO.fun"
+    LogicalPath="Libraries.FileIO.FileIO.fun"
+    Type="File"
+    LastWriteTime="133887760878647273"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\FileIO\FileIO.typ"
+    LogicalPath="Libraries.FileIO.FileIO.typ"
+    Type="File"
+    LastWriteTime="133887760878647273"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\FileIO\FileIO.var"
+    LogicalPath="Libraries.FileIO.FileIO.var"
+    Type="File"
+    LastWriteTime="133887760878657274"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsUSB\binary.lby"
+    LogicalPath="Libraries.AsUSB"
+    Type="Library"
+    LastWriteTime="133887760878637332" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsUSB\AsUSB.fun"
+    LogicalPath="Libraries.AsUSB.AsUSB.fun"
+    Type="File"
+    LastWriteTime="133887760878617292"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsUSB\AsUSB.typ"
+    LogicalPath="Libraries.AsUSB.AsUSB.typ"
+    Type="File"
+    LastWriteTime="133887760878617292"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\AsUSB\AsUSB.var"
+    LogicalPath="Libraries.AsUSB.AsUSB.var"
+    Type="File"
+    LastWriteTime="133887760878627306"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\IEC.lby"
+    LogicalPath="Libraries.HA_Array"
+    Type="Library"
+    LastWriteTime="133887760878747307" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\Types.typ"
+    LogicalPath="Libraries.HA_Array.Types.typ"
+    Type="File"
+    LastWriteTime="133887760878747307"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\Constants.var"
+    LogicalPath="Libraries.HA_Array.Constants.var"
+    Type="File"
+    LastWriteTime="133887760878697306"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array.fun"
+    LogicalPath="Libraries.HA_Array.HA_Array.fun"
+    Type="File"
+    LastWriteTime="133887760878707276"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_AddTop.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_AddTop.st"
+    Type="File"
+    LastWriteTime="133887760878707276"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_AddBottom.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_AddBottom.st"
+    Type="File"
+    LastWriteTime="133887760878707276"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_PeekTop.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_PeekTop.st"
+    Type="File"
+    LastWriteTime="133887760878737354"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_PeekBtm.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_PeekBtm.st"
+    Type="File"
+    LastWriteTime="133887760878727317"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_Pop.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_Pop.st"
+    Type="File"
+    LastWriteTime="133887760878737354"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_Dequeue.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_Dequeue.st"
+    Type="File"
+    LastWriteTime="133887760878717291"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_Array\HA_Array_Pack.st"
+    LogicalPath="Libraries.HA_Array.HA_Array_Pack.st"
+    Type="File"
+    LastWriteTime="133887760878727317"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\IEC.lby"
+    LogicalPath="Libraries.HA_SysErr"
+    Type="Library"
+    LastWriteTime="133887760879069118" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\Types.typ"
+    LogicalPath="Libraries.HA_SysErr.Types.typ"
+    Type="File"
+    LastWriteTime="133887760879079051"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\Constants.var"
+    LogicalPath="Libraries.HA_SysErr.Constants.var"
+    Type="File"
+    LastWriteTime="133887760879009035"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\HA_SysErr.fun"
+    LogicalPath="Libraries.HA_SysErr.HA_SysErr.fun"
+    Type="File"
+    LastWriteTime="133887760879009035"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\HA_SysErr_Lookup.st"
+    LogicalPath="Libraries.HA_SysErr.HA_SysErr_Lookup.st"
+    Type="File"
+    LastWriteTime="133887760879069118"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\HA_SysErr_Log.st"
+    LogicalPath="Libraries.HA_SysErr.HA_SysErr_Log.st"
+    Type="File"
+    LastWriteTime="133887760879059086"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\HA_SysErr.tmx"
+    LogicalPath="Libraries.HA_SysErr.HA_SysErr.tmx"
+    Type="File"
+    LastWriteTime="133887760879059086"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\HA_SysErr\ConfigSetup.PNG"
+    LogicalPath="Libraries.HA_SysErr.ConfigSetup.PNG"
+    Type="File"
+    LastWriteTime="133887760878999020"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\MpAlarmX\Binary.lby"
+    LogicalPath="Libraries.MpAlarmX"
+    Type="Library"
+    LastWriteTime="133887762554123597" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\MpAlarmX\MpAlarmX.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.typ"
+    Type="File"
+    LastWriteTime="133887762554090957"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\MpAlarmX\MpAlarmXError.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmXError.typ"
+    Type="File"
+    LastWriteTime="133887762554101059"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Libraries\MpAlarmX\MpAlarmX.fun"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.fun"
+    Type="File"
+    LastWriteTime="133887762554111050"
+    Private="false" />
+  <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\Package.pkg"
     LogicalPath="modbusTCP"
     Type="Package"
-    LastWriteTime="133868707750511627" />
+    LastWriteTime="133887788406405682" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\MbusTCP\ANSIC.lby"
     LogicalPath="modbusTCP.MbusTCP"
@@ -565,7 +1238,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\IEC.prg"
     LogicalPath="modbusTCP.ModMaster"
     Type="Program"
-    LastWriteTime="133855823735691252" />
+    LastWriteTime="133887788406889292" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ"
     LogicalPath="modbusTCP.ModMaster.ModMaster.typ"
@@ -576,13 +1249,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var"
     LogicalPath="modbusTCP.ModMaster.ModMaster.var"
     Type="File"
-    LastWriteTime="133862668416138217"
+    LastWriteTime="133888626475940725"
     Private="true" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st"
     LogicalPath="modbusTCP.ModMaster.ModMaster.st"
     Type="File"
-    LastWriteTime="133876452861175969"
+    LastWriteTime="133888645657496966"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st"
@@ -594,7 +1267,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st"
     LogicalPath="modbusTCP.ModMaster.Status.st"
     Type="File"
-    LastWriteTime="133880025725194663"
+    LastWriteTime="133887789587537011"
+    Private="false" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Alarms.st"
+    LogicalPath="modbusTCP.ModMaster.Alarms.st"
+    Type="File"
+    LastWriteTime="133888698871916348"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IEC.lby"
@@ -623,7 +1302,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\IEC.prg"
     LogicalPath="Main"
     Type="Program"
-    LastWriteTime="133887715496494779" />
+    LastWriteTime="133887788381289369" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Main.st"
     LogicalPath="Main.Main.st"
@@ -647,12 +1326,6 @@
     LogicalPath="Main.Methods.uam"
     Type="File"
     LastWriteTime="133851580325257189"
-    Private="false" />
-  <Object
-    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Alarms.st"
-    LogicalPath="Main.Alarms.st"
-    Type="File"
-    LastWriteTime="133887725079525360"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Package.pkg"
@@ -1235,7 +1908,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Resources\Themes\HartfielTheme\brease\HartfielDefaultStyles.styles"
     LogicalPath="mappView.Resources.Themes.HartfielTheme.brease.HartfielDefaultStyles.styles"
     Type="File"
-    LastWriteTime="133887041968063106"
+    LastWriteTime="133888595761310716"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Resources\Themes\HartfielTheme\brease\Custom.styles"
@@ -2696,13 +3369,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Main\OverviewEx1.content"
     LogicalPath="mappView.Visualization.Pages.Page_Main.OverviewEx1.content"
     Type="File"
-    LastWriteTime="133887048565143743"
+    LastWriteTime="133888622192465692"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Main\Main.content"
     LogicalPath="mappView.Visualization.Pages.Page_Main.Main.content"
     Type="File"
-    LastWriteTime="133887018145757425"
+    LastWriteTime="133888619817199395"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Process\Package.pkg"
@@ -2841,7 +3514,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Alarms\Alarms_Active.content"
     LogicalPath="mappView.Visualization.Pages.Page_Alarms.Alarms_Active.content"
     Type="File"
-    LastWriteTime="133887745992213205"
+    LastWriteTime="133888611316382155"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Alarms\Alarms_History.content"
@@ -3245,12 +3918,12 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\IEC.prg"
     LogicalPath="Vis"
     Type="Program"
-    LastWriteTime="133851580325297330" />
+    LastWriteTime="133887783503134201" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Main.st"
     LogicalPath="Vis.Main.st"
     Type="File"
-    LastWriteTime="133882694874338890"
+    LastWriteTime="133888613947225371"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Types.typ"
@@ -3262,19 +3935,25 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Variables.var"
     LogicalPath="Vis.Variables.var"
     Type="File"
-    LastWriteTime="133851580325297330"
+    LastWriteTime="133887777502167039"
     Private="true" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Methods.uam"
     LogicalPath="Vis.Methods.uam"
     Type="File"
-    LastWriteTime="133851580325297330"
+    LastWriteTime="133887773119481479"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\Package.pkg"
     LogicalPath="AlarmTexts"
     Type="Package"
-    LastWriteTime="133882531953478162" />
+    LastWriteTime="133888665002695565" />
+  <Object
+    Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\SkidAlarms.tmx"
+    LogicalPath="AlarmTexts.SkidAlarms.tmx"
+    Type="File"
+    LastWriteTime="133888694904161708"
+    Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
@@ -3284,7 +3963,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133882662990490121"
+    LastWriteTime="133887765877146950"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Hardware.hwl"
@@ -3296,12 +3975,12 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133887751911500806" />
+    LastWriteTime="133888702150929291" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="133887727477380672"
+    LastWriteTime="133887762555188699"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.per"
@@ -3335,7 +4014,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133887745627579182"
+    LastWriteTime="133888670640231195"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\TextSystem\Package.pkg"
@@ -3346,7 +4025,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\TextSystem\TC.textconfig"
     LogicalPath="Config1.PC.TextSystem.TC.textconfig"
     Type="File"
-    LastWriteTime="133882532723137035"
+    LastWriteTime="133888665049405443"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\UnitSystem\Package.pkg"
@@ -3456,7 +4135,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config_1.mpalarmxcore"
     LogicalPath="Config1.PC.mappServices.Config_1.mpalarmxcore"
     Type="File"
-    LastWriteTime="133864438997560448"
+    LastWriteTime="133887787398582839"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappServices\Config_2.mpalarmxhistory"
@@ -3488,7 +4167,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Visualizat.vis"
     LogicalPath="Config1.PC.mappView.Visualizat.vis"
     Type="File"
-    LastWriteTime="133887751020880985"
+    LastWriteTime="133888615884752168"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Config.mappviewcfg"
@@ -3512,7 +4191,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Main.binding"
     LogicalPath="Config1.PC.mappView.Main.binding"
     Type="File"
-    LastWriteTime="133887057765811542"
+    LastWriteTime="133888619817199395"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.eventbinding"
@@ -3524,7 +4203,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\OverviewEx1.binding"
     LogicalPath="Config1.PC.mappView.OverviewEx1.binding"
     Type="File"
-    LastWriteTime="133887048565224139"
+    LastWriteTime="133888615884503853"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\P201_Status_Content.eventbinding"
@@ -3596,7 +4275,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Alarms_Active.binding"
     LogicalPath="Config1.PC.mappView.Alarms_Active.binding"
     Type="File"
-    LastWriteTime="133887746176185214"
+    LastWriteTime="133888611316422173"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\mappView\Alarms_Active.eventbinding"

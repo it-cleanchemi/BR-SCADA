@@ -888,7 +888,7 @@
 		headerTextColor="#D1F2FF" 
 		headerBackColor="#888888" 
 		activeTextColor="#111111" 
-		activeBackColor="#000000" 
+		activeBackColor="#0096a9" 
 		backColorOddRow="#555555" 
 		backColorEvenRow="#333333"
 		textColor="#111111" 

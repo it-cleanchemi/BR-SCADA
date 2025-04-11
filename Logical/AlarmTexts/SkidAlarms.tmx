@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="ErrorText.DosingAlarm2">
+      <tuv xml:lang="en">
+        <seg>This Is Dosing Alarm 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.DosingAlarm1">
+      <tuv xml:lang="en">
+        <seg>This Is Dosing Alarm 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.DosingAlarm0">
+      <tuv xml:lang="en">
+        <seg>This is Dosing Alarm 0</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Warning">
+      <tuv xml:lang="en">
+        <seg>Warning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Error">
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Severity5">
+      <tuv xml:lang="en">
+        <seg>S5; Unit: Skid; Error: {=$IAT/ErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; AlarmType: {=$IAT/Alarm.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Severity4">
+      <tuv xml:lang="en">
+        <seg>S4; Unit: Skid; Error: {=$IAT/ErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; AlarmType: {=$IAT/Alarm.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Severity3">
+      <tuv xml:lang="en">
+        <seg>S3; Unit: Skid; Error: {=$IAT/ErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; AlarmType: {=$IAT/Alarm.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Severity2">
+      <tuv xml:lang="en">
+        <seg>S2; Unit: Skid; Error: {=$IAT/ErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; AlarmType: {=$IAT/Alarm.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm.Severity1">
+      <tuv xml:lang="en">
+        <seg>S1; Unit: Skid; Error: {=$IAT/ErrorText.{#::AsGlobalPV:gAlarmAddData.AddData[1]}}; AlarmType: {=$IAT/Alarm.{#::AsGlobalPV:gAlarmAddData.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

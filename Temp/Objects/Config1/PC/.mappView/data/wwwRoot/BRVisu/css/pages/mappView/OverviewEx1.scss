@@ -2965,20 +2965,6 @@
 }
 #OverviewEx1_TextOutput50 {	@include text-alignment-all('center');
 }
-#OverviewEx1_Rectangle25 {	@include elemTop(20);
-}
-#OverviewEx1_Rectangle25 {	@include elemLeft(1180);
-}
-#OverviewEx1_Rectangle25 {	@include elemWidth(440);
-}
-#OverviewEx1_Rectangle25 {	@include elemHeight(60);
-}
-#OverviewEx1_Rectangle25 {	z-index: 246;
-}
-#OverviewEx1_Rectangle25 {	border-width: 2px;
-}
-#OverviewEx1_Rectangle25 {	background-color: rgba(255, 255, 255, 1);
-}
 #OverviewEx1_TextOutput51 {	@include elemTop(20);
 }
 #OverviewEx1_TextOutput51 {	@include elemLeft(1640);
@@ -2987,7 +2973,7 @@
 }
 #OverviewEx1_TextOutput51 {	@include elemAutoHeight(60);
 }
-#OverviewEx1_TextOutput51 {	z-index: 247;
+#OverviewEx1_TextOutput51 {	z-index: 246;
 }
 #OverviewEx1_TextOutput51 {	border-width: 2px;
 }
@@ -3023,7 +3009,7 @@
 }
 #OverviewEx1_TextOutput52 {	@include elemLeft(540);
 }
-#OverviewEx1_TextOutput52 {	z-index: 248;
+#OverviewEx1_TextOutput52 {	z-index: 247;
 }
 #OverviewEx1_TextOutput52 {	@include text-alignment-all('center');
 }
@@ -3035,7 +3021,7 @@
 }
 #OverviewEx1_PB_Write_P10 {	@include elemAutoHeight(19);
 }
-#OverviewEx1_PB_Write_P10 {	z-index: 249;
+#OverviewEx1_PB_Write_P10 {	z-index: 248;
 }
 #OverviewEx1_PB_Write_P11 {	@include elemAutoWidth(100);
 }
@@ -3045,7 +3031,7 @@
 }
 #OverviewEx1_PB_Write_P11 {	@include elemAutoHeight(19);
 }
-#OverviewEx1_PB_Write_P11 {	z-index: 250;
+#OverviewEx1_PB_Write_P11 {	z-index: 249;
 }
 #OverviewEx1_Ellipse3 {	@include elemTop(335);
 }
@@ -3055,7 +3041,7 @@
 }
 #OverviewEx1_Ellipse3 {	@include elemHeight(20);
 }
-#OverviewEx1_Ellipse3 {	z-index: 251;
+#OverviewEx1_Ellipse3 {	z-index: 250;
 }
 #OverviewEx1_LSHH200 {	@include elemTop(335);
 }
@@ -3065,7 +3051,7 @@
 }
 #OverviewEx1_LSHH200 {	@include elemHeight(20);
 }
-#OverviewEx1_LSHH200 {	z-index: 252;
+#OverviewEx1_LSHH200 {	z-index: 251;
 }
 #OverviewEx1_LSHH200 {	background-color: rgba(0, 150, 169, 1);
 }
@@ -3077,7 +3063,7 @@
 }
 #OverviewEx1_P102_LS {	@include elemHeight(20);
 }
-#OverviewEx1_P102_LS {	z-index: 253;
+#OverviewEx1_P102_LS {	z-index: 252;
 }
 #OverviewEx1_P102_LS {	background-color: rgba(0, 150, 169, 1);
 }
@@ -3089,7 +3075,7 @@
 }
 #OverviewEx1_P103_LS {	@include elemHeight(20);
 }
-#OverviewEx1_P103_LS {	z-index: 254;
+#OverviewEx1_P103_LS {	z-index: 253;
 }
 #OverviewEx1_P103_LS {	background-color: rgba(0, 150, 169, 1);
 }
@@ -3101,7 +3087,7 @@
 }
 #OverviewEx1_LSHH201 {	@include elemHeight(20);
 }
-#OverviewEx1_LSHH201 {	z-index: 255;
+#OverviewEx1_LSHH201 {	z-index: 254;
 }
 #OverviewEx1_LSHH201 {	background-color: rgba(255, 255, 255, 0);
 }
@@ -3113,5 +3099,53 @@
 }
 #OverviewEx1_TextOutput53 {	@include elemLeft(1420);
 }
-#OverviewEx1_TextOutput53 {	z-index: 256;
+#OverviewEx1_TextOutput53 {	z-index: 255;
+}
+#OverviewEx1_Alarms_Active_Table {	@include elemTop(20);
+}
+#OverviewEx1_Alarms_Active_Table {	@include elemLeft(1170);
+}
+#OverviewEx1_Alarms_Active_Table {	@include elemWidth(480);
+}
+#OverviewEx1_Alarms_Active_Table {	@include elemHeight(80);
+}
+#OverviewEx1_Alarms_Active_Table {	z-index: 256;
+}
+#OverviewEx1_Alarms_Active_Table {	&:not(.disabled).breaseTable .horizontalOrientation .dataTables_scrollBody .tableCells tbody tr.odd td[input=true].activeInput.selected:not(.disabled) {
+		color: rgba(0, 255, 255, 1);
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	&:not(.disabled).breaseTable .verticalOrientation .dataTables_scrollBody .tableCells tbody tr.odd.selected td[input=true].activeInput.selected:not(.disabled) {
+		color: rgba(0, 255, 255, 1);
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	&:not(.disabled).breaseTable .horizontalOrientation .dataTables_scrollBody .tableCells tbody tr.even td[input=true].activeInput.selected:not(.disabled) {
+		color: rgba(0, 255, 255, 1);
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	&:not(.disabled).breaseTable .verticalOrientation .dataTables_scrollBody .tableCells tbody tr.even.selected td[input=true].activeInput.selected:not(.disabled) {
+		color: rgba(0, 255, 255, 1);
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	&.breaseTable .horizontalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	&.breaseTable .verticalOrientation .dataTables_scrollBody .tableCells tbody tr td:not(.override) {
+		padding: 5px;
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	.tableCells tbody tr td:not(.override) {
+		font-size: 14px;
+	}
+}
+#OverviewEx1_Alarms_Active_Table {	.tableHeader div:not(.override) {
+		font-size: 16px;
+	}
+}
+#OverviewEx1_Alarms_Active_Table_TableItem_Timestamp {	z-index: 2;
+}
+#OverviewEx1_Alarms_Active_Table_TableItem_Code {	z-index: 0;
+}
+#OverviewEx1_Alarms_Active_Table_TableItem_Description {	z-index: 1;
 }

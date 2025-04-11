@@ -1,6 +1,6 @@
 SHELL := cmd.exe
 
-export AS_BUILD_MODE := BuildAndTransfer
+export AS_BUILD_MODE := BuildAndCreateCompactFlash
 export AS_SYSTEM_PATH := C:/Program\ Files/BRAutomation4/AS/System
 export AS_BIN_PATH := C:/Program Files/BRAutomation4/AS412/bin-en
 export AS_INSTALL_PATH := C:/Program\ Files/BRAutomation4/AS412

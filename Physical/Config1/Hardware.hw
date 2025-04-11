@@ -12,6 +12,7 @@
       <Parameter ID="SlaveDiagnostics" Value="1" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
+    <Parameter ID="VolatileGlobalPvSize" Value="655350" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="0" />
     <Group ID="FileDevice1" />

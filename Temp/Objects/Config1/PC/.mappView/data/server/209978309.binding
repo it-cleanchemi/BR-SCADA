@@ -286,5 +286,12 @@
 			
 		
 		
-	
+	<Content id="Main"><Binding mode="twoWay">
+<Source xsi:type="variable" refId="SelectedSkidIndx" attribute="value" />
+<Target xsi:type="brease" refId="Main_DropDownBox1" attribute="selectedIndex" />
+</Binding></Content>
+
+
+
+
 </BindingDefinition>

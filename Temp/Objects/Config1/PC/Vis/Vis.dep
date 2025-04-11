@@ -1,6 +1,16 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Str2DtPvdr/Str2DtPvdr.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun
 $(AS_PROJECT_PATH)/Logical/Vis/Variables.var
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_AlarmX/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmXError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HA/HA.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_AlarmX/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_AlarmX/HA_AlarmX.fun

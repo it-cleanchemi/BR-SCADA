@@ -26,4 +26,5 @@ VAR
 	IdxReals : INT := 0;
 	IdxUINTS : INT := 0;
 	IdxSkids : INT;
+	SkidString : STRING[80];
 END_VAR

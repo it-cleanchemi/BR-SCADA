@@ -22,12 +22,11 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged	:= TRUE;
 			
 			1: 
-				internal.AlarmName														:= Prefix;
-				HA_brsstrcat(ADR(internal.AlarmName), ADR('Severity1'), SIZEOF(internal.AlarmName));
+				internal.AlarmName 														:= 'Severity1';
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
-				internal.AlarmCfg.Code													:= CodePrefix + 1;
+				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 1;
 				internal.AlarmCfg.Behavior.AutoReset									:= TRUE;
 				internal.AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
@@ -42,7 +41,7 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
-				internal.AlarmCfg.Code													:= CodePrefix + 2;
+				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 2;
 				internal.AlarmCfg.Behavior.AutoReset									:= TRUE;
 				internal.AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
@@ -57,7 +56,7 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
-				internal.AlarmCfg.Code													:= CodePrefix + 3;
+				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 3;
 				internal.AlarmCfg.Behavior.AutoReset									:= TRUE;
 				internal.AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
@@ -72,7 +71,7 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
-				internal.AlarmCfg.Code													:= CodePrefix + 4;
+				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 4;
 				internal.AlarmCfg.Behavior.AutoReset									:= TRUE;
 				internal.AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
@@ -87,7 +86,7 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 				internal.AlarmCfg.Message												:= '{$$IAT/Alarm.';
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR(internal.AlarmName), SIZEOF(internal.AlarmCfg.Message));
 				HA_brsstrcat(ADR(internal.AlarmCfg.Message), ADR('}'), SIZEOF(internal.AlarmCfg.Message));
-				internal.AlarmCfg.Code													:= CodePrefix + 5;
+				internal.AlarmCfg.Code													:= CodePrefix;
 				internal.AlarmCfg.Severity												:= 5;
 				internal.AlarmCfg.Behavior.AutoReset									:= TRUE;
 				internal.AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
