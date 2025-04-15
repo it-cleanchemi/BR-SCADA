@@ -302,5 +302,21 @@ ACTION Modbus_Status_action:
 	// AS Block 11 - 7000 DOSING REAL - SPARE
 	//:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_Dosing.Block11_Real[0]);
 	
+	// AS Block 48 - ALARMS
+	gSkid[IdxSkids].Alarms.ALARM_AB1 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[0];
+	gSkid[IdxSkids].Alarms.ALARM_AB2 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[1];
+	gSkid[IdxSkids].Alarms.ALARM_AB3 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[2];
+	gSkid[IdxSkids].Alarms.ALARM_AB4 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[3];
+	gSkid[IdxSkids].Alarms.ALARM_AB5 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[4];
+	gSkid[IdxSkids].Alarms.ALARM_AB6 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[5];
+	gSkid[IdxSkids].Alarms.ALARM_AB7 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[6];
+	gSkid[IdxSkids].Alarms.ALARM_AB8 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[7];
+	gSkid[IdxSkids].Alarms.ALARM_P102 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[13];
+	gSkid[IdxSkids].Alarms.ALARM_P103 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[14];
+	gSkid[IdxSkids].Alarms.ALARM_P104 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[15];
+	gSkid[IdxSkids].Alarms.ALARM_P201 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[16];
+	gSkid[IdxSkids].Alarms.ALARM_P202 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[17];
+	gSkid[IdxSkids].Alarms.ALARM_P203 := gModbus[IdxSkids].Modbus_Alarms.Block1_Int[18];
+	
 
 END_ACTION

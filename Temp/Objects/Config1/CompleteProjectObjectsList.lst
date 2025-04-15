@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.6.106"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
 <Objects>
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Package.pkg"
@@ -28,7 +28,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133888653269301348"
+    LastWriteTime="133892236958466061"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Enum.typ"
@@ -1255,7 +1255,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.st"
     LogicalPath="modbusTCP.ModMaster.ModMaster.st"
     Type="File"
-    LastWriteTime="133888765155504388"
+    LastWriteTime="133892029398646928"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\CMD.st"
@@ -1267,13 +1267,13 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Status.st"
     LogicalPath="modbusTCP.ModMaster.Status.st"
     Type="File"
-    LastWriteTime="133887789587537011"
+    LastWriteTime="133892130852355157"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\Alarms.st"
     LogicalPath="modbusTCP.ModMaster.Alarms.st"
     Type="File"
-    LastWriteTime="133888778474566672"
+    LastWriteTime="133892236676366508"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\IDEC_Real\IEC.lby"
@@ -3375,7 +3375,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Main\Main.content"
     LogicalPath="mappView.Visualization.Pages.Page_Main.Main.content"
     Type="File"
-    LastWriteTime="133888619817199395"
+    LastWriteTime="133891146092921827"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\mappView\Visualization\Pages\Page_Process\Package.pkg"
@@ -3952,7 +3952,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\AlarmTexts\SkidAlarms.tmx"
     LogicalPath="AlarmTexts.SkidAlarms.tmx"
     Type="File"
-    LastWriteTime="133888778254711113"
+    LastWriteTime="133892236417507114"
     Private="false" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\Config.pkg"
@@ -3975,7 +3975,7 @@
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133888779342727798" />
+    LastWriteTime="133892137521839775" />
   <Object
     Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"

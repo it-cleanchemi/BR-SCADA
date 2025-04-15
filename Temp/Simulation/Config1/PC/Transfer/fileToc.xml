@@ -818,7 +818,7 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1562135" HashValue="4BE0FC32DD911401B066AC4AFEC44B03" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="624825" HashValue="977CC18D04DF100B44A733B46F4F907B" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="624825" HashValue="9451FACE48D1D7DA68366B357087B1BD" ProjectDependent="1"/>
 							<File Name="HartfielTheme.min.css" Size="180896" HashValue="A356A57480062CFA22C7F3AEDDF198D3" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
@@ -3751,7 +3751,7 @@
 							<File Name="Diagnostics_WheelIO.html" Size="42780" HashValue="38FD2769E97191B59B2F9E2E331C8929" ProjectDependent="1"/>
 							<File Name="Footer.html" Size="23567" HashValue="D9D9D183F05B6FBEB0966AF009CE9CA0" ProjectDependent="1"/>
 							<File Name="Header.html" Size="13820" HashValue="F44A3DD8C5DE239473211F3B6F5FA717" ProjectDependent="1"/>
-							<File Name="Main.html" Size="2852" HashValue="F4079F7398D341B86E33E61BF760D4BC" ProjectDependent="1"/>
+							<File Name="Main.html" Size="2852" HashValue="944A9601AFCA7BF384E8B8BA44764A03" ProjectDependent="1"/>
 							<File Name="Navigation.html" Size="3282" HashValue="00FD124E1EFD16F2A30853A1580F61F3" ProjectDependent="1"/>
 							<File Name="OverviewEx1.html" Size="89294" HashValue="4BB6DD4A9D20043C8DD5EEF41394DF62" ProjectDependent="1"/>
 							<File Name="OverviewEx2.html" Size="44093" HashValue="96FC169C28CB801D61FFDB69D497C186" ProjectDependent="1"/>
@@ -3844,7 +3844,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="5936" HashValue="9EF6EA46662F74738C783C85A6EDC517" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="5955" HashValue="2A6C0D0BB1690D1692F50CE70CF7BA87" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

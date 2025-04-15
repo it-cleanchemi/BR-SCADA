@@ -1,6 +1,6 @@
 SHELL := cmd.exe
 
-export AS_BUILD_MODE := BuildAndTransfer
+export AS_BUILD_MODE := Build
 export AS_SYSTEM_PATH := C:/Program\ Files/BRAutomation4/AS/System
 export AS_BIN_PATH := C:/Program Files/BRAutomation4/AS412/bin-en
 export AS_INSTALL_PATH := C:/Program\ Files/BRAutomation4/AS412
@@ -21,7 +21,7 @@ export AS_TEMP_PLC := PC
 export AS_USER_NAME := Matt
 export AS_CONFIGURATION := Config1
 export AS_COMPANY_NAME := HP\ Inc.
-export AS_VERSION := 4.12.6.106
+export AS_VERSION := 4.12.7.113\ SP
 export AS_WORKINGVERSION := 4.12
 
 

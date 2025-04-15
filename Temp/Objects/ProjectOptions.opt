@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.6.106"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
 <ProjectOptions
   IecNamingConventions="true"
   IecKeywordsAsStructureMembers="false"
   IecExtendedConstants="true"
   LogicalDirectory="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\"
   TempDirectory="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\"
-  AutomationStudioVersion="4.12.6.106"
+  AutomationStudioVersion="4.12.7.113 SP"
   AutomationStudioEdition="Standard"
   BuildCrossReference="false"
   ActiveConfiguration="Config1"

@@ -46,8 +46,7 @@ TYPE
 		BufferTank : BufferTank_Variables_Type;
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
-		Dosing_Alarms : Dosing_Alarms_Type;
-		Pmax_Alarms : Pmax_Alarms_Type;
+		Alarms : Alarms_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
 		Dosing_Pump_201 : Dosing_Pump_201_Type;
 		Dosing_Pump_202 : Dosing_Pump_202_Type;
@@ -473,7 +472,7 @@ END_TYPE
 (*Alarms*)
 
 TYPE
-	Pmax_Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
+	Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
 		ALARM_AB1 : INT; (*General Alarm Block 1*)
 		ALARM_AB2 : INT; (*General Alarm Block 2*)
 		ALARM_AB3 : INT; (*General Alarm Block 3*)
@@ -488,9 +487,6 @@ TYPE
 		ALARM_P201 : INT; (*Pump 201 Alarms*)
 		ALARM_P202 : INT; (*Pump 202 Alarms*)
 		ALARM_P203 : INT; (*Pump 203 Alarms*)
-	END_STRUCT;
-	Dosing_Alarms_Type : 	STRUCT  (*Dosing Pump Alarm Variables*)
-		DOSE_ALARM : INT; (*General Dosing Side Alarm*)
 	END_STRUCT;
 END_TYPE
 
