@@ -4736,5 +4736,6 @@
 </Source>
 <Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
 </Binding>
+
 </Bindings>
 </BindingsSet>

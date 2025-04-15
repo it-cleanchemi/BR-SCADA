@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.5.95 SP"?>
+<?AutomationStudio Version="4.12.6.106"?>
 <ProjectOptions
   IecNamingConventions="true"
   IecKeywordsAsStructureMembers="false"
   IecExtendedConstants="true"
-  LogicalDirectory="C:\Projects\Clean Chemistry\BR-SCADA\Logical\"
-  TempDirectory="C:\Projects\Clean Chemistry\BR-SCADA\Temp\"
-  AutomationStudioVersion="4.12.5.95 SP"
+  LogicalDirectory="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\"
+  TempDirectory="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\"
+  AutomationStudioVersion="4.12.6.106"
   AutomationStudioEdition="Standard"
   BuildCrossReference="false"
   ActiveConfiguration="Config1"

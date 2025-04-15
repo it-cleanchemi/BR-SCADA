@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.5.95 SP"?>
+<?AutomationStudio Version="4.12.6.106"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
     Name="Cyclic#1">
@@ -9,17 +9,17 @@
       Source="modbusTCP.ModMaster"
       Language="IEC">
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.typ" />
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\modbusTCP\ModMaster\ModMaster.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\ModMaster.st.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\CMD.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\CMD.st.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\Status.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\Status.st.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\Alarms.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\ModMaster\Alarms.st.var" />
     </Task>
     <Task
       Name="Main"
@@ -27,13 +27,13 @@
       Source="Main"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\Main\Main.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Main.st.var" />
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\Main\Types.typ" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Types.typ" />
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\Main\Variables.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Main\Variables.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Main\Methods.uam.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -44,13 +44,13 @@
       Source="Vis"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\Vis\Main.st.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Vis\Main.st.var" />
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\Vis\Types.typ" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Types.typ" />
       <File
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Logical\Vis\Variables.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Logical\Vis\Variables.var" />
       <InternalFile
-        Path="C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC\Vis\Methods.uam.var" />
+        Path="C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC\Vis\Methods.uam.var" />
     </Task>
   </TaskClass>
   <TaskClass

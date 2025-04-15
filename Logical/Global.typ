@@ -4,6 +4,7 @@
 
 TYPE
 	Modbus_Type : 	STRUCT 
+		Modbus_Alarms : Modbus_Alarm_Type;
 		Modbus_Dosing : Modbus_7000_Type;
 		Modbus_PeroxyMAX : Modbus_6000_Type;
 	END_STRUCT;
@@ -12,6 +13,9 @@ END_TYPE
 (*Raw Modbus IO*)
 
 TYPE
+	Modbus_Alarm_Type : 	STRUCT 
+		Block1_Int : ARRAY[0..25]OF INT;
+	END_STRUCT;
 	Modbus_6000_Type : 	STRUCT 
 		Block1_Int : ARRAY[0..124]OF INT;
 		Block2_Int : ARRAY[0..124]OF INT;
@@ -470,23 +474,23 @@ END_TYPE
 
 TYPE
 	Pmax_Alarms_Type : 	STRUCT  (*PeroxyMax Gen alarm Variables*)
-		PMAX_ALARM : INT; (*General Pmax Generation Side Alarm*)
-		P101_ALARM : INT; (*Pump 101 Alarms*)
-		P101B_ALARM : INT; (*Pump 101b Alarms*)
-		P102_ALARM : INT; (*Pump 102 Alarms*)
-		P103_ALARM : INT; (*Pump 103 Alarms*)
-		P104_ALARM : INT; (*Pump 104 Alarms*)
+		ALARM_AB1 : INT; (*General Alarm Block 1*)
+		ALARM_AB2 : INT; (*General Alarm Block 2*)
+		ALARM_AB3 : INT; (*General Alarm Block 3*)
+		ALARM_AB4 : INT; (*General Alarm Block 4*)
+		ALARM_AB5 : INT; (*General Alarm Block 5*)
+		ALARM_AB6 : INT; (*General Alarm Block 6*)
+		ALARM_AB7 : INT; (*General Alarm Block 7*)
+		ALARM_AB8 : INT; (*General Alarm Block 8*)
+		ALARM_P102 : INT; (*Pump 102 Alarms*)
+		ALARM_P103 : INT; (*Pump 103 Alarms*)
+		ALARM_P104 : INT; (*Pump 104 Alarms*)
+		ALARM_P201 : INT; (*Pump 201 Alarms*)
+		ALARM_P202 : INT; (*Pump 202 Alarms*)
+		ALARM_P203 : INT; (*Pump 203 Alarms*)
 	END_STRUCT;
 	Dosing_Alarms_Type : 	STRUCT  (*Dosing Pump Alarm Variables*)
 		DOSE_ALARM : INT; (*General Dosing Side Alarm*)
-		P201_ALARM : INT; (*Pump 201 Alarms*)
-		P202_ALARM : INT; (*Pump 202 Alarms*)
-		P203_ALARM : INT; (*Pump 203 Alarms*)
-		P204_ALARM : INT; (*Pump 204 Alarms*)
-		P205_ALARM : INT; (*Pump 205 Alarms*)
-		P206_ALARM : INT; (*Pump 206 Alarms*)
-		P207_ALARM : INT; (*Pump 207 Alarms*)
-		P208_ALARM : INT; (*Pump 208 Alarms*)
 	END_STRUCT;
 END_TYPE
 

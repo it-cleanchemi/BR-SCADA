@@ -23,6 +23,13 @@ ACTION Alarms_action:
 		gSkid[IdxSkids].ErrorInfo.Severity	:= 1;
 		gSkid[IdxSkids].Error := TRUE;
 	END_IF;
+	
+	IF gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM.3 THEN
+		gSkid[IdxSkids].ErrorInfo.Text		:= 'DosingAlarm3';
+		gSkid[IdxSkids].ErrorInfo.State		:= 'Warning';
+		gSkid[IdxSkids].ErrorInfo.Severity	:= 1;
+		gSkid[IdxSkids].Error := TRUE;
+	END_IF;
 
 
 (*********************************************************************Dont Touch This Code**********************************************************************)

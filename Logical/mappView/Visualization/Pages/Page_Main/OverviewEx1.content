@@ -278,7 +278,7 @@
     <Widget xsi:type="widgets.brease.Ellipse" id="P103_LS" top="600" left="40" width="20" height="20" zIndex="253" backColor="rgba(0, 150, 169, 1)" />
     <Widget xsi:type="widgets.brease.Ellipse" id="LSHH201" top="15" left="645" width="20" height="20" zIndex="254" backColor="rgba(255, 255, 255, 0)" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput53" top="880" left="1420" zIndex="255" />
-    <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="20" left="1170" width="480" height="80" zIndex="256" headerSize="30" multiLine="true" stopRefreshAtScroll="true" wordWrap="true" activeInputCellTextColor="rgba(0, 255, 255, 1)" cellPadding="5px" fontSize="14px" headerFontSize="16px">
+    <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="20" left="1170" width="480" height="80" zIndex="256" headerSize="30" initRefreshRate="600" multiLine="true" refreshRate="250" wordWrap="true" activeInputCellTextColor="rgba(0, 255, 255, 1)" cellPadding="5px" fontSize="14px" headerFontSize="16px">
       <Widgets>
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Timestamp" zIndex="2" columnWidth="180" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Timestamp" />
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Code" zIndex="0" columnWidth="20" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="Unit" useDigitGrouping="false" visible="false" />

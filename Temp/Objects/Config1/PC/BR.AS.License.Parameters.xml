@@ -2,13 +2,13 @@
 <Parameters>
   <Connection>
     <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
-    <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
+    <ConnectionParameters>/RT=1000 /DAIP=172.16.1.63 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\Projects\Clean Chemistry\BR-SCADA\CleanChemi_SiteManagementSystem.apj</ApjFullFileName>
+    <ApjFullFileName>C:\Users\Matt\Documents\GitHub\BR-SCADA\CleanChemi_SiteManagementSystem.apj</ApjFullFileName>
     <ProjectName>CleanChemi_SiteManagementSystem</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\Projects\Clean Chemistry\BR-SCADA\Temp\Objects\Config1\PC</LicenseDataFolder>
+    <LicenseDataFolder>C:\Users\Matt\Documents\GitHub\BR-SCADA\Temp\Objects\Config1\PC</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

@@ -113,6 +113,15 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[10].start_addr := 7630;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[10].timer 		:= 100;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[10].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
+		
+		// AS Block 48 - ALARMS
+		MasterConfig[IdxSkids].action_enable[47].cyclic 	:= 1;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[47].p_pv		:= ADR(gModbus[IdxSkids].Modbus_Alarms.Block1_Int[0]);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[47].quantity 	:= 25;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[47].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[47].start_addr := 40;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[47].timer 		:= 100;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[47].type 		:= 3;			// Function code for this item (2 := read discrete inputs) 
 
 	
 		// --------------------------------------------------------------------

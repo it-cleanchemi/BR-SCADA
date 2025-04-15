@@ -32,13 +32,6 @@ ACTION Modbus_Status_action:
 	
 	gSkid[IdxSkids].Pmax_Pump_104.P104_XS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[38];
 	
-	gSkid[IdxSkids].Pmax_Alarms.PMAX_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[84];
-	gSkid[IdxSkids].Pmax_Alarms.P101_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[86];
-	gSkid[IdxSkids].Pmax_Alarms.P101B_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[88];
-	gSkid[IdxSkids].Pmax_Alarms.P102_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[90];
-	gSkid[IdxSkids].Pmax_Alarms.P103_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[92];
-	gSkid[IdxSkids].Pmax_Alarms.P104_ALARM := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[94];
-	
 	// AS Block 2 - 6000 DOSING INT - SPARE
 	//:= gModbus[IdxSkids].Modbus_PeroxyMAX.Block2_Int[0];
 	
@@ -162,16 +155,6 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Dosing_Pump_208.P208_CHEM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[80];
 	
 	gSkid[IdxSkids].Sensor_Variables.SERNSORS_CONFIG := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[86];
-	
-//	gSkid[IdxSkids].Dosing_Alarms.DOSE_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[102];
-	gSkid[IdxSkids].Dosing_Alarms.P201_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[104];
-	gSkid[IdxSkids].Dosing_Alarms.P202_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[106];
-	gSkid[IdxSkids].Dosing_Alarms.P203_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[108];
-	gSkid[IdxSkids].Dosing_Alarms.P204_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[110];
-	gSkid[IdxSkids].Dosing_Alarms.P205_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[112];
-	gSkid[IdxSkids].Dosing_Alarms.P206_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[114];
-	gSkid[IdxSkids].Dosing_Alarms.P207_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[116];
-	gSkid[IdxSkids].Dosing_Alarms.P208_ALARM := gModbus[IdxSkids].Modbus_Dosing.Block6_Int[118];
 	
 	// AS Block 7 - 7000 DOSING INT - SPARE
 	//:= gModbus[IdxSkids].Modbus_Dosing.Block7_Int[0];

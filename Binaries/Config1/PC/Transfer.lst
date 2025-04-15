@@ -63,6 +63,7 @@
   <Operation Download="Config.br" Memory="UserROM"/>
   <Operation Download="Config_1.br" Memory="UserROM"/>
   <Operation Download="Config_2.br" Memory="UserROM"/>
+  <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="arsvcreg.br" Memory="UserROM"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
   <Operation Download="FileIO.br" Memory="UserROM"/>
