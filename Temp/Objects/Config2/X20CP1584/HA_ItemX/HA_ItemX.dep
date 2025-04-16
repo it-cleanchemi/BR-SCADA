@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_ItemX/HA_ItemX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_ItemX/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_ItemX/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun

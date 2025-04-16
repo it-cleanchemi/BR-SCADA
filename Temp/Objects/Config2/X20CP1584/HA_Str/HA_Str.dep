@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_Str/HA_Str.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_Str/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun

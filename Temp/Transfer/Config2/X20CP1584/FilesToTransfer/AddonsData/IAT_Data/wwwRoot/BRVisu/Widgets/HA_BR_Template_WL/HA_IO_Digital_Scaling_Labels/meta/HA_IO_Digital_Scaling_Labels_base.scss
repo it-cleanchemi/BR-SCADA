@@ -1,0 +1,8 @@
+@import "mixins.scss";
+@mixin widgets_HA_BR_Template_WL_HA_IO_Digital_Scaling_Labels_base {
+	@include elemWidth(455);
+	@include elemHeight(40);
+	margin: 0px;
+
+}
+

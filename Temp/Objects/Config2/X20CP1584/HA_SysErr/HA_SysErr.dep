@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_SysErr/HA_SysErr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/ArTextSys/ArTextSys.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/ArTextSys/ArTextSys.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/HA_SysErr/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/ArEventLog/ArEventLog.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/ArEventLog/ArEventLog.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun

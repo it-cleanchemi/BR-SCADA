@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_HA_BR_Template_WL_HA_IO_Analog_base {
+	@include elemWidth(540);
+	@include elemHeight(35);
+	margin: 0px;
+
+}
+
+.widgets_HA_BR_Template_WL_HA_IO_Analog_style_default {
+@include widgets_HA_BR_Template_WL_HA_IO_Analog_base
+}

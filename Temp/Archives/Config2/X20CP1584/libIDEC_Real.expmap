@@ -1,0 +1,6 @@
+{
+  global:
+    IDEC_REAL_Conv;
+  local:
+    *;
+ };

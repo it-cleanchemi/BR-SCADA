@@ -1,0 +1,61 @@
+@import "mixins.scss";
+#P203_Status_Content_Label1 {	@include elemAutoHeight(30);
+}
+#P203_Status_Content_Label1 {	@include elemTop(0);
+}
+#P203_Status_Content_Label1 {	@include elemLeft(120);
+}
+#P203_Status_Content_Label1 {	@include elemAutoWidth(260);
+}
+#P203_Status_Content_Label1 {	z-index: 0;
+}
+#P203_Status_Content_Label1 {	@include text-alignment-all('center');
+}
+#P203_Status_Content_Label1 {	font-size: 25px;
+}
+#P203_Status_Content_Label1 {	span {
+		@include text-decoration-underline(true);
+	}
+}
+#P203_Status_Content_DropDownBox1 {	@include elemTop(60);
+}
+#P203_Status_Content_DropDownBox1 {	@include elemLeft(90);
+}
+#P203_Status_Content_DropDownBox1 {	&.DropDownBoxView {
+		@include elemWidth(320);
+	}
+}
+#P203_Status_Content_DropDownBox1 {	&.DropDownBoxView {
+		@include elemHeight(40);
+	}
+}
+#P203_Status_Content_DropDownBox1 {	z-index: 1;
+}
+#P203_Status_Content_DropDownBox1 {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#P203_Status_Content_DropDownBox1_listBoxWrapper {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#P203_Status_Content_PushButton1 {	@include elemTop(140);
+}
+#P203_Status_Content_PushButton1 {	@include elemLeft(150);
+}
+#P203_Status_Content_PushButton1 {	@include elemAutoWidth(200);
+}
+#P203_Status_Content_PushButton1 {	@include elemAutoHeight(80);
+}
+#P203_Status_Content_PushButton1 {	z-index: 2;
+}
+#P203_Status_Content_PushButton2 {	@include elemTop(240);
+}
+#P203_Status_Content_PushButton2 {	@include elemLeft(150);
+}
+#P203_Status_Content_PushButton2 {	@include elemAutoWidth(200);
+}
+#P203_Status_Content_PushButton2 {	@include elemAutoHeight(80);
+}
+#P203_Status_Content_PushButton2 {	z-index: 3;
+}

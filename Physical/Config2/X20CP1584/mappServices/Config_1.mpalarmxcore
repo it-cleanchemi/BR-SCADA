@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="BySeverity">
+        <Group ID="[0]">
+          <Property ID="Severity" Value="0..100" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="SeverityAnyAlarm" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Severity" Value="0" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity0" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Severity" Value="1" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity1" />
+          </Selector>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Severity" Value="2" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity2" />
+          </Selector>
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Severity" Value="3" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity3" />
+          </Selector>
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Severity" Value="4" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity4" />
+          </Selector>
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Severity" Value="5" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity5" />
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="RemMemLost_1" />
+        <Property ID="Message" Value="{$IAT/Alarm.RemMemLost}" />
+        <Property ID="Code" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="RemMemLost" />
+        <Property ID="Message" Value="{$IAT/Alarm.RemMemLost}" />
+        <Property ID="Code" Value="1" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="FileLoadFailed" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadFailed}" />
+        <Property ID="Code" Value="1001" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="FileLoadSuccess" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadSuccess}" />
+        <Property ID="Code" Value="1002" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="RecipeGeneralError" />
+        <Property ID="Message" Value="{$IAT/Alarm.RecipeGeneralError}" />
+        <Property ID="Code" Value="1003" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="MonitorConvInOverflow" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorConvInOverflow}" />
+        <Property ID="Code" Value="9001" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="MonitorConvInOverflowNoHigh" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorConvInOverflowNoHigh}" />
+        <Property ID="Code" Value="9002" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="MonitorConvInLowNoPresent" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorConvInLowNoPresent}" />
+        <Property ID="Code" Value="9003" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="MonitorConvInHighNoLow" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorConvInHighNoLow}" />
+        <Property ID="Code" Value="9004" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[9]">
+        <Property ID="Name" Value="MonitorConvInNoFeedback" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorConvInNoFeedback}" />
+        <Property ID="Code" Value="9005" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[10]">
+        <Property ID="Name" Value="MonitorWheelNoFeedback" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorWheelNoFeedback}" />
+        <Property ID="Code" Value="9006" />
+        <Property ID="Severity" Value="2" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[11]">
+        <Property ID="Name" Value="MonitorE_STOP" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorHMI_STOP}" />
+        <Property ID="Code" Value="9998" />
+        <Property ID="Severity" Value="5" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[12]">
+        <Property ID="Name" Value="MonitorHMI_STOP" />
+        <Property ID="Message" Value="{$IAT/Alarm.MonitorHMI_STOP}" />
+        <Property ID="Code" Value="9999" />
+        <Property ID="Severity" Value="4" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[13]">
+        <Property ID="Name" Value="MasterExternalPause" />
+        <Property ID="Message" Value="{$IAT/Alarm.MasterExternalPause}" />
+        <Property ID="Code" Value="1113" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[14]">
+        <Property ID="Name" Value="MasterExternalControlledStop" />
+        <Property ID="Message" Value="{$IAT/Alarm.MasterExternalControlledStop}" />
+        <Property ID="Code" Value="1114" />
+        <Property ID="Severity" Value="3" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[15]">
+        <Property ID="Name" Value="MasterExternalUncontrolledStop" />
+        <Property ID="Message" Value="{$IAT/Alarm.MasterExternalUncontrolledStop}" />
+        <Property ID="Code" Value="1115" />
+        <Property ID="Severity" Value="4" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

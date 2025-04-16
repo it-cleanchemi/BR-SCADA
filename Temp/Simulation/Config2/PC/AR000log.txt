@@ -1,0 +1,18 @@
+Wed Apr 16 08:45:50 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Apr 16 08:45:50 2025
+No ARsim registration found!
+
+Wed Apr 16 08:45:50 2025
+InstanceName: 000004b5992556cf
+
+Wed Apr 16 08:45:50 2025
+WorkingDirectory: C:\Projects\Clean Chemistry\BR-SCADA\Temp\Simulation\Config2\PC\
+
+Wed Apr 16 08:45:50 2025
+COMMAND_COLDSTART
+
+Wed Apr 16 08:45:52 2025
+Version: J4.93
+

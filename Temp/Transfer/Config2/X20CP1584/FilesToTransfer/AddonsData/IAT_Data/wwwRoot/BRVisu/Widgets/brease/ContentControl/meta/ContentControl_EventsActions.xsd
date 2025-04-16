@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:s1="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:var="http://www.br-automation.com/iat2015/varTypes/v2" elementFormDefault="qualified">
+	<xs:complexType name="widgets.brease.ContentControl.Action">
+		<xs:complexContent>
+			<xs:extension base="s1:Target.BaseWidget">
+				<xs:sequence>
+					<xs:element name="Method" type="s1:widgets.brease.ContentControl.Action.widgetMethod"></xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.widgetMethod" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="s1:widgetMethod"></xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.ReadAction">
+		<xs:complexContent>
+			<xs:extension base="s1:ReadTarget.BaseWidget">
+				<xs:sequence>
+					<xs:element name="Method" type="s1:widgets.brease.ContentControl.ReadAction.widgetMethod"></xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.ReadAction.widgetMethod" abstract="true">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.Action.widgetMethod"></xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.Focus">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.Action.widgetMethod">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.GetContentId">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.ReadAction.widgetMethod">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.LoadContent">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.Action.widgetMethod">
+				<xs:attribute name="contentId" type="var:ContentReference" use="required"></xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.SetVisible">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.Action.widgetMethod">
+				<xs:attribute name="value" type="var:Boolean" use="required"></xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Action.UnloadContent">
+		<xs:complexContent>
+			<xs:extension base="s1:widgets.brease.ContentControl.Action.widgetMethod">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="widgets.brease.ContentControl.Event">
+		<xs:complexContent>
+			<xs:extension base="s1:Source.BaseWidget">
+				<xs:attribute name="event" type="s1:widgets.brease.ContentControl.Events" use="required"></xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="widgets.brease.ContentControl.Events">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FocusIn"></xs:enumeration>
+			<xs:enumeration value="FocusOut"></xs:enumeration>
+			<xs:enumeration value="OnDragEnter"></xs:enumeration>
+			<xs:enumeration value="OnDragLeave"></xs:enumeration>
+			<xs:enumeration value="OnDrop"></xs:enumeration>
+			<xs:enumeration value="VisibilityChanged"></xs:enumeration>
+			<xs:enumeration value="VisibleChanged"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

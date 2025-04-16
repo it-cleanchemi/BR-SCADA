@@ -1,0 +1,97 @@
+@import "mixins.scss";
+#Navigation_Navigation_NavigationButton_1 {	@include elemTop(0);
+}
+#Navigation_Navigation_NavigationButton_1 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_1 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_1 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_1 {	z-index: 0;
+}
+#Navigation_Navigation_NavigationButton_2 {	@include elemTop(104);
+}
+#Navigation_Navigation_NavigationButton_2 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_2 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_2 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_2 {	z-index: 2;
+}
+#Navigation_Navigation_NavigationButton_3 {	@include elemTop(208);
+}
+#Navigation_Navigation_NavigationButton_3 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_3 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_3 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_3 {	z-index: 3;
+}
+#Navigation_Navigation_NavigationButton_4 {	@include elemTop(312);
+}
+#Navigation_Navigation_NavigationButton_4 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_4 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_4 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_4 {	z-index: 4;
+}
+#Navigation_Navigation_NavigationButton_5 {	@include elemTop(416);
+}
+#Navigation_Navigation_NavigationButton_5 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_5 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_5 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_5 {	z-index: 1;
+}
+#Navigation_Navigation_NavigationButton_6 {	@include elemTop(520);
+}
+#Navigation_Navigation_NavigationButton_6 {	@include elemLeft(0);
+}
+#Navigation_Navigation_NavigationButton_6 {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_NavigationButton_6 {	@include elemAutoHeight(104);
+}
+#Navigation_Navigation_NavigationButton_6 {	z-index: 5;
+}
+#Navigation_Navigation_PushButton_STOP {	@include elemTop(624);
+}
+#Navigation_Navigation_PushButton_STOP {	@include elemLeft(0);
+}
+#Navigation_Navigation_PushButton_STOP {	@include elemAutoWidth(166);
+}
+#Navigation_Navigation_PushButton_STOP {	@include elemAutoHeight(96);
+}
+#Navigation_Navigation_PushButton_STOP {	z-index: 6;
+}
+#Navigation_Navigation_PushButton_STOP {	&:not(.active):not(.disabled):not(.checked) svg {
+		fill: rgba(255, 0, 0, 1);
+	}
+}
+#Navigation_Navigation_PushButton_STOP {	&.active svg {
+		fill: rgba(255, 0, 0, 1);
+	}
+}
+#Navigation_Navigation_PushButton_STOP {	&.active:not(.disabled) {
+		@include backGroundGradient('linear-gradient(to right,#111111 90%,#FF0000 100%)');
+	}
+}
+#Navigation_Navigation_PushButton_STOP {	&.checked:not(.disabled) {
+		@include backGroundGradient('linear-gradient(to right,#111111 90%,#FF0000 100%)');
+	}
+}
+#Navigation_Navigation_PushButton_STOP {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#Navigation_Navigation_PushButton_STOP {	@include text-alignment(left);
+}
+#Navigation_Navigation_PushButton_STOP {	span {
+		font-size: 24px;
+	}
+}

@@ -1,0 +1,71 @@
+@import "mixins.scss";
+#Diagnostics_Diagnostics_ButtonBar {	@include elemTop(0);
+}
+#Diagnostics_Diagnostics_ButtonBar {	@include elemLeft(0);
+}
+#Diagnostics_Diagnostics_ButtonBar {	@include elemWidth(940);
+}
+#Diagnostics_Diagnostics_ButtonBar {	@include elemHeight(60);
+}
+#Diagnostics_Diagnostics_ButtonBar {	z-index: 0;
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_ConvInIO {	@include elemTop(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_ConvInIO {	@include elemLeft(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_ConvInIO {	@include elemAutoWidth(192);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_ConvInIO {	@include elemAutoHeight(60);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_ConvInIO {	z-index: 1;
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_WheelIO {	@include elemTop(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_WheelIO {	@include elemLeft(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_WheelIO {	@include elemAutoWidth(192);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_WheelIO {	@include elemAutoHeight(60);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_WheelIO {	z-index: 2;
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_SDM {	@include elemTop(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_SDM {	@include elemLeft(0);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_SDM {	@include elemAutoWidth(192);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_SDM {	@include elemAutoHeight(60);
+}
+#Diagnostics_Diagnostics_ButtonBar_ToggleButton_SDM {	z-index: 0;
+}
+#Diagnostics_Diagnostics_GroupBox_Content {	@include elemTop(60);
+}
+#Diagnostics_Diagnostics_GroupBox_Content {	@include elemLeft(0);
+}
+#Diagnostics_Diagnostics_GroupBox_Content {	@include elemWidth(1114);
+}
+#Diagnostics_Diagnostics_GroupBox_Content {	@include elemHeight(600);
+}
+#Diagnostics_Diagnostics_GroupBox_Content {	z-index: 1;
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemTop(119);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemLeft(-61);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemWidth(1114);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	@include elemHeight(600);
+}
+#Diagnostics_Diagnostics_GroupBox_Content_ContentControl {	z-index: 0;
+}
+#Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemTop(11);
+}
+#Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemLeft(949);
+}
+#Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemAutoWidth(160);
+}
+#Diagnostics_Diagnostics_CheckBox_ForceEnable {	@include elemAutoHeight(40);
+}
+#Diagnostics_Diagnostics_CheckBox_ForceEnable {	z-index: 2;
+}

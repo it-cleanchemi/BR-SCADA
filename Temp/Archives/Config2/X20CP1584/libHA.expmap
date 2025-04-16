@@ -1,0 +1,6 @@
+{
+  global:
+    CTON;
+  local:
+    *;
+ };

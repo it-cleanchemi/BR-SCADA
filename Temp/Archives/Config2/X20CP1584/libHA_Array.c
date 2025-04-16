@@ -1,0 +1,14 @@
+void HA_Array_PeekTop(void) {};
+void _HA_Array_PeekTop(void) {};
+void HA_Array_AddTop(void) {};
+void _HA_Array_AddTop(void) {};
+void HA_Array_AddBottom(void) {};
+void _HA_Array_AddBottom(void) {};
+void HA_Array_PeekBtm(void) {};
+void _HA_Array_PeekBtm(void) {};
+void HA_Array_Pop(void) {};
+void _HA_Array_Pop(void) {};
+void HA_Array_Dequeue(void) {};
+void _HA_Array_Dequeue(void) {};
+void HA_Array_Pack(void) {};
+void _HA_Array_Pack(void) {};

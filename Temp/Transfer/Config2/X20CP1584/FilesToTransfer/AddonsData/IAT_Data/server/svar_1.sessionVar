@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDefinition xmlns="http://www.br-automation.com/iat2014/session/runtime/v1">
+  <Session>
+    <Variable name="Dosing2Active" xsi:type="ANY_STRING" value="Y" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Dosing2Inactive" xsi:type="ANY_STRING" value="N" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Dosing3Active" xsi:type="ANY_STRING" value="Y" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Dosing3Inactive" xsi:type="ANY_STRING" value="N" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+</VariableDefinition>

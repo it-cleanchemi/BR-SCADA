@@ -1,0 +1,105 @@
+@import "mixins.scss";
+#Main_DropDownBox1 {	&.DropDownBoxView {
+		@include elemHeight(30);
+	}
+}
+#Main_DropDownBox1 {	@include elemTop(20);
+}
+#Main_DropDownBox1 {	@include elemLeft(820);
+}
+#Main_DropDownBox1 {	&.DropDownBoxView {
+		@include elemWidth(160);
+	}
+}
+#Main_DropDownBox1 {	z-index: 1;
+}
+#Main_DropDownBox1 {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#Main_DropDownBox1_listBoxWrapper {	& .TextView {
+		@include text-alignment(center);
+	}
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemTop(60);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemLeft(0);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemWidth(1754);
+}
+#Main_Diagnostics_GroupBox_Content {	@include elemHeight(880);
+}
+#Main_Diagnostics_GroupBox_Content {	z-index: 2;
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemTop(0);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemLeft(0);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemWidth(1754);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	@include elemHeight(880);
+}
+#Main_Diagnostics_GroupBox_Content_ContentControl {	z-index: 0;
+}
+#Main_TextOutput1 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput1 {	@include elemTop(20);
+}
+#Main_TextOutput1 {	@include elemLeft(1040);
+}
+#Main_TextOutput1 {	@include elemAutoWidth(340);
+}
+#Main_TextOutput1 {	z-index: 3;
+}
+#Main_TextOutput1 {	@include text-alignment-all('center');
+}
+#Main_TextOutput2 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput2 {	@include elemTop(20);
+}
+#Main_TextOutput2 {	@include elemLeft(980);
+}
+#Main_TextOutput2 {	@include elemAutoWidth(240);
+}
+#Main_TextOutput2 {	z-index: 0;
+}
+#Main_TextOutput3 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput3 {	@include elemTop(20);
+}
+#Main_TextOutput3 {	@include elemLeft(660);
+}
+#Main_TextOutput3 {	@include elemAutoWidth(240);
+}
+#Main_TextOutput3 {	z-index: 4;
+}
+#Main_TextOutput4 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput4 {	@include elemTop(20);
+}
+#Main_TextOutput4 {	@include elemLeft(220);
+}
+#Main_TextOutput4 {	@include elemAutoWidth(240);
+}
+#Main_TextOutput4 {	z-index: 5;
+}
+#Main_TextOutput5 {	@include elemAutoHeight(30);
+}
+#Main_TextOutput5 {	@include elemTop(20);
+}
+#Main_TextOutput5 {	@include elemLeft(1480);
+}
+#Main_TextOutput5 {	@include elemAutoWidth(240);
+}
+#Main_TextOutput5 {	z-index: 6;
+}
+#Main_USER_ID {	@include elemAutoWidth(100);
+}
+#Main_USER_ID {	@include elemAutoHeight(30);
+}
+#Main_USER_ID {	@include elemTop(20);
+}
+#Main_USER_ID {	@include elemLeft(1620);
+}
+#Main_USER_ID {	z-index: 7;
+}
