@@ -1,9 +1,0 @@
-WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=5 ASCIIString=0
-                                    name                                     type force                                                            value level type len format place expand specs
-                                    gVis                                 Vis_Type    0 "                                                               *"    0   24    1    0    0    1         
-                                  Alarms                          Vis_Alarms_Type    0 "                                                               *"    1   24    1    0    0    1         
-                                  Active                    Vis_Alarms_Active_typ    0 "                                                               *"    2   24    1    0    0    1         
-                            FilterString                         STRING[80][0..1]    0 "                                                               *"    3    9   81    0    0    1         
-                         FilterString[0]                               STRING[80]    0 "         '[{"value":2,"conditionType":"==","columnPosition":1}]'"    4    9   81    1    0    0         
-                         FilterString[1]                               STRING[80]    0 "          '[{"value":2"conditionType":"==","columnPosition":1}]'"    4    9   81    1    0    0         

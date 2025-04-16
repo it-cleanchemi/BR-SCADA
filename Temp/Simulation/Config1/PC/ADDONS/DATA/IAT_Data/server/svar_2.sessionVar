@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<VariableDefinition xmlns="http://www.br-automation.com/iat2014/session/runtime/v1">
-  <Session>
-    <Variable name="AutoMode" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-  </Session>
-  <Session>
-    <Variable name="ManMode" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-  </Session>
-</VariableDefinition>
