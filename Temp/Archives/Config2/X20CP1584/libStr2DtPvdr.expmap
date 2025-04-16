@@ -1,8 +1,0 @@
-{
-  global:
-    WString2DataProvider;
-    StepListElementCreator;
-    String2DataProvider;
-  local:
-    *;
- };

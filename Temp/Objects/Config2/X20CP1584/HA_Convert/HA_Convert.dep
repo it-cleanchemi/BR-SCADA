@@ -1,5 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Libraries/HA_Convert/HA_Convert.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/HA_Convert/Types.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/AsBrStr/AsBrStr.fun

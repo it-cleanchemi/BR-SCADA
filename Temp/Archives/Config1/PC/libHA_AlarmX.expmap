@@ -1,8 +1,0 @@
-{
-  global:
-    HA_AlarmX_Helper;
-    HA_AlarmXCore;
-    HA_AlarmX_CfgModule;
-  local:
-    *;
- };

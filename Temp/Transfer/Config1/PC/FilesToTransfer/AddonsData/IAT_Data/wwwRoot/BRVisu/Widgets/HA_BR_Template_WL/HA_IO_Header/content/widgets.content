@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Content id="HA_IO_Header" width="2000" height="35" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Widgets>
-    <Widget xsi:type="widgets.brease.Label" id="Label_Header" top="0" left="0" width="300" zIndex="0" textAlign="left" text="" height="30"/>
-    <Widget xsi:type="widgets.brease.Line" id="Line_Header" zIndex="1" x1="0" x2="2000" y1="30" y2="30"/>
-  </Widgets>
-</Content>

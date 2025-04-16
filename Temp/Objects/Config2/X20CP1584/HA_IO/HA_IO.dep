@@ -1,4 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Libraries/HA_IO/HA_IO.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/HA_IO/Types.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/HA/HA.fun

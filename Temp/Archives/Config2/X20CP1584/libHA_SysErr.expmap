@@ -1,7 +1,0 @@
-{
-  global:
-    HA_SysErr_Lookup;
-    HA_SysErr_Log;
-  local:
-    *;
- };

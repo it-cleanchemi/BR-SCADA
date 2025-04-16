@@ -1,6 +1,0 @@
-{
-  global:
-    HA_brsstrcat;
-  local:
-    *;
- };

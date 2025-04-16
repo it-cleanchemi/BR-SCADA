@@ -1,9 +1,0 @@
-{
-  global:
-    SRAND;
-    DRAND;
-    RRAND;
-    RAND;
-  local:
-    *;
- };

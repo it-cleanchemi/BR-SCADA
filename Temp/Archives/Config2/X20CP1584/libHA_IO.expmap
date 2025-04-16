@@ -1,9 +1,0 @@
-{
-  global:
-    HA_IO_DO;
-    HA_IO_DI;
-    HA_IO_AI;
-    HA_IO_AO;
-  local:
-    *;
- };

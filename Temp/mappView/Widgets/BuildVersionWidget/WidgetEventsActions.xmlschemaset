@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
-  <Schema href="BuildVersionAdvanced/meta/BuildVersionAdvanced_EventsActions.xsd" targetNamespace="http://www.br-automation.com/iat2014/eventbinding/v2" />
-  <Schema href="BuildVersionBasic/meta/BuildVersionBasic_EventsActions.xsd" targetNamespace="http://www.br-automation.com/iat2014/eventbinding/v2" />
-  <Schema href="BuildVersionStandard/meta/BuildVersionStandard_EventsActions.xsd" targetNamespace="http://www.br-automation.com/iat2014/eventbinding/v2" />
-</SchemaCatalog>
