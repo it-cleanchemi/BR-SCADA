@@ -3175,7 +3175,7 @@
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value" >				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_203.P203_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_203.P203_ENABLE" />
 					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Dosing_Pump_203.P203_ENABLE" />
@@ -3209,7 +3209,7 @@
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value" >				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_202.P202_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_202.P202_ENABLE" />
 					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Dosing_Pump_202.P202_ENABLE" />
@@ -3243,7 +3243,7 @@
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value" >				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Dosing_Pump_201.P201_ENABLE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Dosing_Pump_201.P201_ENABLE" />
 					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Dosing_Pump_201.P201_ENABLE" />
@@ -4736,6 +4736,9 @@
 </Source>
 <Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
 </Binding>
+
+
+
 
 </Bindings>
 </BindingsSet>

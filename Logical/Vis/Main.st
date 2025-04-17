@@ -42,6 +42,10 @@ PROGRAM _CYCLIC
 	
 	//	gVis.Main.Out.SkidID :=  
 	
+	//Alarm Page Logic
+	Alarms_Active;
+	//Alarms_History;
+	
 END_PROGRAM
 
 PROGRAM _EXIT

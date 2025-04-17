@@ -1451,7 +1451,7 @@ ACTION Alarms_action:
 	END_IF;
 
 
-(*********************************************************************Dont Touch This Code**********************************************************************)
+	(*********************************************************************Dont Touch This Code**********************************************************************)
 	IF gSkid[IdxSkids].Error THEN
 		IF brsmemcmp(ADR(gSkid[IdxSkids].LastErrorInfo),ADR(gSkid[IdxSkids].ErrorInfo),SIZEOF(gSkid[IdxSkids].LastErrorInfo)) <> 0 THEN
 			brsmemcpy(ADR(gSkid[IdxSkids].LastErrorInfo),ADR(gSkid[IdxSkids].ErrorInfo),SIZEOF(gSkid[IdxSkids].LastErrorInfo));
@@ -1461,7 +1461,7 @@ ACTION Alarms_action:
 					gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity1');
-					gSkid[IdxSkids].tempAlarm.allowMultiple		:= FALSE;
+					gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
 					gSkid[IdxSkids].tempAlarm.addText[0]		:= gSkid[IdxSkids].ErrorInfo.State;
 					gSkid[IdxSkids].tempAlarm.addText[1]		:= gSkid[IdxSkids].ErrorInfo.Text;
 					
@@ -1470,7 +1470,7 @@ ACTION Alarms_action:
 					gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity2');
-					gSkid[IdxSkids].tempAlarm.allowMultiple		:= FALSE;
+					gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
 					gSkid[IdxSkids].tempAlarm.addText[0]		:= gSkid[IdxSkids].ErrorInfo.State;
 					gSkid[IdxSkids].tempAlarm.addText[1]		:= gSkid[IdxSkids].ErrorInfo.Text;
 					
@@ -1479,7 +1479,7 @@ ACTION Alarms_action:
 					gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity3');
-					gSkid[IdxSkids].tempAlarm.allowMultiple		:= FALSE;
+					gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
 					gSkid[IdxSkids].tempAlarm.addText[0]		:= gSkid[IdxSkids].ErrorInfo.State;
 					gSkid[IdxSkids].tempAlarm.addText[1]		:= gSkid[IdxSkids].ErrorInfo.Text;
 					
@@ -1488,7 +1488,7 @@ ACTION Alarms_action:
 					gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity4');
-					gSkid[IdxSkids].tempAlarm.allowMultiple		:= FALSE;
+					gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
 					gSkid[IdxSkids].tempAlarm.addText[0]		:= gSkid[IdxSkids].ErrorInfo.State;
 					gSkid[IdxSkids].tempAlarm.addText[1]		:= gSkid[IdxSkids].ErrorInfo.Text;
 					
@@ -1498,18 +1498,39 @@ ACTION Alarms_action:
 					gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 					gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity5');
-					gSkid[IdxSkids].tempAlarm.allowMultiple		:= FALSE;
+					gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
 					gSkid[IdxSkids].tempAlarm.addText[0]		:= gSkid[IdxSkids].ErrorInfo.State;
 					gSkid[IdxSkids].tempAlarm.addText[1]		:= gSkid[IdxSkids].ErrorInfo.Text;
 					
 					HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
-			END_CASE;
-		
-			
+			END_CASE
 		END_IF
+		gSkid[IdxSkids].Error := FALSE;
 	ELSE
 		brsmemset(ADR(gSkid[IdxSkids].LastErrorInfo),0,SIZEOF(gSkid[IdxSkids].LastErrorInfo));
 	END_IF
+	
+	
+	// Case for handling the alarm resetting
+	CASE gServices.Alarms.Internal.StateResetAlarms OF
+		0:
+			IF gServices.Alarms.In.ResetAlarms OR gVis.Global.ErrorReset THEN
+				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'ACKNOWLEDGE ALL',FALSE);
+				gServices.Alarms.In.ResetAlarms 									:= FALSE;
+				gVis.Alarms.Active.UIConnect.AcknowledgeAll 							:= TRUE;
+				gServices.Alarms.Internal.CTON_ResetDelay(IN := FALSE);
+				gServices.Alarms.Internal.StateResetAlarms 						:= 10;
+			END_IF;
+		10:
+			// give UI time to process the reset
+			IF gServices.Alarms.Internal.CTON_ResetDelay.Q THEN
+				gServices.Alarms.Internal.CTON_ResetDelay(IN := FALSE);
+				gServices.Alarms.Internal.StateResetAlarms 						:= 0;
+				gVis.Global.ErrorReset := FALSE;
+			ELSE
+				gServices.Alarms.Internal.CTON_ResetDelay(IN := TRUE, PT := T#250ms);
+			END_IF;
+	END_CASE;
 	
 	
 	gServices.Alarms.Out.BufferInfo.Address	:= ADR(gServices.Alarms.In.AlarmList);

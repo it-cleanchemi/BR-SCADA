@@ -62,6 +62,7 @@ TYPE
 		LastErrorInfo : Skid_ErrorInfo_typ;
 		tempAlarm : HA_AlarmX_Core_Buffer_typ;
 		Error : BOOL;
+		StateResetAlarms : UINT;
 	END_STRUCT;
 END_TYPE
 
@@ -83,10 +84,18 @@ TYPE
 END_TYPE
 
 (**)
+
+TYPE
+	Par_System_type : 	STRUCT 
+		LanguageCode : STRING[80];
+	END_STRUCT;
+END_TYPE
+
 (*Retain Machine State After Power Cycle*)
 
 TYPE
 	Par_Type : 	STRUCT 
+		System : Par_System_type;
 	END_STRUCT;
 END_TYPE
 
@@ -364,6 +373,7 @@ END_TYPE
 TYPE
 	Vis_Global : 	STRUCT 
 		ClientInfo : Vis_Global_ClientInfo;
+		ErrorReset : BOOL;
 	END_STRUCT;
 	Vis_Global_ClientInfo : 	STRUCT 
 		SelectedSkidIdx : ARRAY[0..MAX_CLIENTS]OF USINT;
@@ -381,6 +391,8 @@ TYPE
 		TableConfig : STRING[255];
 		TempINT : INT;
 		TempSTRING : STRING[30];
+		Enable : BOOL;
+		Visable : BOOL;
 		FilterString : ARRAY[0..MAX_SKIDS]OF STRING[80];
 		Test : STRING[200];
 	END_STRUCT;

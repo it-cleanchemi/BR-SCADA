@@ -31,5 +31,23 @@
 <Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.Test" attribute="value" />
 <Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
 </Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.Acknowledge" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_AcknowledgeAll1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AcknowledgeAll" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_AcknowledgeAll" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageDown" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Down" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageUp" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" attribute="value" />
+</Binding>
 </Bindings>
 </BindingsSet>

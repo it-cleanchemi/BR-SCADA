@@ -6,5 +6,7 @@
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
     <File>Methods.uam</File>
+    <File>Alarms_Active.st</File>
+    <File>Alarms_History.st</File>
   </Files>
 </Program>
