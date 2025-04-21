@@ -8,6 +8,7 @@ VAR
 END_VAR
 VAR RETAIN
 	gPar : Par_Type;
+	gUnit : ARRAY[0..MAX_SKIDS] OF UINT;
 	gRem : Rem_Type;
 END_VAR
 VAR

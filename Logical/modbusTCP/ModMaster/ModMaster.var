@@ -27,4 +27,5 @@ VAR
 	IdxUINTS : INT := 0;
 	IdxSkids : INT;
 	SkidString : STRING[80];
+	SkidNumberINT : STRING[80];
 END_VAR

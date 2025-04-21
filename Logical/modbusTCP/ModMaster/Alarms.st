@@ -3852,7 +3852,7 @@ ACTION Alarms_action:
 	IF gSkid[IdxSkids].Error THEN
 		CASE gSkid[IdxSkids].ErrorInfo.Severity OF
 			1:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:= UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity1');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3861,7 +3861,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			2:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity2');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3870,7 +3870,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			3:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity3');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3879,7 +3879,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			4:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity4');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3889,7 +3889,7 @@ ACTION Alarms_action:
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			5:
 		  
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity5');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3904,6 +3904,31 @@ ACTION Alarms_action:
 	END_IF
 	
 	brsmemset(ADR(gSkid[IdxSkids].ErrorInfo),0,SIZEOF(gSkid[IdxSkids].ErrorInfo));
+
+	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
+	// Case for handling the alarm history
+	CASE gServices.Alarms.Internal.StateExportHistory OF
+		0:
+			IF gServices.Alarms.In.ExportHistory THEN
+				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'HISTORY EXPORTED',FALSE);
+				gServices.Alarms.In.ExportHistory 									:= FALSE;
+				gServices.Alarms.Internal.MpAlarmXHistory_0.Export 				:= TRUE;
+				gServices.Alarms.Internal.StateExportHistory 						:= 10;
+			ELSIF gServices.Alarms.In.ClearHistory THEN
+				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'HISTORY CLEARED',FALSE);
+				gServices.Alarms.In.ClearHistory 									:= FALSE;
+				MpAlarmXClearHistory(gAlarmXHistory);
+			END_IF;
+		10:
+			IF gServices.Alarms.Internal.MpAlarmXHistory_0.CommandDone OR gServices.Alarms.Internal.MpAlarmXHistory_0.Error THEN
+				gServices.Alarms.Internal.MpAlarmXHistory_0.Export 				:= FALSE;
+				gServices.Alarms.Internal.StateExportHistory 						:= 0;
+			END_IF;
+	END_CASE;
+
+//	IF gMain.ErrorReset THEN
+//		gServices.Alarms.In.ResetAlarms 											:= TRUE;
+//	END_IF;
 	
 	// Case for handling the alarm resetting
 	CASE gServices.Alarms.Internal.StateResetAlarms OF

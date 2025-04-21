@@ -7,9 +7,9 @@ ACTION Alarms_History:
 	gVis.Alarms.History.PageUp												:= FALSE;
 	gVis.Alarms.History.UIConnect.AlarmList.PageDown						:= gVis.Alarms.History.PageDown;
 	gVis.Alarms.History.PageDown											:= FALSE;
-	gMain.Services.Alarms.In.ClearHistory									:= gVis.Alarms.History.Clear;
+	gServices.Alarms.In.ClearHistory									:= gVis.Alarms.History.Clear;
 	gVis.Alarms.History.Clear												:= FALSE;
-	gMain.Services.Alarms.In.ExportHistory									:= gVis.Alarms.History.Export;
+	gServices.Alarms.In.ExportHistory									:= gVis.Alarms.History.Export;
 	gVis.Alarms.History.Export												:= FALSE;
 	// Below loop sets the state variable to 1. Non 1 values are filtered from the table. This filters the history to only have when the alarm was triggered and not when it was acknowledged.
 	FOR Idx_AlarmList := 0 TO 49 DO
