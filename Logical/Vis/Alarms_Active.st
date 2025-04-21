@@ -5,6 +5,7 @@ ACTION Alarms_Active:
 	IF gVis.Alarms.Active.Reset THEN
 		gVis.Alarms.Active.Reset											:= FALSE;
 		gVis.Global.ErrorReset													:= TRUE;
+		brsmemset(ADR(gServices.Alarms.Internal.Alarms_State),0,SIZEOF(gServices.Alarms.Internal.Alarms_State));
 	END_IF;
 	gVis.Alarms.Active.UIConnect.AlarmList.PageUp							:= gVis.Alarms.Active.PageUp;
 	gVis.Alarms.Active.PageUp												:= FALSE;

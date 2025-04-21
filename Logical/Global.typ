@@ -59,7 +59,6 @@ TYPE
 		VisBool : VisBool_Type;
 		initAlarms : HA_AlarmX_CfgModule;
 		ErrorInfo : Skid_ErrorInfo_typ;
-		LastErrorInfo : Skid_ErrorInfo_typ;
 		tempAlarm : HA_AlarmX_Core_Buffer_typ;
 		Error : BOOL;
 		StateResetAlarms : UINT;
