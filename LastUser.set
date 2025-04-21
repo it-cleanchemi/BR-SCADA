@@ -3,6 +3,6 @@
 <ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
   <ConfigurationManager ActiveConfigurationName="1584" />
   <Deployment Value="ActiveCpu" />
-  <ExportProject ExportFilePath="C:\projects\RemoteVis_CleanChemistry\RemoteVis_CleanChemistry.zip" />
+  <ExportProject ExportFilePath="C:\Users\sammr00\OneDrive - hartfiel.com\RemoteVis_CleanChemistry.zip" />
   <Print Footer="%cPage: %p" Header="%lProject: %n%c%x" />
 </ProjectSettings>

@@ -9,10 +9,9 @@
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Description" zIndex="1" columnWidth="764" text="$IAT/Alarms_Active_Table_TableItem_Description" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_AcknowledgeAll" top="520" left="240" width="220" height="80" zIndex="1" image="Media/Images/AckAll.svg" text="$IAT/Alarms_Active_PushButton_AcknowledgeAll" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_AcknowledgeAll" top="520" left="0" width="220" height="80" zIndex="1" image="Media/Images/AckAll.svg" text="$IAT/Alarms_Active_PushButton_AcknowledgeAll" />
     <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Down" top="520" left="956" width="160" height="80" zIndex="2" image="Media/Images/Down.svg" />
     <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Up" top="520" left="796" width="160" height="80" zIndex="3" image="Media/Images/Up.svg" />
     <Widget xsi:type="widgets.brease.Button" id="BUTTON_CONFIG" top="540" left="500" height="60" zIndex="4" text="BUTTON_CONFIG" />
-    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_AcknowledgeAll1" top="520" left="0" width="220" height="80" zIndex="5" image="Media/Images/Alarms.svg" text="Acknowledge" />
   </Widgets>
 </Content>

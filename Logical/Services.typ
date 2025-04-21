@@ -1,3 +1,4 @@
+
 TYPE
 	Services_typ : 	STRUCT 
 		DeviceName : STRING[255];
@@ -23,6 +24,7 @@ TYPE
 		StateExportHistory : INT;
 		MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
 		HA_AlarmXCore_0 : HA_AlarmXCore;
+		Alarms_State : ARRAY[0..MAX_SKIDS]OF Alarms_Type;
 	END_STRUCT;
 	S_Alarms_Out_typ : 	STRUCT 
 		AlarmActive : BOOL;
