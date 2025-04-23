@@ -452,14 +452,6 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[46].timer 	:= 10;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[46].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
 		
-		
-		
-		
-		
-		
-		
-
-	
 		// --------------------------------------------------------------------
 		// FOR Modbus Read/Write
 		// --------------------------------------------------------------------
