@@ -566,6 +566,7 @@ PROGRAM _INIT
 		ModbusTcpMaster[IdxSkids].port				:= 510;
 		ModbusTcpMaster[IdxSkids].slave_ip_addr 	:= SLAVE_IP_ADDRESSES[IdxSkids]; 		// Transfer slave device IP address 
 		
+
 	END_FOR;
 	
 	StartStop := 1;

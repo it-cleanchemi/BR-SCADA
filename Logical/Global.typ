@@ -57,11 +57,14 @@ TYPE
 		Dosing_Pump_207 : Dosing_Pump_207_Type;
 		Dosing_Pump_208 : Dosing_Pump_208_Type;
 		VisBool : VisBool_Type;
-		initAlarms : HA_AlarmX_CfgModule;
 		ErrorInfo : Skid_ErrorInfo_typ;
 		tempAlarm : HA_AlarmX_Core_Buffer_typ;
 		Error : BOOL;
 		StateResetAlarms : UINT;
+		AlarmName : STRING[80];
+		i : USINT;
+		AlarmCfg : MpAlarmXAlarmConfigType;
+		MpAlarmXConfigAlarm : MpAlarmXConfigAlarm;
 	END_STRUCT;
 END_TYPE
 

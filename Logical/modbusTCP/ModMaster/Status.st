@@ -338,14 +338,15 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Alarms.ALARM_P202 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[17];
 	gSkid[IdxSkids].Alarms.ALARM_P203 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[18];
 	
+
 	//Set Unit Number and Add Alarms
 	IF gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit[IdxSkids] <> gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID) THEN
 		gUnit[IdxSkids] := gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID;
 		
-		SkidString := UINT_TO_STRING(gUnit[IdxSkids]);
-		SkidString := CONCAT('Skid',SkidString);
+		gSkid[IdxSkids].AlarmName	 := UINT_TO_STRING(gUnit[IdxSkids]);
+		gSkid[IdxSkids].AlarmName	 := CONCAT('Skid',gSkid[IdxSkids].AlarmName	);
 		
-		gSkid[IdxSkids].initAlarms(MpLink := ADR(gAlarmXCore), Prefix := SkidString, CodePrefix := gUnit[IdxSkids]);
+		gSkid[IdxSkids].i := 1;
 		
 		SkidNumberINT := UINT_TO_STRING(gUnit[IdxSkids]);
 		
@@ -361,5 +362,4 @@ ACTION Modbus_Status_action:
 
 	END_IF;
 	
-
 END_ACTION

@@ -122,13 +122,13 @@ FUNCTION_BLOCK HA_AlarmX_CfgModule
 		IF internal.MpAlarmXConfigAlarm_0.CommandDone THEN
 			internal.i := internal.i + 1;
 			internal.MpAlarmXConfigAlarm_0.Save := FALSE;
-		ELSIF internal.CTON_Timeout.Q OR internal.MpAlarmXConfigAlarm_0.Error THEN
+		ELSIF internal.MpAlarmXConfigAlarm_0.Error THEN
 			Error	:= TRUE;
 			RETURN;
 		END_IF;
 		
-		internal.CTON_Timeout(IN:=TRUE, PT:=T#10s);
 		internal.MpAlarmXConfigAlarm_0();
 	END_WHILE
-
+	
+	
 END_FUNCTION_BLOCK
