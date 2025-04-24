@@ -1,8 +1,6 @@
 
 PROGRAM _INIT
-	
-	gVis;
-	
+
 END_PROGRAM
 
 PROGRAM _CYCLIC

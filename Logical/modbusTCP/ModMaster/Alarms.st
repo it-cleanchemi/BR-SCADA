@@ -3904,6 +3904,31 @@ ACTION Alarms_action:
 	END_IF
 	
 	brsmemset(ADR(gSkid[IdxSkids].ErrorInfo),0,SIZEOF(gSkid[IdxSkids].ErrorInfo));
+
+	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
+	// Case for handling the alarm history
+	CASE gServices.Alarms.Internal.StateExportHistory OF
+		0:
+			IF gServices.Alarms.In.ExportHistory THEN
+				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'HISTORY EXPORTED',FALSE);
+				gServices.Alarms.In.ExportHistory 									:= FALSE;
+				gServices.Alarms.Internal.MpAlarmXHistory_0.Export 				:= TRUE;
+				gServices.Alarms.Internal.StateExportHistory 						:= 10;
+			ELSIF gServices.Alarms.In.ClearHistory THEN
+				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'HISTORY CLEARED',FALSE);
+				gServices.Alarms.In.ClearHistory 									:= FALSE;
+				MpAlarmXClearHistory(gAlarmXHistory);
+			END_IF;
+		10:
+			IF gServices.Alarms.Internal.MpAlarmXHistory_0.CommandDone OR gServices.Alarms.Internal.MpAlarmXHistory_0.Error THEN
+				gServices.Alarms.Internal.MpAlarmXHistory_0.Export 				:= FALSE;
+				gServices.Alarms.Internal.StateExportHistory 						:= 0;
+			END_IF;
+	END_CASE;
+
+//	IF gMain.ErrorReset THEN
+//		gServices.Alarms.In.ResetAlarms 											:= TRUE;
+//	END_IF;
 	
 	// Case for handling the alarm resetting
 	CASE gServices.Alarms.Internal.StateResetAlarms OF

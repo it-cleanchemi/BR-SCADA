@@ -19,6 +19,7 @@
     <BindingsSet refId="PM_Settings_Content_binding" />
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="OverviewEx1_binding" />
+    <BindingsSet refId="Alarms_History_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />
@@ -30,6 +31,7 @@
     <EventBindingsSet refId="PM_Status_Content_eventbinding" />
     <EventBindingsSet refId="PM_Settings_Content_eventbinding" />
     <EventBindingsSet refId="Alarms_Active_eventbinding" />
+    <EventBindingsSet refId="Alarms_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />

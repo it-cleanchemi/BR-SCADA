@@ -1,4 +1,5 @@
 VAR
 	IdxSkids : INT;
 	SkidNumberINT : STRING[5];
+	Idx_AlarmList : INT;
 END_VAR
