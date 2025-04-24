@@ -54,7 +54,7 @@ ACTION Services_Alarms_action:
 	gServices.Alarms.Internal.HA_AlarmXCore_0(MpLink := gAlarmXCore, enable := TRUE, pBuffer := ADR(gServices.Alarms.In.AlarmList), pOutputData := ADR(gAlarmAddData));
 	gServices.Alarms.Internal.MpAlarmXCore_0(MpLink := ADR(gAlarmXCore), Enable := TRUE, ErrorReset := gErrorReset);
 	gServices.Alarms.Internal.MpAlarmXListUI_0(MpLink := ADR(gAlarmXCore), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms.Active.UIConnect));
-	gServices.Alarms.Internal.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset);
+	gServices.Alarms.Internal.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
 	gServices.Alarms.Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms.History.UIConnect));
 	
 

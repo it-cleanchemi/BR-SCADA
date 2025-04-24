@@ -3952,16 +3952,6 @@ ACTION Alarms_action:
 	END_CASE;
 	
 	
-	gServices.Alarms.Out.BufferInfo.Address	:= ADR(gServices.Alarms.In.AlarmList);
-	gServices.Alarms.Out.BufferInfo.Size		:= SIZEOF(gServices.Alarms.In.AlarmList);
-
-	gServices.Alarms.Internal.HA_AlarmXCore_0(MpLink := gAlarmXCore, enable := TRUE, pBuffer := ADR(gServices.Alarms.In.AlarmList), pOutputData := ADR(gAlarmAddData));
-	gServices.Alarms.Internal.MpAlarmXCore_0(MpLink := ADR(gAlarmXCore), Enable := TRUE, ErrorReset := gErrorReset);
-	gServices.Alarms.Internal.MpAlarmXListUI_0(MpLink := ADR(gAlarmXCore), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms.Active.UIConnect));
-	gServices.Alarms.Internal.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset);
-	gServices.Alarms.Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms.History.UIConnect));
-	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
-	
 	//Create Alarms
 	CASE gSkid[IdxSkids].i OF 
 		0: 

@@ -38,7 +38,9 @@
       <GlobalVariables Name="Global Variables">
         <Variable Name="gVis" RecursiveEnable="2">
           <Variable Name="Main">
-            <Variable Name="In" />
+            <Variable Name="In">
+              <Variable Name="AckAllAlarms_Skid" RecursiveEnable="2" />
+            </Variable>
             <Variable Name="Out">
               <Variable Name="SkidIPAddress" RecursiveEnable="2" />
             </Variable>

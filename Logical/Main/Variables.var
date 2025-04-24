@@ -1,3 +1,4 @@
 VAR
 	IdxSkids : INT;
+	IdxAlarmsActive : INT;
 END_VAR

@@ -485,6 +485,7 @@ TYPE
 	END_STRUCT;
 	Vis_Main_Internal_Type : 	STRUCT 
 		IP_WSTRING_Temp : WSTRING[80];
+		SkidAlarmName : STRING[80];
 	END_STRUCT;
 	Vis_Main_Out_Type : 	STRUCT 
 		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
@@ -493,6 +494,7 @@ TYPE
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
 		SelectedSkidSessionVar : INT;
+		AckAllAlarms_Skid : ARRAY[0..MAX_SKIDS]OF BOOL;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;

@@ -3202,7 +3202,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_203.P203_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_203.P203_ENABLE" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P203_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -3236,7 +3236,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_202.P202_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_202.P202_ENABLE" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P202_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -3270,7 +3270,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Dosing_Pump_201.P201_ENABLE" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Dosing_Pump_201.P201_ENABLE" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="P201_HIDE" attribute="visible" />
 		</Binding>
 		
@@ -4708,37 +4708,91 @@
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="FI301" attribute="value" />
 		</Binding>
-	<Binding mode="oneWay">
-<Source xsi:type="session" refId="::SYSTEM:clientInfo.userId" attribute="value" />
-<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput53" attribute="value" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
-<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
-<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
-</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="::SYSTEM:clientInfo.userId" attribute="value" />
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput53" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
+		</Binding>
 
 
-<Binding mode="twoWay">
-<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="value" />
-<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="listElement">
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="value" />
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[0]" />
 					<bt:Element index="1" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[1]" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[2]" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[3]" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[4]" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[5]" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[6]" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[7]" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[8]" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[9]" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[10]" />
+					<bt:Element index="11" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[11]" />
+					<bt:Element index="12" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[12]" />
+					<bt:Element index="13" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[13]" />
+					<bt:Element index="14" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[14]" />
+					<bt:Element index="15" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[15]" />
+					<bt:Element index="16" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[16]" />
+					<bt:Element index="17" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[17]" />
+					<bt:Element index="18" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[18]" />
+					<bt:Element index="19" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[19]" />
+					<bt:Element index="20" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[20]" />
+					<bt:Element index="21" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[21]" />
+					<bt:Element index="22" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[22]" />
+					<bt:Element index="23" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[23]" />
+					<bt:Element index="24" refId="::AsGlobalPV:gVis.Alarms.Active.FilterString[24]" />
 				</be:List>
-</Source>
-<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
-</Binding>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
+		</Binding>
 
 
-
-
-</Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[0]" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[1]" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[2]" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[3]" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[4]" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[5]" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[6]" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[7]" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[8]" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[9]" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[10]" />
+					<bt:Element index="11" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[11]" />
+					<bt:Element index="12" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[12]" />
+					<bt:Element index="13" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[13]" />
+					<bt:Element index="14" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[14]" />
+					<bt:Element index="15" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[15]" />
+					<bt:Element index="16" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[16]" />
+					<bt:Element index="17" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[17]" />
+					<bt:Element index="18" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[18]" />
+					<bt:Element index="19" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[19]" />
+					<bt:Element index="20" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[20]" />
+					<bt:Element index="21" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[21]" />
+					<bt:Element index="22" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[22]" />
+					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[23]" />
+					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.In.AckAllAlarms_Skid[24]" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P13" attribute="value" />
+		</Binding>
+	</Bindings>
 </BindingsSet>

@@ -284,6 +284,6 @@
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P12" top="150" left="1460" height="19" zIndex="255" text="LOCK" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="150" left="1160" height="19" zIndex="256" text="LOCK" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="150" left="1160" height="19" zIndex="256" text="Ack All" />
   </Widgets>
 </Content>
