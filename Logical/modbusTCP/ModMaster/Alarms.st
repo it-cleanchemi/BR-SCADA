@@ -3852,7 +3852,7 @@ ACTION Alarms_action:
 	IF gSkid[IdxSkids].Error THEN
 		CASE gSkid[IdxSkids].ErrorInfo.Severity OF
 			1:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:= UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity1');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3861,7 +3861,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			2:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity2');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3870,7 +3870,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			3:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity3');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3879,7 +3879,7 @@ ACTION Alarms_action:
 					
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			4:
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity4');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -3889,7 +3889,7 @@ ACTION Alarms_action:
 				HA_Array_AddTop(ADR(gServices.Alarms.In.AlarmList), SIZEOF(gServices.Alarms.In.AlarmList), ADR(gSkid[IdxSkids].tempAlarm), SIZEOF(gSkid[IdxSkids].tempAlarm));
 			5:
 		  
-				gSkid[IdxSkids].tempAlarm.name				:= INT_TO_STRING(IdxSkids+1);
+				gSkid[IdxSkids].tempAlarm.name				:=  UINT_TO_STRING(gUnit[IdxSkids]);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT('Skid',gSkid[IdxSkids].tempAlarm.name);
 				gSkid[IdxSkids].tempAlarm.name				:= CONCAT(gSkid[IdxSkids].tempAlarm.name,'Severity5');
 				gSkid[IdxSkids].tempAlarm.allowMultiple		:= TRUE;
@@ -4020,8 +4020,6 @@ ACTION Alarms_action:
 			gSkid[IdxSkids].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
 			gSkid[IdxSkids].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
 			gSkid[IdxSkids].MpAlarmXConfigAlarm.Save				:= TRUE;
->>>>>>> Stashed changes
-
 		5: 
 			gSkid[IdxSkids].AlarmName	 := UINT_TO_STRING(gUnit[IdxSkids]);
 			gSkid[IdxSkids].AlarmName	 := CONCAT('Skid',gSkid[IdxSkids].AlarmName	);

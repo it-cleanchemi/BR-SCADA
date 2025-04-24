@@ -318,8 +318,7 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Alarms.ALARM_P202 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[17];
 	gSkid[IdxSkids].Alarms.ALARM_P203 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[18];
 	
-<<<<<<< Updated upstream
-=======
+
 	//Set Unit Number and Add Alarms
 	IF gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit[IdxSkids] <> gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID) THEN
 		gUnit[IdxSkids] := gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID;
@@ -343,6 +342,4 @@ ACTION Modbus_Status_action:
 
 	END_IF;
 	
->>>>>>> Stashed changes
-
 END_ACTION

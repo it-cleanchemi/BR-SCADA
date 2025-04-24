@@ -1,4 +1,5 @@
 VAR
+	gUnit : ARRAY[0..MAX_SKIDS] OF UINT;
 	gServices : Services_typ;
 	SkidID : USINT;
 	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_Type;
