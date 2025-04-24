@@ -150,12 +150,31 @@ TYPE
 		Write_PMAX_CONC : CMD_Write_PMAX_CONC_Type;
 		Write_HP_CONC : CMD_Write_HP_CONC_Type;
 		Write_NAOH_CONC : CMD_Write_NAOH_CONC_Type;
+		Write_UNLOCK_CMD : CMD_Write_UNLOCK_CMD_Type;
+		Write_LOCK_CMD : CMD_Write_LOCK_CMD_Type;
+		Write_FI301_SIM_CMD : CMD_Write_FI301_SIM_CMD_Type;
+		Write_FI301_MEA_CMD : CMD_Write_FI301_MEA_CMD_Type;
+		Write_FI301_SIM : CMD_Write_FI301_SIM_Type;
+		Write_FI302_SIM_CMD : CMD_Write_FI302_SIM_CMD_Type;
+		Write_FI302_MEA_CMD : CMD_Write_FI302_MEA_CMD_Type;
+		Write_FI302_SIM : CMD_Write_FI302_SIM_Type;
+		Write_FI303_SIM_CMD : CMD_Write_FI303_SIM_CMD_Type;
+		Write_FI303_MEA_CMD : CMD_Write_FI303_MEA_CMD_Type;
+		Write_FI303_SIM : CMD_Write_FI303_SIM_Type;
 	END_STRUCT;
 END_TYPE
 
 (*Misc. Write Commands*)
 
 TYPE
+	CMD_Write_UNLOCK_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wUNLOCK_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_LOCK_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wLOCK_CMD : UINT := 1;
+	END_STRUCT;
 	CMD_Write_EFF_1_Type : 	STRUCT 
 		Send : BOOL;
 		wEFF_1 : REAL;
@@ -367,6 +386,60 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*FI301 Write Commands*)
+
+TYPE
+	CMD_Write_FI301_SIM_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI301_SIM_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI301_MEA_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI301_MEA_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI301_SIM_Type : 	STRUCT 
+		Send : BOOL;
+		wFI301_SIM : REAL;
+		wFI301_SIM_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*FI302 Write Commands*)
+
+TYPE
+	CMD_Write_FI302_SIM_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI302_SIM_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI302_MEA_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI302_MEA_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI302_SIM_Type : 	STRUCT 
+		Send : BOOL;
+		wFI302_SIM : REAL;
+		wFI302_SIM_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
+(*FI303 Write Commands*)
+
+TYPE
+	CMD_Write_FI303_SIM_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI303_SIM_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI303_MEA_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI303_MEA_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI303_SIM_Type : 	STRUCT 
+		Send : BOOL;
+		wFI303_SIM : REAL;
+		wFI303_SIM_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
 (**)
 
 TYPE
@@ -523,6 +596,11 @@ END_TYPE
 
 TYPE
 	Pmax_General_Variables_Type : 	STRUCT  (*PeroxyMax General Variables*)
+		PLC_REV_A : REAL; (*PLC Revision Part A*)
+		PLC_REV_B : REAL; (*PLC Revision Part B*)
+		HMI_REV_A : REAL; (*HMI Revision Part A*)
+		HMI_REV_B : REAL; (*HMI Revision Part B*)
+		SCREEN_LOCK : UINT; (*Unit HMI Lockout from SCADA, 1 = Locked   0 = Unlocked*)
 		UNIT_ID : UINT; (*Pmax Skid ID*)
 		PMAX_HOA : UINT; (*Pmax Generation is ON*)
 		PMAX_STATUS : UINT; (*Pmax Status*)
@@ -620,7 +698,7 @@ END_TYPE
 
 TYPE
 	Dosing_Pump_201_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 201*)
-		P201_PTYPE : UINT; (*Pump 201 Pump Type*)
+		P201_PTYPE : UINT; (*Pump 201 Pump Type  0 = DDA   1 = DME*)
 		P201_XS : UINT; (*Pump 201 On/Off Status*)
 		P201_CHEM : UINT; (*Pump 201 Chemical*)
 		P201_HOA : UINT; (*Pump 201 Mode*)
@@ -637,8 +715,10 @@ TYPE
 		P201_CONC : REAL; (*Pump 201 Concentration*)
 		P201_REF_SENSOR : REAL; (*Pump 201 Reference Sensor*)
 		P201_LS : REAL; (*Pump 201 Inlet Point Level*)
+		P201_ASP : REAL; (*Pump 201 Adjusted Setpoint Value*)
 		P201_PPI : REAL; (*Pump 201 Internal Pressure*)
-		P201_ENABLE : UINT; (*Pump 201 Visualization Enable Bit*)
+		P201_ADJ : UINT; (*Pump 201 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P201_ENABLE : UINT; (*Pump 201 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 	END_STRUCT;
 	Dosing_Pump_202_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		P202_XS : UINT; (*Pump 202 On/Off Status*)
@@ -658,7 +738,9 @@ TYPE
 		P202_REF_SENSOR : REAL; (*Pump 202 Reference Sensor*)
 		P202_LS : REAL; (*Pump 202 Inlet Point Level*)
 		P202_PPI : REAL; (*Pump 202 Internal Pressure*)
-		P202_ENABLE : UINT; (*Pump 202 Visualization Enable Bit*)
+		P202_ASP : REAL; (*Pump 202 Adjusted Setpoint Value*)
+		P202_ADJ : UINT; (*Pump 202 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P202_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 	END_STRUCT;
 	Dosing_Pump_203_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		P203_XS : UINT; (*Pump 203 On/Off Status*)
@@ -678,7 +760,9 @@ TYPE
 		P203_REF_SENSOR : REAL; (*Pump 203 Reference Sensor*)
 		P203_LS : REAL; (*Pump 203 Inlet Point Level*)
 		P203_PPI : REAL; (*Pump 203 Internal Pressure*)
-		P203_ENABLE : UINT; (*Pump 203 Visualization Enable Bit*)
+		P203_ASP : REAL; (*Pump 203 Adjusted Setpoint Value*)
+		P203_ADJ : UINT; (*Pump 203 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P203_ENABLE : UINT; (*Pump 203 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 	END_STRUCT;
 	Dosing_Pump_204_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
 		P204_XS : UINT; (*Pump 204 On/Off Status*)

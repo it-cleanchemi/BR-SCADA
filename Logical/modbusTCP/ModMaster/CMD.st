@@ -251,5 +251,76 @@ ACTION Modbus_CMD_action:
 		gCmd[IdxSkids].Write_P104_SP.Send := FALSE;
 	END_IF;	
 	
-
+	// AS Block 48 is a READ block
+	
+	// AS Block 49 - LOCK_CMD
+	IF gCmd[IdxSkids].Write_LOCK_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[48].single := TRUE;
+		gCmd[IdxSkids].Write_LOCK_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 50 - UNLOCK_CMD
+	IF gCmd[IdxSkids].Write_UNLOCK_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[49].single := TRUE;
+		gCmd[IdxSkids].Write_UNLOCK_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 51 - FI301_SIM_CMD
+	IF gCmd[IdxSkids].Write_FI301_SIM_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[50].single := TRUE;
+		gCmd[IdxSkids].Write_FI301_SIM_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 52 - FI301_MEA_CMD
+	IF gCmd[IdxSkids].Write_FI301_MEA_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[51].single := TRUE;
+		gCmd[IdxSkids].Write_FI301_MEA_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 53 - FI301_SIM
+	IF gCmd[IdxSkids].Write_FI301_SIM.Send THEN
+		gCmd[IdxSkids].Write_FI301_SIM.wFI301_SIM_SWAPPED := IDEC_REAL_Conv(gCmd[IdxSkids].Write_FI301_SIM.wFI301_SIM);
+		MasterConfig[IdxSkids].action_enable[52].single := TRUE;
+		gCmd[IdxSkids].Write_FI301_SIM.Send := FALSE;
+	END_IF;
+	
+	// AS Block 54 - FI302_SIM_CMD
+	IF gCmd[IdxSkids].Write_FI302_SIM_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[53].single := TRUE;
+		gCmd[IdxSkids].Write_FI302_SIM_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 55 - FI302_MEA_CMD
+	IF gCmd[IdxSkids].Write_FI302_MEA_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[54].single := TRUE;
+		gCmd[IdxSkids].Write_FI302_MEA_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 56 - FI302_SIM
+	IF gCmd[IdxSkids].Write_FI302_SIM.Send THEN
+		gCmd[IdxSkids].Write_FI302_SIM.wFI302_SIM_SWAPPED := IDEC_REAL_Conv(gCmd[IdxSkids].Write_FI302_SIM.wFI302_SIM);
+		MasterConfig[IdxSkids].action_enable[55].single := TRUE;
+		gCmd[IdxSkids].Write_FI302_SIM.Send := FALSE;
+	END_IF;
+	
+	// AS Block 57 - FI303_SIM_CMD
+	IF gCmd[IdxSkids].Write_FI303_SIM_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[56].single := TRUE;
+		gCmd[IdxSkids].Write_FI303_SIM_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 58 - FI303_MEA_CMD
+	IF gCmd[IdxSkids].Write_FI303_MEA_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[57].single := TRUE;
+		gCmd[IdxSkids].Write_FI303_MEA_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 59 - FI303_SIM
+	IF gCmd[IdxSkids].Write_FI303_SIM.Send THEN
+		gCmd[IdxSkids].Write_FI303_SIM.wFI303_SIM_SWAPPED := IDEC_REAL_Conv(gCmd[IdxSkids].Write_FI303_SIM.wFI303_SIM);
+		MasterConfig[IdxSkids].action_enable[58].single := TRUE;
+		gCmd[IdxSkids].Write_FI303_SIM.Send := FALSE;
+	END_IF;
+	
+	
 END_ACTION
