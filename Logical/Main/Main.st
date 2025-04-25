@@ -104,6 +104,8 @@ PROGRAM _CYCLIC
 		//Reset only Selected Skid Alarms
 		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
 			
+			
+		
 			FOR IdxAlarmsActive := 0 TO 49 DO
 				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit[IdxSkids] THEN
 					MpAlarmXAcknowledgeID(gAlarmXCore,gVis.Alarms.Active.UIConnect.AlarmList.InstanceID[IdxAlarmsActive]);

@@ -118,6 +118,7 @@ TYPE
 		Stop : BOOL;
 		Start : BOOL;
 		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
+		Write_UNIT_ACK : CMD_Write_UNIT_ACK_Type;
 		Write_P203_STP_CMD : CMD_Write_P203_STP_CMD_Type;
 		Write_P203_STRT_CMD : CMD_Write_P203_STRT_CMD_Type;
 		Write_P203_HOA : CMD_Write_P203_HOA_Type;
@@ -170,6 +171,9 @@ END_TYPE
 (*Misc. Write Commands*)
 
 TYPE
+	CMD_Write_UNIT_ACK_Type : 	STRUCT 
+		wUNIT_ACK : UINT := 1;
+	END_STRUCT;
 	CMD_Write_UNLOCK_CMD_Type : 	STRUCT 
 		Send : BOOL;
 		wUNLOCK_CMD : UINT := 1;

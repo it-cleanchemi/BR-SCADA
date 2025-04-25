@@ -552,6 +552,15 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[58].start_addr := 30300;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[58].timer 	:= 10;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[58].type 		:= 16;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 60 - UNIT_ACK
+		MasterConfig[IdxSkids].action_enable[59].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[59].p_pv		:= ADR(gCmd[IdxSkids].Write_UNIT_ACK.wUNIT_ACK);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[59].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[59].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[59].start_addr := 10024;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[59].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[59].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
 
 
 	
