@@ -322,7 +322,7 @@ ACTION Modbus_CMD_action:
 		gCmd[IdxSkids].Write_FI303_SIM.Send := FALSE;
 	END_IF;
 	
-	// AS Block 60 - UNIT_ACK 
+	// AS Block 60 - UNIT_ACK - RESET OF CONDITION PERFORMED IN MAIN.ST ALARMS RESET 
 	IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
 		MasterConfig[IdxSkids].action_enable[59].single := TRUE;
 	END_IF;

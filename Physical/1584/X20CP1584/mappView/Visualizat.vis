@@ -18,8 +18,8 @@
     <BindingsSet refId="PM_Status_Content_binding" />
     <BindingsSet refId="PM_Settings_Content_binding" />
     <BindingsSet refId="Alarms_Active_binding" />
-    <BindingsSet refId="OverviewEx1_binding" />
     <BindingsSet refId="Alarms_History_binding" />
+    <BindingsSet refId="OverviewEx1_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />

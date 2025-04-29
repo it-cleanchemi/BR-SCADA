@@ -3906,6 +3906,25 @@ ACTION Alarms_action:
 	brsmemset(ADR(gSkid[IdxSkids].ErrorInfo),0,SIZEOF(gSkid[IdxSkids].ErrorInfo));
 
 	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
+	
+	//Set Unit Number and Add Alarms
+	IF (gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit[IdxSkids] <> gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID)) 
+		OR (gUnit[IdxSkids] <> 0 AND gVis.Alarms.Active.FilterString[IdxSkids] = '') THEN
+		
+		gUnit[IdxSkids] := gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID;
+		
+		gSkid[IdxSkids].AlarmName	 := UINT_TO_STRING(gUnit[IdxSkids]);
+		gSkid[IdxSkids].AlarmName	 := CONCAT('Skid',gSkid[IdxSkids].AlarmName	);
+		
+		gSkid[IdxSkids].i := 1;
+		
+		SkidNumberINT := UINT_TO_STRING(gUnit[IdxSkids]);
+		
+		gVis.Alarms.Active.FilterString[IdxSkids] := CONCAT('[{"value":',SkidNumberINT);
+		gVis.Alarms.Active.FilterString[IdxSkids] :=  CONCAT(gVis.Alarms.Active.FilterString[IdxSkids] ,',"conditionType":"==","columnPosition":1}]');
+
+	END_IF;
+	
 	// Case for handling the alarm history
 	CASE gServices.Alarms.Internal.StateExportHistory OF
 		0:
