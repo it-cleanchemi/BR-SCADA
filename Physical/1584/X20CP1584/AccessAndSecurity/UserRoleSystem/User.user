@@ -3,7 +3,7 @@
 <Configuration>
   <Element ID="Admin" Type="User" Description="Admininstrator Account">
     <Property ID="UserID" Value="1" />
-    <Property ID="Password" Value="wfHn9GJh5KSniWjnMSiIj9OAH8LozHsYIIy6bXOhX532cmCDlN0=" Description="123abc" />
+    <Property ID="Password" Value="/qjG6C6/cjKLp3CJOXOUJ2S6x93eblvOqOKk1jgJO6jGp1DLWUU=" Description="123abc" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Administrator_Role" />
       <Property ID="Role[2]" Value="Anonymous1" />

@@ -9,6 +9,8 @@ PROGRAM _CYCLIC
 		
 		gSkid[IdxSkids].BufferTank.LI200P := (gSkid[IdxSkids].BufferTank.LI200 / BT_VOLUME)*100;
 		
+		// VISIBILITY TRIGGER SETTING. NEEDS TO BE MOVED TO VIS PROGRAM AT SOME POINT
+		
 		IF gSkid[IdxSkids].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
 			gSkid[IdxSkids].VisBool.LSHH200 := 1;
 		ELSE
@@ -101,6 +103,103 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.P202_ENABLE_OPP := 1;
 		END_IF;
 		
+		IF gSkid[IdxSkids].Dosing_Pump_203.P203_ENABLE = 1 THEN
+			gSkid[IdxSkids].VisBool.P203_ENABLE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.P203_ENABLE_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_102.P102_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P102_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P102_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_102.P102_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P102_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P102_ALARM := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_103.P103_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P103_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P103_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_103.P103_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P103_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P103_ALARM := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_104.P104_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P104_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P104_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_Pump_104.P104_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P104_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P104_ALARM := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P201_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P201_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_ALARM := 0;
+		END_IF;		
+		
+		IF gSkid[IdxSkids].Dosing_Pump_202.P202_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P202_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P202_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_202.P202_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P202_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P202_ALARM := 0;
+		END_IF;		
+		
+		IF gSkid[IdxSkids].Dosing_Pump_203.P203_WARN > 0 THEN
+			gSkid[IdxSkids].VisBool.P203_WARN := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P203_WARN := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_203.P203_ALARM > 0 THEN
+			gSkid[IdxSkids].VisBool.P203_ALARM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P203_ALARM := 0;
+		END_IF;	
+		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_ADJ = 1 AND gSkid[IdxSkids].VisBool.P201_PPM = 1 THEN
+			gSkid[IdxSkids].VisBool.P201_APPM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_APPM := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_202.P202_ADJ = 1 AND gSkid[IdxSkids].VisBool.P202_PPM = 1 THEN
+			gSkid[IdxSkids].VisBool.P202_APPM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P202_APPM := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Dosing_Pump_203.P203_ADJ = 1 AND gSkid[IdxSkids].VisBool.P203_PPM = 1 THEN
+			gSkid[IdxSkids].VisBool.P203_APPM := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P203_APPM := 0;
+		END_IF;
+		
+
 		//Reset only Selected Skid Alarms
 		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
 			

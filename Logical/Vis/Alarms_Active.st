@@ -30,5 +30,17 @@ ACTION Alarms_Active:
 	gVis.Alarms.Active.TempSTRING 											:= INT_TO_STRING(gVis.Alarms.Active.TempINT);
 	HA_brsstrcat(ADR(gVis.Alarms.Active.TableConfig),ADR(gVis.Alarms.Active.TempSTRING),SIZEOF(gVis.Alarms.Active.TableConfig));
 	HA_brsstrcat(ADR(gVis.Alarms.Active.TableConfig),ADR(', "visible":false} ]}'),SIZEOF(gVis.Alarms.Active.TableConfig));
+	
+	IF gVis.Alarms.Active.SelectedIndex <> gVis.Alarms.Active.SelectedIndex_Temp THEN
+	  
+		FOR IdxSkids := 0 TO MAX_SKIDS DO
+			IF gUnit[IdxSkids] = gVis.Alarms.Active.UIConnect.AlarmList.Code[gVis.Alarms.Active.SelectedIndex]  THEN
+				gVis.Alarms.Active.SelectedSkidIdx := IdxSkids;
+				EXIT;
+			END_IF;
+		END_FOR;
+		
+		gVis.Alarms.Active.SelectedIndex_Temp := gVis.Alarms.Active.SelectedIndex;
+	END_IF;
 
 END_ACTION

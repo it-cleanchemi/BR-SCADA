@@ -23,5 +23,7 @@
     <Object Type="File">Alarms_Active.eventbinding</Object>
     <Object Type="File">Alarms_History.binding</Object>
     <Object Type="File">Alarms.eventbinding</Object>
+    <Object Type="File">Login_Content.eventbinding</Object>
+    <Object Type="File">Login_Content.binding</Object>
   </Objects>
 </Package>

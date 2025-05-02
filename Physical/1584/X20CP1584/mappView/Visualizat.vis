@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
-  <StartPage pageRefId="Page_Main" />
+  <StartPage pageRefId="Page_Login" />
   <Pages>
     <Page refId="Page_Main" />
     <Page refId="Page_Process" />
@@ -8,6 +8,7 @@
     <Page refId="Page_Settings" />
     <Page refId="Page_Diagnostics" />
     <Page refId="Page_Alarms" />
+    <Page refId="Page_Login" />
   </Pages>
   <Navigations />
   <BindingsSets>
@@ -20,6 +21,7 @@
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="Alarms_History_binding" />
     <BindingsSet refId="OverviewEx1_binding" />
+    <BindingsSet refId="Login_Content_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Diagnostics_eventbinding" />
@@ -32,6 +34,7 @@
     <EventBindingsSet refId="PM_Settings_Content_eventbinding" />
     <EventBindingsSet refId="Alarms_Active_eventbinding" />
     <EventBindingsSet refId="Alarms_eventbinding" />
+    <EventBindingsSet refId="Login_Content_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />
@@ -67,6 +70,7 @@
     <Content refId="P203_Status_Content" />
     <Content refId="PM_Status_Content" />
     <Content refId="PM_Settings_Content" />
+    <Content refId="Login_Content" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

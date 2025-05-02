@@ -27,8 +27,8 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P104_PPI" top="817" left="60" width="220" zIndex="68" unit="{'metric':'80','imperial':'N26','imperial-us':'N26'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P104_PFI" top="817" left="-60" width="220" zIndex="69" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_PPI" top="376" left="1120" width="220" zIndex="70" unit="{'metric':'80','imperial':'N26','imperial-us':'N26'}" unitAlign="right" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_PPI" top="603" left="1120" width="220" zIndex="71" unit="{'metric':'80','imperial':'N26','imperial-us':'N26'}" unitAlign="right" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_PFI" top="603" left="1000" width="220" zIndex="72" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_PPI" top="599" left="1120" width="220" zIndex="71" unit="{'metric':'80','imperial':'N26','imperial-us':'N26'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_PFI" top="599" left="1000" width="220" zIndex="72" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="LI200" top="190" left="835" width="220" zIndex="73" unit="{'metric':'MLT','imperial':'MMT','imperial-us':'mmt'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_PFI" top="376" left="1000" width="220" zIndex="74" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="CD101_TI" top="240" left="680" width="220" zIndex="75" unit="{'metric':'FAH','imperial':'FAH','imperial-us':'FAH'}" unitAlign="right" />
@@ -190,18 +190,18 @@
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput33" top="20" left="780" width="70" zIndex="185" value="GPM" textAlign="center" fontSize="14px" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput34" top="77" left="780" width="70" zIndex="186" value="GPM" textAlign="center" fontSize="14px" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput35" top="134" left="780" width="70" zIndex="187" value="GPM" textAlign="center" fontSize="14px" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P1" top="10" left="850" width="60" height="19" zIndex="188" text="MEA" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P2" top="35" left="850" width="60" height="19" zIndex="189" text="SIM" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P3" top="68" left="850" width="60" height="19" zIndex="191" text="MEA" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P4" top="93" left="850" width="60" height="19" zIndex="193" text="SIM" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P5" top="127" left="850" width="60" height="19" zIndex="194" text="MEA" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P6" top="152" left="850" width="60" height="19" zIndex="195" text="SIM" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P1" top="20" left="920" width="80" zIndex="196" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P2" top="77" left="920" width="80" zIndex="197" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P3" top="134" left="920" width="80" zIndex="199" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P7" top="20" left="1005" width="60" zIndex="200" text="Set" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P8" top="77" left="1005" width="60" zIndex="203" text="Set" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P9" top="134" left="1005" width="60" zIndex="204" text="Set" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI301_MEA_CMD" top="10" left="850" width="60" height="19" zIndex="188" text="MEA" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI301_SIM_CMD" top="35" left="850" width="60" height="19" zIndex="189" text="SIM" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI302_MEA_CMD" top="68" left="850" width="60" height="19" zIndex="191" text="MEA" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI302_SIM_CMD" top="93" left="850" width="60" height="19" zIndex="193" text="SIM" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI303_MEA_CMD" top="127" left="850" width="60" height="19" zIndex="194" text="MEA" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI303_SIM_CMD" top="152" left="850" width="60" height="19" zIndex="195" text="SIM" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_FI301_SIM" top="20" left="920" width="80" zIndex="196" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_FI302_SIM" top="77" left="920" width="80" zIndex="197" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_FI303_SIM" top="134" left="920" width="80" zIndex="199" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI301_SIM" top="20" left="1005" width="60" zIndex="200" text="Set" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI302_SIM" top="77" left="1005" width="60" zIndex="203" text="Set" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI303_SIM" top="134" left="1005" width="60" zIndex="204" text="Set" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle22" top="61" left="689" width="380" height="60" zIndex="4" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle23" top="119" left="689" width="380" height="60" zIndex="3" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="431" left="1340" width="160" zIndex="205" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
@@ -252,7 +252,6 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_APPM" top="798" left="1060" width="220" zIndex="225" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_APPM" top="574" left="1060" width="220" zIndex="226" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_APPM" top="351" left="1060" width="220" zIndex="227" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
-    <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="P201_HIDE" top="180" left="1480" width="690" height="220" zIndex="252" borderWidth="2px" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" visible="false" />
     <Widget xsi:type="widgets.brease.Image" id="P102_GREEN" top="340" left="220" width="140" zIndex="228" image="Media/Images/P1G.png" />
     <Widget xsi:type="widgets.brease.Image" id="P103_GREEN" top="520" left="220" width="140" zIndex="229" image="Media/Images/P1G.png" />
     <Widget xsi:type="widgets.brease.Image" id="P104_GREEN" top="714" left="220" width="140" zIndex="230" image="Media/Images/P1G.png" />
@@ -286,7 +285,17 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_ASP" top="273" left="1060" width="220" zIndex="257" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_ASP" top="496" left="1060" width="220" zIndex="258" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_ASP" top="720" left="1060" width="220" zIndex="259" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
-    <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="P203_HIDE" top="640" left="1460" width="690" height="220" zIndex="260" borderWidth="2px" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" visible="false" />
-    <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="P202_HIDE" top="400" left="1480" width="690" height="220" zIndex="261" borderWidth="2px" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P102_WARN" top="440" left="280" zIndex="261" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P102_ALARM" top="441" left="320" zIndex="262" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P103_WARN" top="623" left="280" zIndex="263" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P104_WARN" top="817" left="280" zIndex="264" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P103_ALARM" top="623" left="320" zIndex="265" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P104_ALARM" top="817" left="320" zIndex="266" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P201_ALARM" top="376" left="1420" zIndex="267" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P201_WARN" top="376" left="1380" zIndex="268" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_ALARM" top="599" left="1420" zIndex="269" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P203_ALARM" top="823" left="1420" zIndex="270" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P202_WARN" top="599" left="1380" zIndex="271" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="P203_WARN" top="823" left="1380" zIndex="272" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
   </Widgets>
 </Content>

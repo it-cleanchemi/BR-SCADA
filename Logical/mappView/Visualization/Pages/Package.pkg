@@ -13,5 +13,6 @@
     <Object Type="Package">PopUpTabs</Object>
     <Object Type="Package">CustomFeatures</Object>
     <Object Type="Package">OldScreens</Object>
+    <Object Type="Package">Page_Login</Object>
   </Objects>
 </Package>

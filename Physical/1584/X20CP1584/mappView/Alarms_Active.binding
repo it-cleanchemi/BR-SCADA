@@ -39,9 +39,5 @@
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageUp" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" attribute="value" />
 		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.Reset" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_AcknowledgeAll" attribute="value" />
-		</Binding>
 	</Bindings>
 </BindingsSet>

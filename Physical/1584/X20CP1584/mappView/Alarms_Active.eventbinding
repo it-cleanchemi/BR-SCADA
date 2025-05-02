@@ -11,5 +11,31 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Alarms_Active.Alarms_Active_PushButton_GoToSkid.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_GoToSkid" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:gVis.Alarms.Active.SelectedSkidIdx">
+            <Method xsi:type="opcUa.NodeAction.GetValue" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="SelectedSkidIndx">
+                  <Method xsi:type="session.VariableAction.SetValueNumber" value="=result" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

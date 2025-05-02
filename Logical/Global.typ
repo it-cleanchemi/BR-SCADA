@@ -26,6 +26,7 @@ TYPE
 	Modbus_7000_Type : 	STRUCT 
 		Block6_Int : ARRAY[0..124]OF INT;
 		Block7_Int : ARRAY[0..124]OF INT;
+		Block61_Int : ARRAY[0..124]OF INT;
 		Block8_Real : ARRAY[0..62]OF REAL;
 		Block9_Real : ARRAY[0..62]OF REAL;
 		Block10_Real : ARRAY[0..62]OF REAL;
@@ -466,6 +467,7 @@ TYPE
 		Reset : BOOL;
 		PageDown : BOOL;
 		PageUp : BOOL;
+		SelectedIndex_Temp : UINT;
 		SelectedIndex : UINT;
 		TableConfig : STRING[255];
 		TempINT : INT;
@@ -473,7 +475,7 @@ TYPE
 		Enable : BOOL;
 		Visable : BOOL;
 		FilterString : ARRAY[0..MAX_SKIDS]OF STRING[80];
-		Test : STRING[200];
+		SelectedSkidIdx : UINT;
 	END_STRUCT;
 	Vis_Alarms_History_typ : 	STRUCT 
 		UIConnect : MpAlarmXHistoryUIConnectType;
@@ -511,9 +513,22 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		P203_WARN : BOOL;
+		P203_ALARM : BOOL;
+		P202_WARN : BOOL;
+		P202_ALARM : BOOL;
+		P201_WARN : BOOL;
+		P201_ALARM : BOOL;
+		P102_WARN : BOOL;
+		P102_ALARM : BOOL;
+		P103_WARN : BOOL;
+		P103_ALARM : BOOL;
+		P104_WARN : BOOL;
+		P104_ALARM : BOOL;
 		P102_LS : BOOL;
 		P103_LS : BOOL;
 		LSHH200 : BOOL;
+		P203_ENABLE_OPP : BOOL;
 		P202_ENABLE_OPP : BOOL;
 		P201_ENABLE_OPP : BOOL;
 		P201_SP : BOOL;
@@ -527,6 +542,9 @@ TYPE
 		P201_DDA : BOOL;
 		P201_DMEGREEN : BOOL;
 		P201_DME : BOOL;
+		P201_APPM : BOOL;
+		P202_APPM : BOOL;
+		P203_APPM : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -673,6 +691,8 @@ TYPE
 		P102_PPI : REAL; (*Pump 102 Internal Pressure*)
 		P102_TI : REAL; (*Pump 102 Temperature*)
 		P102_PI : REAL; (*Pump 102 Pressure*)
+		P102_ALARM : UINT; (*Pump 102 Internal Alarm Message Index*)
+		P102_WARN : UINT; (*Pump 102 Internal Warning Message Index*)
 		P102_LS : REAL; (*Pump 102 Inlet Point Level*)
 	END_STRUCT;
 	Pmax_Pump_103_Type : 	STRUCT  (*Pmax Generation Variables for Pump 103 - Hydrogen Peroxide Pump*)
@@ -686,6 +706,8 @@ TYPE
 		P103_PPI : REAL; (*Pump 103 Internal Pressure*)
 		P103_TI : REAL; (*Pump 103 Temperature*)
 		P103_PI : REAL; (*Pump 103 Pressure*)
+		P103_ALARM : UINT; (*Pump 103 Internal Alarm Message Index*)
+		P103_WARN : UINT; (*Pump 103 Internal Warning Message Index*)
 		P103_LS : REAL; (*Pump 103 Inlet Point Level*)
 	END_STRUCT;
 	Pmax_Pump_104_Type : 	STRUCT  (*Pmax Generation Variables for Pump 104 - Triacetin Pump*)
@@ -698,6 +720,8 @@ TYPE
 		P104_PFQ : REAL; (*Pump 104 Totalizer*)
 		P104_PI : REAL; (*Pump 104 Pressure*)
 		P104_LS : REAL; (*Pump 104 Inlet Point Level*)
+		P104_ALARM : UINT; (*Pump 104 Internal Alarm Message Index*)
+		P104_WARN : UINT; (*Pump 104 Internal Warning Message Index*)
 		P104_PPI : REAL; (*Pump 104 Internal Pressure*)
 	END_STRUCT;
 END_TYPE
@@ -727,7 +751,15 @@ TYPE
 		P201_ASP : REAL; (*Pump 201 Adjusted Setpoint Value*)
 		P201_PPI : REAL; (*Pump 201 Internal Pressure*)
 		P201_ADJ : UINT; (*Pump 201 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
-		P201_ENABLE : UINT; (*Pump 201 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P201_ALARM : UINT; (*Pump 201 Internal Alarm Message Index*)
+		P201_WARN : UINT; (*Pump 201 Internal Warning Message Index*)
+		P201_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P201_TEXT1 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT2 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT3 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT4 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT5 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT6 : UINT; (*Pump 201 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_202_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		P202_XS : UINT; (*Pump 202 On/Off Status*)
@@ -749,7 +781,15 @@ TYPE
 		P202_PPI : REAL; (*Pump 202 Internal Pressure*)
 		P202_ASP : REAL; (*Pump 202 Adjusted Setpoint Value*)
 		P202_ADJ : UINT; (*Pump 202 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P202_ALARM : UINT; (*Pump 202 Internal Alarm Message Index*)
+		P202_WARN : UINT; (*Pump 202 Internal Warning Message Index*)
 		P202_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P202_TEXT1 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT2 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT3 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT4 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT5 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT6 : UINT; (*Pump 202 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_203_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		P203_XS : UINT; (*Pump 203 On/Off Status*)
@@ -771,7 +811,15 @@ TYPE
 		P203_PPI : REAL; (*Pump 203 Internal Pressure*)
 		P203_ASP : REAL; (*Pump 203 Adjusted Setpoint Value*)
 		P203_ADJ : UINT; (*Pump 203 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P203_ALARM : UINT; (*Pump 203 Internal Alarm Message Index*)
+		P203_WARN : UINT; (*Pump 202 Internal Warning Message Index*)
 		P203_ENABLE : UINT; (*Pump 203 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P203_TEXT1 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT2 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT3 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT4 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT5 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT6 : UINT; (*Pump 203 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_204_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
 		P204_XS : UINT; (*Pump 204 On/Off Status*)
