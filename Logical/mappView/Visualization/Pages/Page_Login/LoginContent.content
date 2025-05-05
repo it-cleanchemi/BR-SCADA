@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Login_Content" height="940" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.LoginButton" id="LoginButton" top="264" left="208" width="160" height="40" zIndex="2" image="Media/SVGSymbols/User/Login.svg" text="Login" imageColor="rgba(71, 71, 71, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" textAlign="left" />
-    <Widget xsi:type="widgets.brease.TextInput" id="TextInputLogin" top="144" left="211" width="154" zIndex="3" placeholder="user name" fontSize="14px" />
-    <Widget xsi:type="widgets.brease.Password" id="PasswordLogin" top="199" left="213" width="150" zIndex="4" placeholder="password" fontSize="14px" />
-    <Widget xsi:type="widgets.brease.LoginInfo" id="LoginInfo1" top="59" left="211" width="174" height="50" zIndex="5" textColor="rgba(255, 255, 255, 1)" />
-    <Widget xsi:type="widgets.brease.Image" id="Image1" top="59" left="74" width="57" height="50" zIndex="6" image="Media/SVGsymbols/User/User.svg" />
-    <Widget xsi:type="widgets.brease.Label" id="Label1" top="144" left="74" width="137" zIndex="7" text="User name:" textColor="rgba(255, 255, 255, 1)" />
-    <Widget xsi:type="widgets.brease.Label" id="Label2" top="199" left="74" width="137" zIndex="8" text="Password" textColor="rgba(255, 255, 255, 1)" />
-    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="43" left="47" width="521" height="345" zIndex="1" style="LoginBackground" />
-    <Widget xsi:type="widgets.brease.Label" id="Label3" top="827" left="35" width="514" height="38" zIndex="10" text="mapp View Sample" textColor="rgba(255, 255, 255, 1)" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.NavigationButton" id="Button1" top="0" left="1" width="100%" height="100%" zIndex="0" pageId="NavigationPage" style="transparent" />
-    <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="831" left="828" width="71" zIndex="11" value="MainVisu" visible="false" />
-    <Widget xsi:type="widgets.brease.Label" id="Label4" top="763" left="828" width="239" height="68" zIndex="12" multiLine="true" text="// work arround to set a session variable with the name of the visuId" wordWrap="true" textColor="rgba(0, 192, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.LoginButton" id="LoginButton" top="320" left="361" width="160" height="40" zIndex="1" image="Media/SVGSymbols/User/Login.svg" text="Login" imageColor="rgba(71, 71, 71, 1)" mouseDownImageColor="rgba(255, 255, 255, 1)" textAlign="left" />
+    <Widget xsi:type="widgets.brease.TextInput" id="TextInputLogin" top="200" left="364" width="154" zIndex="2" placeholder="user name" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.Password" id="PasswordLogin" top="255" left="366" width="150" zIndex="3" placeholder="password" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="115" left="227" width="57" height="50" zIndex="4" image="Media/SVGsymbols/User/User.svg" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="200" left="227" width="137" zIndex="5" text="User name:" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="255" left="227" width="137" zIndex="6" text="Password:" textColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="98" left="200" width="360" height="301" zIndex="0" borderWidth="2px" cornerRadius="10px" lineColor="rgba(57, 109, 128, 1)" backColor="rgba(81, 150, 175, 0.4)" style="LoginBackground" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="130" left="320" width="200" zIndex="7" text="Clean Chemistry" textColor="rgba(255, 255, 255, 1)" fontSize="24px" bold="true" />
   </Widgets>
 </Content>
