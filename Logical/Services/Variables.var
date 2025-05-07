@@ -1,8 +1,4 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	IdxSkids : INT;
+	IdxAlarmsActive : INT;
 END_VAR

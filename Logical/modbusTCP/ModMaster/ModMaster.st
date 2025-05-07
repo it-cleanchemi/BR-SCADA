@@ -571,6 +571,24 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[59].start_addr := 4001;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[59].timer 	:= 10;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[59].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 62 - XV101_OPEN_CMD
+		MasterConfig[IdxSkids].action_enable[61].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[61].p_pv		:= ADR(gCmd[IdxSkids].Write_XV101_OPEN_CMD.wXV101_OPEN_CMD);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[61].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[61].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[61].start_addr := 11012;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[61].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[61].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 63 - XV101_CLOSE_CMD
+		MasterConfig[IdxSkids].action_enable[62].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[62].p_pv		:= ADR(gCmd[IdxSkids].Write_XV101_CLOSE_CMD.wXV101_CLOSE_CMD);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[62].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[62].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[62].start_addr := 11014;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[62].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[62].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
 
 
 	

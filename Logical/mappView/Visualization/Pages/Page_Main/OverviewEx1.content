@@ -297,5 +297,8 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_ALARM" top="823" left="1420" zIndex="270" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_WARN" top="599" left="1380" zIndex="271" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_WARN" top="823" left="1380" zIndex="272" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="190" left="1077" width="683" height="220" zIndex="273" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="413" left="1077" width="683" height="220" zIndex="274" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="638" left="1077" width="683" height="220" zIndex="275" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
   </Widgets>
 </Content>

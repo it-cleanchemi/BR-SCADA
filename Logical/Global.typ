@@ -26,7 +26,7 @@ TYPE
 	Modbus_7000_Type : 	STRUCT 
 		Block6_Int : ARRAY[0..124]OF INT;
 		Block7_Int : ARRAY[0..124]OF INT;
-		Block61_Int : ARRAY[0..124]OF INT;
+		Block61_Int : ARRAY[0..248]OF USINT;
 		Block8_Real : ARRAY[0..62]OF REAL;
 		Block9_Real : ARRAY[0..62]OF REAL;
 		Block10_Real : ARRAY[0..62]OF REAL;
@@ -66,6 +66,7 @@ TYPE
 		i : USINT;
 		AlarmCfg : MpAlarmXAlarmConfigType;
 		MpAlarmXConfigAlarm : MpAlarmXConfigAlarm;
+		AlarmsInitialized : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -166,6 +167,8 @@ TYPE
 		Write_FI303_SIM_CMD : CMD_Write_FI303_SIM_CMD_Type;
 		Write_FI303_MEA_CMD : CMD_Write_FI303_MEA_CMD_Type;
 		Write_FI303_SIM : CMD_Write_FI303_SIM_Type;
+		Write_XV101_OPEN_CMD : CMD_Write_XV101_OPEN_CMD_Type;
+		Write_XV101_CLOSE_CMD : CMD_Write_XV101_CLOSE_CMD_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -448,6 +451,19 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*XV101 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV101_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV101_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV101_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV101_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
 (**)
 
 TYPE
@@ -550,7 +566,7 @@ END_TYPE
 
 (**)
 (**)
-(*Sensors and Flowmeters Variables*)
+(*Sensors, Flowmeters, Solenoids Variables*)
 
 TYPE
 	Sensor_Variables_Type : 	STRUCT  (*Flowmeter and Other Misc Sensor Variables*)
@@ -580,6 +596,8 @@ TYPE
 		CD101_TI : REAL; (*Temperature After Caustic*)
 		CD102_TI : REAL; (*Temperature After Hydrogen Peroxide*)
 		CD103_TI : REAL; (*Temperature After Hydrogen Peroxide*)
+		XV101_ENABLE : UINT; (*P101 Suction Side Solenoid Feedback Installed on Skid (0 = not installed 1 = installed)*)
+		XV101 : UINT; (*P101 Suction Side Solenoid Feedback*)
 	END_STRUCT;
 END_TYPE
 
@@ -754,12 +772,7 @@ TYPE
 		P201_ALARM : UINT; (*Pump 201 Internal Alarm Message Index*)
 		P201_WARN : UINT; (*Pump 201 Internal Warning Message Index*)
 		P201_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
-		P201_TEXT1 : UINT; (*Pump 201 HMI Text Input Description*)
-		P201_TEXT2 : UINT; (*Pump 201 HMI Text Input Description*)
-		P201_TEXT3 : UINT; (*Pump 201 HMI Text Input Description*)
-		P201_TEXT4 : UINT; (*Pump 201 HMI Text Input Description*)
-		P201_TEXT5 : UINT; (*Pump 201 HMI Text Input Description*)
-		P201_TEXT6 : UINT; (*Pump 201 HMI Text Input Description*)
+		P201_TEXT : STRING[80]; (*Pump 201 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_202_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 202*)
 		P202_XS : UINT; (*Pump 202 On/Off Status*)
@@ -784,12 +797,7 @@ TYPE
 		P202_ALARM : UINT; (*Pump 202 Internal Alarm Message Index*)
 		P202_WARN : UINT; (*Pump 202 Internal Warning Message Index*)
 		P202_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
-		P202_TEXT1 : UINT; (*Pump 202 HMI Text Input Description*)
-		P202_TEXT2 : UINT; (*Pump 202 HMI Text Input Description*)
-		P202_TEXT3 : UINT; (*Pump 202 HMI Text Input Description*)
-		P202_TEXT4 : UINT; (*Pump 202 HMI Text Input Description*)
-		P202_TEXT5 : UINT; (*Pump 202 HMI Text Input Description*)
-		P202_TEXT6 : UINT; (*Pump 202 HMI Text Input Description*)
+		P202_TEXT : STRING[80]; (*Pump 202 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_203_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 203*)
 		P203_XS : UINT; (*Pump 203 On/Off Status*)
@@ -814,12 +822,7 @@ TYPE
 		P203_ALARM : UINT; (*Pump 203 Internal Alarm Message Index*)
 		P203_WARN : UINT; (*Pump 202 Internal Warning Message Index*)
 		P203_ENABLE : UINT; (*Pump 203 Visualization Enable Bit 0 = Visible  1 = Hidden*)
-		P203_TEXT1 : UINT; (*Pump 203 HMI Text Input Description*)
-		P203_TEXT2 : UINT; (*Pump 203 HMI Text Input Description*)
-		P203_TEXT3 : UINT; (*Pump 203 HMI Text Input Description*)
-		P203_TEXT4 : UINT; (*Pump 203 HMI Text Input Description*)
-		P203_TEXT5 : UINT; (*Pump 203 HMI Text Input Description*)
-		P203_TEXT6 : UINT; (*Pump 203 HMI Text Input Description*)
+		P203_TEXT : STRING[80]; (*Pump 203 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_204_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 204*)
 		P204_XS : UINT; (*Pump 204 On/Off Status*)

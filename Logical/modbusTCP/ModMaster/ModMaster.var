@@ -28,4 +28,5 @@ VAR
 	IdxSkids : INT;
 	SkidString : STRING[80];
 	SkidNumberINT : STRING[80];
+	TestBool : BOOL;
 END_VAR

@@ -25,6 +25,7 @@ TYPE
 		MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
 		HA_AlarmXCore_0 : HA_AlarmXCore;
 		Alarms_State : ARRAY[0..MAX_SKIDS]OF Alarms_Type;
+		Alarm_Set_Delay : ARRAY[0..MAX_SKIDS]OF TON;
 	END_STRUCT;
 	S_Alarms_Out_typ : 	STRUCT 
 		AlarmActive : BOOL;

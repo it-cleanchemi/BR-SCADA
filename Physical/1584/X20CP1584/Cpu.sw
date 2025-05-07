@@ -78,5 +78,6 @@
     <LibraryObject Name="HA_Array" Source="Libraries.HA_Array.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_SysErr" Source="Libraries.HA_SysErr.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="MpAlarmX" Source="Libraries.MpAlarmX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="IDEC_Strng" Source="modbusTCP.IDEC_Strng.lby" Memory="UserROM" Language="IEC" Debugging="true" />
   </Libraries>
 </SwConfiguration>

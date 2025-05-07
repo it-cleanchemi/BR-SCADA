@@ -326,6 +326,18 @@ ACTION Modbus_CMD_action:
 	IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
 		MasterConfig[IdxSkids].action_enable[59].single := TRUE;
 	END_IF;
+	
+	// AS Block 62 - XV101_OPEN_CMD
+	IF gCmd[IdxSkids].Write_XV101_OPEN_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[61].single := TRUE;
+		gCmd[IdxSkids].Write_XV101_OPEN_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 63 - XV101_CLOSE_CMD
+	IF gCmd[IdxSkids].Write_XV101_CLOSE_CMD.Send THEN
+		MasterConfig[IdxSkids].action_enable[62].single := TRUE;
+		gCmd[IdxSkids].Write_XV101_CLOSE_CMD.Send := FALSE;
+	END_IF;
 
 	
 END_ACTION

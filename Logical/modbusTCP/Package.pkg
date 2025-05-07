@@ -5,5 +5,6 @@
     <Object Type="Library" Language="ANSIC">MbusTCP</Object>
     <Object Type="Program" Language="IEC" Description="modbusTCP master sample">ModMaster</Object>
     <Object Type="Library" Language="IEC">IDEC_Real</Object>
+    <Object Type="Library" Language="IEC">IDEC_Strng</Object>
   </Objects>
 </Package>

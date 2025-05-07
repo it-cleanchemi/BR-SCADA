@@ -47,6 +47,35 @@ ACTION Services_Alarms_action:
 	END_CASE;
 	
 	
+	FOR IdxSkids := 0 TO MAX_SKIDS DO
+		
+		//Reset only Selected Skid Alarms
+		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
+			
+			FOR IdxAlarmsActive := 0 TO 49 DO
+				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit[IdxSkids] THEN
+					MpAlarmXAcknowledgeID(gAlarmXCore,gVis.Alarms.Active.UIConnect.AlarmList.InstanceID[IdxAlarmsActive]);
+				ELSIF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = 0 THEN
+					EXIT;
+				END_IF;
+			END_FOR;
+			
+			gVis.Main.In.AckAllAlarms_Skid[IdxSkids] := FALSE;
+			
+			gServices.Alarms.Internal.Alarm_Set_Delay[IdxSkids].IN := TRUE;
+			
+		END_IF;
+		
+		IF gServices.Alarms.Internal.Alarm_Set_Delay[IdxSkids].Q THEN
+			brsmemset(ADR(gServices.Alarms.Internal.Alarms_State[IdxSkids]),0,SIZEOF(gServices.Alarms.Internal.Alarms_State[IdxSkids]));
+			gServices.Alarms.Internal.Alarm_Set_Delay[IdxSkids].IN := FALSE;
+		END_IF;
+		
+		gServices.Alarms.Internal.Alarm_Set_Delay[IdxSkids](PT := T#15s);
+		
+	END_FOR;
+	
+	
 	gServices.Alarms.Out.BufferInfo.Address	:= ADR(gServices.Alarms.In.AlarmList);
 	gServices.Alarms.Out.BufferInfo.Size		:= SIZEOF(gServices.Alarms.In.AlarmList);
 

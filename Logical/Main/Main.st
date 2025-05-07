@@ -199,26 +199,6 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.P203_APPM := 0;
 		END_IF;
 		
-
-		//Reset only Selected Skid Alarms
-		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids] THEN
-			
-			
-		
-			FOR IdxAlarmsActive := 0 TO 49 DO
-				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit[IdxSkids] THEN
-					MpAlarmXAcknowledgeID(gAlarmXCore,gVis.Alarms.Active.UIConnect.AlarmList.InstanceID[IdxAlarmsActive]);
-				ELSIF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = 0 THEN
-					EXIT;
-				END_IF;
-			END_FOR;
-		
-			brsmemset(ADR(gServices.Alarms.Internal.Alarms_State[IdxSkids]),0,SIZEOF(gServices.Alarms.Internal.Alarms_State[IdxSkids]));
-			
-			gVis.Main.In.AckAllAlarms_Skid[IdxSkids] := FALSE;
-		END_IF;
-		
-		
 	END_FOR;
 
 	
