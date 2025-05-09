@@ -7,7 +7,7 @@ VAR CONSTANT
 	LLL : USINT := LOG_LINE_LEN; (*Shorter variable name for indexing logger. String was too long*)
 	SLAVE_MAX_CONNECTION_NUM : USINT := 3; (*Maximum number of slave connections to master*)
 	SLAVE_MAX_REGISTER_NUM : UINT := 256; (*Maximum number of slave registers*)
-	MASTER_MAX_ACTION_NUM : UINT := 65; (*Maximum number of master actions*)
+	MASTER_MAX_ACTION_NUM : UINT := 80; (*Maximum number of master actions*)
 END_VAR
 (*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*)
 (*Modbus functions*)

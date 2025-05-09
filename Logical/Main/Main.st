@@ -199,6 +199,72 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.P203_APPM := 0;
 		END_IF;
 		
+		IF gSkid[IdxSkids].Sensor_Variables.FI301_MODE = 1 THEN
+			gSkid[IdxSkids].VisBool.FI301_MODE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.FI301_MODE_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.FI302_MODE = 1 THEN
+			gSkid[IdxSkids].VisBool.FI302_MODE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.FI302_MODE_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.FI303_MODE = 1 THEN
+			gSkid[IdxSkids].VisBool.FI303_MODE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.FI303_MODE_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV101 = 0 AND gSkid[IdxSkids].Sensor_Variables.XV101_ENABLE = 1 THEN
+			gSkid[IdxSkids].VisBool.XV101_OPP := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV101_OPP := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV101 = 1 AND gSkid[IdxSkids].Sensor_Variables.XV101_ENABLE = 1 THEN
+			gSkid[IdxSkids].VisBool.XV101 := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV101 := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV102 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV102_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV102_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV103 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV103_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV103_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV104 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV104_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV104_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV201 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV201_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV201_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV202 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV202_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV202_OPP := 1;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Sensor_Variables.XV203 = 1 THEN
+			gSkid[IdxSkids].VisBool.XV203_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.XV203_OPP := 1;
+		END_IF;
+		
 	END_FOR;
 
 	

@@ -27,7 +27,6 @@
     <EventBindingsSet refId="Diagnostics_eventbinding" />
     <EventBindingsSet refId="Main_eventbinding" />
     <EventBindingsSet refId="P201_Status_Content_eventbinding" />
-    <EventBindingsSet refId="OverviewEx1_eventbinding" />
     <EventBindingsSet refId="P202_Status_Content_eventbinding" />
     <EventBindingsSet refId="P203_Status_Content_eventbinding" />
     <EventBindingsSet refId="PM_Status_Content_eventbinding" />
@@ -35,6 +34,7 @@
     <EventBindingsSet refId="Alarms_Active_eventbinding" />
     <EventBindingsSet refId="Alarms_eventbinding" />
     <EventBindingsSet refId="Login_Content_eventbinding" />
+    <EventBindingsSet refId="OverviewEx1_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Alarms_Active" height="600" width="1114" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
-    <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="0" left="0" width="1114" height="520" zIndex="0" headerSize="30" multiLine="true" stopRefreshAtScroll="true" wordWrap="true" cellPadding="5px" fontSize="14px" headerFontSize="16px">
+    <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="0" left="0" width="1114" height="520" zIndex="0" busyIndicatorDelay="600" headerSize="30" multiLine="true" stopRefreshAtScroll="true" wordWrap="true" cellPadding="5px" fontSize="14px" headerFontSize="16px">
       <Widgets>
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Timestamp" zIndex="2" columnWidth="180" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Timestamp" />
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Code" zIndex="0" columnWidth="85" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="Unit" useDigitGrouping="false" />

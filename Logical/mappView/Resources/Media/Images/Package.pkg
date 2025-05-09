@@ -81,5 +81,7 @@
     <Object Type="File">P1G.png</Object>
     <Object Type="File">P2G.png</Object>
     <Object Type="File">Tech-PeroxyMAX-Preview.jpg</Object>
+    <Object Type="File">Solenoid_Off3.png</Object>
+    <Object Type="File">Solenoid_On3.png</Object>
   </Objects>
 </Package>

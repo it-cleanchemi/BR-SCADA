@@ -3851,7 +3851,7 @@ ACTION Alarms_action:
 	END_IF;
 
 	(*********************************************************************Dont Touch This Code**********************************************************************)
-	IF gSkid[IdxSkids].Error THEN
+	IF gSkid[IdxSkids].Error AND gSkid[IdxSkids].AlarmsInitialized AND gSkid[IdxSkids].Pmax_General_Variables.UNIT_ID <> 0 AND gUnit[IdxSkids] <> 0 THEN
 		CASE gSkid[IdxSkids].ErrorInfo.Severity OF
 			1:
 				gSkid[IdxSkids].tempAlarm.name				:= UINT_TO_STRING(gUnit[IdxSkids]);
@@ -4096,8 +4096,15 @@ ACTION Alarms_action:
 			gSkid[IdxSkids].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
 			gSkid[IdxSkids].MpAlarmXConfigAlarm.Save				:= TRUE;
 		7:
-			gSkid[IdxSkids].AlarmsInitialized := TRUE;
+			gSkid[IdxSkids].AlarmStartupDelay.IN := TRUE;
+			
+			IF 	gSkid[IdxSkids].AlarmStartupDelay.Q THEN
+				gSkid[IdxSkids].AlarmsInitialized := TRUE;
+			END_IF;
+			
 	END_CASE
+	
+	gSkid[IdxSkids].AlarmStartupDelay(PT := T#30s);
 		
 	gSkid[IdxSkids].MpAlarmXConfigAlarm.MpLink			:= ADR(gAlarmXCore);
 	gSkid[IdxSkids].MpAlarmXConfigAlarm.Enable			:= TRUE;

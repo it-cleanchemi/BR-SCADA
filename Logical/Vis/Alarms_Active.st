@@ -7,10 +7,16 @@ ACTION Alarms_Active:
 		gVis.Global.ErrorReset													:= TRUE;
 		brsmemset(ADR(gServices.Alarms.Internal.Alarms_State),0,SIZEOF(gServices.Alarms.Internal.Alarms_State));
 	END_IF;
-	gVis.Alarms.Active.UIConnect.AlarmList.PageUp							:= gVis.Alarms.Active.PageUp;
-	gVis.Alarms.Active.PageUp												:= FALSE;
-	gVis.Alarms.Active.UIConnect.AlarmList.PageDown							:= gVis.Alarms.Active.PageDown;
-	gVis.Alarms.Active.PageDown												:= FALSE;
+	
+	IF gVis.Alarms.Active.PageUp THEN
+		IF gVis.Alarms.Active.SelectedIndex > 0 THEN
+			gVis.Alarms.Active.SelectedIndex := gVis.Alarms.Active.SelectedIndex - 1;
+		END_IF;
+		gVis.Alarms.Active.PageUp												:= FALSE;
+	ELSIF gVis.Alarms.Active.PageDown THEN
+		gVis.Alarms.Active.SelectedIndex := gVis.Alarms.Active.SelectedIndex + 1;
+		gVis.Alarms.Active.PageDown												:= FALSE;
+	END_IF;	
 	
 	brsmemset(ADR(gVis.Alarms.Active.TableConfig),0,SIZEOF(gVis.Alarms.Active.TableConfig));
 	HA_brsstrcat(ADR(gVis.Alarms.Active.TableConfig),ADR('{"specRows": [ {"from":'),SIZEOF(gVis.Alarms.Active.TableConfig));

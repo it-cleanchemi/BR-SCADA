@@ -67,6 +67,7 @@ TYPE
 		AlarmCfg : MpAlarmXAlarmConfigType;
 		MpAlarmXConfigAlarm : MpAlarmXConfigAlarm;
 		AlarmsInitialized : BOOL;
+		AlarmStartupDelay : TON;
 	END_STRUCT;
 END_TYPE
 
@@ -169,6 +170,18 @@ TYPE
 		Write_FI303_SIM : CMD_Write_FI303_SIM_Type;
 		Write_XV101_OPEN_CMD : CMD_Write_XV101_OPEN_CMD_Type;
 		Write_XV101_CLOSE_CMD : CMD_Write_XV101_CLOSE_CMD_Type;
+		Write_XV102_OPEN_CMD : CMD_Write_XV102_OPEN_CMD_Type;
+		Write_XV102_CLOSE_CMD : CMD_Write_XV102_CLOSE_CMD_Type;
+		Write_XV103_OPEN_CMD : CMD_Write_XV103_OPEN_CMD_Type;
+		Write_XV103_CLOSE_CMD : CMD_Write_XV103_CLOSE_CMD_Type;
+		Write_XV104_OPEN_CMD : CMD_Write_XV104_OPEN_CMD_Type;
+		Write_XV104_CLOSE_CMD : CMD_Write_XV104_CLOSE_CMD_Type;
+		Write_XV201_OPEN_CMD : CMD_Write_XV201_OPEN_CMD_Type;
+		Write_XV201_CLOSE_CMD : CMD_Write_XV201_CLOSE_CMD_Type;
+		Write_XV202_OPEN_CMD : CMD_Write_XV202_OPEN_CMD_Type;
+		Write_XV202_CLOSE_CMD : CMD_Write_XV202_CLOSE_CMD_Type;
+		Write_XV203_OPEN_CMD : CMD_Write_XV203_OPEN_CMD_Type;
+		Write_XV203_CLOSE_CMD : CMD_Write_XV203_CLOSE_CMD_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -464,6 +477,84 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*XV102 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV102_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV102_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV102_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV102_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV103 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV103_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV103_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV103_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV103_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV104 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV104_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV104_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV104_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV104_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV201 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV201_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV201_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV201_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV201_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV202 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV202_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV202_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV202_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV202_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV203 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV203_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV203_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_XV203_CLOSE_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV203_CLOSE_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
 (**)
 
 TYPE
@@ -561,6 +652,17 @@ TYPE
 		P201_APPM : BOOL;
 		P202_APPM : BOOL;
 		P203_APPM : BOOL;
+		FI301_MODE_OPP : BOOL;
+		FI302_MODE_OPP : BOOL;
+		FI303_MODE_OPP : BOOL;
+		XV101 : BOOL;
+		XV101_OPP : BOOL;
+		XV102_OPP : BOOL;
+		XV103_OPP : BOOL;
+		XV104_OPP : BOOL;
+		XV201_OPP : BOOL;
+		XV202_OPP : BOOL;
+		XV203_OPP : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -598,6 +700,12 @@ TYPE
 		CD103_TI : REAL; (*Temperature After Hydrogen Peroxide*)
 		XV101_ENABLE : UINT; (*P101 Suction Side Solenoid Feedback Installed on Skid (0 = not installed 1 = installed)*)
 		XV101 : UINT; (*P101 Suction Side Solenoid Feedback*)
+		XV102 : UINT; (*P102 Off Gas Solenoid Valve*)
+		XV103 : UINT; (*P103 Off Gas Solenoid Valve*)
+		XV104 : UINT; (*P104 Off Gas Solenoid Valve*)
+		XV201 : UINT; (*P201 Off Gas Solenoid Valve*)
+		XV202 : UINT; (*P202 Off Gas Solenoid Valve*)
+		XV203 : UINT; (*P203 Off Gas Solenoid Valve*)
 	END_STRUCT;
 END_TYPE
 

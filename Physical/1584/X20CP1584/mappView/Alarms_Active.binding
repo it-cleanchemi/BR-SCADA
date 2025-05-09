@@ -2,10 +2,7 @@
 <BindingsSet id="Alarms_Active_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.TableConfig" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="tableConfiguration" />
-		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.SelectedIndex" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="selectedRow" />
@@ -27,10 +24,7 @@
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
 		</Binding>
 
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.Test" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="filterConfiguration" />
-		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageDown" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Down" attribute="value" />
@@ -39,5 +33,9 @@
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageUp" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" attribute="value" />
 		</Binding>
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.TableConfig" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="tableConfiguration" />
+</Binding>
+</Bindings>
 </BindingsSet>
