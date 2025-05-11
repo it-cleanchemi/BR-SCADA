@@ -23,7 +23,7 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Pmax_General_Variables.USER_ACCESS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[4];
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_HOA := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[6];
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_STATUS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[8];
-	gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[10];
+	//gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[10];
 	
 	gSkid[IdxSkids].Pmax_Pump_101.P101_XS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[20];
 	gSkid[IdxSkids].Sensor_Variables.XV101 := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[22];
