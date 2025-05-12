@@ -2,8 +2,7 @@
 <pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="Page_Alarms" layoutRefId="layout_Main">
   <Assignments>
     <Assignment type="Content" baseContentRefId="Alarms" areaRefId="AreaContent" />
-    <Assignment type="Content" baseContentRefId="Footer" areaRefId="AreaFooter" />
-    <Assignment type="Content" baseContentRefId="Header" areaRefId="AreaHeader" styleRefId="header" />
+		<Assignment type="Content" baseContentRefId="Header" areaRefId="AreaHeader" styleRefId="header" />
     <Assignment type="Content" baseContentRefId="Navigation" areaRefId="AreaNavigation" />
   </Assignments>
 </pdef:Page>

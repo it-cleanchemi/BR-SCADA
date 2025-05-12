@@ -25,5 +25,6 @@
     <Object Type="File">Alarms.eventbinding</Object>
     <Object Type="File">Login_Content.eventbinding</Object>
     <Object Type="File">Login_Content.binding</Object>
+    <Object Type="File">Navigation.eventbinding</Object>
   </Objects>
 </Package>

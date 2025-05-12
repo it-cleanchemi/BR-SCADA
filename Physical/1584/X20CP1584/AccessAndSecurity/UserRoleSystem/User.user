@@ -1,28 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="Admin" Type="User" Description="Admininstrator Account">
+  <Element ID="ADMIN" Type="User" Description="Admininstrator Account">
     <Property ID="UserID" Value="1" />
-    <Property ID="Password" Value="/qjG6C6/cjKLp3CJOXOUJ2S6x93eblvOqOKk1jgJO6jGp1DLWUU=" Description="123abc" />
+    <Property ID="Password" Value="iP5iKrLHa/OWR71n+CE3y52HjosoRr5sSQvkInuaLZ+wwd1PQpE=" Description="123abc" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Administrator_Role" />
-      <Property ID="Role[2]" Value="Anonymous1" />
-      <Property ID="Role[3]" Value="Operator_Role" />
     </Group>
   </Element>
-  <Element ID="Operator" Type="User" Description="LR104_Operator">
+  <Element ID="Control" Type="User" Description="LR104_Operator">
     <Property ID="UserID" Value="2" />
+    <Property ID="Password" Value="TxGH2lswahn/J1JxEnWA7gTgkrNsPJeV/O4OAx+XbBywqFMc3Jg=" />
     <Group ID="Roles">
       <Property ID="Role[1]" Value="Operator_Role" />
     </Group>
   </Element>
-  <Element ID="Anonymous" Type="User">
+  <Element ID="CCI" Type="User">
     <Property ID="UserID" Value="3" />
     <Group ID="Roles">
-      <Property ID="Role[1]" Value="Operator_Role" />
-      <Property ID="Role[2]" Value="Administrator_Role" />
-      <Property ID="Role[3]" Value="Operator_Role" />
-      <Property ID="Role[4]" Value="Anonymous1" />
+      <Property ID="Role[1]" Value="CCI_Role" />
+    </Group>
+  </Element>
+  <Element ID="View" Type="User">
+    <Property ID="UserID" Value="4" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="View_Role" />
+    </Group>
+  </Element>
+  <Element ID="Anonymous" Type="User" Description="DO NOT DELETE. SYSTEM NEEDS A DEFAULT USER!!!!!!">
+    <Property ID="UserID" Value="5" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Everyone" />
     </Group>
   </Element>
 </Configuration>

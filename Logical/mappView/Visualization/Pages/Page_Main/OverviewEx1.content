@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="OverviewEx1" height="940" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+<Content id="OverviewEx1" height="940" width="1753" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput17" top="705" left="25" width="70" zIndex="50" value="P104" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.Line" id="Line33" zIndex="52" x1="-659" x2="-599" y1="205" y2="205" />
@@ -67,8 +67,8 @@
     <Widget xsi:type="widgets.brease.Image" id="Image13" top="120" left="520" width="60" height="40" zIndex="96" image="Media/Images/FM1.png" />
     <Widget xsi:type="widgets.brease.Image" id="Image14" top="699" left="520" width="60" height="40" zIndex="97" image="Media/Images/FM1.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="791" left="60" width="70" zIndex="98" value="Triacetin" textAlign="center" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P104_SP" top="764" left="40" width="105" zIndex="99" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_SP" top="764" left="155" width="60" zIndex="101" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P104_SP" top="764" left="40" width="105" zIndex="99" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_SP" top="764" left="155" width="60" zIndex="101" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P104_SP" top="734" left="45" width="180" zIndex="102" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="734" left="30" width="70" zIndex="103" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle4" top="506" left="20" width="400" height="120" zIndex="19" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
@@ -77,8 +77,8 @@
     <Widget xsi:type="widgets.brease.Image" id="Image11" top="520" left="220" width="140" zIndex="104" image="Media/Images/P1.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="597" left="60" width="70" zIndex="105" value="H2O2" textAlign="center" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse1" top="601" left="40" width="20" height="20" zIndex="106" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P103_SP" top="568" left="40" width="105" zIndex="107" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_SP" top="568" left="155" width="60" zIndex="108" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P103_SP" top="568" left="40" width="105" zIndex="107" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_SP" top="568" left="155" width="60" zIndex="108" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P103_SP" top="538" left="40" width="180" zIndex="109" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput18" top="511" left="25" width="70" zIndex="110" value="P103" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="HP_CONC" top="597" left="-25" width="220" zIndex="111" unit="{'metric':'P1','imperial':'N26','imperial-us':'P1'}" unitAlign="right" />
@@ -87,15 +87,15 @@
     <Widget xsi:type="widgets.brease.Image" id="Image12" top="340" left="220" width="140" zIndex="47" image="Media/Images/P1.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput10" top="415" left="60" width="70" zIndex="112" value="NaOH" textAlign="center" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse2" top="419" left="40" width="20" height="20" zIndex="113" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P102_SP" top="386" left="40" width="105" zIndex="114" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_SP" top="386" left="155" width="60" zIndex="115" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P102_SP" top="386" left="40" width="105" zIndex="114" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_SP" top="386" left="155" width="60" zIndex="115" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P102_SP" top="356" left="40" width="180" zIndex="116" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput11" top="356" left="30" width="70" zIndex="117" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput19" top="329" left="25" width="70" zIndex="118" value="P102" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="NAOH_CONC" top="415" left="-25" width="220" zIndex="100" unit="{'metric':'P1','imperial':'N26','imperial-us':'P1'}" unitAlign="right" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle9" top="442" left="20" width="400" height="30" zIndex="24" borderWidth="2px" backColor="rgba(192, 192, 192, 1)" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P101_SP" top="195" left="40" width="105" zIndex="119" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_SP" top="195" left="155" width="60" zIndex="120" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P101_SP" top="195" left="40" width="105" zIndex="119" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_SP" top="195" left="155" width="60" zIndex="120" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P101_SP" top="160" left="40" width="180" zIndex="121" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput12" top="160" left="30" width="70" zIndex="122" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput21" top="124" left="25" width="70" zIndex="123" value="P101" textAlign="center" fontSize="24px" />
@@ -128,42 +128,42 @@
     <Widget xsi:type="widgets.brease.Line" id="Line13" zIndex="38" x1="185" x2="242" y1="612" y2="612" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
     <Widget xsi:type="widgets.brease.Line" id="Line14" zIndex="41" x1="185" x2="242" y1="430" y2="430" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
     <Widget xsi:type="widgets.brease.Line" id="Line15" zIndex="45" x1="120" x2="252" y1="272" y2="272" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_STRT_CMD" top="160" left="350" width="62" zIndex="136" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_STP_CMD" top="201" left="350" width="62" zIndex="137" text="OFF" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_STRT_CMD" top="360" left="350" width="62" zIndex="138" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_STP_CMD" top="400" left="350" width="62" zIndex="139" text="OFF" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_STRT_CMD" top="540" left="350" width="62" zIndex="140" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_STP_CMD" top="581" left="350" width="62" zIndex="141" text="OFF" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_STRT_CMD" top="735" left="350" width="62" zIndex="142" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_STP_CMD" top="776" left="350" width="62" zIndex="143" text="OFF" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_STRT_CMD" top="160" left="350" width="62" zIndex="136" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P101_STP_CMD" top="201" left="350" width="62" zIndex="137" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_STRT_CMD" top="360" left="350" width="62" zIndex="138" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P102_STP_CMD" top="400" left="350" width="62" zIndex="139" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_STRT_CMD" top="540" left="350" width="62" zIndex="140" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P103_STP_CMD" top="581" left="350" width="62" zIndex="141" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_STRT_CMD" top="735" left="350" width="62" zIndex="142" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P104_STP_CMD" top="776" left="350" width="62" zIndex="143" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput28" top="198" left="1085" width="70" zIndex="145" value="P201" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.Image" id="Image10" top="253" left="1300" width="140" zIndex="186" image="Media/Images/P1.png" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P201_SP" top="245" left="1095" width="105" zIndex="146" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_SP" top="245" left="1210" width="60" zIndex="147" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P201_SP" top="245" left="1095" width="105" zIndex="146" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_SP" top="245" left="1210" width="60" zIndex="147" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_SP" top="220" left="1060" width="220" zIndex="148" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="220" left="1092" width="70" zIndex="149" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle14" top="377" left="1080" width="440" height="30" zIndex="33" borderWidth="2px" backColor="rgba(192, 192, 192, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle15" top="193" left="1080" width="440" height="187" zIndex="22" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.brease.Line" id="Line16" zIndex="144" x1="1319" x2="1319" y1="378" y2="249" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_STRT_CMD" top="273" left="1440" width="62" zIndex="150" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_STP_CMD" top="313" left="1440" width="62" zIndex="151" text="OFF" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P201_PPM" top="323" left="1095" width="105" zIndex="152" maxValue="10000" visible="false" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_PPM" top="323" left="1210" width="60" zIndex="153" text="Set" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_STRT_CMD" top="273" left="1440" width="62" zIndex="150" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_STP_CMD" top="313" left="1440" width="62" zIndex="151" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P201_PPM" top="323" left="1095" width="105" zIndex="152" maxValue="10000" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_PPM" top="323" left="1210" width="60" zIndex="153" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_PPM" top="298" left="1060" width="220" zIndex="154" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" visible="false" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="298" left="1092" width="70" zIndex="155" value="Setpoint:" textAlign="center" visible="false" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput29" top="421" left="1085" width="70" zIndex="156" value="P202" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.Image" id="Image16" top="476" left="1300" width="140" zIndex="31" image="Media/Images/P1.png" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P202_SP" top="468" left="1095" width="105" zIndex="157" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_SP" top="468" left="1210" width="60" zIndex="158" text="Set" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P202_SP" top="468" left="1095" width="105" zIndex="157" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_SP" top="468" left="1210" width="60" zIndex="158" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_SP" top="443" left="1060" width="220" zIndex="159" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="443" left="1092" width="70" zIndex="160" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle16" top="600" left="1080" width="440" height="30" zIndex="27" borderWidth="2px" backColor="rgba(192, 192, 192, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle17" top="416" left="1080" width="440" height="187" zIndex="23" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.brease.Line" id="Line17" zIndex="30" x1="1319" x2="1319" y1="601" y2="473" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_STRT_CMD" top="496" left="1440" width="62" zIndex="161" text="ON" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_STP_CMD" top="536" left="1440" width="62" zIndex="162" text="OFF" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P202_PPM" top="546" left="1095" width="105" zIndex="163" maxValue="10000" visible="false" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_PPM" top="546" left="1210" width="60" zIndex="164" text="Set" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_STRT_CMD" top="496" left="1440" width="62" zIndex="161" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_STP_CMD" top="536" left="1440" width="62" zIndex="162" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P202_PPM" top="546" left="1095" width="105" zIndex="163" maxValue="10000" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P202_PPM" top="546" left="1210" width="60" zIndex="164" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_PPM" top="521" left="1060" width="220" zIndex="165" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" visible="false" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="521" left="1092" width="70" zIndex="166" value="Setpoint:" textAlign="center" visible="false" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle20" top="0" left="1080" width="665" height="178" zIndex="15" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
@@ -180,7 +180,7 @@
     <Widget xsi:type="widgets.brease.Line" id="Line25" zIndex="29" x1="1319" x2="1319" y1="642" y2="600" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" opacity="0.25" />
     <Widget xsi:type="widgets.brease.Line" id="Line26" zIndex="181" x1="1319" x2="1319" y1="416" y2="375" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" opacity="0.25" />
     <Widget xsi:type="widgets.brease.Image" id="Image24" top="220" left="950" width="145" height="521" zIndex="28" image="Media/Images/BT4.png" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="208" left="1340" width="160" zIndex="185" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="208" left="1340" width="160" zIndex="185" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="FI301" top="20" left="600" width="220" zIndex="187" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="FI302" top="77" left="600" width="220" zIndex="188" unitAlign="right" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="FI303" top="134" left="600" width="220" zIndex="189" unitAlign="right" />
@@ -204,9 +204,9 @@
     <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_FI303_SIM" top="134" left="1005" width="60" zIndex="213" text="Set" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle22" top="61" left="689" width="380" height="60" zIndex="13" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle23" top="119" left="689" width="380" height="60" zIndex="12" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="431" left="1340" width="160" zIndex="214" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput37" top="45" left="250" width="160" height="40" zIndex="215" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput36" top="655" left="1340" width="160" zIndex="216" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="431" left="1340" width="160" zIndex="214" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput37" top="45" left="250" width="160" height="40" zIndex="215" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput36" top="655" left="1340" width="160" zIndex="216" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.Line" id="Line27" zIndex="210" x1="1319" x2="1319" y1="854" y2="820" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" opacity="0.25" />
     <Widget xsi:type="widgets.brease.Image" id="Image23" top="703" left="1680" width="40" height="60" zIndex="211" image="Media/Images/PT2.png" />
     <Widget xsi:type="widgets.brease.Image" id="Image20" top="684" left="1570" width="60" height="40" zIndex="207" image="Media/Images/FM1.png" />
@@ -214,17 +214,17 @@
     <Widget xsi:type="widgets.brease.Line" id="Line21" zIndex="199" x1="1316" x2="1740" y1="699" y2="699" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput26" top="745" left="1092" width="70" zIndex="241" value="Setpoint:" textAlign="center" visible="false" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_PPM" top="745" left="1060" width="220" zIndex="183" unit="{'metric':'59','imperial':'41','imperial-us':'41'}" unitAlign="right" visible="false" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_PPM" top="770" left="1210" width="60" zIndex="182" text="Set" visible="false" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P203_PPM" top="770" left="1095" width="105" zIndex="191" maxValue="10000" visible="false" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_STP_CMD" top="760" left="1440" width="62" zIndex="178" text="OFF" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_STRT_CMD" top="720" left="1440" width="62" zIndex="177" text="ON" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_PPM" top="770" left="1210" width="60" zIndex="182" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P203_PPM" top="770" left="1095" width="105" zIndex="191" maxValue="10000" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" visible="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_STP_CMD" top="760" left="1440" width="62" zIndex="178" text="OFF" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_STRT_CMD" top="720" left="1440" width="62" zIndex="177" text="ON" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.Line" id="Line18" zIndex="17" x1="1319" x2="1319" y1="825" y2="697" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle19" top="640" left="1080" width="440" height="187" zIndex="14" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle18" top="824" left="1080" width="440" height="30" zIndex="34" borderWidth="2px" backColor="rgba(192, 192, 192, 1)" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput20" top="667" left="1092" width="70" zIndex="172" value="Setpoint:" textAlign="center" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_SP" top="667" left="1060" width="220" zIndex="174" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_SP" top="692" left="1210" width="60" zIndex="173" text="Set" />
-    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P203_SP" top="692" left="1095" width="105" zIndex="184" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P203_SP" top="692" left="1210" width="60" zIndex="173" text="Set" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NI_Write_P203_SP" top="692" left="1095" width="105" zIndex="184" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" permissionView="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.Image" id="Image17" top="700" left="1300" width="140" zIndex="217" image="Media/Images/P1.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput30" top="645" left="1085" width="70" zIndex="167" value="P203" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_PFI" top="823" left="1000" width="220" zIndex="89" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
@@ -234,7 +234,7 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_FQ" top="740" left="1430" width="220" zIndex="74" unit="{'metric':'GLL','imperial':'GLL','imperial-us':'GLL'}" unitAlign="right" padding="0px 15px 0px 15px" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_PV" top="720" left="1430" width="220" zIndex="71" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput38" top="17" left="230" width="200" height="20" zIndex="218" borderWidth="3px" backColor="rgba(211, 211, 211, 1)" borderStyle="none" textAlign="center" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput39" top="20" left="430" height="60" zIndex="219" multiLine="true" value="System Settings" wordWrap="true" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput39" top="20" left="430" height="60" zIndex="219" multiLine="true" value="System Settings" wordWrap="true" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textAlign="center" permissionView="['Administrator_Role', 'CCI_Role']" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput40" top="655" left="1275" width="70" zIndex="220" value="Mode:" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput41" top="798" left="1080" width="90" zIndex="221" value="Adjusted:" textColor="rgba(255, 0, 0, 1)" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput42" top="720" left="1080" width="90" zIndex="222" value="Adjusted:" textColor="rgba(255, 0, 0, 1)" textAlign="center" />
@@ -264,8 +264,8 @@
     <Widget xsi:type="widgets.brease.Image" id="P201_GREEN" top="253" left="1300" width="140" zIndex="246" image="Media/Images/P1G.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput49" top="50" left="180" width="70" zIndex="249" value="Mode:" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput52" top="10" left="540" zIndex="250" value="Screen Lock:" textAlign="center" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_LOCK" top="40" left="555" height="19" zIndex="251" text="LOCK" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_UNLOCK" top="65" left="555" height="19" zIndex="252" text="UNLOCK" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_LOCK" top="40" left="555" height="19" zIndex="251" text="LOCK" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_UNLOCK" top="65" left="555" height="19" zIndex="252" text="UNLOCK" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="325" left="1055" width="20" height="20" zIndex="253" />
     <Widget xsi:type="widgets.brease.Ellipse" id="LSHH200" top="325" left="1055" width="20" height="20" zIndex="254" backColor="rgba(0, 150, 169, 1)" />
     <Widget xsi:type="widgets.brease.Ellipse" id="P102_LS" top="419" left="40" width="20" height="20" zIndex="255" backColor="rgba(0, 150, 169, 1)" />

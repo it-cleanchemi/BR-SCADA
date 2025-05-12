@@ -35,6 +35,7 @@
     <EventBindingsSet refId="Alarms_eventbinding" />
     <EventBindingsSet refId="Login_Content_eventbinding" />
     <EventBindingsSet refId="OverviewEx1_eventbinding" />
+    <EventBindingsSet refId="Navigation_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup" />

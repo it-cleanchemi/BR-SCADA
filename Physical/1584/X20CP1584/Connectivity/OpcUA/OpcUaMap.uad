@@ -4,14 +4,18 @@
   <Aliases>
     <ACLAliases>
       <ACL Id="1">
-        <ACE RoleName="Operator_Role" Access="0x005F" />
+        <ACE RoleName="Control_Role" Access="0x005F" />
         <ACE RoleName="Administrator_Role" Access="0x005F" />
-        <ACE RoleName="Anonymous1" Access="0x005F" />
+        <ACE RoleName="View_Role" Access="0x005F" />
+        <ACE RoleName="CCI_Role" Access="0x005F" />
+        <ACE RoleName="Everyone" Access="0x005F" />
       </ACL>
       <ACL Id="2">
-        <ACE RoleName="Operator_Role" Access="0x01FF" />
+        <ACE RoleName="Control_Role" Access="0x01FF" />
         <ACE RoleName="Administrator_Role" Access="0x01FF" />
-        <ACE RoleName="Anonymous1" Access="0x01FF" />
+        <ACE RoleName="View_Role" Access="0x01FF" />
+        <ACE RoleName="CCI_Role" Access="0x01FF" />
+        <ACE RoleName="Everyone" Access="0x01FF" />
       </ACL>
     </ACLAliases>
     <EURangeViolationAliases>
@@ -186,7 +190,12 @@
         </Variable>
         <Variable Name="gCmd" RecursiveEnable="2" />
         <Variable Name="gAlarmAddData" RecursiveEnable="2">
-          <Variable Name="AddData" RecursiveEnable="2" />
+          <Variable Name="AddData" RecursiveEnable="2">
+            <Variable Name="AddData[0]" />
+            <Variable Name="AddData[1]" />
+            <Variable Name="AddData[2]" />
+            <Variable Name="AddData[3]" />
+          </Variable>
         </Variable>
       </GlobalVariables>
     </Module>

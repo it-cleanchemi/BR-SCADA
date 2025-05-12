@@ -5,12 +5,19 @@
     <Property ID="RoleID" Value="1" />
     <Property ID="Description" Description="Admin Role" />
   </Element>
-  <Element ID="Operator_Role" Type="Role">
+  <Element ID="CCI_Role" Type="Role">
     <Property ID="RoleID" Value="2" />
     <Property ID="Description" Description="Operator Role" />
   </Element>
-  <Element ID="Anonymous1" Type="Role">
+  <Element ID="Control_Role" Type="Role">
     <Property ID="RoleID" Value="3" />
     <Property ID="Description" Description="Anonymous" />
+  </Element>
+  <Element ID="View_Role" Type="Role">
+    <Property ID="RoleID" Value="4" />
+    <Property ID="Description" Description="View Only" />
+  </Element>
+  <Element ID="Everyone" Type="Role">
+    <Property ID="RoleID" Value="5" />
   </Element>
 </Configuration>
