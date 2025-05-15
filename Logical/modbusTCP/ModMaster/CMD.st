@@ -327,89 +327,51 @@ ACTION Modbus_CMD_action:
 		MasterConfig[IdxSkids].action_enable[59].single := TRUE;
 	END_IF;
 	
+	// AS Block 61 IS THE TEXT READ INT BLOCK
+	
 	// AS Block 62 - XV101_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV101_OPEN_CMD.Send THEN
 		MasterConfig[IdxSkids].action_enable[61].single := TRUE;
 		gCmd[IdxSkids].Write_XV101_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 63 - XV101_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV101_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[62].single := TRUE;
-		gCmd[IdxSkids].Write_XV101_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 64 - XV102_OPEN_CMD
+	// AS Block 63 - XV102_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV102_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[63].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[62].single := TRUE;
 		gCmd[IdxSkids].Write_XV102_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 65 - XV102_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV102_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[64].single := TRUE;
-		gCmd[IdxSkids].Write_XV102_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 66 - XV103_OPEN_CMD
+	// AS Block 64 - XV103_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV103_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[65].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[63].single := TRUE;
 		gCmd[IdxSkids].Write_XV103_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 67 - XV103_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV103_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[66].single := TRUE;
-		gCmd[IdxSkids].Write_XV103_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 68 - XV104_OPEN_CMD
+	// AS Block 65 - XV104_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV104_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[67].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[64].single := TRUE;
 		gCmd[IdxSkids].Write_XV104_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 69 - XV104_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV104_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[68].single := TRUE;
-		gCmd[IdxSkids].Write_XV104_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 70 - XV201_OPEN_CMD
+	// AS Block 66 - XV201_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV201_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[69].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[65].single := TRUE;
 		gCmd[IdxSkids].Write_XV201_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 71 - XV201_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV201_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[70].single := TRUE;
-		gCmd[IdxSkids].Write_XV201_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 72 - XV202_OPEN_CMD
+	// AS Block 67 - XV202_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV202_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[71].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[66].single := TRUE;
 		gCmd[IdxSkids].Write_XV202_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 73 - XV202_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV202_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[72].single := TRUE;
-		gCmd[IdxSkids].Write_XV202_CLOSE_CMD.Send := FALSE;
-	END_IF;
-	
-	// AS Block 74 - XV203_OPEN_CMD
+	// AS Block 68 - XV203_OPEN_CMD
 	IF gCmd[IdxSkids].Write_XV203_OPEN_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[73].single := TRUE;
+		MasterConfig[IdxSkids].action_enable[67].single := TRUE;
 		gCmd[IdxSkids].Write_XV203_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
-	// AS Block 75 - XV203_CLOSE_CMD
-	IF gCmd[IdxSkids].Write_XV203_CLOSE_CMD.Send THEN
-		MasterConfig[IdxSkids].action_enable[74].single := TRUE;
-		gCmd[IdxSkids].Write_XV203_CLOSE_CMD.Send := FALSE;
-	END_IF;
+
 	
 
 	

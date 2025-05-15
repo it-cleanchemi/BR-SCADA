@@ -12,7 +12,7 @@
     <Property ID="UserID" Value="2" />
     <Property ID="Password" Value="TxGH2lswahn/J1JxEnWA7gTgkrNsPJeV/O4OAx+XbBywqFMc3Jg=" />
     <Group ID="Roles">
-      <Property ID="Role[1]" Value="Operator_Role" />
+      <Property ID="Role[1]" Value="Control_Role" />
     </Group>
   </Element>
   <Element ID="CCI" Type="User">

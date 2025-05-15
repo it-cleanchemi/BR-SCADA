@@ -283,6 +283,12 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.XV203_OPP := 1;
 		END_IF;
 		
+		IF gSkid[IdxSkids].Dosing_Pump_201.P201_PTYPE = 1 THEN
+			gSkid[IdxSkids].VisBool.P201_PTYPE_OPP := 0;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_PTYPE_OPP := 1;
+		END_IF;
+		
 	END_FOR;
 
 	

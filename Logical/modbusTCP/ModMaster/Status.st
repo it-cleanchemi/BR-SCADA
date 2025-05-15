@@ -23,7 +23,7 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Pmax_General_Variables.USER_ACCESS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[4];
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_HOA := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[6];
 	gSkid[IdxSkids].Pmax_General_Variables.PMAX_STATUS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[8];
-	//gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[10];
+	gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[10];
 	
 	gSkid[IdxSkids].Pmax_Pump_101.P101_XS := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[20];
 	gSkid[IdxSkids].Sensor_Variables.XV101 := gModbus[IdxSkids].Modbus_PeroxyMAX.Block1_Int[22];
@@ -338,11 +338,13 @@ ACTION Modbus_Status_action:
 	gSkid[IdxSkids].Sensor_Variables.FI304 := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_Dosing.Block10_Real[40]);
 	gSkid[IdxSkids].Sensor_Variables.FI304_QT := IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_Dosing.Block10_Real[41]);
 	
+	
+	
 	// AS Block 11 - 7000 DOSING REAL - SPARE
 	//:= IDEC_REAL_Conv(gModbus[IdxSkids].Modbus_Dosing.Block11_Real[0]);
 	
 	// AS Block 48 - ALARMS
-	//gSkid[IdxSkids].Alarms.ALARM_AB1 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[0];
+	gSkid[IdxSkids].Alarms.ALARM_AB1 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[0];
 	gSkid[IdxSkids].Alarms.ALARM_AB2 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[1];
 	gSkid[IdxSkids].Alarms.ALARM_AB3 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[2];
 	gSkid[IdxSkids].Alarms.ALARM_AB4 := gModbus[IdxSkids].Modbus_Alarms.Block48_Int[3];

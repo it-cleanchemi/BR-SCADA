@@ -38,5 +38,6 @@
     <Object Type="Library" Language="IEC">HA_Array</Object>
     <Object Type="Library" Language="IEC">HA_SysErr</Object>
     <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
+    <Object Type="Library" Language="Binary" Description="User management based on user role system">MpUserX</Object>
   </Objects>
 </Package>
