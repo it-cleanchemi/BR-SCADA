@@ -1,4 +1,6 @@
 VAR
 	IdxSkids : INT;
 	IdxAlarmsActive : INT;
+	Post_Login_0 : Post_Login;
+	Client : httpClient;
 END_VAR

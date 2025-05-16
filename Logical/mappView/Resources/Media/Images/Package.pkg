@@ -83,5 +83,8 @@
     <Object Type="File">Tech-PeroxyMAX-Preview.jpg</Object>
     <Object Type="File">Solenoid_Off3.png</Object>
     <Object Type="File">Solenoid_On3.png</Object>
+    <Object Type="File">Solenoid_Off3side.png</Object>
+    <Object Type="File">Solenoid_On3side.png</Object>
+    <Object Type="File">Snoop.png</Object>
   </Objects>
 </Package>

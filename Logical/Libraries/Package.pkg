@@ -39,5 +39,6 @@
     <Object Type="Library" Language="IEC">HA_SysErr</Object>
     <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
     <Object Type="Library" Language="Binary" Description="User management based on user role system">MpUserX</Object>
+    <Object Type="Library" Language="binary" Description="This library contains FBKs for exchanging and formatting data (message based) via HTTP (TCP).">AsHttp</Object>
   </Objects>
 </Package>

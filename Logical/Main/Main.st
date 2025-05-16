@@ -291,6 +291,7 @@ PROGRAM _CYCLIC
 		
 	END_FOR;
 
+	API_Calls_Action;
 	
 END_PROGRAM
 
