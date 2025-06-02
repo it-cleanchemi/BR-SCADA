@@ -81,5 +81,7 @@
     <LibraryObject Name="IDEC_Strng" Source="modbusTCP.IDEC_Strng.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="MpUserX" Source="Libraries.MpUserX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsHttp" Source="Libraries.AsHttp.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="AsICMP" Source="Libraries.AsICMP.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="AsHost" Source="Libraries.AsHost.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

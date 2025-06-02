@@ -7,5 +7,6 @@
     <Object Type="Package">Images</Object>
     <Object Type="Package">Monitor</Object>
     <Object Type="File">HA_Comms.js</Object>
+    <Object Type="File">CCLogo.png</Object>
   </Objects>
 </Package>

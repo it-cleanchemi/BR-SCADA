@@ -33,4 +33,18 @@
       <Property ID="Role[1]" Value="Everyone" />
     </Group>
   </Element>
+  <Element ID="e.sowell" Type="User">
+    <Property ID="UserID" Value="6" />
+    <Property ID="Password" Value="dj6d/uav/qIYDO+Xz/0XCNd0SIPeLyO7zz4gXbXL5UKqNU+xqCM=" Description="CC5541" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrator_Role" />
+    </Group>
+  </Element>
+  <Element ID="c.dreher" Type="User">
+    <Property ID="UserID" Value="7" />
+    <Property ID="Password" Value="kpdN1NvKZim/V7dpbJbckVzuYWjKqbeO+zSaVVRr8w+/grBOsPk=" Description="CC5541" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrator_Role" />
+    </Group>
+  </Element>
 </Configuration>

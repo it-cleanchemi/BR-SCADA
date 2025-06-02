@@ -18,5 +18,43 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Main.SkidNext.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Main" widgetRefId="SkidNext" event="Click" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:gVis.Main.In.SelectedSkidSessionVar">
+            <Method xsi:type="opcUa.NodeAction.GetValue" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="SelectedSkidIndx">
+                  <Method xsi:type="session.VariableAction.AddValue" value="1" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Main.SkidBack.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Main" widgetRefId="SkidBack" event="Click" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::AsGlobalPV:gVis.Main.In.SelectedSkidSessionVar">
+            <Method xsi:type="opcUa.NodeAction.GetValue" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.VariableAction" refId="SelectedSkidIndx">
+                  <Method xsi:type="session.VariableAction.AddValue" value="-1" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

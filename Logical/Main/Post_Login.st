@@ -6,9 +6,9 @@ FUNCTION_BLOCK Post_Login
 		bEnabled	:= TRUE;
 		sHeader		:= '';
 		Ressource	:= '/auth/jwt/create';
-		Host		:= 'https://cci-api-development-wjc4fopyua-uc.a.run.app';
+		Host		:= 'cci-api-development-wjc4fopyua-uc.a.run.app';
 		//sHeader		:= CONCAT('Authorization: ',sAuthorization);
-		RequestDataJson :='{"username": "m.gogela@cleanchemi.com","password": "Fire1776"}';
+		RequestDataJson :='{"username":"m.gogela@cleanchemi.com","password":"Fire1776"}';
 		
 		HttpClientRef.option 			:= httpOPTION_HTTP_11;
 		HttpClientRef.pHost 			:= ADR(Host);
@@ -16,7 +16,7 @@ FUNCTION_BLOCK Post_Login
 		HttpClientRef.pUri 				:= ADR(Ressource);
 		HttpClientRef.pRequestHeader	:= ADR(RequestHeader);
 		HttpClientRef.pRequestData		:= ADR(RequestDataJson);
-		HttpClientRef.requestDataLen	:= LEN(RequestDataJson); 
+		HttpClientRef.requestDataLen	:= LEN(RequestDataJson)+2; //According to WireShark there is a /r/n in the packet that is not being accounted for which requires us to add 2 bytes to the length
 		HttpClientRef.pResponseHeader	:= ADR(ResponseHeader);
 		HttpClientRef.pResponseData 	:= ADR(ResponseData);
 		HttpClientRef.responseDataSize	:= SIZEOF(ResponseData);
@@ -24,12 +24,10 @@ FUNCTION_BLOCK Post_Login
 		RequestHeader.protocol			:= 'HTTP/1.1';
 		RequestHeader.host				:= Host;
 		RequestHeader.contentType		:= 'application/json';
-		RequestHeader.contentLength		:=  LEN(RequestDataJson);
+		RequestHeader.contentLength		:=  LEN(RequestDataJson)+2; //According to WireShark there is a /r/n in the packet that is not being accounted for which requires us to add 2 bytes to the length
 		RequestHeader.connection		:= 'keep-alive';
-		RequestHeader.userLine[0].name	:= 'Accept-Language';
-		RequestHeader.userLine[0].value	:= 'en_US';
-		RequestHeader.userLine[1].name	:= 'Accept';
-		RequestHeader.userLine[1].value	:= 'application/json';
+		//RequestHeader.userLine[0].name	:= 'Accept';
+		//RequestHeader.userLine[0].value	:= '*/*';
 		RequestHeader.rawHeader.dataLen	:= LEN(sHeader);
 		RequestHeader.rawHeader.pData	:= ADR(sHeader);
 

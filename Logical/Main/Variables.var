@@ -2,5 +2,7 @@ VAR
 	IdxSkids : INT;
 	IdxAlarmsActive : INT;
 	Post_Login_0 : Post_Login;
-	Client : httpClient;
+	Client : httpsClient;
+	IcmpPing_0 : IcmpPing;
+	HostByName_0 : HostByName;
 END_VAR

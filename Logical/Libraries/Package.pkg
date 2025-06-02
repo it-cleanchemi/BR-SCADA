@@ -40,5 +40,7 @@
     <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
     <Object Type="Library" Language="Binary" Description="User management based on user role system">MpUserX</Object>
     <Object Type="Library" Language="binary" Description="This library contains FBKs for exchanging and formatting data (message based) via HTTP (TCP).">AsHttp</Object>
+    <Object Type="Library" Language="binary" Description="This library contains FBKs for pinging a station.">AsICMP</Object>
+    <Object Type="Library" Language="binary" Description="These function blocks can be used to resolve both IP addresses and domain names.">AsHost</Object>
   </Objects>
 </Package>

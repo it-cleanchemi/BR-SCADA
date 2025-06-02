@@ -13,7 +13,7 @@
 		ResponseData : {REDUND_UNREPLICABLE} STRING[2000];
 	END_VAR
 	VAR_IN_OUT
-		HttpClientRef : httpClient;
+		HttpClientRef : httpsClient;
 	END_VAR
 	VAR
 		RequestHeader : {REDUND_UNREPLICABLE} httpRequestHeader_t;

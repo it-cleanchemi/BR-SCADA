@@ -6896,73 +6896,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P101_SP" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P101_STRT_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P101_STP_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -7066,73 +7002,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="NI_Write_P103_SP" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P102_STP_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P102_STRT_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -7236,73 +7108,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P103_SP" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P103_STRT_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P103_STP_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -7372,141 +7180,13 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P104_SP" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P104_STRT_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P104_STP_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P201_STP_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P201_STRT_CMD" attribute="enable" />
-		</Binding>
+		
+		
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -7712,73 +7392,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput37" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P202_STP_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P202_STRT_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -7950,73 +7566,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="TextOutput4" attribute="enable" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P203_STP_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P203_STRT_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -8626,7 +8178,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P201_PTYPE_OPP" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P201_PTYPE_OPP" />
 				</be:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Rectangle14" attribute="visible" />
 		</Binding>
 		
@@ -9348,34 +8900,476 @@
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.SNOOPY" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.SNOOPY" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.SNOOPY" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.SNOOPY" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.SNOOPY" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.SNOOPY" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.SNOOPY" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.SNOOPY" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.SNOOPY" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.SNOOPY" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.SNOOPY" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.SNOOPY" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.SNOOPY" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.SNOOPY" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.SNOOPY" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.SNOOPY" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.SNOOPY" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.SNOOPY" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.SNOOPY" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.SNOOPY" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.SNOOPY" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.SNOOPY" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.SNOOPY" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.SNOOPY" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.SNOOPY" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P101_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P101_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P101_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P101_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P101_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P101_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P101_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P101_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P101_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P101_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P101_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P101_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P101_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P101_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P101_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P101_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P101_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P101_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P101_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P101_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P101_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P101_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P101_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P101_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P101_MODE" />
 				</be:List>
 			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="Snoopy" attribute="visible" />
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P101_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P101_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P101_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P101_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P101_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P101_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P101_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P101_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P101_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P101_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P101_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P101_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P101_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P101_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P101_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P101_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P101_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P101_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P101_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P101_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P101_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P101_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P101_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P101_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P101_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P101_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P101_STP_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P102_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P102_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P102_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P102_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P102_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P102_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P102_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P102_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P102_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P102_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P102_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P102_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P102_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P102_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P102_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P102_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P102_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P102_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P102_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P102_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P102_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P102_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P102_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P102_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P102_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P102_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P102_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P102_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P102_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P102_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P102_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P102_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P102_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P102_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P102_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P102_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P102_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P102_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P102_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P102_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P102_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P102_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P102_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P102_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P102_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P102_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P102_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P102_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P102_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P102_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P102_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P102_STP_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P103_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P103_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P103_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P103_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P103_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P103_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P103_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P103_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P103_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P103_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P103_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P103_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P103_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P103_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P103_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P103_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P103_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P103_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P103_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P103_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P103_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P103_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P103_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P103_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P103_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P103_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P103_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P103_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P103_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P103_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P103_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P103_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P103_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P103_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P103_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P103_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P103_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P103_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P103_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P103_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P103_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P103_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P103_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P103_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P103_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P103_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P103_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P103_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P103_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P103_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P103_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P103_STP_CMD" attribute="enable" />
+		</Binding>
+
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P104_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P104_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P104_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P104_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P104_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P104_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P104_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P104_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P104_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P104_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P104_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P104_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P104_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P104_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P104_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P104_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P104_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P104_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P104_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P104_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P104_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P104_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P104_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P104_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P104_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P104_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P104_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P104_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P104_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P104_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P104_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P104_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P104_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P104_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P104_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P104_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P104_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P104_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P104_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P104_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P104_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P104_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P104_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P104_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P104_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P104_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P104_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P104_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P104_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P104_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P104_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P104_STP_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P201_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P201_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P201_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P201_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P201_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P201_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P201_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P201_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P201_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P201_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P201_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P201_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P201_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P201_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P201_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P201_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P201_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P201_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P201_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P201_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P201_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P201_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P201_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P201_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P201_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P201_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P201_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P201_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P201_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P201_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P201_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P201_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P201_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P201_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P201_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P201_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P201_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P201_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P201_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P201_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P201_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P201_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P201_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P201_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P201_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P201_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P201_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P201_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P201_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P201_STP_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P202_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P202_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P202_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P202_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P202_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P202_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P202_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P202_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P202_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P202_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P202_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P202_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P202_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P202_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P202_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P202_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P202_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P202_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P202_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P202_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P202_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P202_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P202_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P202_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P202_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P202_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P202_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P202_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P202_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P202_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P202_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P202_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P202_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P202_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P202_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P202_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P202_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P202_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P202_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P202_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P202_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P202_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P202_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P202_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P202_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P202_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P202_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P202_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P202_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P202_STP_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P203_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P203_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P203_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P203_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P203_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P203_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P203_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P203_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P203_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P203_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P203_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P203_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P203_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P203_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P203_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P203_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P203_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P203_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P203_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P203_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P203_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P203_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P203_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P203_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkidIndx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid[0].VisBool.P203_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid[1].VisBool.P203_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid[2].VisBool.P203_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid[3].VisBool.P203_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid[4].VisBool.P203_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid[5].VisBool.P203_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid[6].VisBool.P203_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid[7].VisBool.P203_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid[8].VisBool.P203_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid[9].VisBool.P203_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid[10].VisBool.P203_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid[11].VisBool.P203_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid[12].VisBool.P203_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid[13].VisBool.P203_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid[14].VisBool.P203_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid[15].VisBool.P203_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid[16].VisBool.P203_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid[17].VisBool.P203_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid[18].VisBool.P203_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid[19].VisBool.P203_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid[20].VisBool.P203_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid[21].VisBool.P203_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid[22].VisBool.P203_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid[23].VisBool.P203_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid[24].VisBool.P203_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewEx1" widgetRefId="PB_Write_P203_STP_CMD" attribute="enable" />
 		</Binding>
 		
 	</Bindings>

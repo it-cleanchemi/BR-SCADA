@@ -289,6 +289,36 @@ PROGRAM _CYCLIC
 			gSkid[IdxSkids].VisBool.P201_PTYPE_OPP := 1;
 		END_IF;
 		
+		IF gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK = 1 AND gSkid[IdxSkids].Pmax_General_Variables.PMAX_HOA = 2 THEN
+			gSkid[IdxSkids].VisBool.P101_MODE := 1;
+			gSkid[IdxSkids].VisBool.P102_MODE := 1;
+			gSkid[IdxSkids].VisBool.P103_MODE := 1;
+			gSkid[IdxSkids].VisBool.P104_MODE := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P101_MODE := 0;
+			gSkid[IdxSkids].VisBool.P102_MODE := 0;
+			gSkid[IdxSkids].VisBool.P103_MODE := 0;
+			gSkid[IdxSkids].VisBool.P104_MODE := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK = 1 AND gSkid[IdxSkids].Dosing_Pump_201.P201_HOA = 8 THEN
+			gSkid[IdxSkids].VisBool.P201_MODE := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P201_MODE := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK = 1 AND gSkid[IdxSkids].Dosing_Pump_202.P202_HOA = 8 THEN
+			gSkid[IdxSkids].VisBool.P202_MODE := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P202_MODE := 0;
+		END_IF;
+		
+		IF gSkid[IdxSkids].Pmax_General_Variables.SCREEN_LOCK = 1 AND gSkid[IdxSkids].Dosing_Pump_203.P203_HOA = 8 THEN
+			gSkid[IdxSkids].VisBool.P203_MODE := 1;
+		ELSE
+			gSkid[IdxSkids].VisBool.P203_MODE := 0;
+		END_IF;
+		
 	END_FOR;
 
 	API_Calls_Action;
