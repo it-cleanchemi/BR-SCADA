@@ -66,7 +66,6 @@
     <LibraryObject Name="HA_IO" Source="Libraries.HA_IO.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_Dir" Source="Libraries.HA_Dir.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_Convert" Source="Libraries.HA_Convert.lby" Memory="UserROM" Language="IEC" Debugging="true" />
-    <LibraryObject Name="HA_Str" Source="Libraries.HA_Str.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_AlarmX" Source="Libraries.HA_AlarmX.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_ItemX" Source="Libraries.HA_ItemX.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_RAND" Source="Libraries.HA_RAND.lby" Memory="UserROM" Language="ANSIC" Debugging="true" />
@@ -83,5 +82,7 @@
     <LibraryObject Name="AsHttp" Source="Libraries.AsHttp.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsICMP" Source="Libraries.AsICMP.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="AsHost" Source="Libraries.AsHost.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="HA_JSON" Source="modbusTCP.HA_JSON.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="HA_Str" Source="Libraries.HA_Str.lby" Memory="UserROM" Language="IEC" Debugging="true" />
   </Libraries>
 </SwConfiguration>

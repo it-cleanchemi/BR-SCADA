@@ -175,6 +175,9 @@ TYPE
 		Write_XV201_OPEN_CMD : CMD_Write_XV201_OPEN_CMD_Type;
 		Write_XV202_OPEN_CMD : CMD_Write_XV202_OPEN_CMD_Type;
 		Write_XV203_OPEN_CMD : CMD_Write_XV203_OPEN_CMD_Type;
+		Write_TOTALIZER_RESET : CMD_Write_TOTALIZER_RESET_Type;
+		Write_AS_USER : CMD_Write_AS_USER_Type;
+		Write_AS_ACCESS : CMD_Write_AS_ACCESS_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -183,6 +186,18 @@ END_TYPE
 TYPE
 	CMD_Write_UNIT_ACK_Type : 	STRUCT 
 		wUNIT_ACK : UINT := 1;
+	END_STRUCT;
+	CMD_Write_AS_ACCESS_Type : 	STRUCT 
+		Send : BOOL;
+		wAS_ACCESS : UINT := 1;
+	END_STRUCT;
+	CMD_Write_AS_USER_Type : 	STRUCT 
+		Send : BOOL;
+		wAS_USER : UINT := 1;
+	END_STRUCT;
+	CMD_Write_TOTALIZER_RESET_Type : 	STRUCT 
+		Send : BOOL;
+		wTOTALIZER_RESET : UINT := 1;
 	END_STRUCT;
 	CMD_Write_UNLOCK_CMD_Type : 	STRUCT 
 		Send : BOOL;
@@ -524,11 +539,16 @@ END_TYPE
 
 TYPE
 	Vis_Global : 	STRUCT 
-		ClientInfo : Vis_Global_ClientInfo;
+		ClientInfo : ARRAY[0..MAX_CLIENTS]OF Vis_Global_ClientInfo;
 		ErrorReset : BOOL;
 	END_STRUCT;
 	Vis_Global_ClientInfo : 	STRUCT 
-		SelectedSkidIdx : ARRAY[0..MAX_CLIENTS]OF USINT;
+		LoginFailed : BOOL;
+		LoginSuccess : BOOL;
+		LoginRequest : BOOL;
+		Password : STRING[80];
+		User : STRING[80];
+		SelectedSkidIdx : USINT;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;
@@ -740,8 +760,8 @@ TYPE
 		HP_CONC : REAL; (*HP Concentration*)
 		NAOH_CONC_OD : REAL; (*NaOh Concentration On Deck*)
 		NAOH_CONC : REAL; (*NaOh Concentration*)
-		USER_ID : UINT; (*Current User*)
-		USER_ACCESS : UINT; (*Current User Access Level*)
+		USER_ID : UINT; (*Current Local User*)
+		USER_ACCESS : UINT; (*Current Local User Access Level*)
 		UNIT_ID_DOSE : UINT;
 	END_STRUCT;
 END_TYPE

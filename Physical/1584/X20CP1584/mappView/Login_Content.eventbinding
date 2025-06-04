@@ -1,14 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EventBindingSet id="Login_Content_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Bindings>
-    <EventBinding id="Login_Content.LoginButton.LoginSuccess">
-      <Source xsi:type="widgets.brease.LoginButton.Event" contentRefId="Login_Content" widgetRefId="LoginButton" event="LoginSuccess" />
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="clientSystem.Event" event="LoginSuccess" />
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
             <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
           </Target>
         </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_12">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Login_Content" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="LoginRequest">
+            <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_13">
+      <Source xsi:type="session.Event" refId="LoginSuccess" event="ValueChanged" />
+      <Operand datatype="ANY_STRING" name="User">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="User">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <Operand datatype="ANY_STRING" name="Password">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="Password">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="newValue=true">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Login" userName="=User" password="=Password" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="LoginSuccess">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
       </EventHandler>
     </EventBinding>
   </Bindings>

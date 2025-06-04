@@ -371,6 +371,24 @@ ACTION Modbus_CMD_action:
 		gCmd[IdxSkids].Write_XV203_OPEN_CMD.Send := FALSE;
 	END_IF;
 	
+	// AS Block 69 - AS_USER
+	IF gCmd[IdxSkids].Write_AS_USER.Send THEN
+		MasterConfig[IdxSkids].action_enable[68].single := TRUE;
+		gCmd[IdxSkids].Write_AS_USER.Send := FALSE;
+	END_IF;
+	
+	// AS Block 70 - AS_ACCESS
+	IF gCmd[IdxSkids].Write_AS_ACCESS.Send THEN
+		MasterConfig[IdxSkids].action_enable[69].single := TRUE;
+		gCmd[IdxSkids].Write_AS_ACCESS.Send := FALSE;
+	END_IF;
+	
+	// AS Block 71 - TOTALIZER_RESET
+	IF gCmd[IdxSkids].Write_TOTALIZER_RESET.Send THEN
+		MasterConfig[IdxSkids].action_enable[70].single := TRUE;
+		gCmd[IdxSkids].Write_TOTALIZER_RESET.Send := FALSE;
+	END_IF;
+	
 
 	
 

@@ -9,5 +9,6 @@
     <File Private="true">LocalFunctions.fun</File>
     <File>Post_Login.st</File>
     <File>API_Calls.st</File>
+    <File>GET_UserInfo.st</File>
   </Files>
 </Program>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">HA_JSON.fun</File>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File>HA_JSON_Parse.st</File>
+    <File>HA_JSON_PairsToJSON.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="HA_Str" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

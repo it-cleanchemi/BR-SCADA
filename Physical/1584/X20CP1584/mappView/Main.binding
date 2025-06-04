@@ -378,5 +378,88 @@
 			<Target xsi:type="brease" contentRefId="Main" widgetRefId="PLC_REV_B" attribute="value" />
 		</Binding>
 		
+		
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].User" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].User" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].User" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].User" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].User" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].User" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].User" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].User" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].User" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].User" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].User" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="User" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].Password" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].Password" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].Password" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].Password" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].Password" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].Password" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].Password" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].Password" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].Password" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].Password" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].Password" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="Password" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LoginRequest" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LoginRequest" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LoginRequest" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LoginRequest" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LoginRequest" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LoginRequest" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LoginRequest" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LoginRequest" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LoginRequest" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].LoginRequest" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].LoginRequest" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LoginRequest" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LoginSuccess" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LoginSuccess" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LoginSuccess" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LoginSuccess" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LoginSuccess" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LoginSuccess" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LoginSuccess" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LoginSuccess" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LoginSuccess" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].LoginSuccess" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].LoginSuccess" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LoginSuccess" attribute="value"/>
+		</Binding>
+		
+		
 	</Bindings>
 </BindingsSet>

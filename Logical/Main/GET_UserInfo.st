@@ -1,25 +1,20 @@
 
 (* TODO: Add your comment here *)
-FUNCTION_BLOCK Post_Login
+FUNCTION_BLOCK GET_UserInfo
 	
 	IF bEnable AND NOT bEnabled THEN
 		bEnabled	:= TRUE;
-		sHeader		:= '';
-		Ressource	:= '/auth/jwt/create';
+		sHeader		:= CONCAT('Authorization: Bearer ',sAuthorization);
+		Ressource	:= '/auth/users/me/';
 		Host		:= 'cci-api-development-wjc4fopyua-uc.a.run.app';
-		//sHeader		:= CONCAT('Authorization: ',sAuthorization);
-		RequestDataJson := CONCAT('{"username":"',username);
-		RequestDataJson := CONCAT(	RequestDataJson,'","password":"');
-		RequestDataJson := CONCAT(	RequestDataJson,password);
-		RequestDataJson := CONCAT(	RequestDataJson,'"}');
 		
 		HttpClientRef.option 			:= httpOPTION_HTTP_11;
 		HttpClientRef.pHost 			:= ADR(Host);
-		HttpClientRef.method 			:= httpMETHOD_POST;
+		HttpClientRef.method 			:= httpMETHOD_GET;
 		HttpClientRef.pUri 				:= ADR(Ressource);
 		HttpClientRef.pRequestHeader	:= ADR(RequestHeader);
 		HttpClientRef.pRequestData		:= ADR(RequestDataJson);
-		HttpClientRef.requestDataLen	:= LEN(RequestDataJson)+2; //According to WireShark there is a /r/n in the packet that is not being accounted for which requires us to add 2 bytes to the length
+		HttpClientRef.requestDataLen	:= LEN(RequestDataJson);
 		HttpClientRef.pResponseHeader	:= ADR(ResponseHeader);
 		HttpClientRef.pResponseData 	:= ADR(ResponseData);
 		HttpClientRef.responseDataSize	:= SIZEOF(ResponseData);
@@ -27,12 +22,14 @@ FUNCTION_BLOCK Post_Login
 		RequestHeader.protocol			:= 'HTTP/1.1';
 		RequestHeader.host				:= Host;
 		RequestHeader.contentType		:= 'application/json';
-		RequestHeader.contentLength		:=  LEN(RequestDataJson)+2; //According to WireShark there is a /r/n in the packet that is not being accounted for which requires us to add 2 bytes to the length
+		RequestHeader.contentLength		:=  LEN(RequestDataJson);
 		RequestHeader.connection		:= 'keep-alive';
-		//RequestHeader.userLine[0].name	:= 'Accept';
-		//RequestHeader.userLine[0].value	:= '*/*';
 		RequestHeader.rawHeader.dataLen	:= LEN(sHeader);
 		RequestHeader.rawHeader.pData	:= ADR(sHeader);
+	//	RequestHeader.userLine[0].name	:= 'Authorization';
+	//	RequestHeader.userLine[0].value := CONCAT('Bearer ','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MDYwOTYzLCJqdGkiOiJkNDg0MDAxMjM0MmE0YjJjYjQ2NzMwYjVhNGY1YTFmNyIsInVzZXJfaWQiOjEwfQ.AVaWOw9VqAKLQE9KLkQGM_h3jkvgIiEIJNefHxd0ypA');
+		RequestHeader.userLine[1].name	:= 'User-Agent';
+		RequestHeader.userLine[1].value := 'SCADA';
 
 	ELSIF bEnable AND bEnabled THEN
 		HttpClientRef.enable	:= TRUE;

@@ -634,6 +634,33 @@ PROGRAM _INIT
 		MasterConfig[IdxSkids].action_param[67].start_addr := 23012;		// Read from this modbus address 
 		MasterConfig[IdxSkids].action_param[67].timer 	:= 10;			// Refresh timer for this item 
 		MasterConfig[IdxSkids].action_param[67].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 69 - AS_USER
+		MasterConfig[IdxSkids].action_enable[68].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[68].p_pv		:= ADR(gCmd[IdxSkids].Write_AS_USER.wAS_USER);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[68].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[68].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[68].start_addr := 200;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[68].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[68].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 70 - AS_ACCESS
+		MasterConfig[IdxSkids].action_enable[69].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[69].p_pv		:= ADR(gCmd[IdxSkids].Write_AS_ACCESS.wAS_ACCESS);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[69].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[69].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[69].start_addr := 210;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[69].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[69].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 71 - TOTALIZER_RESET
+		MasterConfig[IdxSkids].action_enable[70].cyclic 	:= FALSE;			// Read data cyclic 
+		MasterConfig[IdxSkids].action_param[70].p_pv		:= ADR(gCmd[IdxSkids].Write_TOTALIZER_RESET.wTOTALIZER_RESET);	// Store data in this variable 
+		MasterConfig[IdxSkids].action_param[70].quantity 	:= 1;			// Number of items to read 
+		MasterConfig[IdxSkids].action_param[70].unit 		:= 1;			// Unit address - ignore if not specified 
+		MasterConfig[IdxSkids].action_param[70].start_addr := 30;		// Read from this modbus address 
+		MasterConfig[IdxSkids].action_param[70].timer 	:= 10;			// Refresh timer for this item 
+		MasterConfig[IdxSkids].action_param[70].type 		:= 6;			// Function code for this item (2 := read discrete inputs)
 	
 
 

@@ -6,5 +6,9 @@
     <File Description="Exported constants">Constants.var</File>
     <File Description="Exported functions and function blocks">HA_Str.fun</File>
     <File>HA_brsstrcat.st</File>
+    <File>HA_Find_S.st</File>
+    <File>HA_Find_L.st</File>
+    <File>HA_Find_R.st</File>
+    <File>HA_Find_Extract.st</File>
   </Files>
 </Library>
