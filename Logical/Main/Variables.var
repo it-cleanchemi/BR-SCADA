@@ -1,11 +1,9 @@
 VAR
 	IdxSkids : INT;
 	IdxAlarmsActive : INT;
-	Post_Login_0 : Post_Login;
 	Client : httpsClient;
 	IcmpPing_0 : IcmpPing;
 	HostByName_0 : HostByName;
-	GET_UserInfo_0 : GET_UserInfo;
 	JSON_Parsed : ARRAY[0..MAX_JSON_PARSE_PAIR_IDX] OF HA_JSON_Parse_Pair_typ;
 	HA_JSON_Parse_0 : HA_JSON_Parse;
 	IdxJSON : DINT;
@@ -13,4 +11,8 @@ VAR
 	JSON_Parsed_UserInfo : ARRAY[0..MAX_JSON_PARSE_PAIR_IDX] OF HA_JSON_Parse_Pair_typ;
 	HA_JSON_Parse_1 : HA_JSON_Parse;
 	IdxClients : INT;
+	ArUserCreate_0 : ArUserCreate;
+	ArUserSetPassword_0 : ArUserSetPassword;
+	Header : httpRequestHeader_t;
+	API_Login_FB_0 : API_Login_FB;
 END_VAR

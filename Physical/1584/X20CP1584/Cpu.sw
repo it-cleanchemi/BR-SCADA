@@ -84,5 +84,7 @@
     <LibraryObject Name="AsHost" Source="Libraries.AsHost.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="HA_JSON" Source="modbusTCP.HA_JSON.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_Str" Source="Libraries.HA_Str.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="ArUser" Source="Libraries.ArUser.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="API_Login" Source="Libraries.API_Login.lby" Memory="UserROM" Language="IEC" Debugging="true" />
   </Libraries>
 </SwConfiguration>

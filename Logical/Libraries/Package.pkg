@@ -42,5 +42,7 @@
     <Object Type="Library" Language="binary" Description="This library contains FBKs for pinging a station.">AsICMP</Object>
     <Object Type="Library" Language="binary" Description="These function blocks can be used to resolve both IP addresses and domain names.">AsHost</Object>
     <Object Type="Library" Language="IEC">HA_Str</Object>
+    <Object Type="Library" Language="binary" Description="User Role System">ArUser</Object>
+    <Object Type="Library" Language="IEC">API_Login</Object>
   </Objects>
 </Package>
