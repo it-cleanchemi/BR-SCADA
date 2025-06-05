@@ -320,8 +320,6 @@ PROGRAM _CYCLIC
 		END_IF;
 		
 	END_FOR;
-
-	API_Calls_Action;
 	
 END_PROGRAM
 

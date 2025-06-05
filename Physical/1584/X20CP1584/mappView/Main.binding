@@ -444,6 +444,26 @@
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LogoutRequest" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LogoutRequest" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LogoutRequest" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LogoutRequest" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LogoutRequest" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LogoutRequest" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LogoutRequest" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LogoutRequest" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LogoutRequest" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].LogoutRequest" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].LogoutRequest" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LogoutRequest" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LoginSuccess" />
 					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LoginSuccess" />
 					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LoginSuccess" />
@@ -460,6 +480,66 @@
 			<Target xsi:type="session" refId="LoginSuccess" attribute="value"/>
 		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LogoutSuccess" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LogoutSuccess" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LogoutSuccess" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LogoutSuccess" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LogoutSuccess" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LogoutSuccess" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LogoutSuccess" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LogoutSuccess" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LogoutSuccess" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].LogoutSuccess" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].LogoutSuccess" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LogoutSuccess" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="oneWayToSource">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].UserID" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].UserID" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].UserID" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].UserID" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].UserID" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].UserID" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].UserID" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].UserID" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].UserID" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].UserID" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].UserID" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="::SYSTEM:clientInfo.userId" attribute="value"/>
+		</Binding>
+		
+		
+		<Binding mode="oneWayToSource">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].IsValid" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].IsValid" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].IsValid" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].IsValid" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].IsValid" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].IsValid" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].IsValid" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].IsValid" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].IsValid" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].IsValid" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].IsValid" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="::SYSTEM:clientInfo.isValid" attribute="value"/>
+		</Binding>
 		
 	</Bindings>
 </BindingsSet>

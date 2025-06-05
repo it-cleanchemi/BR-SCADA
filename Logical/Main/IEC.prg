@@ -6,6 +6,5 @@
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
     <File>Methods.uam</File>
-    <File>API_Calls.st</File>
   </Files>
 </Program>

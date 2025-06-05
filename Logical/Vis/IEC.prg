@@ -8,5 +8,6 @@
     <File>Methods.uam</File>
     <File>Alarms_Active.st</File>
     <File>Alarms_History.st</File>
+    <File>Login_User_API.st</File>
   </Files>
 </Program>

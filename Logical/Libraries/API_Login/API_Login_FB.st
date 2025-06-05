@@ -2,7 +2,7 @@
 (* TODO: Add your comment here *)
 FUNCTION_BLOCK API_Login_FB
 	
-	IF NOT bEnable THEN
+	IF NOT bExecute THEN
 		LoginState := IDLE_I;
 	END_IF;
 
@@ -18,7 +18,10 @@ FUNCTION_BLOCK API_Login_FB
 			ArUserSetPassword.Execute := FALSE;
 			ArUserCreate.Execute := FALSE;
 			
-			IF bEnable THEN
+			Done := FALSE;
+			Error := FALSE;
+			
+			IF bExecute THEN
 				LoginState := REQ_AUTH_C;
 			END_IF;
 			
@@ -34,8 +37,12 @@ FUNCTION_BLOCK API_Login_FB
 			
 		REQ_AUTH_W:
 			
-			IF POST_Login.Status = 0 THEN
+			IF POST_Login.Status = 0 AND POST_Login.ResponseStatus = '200 OK' THEN
 				LoginState := PARSE_AUTH_JSON_C;
+			ELSIF  POST_Login.Status = 0 AND POST_Login.ResponseStatus = '401 Unauthorized' THEN
+				LoginState := LOGIN_API_ERROR;
+			//ELSIF POST_Login.Status = 0 AND POST_Login.ResponseStatus = '400 Unauthorized' THEN
+				
 			END_IF;
 			
 		PARSE_AUTH_JSON_C:
@@ -73,7 +80,7 @@ FUNCTION_BLOCK API_Login_FB
 			
 		REQ_USER_INFO_W:
 			
-			IF GET_UserInfo.Status = 0 THEN
+			IF GET_UserInfo.Status = 0 AND GET_UserInfo.ResponseStatus = '200 OK' THEN
 				LoginState := PARSE_USER_INFO_C;
 			END_IF;
 			
@@ -105,7 +112,7 @@ FUNCTION_BLOCK API_Login_FB
 			IF ArUserCreate.Done THEN
 				LoginState := SET_PASSWORD_C;
 			ELSIF ArUserCreate.ErrorID = -1070585893 THEN
-					LoginState := SET_PASSWORD_C;
+				LoginState := SET_PASSWORD_C;
 			END_IF;
 			
 		SET_PASSWORD_C:
@@ -119,16 +126,28 @@ FUNCTION_BLOCK API_Login_FB
 		SET_PASSWORD_W:
 			
 			IF ArUserSetPassword.Done THEN
-				LoginState := LOGIN_SUCCESS;
+				LoginState := USER_CREATED_SUCCESSS;
 			END_IF;
 			
 		SET_ROLES_C:
 			
 		SET_ROLES_W:
 	
-		LOGIN_SUCCESS:
+		USER_CREATED_SUCCESSS:
 			
-		LOGIN_ERROR:
+			Done := TRUE;
+			
+		LOGIN_API_ERROR:
+			
+			GET_UserInfo.bEnable := FALSE;
+			GET_UserInfo.bRequest := FALSE;
+			POST_Login.bEnable := FALSE;
+			POST_Login.bRequest := FALSE;
+			HA_JSON_Parse.Enable := FALSE;
+			ArUserSetPassword.Execute := FALSE;
+			ArUserCreate.Execute := FALSE;
+			
+			Error := TRUE;
 		
 	END_CASE;
 	

@@ -24,11 +24,8 @@ PROGRAM _CYCLIC
 		
 	END_FOR
 
-	//	IF gVis.Main.In.TestButton THEN
-	//		//Do action
-	//	END_IF;
-	
-	//	gVis.Main.Out.SkidID :=  
+	//Vis Action Calls	
+	Login_User_API;
 	
 	//Alarm Page Logic
 	Alarms_Active;

@@ -7,6 +7,6 @@
     <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_4" top="429" left="0" width="166" height="142" zIndex="4" image="Media/Images/Settings.svg" imageAlign="top" pageId="Page_Settings" text="$IAT/Navigation_NavigationButton_4" permissionOperate="['Administrator_Role']" />
     <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_5" top="572" left="0" width="166" height="142" zIndex="1" image="Media/Images/Diagnostics.svg" imageAlign="top" pageId="Page_Diagnostics" text="$IAT/Navigation_NavigationButton_5" permissionOperate="['Administrator_Role']" />
     <Widget xsi:type="widgets.brease.NavigationButton" id="Navigation_NavigationButton_6" top="715" left="0" width="166" height="142" zIndex="5" image="Media/Images/Alarms.svg" imageAlign="top" pageId="Page_Alarms" text="$IAT/Navigation_NavigationButton_6" />
-    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="860" left="0" width="166" height="142" zIndex="6" text="Logout" cornerRadius="0px" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="860" left="0" width="166" height="142" zIndex="6" text="Logout" />
   </Widgets>
 </Content>

@@ -1,7 +1,7 @@
 
 FUNCTION_BLOCK API_Login_FB
 	VAR_INPUT
-		bEnable : BOOL;
+		bExecute : BOOL;
 		sUser : STRING[80];
 		sPassword : STRING[80];
 	END_VAR
@@ -10,6 +10,8 @@ FUNCTION_BLOCK API_Login_FB
 		UserID : STRING[80];
 		Password : STRING[80];
 		Name : STRING[80];
+		Error : BOOL;
+		Done : BOOL;
 		Authorization_Bearer : STRING[250];
 	END_VAR
 	VAR_IN_OUT

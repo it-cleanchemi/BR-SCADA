@@ -544,11 +544,15 @@ TYPE
 	END_STRUCT;
 	Vis_Global_ClientInfo : 	STRUCT 
 		LoginFailed : BOOL;
+		LogoutSuccess : BOOL;
 		LoginSuccess : BOOL;
+		LogoutRequest : BOOL;
 		LoginRequest : BOOL;
 		Password : STRING[80];
 		User : STRING[80];
 		SelectedSkidIdx : USINT;
+		UserID : STRING[80];
+		IsValid : BOOL;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;
