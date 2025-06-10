@@ -14,7 +14,6 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Package" Description="Programs">modbusTCP</Object>
     <Object Type="Package">mappView</Object>
-    <Object Type="Program" Language="IEC">Main</Object>
     <Object Type="Program" Language="IEC">Vis</Object>
     <Object Type="Program" Language="IEC">Services</Object>
     <Object Type="Package">AlarmTexts</Object>

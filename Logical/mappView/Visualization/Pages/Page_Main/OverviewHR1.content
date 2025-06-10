@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="OverviewEx1" height="940" width="1753" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
+<Content id="OverviewHR1" height="940" width="1753" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput17" top="705" left="25" width="70" zIndex="44" value="P104" textAlign="center" fontSize="24px" />
     <Widget xsi:type="widgets.brease.Line" id="Line33" zIndex="46" x1="-659" x2="-599" y1="205" y2="205" />
@@ -270,7 +270,7 @@
     <Widget xsi:type="widgets.brease.Ellipse" id="P102_LS" top="427" left="40" width="20" height="20" zIndex="248" backColor="rgba(0, 150, 169, 1)" />
     <Widget xsi:type="widgets.brease.Ellipse" id="P103_LS" top="608" left="40" width="20" height="20" zIndex="249" backColor="rgba(0, 150, 169, 1)" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Circle1" top="15" left="645" width="20" height="20" zIndex="250" backColor="rgba(255, 255, 255, 0)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput53" top="145" left="1560" zIndex="251" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput53" top="145" left="1200" width="420" zIndex="251" textAlign="right" />
     <Widget xsi:type="widgets.brease.Table" id="Alarms_Active_Table" top="14" left="1090" width="640" height="126" zIndex="252" headerSize="30" initRefreshRate="600" multiLine="true" refreshRate="250" wordWrap="true" activeInputCellTextColor="rgba(0, 255, 255, 1)" cellPadding="5px" fontSize="14px" headerFontSize="16px">
       <Widgets>
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Timestamp" zIndex="2" columnWidth="180" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" text="$IAT/Alarms_Active_Table_TableItem_Timestamp" />
@@ -278,7 +278,7 @@
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Description" zIndex="1" columnWidth="459" text="$IAT/Alarms_Active_Table_TableItem_Description" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="150" left="1160" height="19" zIndex="256" text="Ack All" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="151" left="1620" height="19" zIndex="256" text="Ack All" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Screen_Lock" top="15" left="645" width="20" height="20" zIndex="257" backColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_ASP" top="273" left="1060" width="220" zIndex="258" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_ASP" top="496" left="1060" width="220" zIndex="259" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />

@@ -20,7 +20,7 @@
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="Alarms_History_binding" />
     <BindingsSet refId="Login_Content_binding" />
-    <BindingsSet refId="OverviewEx1_binding" />
+    <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="Main_binding" />
   </BindingsSets>
   <EventBindingsSets>
@@ -34,7 +34,7 @@
     <EventBindingsSet refId="Alarms_Active_eventbinding" />
     <EventBindingsSet refId="Alarms_eventbinding" />
     <EventBindingsSet refId="Login_Content_eventbinding" />
-    <EventBindingsSet refId="OverviewEx1_eventbinding" />
+    <EventBindingsSet refId="OverviewLR1_eventbinding" />
     <EventBindingsSet refId="Navigation_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
@@ -63,7 +63,7 @@
     <Content refId="Diagnostics_SDM" />
     <Content refId="Alarms" />
     <Content refId="Alarms_Active" />
-    <Content refId="OverviewEx1" />
+    <Content refId="OverviewLR1" />
     <Content refId="OverviewEx2" />
     <Content refId="Alarms_History" />
     <Content refId="P201_Status_Content" />
@@ -72,6 +72,7 @@
     <Content refId="PM_Status_Content" />
     <Content refId="PM_Settings_Content" />
     <Content refId="Login_Content" />
+    <Content refId="OverviewHR1" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

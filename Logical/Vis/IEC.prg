@@ -9,5 +9,7 @@
     <File>Alarms_Active.st</File>
     <File>Alarms_History.st</File>
     <File>Login_User_API.st</File>
+    <File>Main_LR.st</File>
+    <File>Main_HR.st</File>
   </Files>
 </Program>

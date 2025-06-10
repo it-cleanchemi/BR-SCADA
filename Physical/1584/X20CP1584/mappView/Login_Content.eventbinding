@@ -12,6 +12,13 @@
       </EventHandler>
       <EventHandler>
         <Action>
+          <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
+            <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
           <Target xsi:type="session.VariableAction" refId="User">
             <Method xsi:type="session.VariableAction.SetValueString" value="" />
           </Target>

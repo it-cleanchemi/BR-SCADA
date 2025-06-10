@@ -1,8 +1,8 @@
 (*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*)
 (*Modbus master function block and configuration*)
 VAR
-	ModbusTcpMaster : ARRAY[0..MAX_SKIDS] OF MBmaster;
-	MasterConfig : ARRAY[0..MAX_SKIDS] OF modbus_master_cfg_typ;
+	ModbusTcpMaster_HR : ARRAY[0..MAX_SKIDS_HR] OF MBmaster;
+	MasterConfig_HR : ARRAY[0..MAX_SKIDS_HR] OF modbus_master_cfg_typ;
 	reset_error : BOOL := FALSE;
 END_VAR
 (*IO sample arrays*)
@@ -16,7 +16,7 @@ END_VAR
 (*MISC variables*)
 VAR
 	interface : STRING[20];
-	logger : ARRAY[0..LLN,0..MAX_SKIDS] OF STRING[LLL];
+	logger : ARRAY[0..LLN,0..MAX_SKIDS_HR] OF STRING[LLL];
 	StartStop : BOOL := FALSE;
 	LREAL_Test : LREAL := 0.0;
 	UDINT_Test : UDINT := 0;
@@ -25,7 +25,7 @@ VAR
 	Test_SWAPPED_UDINT : UDINT := 0;
 	IdxReals : INT := 0;
 	IdxUINTS : INT := 0;
-	IdxSkids : INT;
+	IdxSkids_HR : INT;
 	SkidString : STRING[80];
 	SkidNumberINT : STRING[80];
 	TestBool : BOOL;

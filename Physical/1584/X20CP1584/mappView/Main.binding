@@ -43,7 +43,7 @@
 		
 		<Binding mode="oneWay"> 
 			<Source xsi:type="snippet" refId="P201_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput1" contentRefId="OverviewEx1" attribute="value" /> 
+			<Target xsi:type="brease" widgetRefId="TextOutput1" contentRefId="OverviewLR1" attribute="value" /> 
 		</Binding>
 		
 		<Binding mode="oneWay">
@@ -82,7 +82,7 @@
 		
 		<Binding mode="oneWay"> 
 			<Source xsi:type="snippet" refId="P202_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput4" contentRefId="OverviewEx1" attribute="value" /> 
+			<Target xsi:type="brease" widgetRefId="TextOutput4" contentRefId="OverviewLR1" attribute="value" /> 
 		</Binding>
 		
 		<Binding mode="oneWay">
@@ -121,7 +121,7 @@
 		
 		<Binding mode="oneWay"> 
 			<Source xsi:type="snippet" refId="P203_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput36" contentRefId="OverviewEx1" attribute="value" /> 
+			<Target xsi:type="brease" widgetRefId="TextOutput36" contentRefId="OverviewLR1" attribute="value" /> 
 		</Binding>
 		
 		<Binding mode="oneWay">
@@ -160,7 +160,7 @@
 		
 		<Binding mode="oneWay"> 
 			<Source xsi:type="snippet" refId="PM_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput37" contentRefId="OverviewEx1" attribute="value" /> 
+			<Target xsi:type="brease" widgetRefId="TextOutput37" contentRefId="OverviewLR1" attribute="value" /> 
 		</Binding>
 		
 		<Binding mode="oneWay">
@@ -199,7 +199,7 @@
 		
 		<Binding mode="oneWay"> 
 			<Source xsi:type="snippet" refId="UNIT_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput38" contentRefId="OverviewEx1" attribute="value" /> 
+			<Target xsi:type="brease" widgetRefId="TextOutput38" contentRefId="OverviewLR1" attribute="value" /> 
 		</Binding>
 		
 		<Binding mode="twoWay">

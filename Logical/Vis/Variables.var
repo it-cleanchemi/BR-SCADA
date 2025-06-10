@@ -9,4 +9,6 @@ VAR
 	IdxClients : INT;
 	ArUserDelete_0 : ArUserDelete;
 	ArUserCreate_0 : ArUserCreate;
+	IdxSkids_HR : INT;
+	IdxSkids_LR : INT;
 END_VAR

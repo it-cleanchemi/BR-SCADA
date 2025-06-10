@@ -24,8 +24,10 @@ TYPE
 		StateExportHistory : INT;
 		MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
 		HA_AlarmXCore_0 : HA_AlarmXCore;
-		Alarms_State : ARRAY[0..MAX_SKIDS]OF Alarms_Type;
-		Alarm_Set_Delay : ARRAY[0..MAX_SKIDS]OF TON;
+		Alarms_State_LR : ARRAY[0..MAX_SKIDS_LR]OF Alarms_Type;
+		Alarms_State_HR : ARRAY[0..MAX_SKIDS_HR]OF Alarms_Type;
+		Alarm_Set_Delay_HR : ARRAY[0..MAX_SKIDS_HR]OF TON;
+		Alarm_Set_Delay_LR : ARRAY[0..MAX_SKIDS_LR]OF TON;
 	END_STRUCT;
 	S_Alarms_Out_typ : 	STRUCT 
 		AlarmActive : BOOL;

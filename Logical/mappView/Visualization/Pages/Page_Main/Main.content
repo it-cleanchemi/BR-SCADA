@@ -4,7 +4,7 @@
     <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="20" left="830" width="160" zIndex="1" textAlign="center" />
     <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="59" left="0" width="1753" height="941" zIndex="2" style="default_Blank">
       <Widgets>
-        <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="-1" width="1753" height="940" zIndex="0" contentId="OverviewEx1" />
+        <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="-1" width="1753" height="940" zIndex="0" contentId="OverviewLR1" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="20" left="1280" width="340" zIndex="3" textAlign="center" />

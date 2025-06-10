@@ -1,14 +1,18 @@
 VAR
 	gServices : Services_typ;
 	SkidID : USINT;
-	gCmd : ARRAY[0..MAX_SKIDS] OF CMD_Type;
-	gModbus : ARRAY[0..MAX_SKIDS] OF Modbus_Type;
-	gSkid : ARRAY[0..MAX_SKIDS] OF Skid_type;
+	gCmd_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type;
+	gCmd_LR : ARRAY[0..MAX_SKIDS_LR] OF CMD_Type;
+	gModbus_HR : ARRAY[0..MAX_SKIDS_HR] OF Modbus_Type;
+	gModbus_LR : ARRAY[0..MAX_SKIDS_LR] OF Modbus_Type;
+	gSkid_LR : ARRAY[0..MAX_SKIDS_LR] OF Skid_type;
+	gSkid_HR : ARRAY[0..MAX_SKIDS_HR] OF Skid_type;
 	gVis : Vis_Type;
 END_VAR
 VAR RETAIN
 	gPar : Par_Type;
-	gUnit : ARRAY[0..MAX_SKIDS] OF UINT;
+	gUnit_HR : ARRAY[0..MAX_SKIDS_HR] OF UINT;
+	gUnit_LR : ARRAY[0..MAX_SKIDS_LR] OF UINT;
 	gRem : Rem_Type;
 END_VAR
 VAR

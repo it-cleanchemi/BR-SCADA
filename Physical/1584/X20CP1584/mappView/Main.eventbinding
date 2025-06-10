@@ -5,14 +5,14 @@
       <Source xsi:type="session.Event" refId="SelectedSkidIndx" event="ValueChanged" />
       <EventHandler>
         <Action>
-          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewEx1" widgetRefId="OnlineChart1">
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewLR1" widgetRefId="OnlineChart1">
             <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD101_CHART" />
           </Target>
         </Action>
       </EventHandler>
       <EventHandler>
         <Action>
-          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewEx1" widgetRefId="OnlineChart2">
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewLR1" widgetRefId="OnlineChart2">
             <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD102_CHART" />
           </Target>
         </Action>

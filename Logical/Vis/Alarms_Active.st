@@ -39,14 +39,24 @@ ACTION Alarms_Active:
 	
 	IF gVis.Alarms.Active.SelectedIndex <> gVis.Alarms.Active.SelectedIndex_Temp THEN
 	  
-		FOR IdxSkids := 0 TO MAX_SKIDS DO
-			IF gUnit[IdxSkids] = gVis.Alarms.Active.UIConnect.AlarmList.Code[gVis.Alarms.Active.SelectedIndex]  THEN
-				gVis.Alarms.Active.SelectedSkidIdx := IdxSkids;
+		FOR IdxSkids_HR := 0 TO MAX_SKIDS_HR DO
+			IF gUnit_HR[IdxSkids_HR] = gVis.Alarms_HR.Active.UIConnect.AlarmList.Code[gVis.Alarms_HR.Active.SelectedIndex]  THEN
+				gVis.Alarms_HR.Active.SelectedSkidIdx := IdxSkids_HR;
 				EXIT;
 			END_IF;
 		END_FOR;
-		
-		gVis.Alarms.Active.SelectedIndex_Temp := gVis.Alarms.Active.SelectedIndex;
+		gVis.Alarms_HR.Active.SelectedIndex_Temp := gVis.Alarms_HR.Active.SelectedIndex;
 	END_IF;
-
+	
+	IF gVis.Alarms_LR.Active.SelectedIndex <> gVis.Alarms_LR.Active.SelectedIndex_Temp THEN
+		FOR IdxSkids_LR := 0 TO MAX_SKIDS DO
+			IF gUnit_LR[IdxSkids_LR] = gVis.Alarms_LR.Active.UIConnect.AlarmList.Code[gVis.Alarms_LR.Active.SelectedIndex]  THEN
+				gVis.Alarms_LR.Active.SelectedSkidIdx := IdxSkids_LR;
+				EXIT;
+			END_IF;
+		END_FOR;
+		gVis.Alarms_LR.Active.SelectedIndex_Temp := gVis.Alarms_LR.Active.SelectedIndex;
+	END_IF;
+	
+	
 END_ACTION

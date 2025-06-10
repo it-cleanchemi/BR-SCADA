@@ -84,7 +84,8 @@ TYPE
 		Pumps : USINT;
 		Main : Vis_Main_Type;
 		Global : Vis_Global;
-		Alarms : Vis_Alarms_Type;
+		Alarms_HR : Vis_Alarms_Type;
+		Alarms_LR : Vis_Alarms_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -570,7 +571,7 @@ TYPE
 		TempSTRING : STRING[30];
 		Enable : BOOL;
 		Visable : BOOL;
-		FilterString : ARRAY[0..MAX_SKIDS]OF STRING[80];
+		FilterString : ARRAY[0..100]OF STRING[80];
 		SelectedSkidIdx : UINT;
 	END_STRUCT;
 	Vis_Alarms_History_typ : 	STRUCT 
@@ -590,13 +591,15 @@ TYPE
 		SkidAlarmName : STRING[80];
 	END_STRUCT;
 	Vis_Main_Out_Type : 	STRUCT 
-		IPAddressDataProv : ARRAY[0..MAX_SKIDS]OF WSTRING[80];
+		IPAddressDataProv_HR : ARRAY[0..MAX_SKIDS_HR]OF WSTRING[80];
+		IPAddressDataProv_LR : ARRAY[0..MAX_SKIDS_LR]OF WSTRING[80];
 		DialogOpen : BOOL;
-		SkidIPAddress : ARRAY[0..MAX_SKIDS]OF STRING[20];
+		SkidIPAddress_LR : ARRAY[0..MAX_SKIDS_LR]OF STRING[20];
+		SkidIPAddress_HR : ARRAY[0..MAX_SKIDS_HR]OF STRING[20];
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
 		SelectedSkidSessionVar : INT;
-		AckAllAlarms_Skid : ARRAY[0..MAX_SKIDS]OF BOOL;
+		AckAllAlarms_Skid : ARRAY[0..100]OF BOOL;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;
@@ -766,6 +769,7 @@ TYPE
 		NAOH_CONC : REAL; (*NaOh Concentration*)
 		USER_ID : UINT; (*Current Local User*)
 		USER_ACCESS : UINT; (*Current Local User Access Level*)
+		UNIT_TYPE : UINT; (*Unit Type ()*)
 		UNIT_ID_DOSE : UINT;
 	END_STRUCT;
 END_TYPE
