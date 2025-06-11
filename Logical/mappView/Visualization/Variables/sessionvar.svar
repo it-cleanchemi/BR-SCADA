@@ -2,7 +2,9 @@
 <VariablesSet id="svar_3" xmlns="http://www.br-automation.com/iat2015/session/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Variables>
    
-		<Variable name="SelectedSkidIndx" xsi:type="ANY_INT" value="0" />
+		<Variable name="SelectedSkid_HR_Indx" xsi:type="ANY_INT" value="0" />
+		<Variable name="SelectedSkid_LR_Indx" xsi:type="ANY_INT" value="0" />
+		<Variable name="SelectedSkidType" xsi:type="ANY_INT" value="0" />
 		<Variable name="LoginSuccess" xsi:type="BOOL" value="0" />
 		<Variable name="LogoutSuccess" xsi:type="BOOL" value="0" />
 		<Variable name="LoginRequest" xsi:type="BOOL" value="0" />

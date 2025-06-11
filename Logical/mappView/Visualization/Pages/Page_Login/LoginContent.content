@@ -8,5 +8,6 @@
     <Widget xsi:type="widgets.brease.Label" id="Label2" top="255" left="227" width="137" zIndex="5" text="Password:" textColor="rgba(255, 255, 255, 1)" />
     <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="98" left="200" width="360" height="301" zIndex="0" borderWidth="2px" cornerRadius="10px" lineColor="rgba(57, 109, 128, 1)" backColor="rgba(81, 150, 175, 0.4)" style="LoginBackground" />
     <Widget xsi:type="widgets.brease.Button" id="Button1" top="340" left="320" width="160" zIndex="6" text="Login" />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="800" left="1140" zIndex="7" pageId="Page_Main" text="NavigationButton1" />
   </Widgets>
 </Content>

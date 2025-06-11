@@ -1,8 +1,8 @@
 VAR
 	gServices : Services_typ;
 	SkidID : USINT;
-	gCmd_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type;
-	gCmd_LR : ARRAY[0..MAX_SKIDS_LR] OF CMD_Type;
+	gCMD_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type;
+	gCMD_LR : ARRAY[0..MAX_SKIDS_LR] OF CMD_Type;
 	gModbus_HR : ARRAY[0..MAX_SKIDS_HR] OF Modbus_Type;
 	gModbus_LR : ARRAY[0..MAX_SKIDS_LR] OF Modbus_Type;
 	gSkid_LR : ARRAY[0..MAX_SKIDS_LR] OF Skid_type;

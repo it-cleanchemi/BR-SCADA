@@ -1,13 +1,13 @@
 
 ACTION Modbus_Status_action: 
 	
-	ModbusTcpMaster[IdxSkids_LR]();
+	ModbusTcpMaster_LR[IdxSkids_LR]();
 			
 	// --------------------------------------------------------------------
 	// Reset last error information
 	// --------------------------------------------------------------------
 	IF(reset_error) THEN
-		brsmemset(ADR(ModbusTcpMaster[IdxSkids_LR].last_error), 0, 2);
+		brsmemset(ADR(ModbusTcpMaster_LR[IdxSkids_LR].last_error), 0, 2);
 		reset_error := 0;
 	END_IF
 		

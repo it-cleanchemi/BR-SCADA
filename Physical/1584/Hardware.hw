@@ -20,7 +20,7 @@
       <Parameter ID="SlaveDiagnostics" Value="1" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
-    <Parameter ID="VolatileGlobalPvSize" Value="655350" />
+    <Parameter ID="VolatileGlobalPvSize" Value="6553500" />
     <Parameter ID="SystemTick" Value="10000" />
     <Parameter ID="TaskClassIdleTime" Value="10000" />
     <Parameter ID="Cyclic1Duration" Value="50000" />

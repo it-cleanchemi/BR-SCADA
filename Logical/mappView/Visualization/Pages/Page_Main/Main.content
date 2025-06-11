@@ -1,24 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Main" height="1000" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Widgets>
-    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="20" left="830" width="160" zIndex="1" textAlign="center" />
-    <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="59" left="0" width="1753" height="941" zIndex="2" style="default_Blank">
-      <Widgets>
-        <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="-1" width="1753" height="940" zIndex="0" contentId="OverviewLR1" />
-      </Widgets>
-    </Widget>
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="20" left="1280" width="340" zIndex="3" textAlign="center" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="20" left="1220" width="240" zIndex="0" value="Log Tunnel IP:" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="745" width="80" zIndex="4" value="Unit ID:" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="20" left="0" width="240" zIndex="5" value="PLC Program Rev:" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="20" left="1480" width="240" zIndex="6" value="Local Operator User ID:" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID" top="20" left="1620" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="20" left="360" width="240" zIndex="8" value="HMI Program Rev:" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_A" top="20" left="515" zIndex="9" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_B" top="20" left="560" zIndex="10" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_A" top="20" left="150" zIndex="11" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_B" top="20" left="200" zIndex="12" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
-    <Widget xsi:type="widgets.brease.Button" id="SkidNext" top="20" left="1015" width="40" zIndex="13" image="Media/SymbolLib/Arrow/ArrowRight.svg" imageColor="rgba(245, 245, 245, 1)" tabIndex="1" />
-    <Widget xsi:type="widgets.brease.Button" id="SkidBack" top="20" left="700" width="40" zIndex="14" image="Media/SymbolLib/Arrow/ArrowLeft.svg" imageColor="rgba(245, 245, 245, 1)" backColor="rgba(219, 219, 219, 1)" tabIndex="1" />
-  </Widgets>
+	<Widgets>
+		<Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox_LR" top="20" left="830" width="160" zIndex="1" textAlign="center" />
+		<Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="59" left="0" width="1753" height="941" zIndex="2" style="default_Blank">
+			<Widgets>
+				<Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="-1" width="1753" height="940" zIndex="0" contentId="OverviewLR1" />
+			</Widgets>
+		</Widget>
+		<Widget xsi:type="widgets.brease.TextOutput" id="IPAddress_LR" top="20" left="1220" width="340" zIndex="3" textAlign="center" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="IPAddress_HR" top="20" left="1220" width="340" zIndex="16" textAlign="center" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="20" left="1220" width="240" zIndex="0" value="Log Tunnel IP:" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="745" width="80" zIndex="4" value="Unit ID:" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="20" left="0" width="240" zIndex="5" value="PLC Program Rev:" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="20" left="1480" width="240" zIndex="6" value="Local Operator User ID:" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID" top="20" left="1620" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="20" left="360" width="240" zIndex="8" value="HMI Program Rev:" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_A_LR" top="20" left="515" zIndex="9" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_B_LR" top="20" left="560" zIndex="10" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_A_LR" top="20" left="150" zIndex="11" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_B_LR" top="20" left="200" zIndex="12" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />	
+		<Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_A_HR" top="20" left="515" zIndex="20" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_B_HR" top="20" left="560" zIndex="17" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_A_HR" top="20" left="150" zIndex="18" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_B_HR" top="20" left="200" zIndex="19" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+		<Widget xsi:type="widgets.brease.Button" id="SkidNext" top="20" left="1015" width="40" zIndex="13" image="Media/SymbolLib/Arrow/ArrowRight.svg" imageColor="rgba(245, 245, 245, 1)" tabIndex="1" />
+		<Widget xsi:type="widgets.brease.Button" id="SkidBack" top="20" left="700" width="40" zIndex="14" image="Media/SymbolLib/Arrow/ArrowLeft.svg" imageColor="rgba(245, 245, 245, 1)" backColor="rgba(219, 219, 219, 1)" tabIndex="1" />
+		<Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox_HR" top="20" left="840" width="160" zIndex="15" textAlign="center" />
+	</Widgets>
 </Content>

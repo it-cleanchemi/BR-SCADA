@@ -3909,9 +3909,9 @@ ACTION Alarms_action:
 
 	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
 	
-	//Set Unit Number and Add Alarms
+	//Set Unit Number and Add Alarms_HR
 	IF (gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit_HR[IdxSkids_HR] <> gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID)) 
-		OR (gUnit_HR[IdxSkids_HR] <> 0 AND gVis.Alarms.Active.FilterString[IdxSkids_HR] = '') THEN
+		OR (gUnit_HR[IdxSkids_HR] <> 0 AND gVis.Alarms_HR.Active.FilterString[IdxSkids_HR] = '') THEN
 		
 		gUnit_HR[IdxSkids_HR] := gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID;
 		
@@ -3922,8 +3922,8 @@ ACTION Alarms_action:
 		
 		SkidNumberINT := UINT_TO_STRING(gUnit_HR[IdxSkids_HR]);
 		
-		gVis.Alarms.Active.FilterString[IdxSkids_HR] := CONCAT('[{"value":',SkidNumberINT);
-		gVis.Alarms.Active.FilterString[IdxSkids_HR] :=  CONCAT(gVis.Alarms.Active.FilterString[IdxSkids_HR] ,',"conditionType":"==","columnPosition":1}]');
+		gVis.Alarms_HR.Active.FilterString[IdxSkids_HR] := CONCAT('[{"value":',SkidNumberINT);
+		gVis.Alarms_HR.Active.FilterString[IdxSkids_HR] :=  CONCAT(gVis.Alarms_HR.Active.FilterString[IdxSkids_HR] ,',"conditionType":"==","columnPosition":1}]');
 
 	END_IF;
 	
@@ -3957,7 +3957,7 @@ ACTION Alarms_action:
 			IF gServices.Alarms.In.ResetAlarms OR gVis.Global.ErrorReset THEN
 				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'ACKNOWLEDGE ALL',FALSE);
 				gServices.Alarms.In.ResetAlarms 									:= FALSE;
-				gVis.Alarms.Active.UIConnect.AcknowledgeAll 							:= TRUE;
+				gVis.Alarms_HR.Active.UIConnect.AcknowledgeAll 							:= TRUE;
 				gServices.Alarms.Internal.CTON_ResetDelay(IN := FALSE);
 				gServices.Alarms.Internal.StateResetAlarms 						:= 10;
 			END_IF;
@@ -3973,7 +3973,7 @@ ACTION Alarms_action:
 	END_CASE;
 	
 	
-	//Create Alarms
+	//Create Alarms_HR
 	CASE gSkid_HR[IdxSkids_HR].i OF 
 		0: 
 			//IDLE

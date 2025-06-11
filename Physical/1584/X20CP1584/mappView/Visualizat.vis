@@ -1,107 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
-  <StartPage pageRefId="Page_Login" />
-  <Pages>
-    <Page refId="Page_Main" />
-    <Page refId="Page_Process" />
-    <Page refId="Page_Services" />
-    <Page refId="Page_Settings" />
-    <Page refId="Page_Diagnostics" />
-    <Page refId="Page_Alarms" />
-    <Page refId="Page_Login" />
-  </Pages>
-  <Navigations />
-  <BindingsSets>
-    <BindingsSet refId="P201_Status_Content_binding" />
-    <BindingsSet refId="P202_Status_Content_binding" />
-    <BindingsSet refId="P203_Status_Content_binding" />
-    <BindingsSet refId="PM_Status_Content_binding" />
-    <BindingsSet refId="PM_Settings_Content_binding" />
-    <BindingsSet refId="Alarms_Active_binding" />
-    <BindingsSet refId="Alarms_History_binding" />
-    <BindingsSet refId="Login_Content_binding" />
-    <BindingsSet refId="OverviewLR1_binding" />
-    <BindingsSet refId="Main_binding" />
-  </BindingsSets>
-  <EventBindingsSets>
-    <EventBindingsSet refId="Diagnostics_eventbinding" />
-    <EventBindingsSet refId="Main_eventbinding" />
-    <EventBindingsSet refId="P201_Status_Content_eventbinding" />
-    <EventBindingsSet refId="P202_Status_Content_eventbinding" />
-    <EventBindingsSet refId="P203_Status_Content_eventbinding" />
-    <EventBindingsSet refId="PM_Status_Content_eventbinding" />
-    <EventBindingsSet refId="PM_Settings_Content_eventbinding" />
-    <EventBindingsSet refId="Alarms_Active_eventbinding" />
-    <EventBindingsSet refId="Alarms_eventbinding" />
-    <EventBindingsSet refId="Login_Content_eventbinding" />
-    <EventBindingsSet refId="OverviewLR1_eventbinding" />
-    <EventBindingsSet refId="Navigation_eventbinding" />
-  </EventBindingsSets>
-  <Dialogs>
-    <Dialog refId="P201_Status_Popup" />
-    <Dialog refId="P202_Status_Popup" />
-    <Dialog refId="P203_Status_Popup" />
-    <Dialog refId="PM_Status_Popup" />
-    <Dialog refId="PM_Settings_Popup" />
-  </Dialogs>
-  <Contents>
-    <Content refId="Header" />
-    <Content refId="Footer" />
-    <Content refId="Navigation" />
-    <Content refId="Main" />
-    <Content refId="Process" />
-    <Content refId="Services" />
-    <Content refId="Services_DirMan" />
-    <Content refId="Services_Help" />
-    <Content refId="Settings" />
-    <Content refId="Settings_IO" />
-    <Content refId="Settings_Timers" />
-    <Content refId="Settings_System" />
-    <Content refId="Diagnostics" />
-    <Content refId="Diagnostics_ConvInIO" />
-    <Content refId="Diagnostics_WheelIO" />
-    <Content refId="Diagnostics_SDM" />
-    <Content refId="Alarms" />
-    <Content refId="Alarms_Active" />
-    <Content refId="OverviewLR1" />
-    <Content refId="OverviewEx2" />
-    <Content refId="Alarms_History" />
-    <Content refId="P201_Status_Content" />
-    <Content refId="P202_Status_Content" />
-    <Content refId="P203_Status_Content" />
-    <Content refId="PM_Status_Content" />
-    <Content refId="PM_Settings_Content" />
-    <Content refId="Login_Content" />
-    <Content refId="OverviewHR1" />
-  </Contents>
-  <SnippetsSets>
-    <SnippetsSet refId="snippet_0" />
-  </SnippetsSets>
-  <VariablesSets>
-    <VariablesSet refId="ColorVars" />
-    <VariablesSet refId="svar_3" />
-    <VariablesSet refId="svar_2" />
-    <VariablesSet refId="svar_1" />
-  </VariablesSets>
-  <ExpressionsSets />
-  <StartTheme themeRefId="HartfielTheme" />
-  <Themes>
-    <Theme refId="HartfielTheme" />
-  </Themes>
-  <Configurations>
-    <Configuration key="activityCount" value="false" />
-    <Configuration key="zoom" value="true" />
-    <Configuration key="activityCount" value="false" />
-    <Configuration key="bootLogo" value="Media\Images\Logo.svg" />
-    <Configuration key="bootColor" value="#111111" />
-    <Configuration key="bootProgressBar" value="true" />
-    <Gestures>
-      <!--<SystemGesture1 touchPoints="2" />
+	<StartPage pageRefId="Page_Login" />
+	<Pages>
+		<Page refId="Page_Main" />
+		<Page refId="Page_Process" />
+		<Page refId="Page_Services" />
+		<Page refId="Page_Settings" />
+		<Page refId="Page_Diagnostics" />
+		<Page refId="Page_Alarms" />
+		<Page refId="Page_Login" />
+	</Pages>
+	<Navigations />
+	<BindingsSets>
+		<BindingsSet refId="P201_Status_Content_binding" />
+		<BindingsSet refId="P202_Status_Content_binding" />
+		<BindingsSet refId="P203_Status_Content_binding" />
+		<BindingsSet refId="PM_Status_Content_binding" />
+		<BindingsSet refId="PM_Settings_Content_binding" />
+		<BindingsSet refId="Alarms_Active_binding" />
+		<BindingsSet refId="Alarms_History_binding" />
+		<BindingsSet refId="Login_Content_binding" />
+		<BindingsSet refId="OverviewLR1_binding" />
+		<BindingsSet refId="Main_LR_binding" />
+		<BindingsSet refId="OverviewHR1_binding" />
+		<BindingsSet refId="binding_0" />
+		<BindingsSet refId="Main_HR_binding" />
+	</BindingsSets>
+	<EventBindingsSets>
+		<EventBindingsSet refId="Login_Content_eventbinding" />
+		<EventBindingsSet refId="Diagnostics_eventbinding" />
+		<EventBindingsSet refId="Main_LR_eventbinding" />
+		<EventBindingsSet refId="P201_Status_Content_eventbinding" />
+		<EventBindingsSet refId="P202_Status_Content_eventbinding" />
+		<EventBindingsSet refId="P203_Status_Content_eventbinding" />
+		<EventBindingsSet refId="PM_Status_Content_eventbinding" />
+		<EventBindingsSet refId="PM_Settings_Content_eventbinding" />
+		<!--<EventBindingsSet refId="Alarms_Active_eventbinding" />-->
+		<EventBindingsSet refId="Alarms_eventbinding" />
+		<EventBindingsSet refId="OverviewLR1_eventbinding" />
+		<EventBindingsSet refId="Navigation_eventbinding" />
+		<EventBindingsSet refId="Main_HR_eventbinding" />
+	</EventBindingsSets>
+	<Dialogs>
+		<Dialog refId="P201_Status_Popup" />
+		<Dialog refId="P202_Status_Popup" />
+		<Dialog refId="P203_Status_Popup" />
+		<Dialog refId="PM_Status_Popup" />
+		<Dialog refId="PM_Settings_Popup" />
+	</Dialogs>
+	<Contents>
+		<Content refId="Header" />
+		<Content refId="Footer" />
+		<Content refId="Navigation" />
+		<Content refId="Main" />
+		<Content refId="Process" />
+		<Content refId="Services" />
+		<Content refId="Services_DirMan" />
+		<Content refId="Services_Help" />
+		<Content refId="Settings" />
+		<Content refId="Settings_IO" />
+		<Content refId="Settings_Timers" />
+		<Content refId="Settings_System" />
+		<Content refId="Diagnostics" />
+		<Content refId="Diagnostics_ConvInIO" />
+		<Content refId="Diagnostics_WheelIO" />
+		<Content refId="Diagnostics_SDM" />
+		<Content refId="Alarms" />
+		<Content refId="Alarms_Active" />
+		<Content refId="OverviewLR1" />
+		<Content refId="OverviewEx2" />
+		<Content refId="Alarms_History" />
+		<Content refId="P201_Status_Content" />
+		<Content refId="P202_Status_Content" />
+		<Content refId="P203_Status_Content" />
+		<Content refId="PM_Status_Content" />
+		<Content refId="PM_Settings_Content" />
+		<Content refId="Login_Content" />
+		<Content refId="OverviewHR1" />
+	</Contents>
+	<SnippetsSets>
+		<SnippetsSet refId="snippet_0" />
+	</SnippetsSets>
+	<VariablesSets>
+		<VariablesSet refId="ColorVars" />
+		<VariablesSet refId="svar_3" />
+		<VariablesSet refId="svar_2" />
+		<VariablesSet refId="svar_1" />
+	</VariablesSets>
+	<ExpressionsSets />
+	<StartTheme themeRefId="HartfielTheme" />
+	<Themes>
+		<Theme refId="HartfielTheme" />
+	</Themes>
+	<Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="zoom" value="true" />
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="bootLogo" value="Media\Images\Logo.svg" />
+		<Configuration key="bootColor" value="#111111" />
+		<Configuration key="bootProgressBar" value="true" />
+		<Gestures>
+			<!--<SystemGesture1 touchPoints="2" />
 			<SystemGesture2 touchPoints="2" />
 			<SystemGesture3 touchPoints="2" />-->
-    </Gestures>
-    <VirtualKeyboards>
-      <!--<InputProcessing onKeyDown="true" />-->
-    </VirtualKeyboards>
-  </Configurations>
+		</Gestures>
+		<VirtualKeyboards>
+			<!--<InputProcessing onKeyDown="true" />-->
+		</VirtualKeyboards>
+	</Configurations>
 </vdef:Visualization>
