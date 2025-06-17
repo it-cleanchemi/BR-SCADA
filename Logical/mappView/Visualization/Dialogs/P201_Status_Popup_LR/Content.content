@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="P201_Status_Content" height="360" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="P201_Status_Content_LR" height="360" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
     <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="130" width="260" zIndex="0" text="P201 Mode Selection" textAlign="center" fontSize="25px" underline="true" />
     <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="60" left="100" width="320" height="40" zIndex="1" dataProvider="[{'value':'0','text':'OFF'},{'value':'1','text':'FM 301'},{'value':'2','text':'FM 302'},{'value':'3','text':'FM 301+302'},{'value':'4','text':'FM 303'},{'value':'5','text':'FM 301+303'},{'value':'6','text':'FM 302+303'},{'value':'7','text':'FM 301+302+303'},{'value':'8','text':'MANUAL'}]" listWidth="200" selectedValue="0" textAlign="center" />

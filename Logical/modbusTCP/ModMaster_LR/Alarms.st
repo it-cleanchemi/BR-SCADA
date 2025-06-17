@@ -3911,7 +3911,7 @@ ACTION Alarms_action:
 	
 	//Set Unit Number and Add Alarms
 	IF (gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit_LR[IdxSkids_LR] <> gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID)) 
-		OR (gUnit_LR[IdxSkids_LR] <> 0 AND gVis.Alarms_LR.Active.FilterString[IdxSkids_LR] = '') THEN
+		OR (gUnit_LR[IdxSkids_LR] <> 0 AND gVis.Alarms.Active.FilterString_LR[IdxSkids_LR] = '') THEN
 		
 		gUnit_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID;
 		
@@ -3922,8 +3922,8 @@ ACTION Alarms_action:
 		
 		SkidNumberINT := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
 		
-		gVis.Alarms_LR.Active.FilterString[IdxSkids_LR] := CONCAT('[{"value":',SkidNumberINT);
-		gVis.Alarms_LR.Active.FilterString[IdxSkids_LR] :=  CONCAT(gVis.Alarms_LR.Active.FilterString[IdxSkids_LR] ,',"conditionType":"==","columnPosition":1}]');
+		gVis.Alarms.Active.FilterString_LR[IdxSkids_LR] := CONCAT('[{"value":',SkidNumberINT);
+		gVis.Alarms.Active.FilterString_LR[IdxSkids_LR] :=  CONCAT(gVis.Alarms.Active.FilterString_LR[IdxSkids_LR] ,',"conditionType":"==","columnPosition":1}]');
 
 	END_IF;
 	
@@ -3957,7 +3957,7 @@ ACTION Alarms_action:
 			IF gServices.Alarms.In.ResetAlarms OR gVis.Global.ErrorReset THEN
 				HA_AlarmX_Helper(gAlarmXCore,'',HA_ALARMX_ACTION_LOG_ONLY,'ACKNOWLEDGE ALL',FALSE);
 				gServices.Alarms.In.ResetAlarms 									:= FALSE;
-				gVis.Alarms_LR.Active.UIConnect.AcknowledgeAll 							:= TRUE;
+				gVis.Alarms.Active.UIConnect.AcknowledgeAll 							:= TRUE;
 				gServices.Alarms.Internal.CTON_ResetDelay(IN := FALSE);
 				gServices.Alarms.Internal.StateResetAlarms 						:= 10;
 			END_IF;

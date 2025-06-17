@@ -56,6 +56,12 @@
             <Variable Name="AddData[3]" />
           </Variable>
         </Variable>
+        <Variable Name="gSkid_LR" RecursiveEnable="2" />
+        <Variable Name="gSkid_HR" RecursiveEnable="2" />
+        <Variable Name="gCMD_HR" RecursiveEnable="2" />
+        <Variable Name="gCMD_LR" RecursiveEnable="2" />
+        <Variable Name="gModbus_HR" RecursiveEnable="2" />
+        <Variable Name="gModbus_LR" RecursiveEnable="2" />
       </GlobalVariables>
     </Module>
   </DefaultView>

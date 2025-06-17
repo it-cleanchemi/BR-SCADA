@@ -11,7 +11,7 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="Alarms_Active.Alarms_Active_PushButton_GoToSkid.Click">
+		<!--<EventBinding id="Alarms_Active.Alarms_Active_PushButton_GoToSkid.Click">
 			<Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_GoToSkid" event="Click" />
 			<EventHandler>
 				<Action>
@@ -36,6 +36,6 @@
 					</Result>
 				</Action>
 			</EventHandler>
-		</EventBinding>
+		</EventBinding>-->
 	</Bindings>
 </EventBindingSet>

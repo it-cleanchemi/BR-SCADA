@@ -6,7 +6,7 @@
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P201_Status_Popup" horizontalPos="1280px" verticalPos="140px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P201_Status_Popup_LR" horizontalPos="1280px" verticalPos="140px" />
 					</Target>
 				</Action>
 			</EventHandler>
@@ -16,7 +16,7 @@
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Status_Popup" horizontalPos="1280px" verticalPos="380px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Status_Popup_LR" horizontalPos="1280px" verticalPos="380px" />
 					</Target>
 				</Action>
 			</EventHandler>
@@ -26,7 +26,7 @@
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Status_Popup" horizontalPos="1280px" verticalPos="620px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Status_Popup_LR" horizontalPos="1280px" verticalPos="620px" />
 					</Target>
 				</Action>
 			</EventHandler>
@@ -36,7 +36,7 @@
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup" horizontalPos="260px" verticalPos="20px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup_LR" horizontalPos="260px" verticalPos="20px" />
 					</Target>
 				</Action>
 			</EventHandler>
@@ -46,7 +46,7 @@
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Settings_Popup" horizontalPos="600px" verticalPos="200px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Settings_Popup_LR" horizontalPos="600px" verticalPos="200px" />
 					</Target>
 				</Action>
 			</EventHandler>

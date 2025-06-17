@@ -17,10 +17,10 @@ PROGRAM _CYCLIC
 		
 		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID = 0 THEN
 			gVis.Main.Internal.IP_WSTRING_Temp := STRING_TO_WSTRING(SLAVE_IP_ADDRESSES_LR[IdxSkids_LR]);
-			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_HR[IdxSkids_LR]));
+			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_LR[IdxSkids_LR]));
 		ELSE
 			gVis.Main.Internal.IP_WSTRING_Temp := UINT_TO_WSTRING(gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID );
-			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_HR[IdxSkids_LR]));	
+			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_LR[IdxSkids_LR]));	
 		END_IF;
 		
 	END_FOR

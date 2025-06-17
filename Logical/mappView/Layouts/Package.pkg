@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File">LayoutMain.layout</Object>
     <Object Type="File">Landscape_Login.layout</Object>
+    <Object Type="File">LayoutMain1.layout</Object>
   </Objects>
 </Package>

@@ -84,8 +84,7 @@ TYPE
 		Pumps : USINT;
 		Main : Vis_Main_Type;
 		Global : Vis_Global;
-		Alarms_HR : Vis_Alarms_Type;
-		Alarms_LR : Vis_Alarms_Type;
+		Alarms : Vis_Alarms_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -571,7 +570,8 @@ TYPE
 		TempSTRING : STRING[30];
 		Enable : BOOL;
 		Visable : BOOL;
-		FilterString : ARRAY[0..100]OF STRING[80];
+		FilterString_HR : ARRAY[0..100]OF STRING[80];
+		FilterString_LR : ARRAY[0..100]OF STRING[80];
 		SelectedSkidIdx : UINT;
 	END_STRUCT;
 	Vis_Alarms_History_typ : 	STRUCT 
@@ -666,6 +666,8 @@ TYPE
 		P201_MODE : BOOL;
 		P202_MODE : BOOL;
 		P203_MODE : BOOL;
+		HR_TYPE : BOOL;
+		LR_TYPE : BOOL;
 	END_STRUCT;
 END_TYPE
 

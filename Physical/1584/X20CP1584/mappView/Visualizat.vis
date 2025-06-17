@@ -12,11 +12,6 @@
 	</Pages>
 	<Navigations />
 	<BindingsSets>
-		<BindingsSet refId="P201_Status_Content_binding" />
-		<BindingsSet refId="P202_Status_Content_binding" />
-		<BindingsSet refId="P203_Status_Content_binding" />
-		<BindingsSet refId="PM_Status_Content_binding" />
-		<BindingsSet refId="PM_Settings_Content_binding" />
 		<BindingsSet refId="Alarms_Active_binding" />
 		<BindingsSet refId="Alarms_History_binding" />
 		<BindingsSet refId="Login_Content_binding" />
@@ -25,28 +20,32 @@
 		<BindingsSet refId="OverviewHR1_binding" />
 		<BindingsSet refId="binding_0" />
 		<BindingsSet refId="Main_HR_binding" />
+		<BindingsSet refId="Main_binding" />
+		
 	</BindingsSets>
 	<EventBindingsSets>
 		<EventBindingsSet refId="Login_Content_eventbinding" />
 		<EventBindingsSet refId="Diagnostics_eventbinding" />
 		<EventBindingsSet refId="Main_LR_eventbinding" />
-		<EventBindingsSet refId="P201_Status_Content_eventbinding" />
-		<EventBindingsSet refId="P202_Status_Content_eventbinding" />
-		<EventBindingsSet refId="P203_Status_Content_eventbinding" />
-		<EventBindingsSet refId="PM_Status_Content_eventbinding" />
-		<EventBindingsSet refId="PM_Settings_Content_eventbinding" />
-		<!--<EventBindingsSet refId="Alarms_Active_eventbinding" />-->
+		<EventBindingsSet refId="P201_Status_Content_LR_eventbinding" />
+		<EventBindingsSet refId="P202_Status_Content_LR_eventbinding" />
+		<EventBindingsSet refId="P203_Status_Content_LR_eventbinding" />
+		<EventBindingsSet refId="PM_Status_Content_LR_eventbinding" />
+		<EventBindingsSet refId="PM_Settings_Content_LR_eventbinding" />
+		<EventBindingsSet refId="Alarms_Active_eventbinding" />
 		<EventBindingsSet refId="Alarms_eventbinding" />
 		<EventBindingsSet refId="OverviewLR1_eventbinding" />
 		<EventBindingsSet refId="Navigation_eventbinding" />
 		<EventBindingsSet refId="Main_HR_eventbinding" />
+		<EventBindingsSet refId="Main_eventbinding" />
+		
 	</EventBindingsSets>
 	<Dialogs>
-		<Dialog refId="P201_Status_Popup" />
-		<Dialog refId="P202_Status_Popup" />
-		<Dialog refId="P203_Status_Popup" />
-		<Dialog refId="PM_Status_Popup" />
-		<Dialog refId="PM_Settings_Popup" />
+		<Dialog refId="P201_Status_Popup_LR" />
+		<Dialog refId="P202_Status_Popup_LR" />
+		<Dialog refId="P203_Status_Popup_LR" />
+		<Dialog refId="PM_Status_Popup_LR" />
+		<Dialog refId="PM_Settings_Popup_LR" />
 	</Dialogs>
 	<Contents>
 		<Content refId="Header" />
@@ -70,11 +69,11 @@
 		<Content refId="OverviewLR1" />
 		<Content refId="OverviewEx2" />
 		<Content refId="Alarms_History" />
-		<Content refId="P201_Status_Content" />
-		<Content refId="P202_Status_Content" />
-		<Content refId="P203_Status_Content" />
-		<Content refId="PM_Status_Content" />
-		<Content refId="PM_Settings_Content" />
+		<Content refId="P201_Status_Content_LR" />
+		<Content refId="P202_Status_Content_LR" />
+		<Content refId="P203_Status_Content_LR" />
+		<Content refId="PM_Status_Content_LR" />
+		<Content refId="PM_Settings_Content_LR" />
 		<Content refId="Login_Content" />
 		<Content refId="OverviewHR1" />
 	</Contents>
