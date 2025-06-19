@@ -154,6 +154,26 @@
 			<Target xsi:type="session" refId="::SYSTEM:clientInfo.isValid" attribute="value"/>
 		</Binding>
 		
+		<Binding mode="oneWayToSource">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LoginBypass" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LoginBypass" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LoginBypass" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LoginBypass" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LoginBypass" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LoginBypass" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LoginBypass" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LoginBypass" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LoginBypass" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].IsValid" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].IsValid" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LoginBypass" attribute="value"/>
+		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />

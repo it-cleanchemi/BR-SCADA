@@ -39,5 +39,26 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Login_Content.LoginButton1.LoginSuccess">
+      <Source xsi:type="widgets.brease.LoginButton.Event" contentRefId="Login_Content" widgetRefId="LoginButton1" event="LoginSuccess" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="LoginBypass">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

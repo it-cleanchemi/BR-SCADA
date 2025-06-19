@@ -5,6 +5,7 @@
     <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="0" left="0" width="1753" height="1000" zIndex="0" style="default_Blank">
       <Widgets>
         <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="0" left="0" width="1753" height="1000" zIndex="0" contentId="OverviewLR1" />
+        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="19" left="579" width="101" zIndex="1" value="Unit Type:" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="910" width="80" zIndex="2" value="Unit ID:" />

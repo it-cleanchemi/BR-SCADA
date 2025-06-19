@@ -8,6 +8,6 @@
     <Widget xsi:type="widgets.brease.Label" id="Label2" top="255" left="227" width="137" zIndex="5" text="Password:" textColor="rgba(255, 255, 255, 1)" />
     <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="98" left="200" width="360" height="301" zIndex="0" borderWidth="2px" cornerRadius="10px" lineColor="rgba(57, 109, 128, 1)" backColor="rgba(81, 150, 175, 0.4)" style="LoginBackground" />
     <Widget xsi:type="widgets.brease.Button" id="Button1" top="340" left="320" width="160" zIndex="6" text="Login" />
-    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="800" left="1140" zIndex="7" pageId="Page_Main" text="NavigationButton1" />
+    <Widget xsi:type="widgets.brease.LoginButton" id="LoginButton1" top="520" left="1100" width="120" height="80" zIndex="7" useSVGStyling="false" imageColor="rgba(255, 255, 255, 0)" mouseDownImageColor="rgba(255, 255, 255, 0)" disabledImageColor="rgba(255, 255, 255, 0)" borderStyle="solid" borderWidth="5px" cornerRadius="0px" backColor="rgba(255, 255, 255, 0)" disabledBackColor="rgba(255, 255, 255, 0)" backGroundGradient="none" mouseDownBackGroundGradient="none" borderColor="rgba(255, 255, 255, 1)" textColor="rgba(255, 255, 255, 0)" disabledTextColor="rgba(255, 255, 255, 0)" mouseDownBorderColor="rgba(255, 255, 255, 0)" mouseDownBackColor="rgba(255, 255, 255, 0)" mouseDownTextColor="rgba(255, 255, 255, 0)" shadow="4px 4px 14px rgba(255, 255, 255, 0)" mouseDownShadow="0px 2px 8px rgba(255, 255, 255, 0)" />
   </Widgets>
 </Content>

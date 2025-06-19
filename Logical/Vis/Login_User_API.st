@@ -19,27 +19,26 @@ ACTION Login_User_API:
 			ArUserDelete_0.Execute := FALSE;
 			
 			FOR IdxClients := 0 TO MAX_CLIENTS DO
-				
-				IF NOT gVis.Global.ClientInfo[IdxClients].IsValid AND 
-					(gVis.Global.ClientInfo[IdxClients].UserID <> '' AND gVis.Global.ClientInfo[IdxClients].UserID <> 'Anonymous' AND gVis.Global.ClientInfo[IdxClients].UserID <> 'View') THEN
-					CLIENT_LOGIN_STATE := DELETE_USER_C;
-					EXIT;
-				ELSIF gVis.Global.ClientInfo[IdxClients].LogoutRequest THEN
+				IF gVis.Global.ClientInfo[IdxClients].LogoutRequest THEN
 					gVis.Global.ClientInfo[IdxClients].LogoutRequest := FALSE;
-					IF gVis.Global.ClientInfo[IdxClients].UserID = 'View' OR gVis.Global.ClientInfo[IdxClients].UserID = 'Anonymous' THEN
+					IF gVis.Global.ClientInfo[IdxClients].LoginBypass OR gVis.Global.ClientInfo[IdxClients].UserID = 'Anonymous' THEN
 						CLIENT_LOGIN_STATE := DELETE_USER_SUCCESS;
 					ELSE
-						CLIENT_LOGIN_STATE := DELETE_USER_C;
+						//CLIENT_LOGIN_STATE := DELETE_USER_C;
+						CLIENT_LOGIN_STATE;
 					END_IF;
+					EXIT;
+				ELSIF NOT gVis.Global.ClientInfo[IdxClients].IsValid AND gVis.Global.ClientInfo[IdxClients].UserID <> '' THEN
+					IF gVis.Global.ClientInfo[IdxClients].LoginBypass AND  gVis.Global.ClientInfo[IdxClients].UserID = 'Anonymous' THEN
+						gVis.Global.ClientInfo[IdxClients].LoginBypass := FALSE;
+					ELSIF gVis.Global.ClientInfo[IdxClients].UserID <> 'Anonymous' AND NOT gVis.Global.ClientInfo[IdxClients].LoginBypass AND NOT gVis.Global.ClientInfo[IdxClients].LogoutRequest THEN
+						//CLIENT_LOGIN_STATE := DELETE_USER_C;
+						CLIENT_LOGIN_STATE;
+					END_IF
 					EXIT;
 				ELSIF gVis.Global.ClientInfo[IdxClients].LoginRequest THEN
 					gVis.Global.ClientInfo[IdxClients].LoginRequest := FALSE;
-					
-					IF gVis.Global.ClientInfo[IdxClients].User = 'View' THEN
-						CLIENT_LOGIN_STATE := LOGIN_SUCCESS;
-					ELSE
-						CLIENT_LOGIN_STATE := LOGIN_USER_C;
-					END_IF;
+					CLIENT_LOGIN_STATE := LOGIN_USER_C;
 					EXIT;
 				END_IF;
 			END_FOR;

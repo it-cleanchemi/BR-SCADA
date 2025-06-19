@@ -553,6 +553,7 @@ TYPE
 		SelectedSkidIdx : USINT;
 		UserID : STRING[80];
 		IsValid : BOOL;
+		LoginBypass : BOOL;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;

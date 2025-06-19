@@ -18,7 +18,7 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="Main.SkidNext.Click">
+    <EventBinding id="Main.SkidNext.Click2">
       <Source xsi:type="widgets.brease.Button.Event" contentRefId="Main" widgetRefId="SkidNext" event="Click" />
       <EventHandler>
         <Action>
@@ -37,7 +37,7 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="Main.SkidBack.Click">
+    <EventBinding id="Main.SkidBack.Click2">
       <Source xsi:type="widgets.brease.Button.Event" contentRefId="Main" widgetRefId="SkidBack" event="Click" />
       <EventHandler>
         <Action>
