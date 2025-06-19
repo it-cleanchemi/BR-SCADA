@@ -86,5 +86,7 @@
     <Object Type="File">Solenoid_Off3side.png</Object>
     <Object Type="File">Solenoid_On3side.png</Object>
     <Object Type="File">Snoop.png</Object>
+    <Object Type="File">P3.png</Object>
+    <Object Type="File">P3G.png</Object>
   </Objects>
 </Package>
