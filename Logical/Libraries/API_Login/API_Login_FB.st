@@ -17,6 +17,7 @@ FUNCTION_BLOCK API_Login_FB
 			HA_JSON_Parse.Enable := FALSE;
 			ArUserSetPassword.Execute := FALSE;
 			ArUserCreate.Execute := FALSE;
+			ErrorInfo := '';
 			
 			Done := FALSE;
 			Error := FALSE;
@@ -41,8 +42,10 @@ FUNCTION_BLOCK API_Login_FB
 				LoginState := PARSE_AUTH_JSON_C;
 			ELSIF  POST_Login.Status = 0 AND POST_Login.ResponseStatus = '401 Unauthorized' THEN
 				LoginState := LOGIN_API_ERROR;
-			//ELSIF POST_Login.Status = 0 AND POST_Login.ResponseStatus = '400 Unauthorized' THEN
-				
+				ErrorInfo := POST_Login.ResponseStatus;
+			ELSIF POST_Login.Status = 0 AND POST_Login.ResponseStatus = '400 Bad Request' THEN
+				LoginState := LOGIN_API_ERROR;
+				ErrorInfo := POST_Login.ResponseStatus;
 			END_IF;
 			
 		PARSE_AUTH_JSON_C:

@@ -24,17 +24,14 @@ ACTION Login_User_API:
 					IF gVis.Global.ClientInfo[IdxClients].LoginBypass OR gVis.Global.ClientInfo[IdxClients].UserID = 'Anonymous' THEN
 						CLIENT_LOGIN_STATE := DELETE_USER_SUCCESS;
 					ELSE
-						//CLIENT_LOGIN_STATE := DELETE_USER_C;
-						CLIENT_LOGIN_STATE;
+						CLIENT_LOGIN_STATE := DELETE_USER_C;
 					END_IF;
 					EXIT;
 				ELSIF NOT gVis.Global.ClientInfo[IdxClients].IsValid AND gVis.Global.ClientInfo[IdxClients].UserID <> '' THEN
-					IF gVis.Global.ClientInfo[IdxClients].LoginBypass AND  gVis.Global.ClientInfo[IdxClients].UserID = 'Anonymous' THEN
-						gVis.Global.ClientInfo[IdxClients].LoginBypass := FALSE;
-					ELSIF gVis.Global.ClientInfo[IdxClients].UserID <> 'Anonymous' AND NOT gVis.Global.ClientInfo[IdxClients].LoginBypass AND NOT gVis.Global.ClientInfo[IdxClients].LogoutRequest THEN
-						//CLIENT_LOGIN_STATE := DELETE_USER_C;
-						CLIENT_LOGIN_STATE;
+					IF gVis.Global.ClientInfo[IdxClients].UserID <> 'Anonymous' AND NOT gVis.Global.ClientInfo[IdxClients].LoginBypass AND NOT gVis.Global.ClientInfo[IdxClients].LogoutRequest THEN
+						CLIENT_LOGIN_STATE := DELETE_USER_C;
 					END_IF
+					brsmemset(ADR(gVis.Global.ClientInfo[IdxClients]),0,SIZEOF(gVis.Global.ClientInfo[IdxClients]));
 					EXIT;
 				ELSIF gVis.Global.ClientInfo[IdxClients].LoginRequest THEN
 					gVis.Global.ClientInfo[IdxClients].LoginRequest := FALSE;
@@ -72,6 +69,7 @@ ACTION Login_User_API:
 			//Insert code for error popup
 			gVis.Global.ClientInfo[IdxClients].LoginSuccess := FALSE;
 			gVis.Global.ClientInfo[IdxClients].LoginFailed := TRUE;
+			gVis.Global.ClientInfo[IdxClients].LoginErrorInfo := API_Login_FB_0.ErrorInfo;
 			API_Login_FB_0.bExecute := FALSE;
 		
 			CLIENT_LOGIN_STATE := WAITING_FOR_LOGIN_I;
@@ -90,8 +88,6 @@ ACTION Login_User_API:
 			END_IF;
 			
 		DELETE_USER_SUCCESS:
-			
-			brsmemset(ADR(gVis.Global.ClientInfo[IdxClients]),0,SIZEOF(gVis.Global.ClientInfo[IdxClients]));
 			gVis.Global.ClientInfo[IdxClients].LogoutSuccess := TRUE;
 			CLIENT_LOGIN_STATE := WAITING_FOR_LOGIN_I;
 		DELETE_USER_ERROR:

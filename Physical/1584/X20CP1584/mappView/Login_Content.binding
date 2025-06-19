@@ -194,5 +194,25 @@
 			<Target xsi:type="session" refId="LogoutRequest" attribute="value"/>
 		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].LoginErrorInfo" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].LoginErrorInfo" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].LoginErrorInfo" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].LoginErrorInfo" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].LoginErrorInfo" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].LoginErrorInfo" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].LoginErrorInfo" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].LoginErrorInfo" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].LoginErrorInfo" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].LoginErrorInfo" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].LoginErrorInfo" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="LoginErrorInfo" attribute="value"/>
+		</Binding>
+		
 	</Bindings>
 </BindingsSet>

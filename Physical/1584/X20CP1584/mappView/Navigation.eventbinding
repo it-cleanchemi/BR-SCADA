@@ -54,7 +54,21 @@
                 </Step>
                 <Step order="3">
                   <Action>
+                    <Target xsi:type="session.VariableAction" refId="LoginErrorInfo">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="4">
+                  <Action>
                     <Target xsi:type="session.VariableAction" refId="LoginSuccess">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="5">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="LoginBypass">
                       <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
                     </Target>
                   </Action>

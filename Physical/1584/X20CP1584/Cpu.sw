@@ -2,8 +2,8 @@
 <?AutomationStudio FileVersion="4.9"?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
-    <Task Name="ModMaster1" Source="modbusTCP.ModMaster_HR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="ModMaster_" Source="modbusTCP.ModMaster_LR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Master_LR" Source="modbusTCP.Master_LR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Master_HR" Source="modbusTCP.Master_HR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ModbusDriv" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2">
@@ -38,10 +38,10 @@
     <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="TC" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Config_3" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Config_1" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Config" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Config_2" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Config_3" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arnc0cfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
@@ -81,7 +81,6 @@
     <LibraryObject Name="AsUSB" Source="Libraries.AsUSB.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="HA_Array" Source="Libraries.HA_Array.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_SysErr" Source="Libraries.HA_SysErr.lby" Memory="UserROM" Language="IEC" Debugging="true" />
-    <LibraryObject Name="MpAlarmX" Source="Libraries.MpAlarmX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="IDEC_Strng" Source="modbusTCP.IDEC_Strng.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="MpUserX" Source="Libraries.MpUserX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsHttp" Source="Libraries.AsHttp.lby" Memory="UserROM" Language="binary" Debugging="true" />
@@ -91,6 +90,8 @@
     <LibraryObject Name="HA_Str" Source="Libraries.HA_Str.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="ArUser" Source="Libraries.ArUser.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="API_Login" Source="Libraries.API_Login.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="AsIODiag" Source="Libraries.AsIODiag.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="MpAlarmX" Source="Libraries.MpAlarmX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="arssl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="arcert" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="ashw" Source="" Memory="UserROM" Language="Binary" Debugging="true" />

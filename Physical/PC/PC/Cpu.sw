@@ -2,7 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
-    <Task Name="ModMaster_" Source="modbusTCP.ModMaster_LR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Master_LR" Source="modbusTCP.Master_LR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ModbusDriv" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2">
@@ -73,6 +73,5 @@
     <LibraryObject Name="AsUSB" Source="Libraries.AsUSB.lby" Memory="UserROM" Language="binary" Debugging="true" />
     <LibraryObject Name="HA_Array" Source="Libraries.HA_Array.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="HA_SysErr" Source="Libraries.HA_SysErr.lby" Memory="UserROM" Language="IEC" Debugging="true" />
-    <LibraryObject Name="MpAlarmX" Source="Libraries.MpAlarmX.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

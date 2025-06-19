@@ -28,11 +28,20 @@
     <Parameter ID="Cyclic2Duration" Value="100000" />
     <Parameter ID="Cyclic2Tolerance" Value="100000" />
     <Group ID="FileDevice1" />
-    <Parameter ID="FileDeviceName1" Value="USER" />
-    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="FileDeviceName1" Value="USER_DEVICE" />
+    <Parameter ID="FileDevicePath1" Value="F:\" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="USER_DEVICE_SIM" />
+    <Parameter ID="FileDevicePath2" Value="..\..\..\..\USER_DEVICE\" />
     <Parameter ID="EthernetDefaultGateway" Value="172.16.1.62" />
     <Parameter ID="ActivateDns" Value="1" />
     <Parameter ID="DnsServer1" Value="8.8.8.8" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="brcpu" />
+    <Parameter ID="FtpUserPassword1" Value="20s6X0g3G25vRkBYChW+IYrxlgFH8I/njpAQzwadF+E=" Description="brcpu" />
+    <Parameter ID="FtpUserSalt1" Value="aGb711uD" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
     <Parameter ID="ActivateOpcUa" Value="1" />
     <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
   </Module>

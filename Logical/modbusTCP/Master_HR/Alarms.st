@@ -3906,8 +3906,6 @@ ACTION Alarms_action:
 	END_IF
 	
 	brsmemset(ADR(gSkid_HR[IdxSkids_HR].ErrorInfo),0,SIZEOF(gSkid_HR[IdxSkids_HR].ErrorInfo));
-
-	gServices.Alarms.Internal.MpAlarmXHistory_0.DeviceName 						:= ADR(gServices.DeviceName);
 	
 	//Set Unit Number and Add Alarms
 	IF (gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit_HR[IdxSkids_HR] <> gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID)) 

@@ -554,6 +554,7 @@ TYPE
 		UserID : STRING[80];
 		IsValid : BOOL;
 		LoginBypass : BOOL;
+		LoginErrorInfo : STRING[80];
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;

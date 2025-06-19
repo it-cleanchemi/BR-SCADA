@@ -9304,5 +9304,9 @@
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="PB_Write_TOTALIZER_RESET" attribute="value" />
 		</Binding>
 		
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="session" refId="LoginErrorInfo" attribute="value" />
+<Target xsi:type="brease" contentRefId="Login_Content" widgetRefId="TextOutput1" attribute="value" />
+</Binding>
+</Bindings>
 </BindingsSet>

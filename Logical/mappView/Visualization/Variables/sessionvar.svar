@@ -12,6 +12,7 @@
 		<Variable name="LogoutRequest" xsi:type="BOOL" value="0" />
 		<Variable name="User" xsi:type="ANY_STRING" value="" />
 		<Variable name="Password" xsi:type="ANY_STRING" value="" />
+		<Variable name="LoginErrorInfo" xsi:type="ANY_STRING" value="" />
 		<Variable name="LoginBypass" xsi:type="BOOL" value="0" />
 		
 		<!--

@@ -11,6 +11,7 @@ FUNCTION_BLOCK API_Login_FB
 		Password : STRING[80];
 		Name : STRING[80];
 		Error : BOOL;
+		ErrorInfo : STRING[80];
 		Done : BOOL;
 		Authorization_Bearer : STRING[250];
 	END_VAR
