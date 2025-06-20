@@ -100,6 +100,14 @@ FUNCTION_BLOCK API_Login_FB
 		PARSE_USER_INFO_W:
 			
 			IF HA_JSON_Parse.Done THEN
+				
+				FOR IdxJSON := 0 TO MAX_JSON_PARSE_PAIR_IDX DO
+					IF JSON_Parsed[IdxJSON].Name = 'role' THEN
+						brsmemcpy(ADR(ReturnedRole),ADR(JSON_Parsed[IdxJSON].Value)+1,LEN(JSON_Parsed[IdxJSON].Value)-2);
+						EXIT;
+					END_IF;
+				END_FOR;
+				
 				LoginState := CREATE_USER_C;
 			END_IF;
 			
@@ -114,7 +122,7 @@ FUNCTION_BLOCK API_Login_FB
 			
 			IF ArUserCreate.Done THEN
 				LoginState := SET_PASSWORD_C;
-			ELSIF ArUserCreate.ErrorID = -1070585893 THEN
+			ELSIF ArUserCreate.ErrorID = arUSER_ERR_ALREADY_EXISTS THEN
 				LoginState := SET_PASSWORD_C;
 			END_IF;
 			
@@ -129,12 +137,44 @@ FUNCTION_BLOCK API_Login_FB
 		SET_PASSWORD_W:
 			
 			IF ArUserSetPassword.Done THEN
-				LoginState := USER_CREATED_SUCCESSS;
+				LoginState := SET_ROLES_C;
+			ELSIF ArUserSetPassword.Error THEN
+				CASE ArUserSetPassword.ErrorID OF
+					arUSER_ERR_PARAMETER:
+						LoginState := LOGIN_API_ERROR;
+					arUSER_ERR_DOES_NOT_EXIST:
+						LoginState := LOGIN_API_ERROR;
+					arUSER_ERR_INTERNAL:
+						LoginState := LOGIN_API_ERROR;
+				END_CASE;
 			END_IF;
 			
 		SET_ROLES_C:
 			
+			ArUserAssignRole.Execute := TRUE;
+			ArUserAssignRole.UserName := sUser;
+			ArUserAssignRole.RoleName := ReturnedRole;
+			
+			LoginState := SET_ROLES_W;
+			
 		SET_ROLES_W:
+			
+			IF ArUserAssignRole.Done THEN
+				LoginState := USER_CREATED_SUCCESSS;
+			ELSIF ArUserAssignRole.Error THEN
+				CASE ArUserAssignRole.ErrorID OF
+					arUSER_ERR_PARAMETER:
+						
+					arUSER_ERR_DOES_NOT_EXIST:
+						ErrorInfo := 'User Role Returned from Login API Does NOT Exist on Traget System';
+						LoginState := LOGIN_API_ERROR;
+					arUSER_ERR_ALREADY_EXISTS:
+						LoginState := USER_CREATED_SUCCESSS;
+					arUSER_ERR_INTERNAL :
+						ErrorInfo := 'Unknown Error Occured Setting User Permissions';
+						LoginState := LOGIN_API_ERROR;
+				END_CASE;
+			END_IF;
 	
 		USER_CREATED_SUCCESSS:
 			
@@ -149,6 +189,7 @@ FUNCTION_BLOCK API_Login_FB
 			HA_JSON_Parse.Enable := FALSE;
 			ArUserSetPassword.Execute := FALSE;
 			ArUserCreate.Execute := FALSE;
+			ArUserAssignRole.Execute := FALSE;
 			
 			Error := TRUE;
 		
@@ -159,6 +200,8 @@ FUNCTION_BLOCK API_Login_FB
 	HA_JSON_Parse();
 	ArUserSetPassword();
 	ArUserCreate();
+	ArUserAssignRole();
+	
 
 
 END_FUNCTION_BLOCK

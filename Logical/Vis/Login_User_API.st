@@ -47,6 +47,7 @@ ACTION Login_User_API:
 			//API_Login_FB_0.sPassword := 'Fire1776';
 			API_Login_FB_0.sUser := gVis.Global.ClientInfo[IdxClients].User;
 			API_Login_FB_0.sPassword := gVis.Global.ClientInfo[IdxClients].Password;
+
 			
 			CLIENT_LOGIN_STATE := LOGIN_USER_W;
 			

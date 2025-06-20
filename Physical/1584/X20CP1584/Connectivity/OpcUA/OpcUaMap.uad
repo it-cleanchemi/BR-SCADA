@@ -4,18 +4,32 @@
   <Aliases>
     <ACLAliases>
       <ACL Id="1">
-        <ACE RoleName="Control_Role" Access="0x005F" />
         <ACE RoleName="Administrator_Role" Access="0x005F" />
         <ACE RoleName="View_Role" Access="0x005F" />
-        <ACE RoleName="CCI_Role" Access="0x005F" />
         <ACE RoleName="Everyone" Access="0x005F" />
+        <ACE RoleName="cci_admin" Access="0x005F" />
+        <ACE RoleName="cci_user" Access="0x005F" />
       </ACL>
       <ACL Id="2">
-        <ACE RoleName="Control_Role" Access="0x01FF" />
         <ACE RoleName="Administrator_Role" Access="0x01FF" />
         <ACE RoleName="View_Role" Access="0x01FF" />
-        <ACE RoleName="CCI_Role" Access="0x01FF" />
         <ACE RoleName="Everyone" Access="0x01FF" />
+        <ACE RoleName="cci_admin" Access="0x005F" />
+        <ACE RoleName="cci_user" Access="0x005F" />
+      </ACL>
+      <ACL Id="3">
+        <ACE RoleName="Administrator_Role" Access="0x01FF" />
+        <ACE RoleName="View_Role" Access="0x01FF" />
+        <ACE RoleName="Everyone" Access="0x01FF" />
+        <ACE RoleName="cci_admin" Access="0x01FF" />
+        <ACE RoleName="cci_user" Access="0x005F" />
+      </ACL>
+      <ACL Id="4">
+        <ACE RoleName="Administrator_Role" Access="0x01FF" />
+        <ACE RoleName="View_Role" Access="0x01FF" />
+        <ACE RoleName="Everyone" Access="0x01FF" />
+        <ACE RoleName="cci_admin" Access="0x01FF" />
+        <ACE RoleName="cci_user" Access="0x01FF" />
       </ACL>
     </ACLAliases>
     <EURangeViolationAliases>
@@ -37,7 +51,7 @@
       <EngineeringUnit Id="12" UnitId="13625" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="part per million" Symbol="ppm" />
     </EngineeringUnitAliases>
   </Aliases>
-  <DefaultView AclId="2">
+  <DefaultView AclId="4">
     <Module Name="&lt;Default&gt;">
       <GlobalVariables Name="Global Variables">
         <Variable Name="gVis" RecursiveEnable="2">

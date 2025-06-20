@@ -88,5 +88,6 @@
     <Object Type="File">Snoop.png</Object>
     <Object Type="File">P3.png</Object>
     <Object Type="File">P3G.png</Object>
+    <Object Type="File">FM2.png</Object>
   </Objects>
 </Package>

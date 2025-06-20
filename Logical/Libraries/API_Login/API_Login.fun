@@ -14,6 +14,7 @@ FUNCTION_BLOCK API_Login_FB
 		ErrorInfo : STRING[80];
 		Done : BOOL;
 		Authorization_Bearer : STRING[250];
+		ReturnedRole : STRING[80];
 	END_VAR
 	VAR_IN_OUT
 		RequestHeader : httpRequestHeader_t;
@@ -24,6 +25,7 @@ FUNCTION_BLOCK API_Login_FB
 		GET_UserInfo : GET_UserInfo_FB;
 		POST_Login : POST_Login_FB;
 		HA_JSON_Parse : HA_JSON_Parse;
+		ArUserAssignRole : ArUserAssignRole;
 		ArUserSetPassword : ArUserSetPassword;
 		JSON_Parsed : ARRAY[0..MAX_JSON_PARSE_PAIR_IDX] OF HA_JSON_Parse_Pair_typ;
 		ArUserCreate : ArUserCreate;
