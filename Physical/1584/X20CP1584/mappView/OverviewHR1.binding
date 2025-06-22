@@ -7940,40 +7940,6 @@
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value" serverAlias="" nameSpaceAlias="">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_Pump_104.P104_PFQ" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_Pump_104.P104_PFQ" />
-				</be:List>
-</Source>
-			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="P104_PFQ" attribute="value" />
-		</Binding>
-		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].VisBool.P101_MODE" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].VisBool.P101_MODE" />
@@ -8481,9 +8447,6 @@
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="PB_Write_TOTALIZER_RESET" attribute="value" />
 		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="session" refId="LoginErrorInfo" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Login_Content" widgetRefId="TextOutput1" attribute="value" />
-		</Binding>
+	
 	</Bindings>
 </BindingsSet>
