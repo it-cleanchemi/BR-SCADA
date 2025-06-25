@@ -178,13 +178,13 @@ ACTION Modbus_CMD_action:
 	// AS Block 36 - P101_STRT_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[35].single := TRUE;
-		gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send := FALSE;
+		//gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send := FALSE;
 	END_IF;
 	
 	// AS Block 37 - P101_STP_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[36].single := TRUE;
-		gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send := FALSE;
+		//gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send := FALSE;
 	END_IF;	
 	
 	// AS Block 38 - P101_SP
@@ -235,7 +235,7 @@ ACTION Modbus_CMD_action:
 	// AS Block 45 - P104_STRT_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_P104_STRT_CMD.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[44].single := TRUE;
-		gCMD_LR[IdxSkids_LR].Write_P103_STRT_CMD.Send := FALSE;
+		gCMD_LR[IdxSkids_LR].Write_P104_STRT_CMD.Send := FALSE;
 	END_IF;
 	
 	// AS Block 46 - P104_STP_CMD

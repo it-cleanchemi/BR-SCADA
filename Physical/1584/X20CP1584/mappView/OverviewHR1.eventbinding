@@ -1,58 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EventBindingSet id="OverviewHR1_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
-		<EventBinding id="OverviewLR1.TextOutput1.Click2">
-			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput1" event="Click" />
+		<EventBinding id="OverviewHR1.TextOutput1.Click2">
+			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput1" event="Click" />
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P201_Status_Popup" horizontalPos="1280px" verticalPos="140px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P201_Status_Popup_HR" horizontalPos="1280px" verticalPos="140px" />
 					</Target>
 				</Action>
 			</EventHandler>
 		</EventBinding>
 		<EventBinding id="EventBinding_3000">
-			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput4" event="Click" />
+			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput4" event="Click" />
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Status_Popup" horizontalPos="1280px" verticalPos="380px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Status_Popup_HR" horizontalPos="1280px" verticalPos="380px" />
 					</Target>
 				</Action>
 			</EventHandler>
 		</EventBinding>
 		<EventBinding id="EventBinding_444">
-			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput36" event="Click" />
+			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput36" event="Click" />
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Status_Popup" horizontalPos="1280px" verticalPos="620px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Status_Popup_HR" horizontalPos="1280px" verticalPos="620px" />
 					</Target>
 				</Action>
 			</EventHandler>
 		</EventBinding>
 		<EventBinding id="EventBinding_77">
-			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput37" event="Click" />
+			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput37" event="Click" />
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup" horizontalPos="260px" verticalPos="20px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Status_Popup_HR" horizontalPos="260px" verticalPos="20px" />
 					</Target>
 				</Action>
 			</EventHandler>
 		</EventBinding>
 		<EventBinding id="EventBinding_99">
-			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput39" event="Click" />
+			<Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput39" event="Click" />
 			<EventHandler>
 				<Action>
 					<Target xsi:type="clientSystem.Action">
-						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Settings_Popup" horizontalPos="600px" verticalPos="200px" />
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="PM_Settings_Popup_HR" horizontalPos="600px" verticalPos="200px" />
 					</Target>
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P101_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P101_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P101_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P101_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -238,8 +238,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P102_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P102_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P102_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P102_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -425,8 +425,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P103_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P103_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P103_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P103_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -612,8 +612,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P104_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P104_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P104_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P104_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -799,8 +799,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P201_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P201_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P201_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P201_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -986,8 +986,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P202_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P202_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P202_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P202_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">
@@ -1173,8 +1173,8 @@
 				</Action>
 			</EventHandler>
 		</EventBinding>
-		<EventBinding id="OverviewLR1.P203_SOLENOID_OFF.Click2">
-			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P203_SOLENOID_OFF" event="Click" />
+		<EventBinding id="OverviewHR1.P203_SOLENOID_OFF.Click2">
+			<Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewHR1" widgetRefId="P203_SOLENOID_OFF" event="Click" />
 			<EventHandler>
 				<Action>
 					<ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkidIndx">

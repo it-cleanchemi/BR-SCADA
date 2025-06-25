@@ -44,6 +44,11 @@
     <Dialog refId="P203_Status_Popup_LR" />
     <Dialog refId="PM_Status_Popup_LR" />
     <Dialog refId="PM_Settings_Popup_LR" />
+    <Dialog refId="P201_Status_Popup_HR" />
+    <Dialog refId="P202_Status_Popup_HR" />
+    <Dialog refId="P203_Status_Popup_HR" />
+    <Dialog refId="PM_Status_Popup_HR" />
+    <Dialog refId="PM_Settings_Popup_HR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -74,6 +79,11 @@
     <Content refId="PM_Settings_Content_LR" />
     <Content refId="Login_Content" />
     <Content refId="OverviewHR1" />
+    <Content refId="P201_Status_Content_HR" />
+    <Content refId="P202_Status_Content_HR" />
+    <Content refId="P203_Status_Content_HR" />
+    <Content refId="PM_Status_Content_HR" />
+    <Content refId="PM_Settings_Content_HR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />
