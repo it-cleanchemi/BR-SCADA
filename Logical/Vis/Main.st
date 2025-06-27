@@ -20,7 +20,7 @@ PROGRAM _CYCLIC
 			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_LR[IdxSkids_LR]));
 		ELSE
 			gVis.Main.Internal.IP_WSTRING_Temp := UINT_TO_WSTRING(gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID );
-			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_LR,ADR(gVis.Main.Out.IPAddressDataProv_LR[IdxSkids_LR]));	
+			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID,ADR(gVis.Main.Out.IPAddressDataProv_LR[IdxSkids_LR]));	
 		END_IF;
 		
 	END_FOR
@@ -31,8 +31,8 @@ PROGRAM _CYCLIC
 			gVis.Main.Internal.IP_WSTRING_Temp := STRING_TO_WSTRING(SLAVE_IP_ADDRESSES_HR[IdxSkids_HR]);
 			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_HR,ADR(gVis.Main.Out.IPAddressDataProv_HR[IdxSkids_HR]));
 		ELSE
-			gVis.Main.Internal.IP_WSTRING_Temp := UINT_TO_WSTRING(gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID );
-			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),IdxSkids_HR,ADR(gVis.Main.Out.IPAddressDataProv_HR[IdxSkids_HR]));	
+			gVis.Main.Internal.IP_WSTRING_Temp := UINT_TO_WSTRING(gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID);
+			WString2DataProvider(ADR(gVis.Main.Internal.IP_WSTRING_Temp),gSkid_HR[IdxSkids_HR].Pmax_General_Variables.UNIT_ID,ADR(gVis.Main.Out.IPAddressDataProv_HR[IdxSkids_HR]));	
 		END_IF;
 		
 	END_FOR
@@ -45,8 +45,8 @@ PROGRAM _CYCLIC
 	Login_User_API;
 	
 	//Alarm Page Logic
-	//Alarms_Active;
-	//Alarms_History;
+	Alarms_Active;
+	Alarms_History;
 	
 END_PROGRAM
 

@@ -178,13 +178,13 @@ ACTION Modbus_CMD_action:
 	// AS Block 36 - P101_STRT_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[35].single := TRUE;
-		//gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send := FALSE;
+		gCMD_LR[IdxSkids_LR].Write_P101_STRT_CMD.Send := FALSE;
 	END_IF;
 	
 	// AS Block 37 - P101_STP_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[36].single := TRUE;
-		//gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send := FALSE;
+		gCMD_LR[IdxSkids_LR].Write_P101_STP_CMD.Send := FALSE;
 	END_IF;	
 	
 	// AS Block 38 - P101_SP
@@ -323,7 +323,7 @@ ACTION Modbus_CMD_action:
 	END_IF;
 	
 	// AS Block 60 - UNIT_ACK - RESET OF CONDITION PERFORMED IN MAIN.ST ALARMS RESET 
-	IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids_LR] THEN
+	IF gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[59].single := TRUE;
 	END_IF;
 	

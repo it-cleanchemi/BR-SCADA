@@ -101,7 +101,7 @@
   </Themes>
   <Configurations>
     <Configuration key="activityCount" value="false" />
-    <Configuration key="zoom" value="false" />
+    <Configuration key="zoom" value="true" />
     <Configuration key="activityCount" value="false" />
     <Configuration key="bootLogo" value="Media\Images\Logo.svg" />
     <Configuration key="bootColor" value="#111111" />

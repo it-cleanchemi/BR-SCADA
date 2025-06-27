@@ -50,7 +50,7 @@ ACTION Services_Alarms_action:
 	FOR IdxSkids_HR := 0 TO MAX_SKIDS_HR DO
 		
 		//Reset only Selected Skid Alarms
-		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids_HR] THEN
+		IF gVis.Main.In.AckAllAlarms_Skid_HR[IdxSkids_HR] THEN
 			
 			FOR IdxAlarmsActive := 0 TO 49 DO
 				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit_HR[IdxSkids_HR] THEN
@@ -60,7 +60,7 @@ ACTION Services_Alarms_action:
 				END_IF;
 			END_FOR;
 			
-			gVis.Main.In.AckAllAlarms_Skid[IdxSkids_HR] := FALSE;
+			gVis.Main.In.AckAllAlarms_Skid_HR[IdxSkids_HR] := FALSE;
 			
 			gServices.Alarms.Internal.Alarm_Set_Delay_HR[IdxSkids_HR].IN := TRUE;
 			
@@ -78,17 +78,17 @@ ACTION Services_Alarms_action:
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
 		//Reset only Selected Skid Alarms
-		IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids_LR] THEN
+		IF gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] THEN
 			
 			FOR IdxAlarmsActive := 0 TO 49 DO
-				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit_HR[IdxSkids_LR] THEN
+				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit_LR[IdxSkids_LR] THEN
 					MpAlarmXAcknowledgeID(gAlarmXCore,gVis.Alarms.Active.UIConnect.AlarmList.InstanceID[IdxAlarmsActive]);
 				ELSIF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = 0 THEN
 					EXIT;
 				END_IF;
 			END_FOR;
 			
-			gVis.Main.In.AckAllAlarms_Skid[IdxSkids_LR] := FALSE;
+			gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] := FALSE;
 			
 			gServices.Alarms.Internal.Alarm_Set_Delay_LR[IdxSkids_LR].IN := TRUE;
 			

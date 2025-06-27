@@ -323,7 +323,7 @@ ACTION Modbus_CMD_action:
 	END_IF;
 	
 	// AS Block 60 - UNIT_ACK - RESET OF CONDITION PERFORMED IN MAIN.ST ALARMS RESET 
-	IF gVis.Main.In.AckAllAlarms_Skid[IdxSkids_HR] THEN
+	IF gVis.Main.In.AckAllAlarms_Skid_HR[IdxSkids_HR] THEN
 		MasterConfig_HR[IdxSkids_HR].action_enable[59].single := TRUE;
 	END_IF;
 	

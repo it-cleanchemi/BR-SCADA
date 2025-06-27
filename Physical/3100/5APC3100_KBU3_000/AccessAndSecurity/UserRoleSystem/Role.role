@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Administrator_Role" Type="Role">
+    <Property ID="RoleID" Value="1" />
+    <Property ID="Description" Description="Admin Role" />
+  </Element>
+  <Element ID="View_Role" Type="Role">
+    <Property ID="RoleID" Value="4" />
+    <Property ID="Description" Description="View Only" />
+  </Element>
+  <Element ID="Everyone" Type="Role">
+    <Property ID="RoleID" Value="5" />
+  </Element>
+  <Element ID="cci_super" Type="Role">
+    <Property ID="RoleID" Value="6" Description="" />
+    <Property ID="Description" Description="CCI Super Admin" />
+  </Element>
+  <Element ID="cci_admin" Type="Role">
+    <Property ID="RoleID" Value="7" />
+    <Property ID="Description" Value="CCI Admin" />
+  </Element>
+  <Element ID="cci_user" Type="Role">
+    <Property ID="RoleID" Value="8" />
+    <Property ID="Description" Value="CCI User" />
+  </Element>
+  <Element ID="dist_admin" Type="Role">
+    <Property ID="RoleID" Value="9" />
+    <Property ID="Description" Value="Distributor Admin" />
+  </Element>
+  <Element ID="dist_user" Type="Role">
+    <Property ID="RoleID" Value="10" />
+    <Property ID="Description" Value="Distributor User" />
+  </Element>
+  <Element ID="cust_admin" Type="Role">
+    <Property ID="RoleID" Value="11" />
+    <Property ID="Description" Value="Customer Admin" />
+  </Element>
+  <Element ID="cust_user" Type="Role">
+    <Property ID="RoleID" Value="12" />
+    <Property ID="Description" Value="Customer User" />
+  </Element>
+</Configuration>

@@ -1,7 +1,7 @@
 
 ACTION Alarms_History: 
 
-	gVis.Alarms.History.UIConnect.Language									:= gPar.System.LanguageCode;
+	//gVis.Alarms.History.UIConnect.Language									:= gPar.System.LanguageCode;
 	gVis.Alarms.History.UIConnect.AlarmList.SelectedIndex					:= gVis.Alarms.History.SelectedIndex;
 	gVis.Alarms.History.UIConnect.AlarmList.PageUp							:= gVis.Alarms.History.PageUp;
 	gVis.Alarms.History.PageUp												:= FALSE;

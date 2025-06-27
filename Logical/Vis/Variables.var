@@ -1,11 +1,11 @@
 VAR
-	IdxSkids : INT;
 	SkidNumberINT : STRING[5];
 	Idx_AlarmList : INT;
 	API_Login_FB_0 : API_Login_FB;
 	Header : httpRequestHeader_t;
 	CLIENT_LOGIN_STATE : USER_LOGIN_ENUM;
 	Client : httpsClient;
+	IdxClients_AlarmCheck : INT;
 	IdxClients : INT;
 	ArUserDelete_0 : ArUserDelete;
 	ArUserCreate_0 : ArUserCreate;

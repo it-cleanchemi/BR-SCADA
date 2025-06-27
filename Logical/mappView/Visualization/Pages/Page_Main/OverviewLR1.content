@@ -278,7 +278,7 @@
         <Widget xsi:type="widgets.brease.TableItem" id="Alarms_Active_Table_TableItem_Description" zIndex="1" columnWidth="459" text="$IAT/Alarms_Active_Table_TableItem_Description" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="206" left="1615" height="19" zIndex="256" text="Ack All" permissionOperate="['Administrator_Role', 'cci_user', 'cci_admin']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P13" top="206" left="1615" height="19" zIndex="256" text="Ack All" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Screen_Lock" top="70" left="640" width="20" height="20" zIndex="257" backColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P201_ASP" top="328" left="1055" width="220" zIndex="258" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_ASP" top="551" left="1055" width="220" zIndex="259" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" textColor="rgba(255, 0, 0, 1)" />

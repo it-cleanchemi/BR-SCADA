@@ -555,6 +555,11 @@ TYPE
 		IsValid : BOOL;
 		LoginBypass : BOOL;
 		LoginErrorInfo : STRING[80];
+		SelectedAlrm_UnitID : STRING[80];
+		SelectedAlrm_Skid : STRING[80];
+		GoToSkid : BOOL;
+		SelectedAlrmIndx_Temp : UINT;
+		SelectedAlrmIndx : UINT;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;
@@ -601,7 +606,8 @@ TYPE
 	END_STRUCT;
 	Vis_Main_In_Type : 	STRUCT 
 		SelectedSkidSessionVar : INT;
-		AckAllAlarms_Skid : ARRAY[0..100]OF BOOL;
+		AckAllAlarms_Skid_HR : ARRAY[0..100]OF BOOL;
+		AckAllAlarms_Skid_LR : ARRAY[0..100]OF BOOL;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;
