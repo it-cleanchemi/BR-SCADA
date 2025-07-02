@@ -121,6 +121,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_EFF_1.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_EFF_1.wEFF_1_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_EFF_1.wEFF_1);
 		MasterConfig_HR[IdxSkids_HR].action_enable[27].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_EFF_1.Send := FALSE;
 	END_IF;	
 	
@@ -128,6 +129,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_EFF_2.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_EFF_2.wEFF_2_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_EFF_2.wEFF_2);
 		MasterConfig_HR[IdxSkids_HR].action_enable[28].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_EFF_2.Send := FALSE;
 	END_IF;		
 	
@@ -135,6 +137,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_NAOH_TO_H2O2.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2);
 		MasterConfig_HR[IdxSkids_HR].action_enable[29].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_NAOH_TO_H2O2.Send := FALSE;
 	END_IF;	
 	
@@ -142,6 +145,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_TRI_TO_H2O2.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_TRI_TO_H2O2.wTRI_TO_H2O2_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_TRI_TO_H2O2.wTRI_TO_H2O2);
 		MasterConfig_HR[IdxSkids_HR].action_enable[30].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_TRI_TO_H2O2.Send := FALSE;
 	END_IF;	
 	
@@ -158,6 +162,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_PMAX_CONC.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_PMAX_CONC.wPMAX_CONC_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_PMAX_CONC.wPMAX_CONC);
 		MasterConfig_HR[IdxSkids_HR].action_enable[32].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_PMAX_CONC.Send := FALSE;
 	END_IF;		
 	
@@ -165,6 +170,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_HP_CONC.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_HP_CONC.wHP_CONC_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_HP_CONC.wHP_CONC);
 		MasterConfig_HR[IdxSkids_HR].action_enable[33].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_HP_CONC.Send := FALSE;
 	END_IF;	
 	
@@ -172,6 +178,7 @@ ACTION Modbus_CMD_action:
 	IF gCMD_HR[IdxSkids_HR].Write_NAOH_CONC.Send THEN
 		gCMD_HR[IdxSkids_HR].Write_NAOH_CONC.wNAOH_CONC_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_NAOH_CONC.wNAOH_CONC);
 		MasterConfig_HR[IdxSkids_HR].action_enable[34].single := TRUE;
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].single := TRUE; // Send Recalculation Command
 		gCMD_HR[IdxSkids_HR].Write_NAOH_CONC.Send := FALSE;
 	END_IF;	
 	

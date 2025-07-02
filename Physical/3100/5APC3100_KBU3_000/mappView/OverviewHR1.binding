@@ -1,6 +1,1632 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BindingsSet id="OverviewHR1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
+		<!--START P201_STATUS_CONTENT-->
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P201_HOA.wP201_HOA_String" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P201_HOA.wP201_HOA_String" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P201_Status_Content_HR" widgetRefId="DropDownBox1" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P201_HOA.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P201_HOA.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P201_HOA.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P201_HOA.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P201_HOA.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P201_HOA.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P201_HOA.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P201_HOA.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P201_HOA.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P201_HOA.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P201_HOA.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P201_HOA.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P201_HOA.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P201_HOA.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P201_HOA.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P201_HOA.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P201_HOA.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P201_HOA.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P201_HOA.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P201_HOA.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P201_HOA.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P201_HOA.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P201_HOA.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P201_HOA.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P201_HOA.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P201_Status_Content_HR" widgetRefId="PushButton1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P201_HOA.Cancel" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P201_HOA.Cancel" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P201_HOA.Cancel" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P201_HOA.Cancel" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P201_HOA.Cancel" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P201_HOA.Cancel" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P201_HOA.Cancel" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P201_HOA.Cancel" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P201_HOA.Cancel" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P201_HOA.Cancel" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P201_HOA.Cancel" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P201_HOA.Cancel" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P201_HOA.Cancel" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P201_HOA.Cancel" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P201_HOA.Cancel" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P201_HOA.Cancel" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P201_HOA.Cancel" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P201_HOA.Cancel" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P201_HOA.Cancel" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P201_HOA.Cancel" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P201_HOA.Cancel" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P201_HOA.Cancel" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P201_HOA.Cancel" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P201_HOA.Cancel" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P201_HOA.Cancel" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P201_Status_Content_HR" widgetRefId="PushButton2" attribute="value" />
+		</Binding>
+		<!--START P202_STATUS_CONTENT-->
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P202_HOA.wP202_HOA_String" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P202_HOA.wP202_HOA_String" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P202_Status_Content_HR" widgetRefId="DropDownBox1" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P202_HOA.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P202_HOA.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P202_HOA.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P202_HOA.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P202_HOA.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P202_HOA.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P202_HOA.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P202_HOA.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P202_HOA.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P202_HOA.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P202_HOA.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P202_HOA.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P202_HOA.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P202_HOA.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P202_HOA.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P202_HOA.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P202_HOA.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P202_HOA.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P202_HOA.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P202_HOA.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P202_HOA.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P202_HOA.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P202_HOA.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P202_HOA.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P202_HOA.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P202_Status_Content_HR" widgetRefId="PushButton1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P202_HOA.Cancel" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P202_HOA.Cancel" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P202_HOA.Cancel" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P202_HOA.Cancel" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P202_HOA.Cancel" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P202_HOA.Cancel" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P202_HOA.Cancel" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P202_HOA.Cancel" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P202_HOA.Cancel" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P202_HOA.Cancel" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P202_HOA.Cancel" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P202_HOA.Cancel" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P202_HOA.Cancel" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P202_HOA.Cancel" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P202_HOA.Cancel" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P202_HOA.Cancel" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P202_HOA.Cancel" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P202_HOA.Cancel" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P202_HOA.Cancel" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P202_HOA.Cancel" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P202_HOA.Cancel" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P202_HOA.Cancel" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P202_HOA.Cancel" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P202_HOA.Cancel" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P202_HOA.Cancel" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P202_Status_Content_HR" widgetRefId="PushButton2" attribute="value" />
+		</Binding>
+		<!--START P203_STATUS_CONTENT-->
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P203_HOA.wP203_HOA_String" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P203_HOA.wP203_HOA_String" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Status_Content_HR" widgetRefId="DropDownBox1" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P203_HOA.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P203_HOA.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P203_HOA.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P203_HOA.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P203_HOA.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P203_HOA.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P203_HOA.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P203_HOA.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P203_HOA.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P203_HOA.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P203_HOA.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P203_HOA.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P203_HOA.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P203_HOA.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P203_HOA.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P203_HOA.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P203_HOA.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P203_HOA.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P203_HOA.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P203_HOA.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P203_HOA.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P203_HOA.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P203_HOA.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P203_HOA.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P203_HOA.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Status_Content_HR" widgetRefId="PushButton1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_P203_HOA.Cancel" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_P203_HOA.Cancel" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_P203_HOA.Cancel" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_P203_HOA.Cancel" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_P203_HOA.Cancel" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_P203_HOA.Cancel" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_P203_HOA.Cancel" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_P203_HOA.Cancel" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_P203_HOA.Cancel" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_P203_HOA.Cancel" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_P203_HOA.Cancel" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_P203_HOA.Cancel" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_P203_HOA.Cancel" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_P203_HOA.Cancel" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_P203_HOA.Cancel" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_P203_HOA.Cancel" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_P203_HOA.Cancel" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_P203_HOA.Cancel" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_P203_HOA.Cancel" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_P203_HOA.Cancel" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_P203_HOA.Cancel" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_P203_HOA.Cancel" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_P203_HOA.Cancel" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_P203_HOA.Cancel" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_P203_HOA.Cancel" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Status_Content_HR" widgetRefId="PushButton2" attribute="value" />
+		</Binding>
+		<!--START PM STATUS-->
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_PMAX_HOA.wPMAX_HOA_String" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_PMAX_HOA.wPMAX_HOA_String" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Status_Content_HR" widgetRefId="DropDownBox1" attribute="selectedValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_PMAX_HOA.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_PMAX_HOA.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_PMAX_HOA.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_PMAX_HOA.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_PMAX_HOA.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_PMAX_HOA.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_PMAX_HOA.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_PMAX_HOA.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_PMAX_HOA.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_PMAX_HOA.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_PMAX_HOA.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_PMAX_HOA.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_PMAX_HOA.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_PMAX_HOA.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_PMAX_HOA.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_PMAX_HOA.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_PMAX_HOA.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_PMAX_HOA.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_PMAX_HOA.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_PMAX_HOA.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_PMAX_HOA.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_PMAX_HOA.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_PMAX_HOA.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_PMAX_HOA.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_PMAX_HOA.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Status_Content_HR" widgetRefId="PushButton1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_PMAX_HOA.Cancel" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_PMAX_HOA.Cancel" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Status_Content_HR" widgetRefId="PushButton2" attribute="value" />
+		</Binding>
+		<!--START PM SETTINGS-->
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].ConversionRatios.EFF_1" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].ConversionRatios.EFF_1" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].ConversionRatios.EFF_1" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].ConversionRatios.EFF_1" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].ConversionRatios.EFF_1" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].ConversionRatios.EFF_1" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].ConversionRatios.EFF_1" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].ConversionRatios.EFF_1" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].ConversionRatios.EFF_1" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].ConversionRatios.EFF_1" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].ConversionRatios.EFF_1" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].ConversionRatios.EFF_1" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].ConversionRatios.EFF_1" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].ConversionRatios.EFF_1" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].ConversionRatios.EFF_1" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].ConversionRatios.EFF_1" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].ConversionRatios.EFF_1" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].ConversionRatios.EFF_1" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].ConversionRatios.EFF_1" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].ConversionRatios.EFF_1" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].ConversionRatios.EFF_1" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].ConversionRatios.EFF_1" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].ConversionRatios.EFF_1" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].ConversionRatios.EFF_1" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].ConversionRatios.EFF_1" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="EFF_1" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_EFF_1.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_EFF_1.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_EFF_1.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_EFF_1.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_EFF_1.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_EFF_1.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_EFF_1.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_EFF_1.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_EFF_1.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_EFF_1.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_EFF_1.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_EFF_1.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_EFF_1.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_EFF_1.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_EFF_1.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_EFF_1.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_EFF_1.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_EFF_1.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_EFF_1.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_EFF_1.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_EFF_1.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_EFF_1.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_EFF_1.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_EFF_1.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_EFF_1.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_EFF_1" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_EFF_1.wEFF_1" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_EFF_1.wEFF_1" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_EFF_1.wEFF_1" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_EFF_1.wEFF_1" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_EFF_1.wEFF_1" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_EFF_1.wEFF_1" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_EFF_1.wEFF_1" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_EFF_1.wEFF_1" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_EFF_1.wEFF_1" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_EFF_1.wEFF_1" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_EFF_1.wEFF_1" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_EFF_1.wEFF_1" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_EFF_1.wEFF_1" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_EFF_1.wEFF_1" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_EFF_1.wEFF_1" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_EFF_1.wEFF_1" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_EFF_1.wEFF_1" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_EFF_1.wEFF_1" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_EFF_1.wEFF_1" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_EFF_1.wEFF_1" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_EFF_1.wEFF_1" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_EFF_1.wEFF_1" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_EFF_1.wEFF_1" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_EFF_1.wEFF_1" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_EFF_1.wEFF_1" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_EFF_1" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].ConversionRatios.EFF_2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].ConversionRatios.EFF_2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].ConversionRatios.EFF_2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].ConversionRatios.EFF_2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].ConversionRatios.EFF_2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].ConversionRatios.EFF_2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].ConversionRatios.EFF_2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].ConversionRatios.EFF_2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].ConversionRatios.EFF_2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].ConversionRatios.EFF_2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].ConversionRatios.EFF_2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].ConversionRatios.EFF_2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].ConversionRatios.EFF_2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].ConversionRatios.EFF_2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].ConversionRatios.EFF_2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].ConversionRatios.EFF_2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].ConversionRatios.EFF_2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].ConversionRatios.EFF_2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].ConversionRatios.EFF_2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].ConversionRatios.EFF_2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].ConversionRatios.EFF_2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].ConversionRatios.EFF_2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].ConversionRatios.EFF_2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].ConversionRatios.EFF_2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].ConversionRatios.EFF_2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="EFF_2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_EFF_2.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_EFF_2.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_EFF_2.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_EFF_2.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_EFF_2.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_EFF_2.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_EFF_2.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_EFF_2.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_EFF_2.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_EFF_2.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_EFF_2.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_EFF_2.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_EFF_2.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_EFF_2.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_EFF_2.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_EFF_2.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_EFF_2.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_EFF_2.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_EFF_2.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_EFF_2.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_EFF_2.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_EFF_2.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_EFF_2.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_EFF_2.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_EFF_2.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_EFF_2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_EFF_2.wEFF_2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_EFF_2.wEFF_2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_EFF_2.wEFF_2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_EFF_2.wEFF_2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_EFF_2.wEFF_2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_EFF_2.wEFF_2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_EFF_2.wEFF_2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_EFF_2.wEFF_2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_EFF_2.wEFF_2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_EFF_2.wEFF_2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_EFF_2.wEFF_2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_EFF_2.wEFF_2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_EFF_2.wEFF_2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_EFF_2.wEFF_2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_EFF_2.wEFF_2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_EFF_2.wEFF_2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_EFF_2.wEFF_2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_EFF_2.wEFF_2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_EFF_2.wEFF_2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_EFF_2.wEFF_2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_EFF_2.wEFF_2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_EFF_2.wEFF_2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_EFF_2.wEFF_2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_EFF_2.wEFF_2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_EFF_2.wEFF_2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_EFF_2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.PMAX_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.PMAX_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PMAX_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_PMAX_CONC.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_PMAX_CONC.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_PMAX_CONC.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_PMAX_CONC.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_PMAX_CONC.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_PMAX_CONC.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_PMAX_CONC.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_PMAX_CONC.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_PMAX_CONC.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_PMAX_CONC.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_PMAX_CONC.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_PMAX_CONC.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_PMAX_CONC.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_PMAX_CONC.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_PMAX_CONC.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_PMAX_CONC.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_PMAX_CONC.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_PMAX_CONC.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_PMAX_CONC.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_PMAX_CONC.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_PMAX_CONC.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_PMAX_CONC.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_PMAX_CONC.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_PMAX_CONC.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_PMAX_CONC.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_PMAX_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_PMAX_CONC.wPMAX_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_PMAX_CONC.wPMAX_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_PMAX_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].ConversionRatios.NAOH_TO_H2O2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].ConversionRatios.NAOH_TO_H2O2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NAOH_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_NAOH_TO_H2O2.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_NAOH_TO_H2O2.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_NAOH_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_NAOH_TO_H2O2.wNAOH_TO_H2O2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_NAOH_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].ConversionRatios.TRI_TO_H2O2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].ConversionRatios.TRI_TO_H2O2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="TRI_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_TRI_TO_H2O2.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_TRI_TO_H2O2.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_TRI_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_TRI_TO_H2O2.wTRI_TO_H2O2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_TRI_TO_H2O2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].ConversionRatios.NAOH_TO_TRI" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].ConversionRatios.NAOH_TO_TRI" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NAOH_TO_TRI" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.NAOH_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.NAOH_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NAOH_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_NAOH_CONC.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_NAOH_CONC.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_NAOH_CONC.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_NAOH_CONC.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_NAOH_CONC.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_NAOH_CONC.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_NAOH_CONC.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_NAOH_CONC.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_NAOH_CONC.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_NAOH_CONC.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_NAOH_CONC.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_NAOH_CONC.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_NAOH_CONC.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_NAOH_CONC.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_NAOH_CONC.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_NAOH_CONC.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_NAOH_CONC.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_NAOH_CONC.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_NAOH_CONC.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_NAOH_CONC.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_NAOH_CONC.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_NAOH_CONC.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_NAOH_CONC.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_NAOH_CONC.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_NAOH_CONC.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_NAOH_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_NAOH_CONC.wNAOH_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_NAOH_CONC.wNAOH_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_NAOH_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.HP_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.HP_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="HP_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_HP_CONC.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_HP_CONC.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_HP_CONC.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_HP_CONC.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_HP_CONC.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_HP_CONC.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_HP_CONC.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_HP_CONC.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_HP_CONC.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_HP_CONC.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_HP_CONC.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_HP_CONC.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_HP_CONC.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_HP_CONC.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_HP_CONC.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_HP_CONC.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_HP_CONC.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_HP_CONC.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_HP_CONC.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_HP_CONC.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_HP_CONC.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_HP_CONC.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_HP_CONC.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_HP_CONC.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_HP_CONC.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_HP_CONC" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_HR[0].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_HR[1].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_HR[2].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_HR[3].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_HR[4].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_HR[5].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_HR[6].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_HR[7].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_HR[8].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_HR[9].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_HR[10].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_HR[11].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_HR[12].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_HR[13].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_HR[14].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_HR[15].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_HR[16].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_HR[17].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_HR[18].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_HR[19].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_HR[20].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_HR[21].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_HR[22].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_HR[23].Write_HP_CONC.wHP_CONC" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_HR[24].Write_HP_CONC.wHP_CONC" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_HP_CONC" attribute="value" />
+		</Binding>
+
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_NAOH_CONC" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_NAOH_CONC" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_TRI_TO_H2O2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_TRI_TO_H2O2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_NAOH_TO_H2O2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_NAOH_TO_H2O2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_EFF_2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_EFF_2" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_EFF_1" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_EFF_1" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_PMAX_CONC" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_PMAX_CONC" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="NI_Write_HP_CONC" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_HR[2].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_HR[3].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_HR[4].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_HR[5].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_HR[6].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_HR[7].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_HR[8].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_HR[9].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_HR[10].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_HR[11].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_HR[12].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_HR[13].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_HR[14].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_HR[15].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_HR[16].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_HR[17].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_HR[18].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_HR[19].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_HR[20].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_HR[21].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_HR[22].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.SCREEN_LOCK" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.SCREEN_LOCK" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_HR" widgetRefId="PB_Write_HP_CONC" attribute="enable" />
+		</Binding>
+		<!--START OVERVIEWHR1-->
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />

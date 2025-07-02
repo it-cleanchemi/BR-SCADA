@@ -662,6 +662,14 @@ PROGRAM _INIT
 		MasterConfig_HR[IdxSkids_HR].action_param[70].timer := 2;// Refresh timer for this item 
 		MasterConfig_HR[IdxSkids_HR].action_param[70].type := 6;// Function code for this item (2 := read discrete inputs)
 
+		// AS Block 72 - RECALC_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[71].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_RECALC_CMD.wRECALC_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].start_addr := 1000;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[71].type := 6;// Function code for this item (2 := read discrete inputs)
 
 
 

@@ -175,6 +175,7 @@ TYPE
 		Write_XV201_OPEN_CMD : CMD_Write_XV201_OPEN_CMD_Type;
 		Write_XV202_OPEN_CMD : CMD_Write_XV202_OPEN_CMD_Type;
 		Write_XV203_OPEN_CMD : CMD_Write_XV203_OPEN_CMD_Type;
+		Write_RECALC_CMD : CMD_Write_RECALC_CMD_Type;
 		Write_TOTALIZER_RESET : CMD_Write_TOTALIZER_RESET_Type;
 		Write_AS_USER : CMD_Write_AS_USER_Type;
 		Write_AS_ACCESS : CMD_Write_AS_ACCESS_Type;
@@ -194,6 +195,10 @@ TYPE
 	CMD_Write_AS_USER_Type : 	STRUCT 
 		Send : BOOL;
 		wAS_USER : UINT := 1;
+	END_STRUCT;
+	CMD_Write_RECALC_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wRECALC_CMD : UINT := 1;
 	END_STRUCT;
 	CMD_Write_TOTALIZER_RESET_Type : 	STRUCT 
 		Send : BOOL;

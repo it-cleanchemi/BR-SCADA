@@ -4,7 +4,7 @@ FUNCTION_BLOCK POST_Login_FB
 	
 	IF bEnable AND NOT bEnabled THEN
 		bEnabled	:= TRUE;
-		Ressource	:= '/auth/jwt/create';
+		Ressource	:= '/auth/jwt/create/';
 		RequestDataJson := CONCAT('{"username":"',username);
 		RequestDataJson := CONCAT(	RequestDataJson,'","password":"');
 		RequestDataJson := CONCAT(	RequestDataJson,password);
