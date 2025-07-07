@@ -30,7 +30,7 @@
     </EventBinding>
     <EventBinding id="EventBinding_5">
       <Source xsi:type="clientSystem.Event" event="DialogOpened" />
-      <EventHandler>
+      <EventHandler condition="dialogId=&quot;P202_Status_Popup_LR&quot;">
         <Action>
           <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
             <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />

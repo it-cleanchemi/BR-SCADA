@@ -32,5 +32,40 @@
         </Sequence>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Alarms_Active.Alarms_Active_PushButton_Up.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" event="Click" />
+      <Operand datatype="ANY_INT" name="GetAlarmIndx">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlrmIndx">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetAlarmIndx&gt;0">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="SelectedAlrmIndx">
+            <Method xsi:type="session.VariableAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Down" event="Click" />
+      <Operand datatype="ANY_INT" name="GetAlarmIndx">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlrmIndx">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <Operand datatype="ANY_INT" name="GetAlarmCount">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="AlarmCountActive">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetAlarmIndx&lt;GetAlarmCount">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="SelectedAlrmIndx">
+            <Method xsi:type="session.VariableAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

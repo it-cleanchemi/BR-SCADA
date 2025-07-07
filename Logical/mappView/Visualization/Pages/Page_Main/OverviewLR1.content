@@ -40,24 +40,26 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P104_PV" top="790" left="375" width="220" zIndex="86" unit="{'metric':'41','imperial':'41','imperial-us':'41'}" unitAlign="right" />
     <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart1" top="315" left="455" width="445" height="201" zIndex="87" autoscale="true" chartBorderColor="rgba(0, 0, 0, 1)" borderStyle="hidden">
       <Widgets>
-        <Widget xsi:type="widgets.brease.OnlineChartTimeAxis" id="OnlineChartTimeAxis1" height="30" zIndex="0" format="hh:mm:ss" timeSpan="300">
+        <Widget xsi:type="widgets.brease.OnlineChartTimeAxis" id="OnlineChartTimeAxis1" height="30" zIndex="0" format="hh:mm:ss" timeSpan="600">
           <Widgets />
         </Widget>
         <Widget xsi:type="widgets.brease.OnlineChartYAxis" id="OnlineChartYAxis1" zIndex="1">
           <Widgets>
             <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD101_CHART" zIndex="0" maxValue="190" minValue="90" xAxisRefId="OnlineChartTimeAxis1" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD101_CHARTTARGET" zIndex="1" maxValue="190" minValue="90" xAxisRefId="OnlineChartTimeAxis1" lineColor="rgba(0, 0, 255, 1)" />
           </Widgets>
         </Widget>
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.OnlineChart" id="OnlineChart2" top="555" left="455" width="448" height="203" zIndex="88" autoscale="true" borderStyle="hidden">
       <Widgets>
-        <Widget xsi:type="widgets.brease.OnlineChartTimeAxis" id="OnlineChartTimeAxis2" height="30" zIndex="0" format="hh:mm:ss" timeSpan="300">
+        <Widget xsi:type="widgets.brease.OnlineChartTimeAxis" id="OnlineChartTimeAxis2" height="30" zIndex="0" format="hh:mm:ss" timeSpan="600">
           <Widgets />
         </Widget>
         <Widget xsi:type="widgets.brease.OnlineChartYAxis" id="OnlineChartYAxis2" zIndex="1">
           <Widgets>
             <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD102_CHART" zIndex="0" maxValue="90" minValue="-10" xAxisRefId="OnlineChartTimeAxis2" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD102_CHARTTARGET" zIndex="1" maxValue="90" minValue="-10" xAxisRefId="OnlineChartTimeAxis2" lineColor="rgba(0, 0, 255, 1)" />
           </Widgets>
         </Widget>
       </Widgets>
@@ -108,11 +110,11 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="UNIT_ID_DOSE" top="90" left="60" zIndex="123" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput15" top="90" left="55" width="70" zIndex="124" value="Unit ID:" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle11" top="58" left="15" width="656" height="100" zIndex="12" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput23" top="295" left="485" width="80" zIndex="125" value="CD-101:" textAlign="center" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput16" top="295" left="675" width="70" zIndex="126" value="Target:" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput23" top="295" left="485" width="80" zIndex="125" value="CD-101:" textColor="rgba(255, 128, 0, 1)" textAlign="center" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput16" top="295" left="675" width="70" zIndex="126" value="Target:" textColor="rgba(0, 0, 255, 1)" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle12" top="285" left="475" width="445" height="220" zIndex="42" borderWidth="2px" backColor="rgba(255, 255, 255, 1)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput24" top="535" left="485" width="80" zIndex="127" value="CD-102:" textAlign="center" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput25" top="535" left="675" width="70" zIndex="128" value="Target:" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput24" top="535" left="485" width="80" zIndex="127" value="CD-102:" textColor="rgba(255, 128, 0, 1)" textAlign="center" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput25" top="535" left="675" width="70" zIndex="128" value="Target:" textColor="rgba(0, 0, 255, 1)" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle13" top="525" left="475" width="445" height="220" zIndex="43" borderWidth="2px" backColor="rgba(255, 255, 255, 1)" />
     <Widget xsi:type="widgets.brease.Image" id="Image15" top="245" left="673" width="60" height="40" zIndex="129" image="Media/Images/PT1.png" />
     <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="38" x1="241" x2="671" y1="189" y2="189" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />

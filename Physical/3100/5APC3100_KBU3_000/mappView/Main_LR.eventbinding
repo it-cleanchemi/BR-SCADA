@@ -12,8 +12,22 @@
       </EventHandler>
       <EventHandler>
         <Action>
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewLR1" widgetRefId="OnlineChart1">
+            <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD101_CHARTTARGET" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
           <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewLR1" widgetRefId="OnlineChart2">
             <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD102_CHART" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.OnlineChart.Action" contentRefId="OverviewLR1" widgetRefId="OnlineChart2">
+            <Method xsi:type="widgets.brease.OnlineChart.Action.GraphReset" id="CD102_CHARTTARGET" />
           </Target>
         </Action>
       </EventHandler>

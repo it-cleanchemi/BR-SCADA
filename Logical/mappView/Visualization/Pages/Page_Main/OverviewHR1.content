@@ -236,8 +236,8 @@
     <Widget xsi:type="widgets.brease.Image" id="P201_GREEN" top="210" left="1357" width="95" height="146" zIndex="219" image="Media/Images/P3G.png" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput49" top="105" left="175" width="70" zIndex="220" value="Mode:" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput52" top="65" left="535" zIndex="221" value="Screen Lock:" textAlign="center" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_LOCK" top="95" left="550" height="19" zIndex="222" text="LOCK" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
-    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_UNLOCK" top="120" left="550" height="19" zIndex="223" text="UNLOCK" permissionOperate="['Administrator_Role', 'CCI_Role', 'Control_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_LOCK" top="95" left="550" height="19" zIndex="222" text="LOCK" permissionOperate="['Administrator_Role', 'cci_admin', 'CCI_Role', 'cci_super', 'cci_user', 'Control_Role', 'cust_admin', 'cust_user', 'dist_admin', 'dist_user', 'Everyone', 'View_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_UNLOCK" top="120" left="550" height="19" zIndex="223" text="UNLOCK" permissionOperate="['Administrator_Role', 'cci_admin', 'CCI_Role', 'cci_super', 'cci_user', 'Control_Role', 'cust_admin', 'cust_user', 'dist_admin', 'dist_user', 'Everyone', 'View_Role']" />
     <Widget xsi:type="widgets.brease.Ellipse" id="Ellipse3" top="315" left="1053" width="20" height="20" zIndex="224" />
     <Widget xsi:type="widgets.brease.Ellipse" id="LSHH200" top="315" left="1053" width="20" height="20" zIndex="225" backColor="rgba(0, 150, 169, 1)" />
     <Widget xsi:type="widgets.brease.Ellipse" id="P102_LS" top="504" left="35" width="20" height="20" zIndex="226" backColor="rgba(0, 150, 169, 1)" />

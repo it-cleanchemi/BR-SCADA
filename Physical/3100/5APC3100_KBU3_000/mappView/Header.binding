@@ -32,7 +32,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[23]" />
 					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[24]" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="IPAddress_HR" attribute="value" />
 		</Binding>
 		
@@ -101,7 +101,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.HMI_REV_A" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.HMI_REV_A" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="HMI_REV_A_HR" attribute="value" />
 		</Binding>
 		
@@ -135,7 +135,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.HMI_REV_B" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.HMI_REV_B" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="HMI_REV_B_HR" attribute="value" />
 		</Binding>
 		
@@ -169,7 +169,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.PLC_REV_A" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.PLC_REV_A" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="PLC_REV_A_HR" attribute="value" />
 		</Binding>
 		
@@ -203,7 +203,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid_HR[23].Pmax_General_Variables.PLC_REV_B" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid_HR[24].Pmax_General_Variables.PLC_REV_B" />
 				</be:List>
-</Source>
+			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="PLC_REV_B_HR" attribute="value" />
 		</Binding>
 		

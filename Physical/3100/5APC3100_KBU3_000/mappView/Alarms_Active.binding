@@ -8,6 +8,12 @@
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
 		</Binding>
+		
+		<Binding mode="oneWayToSource">
+			<Source xsi:type="session" refId="AlarmCountActive" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.MaxSelection" attribute="value" />
+		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
@@ -22,21 +28,21 @@
 		</Binding>
 
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageDown" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Down" attribute="value" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.PageUp" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" attribute="value" />
-		</Binding>
+		
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.TableConfig" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="tableConfiguration" />
 		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="session" refId="SelectedAlrmIndx" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="selectedRow" />
 		</Binding>
-	</Bindings>
+		
+	<Binding mode="twoWay">
+<Source xsi:type="session" refId="SelectedAlrmHistoryIndx" attribute="value" />
+<Target xsi:type="brease" contentRefId="Alarms_History" widgetRefId="Alarms_History_Table" attribute="selectedRow" />
+</Binding>
+</Bindings>
 </BindingsSet>

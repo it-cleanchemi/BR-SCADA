@@ -9,7 +9,6 @@
       <Group ID="Memory">
         <Property ID="MemorySize" Value="5" />
         <Property ID="BufferSize" Value="1" />
-        <Property ID="MemoryType" Value="3" />
       </Group>
     </Group>
   </Element>
