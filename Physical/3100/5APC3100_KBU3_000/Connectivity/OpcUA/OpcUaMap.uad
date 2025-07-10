@@ -46,7 +46,10 @@
               <Variable Name="AckAllAlarms_Skid_HR" RecursiveEnable="2" />
               <Variable Name="AckAllAlarms_Skid_LR" RecursiveEnable="2" />
             </Variable>
-            <Variable Name="Out" />
+            <Variable Name="Out">
+              <Variable Name="SkidIPAddress_LR" RecursiveEnable="2" />
+              <Variable Name="SkidIPAddress_HR" RecursiveEnable="2" />
+            </Variable>
           </Variable>
           <Variable Name="Alarms">
             <Variable Name="Active">

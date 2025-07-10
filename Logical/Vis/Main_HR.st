@@ -5,7 +5,7 @@ ACTION Vis_Main_HR:
 		
 		gSkid_HR[IdxSkids_HR].BufferTank.LI200P := (gSkid_HR[IdxSkids_HR].BufferTank.LI200 / BT_VOLUME)*100;
 		
-		// VISIBILITY TRIGGER SETTING. NEEDS TO BE MOVED TO VIS PROGRAM AT SOME POINT
+		// VISIBILITY TRIGGER SETTING
 		
 		IF gSkid_HR[IdxSkids_HR].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
 			gSkid_HR[IdxSkids_HR].VisBool.LSHH200 := 1;
@@ -49,6 +49,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_PPM := 1;
 		END_IF;
 		
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA = 0 OR gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA = 8  THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_PPM := 0;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_PPM := 1;
+		END_IF;
+		
 		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_HOA = 8 THEN
 			gSkid_HR[IdxSkids_HR].VisBool.P201_SP := 1;
 		ELSE
@@ -67,24 +73,10 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_SP := 0;
 		END_IF;
 		
-		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_PTYPE = 0 THEN
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DDA := 1;
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DME := 0;	
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA = 8 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_SP := 1;
 		ELSE
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DDA := 0;
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DME := 1;
-		END_IF;
-		
-		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_PTYPE = 0 AND gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_XS = 1 THEN
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DDAGREEN := 1;
-		ELSE
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DDAGREEN := 0;
-		END_IF;
-		
-		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_PTYPE = 1 AND gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_XS = 1 THEN
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DMEGREEN := 1;
-		ELSE
-			gSkid_HR[IdxSkids_HR].VisBool.P201_DMEGREEN := 0;
+			gSkid_HR[IdxSkids_HR].VisBool.P204_SP := 0;
 		END_IF;
 		
 		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_ENABLE = 1 THEN
@@ -103,6 +95,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_ENABLE_OPP := 0;
 		ELSE
 			gSkid_HR[IdxSkids_HR].VisBool.P203_ENABLE_OPP := 1;
+		END_IF;
+		
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ENABLE = 1 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_ENABLE_OPP := 0;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_ENABLE_OPP := 1;
 		END_IF;
 		
 		IF gSkid_HR[IdxSkids_HR].Pmax_Pump_102.P102_WARN > 0 THEN
@@ -171,10 +169,22 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_WARN := 0;
 		END_IF;
 		
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_WARN > 0 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_WARN := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_WARN := 0;
+		END_IF;
+		
 		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_203.P203_ALARM > 0 THEN
 			gSkid_HR[IdxSkids_HR].VisBool.P203_ALARM := 1;
 		ELSE
 			gSkid_HR[IdxSkids_HR].VisBool.P203_ALARM := 0;
+		END_IF;	
+		
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ALARM > 0 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_ALARM := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_ALARM := 0;
 		END_IF;	
 		
 		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_ADJ = 1 AND gSkid_HR[IdxSkids_HR].VisBool.P201_PPM = 1 THEN
@@ -195,6 +205,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_APPM := 0;
 		END_IF;
 		
+		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ADJ = 1 AND gSkid_HR[IdxSkids_HR].VisBool.P204_PPM = 1 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_APPM := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_APPM := 0;
+		END_IF;
+		
 		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.FI301_MODE = 0 AND gSkid_HR[IdxSkids_HR].Pmax_General_Variables.SCREEN_LOCK = 1 THEN
 			gSkid_HR[IdxSkids_HR].VisBool.FI301_MODE_OPP := 1;
 		ELSE
@@ -213,6 +229,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.FI303_MODE_OPP := 0;
 		END_IF;
 		
+		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.FI304_MODE = 0 AND gSkid_HR[IdxSkids_HR].Pmax_General_Variables.SCREEN_LOCK = 1 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.FI304_MODE_OPP := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.FI304_MODE_OPP := 0;
+		END_IF;
+		
 		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.FI301_MODE = 1 AND gSkid_HR[IdxSkids_HR].Pmax_General_Variables.SCREEN_LOCK = 1 THEN
 			gSkid_HR[IdxSkids_HR].VisBool.FI301_MODE := 1;
 		ELSE
@@ -229,6 +251,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.FI303_MODE := 1;
 		ELSE
 			gSkid_HR[IdxSkids_HR].VisBool.FI303_MODE := 0;
+		END_IF;
+		
+		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.FI304_MODE = 1 AND gSkid_HR[IdxSkids_HR].Pmax_General_Variables.SCREEN_LOCK = 1 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.FI304_MODE := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.FI304_MODE := 0;
 		END_IF;
 
 		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.XV101 = 0 AND gSkid_HR[IdxSkids_HR].Sensor_Variables.XV101_ENABLE = 1 THEN
@@ -279,6 +307,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.XV203_OPP := 1;
 		END_IF;
 		
+		IF gSkid_HR[IdxSkids_HR].Sensor_Variables.XV204 = 1 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.XV204_OPP := 0;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.XV204_OPP := 1;
+		END_IF;
+		
 		IF gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_PTYPE = 1 THEN
 			gSkid_HR[IdxSkids_HR].VisBool.P201_PTYPE_OPP := 0;
 		ELSE
@@ -313,6 +347,12 @@ ACTION Vis_Main_HR:
 			gSkid_HR[IdxSkids_HR].VisBool.P203_MODE := 1;
 		ELSE
 			gSkid_HR[IdxSkids_HR].VisBool.P203_MODE := 0;
+		END_IF;
+		
+		IF gSkid_HR[IdxSkids_HR].Pmax_General_Variables.SCREEN_LOCK = 1 AND gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA = 8 THEN
+			gSkid_HR[IdxSkids_HR].VisBool.P204_MODE := 1;
+		ELSE
+			gSkid_HR[IdxSkids_HR].VisBool.P204_MODE := 0;
 		END_IF;
 		
 	END_FOR;

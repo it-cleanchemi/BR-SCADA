@@ -53,6 +53,8 @@
     <Group ID="FileDevice2" />
     <Parameter ID="FileDeviceName2" Value="USER_DEVICE_SIM" />
     <Parameter ID="FileDevicePath2" Value="..\..\..\..\USER_DEVICE\" />
+    <Parameter ID="TimeZone" Value="35" />
+    <Parameter ID="ActivateDaylightSavingTime" Value="1" />
     <Parameter ID="EthernetDefaultGateway" Value="172.16.1.62" />
     <Parameter ID="ActivateDns" Value="1" />
     <Parameter ID="DnsServer1" Value="8.8.8.8" />

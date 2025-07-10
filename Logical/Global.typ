@@ -120,6 +120,7 @@ TYPE
 	CMD_Type : 	STRUCT 
 		Stop : BOOL;
 		Start : BOOL;
+		Write_ESTOP : CMD_Write_ESTOP_Type;
 		Write_UNIT_ID : CMD_Write_UNIT_ID_Type;
 		Write_UNIT_ACK : CMD_Write_UNIT_ACK_Type;
 		Write_P203_STP_CMD : CMD_Write_P203_STP_CMD_Type;
@@ -175,16 +176,29 @@ TYPE
 		Write_XV201_OPEN_CMD : CMD_Write_XV201_OPEN_CMD_Type;
 		Write_XV202_OPEN_CMD : CMD_Write_XV202_OPEN_CMD_Type;
 		Write_XV203_OPEN_CMD : CMD_Write_XV203_OPEN_CMD_Type;
+		Write_XV204_OPEN_CMD : CMD_Write_XV204_OPEN_CMD_Type;
 		Write_RECALC_CMD : CMD_Write_RECALC_CMD_Type;
 		Write_TOTALIZER_RESET : CMD_Write_TOTALIZER_RESET_Type;
 		Write_AS_USER : CMD_Write_AS_USER_Type;
 		Write_AS_ACCESS : CMD_Write_AS_ACCESS_Type;
+		Write_P204_STP_CMD : CMD_Write_P204_STP_CMD_Type;
+		Write_P204_STRT_CMD : CMD_Write_P204_STRT_CMD_Type;
+		Write_P204_HOA : CMD_Write_P204_HOA_Type;
+		Write_P204_PPM : CMD_Write_P204_PPM_Type;
+		Write_P204_SP : CMD_Write_P204_SP_Type;
+		Write_FI304_SIM_CMD : CMD_Write_FI304_SIM_CMD_Type;
+		Write_FI304_MEA_CMD : CMD_Write_FI304_MEA_CMD_Type;
+		Write_FI304_SIM : CMD_Write_FI304_SIM_Type;
 	END_STRUCT;
 END_TYPE
 
 (*Misc. Write Commands*)
 
 TYPE
+	CMD_Write_ESTOP_Type : 	STRUCT 
+		wESTOP : UINT := 1;
+		Send : BOOL;
+	END_STRUCT;
 	CMD_Write_UNIT_ACK_Type : 	STRUCT 
 		wUNIT_ACK : UINT := 1;
 	END_STRUCT;
@@ -414,6 +428,35 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*P204 Write Commands*)
+
+TYPE
+	CMD_Write_P204_STP_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_STP_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P204_STRT_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_STRT_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_P204_SP_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_SP : REAL;
+		wP204_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P204_PPM_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_PPM : REAL;
+		wP204_PPM_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P204_HOA_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_HOA : UINT;
+		Cancel : BOOL;
+		wP204_HOA_String : STRING[80];
+	END_STRUCT;
+END_TYPE
+
 (*UID Write Command*)
 
 TYPE
@@ -477,6 +520,24 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*FI304 Write Commands*)
+
+TYPE
+	CMD_Write_FI304_SIM_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI304_SIM_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI304_MEA_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wFI304_MEA_CMD : UINT := 1;
+	END_STRUCT;
+	CMD_Write_FI304_SIM_Type : 	STRUCT 
+		Send : BOOL;
+		wFI304_SIM : REAL;
+		wFI304_SIM_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
 (*XV101 Solenoid Commands*)
 
 TYPE
@@ -537,6 +598,15 @@ TYPE
 	CMD_Write_XV203_OPEN_CMD_Type : 	STRUCT 
 		Send : BOOL;
 		wXV203_OPEN_CMD : UINT := 1;
+	END_STRUCT;
+END_TYPE
+
+(*XV204 Solenoid Commands*)
+
+TYPE
+	CMD_Write_XV204_OPEN_CMD_Type : 	STRUCT 
+		Send : BOOL;
+		wXV204_OPEN_CMD : UINT := 1;
 	END_STRUCT;
 END_TYPE
 
@@ -625,6 +695,8 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		P204_WARN : BOOL;
+		P204_ALARM : BOOL;
 		P203_WARN : BOOL;
 		P203_ALARM : BOOL;
 		P202_WARN : BOOL;
@@ -640,15 +712,18 @@ TYPE
 		P102_LS : BOOL;
 		P103_LS : BOOL;
 		LSHH200 : BOOL;
+		P204_ENABLE_OPP : BOOL;
 		P203_ENABLE_OPP : BOOL;
 		P202_ENABLE_OPP : BOOL;
 		P201_ENABLE_OPP : BOOL;
 		P201_SP : BOOL;
 		P202_SP : BOOL;
 		P203_SP : BOOL;
+		P204_SP : BOOL;
 		P201_PPM : BOOL;
 		P202_PPM : BOOL;
 		P203_PPM : BOOL;
+		P204_PPM : BOOL;
 		PMAX_MANUAL : BOOL;
 		P201_DDAGREEN : BOOL;
 		P201_DDA : BOOL;
@@ -657,12 +732,15 @@ TYPE
 		P201_APPM : BOOL;
 		P202_APPM : BOOL;
 		P203_APPM : BOOL;
+		P204_APPM : BOOL;
+		FI304_MODE : BOOL;
 		FI303_MODE : BOOL;
 		FI302_MODE : BOOL;
 		FI301_MODE : BOOL;
 		FI301_MODE_OPP : BOOL;
 		FI302_MODE_OPP : BOOL;
 		FI303_MODE_OPP : BOOL;
+		FI304_MODE_OPP : BOOL;
 		XV101 : BOOL;
 		XV101_OPP : BOOL;
 		XV102_OPP : BOOL;
@@ -671,6 +749,7 @@ TYPE
 		XV201_OPP : BOOL;
 		XV202_OPP : BOOL;
 		XV203_OPP : BOOL;
+		XV204_OPP : BOOL;
 		P201_PTYPE_OPP : BOOL;
 		P101_MODE : BOOL;
 		P102_MODE : BOOL;
@@ -679,6 +758,7 @@ TYPE
 		P201_MODE : BOOL;
 		P202_MODE : BOOL;
 		P203_MODE : BOOL;
+		P204_MODE : BOOL;
 		HR_TYPE : BOOL;
 		LR_TYPE : BOOL;
 	END_STRUCT;
@@ -724,6 +804,7 @@ TYPE
 		XV201 : UINT; (*P201 Off Gas Solenoid Valve*)
 		XV202 : UINT; (*P202 Off Gas Solenoid Valve*)
 		XV203 : UINT; (*P203 Off Gas Solenoid Valve*)
+		XV204 : UINT; (*P204 Off Gas Solenoid Valve*)
 	END_STRUCT;
 END_TYPE
 
@@ -969,6 +1050,12 @@ TYPE
 		P204_REF_SENSOR : REAL; (*Pump 204 Reference Sensor*)
 		P204_LS : REAL; (*Pump 204 Inlet Point Level*)
 		P204_PPI : REAL; (*Pump 204 Internal Pressure*)
+		P204_ASP : REAL; (*Pump 204 Adjusted Setpoint Value*)
+		P204_ADJ : UINT; (*Pump 204 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P204_ALARM : UINT; (*Pump 204 Internal Alarm Message Index*)
+		P204_WARN : UINT; (*Pump 204 Internal Warning Message Index*)
+		P204_ENABLE : UINT; (*Pump 204 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P204_TEXT : STRING[80]; (*Pump 204 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_205_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 205*)
 		P205_XS : UINT; (*Pump 205 On/Off Status*)
@@ -988,6 +1075,12 @@ TYPE
 		P205_REF_SENSOR : REAL; (*Pump 205 Reference Sensor*)
 		P205_LS : REAL; (*Pump 205 Inlet Point Level*)
 		P205_PPI : REAL; (*Pump 205 Internal Pressure*)
+		P205_ASP : REAL; (*Pump 205 Adjusted Setpoint Value*)
+		P205_ADJ : UINT; (*Pump 205 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P205_ALARM : UINT; (*Pump 205 Internal Alarm Message Index*)
+		P205_WARN : UINT; (*Pump 205 Internal Warning Message Index*)
+		P205_ENABLE : UINT; (*Pump 205 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P205_TEXT : STRING[80]; (*Pump 205 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_206_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 206*)
 		P206_XS : UINT; (*Pump 206 On/Off Status*)
@@ -1007,6 +1100,12 @@ TYPE
 		P206_REF_SENSOR : REAL; (*Pump 206 Reference Sensor*)
 		P206_LS : REAL; (*Pump 206 Inlet Point Level*)
 		P206_PPI : REAL; (*Pump 206 Internal Pressure*)
+		P206_ASP : REAL; (*Pump 206 Adjusted Setpoint Value*)
+		P206_ADJ : UINT; (*Pump 206 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P206_ALARM : UINT; (*Pump 206 Internal Alarm Message Index*)
+		P206_WARN : UINT; (*Pump 206 Internal Warning Message Index*)
+		P206_ENABLE : UINT; (*Pump 206 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P206_TEXT : STRING[80]; (*Pump 206 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_207_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 207*)
 		P207_XS : UINT; (*Pump 207 On/Off Status*)
@@ -1026,6 +1125,12 @@ TYPE
 		P207_REF_SENSOR : REAL; (*Pump 207 Reference Sensor*)
 		P207_LS : REAL; (*Pump 207 Inlet Point Level*)
 		P207_PPI : REAL; (*Pump 207 Internal Pressure*)
+		P207_ASP : REAL; (*Pump 203 Adjusted Setpoint Value*)
+		P207_ADJ : UINT; (*Pump 207 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P207_ALARM : UINT; (*Pump 207 Internal Alarm Message Index*)
+		P207_WARN : UINT; (*Pump 207 Internal Warning Message Index*)
+		P207_ENABLE : UINT; (*Pump 207 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P207_TEXT : STRING[80]; (*Pump 207 HMI Text Input Description*)
 	END_STRUCT;
 	Dosing_Pump_208_Type : 	STRUCT  (*Dosing Pump Variables for Dosing Pump 208*)
 		P208_XS : UINT; (*Pump 208 On/Off Status*)
@@ -1045,6 +1150,12 @@ TYPE
 		P208_REF_SENSOR : REAL; (*Pump 208 Reference Sensor*)
 		P208_LS : REAL; (*Pump 208 Inlet Point Level*)
 		P208_PPI : REAL; (*Pump 208 Internal Pressure*)
+		P208_ASP : REAL; (*Pump 208 Adjusted Setpoint Value*)
+		P208_ADJ : UINT; (*Pump 208 Adjusted Max SP Condition Present  0 = Hidden   1 = Visible*)
+		P208_ALARM : UINT; (*Pump 208 Internal Alarm Message Index*)
+		P208_WARN : UINT; (*Pump 208 Internal Warning Message Index*)
+		P208_ENABLE : UINT; (*Pump 208 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		P208_TEXT : STRING[80]; (*Pump 208 HMI Text Input Description*)
 	END_STRUCT;
 END_TYPE
 

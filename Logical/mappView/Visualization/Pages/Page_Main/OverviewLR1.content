@@ -46,7 +46,7 @@
         <Widget xsi:type="widgets.brease.OnlineChartYAxis" id="OnlineChartYAxis1" zIndex="1">
           <Widgets>
             <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD101_CHART" zIndex="0" maxValue="190" minValue="90" xAxisRefId="OnlineChartTimeAxis1" />
-            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD101_CHARTTARGET" zIndex="1" maxValue="190" minValue="90" xAxisRefId="OnlineChartTimeAxis1" lineColor="rgba(0, 0, 255, 1)" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD101_CHARTTARGET" zIndex="1" maxValue="190" minValue="90" xAxisRefId="OnlineChartTimeAxis1" lineColor="rgba(0, 0, 0, 1)" />
           </Widgets>
         </Widget>
       </Widgets>
@@ -59,7 +59,7 @@
         <Widget xsi:type="widgets.brease.OnlineChartYAxis" id="OnlineChartYAxis2" zIndex="1">
           <Widgets>
             <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD102_CHART" zIndex="0" maxValue="90" minValue="-10" xAxisRefId="OnlineChartTimeAxis2" />
-            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD102_CHARTTARGET" zIndex="1" maxValue="90" minValue="-10" xAxisRefId="OnlineChartTimeAxis2" lineColor="rgba(0, 0, 255, 1)" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="CD102_CHARTTARGET" zIndex="1" maxValue="90" minValue="-10" xAxisRefId="OnlineChartTimeAxis2" lineColor="rgba(0, 0, 0, 1)" />
           </Widgets>
         </Widget>
       </Widgets>
@@ -110,11 +110,11 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="UNIT_ID_DOSE" top="90" left="60" zIndex="123" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput15" top="90" left="55" width="70" zIndex="124" value="Unit ID:" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle11" top="58" left="15" width="656" height="100" zIndex="12" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput23" top="295" left="485" width="80" zIndex="125" value="CD-101:" textColor="rgba(255, 128, 0, 1)" textAlign="center" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput16" top="295" left="675" width="70" zIndex="126" value="Target:" textColor="rgba(0, 0, 255, 1)" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput23" top="295" left="485" width="80" zIndex="125" value="CD-101:" textColor="rgba(71, 71, 71, 1)" textAlign="center" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput16" top="295" left="675" width="70" zIndex="126" value="Target:" textColor="rgba(71, 71, 71, 1)" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle12" top="285" left="475" width="445" height="220" zIndex="42" borderWidth="2px" backColor="rgba(255, 255, 255, 1)" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput24" top="535" left="485" width="80" zIndex="127" value="CD-102:" textColor="rgba(255, 128, 0, 1)" textAlign="center" fontSize="20px" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput25" top="535" left="675" width="70" zIndex="128" value="Target:" textColor="rgba(0, 0, 255, 1)" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput24" top="535" left="485" width="80" zIndex="127" value="CD-102:" textColor="rgba(71, 71, 71, 1)" textAlign="center" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput25" top="535" left="675" width="70" zIndex="128" value="Target:" textColor="rgba(71, 71, 71, 1)" textAlign="center" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle13" top="525" left="475" width="445" height="220" zIndex="43" borderWidth="2px" backColor="rgba(255, 255, 255, 1)" />
     <Widget xsi:type="widgets.brease.Image" id="Image15" top="245" left="673" width="60" height="40" zIndex="129" image="Media/Images/PT1.png" />
     <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="38" x1="241" x2="671" y1="189" y2="189" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" />
@@ -343,8 +343,8 @@
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput50" top="20" left="0" width="240" zIndex="314" value="PLC Program Rev:" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput51" top="20" left="1480" width="240" zIndex="315" value="Local Operator User ID:" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput54" top="20" left="280" width="240" zIndex="316" value="HMI Program Rev:" />
-    <Widget xsi:type="widgets.brease.TextOutput" id="IPAddress_LR" top="20" left="1300" width="180" zIndex="317" textAlign="center" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID_LR" top="20" left="1620" zIndex="322" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="IPAddress_LR" top="20" left="1330" width="180" zIndex="317" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID_LR" top="20" left="1630" zIndex="322" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_A_LR" top="20" left="450" width="80" zIndex="321" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_B_LR" top="20" left="480" zIndex="318" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_A_LR" top="20" left="150" zIndex="319" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />

@@ -13,5 +13,6 @@
     <Object Type="Package">P203_Status_Popup_HR</Object>
     <Object Type="Package">PM_Status_Popup_HR</Object>
     <Object Type="Package">PM_Settings_Popup_HR</Object>
+    <Object Type="Package">P204_Status_Popup_HR</Object>
   </Objects>
 </Package>

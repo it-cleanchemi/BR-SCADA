@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BindingsSet id="binding_0" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<BindingsSet id="Header_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value" >				
-					<bt:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[0]" />
-					<bt:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[1]" />
-					<bt:Element index="2" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[2]" />
-					<bt:Element index="3" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[3]" />
-					<bt:Element index="4" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[4]" />
-					<bt:Element index="5" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[5]" />
-					<bt:Element index="6" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[6]" />
-					<bt:Element index="7" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[7]" />
-					<bt:Element index="8" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[8]" />
-					<bt:Element index="9" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[9]" />
-					<bt:Element index="10" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[10]" />
-					<bt:Element index="11" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[11]" />
-					<bt:Element index="12" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[12]" />
-					<bt:Element index="13" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[13]" />
-					<bt:Element index="14" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[14]" />
-					<bt:Element index="15" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[15]" />
-					<bt:Element index="16" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[16]" />
-					<bt:Element index="17" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[17]" />
-					<bt:Element index="18" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[18]" />
-					<bt:Element index="19" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[19]" />
-					<bt:Element index="20" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[20]" />
-					<bt:Element index="21" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[21]" />
-					<bt:Element index="22" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[22]" />
-					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[23]" />
-					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[24]" />
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[0]" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[1]" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[2]" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[3]" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[4]" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[5]" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[6]" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[7]" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[8]" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[9]" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[10]" />
+					<bt:Element index="11" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[11]" />
+					<bt:Element index="12" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[12]" />
+					<bt:Element index="13" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[13]" />
+					<bt:Element index="14" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[14]" />
+					<bt:Element index="15" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[15]" />
+					<bt:Element index="16" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[16]" />
+					<bt:Element index="17" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[17]" />
+					<bt:Element index="18" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[18]" />
+					<bt:Element index="19" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[19]" />
+					<bt:Element index="20" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[20]" />
+					<bt:Element index="21" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[21]" />
+					<bt:Element index="22" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[22]" />
+					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[23]" />
+					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_HR[24]" />
 				</be:List>
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="IPAddress_HR" attribute="value" />
@@ -40,31 +40,31 @@
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[0]" />
-					<bt:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[1]" />
-					<bt:Element index="2" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[2]" />
-					<bt:Element index="3" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[3]" />
-					<bt:Element index="4" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[4]" />
-					<bt:Element index="5" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[5]" />
-					<bt:Element index="6" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[6]" />
-					<bt:Element index="7" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[7]" />
-					<bt:Element index="8" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[8]" />
-					<bt:Element index="9" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[9]" />
-					<bt:Element index="10" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[10]" />
-					<bt:Element index="11" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[11]" />
-					<bt:Element index="12" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[12]" />
-					<bt:Element index="13" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[13]" />
-					<bt:Element index="14" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[14]" />
-					<bt:Element index="15" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[15]" />
-					<bt:Element index="16" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[16]" />
-					<bt:Element index="17" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[17]" />
-					<bt:Element index="18" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[18]" />
-					<bt:Element index="19" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[19]" />
-					<bt:Element index="20" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[20]" />
-					<bt:Element index="21" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[21]" />
-					<bt:Element index="22" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[22]" />
-					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[23]" />
-					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress[24]" />
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[0]" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[1]" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[2]" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[3]" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[4]" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[5]" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[6]" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[7]" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[8]" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[9]" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[10]" />
+					<bt:Element index="11" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[11]" />
+					<bt:Element index="12" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[12]" />
+					<bt:Element index="13" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[13]" />
+					<bt:Element index="14" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[14]" />
+					<bt:Element index="15" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[15]" />
+					<bt:Element index="16" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[16]" />
+					<bt:Element index="17" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[17]" />
+					<bt:Element index="18" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[18]" />
+					<bt:Element index="19" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[19]" />
+					<bt:Element index="20" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[20]" />
+					<bt:Element index="21" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[21]" />
+					<bt:Element index="22" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[22]" />
+					<bt:Element index="23" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[23]" />
+					<bt:Element index="24" refId="::AsGlobalPV:gVis.Main.Out.SkidIPAddress_LR[24]" />
 				</be:List>
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="IPAddress_LR" attribute="value" />

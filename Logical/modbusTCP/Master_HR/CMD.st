@@ -396,8 +396,73 @@ ACTION Modbus_CMD_action:
 		gCMD_HR[IdxSkids_HR].Write_TOTALIZER_RESET.Send := FALSE;
 	END_IF;
 	
-
+	// AS Block 72 - RECALC_CMD - Sends With Changes to Settings Above
 	
+	// AS Block 73 - ESTOP
+	IF gCMD_HR[IdxSkids_HR].Write_ESTOP.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[72].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_ESTOP.Send := FALSE;
+	END_IF;
+
+	// AS Block 74 - P204_STRT_CMD
+	IF gCMD_HR[IdxSkids_HR].Write_P204_STRT_CMD.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[73].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_P204_STRT_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 75 - P204_STP_CMD
+	IF gCMD_HR[IdxSkids_HR].Write_P204_STP_CMD.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[74].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_P204_STP_CMD.Send := FALSE;
+	END_IF;	
+
+	// AS Block 76 - P204_HOA
+	IF gCMD_HR[IdxSkids_HR].Write_P204_HOA.Send THEN
+		gCMD_HR[IdxSkids_HR].Write_P204_HOA.wP204_HOA := STRING_TO_UINT(gCMD_HR[IdxSkids_HR].Write_P204_HOA.wP204_HOA_String);
+		MasterConfig_HR[IdxSkids_HR].action_enable[75].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_P204_HOA.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCMD_HR[IdxSkids_HR].Write_P204_HOA.wP204_HOA_String := UINT_TO_STRING(gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA);
+	END_IF;
+	
+	// AS Block 77 - P204_PPM
+	IF gCMD_HR[IdxSkids_HR].Write_P204_PPM.Send THEN
+		gCMD_HR[IdxSkids_HR].Write_P204_PPM.wP204_PPM_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_P204_PPM.wP204_PPM);
+		MasterConfig_HR[IdxSkids_HR].action_enable[76].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_P204_PPM.Send := FALSE;
+	END_IF;
+	
+	// AS Block 78 - P204_SP
+	IF gCMD_HR[IdxSkids_HR].Write_P204_SP.Send THEN
+		gCMD_HR[IdxSkids_HR].Write_P204_SP.wP204_SP_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_P204_SP.wP204_SP);
+		MasterConfig_HR[IdxSkids_HR].action_enable[77].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_P204_SP.Send := FALSE;
+	END_IF;	
+
+	// AS Block 79 - FI304_SIM_CMD
+	IF gCMD_HR[IdxSkids_HR].Write_FI304_SIM_CMD.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[78].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_FI304_SIM_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 80 - FI304_MEA_CMD
+	IF gCMD_HR[IdxSkids_HR].Write_FI304_MEA_CMD.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[79].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_FI304_MEA_CMD.Send := FALSE;
+	END_IF;
+	
+	// AS Block 81 - FI304_SIM
+	IF gCMD_HR[IdxSkids_HR].Write_FI304_SIM.Send THEN
+		gCMD_HR[IdxSkids_HR].Write_FI304_SIM.wFI304_SIM_SWAPPED := IDEC_REAL_Conv(gCMD_HR[IdxSkids_HR].Write_FI304_SIM.wFI304_SIM);
+		MasterConfig_HR[IdxSkids_HR].action_enable[80].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_FI304_SIM.Send := FALSE;
+	END_IF;
+	
+	// AS Block 82 - XV204_OPEN_CMD
+	IF gCMD_HR[IdxSkids_HR].Write_XV204_OPEN_CMD.Send THEN
+		MasterConfig_HR[IdxSkids_HR].action_enable[81].single := TRUE;
+		gCMD_HR[IdxSkids_HR].Write_XV204_OPEN_CMD.Send := FALSE;
+	END_IF;	
 
 	
 END_ACTION

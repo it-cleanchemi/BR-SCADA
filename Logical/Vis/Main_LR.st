@@ -5,7 +5,7 @@ ACTION Vis_Main_LR:
 		
 		gSkid_LR[IdxSkids_LR].BufferTank.LI200P := (gSkid_LR[IdxSkids_LR].BufferTank.LI200 / BT_VOLUME)*100;
 		
-		// VISIBILITY TRIGGER SETTING. NEEDS TO BE MOVED TO VIS PROGRAM AT SOME POINT
+		// VISIBILITY TRIGGER SETTING
 		
 		IF gSkid_LR[IdxSkids_LR].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
 			gSkid_LR[IdxSkids_LR].VisBool.LSHH200 := 1;
@@ -141,13 +141,13 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P104_ALARM := 0;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_WARN > 0 THEN
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_WARN > 0 AND gSkid_LR[IdxSkids_LR].VisBool.P201_DME = 0 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P201_WARN := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.P201_WARN := 0;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_ALARM > 0 THEN
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_ALARM > 0 AND gSkid_LR[IdxSkids_LR].VisBool.P201_DME = 0  THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P201_ALARM := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.P201_ALARM := 0;

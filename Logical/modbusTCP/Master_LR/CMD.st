@@ -396,6 +396,14 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_TOTALIZER_RESET.Send := FALSE;
 	END_IF;
 	
+	// AS Block 72 - RECALC_CMD - Sends With Changes to Settings Above
+	
+	// AS Block 73 - ESTOP
+	IF gCMD_LR[IdxSkids_LR].Write_ESTOP.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[72].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ESTOP.Send := FALSE;
+	END_IF;
+	
 
 	
 

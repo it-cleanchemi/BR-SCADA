@@ -170,6 +170,11 @@ ACTION Modbus_Status_action:
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_XS := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[80];
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_HOA := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[82];
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_CHEM := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[84];
+	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ENABLE := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[86];
+	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ADJ := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[88];
+	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_WARN := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[90];
+	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ALARM := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[92];
+	gSkid_HR[IdxSkids_HR].Sensor_Variables.XV204 := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[94];
 	
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_205.P205_XS := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[104];
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_205.P205_HOA := gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block6_Int[106];
@@ -260,7 +265,7 @@ ACTION Modbus_Status_action:
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_PFQ := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[5]);
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_PPI := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[6]);
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_LS := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[7]);
-	
+	gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_ASP := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[8]);
 	
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_205.P205_REF_SENSOR := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[13]);
 	gSkid_HR[IdxSkids_HR].Dosing_Pump_205.P205_CONC := IDEC_REAL_Conv(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block9_Real[14]);
@@ -363,6 +368,6 @@ ACTION Modbus_Status_action:
 	IDEC_String(ADR(gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_TEXT),ADR(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block61_Int[0]),SIZEOF(gSkid_HR[IdxSkids_HR].Dosing_Pump_201.P201_TEXT),27);
 	IDEC_String(ADR(gSkid_HR[IdxSkids_HR].Dosing_Pump_202.P202_TEXT),ADR(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block61_Int[28]),SIZEOF(gSkid_HR[IdxSkids_HR].Dosing_Pump_202.P202_TEXT),27);
 	IDEC_String(ADR(gSkid_HR[IdxSkids_HR].Dosing_Pump_203.P203_TEXT),ADR(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block61_Int[56]),SIZEOF(gSkid_HR[IdxSkids_HR].Dosing_Pump_203.P203_TEXT),27);
-	
+	IDEC_String(ADR(gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_TEXT),ADR(gModbus_HR[IdxSkids_HR].Modbus_Dosing.Block61_Int[84]),SIZEOF(gSkid_HR[IdxSkids_HR].Dosing_Pump_204.P204_TEXT),27);
 	
 END_ACTION

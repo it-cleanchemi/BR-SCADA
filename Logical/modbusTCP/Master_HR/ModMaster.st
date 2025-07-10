@@ -670,9 +670,96 @@ PROGRAM _INIT
 		MasterConfig_HR[IdxSkids_HR].action_param[71].start_addr := 1000;// Read from this modbus address 
 		MasterConfig_HR[IdxSkids_HR].action_param[71].timer := 2;// Refresh timer for this item 
 		MasterConfig_HR[IdxSkids_HR].action_param[71].type := 6;// Function code for this item (2 := read discrete inputs)
+	
+		// AS Block 73 - ESTOP
+		MasterConfig_HR[IdxSkids_HR].action_enable[72].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_ESTOP.wESTOP);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].start_addr := 0;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[72].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 74 - P204_STRT_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[73].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_P204_STRT_CMD.wP204_STRT_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].start_addr := 24020;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[73].type := 6;// Function code for this item (2 := read discrete inputs)
 
+		// AS Block 75 - P204_STP_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[74].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_P204_STP_CMD.wP204_STP_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].start_addr := 24022;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[74].type := 6;// Function code for this item (2 := read discrete inputs)
 
+		// AS Block 76 - P204_HOA
+		MasterConfig_HR[IdxSkids_HR].action_enable[75].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_P204_HOA.wP204_HOA);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].start_addr := 24010;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[75].type := 6;// Function code for this item (2 := read discrete inputs)
 
+		// AS Block 77 - P204_PPM
+		MasterConfig_HR[IdxSkids_HR].action_enable[76].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_P204_PPM.wP204_PPM_SWAPPED);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].quantity := 2;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].start_addr := 24140;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[76].type := 16;// Function code for this item (2 := read discrete inputs)
+
+		// AS Block 78 - P204_SP
+		MasterConfig_HR[IdxSkids_HR].action_enable[77].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_P204_SP.wP204_SP_SWAPPED);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].quantity := 2;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].start_addr := 24100;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[77].type := 16;// Function code for this item (2 := read discrete inputs)
+	
+		// AS Block 79 - FI304_SIM_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[78].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_FI304_SIM_CMD.wFI304_SIM_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].start_addr := 30422;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[78].type := 6;// Function code for this item (2 := read discrete inputs)
+
+		// AS Block 80 - FI304_MEA_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[79].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_FI304_MEA_CMD.wFI304_MEA_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].start_addr := 30424;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[79].type := 6;// Function code for this item (2 := read discrete inputs)
+
+		// AS Block 81 - FI304_SIM
+		MasterConfig_HR[IdxSkids_HR].action_enable[80].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_FI304_SIM.wFI304_SIM_SWAPPED);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].quantity := 2;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].start_addr := 30420;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[80].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 82 - XV204_OPEN_CMD
+		MasterConfig_HR[IdxSkids_HR].action_enable[81].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].p_pv:= ADR(gCMD_HR[IdxSkids_HR].Write_XV204_OPEN_CMD.wXV204_OPEN_CMD);// Store data in this variable 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].quantity := 1;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].start_addr := 24012;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].timer := 2;// Refresh timer for this item 
+		MasterConfig_HR[IdxSkids_HR].action_param[81].type := 6;// Function code for this item (2 := read discrete inputs)
 
 		// --------------------------------------------------------------------
 		// FOR Modbus Read/Write

@@ -670,6 +670,15 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[71].start_addr := 1000;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[71].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[71].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 73 - ESTOP
+		MasterConfig_LR[IdxSkids_LR].action_enable[72].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ESTOP.wESTOP);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].start_addr := 0;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[72].type := 6;// Function code for this item (2 := read discrete inputs)
 
 		// --------------------------------------------------------------------
 		// FOR Modbus Read/Write
