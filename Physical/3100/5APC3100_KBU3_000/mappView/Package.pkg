@@ -32,6 +32,7 @@
     <Object Type="File">P201_Status_Content_HR.eventbinding</Object>
     <Object Type="File">P202_Status_Content_HR.eventbinding</Object>
     <Object Type="File">P203_Status_Content_HR.eventbinding</Object>
+    <Object Type="File">P204_Status_Content_HR.eventbinding</Object>
     <Object Type="File">PM_Status_Content_HR.eventbinding</Object>
     <Object Type="File">PM_Settings_Content_HR.eventbinding</Object>
   </Objects>

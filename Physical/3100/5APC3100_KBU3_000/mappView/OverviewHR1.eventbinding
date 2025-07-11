@@ -31,6 +31,16 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_17">
+      <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput58" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P204_Status_Popup_HR" horizontalPos="1280px" verticalPos="620px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
     <EventBinding id="EventBinding_77">
       <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewHR1" widgetRefId="TextOutput37" event="Click" />
       <EventHandler>

@@ -44,6 +44,7 @@
     <EventBindingsSet refId="PM_Settings_Content_HR_eventbinding" />
     <EventBindingsSet refId="PM_Status_Content_HR_eventbinding" />
     <EventBindingsSet refId="Alarms_History_eventbinding" />
+    <EventBindingsSet refId="P204_Status_Content_HR_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />
