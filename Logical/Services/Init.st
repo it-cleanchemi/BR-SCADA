@@ -6,5 +6,5 @@ PROGRAM _INIT
 	ELSE
 		gServices.DeviceName :=  'USER_DEVICE';
 	END_IF;
-	 
+	
 END_PROGRAM

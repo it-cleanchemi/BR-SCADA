@@ -91,7 +91,6 @@ ACTION Services_Alarms_action:
 			gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] := FALSE;
 			
 			gServices.Alarms.Internal.Alarm_Set_Delay_LR[IdxSkids_LR].IN := TRUE;
-			
 		END_IF;
 		
 		IF gServices.Alarms.Internal.Alarm_Set_Delay_LR[IdxSkids_LR].Q THEN
