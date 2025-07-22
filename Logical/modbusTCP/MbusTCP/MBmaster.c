@@ -247,7 +247,6 @@ void MBmaster(struct MBmaster* inst)
 				TcpRecv(&inst->internal.tcp_receive);
 				// ---------------------------------------------------------------------------------- 
 				// Success 	
-				// The moisties were here
 				if(inst->internal.tcp_receive.status == 0)
 				{
 					if(inst->internal.tcp_receive.recvlen != 0)

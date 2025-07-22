@@ -761,6 +761,7 @@ TYPE
 		P204_MODE : BOOL;
 		HR_TYPE : BOOL;
 		LR_TYPE : BOOL;
+		IOSTATUS : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -787,6 +788,7 @@ TYPE
 		FI304 : REAL; (*Flowmeter 4 Reading*)
 		FI304_QT : REAL; (*Totalized Flowmeter 4*)
 		FI304_MODE : UINT; (*FI304 Mode 0 = Measure  1 = Simulation*)
+		CD101_BUFFER : ARRAY[0..599]OF REAL; (*Current Transducer 101 Data Buffer*)
 		CD101 : REAL; (*Current Transducer 101*)
 		CD101_SP : REAL; (*Current Transducer 101 Setpoint*)
 		CD102 : REAL; (*Current Transducer 102*)

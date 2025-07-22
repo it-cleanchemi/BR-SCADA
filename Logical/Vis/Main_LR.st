@@ -315,6 +315,12 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P203_MODE := 0;
 		END_IF;
 		
+		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID_DOSE = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.IOSTATUS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.IOSTATUS := 0;
+		END_IF;
+		
 	END_FOR;
 
 END_ACTION

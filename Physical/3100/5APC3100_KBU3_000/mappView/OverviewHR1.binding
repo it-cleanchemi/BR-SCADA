@@ -11906,5 +11906,6 @@
 			<Target xsi:type="brease" contentRefId="OverviewHR1" widgetRefId="USER_ID_HR" attribute="value" />
 		</Binding>
 		
-	</Bindings>
+	
+</Bindings>
 </BindingsSet>

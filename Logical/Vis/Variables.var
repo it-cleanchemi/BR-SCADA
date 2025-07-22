@@ -1,4 +1,7 @@
 VAR
+	sampleTrigger : BOOL;
+	samplingTimer : TON;
+	bufferIndex : INT;
 	SkidNumberINT : STRING[5];
 	Idx_AlarmList : INT;
 	API_Login_FB_0 : API_Login_FB;

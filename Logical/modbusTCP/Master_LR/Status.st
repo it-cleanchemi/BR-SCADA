@@ -2,6 +2,11 @@
 ACTION Modbus_Status_action: 
 	
 	ModbusTcpMaster_LR[IdxSkids_LR]();
+	
+	//Reset Modbus buffer on connection timeout
+	IF ModbusTcpMaster_LR[IdxSkids_LR].status = 50211 THEN
+		brsmemset(ADR(gModbus_LR[IdxSkids_LR]),0,SIZEOF(gModbus_LR[IdxSkids_LR]));
+	END_IF;
 			
 	// --------------------------------------------------------------------
 	// Reset last error information
@@ -364,5 +369,7 @@ ACTION Modbus_Status_action:
 	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_TEXT),ADR(gModbus_LR[IdxSkids_LR].Modbus_Dosing.Block61_Int[28]),SIZEOF(gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_TEXT),27);
 	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_TEXT),ADR(gModbus_LR[IdxSkids_LR].Modbus_Dosing.Block61_Int[56]),SIZEOF(gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_TEXT),27);
 	
+	
+
 	
 END_ACTION

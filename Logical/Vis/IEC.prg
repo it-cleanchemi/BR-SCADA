@@ -11,5 +11,6 @@
     <File>Login_User_API.st</File>
     <File>Main_LR.st</File>
     <File>Main_HR.st</File>
+    <File>Chart_Buffer.st</File>
   </Files>
 </Program>

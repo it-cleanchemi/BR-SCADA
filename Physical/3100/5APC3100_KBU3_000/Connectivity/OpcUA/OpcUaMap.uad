@@ -66,7 +66,14 @@
             <Variable Name="AddData[3]" />
           </Variable>
         </Variable>
-        <Variable Name="gSkid_LR" RecursiveEnable="2" />
+        <Variable Name="gSkid_LR" RecursiveEnable="2">
+          <VariableCommon Name="Common Properties">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
+              <Variable Name="CD101_SP" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
+            </Variable>
+          </VariableCommon>
+        </Variable>
         <Variable Name="gSkid_HR" RecursiveEnable="2" />
         <Variable Name="gCMD_HR" RecursiveEnable="2" />
         <Variable Name="gCMD_LR" RecursiveEnable="2" />

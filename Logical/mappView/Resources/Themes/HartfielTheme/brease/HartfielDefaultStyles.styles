@@ -1326,5 +1326,14 @@
 		fontSize="14px"
 		shadow="5px 5px 20px 0px rgba(62, 79, 92, 0.75)"
 	borderColor="#A899A0 #5F5F5F #5F5F5F #A899A0"	/>
+	
+	<Style id="Graph_Red" xsi:type="widgets.brease.OnlineChartHDA.Graph" 
+	lineColor="#FF0000" />
+	
+	<Style id="Graph_GrayBlu" xsi:type="widgets.brease.OnlineChartHDA.Graph" 
+	lineColor="#5196AF" />
+	
+	<Style id="Graph_Black" xsi:type="widgets.brease.OnlineChartHDA.Graph" 
+	lineColor="#000000" />
 
 </Styles>

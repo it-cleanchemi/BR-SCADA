@@ -15,12 +15,12 @@
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="Alarms_History_binding" />
     <BindingsSet refId="Login_Content_binding" />
-    <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="Main_LR_binding" />
     <BindingsSet refId="Main_HR_binding" />
     <BindingsSet refId="Main_binding" />
     <BindingsSet refId="OverviewHR1_binding" />
     <BindingsSet refId="Header_binding" />
+    <BindingsSet refId="OverviewLR1_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
