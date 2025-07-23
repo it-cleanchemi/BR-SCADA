@@ -55,6 +55,9 @@
     <Parameter ID="FileDevicePath2" Value="..\..\..\..\USER_DEVICE\" />
     <Parameter ID="TimeZone" Value="35" />
     <Parameter ID="ActivateDaylightSavingTime" Value="1" />
+    <Parameter ID="ActivateSntpServer" Value="1" />
+    <Parameter ID="ActivateSntp" Value="1" />
+    <Parameter ID="SntpcServAddr1" Value="time.windows.com" />
     <Parameter ID="EthernetDefaultGateway" Value="172.16.1.62" />
     <Parameter ID="ActivateDns" Value="1" />
     <Parameter ID="DnsServer1" Value="8.8.8.8" />
