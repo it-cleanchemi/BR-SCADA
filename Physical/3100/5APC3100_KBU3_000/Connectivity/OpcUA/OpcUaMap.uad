@@ -71,6 +71,8 @@
             <Variable Name="Sensor_Variables">
               <Variable Name="CD101" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
               <Variable Name="CD101_SP" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
+              <Variable Name="CD102" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
+              <Variable Name="CD102_SP" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
             </Variable>
           </VariableCommon>
         </Variable>
