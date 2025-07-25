@@ -2,39 +2,7 @@
 <BindingsSet id="OverviewLR1_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		<!--START P201_STATUS_CONTENT-->
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_P201_HOA.wP201_HOA_String" />
-					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_P201_HOA.wP201_HOA_String" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P201_Status_Content_LR" widgetRefId="DropDownBox1" attribute="selectedValue" />
-		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
@@ -302,39 +270,7 @@
 			<Target xsi:type="brease" contentRefId="P203_Status_Content_LR" widgetRefId="PushButton2" attribute="value" />
 		</Binding>
 		<!--START PM STATUS-->
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PMAX_HOA.wPMAX_HOA_String" />
-					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PMAX_HOA.wPMAX_HOA_String" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="PM_Status_Content_LR" widgetRefId="DropDownBox1" attribute="selectedValue" />
-		</Binding>
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />

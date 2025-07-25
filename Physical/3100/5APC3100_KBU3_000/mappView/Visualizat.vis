@@ -21,6 +21,8 @@
     <BindingsSet refId="OverviewHR1_binding" />
     <BindingsSet refId="Header_binding" />
     <BindingsSet refId="OverviewLR1_binding" />
+    <BindingsSet refId="PM_Status_Content_LR_binding" />
+    <BindingsSet refId="P201_Status_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />

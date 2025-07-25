@@ -868,6 +868,7 @@ TYPE
 		USER_ACCESS : UINT; (*Current Local User Access Level*)
 		UNIT_TYPE : UINT; (*Unit Type ()*)
 		UNIT_ID_DOSE : UINT;
+		PULSE : UINT; (*Unit Heartbeat*)
 	END_STRUCT;
 END_TYPE
 

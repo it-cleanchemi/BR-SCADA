@@ -3,6 +3,28 @@ ACTION Modbus_Status_action:
 	
 	ModbusTcpMaster_LR[IdxSkids_LR]();
 	
+	// Monitoring if the current value is unchanged
+//	CurrentValuePulse := gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PULSE;
+	
+//	IF CurrentValuePulse = PreviousValuePulse THEN
+//		UnchangedTimer(IN := TRUE, PT := T#30s);  // Start the timer if value is unchanged for 30 seconds
+//	ELSE
+//		UnchangedTimer(IN := FALSE);  // Reset the timer if value changes
+//	END_IF;
+
+	// If the timer reaches 30 seconds, set the systemOffline bit
+//	IF UnchangedTimer.Q THEN
+//		systemOffline := TRUE;  // System is offline
+//	ELSE
+	//	SystemOffline := FALSE;  // System is still online
+//	END_IF;
+
+	// Update previous value for the next cycle
+	//PreviousValuePulse := CurrentValuePulse;
+	
+	
+	
+	
 	//Reset Modbus buffer on connection timeout
 	IF ModbusTcpMaster_LR[IdxSkids_LR].status = 50211 THEN
 		brsmemset(ADR(gModbus_LR[IdxSkids_LR]),0,SIZEOF(gModbus_LR[IdxSkids_LR]));
@@ -29,6 +51,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_HOA := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[6];
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[8];
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.SCREEN_LOCK := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[10];
+	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PULSE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[12];
 	
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[20];
 	gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[22];
