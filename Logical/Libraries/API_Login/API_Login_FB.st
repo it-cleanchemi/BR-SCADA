@@ -85,6 +85,8 @@ FUNCTION_BLOCK API_Login_FB
 			
 			IF GET_UserInfo.Status = 0 AND GET_UserInfo.ResponseStatus = '200 OK' THEN
 				LoginState := PARSE_USER_INFO_C;
+			ELSIF GET_UserInfo.Status = 0 AND GET_UserInfo.ResponseStatus = '401 Unauthorized' THEN
+				LoginState := LOGIN_API_ERROR;
 			END_IF;
 			
 		PARSE_USER_INFO_C:
