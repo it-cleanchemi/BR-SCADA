@@ -42,1027 +42,1307 @@
     </tu>
     <tu tuid="ErrorText.ALARM_AB1.0">
       <tuv xml:lang="en">
-        <seg>E-STOP</seg>
+        <seg>E-STOP (Local)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB1.1">
+      <tuv xml:lang="en">
+        <seg>E-STOP (Remote)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.0">
       <tuv xml:lang="en">
-        <seg>FI-101 LL</seg>
+        <seg> FI-101 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.1">
       <tuv xml:lang="en">
-        <seg>FI-101 HH</seg>
+        <seg> FI-101 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.2">
       <tuv xml:lang="en">
-        <seg>PFI-102 LL</seg>
+        <seg> FI-101 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.3">
       <tuv xml:lang="en">
-        <seg>PFI-102 HH</seg>
+        <seg> FI-101 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.4">
       <tuv xml:lang="en">
-        <seg>PFI-103 LL</seg>
+        <seg> PFI-101 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.5">
       <tuv xml:lang="en">
-        <seg>PFI-103 HH</seg>
+        <seg> PFI-101 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.6">
       <tuv xml:lang="en">
-        <seg>FI-104 LL</seg>
+        <seg> PFI-101 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.7">
       <tuv xml:lang="en">
-        <seg>FI-104 HH</seg>
+        <seg> PFI-101 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.8">
       <tuv xml:lang="en">
-        <seg>FI-101 L</seg>
+        <seg> PI-101 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.9">
       <tuv xml:lang="en">
-        <seg>FI-101 H</seg>
+        <seg> PI-101 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.10">
       <tuv xml:lang="en">
-        <seg>PFI-102 L</seg>
+        <seg> PI-101 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.11">
       <tuv xml:lang="en">
-        <seg>PFI-102 H</seg>
+        <seg> PI-101 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.12">
       <tuv xml:lang="en">
-        <seg>PFI-103 L</seg>
+        <seg> PPI-101 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.13">
       <tuv xml:lang="en">
-        <seg>PFI-103 H</seg>
+        <seg> PPI-101 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.14">
       <tuv xml:lang="en">
-        <seg>FI-104 L</seg>
+        <seg> PPI-101 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB2.15">
       <tuv xml:lang="en">
-        <seg>FI-104 H</seg>
+        <seg> PPI-101 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.0">
       <tuv xml:lang="en">
-        <seg>PFI-104 LL</seg>
+        <seg> LS-101 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.1">
       <tuv xml:lang="en">
-        <seg>PFI-104 HH</seg>
+        <seg> P-101 Local Stop</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.2">
       <tuv xml:lang="en">
-        <seg>PI-101 LL</seg>
+        <seg> P-101 Max Output</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.3">
       <tuv xml:lang="en">
-        <seg>PI-101 HH</seg>
+        <seg> P-101 Communication Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.4">
       <tuv xml:lang="en">
-        <seg>PPI-102 LL</seg>
+        <seg> P-101 Over Pressure</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.5">
       <tuv xml:lang="en">
-        <seg>PPI-102 HH</seg>
+        <seg> P-101 Alarm (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.6">
       <tuv xml:lang="en">
-        <seg>PPI-103 LL</seg>
+        <seg> P-101 Back Pressure Low</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.7">
       <tuv xml:lang="en">
-        <seg>PPI-103 HH</seg>
+        <seg> P-101 Gas in Pump Head</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.8">
       <tuv xml:lang="en">
-        <seg>PFI-104 L</seg>
+        <seg> P-101 Cavitation</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.9">
       <tuv xml:lang="en">
-        <seg>PFI-104 H</seg>
+        <seg> P-101 Warning (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.10">
       <tuv xml:lang="en">
-        <seg>PI-101 L</seg>
+        <seg> P-101 Fault</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.11">
       <tuv xml:lang="en">
-        <seg>PI-101 H</seg>
+        <seg> P-101 Run Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB3.12">
       <tuv xml:lang="en">
-        <seg>PPI-102 L</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB3.13">
-      <tuv xml:lang="en">
-        <seg>PPI-102 H</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB3.14">
-      <tuv xml:lang="en">
-        <seg>PPI-103 L</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB3.15">
-      <tuv xml:lang="en">
-        <seg>PPI-103 H</seg>
+        <seg> P-101 Speed Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.0">
       <tuv xml:lang="en">
-        <seg>PPI-104 LL</seg>
+        <seg> FI-102 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.1">
       <tuv xml:lang="en">
-        <seg>PPI-104 HH</seg>
+        <seg> FI-102 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.2">
       <tuv xml:lang="en">
-        <seg>LI-102 LL</seg>
+        <seg> FI-102 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.3">
       <tuv xml:lang="en">
-        <seg>LI-103 LL</seg>
+        <seg> FI-102 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.4">
       <tuv xml:lang="en">
-        <seg>CD-101 LL</seg>
+        <seg> PFI-102 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.5">
       <tuv xml:lang="en">
-        <seg>CD-101 HH</seg>
+        <seg> PFI-102 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.6">
       <tuv xml:lang="en">
-        <seg>TI-101 HH</seg>
+        <seg> PFI-102 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.7">
       <tuv xml:lang="en">
-        <seg>CD-102 LL</seg>
+        <seg> PFI-102 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.8">
       <tuv xml:lang="en">
-        <seg>PPI-104 L</seg>
+        <seg> PI-102 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.9">
       <tuv xml:lang="en">
-        <seg>PPI-104 H</seg>
+        <seg> PI-102 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.10">
       <tuv xml:lang="en">
-        <seg>LI-102 L</seg>
+        <seg> PI-102 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.11">
       <tuv xml:lang="en">
-        <seg>LI-103 L</seg>
+        <seg> PI-102 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.12">
       <tuv xml:lang="en">
-        <seg>CD-101 L</seg>
+        <seg> PPI-102 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.13">
       <tuv xml:lang="en">
-        <seg>CD-101 H</seg>
+        <seg> PPI-102 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.14">
       <tuv xml:lang="en">
-        <seg>TI-101 H</seg>
+        <seg> PPI-102 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB4.15">
       <tuv xml:lang="en">
-        <seg>CD-102 L</seg>
+        <seg> PPI-102 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.0">
       <tuv xml:lang="en">
-        <seg>CD-102 HH</seg>
+        <seg> LS-102 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.1">
       <tuv xml:lang="en">
-        <seg>TI-102 HH</seg>
+        <seg> P-102 Local Stop</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.2">
       <tuv xml:lang="en">
-        <seg>LI-200 LL</seg>
+        <seg> P-102 Max Output</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.3">
       <tuv xml:lang="en">
-        <seg>LI-200 HH</seg>
+        <seg> P-102 Communication Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.4">
       <tuv xml:lang="en">
-        <seg>LI-201 HH</seg>
+        <seg> P-102 Over Pressure</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.5">
       <tuv xml:lang="en">
-        <seg>FI-201 LL</seg>
+        <seg> P-102 Alarm (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.6">
       <tuv xml:lang="en">
-        <seg>FI-201 HH</seg>
+        <seg> P-102 Back Pressure Low</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.7">
       <tuv xml:lang="en">
-        <seg>PFI-201 LL</seg>
+        <seg> P-102 Gas in Pump Head</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.8">
       <tuv xml:lang="en">
-        <seg>CD-102 H</seg>
+        <seg> P-102 Cavitation</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.9">
       <tuv xml:lang="en">
-        <seg>TI-102 H</seg>
+        <seg> P-102 Warning (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.10">
       <tuv xml:lang="en">
-        <seg>LI-200 L</seg>
+        <seg> P-102 Fault</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.11">
       <tuv xml:lang="en">
-        <seg>LI-200 H</seg>
+        <seg> P-102 Run Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB5.12">
       <tuv xml:lang="en">
-        <seg>LI-201 H</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB5.13">
-      <tuv xml:lang="en">
-        <seg>FI-201 L</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB5.14">
-      <tuv xml:lang="en">
-        <seg>FI-201 H</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB5.15">
-      <tuv xml:lang="en">
-        <seg>PFI-201 L</seg>
+        <seg> P-102 Speed Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.0">
       <tuv xml:lang="en">
-        <seg>PFI-201 HH</seg>
+        <seg> FI-103 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.1">
       <tuv xml:lang="en">
-        <seg>FI-202 LL</seg>
+        <seg> FI-103 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.2">
       <tuv xml:lang="en">
-        <seg>FI-202 HH</seg>
+        <seg> FI-103 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.3">
       <tuv xml:lang="en">
-        <seg>PFI-202 LL</seg>
+        <seg> FI-103 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.4">
       <tuv xml:lang="en">
-        <seg>PFI-202 HH</seg>
+        <seg> PFI-103 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.5">
       <tuv xml:lang="en">
-        <seg>FI-203 LL</seg>
+        <seg> PFI-103 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.6">
       <tuv xml:lang="en">
-        <seg>FI-203 HH</seg>
+        <seg> PFI-103 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.7">
       <tuv xml:lang="en">
-        <seg>PFI-203 LL</seg>
+        <seg> PFI-103 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.8">
       <tuv xml:lang="en">
-        <seg>PFI-201 H</seg>
+        <seg> PI-103 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.9">
       <tuv xml:lang="en">
-        <seg>FI-202 L</seg>
+        <seg> PI-103 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.10">
       <tuv xml:lang="en">
-        <seg>FI-202 H</seg>
+        <seg> PI-103 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.11">
       <tuv xml:lang="en">
-        <seg>PFI-202 L</seg>
+        <seg> PI-103 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.12">
       <tuv xml:lang="en">
-        <seg>PFI-202 H</seg>
+        <seg> PPI-103 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.13">
       <tuv xml:lang="en">
-        <seg>FI-203 L</seg>
+        <seg> PPI-103 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.14">
       <tuv xml:lang="en">
-        <seg>FI-203 H</seg>
+        <seg> PPI-103 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB6.15">
       <tuv xml:lang="en">
-        <seg>PFI-203 L</seg>
+        <seg> PPI-103 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.0">
       <tuv xml:lang="en">
-        <seg>PFI-203 HH</seg>
+        <seg> LS-103 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.1">
       <tuv xml:lang="en">
-        <seg>PI-201 LL</seg>
+        <seg> P-103 Local Stop</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.2">
       <tuv xml:lang="en">
-        <seg>PI-201 HH</seg>
+        <seg> P-103 Max Output</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.3">
       <tuv xml:lang="en">
-        <seg>PPI-201 LL</seg>
+        <seg> P-103 Communication Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.4">
       <tuv xml:lang="en">
-        <seg>PPI-201 HH</seg>
+        <seg> P-103 Over Pressure</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.5">
       <tuv xml:lang="en">
-        <seg>PI-202 LL</seg>
+        <seg> P-103 Alarm (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.6">
       <tuv xml:lang="en">
-        <seg>PI-202 HH</seg>
+        <seg> P-103 Back Pressure Low</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.7">
       <tuv xml:lang="en">
-        <seg>PPI-202 LL</seg>
+        <seg> P-103 Gas in Pump Head</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.8">
       <tuv xml:lang="en">
-        <seg>PFI-203 H</seg>
+        <seg> P-103 Cavitation</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.9">
       <tuv xml:lang="en">
-        <seg>PI-201 L</seg>
+        <seg> P-103 Warning (Other)</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.10">
       <tuv xml:lang="en">
-        <seg>PI-201 H</seg>
+        <seg> P-103 Fault</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.11">
       <tuv xml:lang="en">
-        <seg>PPI-201 L</seg>
+        <seg> P-103 Run Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB7.12">
       <tuv xml:lang="en">
-        <seg>PPI-201 H</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB7.13">
-      <tuv xml:lang="en">
-        <seg>PI-202 L</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB7.14">
-      <tuv xml:lang="en">
-        <seg>PI-202 H</seg>
-      </tuv>
-    </tu>
-    <tu tuid="ErrorText.ALARM_AB7.15">
-      <tuv xml:lang="en">
-        <seg>PPI-202 L</seg>
+        <seg> P-103 Speed Feedback Error</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.0">
       <tuv xml:lang="en">
-        <seg>PPI-202 HH</seg>
+        <seg> FI-104 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.1">
       <tuv xml:lang="en">
-        <seg>PI-203 LL</seg>
+        <seg> FI-104 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.2">
       <tuv xml:lang="en">
-        <seg>PI-203 HH</seg>
+        <seg> FI-104 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.3">
       <tuv xml:lang="en">
-        <seg>PPI-203 LL</seg>
+        <seg> FI-104 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.4">
       <tuv xml:lang="en">
-        <seg>PPI-203 HH</seg>
+        <seg> PFI-104 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.5">
       <tuv xml:lang="en">
-        <seg>DELTA T HH</seg>
+        <seg> PFI-104 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB8.6">
+      <tuv xml:lang="en">
+        <seg> PFI-104 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB8.7">
+      <tuv xml:lang="en">
+        <seg> PFI-104 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.8">
       <tuv xml:lang="en">
-        <seg>PPI-202 H</seg>
+        <seg> PI-104 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.9">
       <tuv xml:lang="en">
-        <seg>PI-203 L</seg>
+        <seg> PI-104 L</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.10">
       <tuv xml:lang="en">
-        <seg>PI-203 H</seg>
+        <seg> PI-104 HH</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.11">
       <tuv xml:lang="en">
-        <seg>PPI-203 L</seg>
+        <seg> PI-104 H</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.12">
       <tuv xml:lang="en">
-        <seg>PPI-203 H</seg>
+        <seg> PPI-104 LL</seg>
       </tuv>
     </tu>
     <tu tuid="ErrorText.ALARM_AB8.13">
       <tuv xml:lang="en">
-        <seg>DELTA T H</seg>
+        <seg> PPI-104 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.0">
+    <tu tuid="ErrorText.ALARM_AB8.14">
       <tuv xml:lang="en">
-        <seg>P-102 LOCAL STOP</seg>
+        <seg> PPI-104 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.1">
+    <tu tuid="ErrorText.ALARM_AB8.15">
       <tuv xml:lang="en">
-        <seg>P-102 COMMUNICATION ERROR</seg>
+        <seg> PPI-104 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.2">
+    <tu tuid="ErrorText.ALARM_AB9.0">
       <tuv xml:lang="en">
-        <seg>P-102 OVER PRESSURE</seg>
+        <seg> LS-104 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.3">
+    <tu tuid="ErrorText.ALARM_AB9.1">
       <tuv xml:lang="en">
-        <seg>P-102 BACK PRESSURE LOW</seg>
+        <seg> P-104 Local Stop</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.4">
+    <tu tuid="ErrorText.ALARM_AB9.2">
       <tuv xml:lang="en">
-        <seg>P-102 GAS IN PUMP HEAD</seg>
+        <seg> P-104 Max Output</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.5">
+    <tu tuid="ErrorText.ALARM_AB9.3">
       <tuv xml:lang="en">
-        <seg>P-102 CAVITATION</seg>
+        <seg> P-104 Communication Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.6">
+    <tu tuid="ErrorText.ALARM_AB9.4">
       <tuv xml:lang="en">
-        <seg>P-102 SERVICE NOTIFICATION</seg>
+        <seg> P-104 Over Pressure</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.7">
+    <tu tuid="ErrorText.ALARM_AB9.5">
       <tuv xml:lang="en">
-        <seg>P-102 MAX OUTPUT</seg>
+        <seg> P-104 Alarm (Other)</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.8">
+    <tu tuid="ErrorText.ALARM_AB9.6">
       <tuv xml:lang="en">
-        <seg>P-102 LOCAL STOP</seg>
+        <seg> P-104 Back Pressure Low</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.9">
+    <tu tuid="ErrorText.ALARM_AB9.7">
       <tuv xml:lang="en">
-        <seg>P-102 COMMUNICATION ERROR</seg>
+        <seg> P-104 Gas in Pump Head</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.10">
+    <tu tuid="ErrorText.ALARM_AB9.8">
       <tuv xml:lang="en">
-        <seg>P-102 OVER PRESSURE</seg>
+        <seg> P-104 Cavitation</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.11">
+    <tu tuid="ErrorText.ALARM_AB9.9">
       <tuv xml:lang="en">
-        <seg>P-102 BACK PRESSURE LOW</seg>
+        <seg> P-104 Warning (Other)</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.12">
+    <tu tuid="ErrorText.ALARM_AB9.10">
       <tuv xml:lang="en">
-        <seg>P-102 GAS IN PUMP HEAD</seg>
+        <seg> P-104 Fault</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.13">
+    <tu tuid="ErrorText.ALARM_AB9.11">
       <tuv xml:lang="en">
-        <seg>P-102 CAVITATION</seg>
+        <seg> P-104 Run Feedback Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.14">
+    <tu tuid="ErrorText.ALARM_AB9.12">
       <tuv xml:lang="en">
-        <seg>P-102 SERVICE NOTIFICATION</seg>
+        <seg> P-104 Speed Feedback Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P102.15">
+    <tu tuid="ErrorText.ALARM_AB10.0">
       <tuv xml:lang="en">
-        <seg>P-102 MAX OUTPUT</seg>
+        <seg>CD-101 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.0">
+    <tu tuid="ErrorText.ALARM_AB10.1">
       <tuv xml:lang="en">
-        <seg>P-103 LOCAL STOP</seg>
+        <seg>CD-101 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.1">
+    <tu tuid="ErrorText.ALARM_AB10.2">
       <tuv xml:lang="en">
-        <seg>P-103 COMMUNICATION ERROR</seg>
+        <seg>CD-101 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.2">
+    <tu tuid="ErrorText.ALARM_AB10.3">
       <tuv xml:lang="en">
-        <seg>P-103 OVER PRESSURE</seg>
+        <seg>CD-101 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.3">
+    <tu tuid="ErrorText.ALARM_AB10.4">
       <tuv xml:lang="en">
-        <seg>P-103 BACK PRESSURE LOW</seg>
+        <seg>TI-101 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.4">
+    <tu tuid="ErrorText.ALARM_AB10.5">
       <tuv xml:lang="en">
-        <seg>P-103 GAS IN PUMP HEAD</seg>
+        <seg>TI-101 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.5">
+    <tu tuid="ErrorText.ALARM_AB10.6">
       <tuv xml:lang="en">
-        <seg>P-103 CAVITATION</seg>
+        <seg>CD-102 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.6">
+    <tu tuid="ErrorText.ALARM_AB10.7">
       <tuv xml:lang="en">
-        <seg>P-103 SERVICE NOTIFICATION</seg>
+        <seg>CD-102 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.7">
+    <tu tuid="ErrorText.ALARM_AB10.8">
       <tuv xml:lang="en">
-        <seg>P-103 MAX OUTPUT</seg>
+        <seg>CD-102 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.8">
+    <tu tuid="ErrorText.ALARM_AB10.9">
       <tuv xml:lang="en">
-        <seg>P-103 LOCAL STOP</seg>
+        <seg>CD-102 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.9">
+    <tu tuid="ErrorText.ALARM_AB10.10">
       <tuv xml:lang="en">
-        <seg>P-103 COMMUNICATION ERROR</seg>
+        <seg>TI-102 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.10">
+    <tu tuid="ErrorText.ALARM_AB10.11">
       <tuv xml:lang="en">
-        <seg>P-103 OVER PRESSURE</seg>
+        <seg>TI-102 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.11">
+    <tu tuid="ErrorText.ALARM_AB10.12">
       <tuv xml:lang="en">
-        <seg>P-103 BACK PRESSURE LOW</seg>
+        <seg>Delta T HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.12">
+    <tu tuid="ErrorText.ALARM_AB10.13">
       <tuv xml:lang="en">
-        <seg>P-103 GAS IN PUMP HEAD</seg>
+        <seg>Delta T H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.13">
+    <tu tuid="ErrorText.ALARM_AB11.0">
       <tuv xml:lang="en">
-        <seg>P-103 CAVITATION</seg>
+        <seg>FI-105 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.14">
+    <tu tuid="ErrorText.ALARM_AB11.1">
       <tuv xml:lang="en">
-        <seg>P-103 SERVICE NOTIFICATION</seg>
+        <seg>FI-105 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P103.15">
+    <tu tuid="ErrorText.ALARM_AB11.2">
       <tuv xml:lang="en">
-        <seg>P-103 MAX OUTPUT</seg>
+        <seg>FI-105 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.0">
+    <tu tuid="ErrorText.ALARM_AB11.3">
       <tuv xml:lang="en">
-        <seg>P-104 LOCAL STOP</seg>
+        <seg>FI-105 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.1">
+    <tu tuid="ErrorText.ALARM_AB11.4">
       <tuv xml:lang="en">
-        <seg>P-104 COMMUNICATION ERROR</seg>
+        <seg>PI-105 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.2">
+    <tu tuid="ErrorText.ALARM_AB11.5">
       <tuv xml:lang="en">
-        <seg>P-104 OVER PRESSURE</seg>
+        <seg>PI-105 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.3">
+    <tu tuid="ErrorText.ALARM_AB11.6">
       <tuv xml:lang="en">
-        <seg>P-104 BACK PRESSURE LOW</seg>
+        <seg>PI-105 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.4">
+    <tu tuid="ErrorText.ALARM_AB11.7">
       <tuv xml:lang="en">
-        <seg>P-104 GAS IN PUMP HEAD</seg>
+        <seg>PI-105 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.5">
+    <tu tuid="ErrorText.ALARM_AB11.8">
       <tuv xml:lang="en">
-        <seg>P-104 CAVITATION</seg>
+        <seg>LI-200 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.6">
+    <tu tuid="ErrorText.ALARM_AB11.9">
       <tuv xml:lang="en">
-        <seg>P-104 SERVICE NOTIFICATION</seg>
+        <seg>LI-200 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.7">
+    <tu tuid="ErrorText.ALARM_AB11.10">
       <tuv xml:lang="en">
-        <seg>P-104 MAX OUTPUT</seg>
+        <seg>LI-200 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.8">
+    <tu tuid="ErrorText.ALARM_AB11.11">
       <tuv xml:lang="en">
-        <seg>P-104 LOCAL STOP</seg>
+        <seg>LI-200 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.9">
+    <tu tuid="ErrorText.ALARM_AB11.12">
       <tuv xml:lang="en">
-        <seg>P-104 COMMUNICATION ERROR</seg>
+        <seg>LS-200 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.10">
+    <tu tuid="ErrorText.ALARM_AB12.0">
       <tuv xml:lang="en">
-        <seg>P-104 OVER PRESSURE</seg>
+        <seg> FI-201 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.11">
+    <tu tuid="ErrorText.ALARM_AB12.1">
       <tuv xml:lang="en">
-        <seg>P-104 BACK PRESSURE LOW</seg>
+        <seg> FI-201 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.12">
+    <tu tuid="ErrorText.ALARM_AB12.2">
       <tuv xml:lang="en">
-        <seg>P-104 GAS IN PUMP HEAD</seg>
+        <seg> FI-201 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.13">
+    <tu tuid="ErrorText.ALARM_AB12.3">
       <tuv xml:lang="en">
-        <seg>P-104 CAVITATION</seg>
+        <seg> FI-201 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.14">
+    <tu tuid="ErrorText.ALARM_AB12.4">
       <tuv xml:lang="en">
-        <seg>P-104 SERVICE NOTIFICATION</seg>
+        <seg> PFI-201 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P104.15">
+    <tu tuid="ErrorText.ALARM_AB12.5">
       <tuv xml:lang="en">
-        <seg>P-104 MAX OUTPUT</seg>
+        <seg> PFI-201 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.0">
+    <tu tuid="ErrorText.ALARM_AB12.6">
       <tuv xml:lang="en">
-        <seg>P-201 LOCAL STOP</seg>
+        <seg> PFI-201 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.1">
+    <tu tuid="ErrorText.ALARM_AB12.7">
       <tuv xml:lang="en">
-        <seg>P-201 COMMUNICATION ERROR</seg>
+        <seg> PFI-201 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.2">
+    <tu tuid="ErrorText.ALARM_AB12.8">
       <tuv xml:lang="en">
-        <seg>P-201 OVER PRESSURE</seg>
+        <seg> PI-201 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.3">
+    <tu tuid="ErrorText.ALARM_AB12.9">
       <tuv xml:lang="en">
-        <seg>P-201 BACK PRESSURE LOW</seg>
+        <seg> PI-201 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.4">
+    <tu tuid="ErrorText.ALARM_AB12.10">
       <tuv xml:lang="en">
-        <seg>P-201 GAS IN PUMP HEAD</seg>
+        <seg> PI-201 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.5">
+    <tu tuid="ErrorText.ALARM_AB12.11">
       <tuv xml:lang="en">
-        <seg>P-201 CAVITATION</seg>
+        <seg> PI-201 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.6">
+    <tu tuid="ErrorText.ALARM_AB12.12">
       <tuv xml:lang="en">
-        <seg>P-201 SERVICE NOTIFICATION</seg>
+        <seg> PPI-201 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.7">
+    <tu tuid="ErrorText.ALARM_AB12.13">
       <tuv xml:lang="en">
-        <seg>P-201 MAX OUTPUT</seg>
+        <seg> PPI-201 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.8">
+    <tu tuid="ErrorText.ALARM_AB12.14">
       <tuv xml:lang="en">
-        <seg>P-201 LOCAL STOP</seg>
+        <seg> PPI-201 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.9">
+    <tu tuid="ErrorText.ALARM_AB12.15">
       <tuv xml:lang="en">
-        <seg>P-201 COMMUNICATION ERROR</seg>
+        <seg> PPI-201 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.10">
+    <tu tuid="ErrorText.ALARM_AB13.0">
       <tuv xml:lang="en">
-        <seg>P-201 OVER PRESSURE</seg>
+        <seg> LS-201 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.11">
+    <tu tuid="ErrorText.ALARM_AB13.1">
       <tuv xml:lang="en">
-        <seg>P-201 BACK PRESSURE LOW</seg>
+        <seg> P-201 Local Stop</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.12">
+    <tu tuid="ErrorText.ALARM_AB13.2">
       <tuv xml:lang="en">
-        <seg>P-201 GAS IN PUMP HEAD</seg>
+        <seg> P-201 Max Output</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.13">
+    <tu tuid="ErrorText.ALARM_AB13.3">
       <tuv xml:lang="en">
-        <seg>P-201 CAVITATION</seg>
+        <seg> P-201 Communication Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.14">
+    <tu tuid="ErrorText.ALARM_AB13.4">
       <tuv xml:lang="en">
-        <seg>P-201 SERVICE NOTIFICATION</seg>
+        <seg> P-201 Over Pressure</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P201.15">
+    <tu tuid="ErrorText.ALARM_AB13.5">
       <tuv xml:lang="en">
-        <seg>P-201 MAX OUTPUT</seg>
+        <seg> P-201 Alarm (Other)</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.0">
+    <tu tuid="ErrorText.ALARM_AB13.6">
       <tuv xml:lang="en">
-        <seg>P-202 LOCAL STOP</seg>
+        <seg> P-201 Back Pressure Low</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.1">
+    <tu tuid="ErrorText.ALARM_AB13.7">
       <tuv xml:lang="en">
-        <seg>P-202 COMMUNICATION ERROR</seg>
+        <seg> P-201 Gas in Pump Head</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.2">
+    <tu tuid="ErrorText.ALARM_AB13.8">
       <tuv xml:lang="en">
-        <seg>P-202 OVER PRESSURE</seg>
+        <seg> P-201 Cavitation</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.3">
+    <tu tuid="ErrorText.ALARM_AB13.9">
       <tuv xml:lang="en">
-        <seg>P-202 BACK PRESSURE LOW</seg>
+        <seg> P-201 Warning (Other)</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.4">
+    <tu tuid="ErrorText.ALARM_AB13.10">
       <tuv xml:lang="en">
-        <seg>P-202 GAS IN PUMP HEAD</seg>
+        <seg> P-201 Fault</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.5">
+    <tu tuid="ErrorText.ALARM_AB13.11">
       <tuv xml:lang="en">
-        <seg>P-202 CAVITATION</seg>
+        <seg> P-201 Run Feedback Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.6">
+    <tu tuid="ErrorText.ALARM_AB13.12">
       <tuv xml:lang="en">
-        <seg>P-202 SERVICE NOTIFICATION</seg>
+        <seg> P-201 Speed Feedback Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.7">
+    <tu tuid="ErrorText.ALARM_AB14.0">
       <tuv xml:lang="en">
-        <seg>P-202 MAX OUTPUT</seg>
+        <seg> FI-202 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.8">
+    <tu tuid="ErrorText.ALARM_AB14.1">
       <tuv xml:lang="en">
-        <seg>P-202 LOCAL STOP</seg>
+        <seg> FI-202 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.9">
+    <tu tuid="ErrorText.ALARM_AB14.2">
       <tuv xml:lang="en">
-        <seg>P-202 COMMUNICATION ERROR</seg>
+        <seg> FI-202 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.10">
+    <tu tuid="ErrorText.ALARM_AB14.3">
       <tuv xml:lang="en">
-        <seg>P-202 OVER PRESSURE</seg>
+        <seg> FI-202 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.11">
+    <tu tuid="ErrorText.ALARM_AB14.4">
       <tuv xml:lang="en">
-        <seg>P-202 BACK PRESSURE LOW</seg>
+        <seg> PFI-202 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.12">
+    <tu tuid="ErrorText.ALARM_AB14.5">
       <tuv xml:lang="en">
-        <seg>P-202 GAS IN PUMP HEAD</seg>
+        <seg> PFI-202 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.13">
+    <tu tuid="ErrorText.ALARM_AB14.6">
       <tuv xml:lang="en">
-        <seg>P-202 CAVITATION</seg>
+        <seg> PFI-202 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.14">
+    <tu tuid="ErrorText.ALARM_AB14.7">
       <tuv xml:lang="en">
-        <seg>P-202 SERVICE NOTIFICATION</seg>
+        <seg> PFI-202 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P202.15">
+    <tu tuid="ErrorText.ALARM_AB14.8">
       <tuv xml:lang="en">
-        <seg>P-202 MAX OUTPUT</seg>
+        <seg> PI-202 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.0">
+    <tu tuid="ErrorText.ALARM_AB14.9">
       <tuv xml:lang="en">
-        <seg>P-203 LOCAL STOP</seg>
+        <seg> PI-202 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.1">
+    <tu tuid="ErrorText.ALARM_AB14.10">
       <tuv xml:lang="en">
-        <seg>P-203 COMMUNICATION ERROR</seg>
+        <seg> PI-202 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.2">
+    <tu tuid="ErrorText.ALARM_AB14.11">
       <tuv xml:lang="en">
-        <seg>P-203 OVER PRESSURE</seg>
+        <seg> PI-202 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.3">
+    <tu tuid="ErrorText.ALARM_AB14.12">
       <tuv xml:lang="en">
-        <seg>P-203 BACK PRESSURE LOW</seg>
+        <seg> PPI-202 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.4">
+    <tu tuid="ErrorText.ALARM_AB14.13">
       <tuv xml:lang="en">
-        <seg>P-203 GAS IN PUMP HEAD</seg>
+        <seg> PPI-202 L</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.5">
+    <tu tuid="ErrorText.ALARM_AB14.14">
       <tuv xml:lang="en">
-        <seg>P-203 CAVITATION</seg>
+        <seg> PPI-202 HH</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.6">
+    <tu tuid="ErrorText.ALARM_AB14.15">
       <tuv xml:lang="en">
-        <seg>P-203 SERVICE NOTIFICATION</seg>
+        <seg> PPI-202 H</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.7">
+    <tu tuid="ErrorText.ALARM_AB15.0">
       <tuv xml:lang="en">
-        <seg>P-203 MAX OUTPUT</seg>
+        <seg> LS-202 LL</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.8">
+    <tu tuid="ErrorText.ALARM_AB15.1">
       <tuv xml:lang="en">
-        <seg>P-203 LOCAL STOP</seg>
+        <seg> P-202 Local Stop</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.9">
+    <tu tuid="ErrorText.ALARM_AB15.2">
       <tuv xml:lang="en">
-        <seg>P-203 COMMUNICATION ERROR</seg>
+        <seg> P-202 Max Output</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.10">
+    <tu tuid="ErrorText.ALARM_AB15.3">
       <tuv xml:lang="en">
-        <seg>P-203 OVER PRESSURE</seg>
+        <seg> P-202 Communication Error</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.11">
+    <tu tuid="ErrorText.ALARM_AB15.4">
       <tuv xml:lang="en">
-        <seg>P-203 BACK PRESSURE LOW</seg>
+        <seg> P-202 Over Pressure</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.12">
+    <tu tuid="ErrorText.ALARM_AB15.5">
       <tuv xml:lang="en">
-        <seg>P-203 GAS IN PUMP HEAD</seg>
+        <seg> P-202 Alarm (Other)</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.13">
+    <tu tuid="ErrorText.ALARM_AB15.6">
       <tuv xml:lang="en">
-        <seg>P-203 CAVITATION</seg>
+        <seg> P-202 Back Pressure Low</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.14">
+    <tu tuid="ErrorText.ALARM_AB15.7">
       <tuv xml:lang="en">
-        <seg>P-203 SERVICE NOTIFICATION</seg>
+        <seg> P-202 Gas in Pump Head</seg>
       </tuv>
     </tu>
-    <tu tuid="ErrorText.ALARM_P203.15">
+    <tu tuid="ErrorText.ALARM_AB15.8">
       <tuv xml:lang="en">
-        <seg>P-203 MAX OUTPUT</seg>
+        <seg> P-202 Cavitation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB15.9">
+      <tuv xml:lang="en">
+        <seg> P-202 Warning (Other)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB15.10">
+      <tuv xml:lang="en">
+        <seg> P-202 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB15.11">
+      <tuv xml:lang="en">
+        <seg> P-202 Run Feedback Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB15.12">
+      <tuv xml:lang="en">
+        <seg> P-202 Speed Feedback Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.0">
+      <tuv xml:lang="en">
+        <seg> FI-203 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.1">
+      <tuv xml:lang="en">
+        <seg> FI-203 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.2">
+      <tuv xml:lang="en">
+        <seg> FI-203 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.3">
+      <tuv xml:lang="en">
+        <seg> FI-203 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.4">
+      <tuv xml:lang="en">
+        <seg> PFI-203 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.5">
+      <tuv xml:lang="en">
+        <seg> PFI-203 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.6">
+      <tuv xml:lang="en">
+        <seg> PFI-203 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.7">
+      <tuv xml:lang="en">
+        <seg> PFI-203 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.8">
+      <tuv xml:lang="en">
+        <seg> PI-203 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.9">
+      <tuv xml:lang="en">
+        <seg> PI-203 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.10">
+      <tuv xml:lang="en">
+        <seg> PI-203 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.11">
+      <tuv xml:lang="en">
+        <seg> PI-203 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.12">
+      <tuv xml:lang="en">
+        <seg> PPI-203 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.13">
+      <tuv xml:lang="en">
+        <seg> PPI-203 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.14">
+      <tuv xml:lang="en">
+        <seg> PPI-203 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB16.15">
+      <tuv xml:lang="en">
+        <seg> PPI-203 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.0">
+      <tuv xml:lang="en">
+        <seg> LS-203 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.1">
+      <tuv xml:lang="en">
+        <seg> P-203 Local Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.2">
+      <tuv xml:lang="en">
+        <seg> P-203 Max Output</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.3">
+      <tuv xml:lang="en">
+        <seg> P-203 Communication Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.4">
+      <tuv xml:lang="en">
+        <seg> P-203 Over Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.5">
+      <tuv xml:lang="en">
+        <seg> P-203 Alarm (Other)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.6">
+      <tuv xml:lang="en">
+        <seg> P-203 Back Pressure Low</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.7">
+      <tuv xml:lang="en">
+        <seg> P-203 Gas in Pump Head</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.8">
+      <tuv xml:lang="en">
+        <seg> P-203 Cavitation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.9">
+      <tuv xml:lang="en">
+        <seg> P-203 Warning (Other)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.10">
+      <tuv xml:lang="en">
+        <seg> P-203 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.11">
+      <tuv xml:lang="en">
+        <seg> P-203 Run Feedback Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB17.12">
+      <tuv xml:lang="en">
+        <seg> P-203 Speed Feedback Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.0">
+      <tuv xml:lang="en">
+        <seg> FI-204 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.1">
+      <tuv xml:lang="en">
+        <seg> FI-204 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.2">
+      <tuv xml:lang="en">
+        <seg> FI-204 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.3">
+      <tuv xml:lang="en">
+        <seg> FI-204 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.4">
+      <tuv xml:lang="en">
+        <seg> PFI-204 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.5">
+      <tuv xml:lang="en">
+        <seg> PFI-204 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.6">
+      <tuv xml:lang="en">
+        <seg> PFI-204 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.7">
+      <tuv xml:lang="en">
+        <seg> PFI-204 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.8">
+      <tuv xml:lang="en">
+        <seg> PI-204 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.9">
+      <tuv xml:lang="en">
+        <seg> PI-204 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.10">
+      <tuv xml:lang="en">
+        <seg> PI-204 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.11">
+      <tuv xml:lang="en">
+        <seg> PI-204 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.12">
+      <tuv xml:lang="en">
+        <seg> PPI-204 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.13">
+      <tuv xml:lang="en">
+        <seg> PPI-204 L</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.14">
+      <tuv xml:lang="en">
+        <seg> PPI-204 HH</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB18.15">
+      <tuv xml:lang="en">
+        <seg> PPI-204 H</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.0">
+      <tuv xml:lang="en">
+        <seg> LS-204 LL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.1">
+      <tuv xml:lang="en">
+        <seg> P-204 Local Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.2">
+      <tuv xml:lang="en">
+        <seg> P-204 Max Output</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.3">
+      <tuv xml:lang="en">
+        <seg> P-204 Communication Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.4">
+      <tuv xml:lang="en">
+        <seg> P-204 Over Pressure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.5">
+      <tuv xml:lang="en">
+        <seg> P-204 Alarm (Other)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.6">
+      <tuv xml:lang="en">
+        <seg> P-204 Back Pressure Low</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.7">
+      <tuv xml:lang="en">
+        <seg> P-204 Gas in Pump Head</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.8">
+      <tuv xml:lang="en">
+        <seg> P-204 Cavitation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.9">
+      <tuv xml:lang="en">
+        <seg> P-204 Warning (Other)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.10">
+      <tuv xml:lang="en">
+        <seg> P-204 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.11">
+      <tuv xml:lang="en">
+        <seg> P-204 Run Feedback Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorText.ALARM_AB19.12">
+      <tuv xml:lang="en">
+        <seg> P-204 Speed Feedback Error</seg>
       </tuv>
     </tu>
   </body>

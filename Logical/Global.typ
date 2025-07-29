@@ -14,7 +14,7 @@ END_TYPE
 
 TYPE
 	Modbus_Alarm_Type : 	STRUCT 
-		Block48_Int : ARRAY[0..25]OF INT;
+		Block48_Int : ARRAY[0..60]OF INT;
 	END_STRUCT;
 	Modbus_6000_Type : 	STRUCT 
 		Block1_Int : ARRAY[0..124]OF INT;
@@ -822,12 +822,17 @@ TYPE
 		ALARM_AB6 : INT; (*General Alarm Block 6*)
 		ALARM_AB7 : INT; (*General Alarm Block 7*)
 		ALARM_AB8 : INT; (*General Alarm Block 8*)
-		ALARM_P102 : INT; (*Pump 102 Alarms*)
-		ALARM_P103 : INT; (*Pump 103 Alarms*)
-		ALARM_P104 : INT; (*Pump 104 Alarms*)
-		ALARM_P201 : INT; (*Pump 201 Alarms*)
-		ALARM_P202 : INT; (*Pump 202 Alarms*)
-		ALARM_P203 : INT; (*Pump 203 Alarms*)
+		ALARM_AB9 : INT; (*General Alarm Block 9*)
+		ALARM_AB10 : INT; (*General Alarm Block 10*)
+		ALARM_AB11 : INT; (*General Alarm Block 11*)
+		ALARM_AB12 : INT; (*General Alarm Block 12*)
+		ALARM_AB13 : INT; (*General Alarm Block 13*)
+		ALARM_AB14 : INT; (*General Alarm Block 14*)
+		ALARM_AB15 : INT; (*General Alarm Block 15*)
+		ALARM_AB16 : INT; (*General Alarm Block 16*)
+		ALARM_AB17 : INT; (*General Alarm Block 17*)
+		ALARM_AB18 : INT; (*General Alarm Block 18*)
+		ALARM_AB19 : INT; (*General Alarm Block 19*)
 	END_STRUCT;
 END_TYPE
 

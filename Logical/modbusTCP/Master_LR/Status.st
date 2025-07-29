@@ -380,12 +380,19 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB6 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[5];
 	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB7 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[6];
 	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB8 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[7];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P102 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[13];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P103 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[14];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P104 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[15];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P201 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[16];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P202 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[17];
-	gSkid_LR[IdxSkids_LR].Alarms.ALARM_P203 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[18];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB9 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[8];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB10 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[9];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB11 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[10];
+	
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB12 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[51];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB13 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[52];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB14 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[53];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB15 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[54];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB16 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[55];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB17 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[56];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB18 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[57];
+	gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB19 := gModbus_LR[IdxSkids_LR].Modbus_Alarms.Block48_Int[58];
+
 	
 	// AS Block 61 - DOSING PUMP TEXT
 	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_TEXT),ADR(gModbus_LR[IdxSkids_LR].Modbus_Dosing.Block61_Int[0]),SIZEOF(gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_TEXT),27);

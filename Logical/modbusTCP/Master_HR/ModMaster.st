@@ -117,9 +117,9 @@ PROGRAM _INIT
 		// AS Block 48 - INT - ALARMS
 		MasterConfig_HR[IdxSkids_HR].action_enable[47].cyclic := 1;// Read data cyclic 
 		MasterConfig_HR[IdxSkids_HR].action_param[47].p_pv:= ADR(gModbus_HR[IdxSkids_HR].Modbus_Alarms.Block48_Int[0]);// Store data in this variable 
-		MasterConfig_HR[IdxSkids_HR].action_param[47].quantity := 25;// Number of items to read 
+		MasterConfig_HR[IdxSkids_HR].action_param[47].quantity := 60;// Number of items to read 
 		MasterConfig_HR[IdxSkids_HR].action_param[47].unit := 1;// Unit address - ignore if not specified 
-		MasterConfig_HR[IdxSkids_HR].action_param[47].start_addr := 40;// Read from this modbus address 
+		MasterConfig_HR[IdxSkids_HR].action_param[47].start_addr := 300;// Read from this modbus address 
 		MasterConfig_HR[IdxSkids_HR].action_param[47].timer := 20;// Refresh timer for this item 
 		MasterConfig_HR[IdxSkids_HR].action_param[47].type := 3;// Function code for this item (2 := read discrete inputs) 
 
