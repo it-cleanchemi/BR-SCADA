@@ -22,8 +22,18 @@
       <EURangeViolation Id="1" AclInherit="0" />
     </EURangeViolationAliases>
     <EURangesAliases>
-      <EURanges Id="1" AclInherit="0" />
-      <EURanges Id="2" AclInherit="0" />
+      <EURanges Id="5">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[0].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[0].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="7">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[0].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[0].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
     </EURangesAliases>
     <EngineeringUnitAliases>
       <EngineeringUnit Id="3" UnitId="4604232" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Fahrenheit" Symbol="°F" />
@@ -75,6 +85,14 @@
               <Variable Name="CD102_SP" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
             </Variable>
           </VariableCommon>
+          <Variable Name="gSkid_LR[0]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="5" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="5" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="7" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="7" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
         </Variable>
         <Variable Name="gSkid_HR" RecursiveEnable="2" />
         <Variable Name="gCMD_HR" RecursiveEnable="2" />

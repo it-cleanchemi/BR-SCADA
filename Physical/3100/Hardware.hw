@@ -38,6 +38,7 @@
     </Connector>
     <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
     <Parameter ID="VolatileGlobalPvSize" Value="6553500" />
+    <Parameter ID="Connections" Value="40" />
     <Parameter ID="SystemTick" Value="2000" />
     <Parameter ID="IdleTaskClass" Value="3" />
     <Parameter ID="TaskClassIdleTime" Value="10000" />

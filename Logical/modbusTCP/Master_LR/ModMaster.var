@@ -31,9 +31,3 @@ VAR
 	SkidNumberINT : STRING[80];
 	TestBool : BOOL;
 END_VAR
-(*Pulse Variables*)
-VAR
-	CurrentValuePulse : BOOL;
-	UnchangedTimer : TON;
-	PreviousValuePulse : BOOL;
-END_VAR

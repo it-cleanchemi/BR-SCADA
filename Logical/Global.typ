@@ -47,6 +47,7 @@ TYPE
 		BufferTank : BufferTank_Variables_Type;
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
+		Heartbeat : Heartbeat_Type;
 		Alarms : Alarms_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
 		Dosing_Pump_201 : Dosing_Pump_201_Type;
@@ -762,6 +763,10 @@ TYPE
 		HR_TYPE : BOOL;
 		LR_TYPE : BOOL;
 		IOSTATUS : BOOL;
+		CD102_TARGETHI : REAL;
+		CD102_TARGETLO : REAL;
+		CD101_TARGETHI : REAL;
+		CD101_TARGETLO : REAL;
 	END_STRUCT;
 END_TYPE
 
@@ -837,6 +842,18 @@ TYPE
 END_TYPE
 
 (**)
+(*Heartbeat*)
+
+TYPE
+	Heartbeat_Type : 	STRUCT  (*Heartbeat Connection Status Components*)
+		PREVIOUS_HEARTBEAT : INT; (*Last value of heartbeat from PLC*)
+		MODBUS_RESET : R_TRIG; (*Timer window to detect heartbeat*)
+		UNCHANGED_TIMER : TON; (*Timer window to detect heartbeat*)
+		SYSTEM_OFFLINE : BOOL; (*System Online Status (1=Offline)*)
+	END_STRUCT;
+END_TYPE
+
+(**)
 (*Conversion/Chem Reaction Efficiencies*)
 
 TYPE
@@ -873,7 +890,7 @@ TYPE
 		USER_ACCESS : UINT; (*Current Local User Access Level*)
 		UNIT_TYPE : UINT; (*Unit Type ()*)
 		UNIT_ID_DOSE : UINT;
-		PULSE : UINT; (*Unit Heartbeat*)
+		HEARTBEAT : INT; (*Unit Heartbeat*)
 	END_STRUCT;
 END_TYPE
 

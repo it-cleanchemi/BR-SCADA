@@ -5,6 +5,11 @@ ACTION Vis_Main_LR:
 		
 		gSkid_LR[IdxSkids_LR].BufferTank.LI200P := (gSkid_LR[IdxSkids_LR].BufferTank.LI200 / BT_VOLUME)*100;
 		
+		gSkid_LR[IdxSkids_LR].VisBool.CD101_TARGETHI := gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP + 40;
+		gSkid_LR[IdxSkids_LR].VisBool.CD101_TARGETLO := gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP - 40;
+		gSkid_LR[IdxSkids_LR].VisBool.CD102_TARGETHI := gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP + 40;
+		gSkid_LR[IdxSkids_LR].VisBool.CD102_TARGETLO := gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP - 40;
+		
 		// VISIBILITY TRIGGER SETTING
 		
 		IF gSkid_LR[IdxSkids_LR].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
@@ -315,7 +320,7 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P203_MODE := 0;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID_DOSE = 0 THEN
+		IF gSkid_LR[IdxSkids_LR].Heartbeat.SYSTEM_OFFLINE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.IOSTATUS := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.IOSTATUS := 0;
