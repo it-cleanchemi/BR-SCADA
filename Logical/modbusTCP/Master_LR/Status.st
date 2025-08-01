@@ -5,7 +5,7 @@ ACTION Modbus_Status_action:
 	
 	// Heartbeat Connection Monitor
 	IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT = gSkid_LR[IdxSkids_LR].Heartbeat.PREVIOUS_HEARTBEAT THEN
-		gSkid_LR[IdxSkids_LR].Heartbeat.UNCHANGED_TIMER(IN := TRUE, PT := T#30s);  // Start the timer if value is unchanged for 30 seconds
+		gSkid_LR[IdxSkids_LR].Heartbeat.UNCHANGED_TIMER(IN := TRUE, PT := T#120s);  // Start the timer if value is unchanged for 120 seconds
 	ELSE
 		gSkid_LR[IdxSkids_LR].Heartbeat.UNCHANGED_TIMER(IN := FALSE);  // Reset the timer if value changes
 	END_IF;
@@ -20,9 +20,9 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Heartbeat.MODBUS_RESET(CLK := gSkid_LR[IdxSkids_LR].Heartbeat.SYSTEM_OFFLINE);
 	
 	//Reset Modbus buffer on connection timeout
-	IF gSkid_LR[IdxSkids_LR].Heartbeat.MODBUS_RESET.Q THEN
-		brsmemset(ADR(gModbus_LR[IdxSkids_LR]),0,SIZEOF(gModbus_LR[IdxSkids_LR]));
-	END_IF;
+	//IF gSkid_LR[IdxSkids_LR].Heartbeat.MODBUS_RESET.Q THEN
+	//	brsmemset(ADR(gModbus_LR[IdxSkids_LR]),0,SIZEOF(gModbus_LR[IdxSkids_LR]));
+	//END_IF;
 	
 	// Update previous value for the next cycle
 	gSkid_LR[IdxSkids_LR].Heartbeat.PREVIOUS_HEARTBEAT := gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT;

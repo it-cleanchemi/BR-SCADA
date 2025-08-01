@@ -34,6 +34,126 @@
           <High ValueProvider="PV">::gSkid_LR[0].VisBool.CD102_TARGETHI</High>
         </EURange>
       </EURanges>
+      <EURanges Id="9">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[1].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[1].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="11">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[1].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[1].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="17">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[3].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[3].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="19">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[3].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[3].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="21">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[4].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[4].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="23">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[4].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[4].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="25">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[5].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[5].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="27">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[5].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[5].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="29">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[6].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[5].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="33">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[6].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[6].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="35">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[7].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[7].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="37">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[7].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[7].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="39">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[8].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[8].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="41">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[8].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[8].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="43">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[9].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[9].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="45">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[9].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[9].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="47">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[10].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[10].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="49">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[10].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[10].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="51">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[2].VisBool.CD101_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[2].VisBool.CD101_TARGETHI</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="53">
+        <EURange>
+          <Low ValueProvider="PV">::gSkid_LR[2].VisBool.CD102_TARGETLO</Low>
+          <High ValueProvider="PV">::gSkid_LR[2].VisBool.CD102_TARGETHI</High>
+        </EURange>
+      </EURanges>
     </EURangesAliases>
     <EngineeringUnitAliases>
       <EngineeringUnit Id="3" UnitId="4604232" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Fahrenheit" Symbol="°F" />
@@ -91,6 +211,86 @@
               <Variable Name="CD101_SP" EURangesId="5" ChangedCommonProperties="1024" />
               <Variable Name="CD102" EURangesId="7" ChangedCommonProperties="1024" />
               <Variable Name="CD102_SP" EURangesId="7" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[1]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="9" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="9" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="11" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="11" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[2]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="51" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="51" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="53" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="53" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[3]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="17" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="17" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="19" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="19" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[4]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="21" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="21" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="23" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="23" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[5]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="25" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="25" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="27" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="27" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[6]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="29" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="29" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="33" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="33" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[7]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="35" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="35" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="37" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="37" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[8]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="39" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="39" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="41" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="41" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[9]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="43" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="43" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="45" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="45" ChangedCommonProperties="1024" />
+            </Variable>
+          </Variable>
+          <Variable Name="gSkid_LR[10]">
+            <Variable Name="Sensor_Variables">
+              <Variable Name="CD101" EURangesId="47" ChangedCommonProperties="1024" />
+              <Variable Name="CD101_SP" EURangesId="47" ChangedCommonProperties="1024" />
+              <Variable Name="CD102" EURangesId="49" ChangedCommonProperties="1024" />
+              <Variable Name="CD102_SP" EURangesId="49" ChangedCommonProperties="1024" />
             </Variable>
           </Variable>
         </Variable>

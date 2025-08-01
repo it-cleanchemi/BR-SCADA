@@ -371,7 +371,7 @@
     <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA2" top="545" left="460" width="475" height="240" zIndex="5" updateBufferTime="1000" backColor="rgba(255, 255, 255, 0)">
       <Properties>
         <yAxis>
-          <Element id="CD101" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" rangeMode="fromSource" />
+          <Element id="CD101" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" rangeMode="fromSource" max="1000" min="-1000" />
         </yAxis>
         <xAxis>
           <Element id="xAxis1" timeSpan="600" />
