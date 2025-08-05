@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="gAlarmXCore_1" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_1" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -221,7 +221,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_4" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_4" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -441,7 +441,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_3" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_3" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -661,7 +661,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_2" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_2" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -881,7 +881,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_7" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_7" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -1101,7 +1101,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_6" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_6" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -1321,7 +1321,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_5" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_5" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -1541,7 +1541,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_8" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_8" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -1761,7 +1761,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_13" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_13" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -1981,7 +1981,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_12" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_12" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -2201,7 +2201,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_11" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_11" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -2421,7 +2421,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_10" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_10" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -2641,7 +2641,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_9" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_9" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
@@ -3081,7 +3081,7 @@
       </Group>
     </Group>
   </Element>
-  <Element ID="gAlarmXCore_0" Type="mpalarmxcore">
+  <Element ID="gAlarmXCore_LR_0" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">
         <Group ID="[0]">
