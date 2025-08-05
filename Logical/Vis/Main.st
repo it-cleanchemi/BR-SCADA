@@ -45,8 +45,8 @@ PROGRAM _CYCLIC
 	Login_User_API;
 	
 	//Alarm Page Logic
-	Alarms_Active;
-	Alarms_History;
+//	Alarms_Active;
+//	Alarms_History;
 	
 END_PROGRAM
 

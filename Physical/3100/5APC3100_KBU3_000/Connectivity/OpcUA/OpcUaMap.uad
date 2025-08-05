@@ -51,12 +51,6 @@
               <Variable Name="SkidIPAddress_HR" RecursiveEnable="2" />
             </Variable>
           </Variable>
-          <Variable Name="Alarms">
-            <Variable Name="Active">
-              <Variable Name="FilterString_HR" RecursiveEnable="2" />
-              <Variable Name="FilterString_LR" RecursiveEnable="2" />
-            </Variable>
-          </Variable>
         </Variable>
         <Variable Name="gAlarmAddData" RecursiveEnable="2">
           <Variable Name="AddData" RecursiveEnable="2">
