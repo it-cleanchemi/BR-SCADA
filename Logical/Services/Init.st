@@ -7,4 +7,6 @@ PROGRAM _INIT
 		gServices.DeviceName :=  'USER_DEVICE';
 	END_IF;
 	
+	gServices.Alarms.Internal.MpAlarmXListUI_0.UISetup.AlarmListSize	:= 50;
+	
 END_PROGRAM

@@ -43,8 +43,6 @@ ACTION Login_User_API:
 		LOGIN_USER_C:	
 			
 			API_Login_FB_0.bExecute := TRUE;
-			//API_Login_FB_0.sUser := 'm.gogela@cleanchemi.com';
-			//API_Login_FB_0.sPassword := 'Fire1776';
 			API_Login_FB_0.sUser := gVis.Global.ClientInfo[IdxClients].User;
 			API_Login_FB_0.sPassword := gVis.Global.ClientInfo[IdxClients].Password;
 
