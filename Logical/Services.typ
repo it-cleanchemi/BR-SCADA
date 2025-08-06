@@ -2,7 +2,8 @@
 TYPE
 	Services_typ : 	STRUCT 
 		DeviceName : STRING[255];
-		Alarms : S_Alarms_typ;
+		Alarms_HR : ARRAY[0..MAX_SKIDS_HR]OF S_Alarms_typ;
+		Alarms_LR : ARRAY[0..MAX_SKIDS_LR]OF S_Alarms_typ;
 	END_STRUCT;
 	S_Alarms_typ : 	STRUCT 
 		In : S_Alarms_In_typ;
@@ -24,10 +25,8 @@ TYPE
 		StateExportHistory : INT;
 		MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
 		HA_AlarmXCore_0 : HA_AlarmXCore;
-		Alarms_State_LR : ARRAY[0..MAX_SKIDS_LR]OF Alarms_Type;
-		Alarms_State_HR : ARRAY[0..MAX_SKIDS_HR]OF Alarms_Type;
-		Alarm_Set_Delay_HR : ARRAY[0..MAX_SKIDS_HR]OF TON;
-		Alarm_Set_Delay_LR : ARRAY[0..MAX_SKIDS_LR]OF TON;
+		Alarms_State : Alarms_Type;
+		Alarm_Set_Delay : TON;
 	END_STRUCT;
 	S_Alarms_Out_typ : 	STRUCT 
 		AlarmActive : BOOL;

@@ -3,7 +3,6 @@
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
     <Task Name="Master_LR" Source="modbusTCP.Master_LR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="Master_HR" Source="modbusTCP.Master_HR.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ModbusDriv" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2">

@@ -69,6 +69,7 @@ TYPE
 		MpAlarmXConfigAlarm : MpAlarmXConfigAlarm;
 		AlarmsInitialized : BOOL;
 		AlarmStartupDelay : TON;
+		AlarmX_MpLink : MpComIdentType;
 	END_STRUCT;
 END_TYPE
 
@@ -85,7 +86,8 @@ TYPE
 		Pumps : USINT;
 		Main : Vis_Main_Type;
 		Global : Vis_Global;
-		Alarms : Vis_Alarms_Type;
+		Alarms_HR : ARRAY[0..MAX_SKIDS_HR]OF Vis_Alarms_Type;
+		Alarms_LR : ARRAY[0..MAX_SKIDS_LR]OF Vis_Alarms_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -653,9 +655,6 @@ TYPE
 		TempSTRING : STRING[30];
 		Enable : BOOL;
 		Visable : BOOL;
-		FilterString_HR : ARRAY[0..100]OF STRING[80];
-		FilterString_LR : ARRAY[0..100]OF STRING[80];
-		SelectedSkidIdx : UINT;
 	END_STRUCT;
 	Vis_Alarms_History_typ : 	STRUCT 
 		UIConnect : MpAlarmXHistoryUIConnectType;
