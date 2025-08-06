@@ -13,7 +13,7 @@ FUNCTION_BLOCK API_Login_FB
 		Error : BOOL;
 		ErrorInfo : STRING[80];
 		Done : BOOL;
-		Authorization_Bearer : STRING[250];
+		Authorization_Bearer : STRING[300];
 		ReturnedRole : STRING[80];
 	END_VAR
 	VAR_IN_OUT

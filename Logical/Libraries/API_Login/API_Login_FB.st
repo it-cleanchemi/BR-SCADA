@@ -17,6 +17,8 @@ FUNCTION_BLOCK API_Login_FB
 			HA_JSON_Parse.Enable := FALSE;
 			ArUserSetPassword.Execute := FALSE;
 			ArUserCreate.Execute := FALSE;
+			brsmemset(ADR(Authorization_Bearer),0,SIZEOF(Authorization_Bearer));
+			brsmemset(ADR(JSON_Parsed),0,SIZEOF(JSON_Parsed));
 			ErrorInfo := '';
 			
 			Done := FALSE;

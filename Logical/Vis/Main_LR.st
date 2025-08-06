@@ -12,6 +12,12 @@ ACTION Vis_Main_LR:
 		
 		// VISIBILITY TRIGGER SETTING
 		
+		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.HEARTBEAT := 0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.HEARTBEAT := 1;
+		END_IF;
+		
 		IF gSkid_LR[IdxSkids_LR].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
 			gSkid_LR[IdxSkids_LR].VisBool.LSHH200 := 1;
 		ELSE
