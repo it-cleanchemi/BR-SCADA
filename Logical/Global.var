@@ -9,7 +9,6 @@ VAR
 	gSkid_HR : ARRAY[0..MAX_SKIDS_HR] OF Skid_type;
 	gVis : Vis_Type;
 	gUnit_HR : ARRAY[0..MAX_SKIDS_HR] OF UINT;
-	gUnit_LR : ARRAY[0..MAX_SKIDS_LR] OF UINT;
 	gAlarmAddData : HA_AlarmX_AlarmExtraData_typ;
 	gErrorReset : BOOL;
 END_VAR
