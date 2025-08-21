@@ -8,5 +8,6 @@
     <Object Type="File">Layout.layout</Object>
     <Object Type="File">PopUpLayout.layout</Object>
     <Object Type="File">PMSettingsLayout.layout</Object>
+    <Object Type="File">PumpSetLayout.layout</Object>
   </Objects>
 </Package>

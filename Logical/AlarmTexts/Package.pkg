@@ -3,5 +3,6 @@
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File">SkidAlarms.tmx</Object>
+    <Object Type="File">GlobalAlarms.tmx</Object>
   </Objects>
 </Package>

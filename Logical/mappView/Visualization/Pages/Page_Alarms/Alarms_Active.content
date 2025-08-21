@@ -12,6 +12,8 @@
     <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_GoToSkid" top="520" left="0" width="220" height="80" zIndex="1" image="Media/Images/Back.svg" text="GO TO SKID" />
     <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Down" top="520" left="956" width="160" height="80" zIndex="2" image="Media/Images/Down.svg" />
     <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_Up" top="520" left="796" width="160" height="80" zIndex="3" image="Media/Images/Up.svg" />
-    <Widget xsi:type="widgets.brease.Button" id="BUTTON_CONFIG" top="540" left="460" width="160" height="60" zIndex="4" text="FILTER CONFIG" />
+    <Widget xsi:type="widgets.brease.Button" id="BUTTON_CONFIG" top="540" left="620" width="160" height="60" zIndex="4" text="FILTER CONFIG" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_GoToSkid1" top="520" left="440" width="180" height="80" zIndex="5" text="ACK ALL" />
+    <Widget xsi:type="widgets.brease.PushButton" id="Alarms_Active_PushButton_GoToSkid2" top="520" left="240" width="180" height="80" zIndex="6" text="ACK" />
   </Widgets>
 </Content>

@@ -71,7 +71,7 @@
 		mouseDownBorderWidth="0px 0px 0px 0px" 
 		shadow="none"
 		backGroundGradient="linear-gradient(to right,#555555 0%,#111111 100%)" 
-		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#000000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#A3D4D9 0%,#0096A9 100%)" 
 		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)" 
 	/>
 
@@ -87,7 +87,7 @@
 		mouseDownBorderWidth="0px 0px 0px 0px" 
 		shadow="none"
 		backGroundGradient="linear-gradient(to right,#555555 0%,#111111 100%)" 
-		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#000000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#A3D4D9 0%,#0096A9 100%)" 
 		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)" 
 	/>
 	
@@ -236,7 +236,7 @@
 		mouseDownBorderWidth="0px 0px 0px 0px" 
 		shadow="none"
 		backGroundGradient="linear-gradient(to right,#555555 0%,#111111 100%)" 
-		mouseDownBackGroundGradient="linear-gradient(to right,#555555 0%,#000000 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#A3D4D9 0%,#0096A9 100%)" 
 		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)"
 		disabledImageColor="#989898" 
 	/>
@@ -461,8 +461,8 @@
 		headerGradient="linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)" 
 		buttonBackGroundGradient="linear-gradient(to bottom, #555555 0%,#D1F2FF 100%)" 
 		borderColor="#333333" 
-		backColor="#333333"
-		mouseDownBackColor="#000000" 
+		backColor="#D1F2FF"
+		mouseDownBackColor="#D1F2FF" 
 		textColor="#111111" 
 		valueTextColor="#111111" 
 	sliderForeGroundGradient="linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)" />
@@ -1295,8 +1295,8 @@
 	<Style id="default" xsi:type="system.brease.Page"  />
 	
 	<Style id="default" xsi:type="system.brease.Dialog" 
-		showCloseButton="false"
-		headerGradient="linear-gradient(to bottom, #000000 0%,#D1F2FF 100%)" 
+		showCloseButton="true"
+		headerGradient="linear-gradient(to bottom, #0096A9 0%,#D1F2FF 100%)" 
 		fontSize="20px" 
 		textColor="#111111" 
 		cornerRadius="8px 8px 8px 8px" 

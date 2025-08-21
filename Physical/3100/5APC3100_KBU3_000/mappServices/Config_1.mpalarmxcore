@@ -1597,6 +1597,120 @@
       </Group>
     </Group>
   </Element>
+  <Element ID="gAlarmXCore_Global" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="BySeverity">
+        <Group ID="[0]">
+          <Property ID="Severity" Value="0..100" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="SeverityAnyAlarm" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Severity" Value="0" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity0" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Severity" Value="1" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity1" />
+          </Selector>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Severity" Value="2" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity2" />
+          </Selector>
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Severity" Value="3" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity3" />
+          </Selector>
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Severity" Value="4" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity4" />
+          </Selector>
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Severity" Value="5" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="Severity5" />
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="RemMemLost" />
+        <Property ID="Message" Value="{$IAT/Alarm.RemMemLost}" />
+        <Property ID="Code" Value="1" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="FileLoadFailed" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadFailed}" />
+        <Property ID="Code" Value="1001" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="FileLoadSuccess" />
+        <Property ID="Message" Value="{$IAT/Alarm.FileLoadSuccess}" />
+        <Property ID="Code" Value="1002" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="RecipeGeneralError" />
+        <Property ID="Message" Value="{$IAT/Alarm.RecipeGeneralError}" />
+        <Property ID="Code" Value="1003" />
+        <Selector ID="Behavior">
+          <Group ID="Recording">
+            <Property ID="UnacknowledgedToAcknowledged" Value="FALSE" />
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="Severity2" />
+        <Property ID="Message" Value="{$IAT/GlobalAlarm.Severity2}" />
+        <Property ID="Severity" Value="2" />
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="Severity3" />
+        <Property ID="Message" Value="{$IAT/GlobalAlarm.Severity3}" />
+        <Property ID="Severity" Value="3" />
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="Severity4" />
+        <Property ID="Message" Value="{$IAT/GlobalAlarm.Severity4}" />
+        <Property ID="Severity" Value="4" />
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="Severity5" />
+        <Property ID="Message" Value="{$IAT/GlobalAlarm.Severity5}" />
+        <Property ID="Severity" Value="5" />
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="Severity1" />
+        <Property ID="Message" Value="{$IAT/GlobalAlarm.Severity1}" />
+      </Group>
+    </Group>
+  </Element>
   <Element ID="gAlarmXCore_LR_0" Type="mpalarmxcore">
     <Group ID="mapp.AlarmX.Core">
       <Group ID="BySeverity">

@@ -113,4 +113,12 @@
     </Group>
     <Selector ID="Alarms" Value="MpAlarmX" />
   </Element>
+  <Element ID="gGroup_Global" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="gAlarmXCore_Global" />
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
 </Configuration>

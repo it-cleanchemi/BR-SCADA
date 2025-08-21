@@ -12,7 +12,6 @@
   </Pages>
   <Navigations />
   <BindingsSets>
-    <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="Alarms_History_binding" />
     <BindingsSet refId="Login_Content_binding" />
     <BindingsSet refId="Main_LR_binding" />
@@ -23,6 +22,7 @@
     <BindingsSet refId="PM_Status_Content_LR_binding" />
     <BindingsSet refId="P201_Status_Content_LR_binding" />
     <BindingsSet refId="OverviewLR1_binding" />
+    <BindingsSet refId="Alarms_Active_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
@@ -60,6 +60,7 @@
     <Dialog refId="PM_Status_Popup_HR" />
     <Dialog refId="PM_Settings_Popup_HR" />
     <Dialog refId="P204_Status_Popup_HR" />
+    <Dialog refId="P201_Settings_Popup_LR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -96,6 +97,7 @@
     <Content refId="PM_Status_Content_HR" />
     <Content refId="PM_Settings_Content_HR" />
     <Content refId="P204_Status_Content_HR" />
+    <Content refId="P201_Settings_Content_LR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

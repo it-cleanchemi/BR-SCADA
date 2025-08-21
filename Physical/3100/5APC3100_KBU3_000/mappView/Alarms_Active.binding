@@ -4,32 +4,12 @@
 		
 		
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Code" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
-		</Binding>
+		
 		
 		<Binding mode="oneWayToSource">
 			<Source xsi:type="session" refId="AlarmCountActive" attribute="value" />
 			<Target xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.MaxSelection" attribute="value" />
 		</Binding>
-		
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Severity" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Severity" attribute="value" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.UIConnect.AlarmList.Message" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
-		</Binding>
-
-		
-		
-		
 		<Binding mode="twoWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.Active.TableConfig" attribute="value" />
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="tableConfiguration" />
@@ -40,9 +20,48 @@
 			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table" attribute="selectedRow" />
 		</Binding>
 		
-	<Binding mode="twoWay">
-<Source xsi:type="session" refId="SelectedAlrmHistoryIndx" attribute="value" />
-<Target xsi:type="brease" contentRefId="Alarms_History" widgetRefId="Alarms_History_Table" attribute="selectedRow" />
-</Binding>
-</Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="session" refId="SelectedAlrmHistoryIndx" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_History" widgetRefId="Alarms_History_Table" attribute="selectedRow" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.UIConnect.AlarmList.Message" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Description" attribute="stringValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.UIConnect.AlarmList.Severity" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Severity" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.UIConnect.AlarmList.Code" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Code" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.UIConnect.AlarmList.Timestamp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.AckAll" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_GoToSkid1" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.UIConnect.Acknowledge" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_GoToSkid2" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.PageUp" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Up" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.PageDown" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Alarms_Active" widgetRefId="Alarms_Active_PushButton_Down" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="session" refId="SelectedAlrmIndx" attribute="value" />
+			<Target xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms_Global.Active.SelectedIndex" attribute="value" />
+		</Binding>
+		
+		
+	</Bindings>
 </BindingsSet>

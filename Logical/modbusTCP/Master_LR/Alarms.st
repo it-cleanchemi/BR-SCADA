@@ -1,7 +1,7 @@
 
 ACTION Alarms_action: 
 	
-	IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 THEN
+	IF gSkid_LR[IdxSkids_LR].AlarmsInitialized AND gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 AND gUnit_LR[IdxSkids_LR] <> 0 THEN
 	
 		// AB1
 		IF gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB1.0 AND gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State.ALARM_AB1.0 = FALSE THEN
@@ -16,7 +16,7 @@ ACTION Alarms_action:
 		
 		IF gSkid_LR[IdxSkids_LR].Alarms.ALARM_AB1.1 AND gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State.ALARM_AB1.1 = FALSE THEN
 			IF gSkid_LR[IdxSkids_LR].ErrorInfo.Text = '' THEN
-				gSkid_LR[IdxSkids_LR].ErrorInfo.Text		:= 'ALARM_AB1.0';
+				gSkid_LR[IdxSkids_LR].ErrorInfo.Text		:= 'ALARM_AB1.1';
 				gSkid_LR[IdxSkids_LR].ErrorInfo.State		:= 'Warning';
 				gSkid_LR[IdxSkids_LR].ErrorInfo.Severity	:= 1;
 				gSkid_LR[IdxSkids_LR].Error := TRUE;
@@ -2449,7 +2449,7 @@ ACTION Alarms_action:
 	END_IF;
 
 	(*********************************************************************Dont Touch This Code**********************************************************************)
-	IF gSkid_LR[IdxSkids_LR].Error AND gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 THEN
+	IF gSkid_LR[IdxSkids_LR].Error AND gSkid_LR[IdxSkids_LR].AlarmsInitialized AND gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 AND gUnit_LR[IdxSkids_LR] <> 0 THEN
 		CASE gSkid_LR[IdxSkids_LR].ErrorInfo.Severity OF
 			1:
 				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= 'Severity1';
@@ -2458,6 +2458,15 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= gSkid_LR[IdxSkids_LR].ErrorInfo.Text;
 					
 				HA_Array_AddTop(ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+				
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT('Skid',gSkid_LR[IdxSkids_LR].tempAlarm.name);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT(gSkid_LR[IdxSkids_LR].tempAlarm.name,'Severity1');
+				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= FALSE;
+				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= 'GENERAL_SEVERITY1';
+				
+				HA_Array_AddTop(ADR(gServices.Alarms_Global.AlarmList), SIZEOF(gServices.Alarms_Global.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
 			2:
 				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= 'Severity2';
 				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= TRUE;
@@ -2465,6 +2474,15 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= gSkid_LR[IdxSkids_LR].ErrorInfo.Text;
 					
 				HA_Array_AddTop(ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT('Skid',gSkid_LR[IdxSkids_LR].tempAlarm.name);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT(gSkid_LR[IdxSkids_LR].tempAlarm.name,'Severity2');
+				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= FALSE;
+				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= 'GENERAL_SEVERITY2';
+				
+				HA_Array_AddTop(ADR(gServices.Alarms_Global.AlarmList), SIZEOF(gServices.Alarms_Global.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
 			3:
 				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= 'Severity3';
 				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= TRUE;
@@ -2472,6 +2490,15 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= gSkid_LR[IdxSkids_LR].ErrorInfo.Text;
 					
 				HA_Array_AddTop(ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT('Skid',gSkid_LR[IdxSkids_LR].tempAlarm.name);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT(gSkid_LR[IdxSkids_LR].tempAlarm.name,'Severity3');
+				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= FALSE;
+				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= 'GENERAL_SEVERITY3';
+				
+				HA_Array_AddTop(ADR(gServices.Alarms_Global.AlarmList), SIZEOF(gServices.Alarms_Global.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
 			4:
 				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= 'Severity4';
 				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= TRUE;
@@ -2479,6 +2506,15 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= gSkid_LR[IdxSkids_LR].ErrorInfo.Text;
 					
 				HA_Array_AddTop(ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT('Skid',gSkid_LR[IdxSkids_LR].tempAlarm.name);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT(gSkid_LR[IdxSkids_LR].tempAlarm.name,'Severity4');
+				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= FALSE;
+				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= 'GENERAL_SEVERITY4';
+				
+				HA_Array_AddTop(ADR(gServices.Alarms_Global.AlarmList), SIZEOF(gServices.Alarms_Global.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
 			5:
 				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= 'Severity5';
 				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= TRUE;
@@ -2486,28 +2522,24 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= gSkid_LR[IdxSkids_LR].ErrorInfo.Text;
 					
 				HA_Array_AddTop(ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
-		END_CASE
 		
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT('Skid',gSkid_LR[IdxSkids_LR].tempAlarm.name);
+				gSkid_LR[IdxSkids_LR].tempAlarm.name			:= CONCAT(gSkid_LR[IdxSkids_LR].tempAlarm.name,'Severity5');
+				gSkid_LR[IdxSkids_LR].tempAlarm.allowMultiple	:= FALSE;
+				gSkid_LR[IdxSkids_LR].tempAlarm.addText[1]		:= 'GENERAL_SEVERITY5';
+				
+				HA_Array_AddTop(ADR(gServices.Alarms_Global.AlarmList), SIZEOF(gServices.Alarms_Global.AlarmList), ADR(gSkid_LR[IdxSkids_LR].tempAlarm), SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
+		
+		END_CASE
+		brsmemset(ADR(gSkid_LR[IdxSkids_LR].tempAlarm),0,SIZEOF(gSkid_LR[IdxSkids_LR].tempAlarm));
 		gSkid_LR[IdxSkids_LR].Error := FALSE;
 		
 	END_IF
 	
 	brsmemset(ADR(gSkid_LR[IdxSkids_LR].ErrorInfo),0,SIZEOF(gSkid_LR[IdxSkids_LR].ErrorInfo));
 	
-//	//Set Unit Number and Add Alarms
-//	IF (gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit_LR[IdxSkids_LR] <> gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID)) 
-//		OR gUnit_LR[IdxSkids_LR] <> 0 THEN
-//		
-//		gUnit_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID;
-//		
-//		gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//		gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//		
-//		gSkid_LR[IdxSkids_LR].i := 1;
-//		
-//		SkidNumberINT := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//
-//	END_IF;
+
 	
 	// Case for handling the alarm history
 	CASE gServices.Alarms_LR[IdxSkids_LR].Internal.StateExportHistory OF
@@ -2533,6 +2565,8 @@ ACTION Alarms_action:
 	//		gServices.Alarms_LR[IdxSkids_LR].In.ResetAlarms 											:= TRUE;
 	//	END_IF;
 	
+	
+	
 	// Case for handling the alarm resetting
 	CASE gServices.Alarms_LR[IdxSkids_LR].Internal.StateResetAlarms OF
 		0:
@@ -2554,155 +2588,169 @@ ACTION Alarms_action:
 			END_IF;
 	END_CASE;
 	
+	//	//Set Unit Number and Add Alarms
+	IF (gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID <> 0 AND (gUnit_LR[IdxSkids_LR] <> gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID))  THEN
+			
+		gUnit_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID;
+			
+		gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+		gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			
+		gSkid_LR[IdxSkids_LR].i := 1;
+			
+		SkidNumberINT := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+	
+	END_IF;
+	
 	
 	//Create Alarms
-//	CASE gSkid_LR[IdxSkids_LR].i OF 
-//		0: 
-//			//IDLE
-//		1: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity1'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity1'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 1;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//			
-//		2: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity2'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity2'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 2;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//				
-//		3: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity3'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity3'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 3;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//
-//		4: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity4'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity4'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 4;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//		5: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity5'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity5'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 5;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//												
-//		6: 
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
-//			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('CmdIgnored'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/Alarm.';
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR(gSkid_LR[IdxSkids_LR].AlarmName), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR] + 6;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 0;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
-//			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
-//			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
-//		7:
-//			gSkid_LR[IdxSkids_LR].AlarmStartupDelay.IN := TRUE;
-//			
-//			IF 	gSkid_LR[IdxSkids_LR].AlarmStartupDelay.Q THEN
-//				gSkid_LR[IdxSkids_LR].AlarmsInitialized := TRUE;
-//			END_IF;
-//			
-//	END_CASE
+	CASE gSkid_LR[IdxSkids_LR].i OF 
+		0: 
+			//IDLE
+		1: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity1'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity1'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 1;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+			
+		2: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity2'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity2'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 2;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+				
+		3: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity3'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity3'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 3;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+
+		4: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity4'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity4'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 4;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+		5: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('Severity5'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));							
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('Severity5'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR];
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 5;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+												
+		6: 
+			gSkid_LR[IdxSkids_LR].AlarmName	 := UINT_TO_STRING(gUnit_LR[IdxSkids_LR]);
+			gSkid_LR[IdxSkids_LR].AlarmName	 := CONCAT('Skid',gSkid_LR[IdxSkids_LR].AlarmName	);
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmName), ADR('CmdIgnored'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmName));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Message												:= '{$$IAT/GlobalAlarm.';
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR(gSkid_LR[IdxSkids_LR].AlarmName), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			HA_brsstrcat(ADR(gSkid_LR[IdxSkids_LR].AlarmCfg.Message), ADR('}'), SIZEOF(gSkid_LR[IdxSkids_LR].AlarmCfg.Message));
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Code													:= gUnit_LR[IdxSkids_LR] + 6;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Severity												:= 0;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.AutoReset									:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.Acknowledge 									:= mpALARMX_ACK_REQ;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.MultipleInstances 							:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.ReactionUntilAcknowledged					:= TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.AcknowledgedToUnacknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.ActiveToInactive := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.InactiveToActive := TRUE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.Reactivation := FALSE;
+			gSkid_LR[IdxSkids_LR].AlarmCfg.Behavior.HistoryReport.UnacknowledgedToAcknowledged := FALSE;
+			gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save				:= TRUE;
+		7:
+			gSkid_LR[IdxSkids_LR].AlarmStartupDelay.IN := TRUE;
+			
+			IF 	gSkid_LR[IdxSkids_LR].AlarmStartupDelay.Q THEN
+				gSkid_LR[IdxSkids_LR].AlarmsInitialized := TRUE;
+			END_IF;
+			
+	END_CASE
 	
 	gSkid_LR[IdxSkids_LR].AlarmStartupDelay(PT := T#30s);
 		
-//	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.MpLink			:= ADR(gSkid_LR[IdxSkids_LR].AlarmX_MpLink);
-//	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Enable			:= TRUE;
-//	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Name				:= ADR(gSkid_LR[IdxSkids_LR].AlarmName);
-//	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Configuration	:= ADR(gSkid_LR[IdxSkids_LR].AlarmCfg);
-//		
-//	IF gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.CommandDone THEN
-//		IF gSkid_LR[IdxSkids_LR].i < 7 THEN
-//			gSkid_LR[IdxSkids_LR].i := gSkid_LR[IdxSkids_LR].i + 1;
-//		ELSE
-//			//Do nothing
-//		END_IF;
-//		
-//		gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save := FALSE;
-//	END_IF;
-//	
-//	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm();
+	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.MpLink			:= ADR(gAlarmXCore_Global);
+	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Enable			:= TRUE;
+	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Name				:= ADR(gSkid_LR[IdxSkids_LR].AlarmName);
+	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Configuration	:= ADR(gSkid_LR[IdxSkids_LR].AlarmCfg);
+		
+	IF gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.CommandDone THEN
+		IF gSkid_LR[IdxSkids_LR].i < 7 THEN
+			gSkid_LR[IdxSkids_LR].i := gSkid_LR[IdxSkids_LR].i + 1;
+		ELSE
+			//Do nothing
+		END_IF;
+		
+		gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm.Save := FALSE;
+	END_IF;
+	
+	gSkid_LR[IdxSkids_LR].MpAlarmXConfigAlarm();
 	
 END_ACTION

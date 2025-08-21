@@ -31,6 +31,7 @@
       <Property ID="TargetFile[19]" Value="mappView.Resources.Texts.Diagnostics_WheelIO.tmx" />
       <Property ID="TargetFile[20]" Value="mappView.Resources.Texts.SkidStatus.tmx" />
       <Property ID="TargetFile[21]" Value="AlarmTexts.SkidAlarms.tmx" />
+      <Property ID="TargetFile[22]" Value="AlarmTexts.GlobalAlarms.tmx" />
     </Group>
   </Element>
 </Configuration>

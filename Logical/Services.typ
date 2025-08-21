@@ -1,9 +1,18 @@
 
 TYPE
+	S_Alarms_global_type : 	STRUCT 
+		MpAlarmXListUI_0 : MpAlarmXListUI;
+		MpAlarmXHistory_0 : MpAlarmXHistory;
+		MpAlarmXCore_0 : MpAlarmXCore;
+		MpAlarmXHistoryUI_0 : MpAlarmXHistoryUI;
+		HA_AlarmXCore_0 : HA_AlarmXCore;
+		AlarmList : ARRAY[0..HA_ALARMX_BUFFER_IDX]OF HA_AlarmX_Core_Buffer_typ;
+	END_STRUCT;
 	Services_typ : 	STRUCT 
 		DeviceName : STRING[255];
 		Alarms_HR : ARRAY[0..MAX_SKIDS_HR]OF S_Alarms_typ;
 		Alarms_LR : ARRAY[0..MAX_SKIDS_LR]OF S_Alarms_typ;
+		Alarms_Global : S_Alarms_global_type;
 	END_STRUCT;
 	S_Alarms_typ : 	STRUCT 
 		In : S_Alarms_In_typ;

@@ -37,6 +37,7 @@ PROGRAM _CYCLIC
 		
 	END_FOR
 
+	
 	//Main Page Widget Vis
 	Vis_Main_HR;
 	Vis_Main_LR;
@@ -45,8 +46,8 @@ PROGRAM _CYCLIC
 	Login_User_API;
 	
 	//Alarm Page Logic
-//	Alarms_Active;
-//	Alarms_History;
+	Alarms_Active;
+	//	Alarms_History;
 	
 END_PROGRAM
 

@@ -335,6 +335,7 @@ ACTION Modbus_CMD_action:
 	END_IF;
 	
 	// AS Block 61 IS THE TEXT READ INT BLOCK
+
 	
 	// AS Block 62 - XV101_OPEN_CMD
 	IF gCMD_LR[IdxSkids_LR].Write_XV101_OPEN_CMD.Send THEN
@@ -405,6 +406,241 @@ ACTION Modbus_CMD_action:
 	END_IF;
 	
 
+	
+	///////////////////////////////////////////
+	
+	
+	// AS Block 74 - P101_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[73].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 75 - P101_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P101_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P101_GAIN.wP101_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P101_GAIN.wP101_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[74].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P101_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 76 - P101_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P101_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P101_STEPADJ.wP101_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P101_STEPADJ.wP101_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[75].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P101_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 77 - P101_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P101_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P101_TOTALADJ.wP101_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P101_TOTALADJ.wP101_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[76].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P101_TOTALADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 78 - P102_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[77].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 79 - P102_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P102_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P102_GAIN.wP102_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P102_GAIN.wP102_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[78].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P102_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 80 - P102_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P102_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P102_STEPADJ.wP102_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P102_STEPADJ.wP102_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[79].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P102_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 81 - P102_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P102_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P102_TOTALADJ.wP102_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P102_TOTALADJ.wP102_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[80].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P102_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	// AS Block 82 - P103_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[81].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 83 - P103_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P103_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P103_GAIN.wP103_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P103_GAIN.wP103_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[82].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P103_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 84 - P103_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.wP103_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.wP103_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[83].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 85 - P103_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.wP103_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.wP103_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[84].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	// AS Block 86 - P104_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[85].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 87 - P104_AUTOCAL_PV
+	IF gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[86].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.Send := FALSE;
+	END_IF;
+	
+	// AS Block 88 - P104_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P104_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P104_GAIN.wP104_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P104_GAIN.wP104_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[87].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P104_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 89 - P104_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P104_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P104_STEPADJ.wP104_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P104_STEPADJ.wP104_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[88].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P104_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 90 - P104_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P104_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P104_TOTALADJ.wP104_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P104_TOTALADJ.wP104_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[89].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P104_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	// AS Block 91 - P201_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[90].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 92 - P201_AUTOCAL_PV
+	IF gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[91].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.Send := FALSE;
+	END_IF;
+	
+	// AS Block 93 - P201_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P201_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P201_GAIN.wP201_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P201_GAIN.wP201_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[92].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P201_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 94 - P201_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P201_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P201_STEPADJ.wP201_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P201_STEPADJ.wP201_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[93].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P201_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 95 - P201_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P201_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P201_TOTALADJ.wP201_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P201_TOTALADJ.wP201_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[94].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P201_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	// AS Block 96 - P202_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[95].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 97 - P202_AUTOCAL_PV
+	IF gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[96].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.Send := FALSE;
+	END_IF;
+	
+	// AS Block 98 - P202_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P202_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P202_GAIN.wP202_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P202_GAIN.wP202_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[97].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P202_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 99 - P202_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P202_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P202_STEPADJ.wP202_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P202_STEPADJ.wP202_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[98].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P202_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 100 - P202_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P202_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P202_TOTALADJ.wP202_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P202_TOTALADJ.wP202_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[99].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P202_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	// AS Block 101 - P203_AUTOCAL
+	IF gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[100].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.Send := FALSE;
+	END_IF;
+	
+	// AS Block 102 - P203_AUTOCAL_PV
+	IF gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[101].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.Send := FALSE;
+	END_IF;
+	
+	// AS Block 103 - P203_GAIN
+	IF gCMD_LR[IdxSkids_LR].Write_P203_GAIN.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P203_GAIN.wP203_GAIN_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P203_GAIN.wP203_GAIN);
+		MasterConfig_LR[IdxSkids_LR].action_enable[102].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P203_GAIN.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 104 - P203_STEPADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P203_STEPADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P203_STEPADJ.wP203_STEPADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P203_STEPADJ.wP203_STEPADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[103].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P203_STEPADJ.Send := FALSE;
+	END_IF;	
+	
+	// AS Block 105 - P203_TOTALADJ
+	IF gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.wP203_TOTALADJ_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.wP203_TOTALADJ);
+		MasterConfig_LR[IdxSkids_LR].action_enable[104].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.Send := FALSE;
+	END_IF;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 
 	

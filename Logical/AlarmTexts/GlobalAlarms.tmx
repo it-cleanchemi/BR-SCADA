@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="GlobalAlarm.Severity1">
+      <tuv xml:lang="en">
+        <seg>{=$IAT/GlobalErrorText.{#::AsGlobalPV:gAlarmAddData_Global.AddData[1]}}; AlarmType: {=$IAT/GlobalAlarm.{#::AsGlobalPV:gAlarmAddData_Global.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Severity5">
+      <tuv xml:lang="en">
+        <seg>{=$IAT/GlobalErrorText.{#::AsGlobalPV:gAlarmAddData_Global.AddData[1]}}; AlarmType: {=$IAT/GlobalAlarm.{#::AsGlobalPV:gAlarmAddData_Global.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Severity4">
+      <tuv xml:lang="en">
+        <seg>{=$IAT/GlobalErrorText.{#::AsGlobalPV:gAlarmAddData_Global.AddData[1]}}; AlarmType: {=$IAT/GlobalAlarm.{#::AsGlobalPV:gAlarmAddData_Global.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Severity3">
+      <tuv xml:lang="en">
+        <seg>{=$IAT/GlobalErrorText.{#::AsGlobalPV:gAlarmAddData_Global.AddData[1]}}; AlarmType: {=$IAT/GlobalAlarm.{#::AsGlobalPV:gAlarmAddData_Global.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Severity2">
+      <tuv xml:lang="en">
+        <seg>{=$IAT/GlobalErrorText.{#::AsGlobalPV:gAlarmAddData_Global.AddData[1]}}; AlarmType: {=$IAT/GlobalAlarm.{#::AsGlobalPV:gAlarmAddData_Global.AddData[0]}}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Error">
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalErrorText.GENERAL_SEVERITY1">
+      <tuv xml:lang="en">
+        <seg>Severity 1 Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalErrorText.GENERAL_SEVERITY2">
+      <tuv xml:lang="en">
+        <seg>Severity 2 Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalErrorText.GENERAL_SEVERITY3">
+      <tuv xml:lang="en">
+        <seg>Severity 3 Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalErrorText.GENERAL_SEVERITY4">
+      <tuv xml:lang="en">
+        <seg>Severity 4 Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalErrorText.GENERAL_SEVERITY5">
+      <tuv xml:lang="en">
+        <seg>Severity 5 Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GlobalAlarm.Warning">
+      <tuv xml:lang="en">
+        <seg>Warning</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

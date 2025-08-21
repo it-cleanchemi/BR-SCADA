@@ -91,5 +91,8 @@
     <Object Type="File">FM2.png</Object>
     <Object Type="File">CD.png</Object>
     <Object Type="File">MXDRH.png</Object>
+    <Object Type="File">Solenoid_On4.png</Object>
+    <Object Type="File">Solenoid_On4side.png</Object>
+    <Object Type="File">SettingsCog.png</Object>
   </Objects>
 </Package>

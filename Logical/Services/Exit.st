@@ -16,4 +16,10 @@ PROGRAM _EXIT
 		gServices.Alarms_HR[IdxSkids_HR].Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := FALSE);
 	END_FOR;
 	
+	
+	gServices.Alarms_Global.MpAlarmXCore_0(Enable := FALSE);
+	gServices.Alarms_Global.MpAlarmXListUI_0(Enable := FALSE);
+	gServices.Alarms_Global.MpAlarmXHistory_0(Enable := FALSE);
+	gServices.Alarms_Global.MpAlarmXHistoryUI_0(Enable := FALSE);
+	
 END_PROGRAM

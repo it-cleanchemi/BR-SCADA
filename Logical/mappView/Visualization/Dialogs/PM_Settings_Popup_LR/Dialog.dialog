@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="PM_Settings_Popup_LR" layoutRefId="PMSettings_popup" closeImage="" headerBackColor="rgba(219, 219, 219, 1)">
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="PM_Settings_Popup_LR" layoutRefId="PMSettings_popup" closeImage="Media/SVGsymbols/Edit/Close.svg" headerBackColor="rgba(219, 219, 219, 1)">
   <Assignments>
     <Assignment type="Content" baseContentRefId="PM_Settings_Content_LR" areaRefId="area1" />
   </Assignments>

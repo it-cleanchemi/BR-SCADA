@@ -78,6 +78,9 @@
         <Variable Name="gCMD_LR" RecursiveEnable="2" />
         <Variable Name="gModbus_HR" RecursiveEnable="2" />
         <Variable Name="gModbus_LR" RecursiveEnable="2" />
+        <Variable Name="gAlarmAddData_Global" RecursiveEnable="2">
+          <Variable Name="AddData" RecursiveEnable="2" />
+        </Variable>
       </GlobalVariables>
     </Module>
   </DefaultView>

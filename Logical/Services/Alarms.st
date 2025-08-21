@@ -76,34 +76,33 @@ ACTION Services_Alarms_action:
 //	END_FOR;
 //	
 //
-//		
-//		//Reset only Selected Skid Alarms
-//		IF gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] THEN
-//			
-//			FOR IdxAlarmsActive := 0 TO 49 DO
-//				IF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = gUnit_LR[IdxSkids_LR] THEN
-//					MpAlarmXAcknowledgeID(gSkid_LR[IdxSkids_LR].AlarmX_MpLink,gVis.Alarms.Active.UIConnect.AlarmList.InstanceID[IdxAlarmsActive]);
-//				ELSIF gVis.Alarms.Active.UIConnect.AlarmList.Code[IdxAlarmsActive] = 0 THEN
-//					EXIT;
-//				END_IF;
-//			END_FOR;
-//			
-//			gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] := FALSE;
-//			
-//			gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay_LR[IdxSkids_LR].IN := TRUE;
-//		END_IF;
-//		
-//		IF gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay_LR[IdxSkids_LR].Q THEN
-//			brsmemset(ADR(gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State_LR[IdxSkids_LR]),0,SIZEOF(gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State_LR[IdxSkids_LR]));
-//			gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay_LR[IdxSkids_LR].IN := FALSE;
-//		END_IF;
-//		
-//		gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay_LR[IdxSkids_LR](PT := T#15s);
-//		
-//	END_FOR;
-//	
+
+	
+	IF gVis.Alarms_Global.Active.AckAll THEN
+
+		gVis.Alarms_Global.Active.UIConnect.AcknowledgeAll := TRUE;			
+		gVis.Alarms_Global.Active.AckAll := FALSE;
+		
+	END_IF;
+	
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
+		
+		//		//Reset only Selected Skid Alarms
+		IF gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] THEN
+
+			gVis.Alarms_LR[IdxSkids_LR].Active.UIConnect.AcknowledgeAll := TRUE;			
+			gVis.Main.In.AckAllAlarms_Skid_LR[IdxSkids_LR] := FALSE;
+			
+			gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay.IN := TRUE;
+		END_IF;
+		
+		IF gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay.Q THEN
+			brsmemset(ADR(gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State),0,SIZEOF(gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State));
+			gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay.IN := FALSE;
+		END_IF;
+		
+		gServices.Alarms_LR[IdxSkids_LR].Internal.Alarm_Set_Delay(PT := T#15s);
 		
 		gServices.Alarms_LR[IdxSkids_LR].Out.BufferInfo.Address	:= ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList);
 		gServices.Alarms_LR[IdxSkids_LR].Out.BufferInfo.Size		:= SIZEOF(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList);
@@ -114,6 +113,17 @@ ACTION Services_Alarms_action:
 		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXListUI_0(MpLink := ADR(gSkid_LR[IdxSkids_LR].AlarmX_MpLink), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_LR[IdxSkids_LR].Active.UIConnect));
 		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
 		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_LR[IdxSkids_LR].History.UIConnect));
+		
+		gVis.Alarms_LR[IdxSkids_LR].Active.UIConnect.AcknowledgeAll := FALSE;
 	END_FOR	
+	
+	gServices.Alarms_Global.HA_AlarmXCore_0(MpLink := gAlarmXCore_Global, enable := TRUE, pBuffer := ADR(gServices.Alarms_Global.AlarmList), pOutputData := ADR(gAlarmAddData_Global));
+	gServices.Alarms_Global.MpAlarmXCore_0(MpLink := ADR(gAlarmXCore_Global), Enable := TRUE, ErrorReset := gErrorReset);
+	gServices.Alarms_Global.MpAlarmXListUI_0(MpLink := ADR(gAlarmXCore_Global), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_Global.Active.UIConnect));
+	gServices.Alarms_Global.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
+	gServices.Alarms_Global.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_Global.History.UIConnect));
+		
+	gVis.Alarms_Global.Active.UIConnect.AcknowledgeAll := FALSE;
+	
 
 END_ACTION
