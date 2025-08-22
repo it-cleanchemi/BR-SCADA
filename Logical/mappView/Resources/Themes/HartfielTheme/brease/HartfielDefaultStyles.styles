@@ -1301,7 +1301,7 @@
 		textColor="#111111" 
 		cornerRadius="8px 8px 8px 8px" 
 		borderWidth="0px" 
-		borderColor="#000000" 
+		borderColor="#D1F2FF" 
 	shadow="none" />
 	
 	<Style id="default" xsi:type="system.brease.MessageBox"	

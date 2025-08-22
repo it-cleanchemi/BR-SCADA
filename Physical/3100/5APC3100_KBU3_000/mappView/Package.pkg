@@ -37,5 +37,6 @@
     <Object Type="File">PM_Settings_Content_HR.eventbinding</Object>
     <Object Type="File">PM_Status_Content_LR.binding</Object>
     <Object Type="File">P201_Status_Content_LR.binding</Object>
+    <Object Type="File">P101_Settings_Content_LR.binding</Object>
   </Objects>
 </Package>

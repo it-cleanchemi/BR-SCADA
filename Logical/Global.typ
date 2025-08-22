@@ -197,34 +197,41 @@ TYPE
 		Write_P101_GAIN : CMD_Write_P101_GAIN_Type;
 		Write_P101_STEPADJ : CMD_Write_P101_STEPADJ_Type;
 		Write_P101_TOTALADJ : CMD_Write_P101_TOTALADJ_Type;
+		Write_P102_AUTOFLO_ADPT : CMD_Write_P102_AUTOFLO_ADPT_Type;
 		Write_P102_AUTOCAL : CMD_Write_P102_AUTOCAL_Type;
 		Write_P102_GAIN : CMD_Write_P102_GAIN_Type;
 		Write_P102_STEPADJ : CMD_Write_P102_STEPADJ_Type;
 		Write_P102_TOTALADJ : CMD_Write_P102_TOTALADJ_Type;
+		Write_P103_AUTOFLO_ADPT : CMD_Write_P103_AUTOFLO_ADPT_Type;
 		Write_P103_AUTOCAL : CMD_Write_P103_AUTOCAL_Type;
 		Write_P103_GAIN : CMD_Write_P103_GAIN_Type;
 		Write_P103_STEPADJ : CMD_Write_P103_STEPADJ_Type;
 		Write_P103_TOTALADJ : CMD_Write_P103_TOTALADJ_Type;
+		Write_P104_AUTOFLO_ADPT : CMD_Write_P104_AUTOFLO_ADPT_Type;
 		Write_P104_AUTOCAL : CMD_Write_P104_AUTOCAL_Type;
 		Write_P104_AUTOCAL_PV : CMD_Write_P104_AUTOCAL_PV_Type;
 		Write_P104_GAIN : CMD_Write_P104_GAIN_Type;
 		Write_P104_STEPADJ : CMD_Write_P104_STEPADJ_Type;
 		Write_P104_TOTALADJ : CMD_Write_P104_TOTALADJ_Type;
+		Write_P201_AUTOFLO_ADPT : CMD_Write_P201_AUTOFLO_ADPT_Type;
 		Write_P201_AUTOCAL : CMD_Write_P201_AUTOCAL_Type;
 		Write_P201_AUTOCAL_PV : CMD_Write_P201_AUTOCAL_PV_Type;
 		Write_P201_GAIN : CMD_Write_P201_GAIN_Type;
 		Write_P201_STEPADJ : CMD_Write_P201_STEPADJ_Type;
 		Write_P201_TOTALADJ : CMD_Write_P201_TOTALADJ_Type;
+		Write_P202_AUTOFLO_ADPT : CMD_Write_P202_AUTOFLO_ADPT_Type;
 		Write_P202_AUTOCAL : CMD_Write_P202_AUTOCAL_Type;
 		Write_P202_AUTOCAL_PV : CMD_Write_P202_AUTOCAL_PV_Type;
 		Write_P202_GAIN : CMD_Write_P202_GAIN_Type;
 		Write_P202_STEPADJ : CMD_Write_P202_STEPADJ_Type;
 		Write_P202_TOTALADJ : CMD_Write_P202_TOTALADJ_Type;
+		Write_P203_AUTOFLO_ADPT : CMD_Write_P203_AUTOFLO_ADPT_Type;
 		Write_P203_AUTOCAL : CMD_Write_P203_AUTOCAL_Type;
 		Write_P203_AUTOCAL_PV : CMD_Write_P203_AUTOCAL_PV_Type;
 		Write_P203_GAIN : CMD_Write_P203_GAIN_Type;
 		Write_P203_STEPADJ : CMD_Write_P203_STEPADJ_Type;
 		Write_P203_TOTALADJ : CMD_Write_P203_TOTALADJ_Type;
+		Write_P204_AUTOFLO_ADPT : CMD_Write_P204_AUTOFLO_ADPT_Type;
 		Write_P204_AUTOCAL : CMD_Write_P204_AUTOCAL_Type;
 		Write_P204_AUTOCAL_PV : CMD_Write_P204_AUTOCAL_PV_Type;
 		Write_P204_GAIN : CMD_Write_P204_GAIN_Type;
@@ -364,6 +371,10 @@ TYPE
 		wP102_SP : REAL;
 		wP102_SP_SWAPPED : REAL;
 	END_STRUCT;
+	CMD_Write_P102_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP102_P102_AUTOFLO_ADPT : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P102_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
 		wP102_AUTOCAL : UINT := 1;
@@ -401,6 +412,10 @@ TYPE
 		wP103_SP : REAL;
 		wP103_SP_SWAPPED : REAL;
 	END_STRUCT;
+	CMD_Write_P103_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP103_P103_AUTOFLO_ADPT : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P103_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
 		wP103_AUTOCAL : UINT := 1;
@@ -437,6 +452,10 @@ TYPE
 		Send : BOOL;
 		wP104_SP : REAL;
 		wP104_SP_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_P104_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP104_P104_AUTOFLO_ADPT : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P104_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
@@ -490,6 +509,10 @@ TYPE
 		wP201_HOA_String : STRING[80];
 		wP201_HOA : UINT;
 	END_STRUCT;
+	CMD_Write_P201_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP201_P201_AUTOFLO_ADPT : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P201_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
 		wP201_AUTOCAL : UINT := 1;
@@ -541,6 +564,10 @@ TYPE
 		Send : BOOL;
 		wP202_HOA_String : STRING[80];
 		wP202_HOA : UINT;
+	END_STRUCT;
+	CMD_Write_P202_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP202_P202_AUTOFLO_ADPT : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P202_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
@@ -594,6 +621,10 @@ TYPE
 		Cancel : BOOL;
 		wP203_HOA_String : STRING[80];
 	END_STRUCT;
+	CMD_Write_P203_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP203_P203_AUTOFLO_ADPT : UINT := 1;
+	END_STRUCT;
 	CMD_Write_P203_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
 		wP203_AUTOCAL : UINT := 1;
@@ -645,6 +676,10 @@ TYPE
 		wP204_HOA : UINT;
 		Cancel : BOOL;
 		wP204_HOA_String : STRING[80];
+	END_STRUCT;
+	CMD_Write_P204_AUTOFLO_ADPT_Type : 	STRUCT 
+		Send : BOOL;
+		wP204_P204_AUTOFLO_ADPT : UINT := 1;
 	END_STRUCT;
 	CMD_Write_P204_AUTOCAL_Type : 	STRUCT 
 		Send : BOOL;
@@ -907,6 +942,20 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		P101_AUTOCAL_ON : BOOL;
+		P101_AUTOCAL_OFF : BOOL;
+		P102_AUTOCAL_ON : BOOL;
+		P102_AUTOCAL_OFF : BOOL;
+		P103_AUTOCAL_ON : BOOL;
+		P103_AUTOCAL_OFF : BOOL;
+		P104_AUTOCAL_ON : BOOL;
+		P104_AUTOCAL_OFF : BOOL;
+		P201_AUTOCAL_ON : BOOL;
+		P201_AUTOCAL_OFF : BOOL;
+		P202_AUTOCAL_ON : BOOL;
+		P202_AUTOCAL_OFF : BOOL;
+		P203_AUTOCAL_ON : BOOL;
+		P203_AUTOCAL_OFF : BOOL;
 		P204_WARN : BOOL;
 		P204_ALARM : BOOL;
 		P203_WARN : BOOL;
@@ -1161,6 +1210,7 @@ TYPE
 		P102_ALARM : UINT; (*Pump 102 Internal Alarm Message Index*)
 		P102_WARN : UINT; (*Pump 102 Internal Warning Message Index*)
 		P102_LS : REAL; (*Pump 102 Inlet Point Level*)
+		P102_AUTOADAPT : UINT; (*Pump 102 AutoAdapt Enable/Disable*)
 		P102_AUTOCAL : UINT; (*Pump 102 AutoCal On/OFF Status*)
 		P102_GAIN : REAL; (*Pump 102 Gain*)
 		P102_STEPADJ : REAL; (*Pump 102 Max Step Adj*)
@@ -1180,6 +1230,7 @@ TYPE
 		P103_ALARM : UINT; (*Pump 103 Internal Alarm Message Index*)
 		P103_WARN : UINT; (*Pump 103 Internal Warning Message Index*)
 		P103_LS : REAL; (*Pump 103 Inlet Point Level*)
+		P103_AUTOADAPT : UINT; (*Pump 103 AutoAdapt Enable/Disable*)
 		P103_AUTOCAL : UINT; (*Pump 103 AutoCal On/OFF Status*)
 		P103_GAIN : REAL; (*Pump 103 Gain*)
 		P103_STEPADJ : REAL; (*Pump 103 Max Step Adj*)
@@ -1199,6 +1250,7 @@ TYPE
 		P104_WARN : UINT; (*Pump 104 Internal Warning Message Index*)
 		P104_PPI : REAL; (*Pump 104 Internal Pressure*)
 		P104_AUTOCAL : UINT; (*Pump 104 AutoCal On/OFF Status*)
+		P104_AUTOADAPT : UINT; (*Pump 104 AutoAdapt Enable/Disable*)
 		P104_AUTOCAL_PV : UINT; (*Pump 104 AutoCal PV Source*)
 		P104_GAIN : REAL; (*Pump 104 Gain*)
 		P104_STEPADJ : REAL; (*Pump 104 Max Step Adj*)
@@ -1236,6 +1288,7 @@ TYPE
 		P201_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 		P201_TEXT : STRING[80]; (*Pump 201 HMI Text Input Description*)
 		P201_AUTOCAL : UINT; (*Pump 201 AutoCal On/OFF Status*)
+		P201_AUTOADAPT : UINT; (*Pump 201 AutoAdapt Enable/Disable*)
 		P201_AUTOCAL_PV : UINT; (*Pump 201 AutoCal PV Source*)
 		P201_GAIN : REAL; (*Pump 201 Gain*)
 		P201_STEPADJ : REAL; (*Pump 201 Max Step Adj*)
@@ -1266,6 +1319,7 @@ TYPE
 		P202_ENABLE : UINT; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 		P202_TEXT : STRING[80]; (*Pump 202 HMI Text Input Description*)
 		P202_AUTOCAL : UINT; (*Pump 202 AutoCal On/OFF Status*)
+		P202_AUTOADAPT : UINT; (*Pump 202 AutoAdapt Enable/Disable*)
 		P202_AUTOCAL_PV : UINT; (*Pump 202 AutoCal PV Source*)
 		P202_GAIN : REAL; (*Pump 202 Gain*)
 		P202_STEPADJ : REAL; (*Pump 202 Max Step Adj*)
@@ -1296,6 +1350,7 @@ TYPE
 		P203_ENABLE : UINT; (*Pump 203 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 		P203_TEXT : STRING[80]; (*Pump 203 HMI Text Input Description*)
 		P203_AUTOCAL : UINT; (*Pump 203 AutoCal On/OFF Status*)
+		P203_AUTOADAPT : UINT; (*Pump 203 AutoAdapt Enable/Disable*)
 		P203_AUTOCAL_PV : UINT; (*Pump 203 AutoCal PV Source*)
 		P203_GAIN : REAL; (*Pump 203 Gain*)
 		P203_STEPADJ : REAL; (*Pump 203 Max Step Adj*)
@@ -1326,6 +1381,7 @@ TYPE
 		P204_ENABLE : UINT; (*Pump 204 Visualization Enable Bit 0 = Visible  1 = Hidden*)
 		P204_TEXT : STRING[80]; (*Pump 204 HMI Text Input Description*)
 		P204_AUTOCAL : UINT; (*Pump 204 AutoCal On/OFF Status*)
+		P204_AUTOADAPT : UINT; (*Pump 204 AutoAdapt Enable/Disable*)
 		P204_AUTOCAL_PV : UINT; (*Pump 204 AutoCal PV Source*)
 		P204_GAIN : REAL; (*Pump 204 Gain*)
 		P204_STEPADJ : REAL; (*Pump 204 Max Step Adj*)

@@ -3,8 +3,9 @@
 <Package SubType="DialogsPackage" PackageType="DialogsPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package" Description="AreaContents">AreaContents</Object>
+    <Object Type="Package">P101_Settings_Popup_LR</Object>
+    <Object Type="Package">P102_Settings_Popup_LR</Object>
     <Object Type="Package">P201_Status_Popup_LR</Object>
-    <Object Type="Package">P201_Settings_Popup_LR</Object>
     <Object Type="Package">P202_Status_Popup_LR</Object>
     <Object Type="Package">P203_Status_Popup_LR</Object>
     <Object Type="Package">PM_Status_Popup_LR</Object>

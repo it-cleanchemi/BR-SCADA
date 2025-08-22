@@ -3,6 +3,94 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
+		// AutoCal 1 = Off, 2 = On
+		IF gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.wP101_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.wP101_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.wP102_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.wP102_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.wP103_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.wP103_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.wP104_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.wP104_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.wP201_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.wP201_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.wP202_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.wP202_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.wP203_AUTOCAL := 2;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.wP203_AUTOCAL := 1;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		
+		
+		
 		gSkid_LR[IdxSkids_LR].BufferTank.LI200P := (gSkid_LR[IdxSkids_LR].BufferTank.LI200 / BT_VOLUME)*100;
 		
 		gSkid_LR[IdxSkids_LR].VisBool.CD101_TARGETHI := gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP + 40;

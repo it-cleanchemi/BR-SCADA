@@ -9760,7 +9760,7 @@
 					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P201_PTYPE_OPP" />
 					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P201_PTYPE_OPP" />
 				</be:List>
-			</Source>
+</Source>
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="Rectangle14" attribute="visible" />
 		</Binding>
 		
