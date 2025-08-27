@@ -5,6 +5,11 @@
     <Object Type="Package" Description="AreaContents">AreaContents</Object>
     <Object Type="Package">P101_Settings_Popup_LR</Object>
     <Object Type="Package">P102_Settings_Popup_LR</Object>
+    <Object Type="Package">P103_Settings_Popup_LR</Object>
+    <Object Type="Package">P104_Settings_Popup_LR</Object>
+    <Object Type="Package">P201_Settings_Popup_LR</Object>
+    <Object Type="Package">P202_Settings_Popup_LR</Object>
+    <Object Type="Package">P203_Settings_Popup_LR</Object>
     <Object Type="Package">P201_Status_Popup_LR</Object>
     <Object Type="Package">P202_Status_Popup_LR</Object>
     <Object Type="Package">P203_Status_Popup_LR</Object>

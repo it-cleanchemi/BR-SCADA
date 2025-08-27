@@ -11211,39 +11211,7 @@
 
 		
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="node">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.HEARTBEAT" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.HEARTBEAT" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.HEARTBEAT" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.HEARTBEAT" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.HEARTBEAT" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.HEARTBEAT" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.HEARTBEAT" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.HEARTBEAT" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.HEARTBEAT" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.HEARTBEAT" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.HEARTBEAT" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.HEARTBEAT" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.HEARTBEAT" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.HEARTBEAT" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.HEARTBEAT" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.HEARTBEAT" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.HEARTBEAT" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.HEARTBEAT" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.HEARTBEAT" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.HEARTBEAT" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.HEARTBEAT" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.HEARTBEAT" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.HEARTBEAT" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.HEARTBEAT" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.HEARTBEAT" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="HEARTBEAT" attribute="visible" />
-		</Binding>
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -11311,5 +11279,41 @@
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="Alarms_Active_Table_TableItem_Timestamp" attribute="stringValue" />
 		</Binding>
+	
+
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Notes.LOCATION" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Notes.LOCATION" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Notes.LOCATION" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Notes.LOCATION" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Notes.LOCATION" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Notes.LOCATION" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Notes.LOCATION" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Notes.LOCATION" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Notes.LOCATION" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Notes.LOCATION" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Notes.LOCATION" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Notes.LOCATION" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Notes.LOCATION" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Notes.LOCATION" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Notes.LOCATION" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Notes.LOCATION" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Notes.LOCATION" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Notes.LOCATION" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Notes.LOCATION" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Notes.LOCATION" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Notes.LOCATION" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Notes.LOCATION" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Notes.LOCATION" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Notes.LOCATION" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Notes.LOCATION" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextInput1" attribute="value" />
+		</Binding>
+		
 	</Bindings>
 </BindingsSet>

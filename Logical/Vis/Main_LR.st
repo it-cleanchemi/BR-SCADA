@@ -3,6 +3,8 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
+		//NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION; not working due to retain issue
+		
 		// AutoCal 1 = Off, 2 = On
 		IF gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON THEN
 			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.wP101_AUTOCAL := 2;
@@ -86,6 +88,79 @@ ACTION Vis_Main_LR:
 			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.wP203_AUTOCAL := 1;
 			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL.Send := TRUE;
 			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF := FALSE;
+		END_IF;
+		
+		// AutoFLOW 1 = Off, 2 = On
+		IF gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOFLO_ADPT.wP102_P102_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOFLO_ADPT.wP102_P102_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P102_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOFLO_ADPT.wP103_P103_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOFLO_ADPT.wP103_P103_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P103_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOFLO_ADPT.wP104_P104_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOFLO_ADPT.wP104_P104_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOFLO_ADPT.wP201_P201_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOFLO_ADPT.wP201_P201_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOFLO_ADPT.wP202_P202_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOFLO_ADPT.wP202_P202_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOFLO_ADPT.wP203_P203_AUTOFLO_ADPT := 2;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOFLO_ADPT.wP203_P203_AUTOFLO_ADPT := 1;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOFLO_ADPT.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF := FALSE;
 		END_IF;
 		
 		

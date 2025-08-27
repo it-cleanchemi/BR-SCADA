@@ -63,6 +63,11 @@
     <Dialog refId="P204_Status_Popup_HR" />
     <Dialog refId="P101_Settings_Popup_LR" />
     <Dialog refId="P102_Settings_Popup_LR" />
+    <Dialog refId="P103_Settings_Popup_LR" />
+    <Dialog refId="P104_Settings_Popup_LR" />
+    <Dialog refId="P201_Settings_Popup_LR" />
+    <Dialog refId="P202_Settings_Popup_LR" />
+    <Dialog refId="P203_Settings_Popup_LR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -101,6 +106,11 @@
     <Content refId="P204_Status_Content_HR" />
     <Content refId="P101_Settings_Content_LR" />
     <Content refId="P102_Settings_Content_LR" />
+    <Content refId="P103_Settings_Content_LR" />
+    <Content refId="P104_Settings_Content_LR" />
+    <Content refId="P201_Settings_Content_LR" />
+    <Content refId="P202_Settings_Content_LR" />
+    <Content refId="P203_Settings_Content_LR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

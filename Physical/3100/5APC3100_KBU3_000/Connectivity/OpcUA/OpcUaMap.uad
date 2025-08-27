@@ -81,6 +81,7 @@
         <Variable Name="gAlarmAddData_Global" RecursiveEnable="2">
           <Variable Name="AddData" RecursiveEnable="2" />
         </Variable>
+        <Variable Name="NOTES_LR" />
       </GlobalVariables>
     </Module>
   </DefaultView>

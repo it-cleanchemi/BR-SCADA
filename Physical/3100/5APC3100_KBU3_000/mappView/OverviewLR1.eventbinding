@@ -1365,7 +1365,67 @@
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P101_Settings_Popup_LR" horizontalPos="1280px" verticalPos="140px" />
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P101_Settings_Popup_LR" horizontalPos="95px" verticalPos="175px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_18">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P102_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P102_Settings_Popup_LR" horizontalPos="95px" verticalPos="250px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_19">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P103_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P103_Settings_Popup_LR" horizontalPos="95px" verticalPos="325px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_20">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P104_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P104_Settings_Popup_LR" horizontalPos="95px" verticalPos="400px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_21">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P201_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P201_Settings_Popup_LR" horizontalPos="1280px" verticalPos="200px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_22">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P202_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P202_Settings_Popup_LR" horizontalPos="1280px" verticalPos="300px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_23">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="P203_SETTINGS" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="P203_Settings_Popup_LR" horizontalPos="1280px" verticalPos="400px" />
           </Target>
         </Action>
       </EventHandler>

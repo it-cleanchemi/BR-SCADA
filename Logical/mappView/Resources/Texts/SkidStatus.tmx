@@ -110,5 +110,65 @@
         <seg>P103 SPILL</seg>
       </tuv>
     </tu>
+    <tu tuid="AUTOCAL_Status.0">
+      <tuv xml:lang="en">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOCAL_Status.1">
+      <tuv xml:lang="en">
+        <seg>ON</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P104_AUTOCALPV_Status.0">
+      <tuv xml:lang="en">
+        <seg>FIT-104</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P104_AUTOCALPV_Status.1">
+      <tuv xml:lang="en">
+        <seg>PFIT-104</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P201_AUTOCALPV_Status.0">
+      <tuv xml:lang="en">
+        <seg>FIT-201</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P201_AUTOCALPV_Status.1">
+      <tuv xml:lang="en">
+        <seg>PFIT-201</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P202_AUTOCALPV_Status.0">
+      <tuv xml:lang="en">
+        <seg>FIT-202</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P202_AUTOCALPV_Status.1">
+      <tuv xml:lang="en">
+        <seg>PFIT-202</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P203_AUTOCALPV_Status.0">
+      <tuv xml:lang="en">
+        <seg>FIT-203</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P203_AUTOCALPV_Status.1">
+      <tuv xml:lang="en">
+        <seg>PFIT-203</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOFLOW_Status.0">
+      <tuv xml:lang="en">
+        <seg>DISABLED</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOFLOW_Status.1">
+      <tuv xml:lang="en">
+        <seg>ENABLED</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
