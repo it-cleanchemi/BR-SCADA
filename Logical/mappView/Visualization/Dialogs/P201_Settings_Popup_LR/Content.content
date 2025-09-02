@@ -43,5 +43,6 @@
     <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_P201_AUTOCALPV_FIT" top="140" left="308" width="60" zIndex="39" text="FIT" />
     <Widget xsi:type="widgets.brease.TextOutput" id="AUTOCAL_STATUS" top="82" left="195" zIndex="40" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="AUTOFLOW_STATUS" top="418" left="195" zIndex="41" textAlign="center" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="AUTOCAL_PV" top="140" left="195" zIndex="42" textAlign="center" />
   </Widgets>
 </Content>

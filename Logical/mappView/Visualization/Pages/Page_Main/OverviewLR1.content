@@ -393,5 +393,6 @@
     <Widget xsi:type="widgets.brease.PushButton" id="P203_SETTINGS" top="703" left="1155" width="25" height="25" zIndex="329" image="Media/SVGsymbols/Symbols/Settings.svg" imageHeight="20" imageWidth="20" imageColor="rgba(245, 245, 245, 1)" cornerRadius="5px" permissionOperate="['Administrator_Role']" />
     <Widget xsi:type="widgets.brease.TextInput" id="TextInput1" top="20" left="15" width="560" zIndex="333" maxLength="80" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput56" top="20" left="1250" width="90" zIndex="336" value="User ID:" textAlign="right" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PB_ESD" top="840" left="680" width="60" height="40" zIndex="337" multiLine="true" text="ESD" wordWrap="true" cornerRadius="2px" backColor="rgba(192, 192, 192, 1)" style="Operate" />
   </Widgets>
 </Content>

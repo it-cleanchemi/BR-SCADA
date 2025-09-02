@@ -38,5 +38,11 @@
     <Object Type="File">PM_Status_Content_LR.binding</Object>
     <Object Type="File">P201_Status_Content_LR.binding</Object>
     <Object Type="File">P101_Settings_Content_LR.binding</Object>
+    <Object Type="File">P102_Settings_Content_LR.binding</Object>
+    <Object Type="File">P103_Settings_Content_LR.binding</Object>
+    <Object Type="File">P104_Settings_Content_LR.binding</Object>
+    <Object Type="File">P201_Settings_Content_LR.binding</Object>
+    <Object Type="File">P202_Settings_Content_LR.binding</Object>
+    <Object Type="File">P203_Settings_Content_LR.binding</Object>
   </Objects>
 </Package>

@@ -24,6 +24,12 @@
     <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="P101_Settings_Content_LR_binding" />
+    <BindingsSet refId="P202_Settings_Content_LR_binding" />
+    <BindingsSet refId="P102_Settings_Content_LR_binding" />
+    <BindingsSet refId="P103_Settings_Content_LR_binding" />
+    <BindingsSet refId="P104_Settings_Content_LR_binding" />
+    <BindingsSet refId="P201_Settings_Content_LR_binding" />
+    <BindingsSet refId="P203_Settings_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />

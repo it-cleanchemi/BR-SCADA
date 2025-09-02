@@ -5,6 +5,268 @@ ACTION Vis_Main_LR:
 		
 		//NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION; not working due to retain issue
 		
+		
+		
+		
+		//AUTOCAL P101
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		//AUTOCAL P102
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+		//AUTOCAL P103
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+		//AUTOCAL P104
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL_PV = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_FIT_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_PFIT_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_FIT_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_PFIT_EN :=1;
+		END_IF;
+		
+		//AUTOCAL P201
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL_PV = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_FIT_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_PFIT_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_FIT_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_PFIT_EN :=1;
+		END_IF;
+		
+		//AUTOCAL P202
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL_PV = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_FIT_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_PFIT_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_FIT_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_PFIT_EN :=1;
+		END_IF;
+		
+		//AUTOCAL P203
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=0;
+		END_IF;
+		
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF_EN :=0;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOADAPT = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF_EN :=1;
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOADAPT = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_OFF_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_ON_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF_EN :=1;
+		END_IF;
+		
+
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL_PV = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_FIT_EN :=1;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_PFIT_EN :=0;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_FIT_EN :=0;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_PFIT_EN :=1;
+		END_IF;
+				
+		
+		
 		// AutoCal 1 = Off, 2 = On
 		IF gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON THEN
 			gCMD_LR[IdxSkids_LR].Write_P101_AUTOCAL.wP101_AUTOCAL := 2;
@@ -163,6 +425,54 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOFLOW_OFF := FALSE;
 		END_IF;
 		
+		// Autocal PV 1 = FIT, 2 = PFIT
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_PV_FIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.wP104_AUTOCAL_PV := 1;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_FIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P104_PV_PFIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.wP104_AUTOCAL_PV := 2;
+			gCMD_LR[IdxSkids_LR].Write_P104_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_PFIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_PV_FIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.wP201_AUTOCAL_PV := 1;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_FIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P201_PV_PFIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.wP201_AUTOCAL_PV := 2;
+			gCMD_LR[IdxSkids_LR].Write_P201_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_PFIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_PV_FIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.wP202_AUTOCAL_PV := 1;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_FIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P202_PV_PFIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.wP202_AUTOCAL_PV := 2;
+			gCMD_LR[IdxSkids_LR].Write_P202_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_PFIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_PV_FIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.wP203_AUTOCAL_PV := 1;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_FIT := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.P203_PV_PFIT THEN
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.wP203_AUTOCAL_PV := 2;
+			gCMD_LR[IdxSkids_LR].Write_P203_AUTOCAL_PV.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_PFIT := FALSE;
+		END_IF;
 		
 		
 		
