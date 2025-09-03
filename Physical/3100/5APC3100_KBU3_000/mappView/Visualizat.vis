@@ -127,7 +127,9 @@
     <VariablesSet refId="svar_1" />
     <VariablesSet refId="svar_3" />
   </VariablesSets>
-  <ExpressionsSets />
+  <ExpressionsSets>
+    <ExpressionsSet refId="expression_0" />
+  </ExpressionsSets>
   <StartTheme themeRefId="HartfielTheme" />
   <Themes>
     <Theme refId="HartfielTheme" />

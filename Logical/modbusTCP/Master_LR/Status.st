@@ -49,7 +49,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.USER_ACCESS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[4];
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_HOA := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[6];
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[8];
-	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.SCREEN_LOCK := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[10];
+	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.SCREEN_LOCK := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[10]);
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[12];
 	
 	

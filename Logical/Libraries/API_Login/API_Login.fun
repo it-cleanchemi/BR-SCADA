@@ -14,6 +14,7 @@ FUNCTION_BLOCK API_Login_FB
 		ErrorInfo : STRING[80];
 		Done : BOOL;
 		Authorization_Bearer : STRING[300];
+		ReturnedID : UINT;
 		ReturnedRole : STRING[80];
 	END_VAR
 	VAR_IN_OUT

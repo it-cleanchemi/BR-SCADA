@@ -39,5 +39,15 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_24">
+      <Source xsi:type="session.Event" refId="LogoutSuccess" event="ValueChanged" />
+      <EventHandler condition="newValue">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="API_ID">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

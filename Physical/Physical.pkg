@@ -2,7 +2,6 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Physical xmlns="http://br-automation.co.at/AS/Physical">
   <Objects>
-    <Object Type="Configuration">1584</Object>
     <Object Type="Configuration">3100</Object>
   </Objects>
 </Physical>

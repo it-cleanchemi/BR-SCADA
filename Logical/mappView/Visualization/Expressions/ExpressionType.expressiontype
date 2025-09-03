@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionTypeSet id="expressiontype_0" xmlns="http://www.br-automation.com/iat2016/expressionType/v1">
+	<ExpressionTypes>
+		<ExpressionType name="Operating_Mode" datatype="BOOL">   
+			<Operands>
+				<Operand name="API_ID_USER" datatype="ANY_INT" />
+				<Operand name="API_ID_PLC" datatype="ANY_INT" />
+				<Operand name="MODE" datatype="BOOL" />   
+			</Operands>   
+			<Operation>
+				(API_ID_USER = API_ID_PLC) AND MODE
+			</Operation>
+		</ExpressionType>
+	</ExpressionTypes>
+</ExpressionTypeSet>

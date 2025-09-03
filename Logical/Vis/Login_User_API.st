@@ -61,6 +61,7 @@ ACTION Login_User_API:
 		LOGIN_SUCCESS:
 			
 			gVis.Global.ClientInfo[IdxClients].LoginSuccess := TRUE;
+			gVis.Global.ClientInfo[IdxClients].API_ID := API_Login_FB_0.ReturnedID;
 			
 			CLIENT_LOGIN_STATE := WAITING_FOR_LOGIN_I;
 			

@@ -71,6 +71,7 @@ TYPE
 		AlarmName : STRING[80];
 		AlarmsInitialized : BOOL;
 		Notes : Notes_Type;
+		UserLock : UINT;
 	END_STRUCT;
 END_TYPE
 
@@ -885,6 +886,7 @@ TYPE
 		GoToSkid : BOOL;
 		SelectedAlrmIndx_Temp : UINT;
 		SelectedAlrmIndx : UINT;
+		API_ID : UINT;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 
 		Active : Vis_Alarms_Active_typ;
@@ -1198,7 +1200,7 @@ TYPE
 		PLC_REV_B : REAL; (*PLC Revision Part B*)
 		HMI_REV_A : REAL; (*HMI Revision Part A*)
 		HMI_REV_B : REAL; (*HMI Revision Part B*)
-		SCREEN_LOCK : UINT; (*Unit HMI Lockout from SCADA, 1 = Locked   0 = Unlocked*)
+		SCREEN_LOCK : BOOL; (*Unit HMI Lockout from SCADA, 1 = Locked   0 = Unlocked*)
 		UNIT_ID : UINT; (*Pmax Skid ID*)
 		PMAX_HOA : UINT; (*Pmax Generation is ON*)
 		PMAX_STATUS : UINT; (*Pmax Status*)

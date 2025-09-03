@@ -1430,5 +1430,35 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="OverviewLR1.PB_Write_LOCK.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="PB_Write_LOCK" event="Click" />
+      <Operand datatype="ANY_INT" name="Get_API_ID">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="API_ID">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <Operand datatype="ANY_INT" name="GetSkidLockID">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="Skid_Lock_ID">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="GetSkidLockID=0">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="=Get_API_ID" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="OverviewLR1.PB_Write_UNLOCK.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="PB_Write_UNLOCK" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
+            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

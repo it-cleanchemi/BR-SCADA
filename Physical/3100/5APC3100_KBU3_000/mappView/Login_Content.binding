@@ -295,5 +295,26 @@
 			<Target xsi:type="session" refId="SelectedAlrmIndx" attribute="value"/>
 		</Binding>
 		
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].API_ID" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].API_ID" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].API_ID" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].API_ID" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].API_ID" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].API_ID" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].API_ID" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].API_ID" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].API_ID" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].API_ID" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].API_ID" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="API_ID" attribute="value"/>
+		</Binding>
+		
 	</Bindings>
 </BindingsSet>

@@ -112,6 +112,13 @@ FUNCTION_BLOCK API_Login_FB
 					END_IF;
 				END_FOR;
 				
+				FOR IdxJSON := 0 TO MAX_JSON_PARSE_PAIR_IDX DO
+					IF JSON_Parsed[IdxJSON].Name = 'id' THEN
+						ReturnedID := STRING_TO_USINT(JSON_Parsed[IdxJSON].Value);
+						EXIT;
+					END_IF;
+				END_FOR;
+				
 				LoginState := CREATE_USER_C;
 			END_IF;
 			
