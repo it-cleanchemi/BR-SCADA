@@ -42,7 +42,7 @@
       </EventHandler>
     </EventBinding>
     <EventBinding id="EventBinding_9">
-      <Source xsi:type="widgets.brease.TextOutput.Event" contentRefId="OverviewLR1" widgetRefId="TextOutput39" event="Click" />
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="SystemSettings" event="Click" />
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
@@ -238,193 +238,6 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="OverviewLR1.P102_SOLENOID_OFF.Click">
-      <Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P102_SOLENOID_OFF" event="Click" />
-      <EventHandler>
-        <Action>
-          <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkid_LR_Indx">
-            <Method xsi:type="session.VariableAction.GetValue" />
-          </ReadTarget>
-          <Result>
-            <ResultHandler condition="result=0">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[0].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=1">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[1].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=2">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[2].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=3">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[3].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=4">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[4].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=5">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[5].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=6">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[6].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=7">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[7].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=8">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[8].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=9">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[9].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=10">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[10].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=11">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[11].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=12">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[12].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=13">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[13].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=14">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[14].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=15">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[15].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=16">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[16].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=17">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[17].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=18">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[18].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=19">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[19].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=20">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[20].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=21">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[21].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=22">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[22].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=23">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[23].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=24">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[24].Write_XV102_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-          </Result>
-        </Action>
-      </EventHandler>
-    </EventBinding>
     <EventBinding id="OverviewLR1.P103_SOLENOID_OFF.Click">
       <Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P103_SOLENOID_OFF" event="Click" />
       <EventHandler>
@@ -604,193 +417,6 @@
             <ResultHandler condition="result=24">
               <Action>
                 <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[24].Write_XV103_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-          </Result>
-        </Action>
-      </EventHandler>
-    </EventBinding>
-    <EventBinding id="OverviewLR1.P104_SOLENOID_OFF.Click">
-      <Source xsi:type="widgets.brease.Image.Event" contentRefId="OverviewLR1" widgetRefId="P104_SOLENOID_OFF" event="Click" />
-      <EventHandler>
-        <Action>
-          <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedSkid_LR_Indx">
-            <Method xsi:type="session.VariableAction.GetValue" />
-          </ReadTarget>
-          <Result>
-            <ResultHandler condition="result=0">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[0].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=1">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[1].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=2">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[2].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=3">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[3].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=4">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[4].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=5">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[5].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=6">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[6].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=7">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[7].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=8">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[8].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=9">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[9].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=10">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[10].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=11">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[11].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=12">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[12].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=13">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[13].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=14">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[14].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=15">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[15].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=16">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[16].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=17">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[17].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=18">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[18].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=19">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[19].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=20">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[20].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=21">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[21].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=22">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[22].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=23">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[23].Write_XV104_OPEN_CMD.Send">
-                  <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
-                </Target>
-              </Action>
-            </ResultHandler>
-            <ResultHandler condition="result=24">
-              <Action>
-                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gCMD_LR[24].Write_XV104_OPEN_CMD.Send">
                   <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
                 </Target>
               </Action>
@@ -1442,20 +1068,86 @@
           <Method xsi:type="session.VariableAction.GetValue" />
         </ReadTarget>
       </Operand>
+      <Operand datatype="ANY_STRING" name="Get_API_FirstName">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="API_FIRST_NAME">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <Operand datatype="ANY_STRING" name="Get_API_LastName">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="API_LAST_NAME">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
       <EventHandler condition="GetSkidLockID=0">
-        <Action>
-          <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
-            <Method xsi:type="session.VariableAction.SetValueNumber" value="=Get_API_ID" />
-          </Target>
-        </Action>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="=Get_API_ID" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_FirstName">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=Get_API_FirstName" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_LastName">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=Get_API_LastName" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
       </EventHandler>
     </EventBinding>
     <EventBinding id="OverviewLR1.PB_Write_UNLOCK.Click">
       <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="PB_Write_UNLOCK" event="Click" />
       <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_LastName">
+                <Method xsi:type="session.VariableAction.SetValueString" value="" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_FirstName">
+                <Method xsi:type="session.VariableAction.SetValueString" value="" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_25">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="SYSTEM_INFO" event="Click" />
+      <EventHandler>
         <Action>
-          <Target xsi:type="session.VariableAction" refId="Skid_Lock_ID">
-            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="System_Info_Popup_LR" horizontalPos="100px" verticalPos="100px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_26">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="PB_ESD" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="ESD_Popup_LR" horizontalPos="200px" verticalPos="100px" />
           </Target>
         </Action>
       </EventHandler>

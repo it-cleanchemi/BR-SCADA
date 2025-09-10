@@ -64,6 +64,7 @@ TYPE
 		Error : BOOL;
 		StateResetAlarms : UINT;
 		AlarmStartupDelay : TON;
+		AlarmXHistory_MpLink : MpComIdentType;
 		AlarmX_MpLink : MpComIdentType;
 		AlarmCfg : MpAlarmXAlarmConfigType;
 		MpAlarmXConfigAlarm : MpAlarmXConfigAlarm;
@@ -71,6 +72,8 @@ TYPE
 		AlarmName : STRING[80];
 		AlarmsInitialized : BOOL;
 		Notes : Notes_Type;
+		UserLock_LastName : STRING[80];
+		UserLock_FirstName : STRING[80];
 		UserLock : UINT;
 	END_STRUCT;
 END_TYPE
@@ -886,6 +889,8 @@ TYPE
 		GoToSkid : BOOL;
 		SelectedAlrmIndx_Temp : UINT;
 		SelectedAlrmIndx : UINT;
+		API_FIRST_NAME : STRING[80];
+		API_LAST_NAME : STRING[80];
 		API_ID : UINT;
 	END_STRUCT;
 	Vis_Alarms_Type : 	STRUCT 

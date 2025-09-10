@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ESD_Content_LR" height="250" width="400" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput27" top="20" left="90" width="240" height="60" zIndex="0" multiLine="true" value="SHUT DOWN SYSTEM?" wordWrap="true" textAlign="center" fontSize="20px" underline="false" />
+    <Widget xsi:type="widgets.brease.PushButton" id="ESD_OK" top="80" left="140" width="140" height="60" zIndex="1" text="OK" />
+    <Widget xsi:type="widgets.brease.PushButton" id="ESD_CANCEL" top="160" left="140" width="140" height="60" zIndex="2" text="CANCEL" />
+  </Widgets>
+</Content>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ESD_Content_LR_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="ESD_Content_LR.ESD_CANCEL.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ESD_Content_LR" widgetRefId="ESD_CANCEL" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="ESD_Popup_LR" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="ESD_Content_LR.ESD_OK.Click">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="ESD_Content_LR" widgetRefId="ESD_OK" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="ESD_Popup_LR" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_28">
+      <Source xsi:type="clientSystem.Event" event="DialogOpened" />
+      <EventHandler condition="dialogId=&quot;ESD_Popup_LR&quot;">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gVis.Main.Out.DialogOpen">
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

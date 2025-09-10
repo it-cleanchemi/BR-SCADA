@@ -21,7 +21,6 @@
     <BindingsSet refId="Header_binding" />
     <BindingsSet refId="PM_Status_Content_LR_binding" />
     <BindingsSet refId="P201_Status_Content_LR_binding" />
-    <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="Alarms_Active_binding" />
     <BindingsSet refId="P101_Settings_Content_LR_binding" />
     <BindingsSet refId="P202_Settings_Content_LR_binding" />
@@ -30,6 +29,9 @@
     <BindingsSet refId="P104_Settings_Content_LR_binding" />
     <BindingsSet refId="P201_Settings_Content_LR_binding" />
     <BindingsSet refId="P203_Settings_Content_LR_binding" />
+    <BindingsSet refId="System_Info_Content_LR_binding" />
+    <BindingsSet refId="OverviewLR1_binding" />
+    <BindingsSet refId="ESD_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
@@ -54,6 +56,7 @@
     <EventBindingsSet refId="PM_Status_Content_HR_eventbinding" />
     <EventBindingsSet refId="Alarms_History_eventbinding" />
     <EventBindingsSet refId="P204_Status_Content_HR_eventbinding" />
+    <EventBindingsSet refId="ESD_Content_LR_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />
@@ -74,6 +77,8 @@
     <Dialog refId="P201_Settings_Popup_LR" />
     <Dialog refId="P202_Settings_Popup_LR" />
     <Dialog refId="P203_Settings_Popup_LR" />
+    <Dialog refId="System_Info_Popup_LR" />
+    <Dialog refId="ESD_Popup_LR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -117,6 +122,8 @@
     <Content refId="P201_Settings_Content_LR" />
     <Content refId="P202_Settings_Content_LR" />
     <Content refId="P203_Settings_Content_LR" />
+    <Content refId="System_Info_Content_LR" />
+    <Content refId="ESD_Content_LR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

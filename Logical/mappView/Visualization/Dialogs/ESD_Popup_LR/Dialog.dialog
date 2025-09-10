@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="ESD_Popup_LR" layoutRefId="ESDLayout" closeImage="Media/SVGsymbols/Edit/Close.svg">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="ESD_Content_LR" areaRefId="area1" />
+  </Assignments>
+</ddef:Dialog>

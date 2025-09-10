@@ -44,5 +44,8 @@
     <Object Type="File">P201_Settings_Content_LR.binding</Object>
     <Object Type="File">P202_Settings_Content_LR.binding</Object>
     <Object Type="File">P203_Settings_Content_LR.binding</Object>
+    <Object Type="File">System_Info_Content_LR.binding</Object>
+    <Object Type="File">ESD_Content_LR.eventbinding</Object>
+    <Object Type="File">ESD_Content_LR.binding</Object>
   </Objects>
 </Package>

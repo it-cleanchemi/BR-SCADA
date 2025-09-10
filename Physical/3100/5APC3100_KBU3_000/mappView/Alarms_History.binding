@@ -42,10 +42,5 @@
 			<Target xsi:type="brease" contentRefId="Alarms_History" widgetRefId="Alarms_History_PushButton_Down" attribute="value" />
 		</Binding>
 		
-		<Binding mode="oneWayToSource">
-			<Source xsi:type="session" refId="AlarmCountHistory" attribute="value" />
-			<Target xsi:type="opcUa" refId="::AsGlobalPV:gVis.Alarms.History.UIConnect.AlarmList.MaxSelection" attribute="value" />
-		</Binding>
-		
 	</Bindings>
 </BindingsSet>

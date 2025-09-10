@@ -111,8 +111,8 @@ ACTION Services_Alarms_action:
 		gServices.Alarms_LR[IdxSkids_LR].Internal.HA_AlarmXCore_0(MpLink := gSkid_LR[IdxSkids_LR].AlarmX_MpLink, enable := TRUE, pBuffer := ADR(gServices.Alarms_LR[IdxSkids_LR].In.AlarmList), pOutputData := ADR(gAlarmAddData));
 		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXCore_0(MpLink := ADR(gSkid_LR[IdxSkids_LR].AlarmX_MpLink), Enable := TRUE, ErrorReset := gErrorReset);
 		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXListUI_0(MpLink := ADR(gSkid_LR[IdxSkids_LR].AlarmX_MpLink), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_LR[IdxSkids_LR].Active.UIConnect));
-		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
-		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_LR[IdxSkids_LR].History.UIConnect));
+		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistory_0(MpLink := ADR(gSkid_LR[IdxSkids_LR].AlarmXHistory_MpLink), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
+		gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistoryUI_0(MpLink := ADR(gSkid_LR[IdxSkids_LR].AlarmXHistory_MpLink), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_LR[IdxSkids_LR].History.UIConnect));
 		
 		gVis.Alarms_LR[IdxSkids_LR].Active.UIConnect.AcknowledgeAll := FALSE;
 	END_FOR	
@@ -120,8 +120,6 @@ ACTION Services_Alarms_action:
 	gServices.Alarms_Global.HA_AlarmXCore_0(MpLink := gAlarmXCore_Global, enable := TRUE, pBuffer := ADR(gServices.Alarms_Global.AlarmList), pOutputData := ADR(gAlarmAddData_Global));
 	gServices.Alarms_Global.MpAlarmXCore_0(MpLink := ADR(gAlarmXCore_Global), Enable := TRUE, ErrorReset := gErrorReset);
 	gServices.Alarms_Global.MpAlarmXListUI_0(MpLink := ADR(gAlarmXCore_Global), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_Global.Active.UIConnect));
-	gServices.Alarms_Global.MpAlarmXHistory_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset,DeviceName := ADR(gServices.DeviceName));
-	gServices.Alarms_Global.MpAlarmXHistoryUI_0(MpLink := ADR(gAlarmXHistory), Enable := TRUE, ErrorReset := gErrorReset, UIConnect := ADR(gVis.Alarms_Global.History.UIConnect));
 		
 	gVis.Alarms_Global.Active.UIConnect.AcknowledgeAll := FALSE;
 	

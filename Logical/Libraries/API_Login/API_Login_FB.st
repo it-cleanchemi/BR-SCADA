@@ -112,9 +112,26 @@ FUNCTION_BLOCK API_Login_FB
 					END_IF;
 				END_FOR;
 				
+				brsmemset(ADR(ReturnedID),0,SIZEOF(ReturnedID));
 				FOR IdxJSON := 0 TO MAX_JSON_PARSE_PAIR_IDX DO
 					IF JSON_Parsed[IdxJSON].Name = 'id' THEN
 						ReturnedID := STRING_TO_USINT(JSON_Parsed[IdxJSON].Value);
+						EXIT;
+					END_IF;
+				END_FOR;
+				
+				brsmemset(ADR(ReturnedFirstName),0,SIZEOF(ReturnedFirstName));
+				FOR IdxJSON := 0 TO MAX_JSON_PARSE_PAIR_IDX DO
+					IF JSON_Parsed[IdxJSON].Name = 'first_name' THEN
+						brsmemcpy(ADR(ReturnedFirstName),ADR(JSON_Parsed[IdxJSON].Value)+1,LEN(JSON_Parsed[IdxJSON].Value)-2);
+						EXIT;
+					END_IF;
+				END_FOR;
+				
+				brsmemset(ADR(ReturnedLastName),0,SIZEOF(ReturnedLastName));
+				FOR IdxJSON := 0 TO MAX_JSON_PARSE_PAIR_IDX DO
+					IF JSON_Parsed[IdxJSON].Name = 'last_name' THEN
+						brsmemcpy(ADR(ReturnedLastName),ADR(JSON_Parsed[IdxJSON].Value)+1,LEN(JSON_Parsed[IdxJSON].Value)-2);
 						EXIT;
 					END_IF;
 				END_FOR;
@@ -177,7 +194,7 @@ FUNCTION_BLOCK API_Login_FB
 					arUSER_ERR_PARAMETER:
 						
 					arUSER_ERR_DOES_NOT_EXIST:
-						ErrorInfo := 'User Role Returned from Login API Does NOT Exist on Traget System';
+						ErrorInfo := 'User Role Returned from Login API Does NOT Exist on Target System';
 						LoginState := LOGIN_API_ERROR;
 					arUSER_ERR_ALREADY_EXISTS:
 						LoginState := USER_CREATED_SUCCESSS;

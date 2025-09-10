@@ -20,7 +20,7 @@
     <Object Type="File">IoMap_1.iom</Object>
   </Objects>
   <Configuration ModuleId="5APC3100.KBU3-000">
-    <AutomationRuntime Version="J4.93" />
+    <AutomationRuntime Version="P4.93" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Safety SafetyRelease="0.0" />

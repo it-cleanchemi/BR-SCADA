@@ -226,6 +226,21 @@
 		
 	<!--push button-->
 	
+	<Style id="ESD" xsi:type="widgets.brease.PushButton" 
+		fontSize="16px" 
+		bold="true" 
+		textColor="#D1F2FF" 
+		mouseDownTextColor="#D1F2FF" 
+		cornerRadius="15px"
+		borderWidth="0px 0px 0px 0px" 
+		mouseDownBorderWidth="0px 0px 0px 0px" 
+		shadow="none"
+		backGroundGradient="linear-gradient(to right,#555555 0%,#111111 100%)" 
+		mouseDownBackGroundGradient="linear-gradient(to right,#A3D4D9 0%,#0096A9 100%)" 
+		disabledBackGroundGradient="linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#111111 100%)"
+		disabledImageColor="#989898" 
+	/>
+	
 	<Style id="default" xsi:type="widgets.brease.PushButton" 
 		fontSize="16px" 
 		bold="true" 

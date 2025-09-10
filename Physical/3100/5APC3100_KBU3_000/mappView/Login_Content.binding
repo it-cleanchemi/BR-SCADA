@@ -316,5 +316,45 @@
 			<Target xsi:type="session" refId="API_ID" attribute="value"/>
 		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].API_FIRST_NAME" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].API_FIRST_NAME" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].API_FIRST_NAME" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].API_FIRST_NAME" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].API_FIRST_NAME" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].API_FIRST_NAME" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].API_FIRST_NAME" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].API_FIRST_NAME" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].API_FIRST_NAME" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].API_FIRST_NAME" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].API_FIRST_NAME" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="API_FIRST_NAME" attribute="value"/>
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gVis.Global.ClientInfo[0].API_LAST_NAME" />
+					<bt:Element index="1" refId="::AsGlobalPV:gVis.Global.ClientInfo[1].API_LAST_NAME" />
+					<bt:Element index="2" refId="::AsGlobalPV:gVis.Global.ClientInfo[2].API_LAST_NAME" />
+					<bt:Element index="3" refId="::AsGlobalPV:gVis.Global.ClientInfo[3].API_LAST_NAME" />
+					<bt:Element index="4" refId="::AsGlobalPV:gVis.Global.ClientInfo[4].API_LAST_NAME" />
+					<bt:Element index="5" refId="::AsGlobalPV:gVis.Global.ClientInfo[5].API_LAST_NAME" />
+					<bt:Element index="6" refId="::AsGlobalPV:gVis.Global.ClientInfo[6].API_LAST_NAME" />
+					<bt:Element index="7" refId="::AsGlobalPV:gVis.Global.ClientInfo[7].API_LAST_NAME" />
+					<bt:Element index="8" refId="::AsGlobalPV:gVis.Global.ClientInfo[8].API_LAST_NAME" />
+					<bt:Element index="9" refId="::AsGlobalPV:gVis.Global.ClientInfo[9].API_LAST_NAME" />
+					<bt:Element index="10" refId="::AsGlobalPV:gVis.Global.ClientInfo[10].API_LAST_NAME" />
+				</be:List>
+			</Source>
+			<Target xsi:type="session" refId="API_LAST_NAME" attribute="value"/>
+		</Binding>
+		
 	</Bindings>
 </BindingsSet>

@@ -1,7 +1,293 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="gAlarmXHistory" Type="mpalarmxhistory">
+  <Element ID="gAlarmXHistory_LR_1" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_2" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_3" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_4" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_5" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_6" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_7" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_8" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_9" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_10" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_11" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_12" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_13" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_14" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_17" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_18" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_19" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_20" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_21" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_22" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_23" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_24" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_25" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_26" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_15" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_16" Type="mpalarmxhistory">
+    <Group ID="mapp.AlarmX.History">
+      <Group ID="Export">
+        <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
+      </Group>
+      <Group ID="Memory">
+        <Property ID="MemorySize" Value="50000" />
+        <Property ID="BufferSize" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gAlarmXHistory_LR_0" Type="mpalarmxhistory">
     <Group ID="mapp.AlarmX.History">
       <Group ID="Export">
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />

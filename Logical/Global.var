@@ -1,4 +1,7 @@
 VAR
+	NotesLoaded : BOOL;
+	NOTES_LR_TEMP : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80];
+	NOTES_LR : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80] := ['Test PLC','GA101 - Claxton - Sylvania',2(''),'AL100 - Teleios - Ala Trade Boaz','OK110 - Teleios - Tyson Broken Bow','AR100 - Teleios - Twin Rivers Foods Ft. Smith','TX575 - Teleios - Pilgrim Pride Nacogdoches','OK110 - Teleios - Tyson Broken Bow','','TX575 - Teleios - Pilgrim Pride Nacogdoches','GA101 - Claxton - Sylvania','LA113 - Teleios - Wayne Sanderson Farms Hammond','','OK110 - Teleios - Tyson Broken Bow','AR101 - Teleios - Custom Craft Batesville',''];
 	gServices : Services_typ;
 	SkidID : USINT;
 	gCMD_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type;

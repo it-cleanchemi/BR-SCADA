@@ -2,6 +2,7 @@
 <ExpressionsSet id="expression_0" xmlns="http://www.br-automation.com/iat2015/expression/engineering/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Expressions>
 		<Expression id="ScreenLock_LR" xsi:type="content" contentRefId="OverviewLR1" type="Operating_Mode" />
+		<Expression id="ScreenLock_LR_P101" xsi:type="content" contentRefId="OverviewLR1" type="Operating_Mode" />
 		<Expression id="ScreenLock_HR" xsi:type="content" contentRefId="OverviewHR1" type="Operating_Mode" />
 	</Expressions>
 </ExpressionsSet>

@@ -25,8 +25,13 @@
 		<Variable name="BlockSkidDropDownChng" xsi:type="BOOL" value="false" />
 		<Variable name="AlarmCountActive" xsi:type="ANY_INT" value="0" />
 		<Variable name="AlarmCountHistory" xsi:type="ANY_INT" value="0" />
-		<Variable name="API_ID" xsi:type="ANY_INT" value="0" />
 		<Variable name="Skid_Lock_ID" xsi:type="ANY_INT" value="0" />
+		<Variable name="Skid_Lock_FirstName" xsi:type="ANY_STRING" value="" />
+		<Variable name="Skid_Lock_LastName" xsi:type="ANY_STRING" value="" />
+		<Variable name="API_ID" xsi:type="ANY_INT" value="0" />
+		<Variable name="API_FIRST_NAME" xsi:type="ANY_STRING" value="" />
+		<Variable name="API_LAST_NAME" xsi:type="ANY_STRING" value="" />
+		
 		
 		<!--
 		<Variable name="Variable2" xsi:type="ANY_INT" value="0" />

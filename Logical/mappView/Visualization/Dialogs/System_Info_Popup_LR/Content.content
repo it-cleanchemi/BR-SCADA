@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="System_Info_Content_LR" height="500" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput27" top="20" left="140" width="240" height="60" zIndex="0" multiLine="true" value="SYSTEM INFORMATION" wordWrap="true" textAlign="center" fontSize="20px" underline="true" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput54" top="160" left="100" width="240" zIndex="1" value="HMI Program Rev:" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_A_LR" top="115" left="270" width="80" zIndex="3" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="HMI_REV_B_LR" top="115" left="300" zIndex="2" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput50" top="115" left="100" width="240" zIndex="4" value="PLC Program Rev:" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_A_LR" top="160" left="250" zIndex="5" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="PLC_REV_B_LR" top="160" left="300" zIndex="6" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':2},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput51" top="200" left="100" width="240" zIndex="7" value="Local Operator User ID:" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="IPAddress_LR" top="80" left="250" width="180" zIndex="8" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="USER_ID_LR" top="200" left="300" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput55" top="80" left="100" width="240" zIndex="10" value="Log Tunnel IP:" />
+  </Widgets>
+</Content>

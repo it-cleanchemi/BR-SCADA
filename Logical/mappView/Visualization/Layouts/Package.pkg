@@ -9,5 +9,7 @@
     <Object Type="File">PopUpLayout.layout</Object>
     <Object Type="File">PMSettingsLayout.layout</Object>
     <Object Type="File">PumpSetLayout.layout</Object>
+    <Object Type="File">SystemInfoLayout.layout</Object>
+    <Object Type="File">ESDLayout.layout</Object>
   </Objects>
 </Package>

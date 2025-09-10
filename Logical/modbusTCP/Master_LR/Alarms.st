@@ -2552,7 +2552,7 @@ ACTION Alarms_action:
 			ELSIF gServices.Alarms_LR[IdxSkids_LR].In.ClearHistory THEN
 				HA_AlarmX_Helper(gSkid_LR[IdxSkids_LR].AlarmX_MpLink,'',HA_ALARMX_ACTION_LOG_ONLY,'HISTORY CLEARED',FALSE);
 				gServices.Alarms_LR[IdxSkids_LR].In.ClearHistory 									:= FALSE;
-				MpAlarmXClearHistory(gAlarmXHistory);
+				MpAlarmXClearHistory(gSkid_LR[IdxSkids_LR].AlarmXHistory_MpLink);
 			END_IF;
 		10: 
 			IF gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistory_0.CommandDone OR gServices.Alarms_LR[IdxSkids_LR].Internal.MpAlarmXHistory_0.Error THEN

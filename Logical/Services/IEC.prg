@@ -8,5 +8,6 @@
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
     <File>Alarms.st</File>
+    <File>Recipe.st</File>
   </Files>
 </Program>

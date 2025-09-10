@@ -42,11 +42,29 @@
     <EventBinding id="EventBinding_24">
       <Source xsi:type="session.Event" refId="LogoutSuccess" event="ValueChanged" />
       <EventHandler condition="newValue">
-        <Action>
-          <Target xsi:type="session.VariableAction" refId="API_ID">
-            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
-          </Target>
-        </Action>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="API_FIRST_NAME">
+                <Method xsi:type="session.VariableAction.SetValueString" value="" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="API_LAST_NAME">
+                <Method xsi:type="session.VariableAction.SetValueString" value="" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="API_ID">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
       </EventHandler>
     </EventBinding>
   </Bindings>
