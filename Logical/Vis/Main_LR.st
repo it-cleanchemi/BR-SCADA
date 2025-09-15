@@ -3,7 +3,7 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
-		//NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION; not working due to retain issue
+		//NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION; retain issue
 		
 		
 		

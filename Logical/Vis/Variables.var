@@ -1,17 +1,17 @@
 VAR
-	sampleTrigger : BOOL;
-	samplingTimer : TON;
-	bufferIndex : INT;
-	SkidNumberINT : STRING[5];
-	Idx_AlarmList : INT;
-	API_Login_FB_0 : API_Login_FB;
-	Header : httpRequestHeader_t;
-	CLIENT_LOGIN_STATE : USER_LOGIN_ENUM;
-	Client : httpsClient;
-	IdxClients_AlarmCheck : INT;
-	IdxClients : INT;
-	ArUserDelete_0 : ArUserDelete;
-	ArUserCreate_0 : ArUserCreate;
-	IdxSkids_HR : INT;
-	IdxSkids_LR : INT;
+	sampleTrigger : BOOL := FALSE;
+	samplingTimer : TON := (0);
+	bufferIndex : INT := 0;
+	SkidNumberINT : STRING[5] := '';
+	Idx_AlarmList : INT := 0;
+	API_Login_FB_0 : API_Login_FB := (0);
+	Header : httpRequestHeader_t := (0);
+	CLIENT_LOGIN_STATE : USER_LOGIN_ENUM := WAITING_FOR_LOGIN_I;
+	Client : httpsClient := (0);
+	IdxClients_AlarmCheck : INT := 0;
+	IdxClients : INT := 0;
+	ArUserDelete_0 : ArUserDelete := (0);
+	ArUserCreate_0 : ArUserCreate := (0);
+	IdxSkids_HR : INT := 0;
+	IdxSkids_LR : INT := 0;
 END_VAR

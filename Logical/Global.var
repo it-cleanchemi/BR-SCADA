@@ -1,19 +1,19 @@
 VAR
-	NotesLoaded : BOOL;
-	NOTES_LR_TEMP : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80];
-	NOTES_LR : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80] := ['Test PLC','GA101 - Claxton - Sylvania',2(''),'AL100 - Teleios - Ala Trade Boaz','OK110 - Teleios - Tyson Broken Bow','AR100 - Teleios - Twin Rivers Foods Ft. Smith','TX575 - Teleios - Pilgrim Pride Nacogdoches','OK110 - Teleios - Tyson Broken Bow','','TX575 - Teleios - Pilgrim Pride Nacogdoches','GA101 - Claxton - Sylvania','LA113 - Teleios - Wayne Sanderson Farms Hammond','','OK110 - Teleios - Tyson Broken Bow','AR101 - Teleios - Custom Craft Batesville',''];
-	gServices : Services_typ;
-	SkidID : USINT;
-	gCMD_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type;
-	gCMD_LR : ARRAY[0..MAX_SKIDS_LR] OF CMD_Type;
-	gModbus_HR : ARRAY[0..MAX_SKIDS_HR] OF Modbus_Type;
-	gModbus_LR : ARRAY[0..MAX_SKIDS_LR] OF Modbus_Type;
-	gSkid_LR : ARRAY[0..MAX_SKIDS_LR] OF Skid_type;
-	gSkid_HR : ARRAY[0..MAX_SKIDS_HR] OF Skid_type;
-	gVis : Vis_Type;
-	gUnit_HR : ARRAY[0..MAX_SKIDS_HR] OF UINT;
-	gUnit_LR : ARRAY[0..MAX_SKIDS_LR] OF UINT;
-	gAlarmAddData_Global : HA_AlarmX_AlarmExtraData_typ;
-	gAlarmAddData : HA_AlarmX_AlarmExtraData_typ;
-	gErrorReset : BOOL;
+	NotesLoaded : BOOL := FALSE;
+	NOTES_LR_TEMP : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80] := [('')];
+	NOTES_LR : {REDUND_UNREPLICABLE} ARRAY[0..MAX_SKIDS_LR] OF STRING[80] := ['Test PLC','GA101 - Claxton - Sylvania',2(''),'AL100 - Teleios - Ala Trade Boaz','OK110 - Teleios - Tyson Broken Bow','AR100 - Teleios - Twin Rivers Foods Ft. Smith','TX575 - Teleios - Pilgrim Pride Nacogdoches','OK110 - Teleios - Tyson Broken Bow','','TX575 - Teleios - Pilgrim Pride Nacogdoches','GA101 - Claxton - Sylvania','LA113 - Teleios - Wayne Sanderson Farms Hammond','','OK110 - Teleios - Tyson Broken Bow','AR101 - Teleios - Custom Craft Batesville',2('')];
+	gServices : Services_typ := (0);
+	SkidID : USINT := 0;
+	gCMD_HR : ARRAY[0..MAX_SKIDS_HR] OF CMD_Type := [(0)];
+	gCMD_LR : ARRAY[0..MAX_SKIDS_LR] OF CMD_Type := [(0)];
+	gModbus_HR : ARRAY[0..MAX_SKIDS_HR] OF Modbus_Type := [(0)];
+	gModbus_LR : ARRAY[0..MAX_SKIDS_LR] OF Modbus_Type := [(0)];
+	gSkid_LR : ARRAY[0..MAX_SKIDS_LR] OF Skid_type := [(0)];
+	gSkid_HR : ARRAY[0..MAX_SKIDS_HR] OF Skid_type := [(0)];
+	gVis : Vis_Type := (0);
+	gUnit_HR : ARRAY[0..MAX_SKIDS_HR] OF UINT := [(0)];
+	gUnit_LR : ARRAY[0..MAX_SKIDS_LR] OF UINT := [(0)];
+	gAlarmAddData_Global : HA_AlarmX_AlarmExtraData_typ := (0);
+	gAlarmAddData : HA_AlarmX_AlarmExtraData_typ := (0);
+	gErrorReset : BOOL := FALSE;
 END_VAR

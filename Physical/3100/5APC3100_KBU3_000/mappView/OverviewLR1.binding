@@ -8108,413 +8108,29 @@
 		
 		
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE_OPP" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE_OPP" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_SIM_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI301_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_MEA_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE_OPP" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE_OPP" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_SIM_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI302_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_MEA_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE_OPP" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE_OPP" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_SIM_CMD" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI303_SIM" attribute="enable" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_MEA_CMD" attribute="enable" />
-		</Binding>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		<Binding mode="twoWay">
@@ -9456,14 +9072,8 @@
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextInput1" attribute="value" />
 		</Binding>
 		
-		<Binding mode="oneWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P101_STP_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="oneWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P101_STRT_CMD" attribute="enable" />
-		</Binding>
+		
+		
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="session" refId="API_ID" attribute="value" />
@@ -9503,41 +9113,6 @@
 			</Source>
 			<Target xsi:type="expression" refId="ScreenLock_LR" attribute="MODE" />
 		</Binding>
-		
-		<Binding mode="oneWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Pmax_General_Variables.SCREEN_LOCK" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Pmax_General_Variables.SCREEN_LOCK" />
-				</be:List>
-			</Source>
-			<Target xsi:type="expression" refId="ScreenLock_LR_P101" attribute="MODE" />
-		</Binding>
-		
 		
 		<Binding mode="oneWay">
 			<Source xsi:type="listElement">
@@ -9676,30 +9251,12 @@
 		</Binding>
 		
 	
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P102_STRT_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P102_STP_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P103_STRT_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P103_STP_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P104_STRT_CMD" attribute="enable" />
-		</Binding>
-		<Binding mode="twoWay">
-			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P104_STP_CMD" attribute="enable" />
-		</Binding>
+		
+		
+		
+		
+		
+		
 		<Binding mode="twoWay">
 			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P104_SP" attribute="enable" />
@@ -9818,105 +9375,1140 @@
 			</Source>
 			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput51" attribute="value" />
 		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="SystemSettings" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P201_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P201_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P202_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P202_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P203_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_SP" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P203_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_PPM" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P201_SETTINGS" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P202_SETTINGS" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P203_SETTINGS" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput1" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput4" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput36" attribute="enable" />
+		</Binding>
+		
+		
+		
+		
+		
+		
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P101" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P101_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P101_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P101_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P101_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P101_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P101_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P101_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P101_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P101_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P101_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P101_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P101_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P101_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P101_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P101_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P101_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P101_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P101_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P101_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P101_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P101_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P101_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P101_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P101_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P101_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P101" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P101" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P101" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P101_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P101" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P101_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P102" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P102_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P102_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P102_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P102_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P102_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P102_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P102_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P102_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P102_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P102_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P102_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P102_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P102_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P102_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P102_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P102_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P102_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P102_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P102_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P102_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P102_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P102_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P102_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P102_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P102_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P102" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P102" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P103" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P103_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P103_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P103_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P103_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P103_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P103_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P103_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P103_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P103_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P103_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P103_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P103_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P103_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P103_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P103_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P103_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P103_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P103_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P103_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P103_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P103_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P103_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P103_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P103_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P103_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P103" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P103" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P104" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P104_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P104_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P104_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P104_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P104_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P104_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P104_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P104_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P104_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P104_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P104_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P104_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P104_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P104_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P104_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P104_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P104_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P104_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P104_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P104_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P104_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P104_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P104_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P104_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P104_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P104" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P104" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P104" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P104_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P104" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P104_STRT_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P103" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P103_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P103" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P103_STRT_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P102" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P102_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P102" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P102_STRT_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P201" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P201_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P201_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P201_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P201_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P201_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P201_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P201_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P201_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P201_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P201_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P201_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P201_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P201_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P201_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P201_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P201_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P201_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P201_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P201_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P201_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P201_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P201_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P201_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P201_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P201_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P201" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P201" attribute="API_ID_PLC" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P202" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P202_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P202_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P202_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P202_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P202_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P202_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P202_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P202_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P202_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P202_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P202_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P202_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P202_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P202_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P202_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P202_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P202_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P202_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P202_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P202_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P202_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P202_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P202_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P202_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P202_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P202" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P202" attribute="API_ID_PLC" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_P203" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.P203_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.P203_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.P203_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.P203_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.P203_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.P203_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.P203_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.P203_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.P203_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.P203_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.P203_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.P203_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.P203_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.P203_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.P203_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.P203_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.P203_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.P203_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.P203_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.P203_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.P203_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.P203_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.P203_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.P203_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.P203_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P203" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_P203" attribute="API_ID_PLC" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P203" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P203" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_STRT_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P202" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P202" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_STRT_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P201" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_STP_CMD" attribute="enable" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="expression" refId="ScreenLock_LR_P201" attribute="result" />
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_STRT_CMD" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301_OPP" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI301_MODE_OPP" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI301_MODE_OPP" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301_OPP" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI301_OPP" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302_OPP" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI302_MODE_OPP" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI302_MODE_OPP" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302_OPP" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI302_OPP" attribute="API_ID_PLC" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="API_ID" attribute="value" />
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303_OPP" attribute="API_ID_USER" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisBool.FI303_MODE_OPP" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisBool.FI303_MODE_OPP" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303_OPP" attribute="MODE" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].UserLock" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].UserLock" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].UserLock" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].UserLock" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].UserLock" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].UserLock" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].UserLock" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].UserLock" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].UserLock" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].UserLock" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].UserLock" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].UserLock" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].UserLock" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].UserLock" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].UserLock" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].UserLock" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].UserLock" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].UserLock" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].UserLock" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].UserLock" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].UserLock" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].UserLock" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].UserLock" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].UserLock" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].UserLock" />
+				</be:List>
+			</Source>
+			<Target xsi:type="expression" refId="ScreenLock_LR_FI303_OPP" attribute="API_ID_PLC" />
+		</Binding>
+		
 	<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="SystemSettings" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI303_OPP" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_SIM_CMD" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P201_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI303_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P201_PPM" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI303" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI303_MEA_CMD" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_PPM" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI302_OPP" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_SIM_CMD" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P202_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI302_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P202_PPM" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI302" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI302_MEA_CMD" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_PPM" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI301_OPP" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_SIM_CMD" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P203_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_SP" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_FI301_SIM" attribute="enable" />
 </Binding>
 <Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="NI_Write_P203_PPM" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_PPM" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P201_SETTINGS" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P202_SETTINGS" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="P203_SETTINGS" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput1" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput4" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput36" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_STP_CMD" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P203_STRT_CMD" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_STP_CMD" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P202_STRT_CMD" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_STP_CMD" attribute="enable" />
-</Binding>
-<Binding mode="twoWay">
-<Source xsi:type="expression" refId="ScreenLock_LR" attribute="result" />
-<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_P201_STRT_CMD" attribute="enable" />
+<Source xsi:type="expression" refId="ScreenLock_LR_FI301" attribute="result" />
+<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="PB_Write_FI301_MEA_CMD" attribute="enable" />
 </Binding>
 </Bindings>
 </BindingsSet>

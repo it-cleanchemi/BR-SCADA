@@ -1,5 +1,5 @@
 VAR
-	IdxSkids_LR : INT;
-	IdxAlarmsActive : INT;
-	IdxSkids_HR : INT;
+	IdxSkids_LR : INT := 0;
+	IdxAlarmsActive : INT := 0;
+	IdxSkids_HR : INT := 0;
 END_VAR
