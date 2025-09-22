@@ -789,22 +789,22 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[84].type := 16;// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 86 - P103_STEPADJ
-		MasterConfig_LR[IdxSkids_LR].action_enable[86].cyclic := FALSE;// Read data cyclic 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.wP103_STEPADJ_SWAPPED);// Store data in this variable 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].quantity := 2;// Number of items to read 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].unit := 1;// Unit address - ignore if not specified 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].start_addr := 13182;// Read from this modbus address 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].timer := 2;// Refresh timer for this item 
-		MasterConfig_LR[IdxSkids_LR].action_param[86].type := 16;// Function code for this item (2 := read discrete inputs)
+		MasterConfig_LR[IdxSkids_LR].action_enable[85].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.wP103_STEPADJ_SWAPPED);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].quantity := 2;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].start_addr := 13182;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[85].type := 16;// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 87 - P103_TOTALADJ
-		MasterConfig_LR[IdxSkids_LR].action_enable[87].cyclic := FALSE;// Read data cyclic 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.wP103_TOTALADJ_SWAPPED);// Store data in this variable 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].quantity := 2;// Number of items to read 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].unit := 1;// Unit address - ignore if not specified 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].start_addr := 13190;// Read from this modbus address 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].timer := 2;// Refresh timer for this item 
-		MasterConfig_LR[IdxSkids_LR].action_param[87].type := 16;// Function code for this item (2 := read discrete inputs)
+		MasterConfig_LR[IdxSkids_LR].action_enable[86].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.wP103_TOTALADJ_SWAPPED);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].quantity := 2;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].start_addr := 13190;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[86].type := 16;// Function code for this item (2 := read discrete inputs)
 		
 		// AS Block 88 - P104_AUTOCAL
 		MasterConfig_LR[IdxSkids_LR].action_enable[87].cyclic := FALSE;// Read data cyclic 

@@ -345,7 +345,7 @@
         </cursor>
       </Properties>
     </Widget>
-    <Widget xsi:type="widgets.brease.TextOutput" id="IOSTATUS" top="160" left="420" width="940" height="160" zIndex="321" value="DISCONNECTED" borderWidth="10px" backColor="rgba(220, 220, 220, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="100px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="IOSTATUS" top="140" left="420" width="940" height="160" zIndex="321" value="DISCONNECTED" borderWidth="10px" backColor="rgba(220, 220, 220, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" textColor="rgba(255, 0, 0, 1)" textAlign="center" fontSize="100px" />
     <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA2" top="545" left="460" width="475" height="240" zIndex="5" updateBufferTime="1000" backColor="rgba(255, 255, 255, 0)">
       <Properties>
         <yAxis>

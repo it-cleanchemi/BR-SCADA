@@ -2,6 +2,9 @@
 
 PROGRAM _INIT
 
+	//FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
+	//	gSkid_LR[IdxSkids_LR].Notes.LOCATION := NOTES_LR[IdxSkids_LR]; 
+	//END_FOR;	
 	
 	IF DiagCpuIsARsim() OR DiagCpuIsSimulated() THEN
 		gServices.DeviceName := 'USER_DEVICE_SIM';
