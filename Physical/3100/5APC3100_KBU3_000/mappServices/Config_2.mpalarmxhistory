@@ -7,7 +7,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -18,7 +18,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -29,7 +29,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -40,7 +40,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -51,7 +51,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -62,7 +62,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -73,7 +73,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -84,7 +84,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -95,7 +95,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -106,7 +106,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -117,7 +117,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -128,7 +128,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -139,7 +139,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -150,7 +150,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -161,7 +161,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -172,7 +172,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -183,7 +183,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -194,7 +194,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -205,7 +205,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -216,7 +216,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -227,7 +227,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -238,7 +238,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -249,7 +249,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -260,7 +260,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -271,7 +271,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -282,7 +282,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
@@ -293,7 +293,7 @@
         <Property ID="FileNamePattern" Value="AlarmHistory/Alarms_%Y_%m_%d_%H_%M_%S.csv" />
       </Group>
       <Group ID="Memory">
-        <Property ID="MemorySize" Value="50000" />
+        <Property ID="MemorySize" Value="500" />
         <Property ID="BufferSize" Value="1" />
       </Group>
     </Group>
