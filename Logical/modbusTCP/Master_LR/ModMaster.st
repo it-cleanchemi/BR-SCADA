@@ -1021,6 +1021,15 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[110].start_addr := 23190;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[110].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[110].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 112 - P203_AUTOFLO_ADPT
+		MasterConfig_LR[IdxSkids_LR].action_enable[111].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.wUSERADMIN_RESET);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].start_addr := 252;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[111].type := 6;// Function code for this item (2 := read discrete inputs)
 
 		
 		

@@ -32,6 +32,7 @@
     <BindingsSet refId="System_Info_Content_LR_binding" />
     <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="ESD_Content_LR_binding" />
+    <BindingsSet refId="PM_Settings_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />

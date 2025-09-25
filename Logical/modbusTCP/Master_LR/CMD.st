@@ -659,23 +659,15 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.Send := FALSE;
 	END_IF;
 	
+	// AS Block 112 - P203_AUTOFLO_ADPT
+	IF gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[111].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send := FALSE;
+	END_IF;
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 

@@ -22,4 +22,8 @@ PROGRAM _EXIT
 	gServices.Alarms_Global.MpAlarmXHistory_0(Enable := FALSE);
 	gServices.Alarms_Global.MpAlarmXHistoryUI_0(Enable := FALSE);
 	
+	
+	gServices.Recipe.MpRecipeRegPar(Enable := FALSE);
+	gServices.Recipe.MpRecipeXml(Enable := FALSE);
+	
 END_PROGRAM

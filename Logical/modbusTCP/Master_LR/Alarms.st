@@ -20,7 +20,7 @@ ACTION Alarms_action:
 				gSkid_LR[IdxSkids_LR].ErrorInfo.State		:= 'Warning';
 				gSkid_LR[IdxSkids_LR].ErrorInfo.Severity	:= 1;
 				gSkid_LR[IdxSkids_LR].Error := TRUE;
-				gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State.ALARM_AB1.0 := TRUE;
+				gServices.Alarms_LR[IdxSkids_LR].Internal.Alarms_State.ALARM_AB1.1 := TRUE;
 			END_IF;
 		END_IF;
 	

@@ -1,8 +1,17 @@
 
 ACTION Recipe_Action: 
 	
+	IF gServices.Recipe.CreateNoteFile THEN
+		gServices.Recipe.MpRecipeXml.Save := TRUE;
+		IF gServices.Recipe.MpRecipeXml.CommandDone AND NOT gServices.Recipe.MpRecipeXml.Error THEN
+			NotesLoaded := TRUE;
+			gServices.Recipe.MpRecipeXml.Save := FALSE;
+			gServices.Recipe.CreateNoteFile := FALSE;
+		END_IF
+	END_IF
 	
-	IF NOT NotesLoaded THEN
+	
+	IF NOT NotesLoaded AND NOT gServices.Recipe.CreateNoteFile THEN
 		gServices.Recipe.MpRecipeXml.Load := TRUE;
 		IF gServices.Recipe.MpRecipeXml.CommandDone AND NOT gServices.Recipe.MpRecipeXml.Error THEN
 			NotesLoaded := TRUE;
@@ -12,7 +21,11 @@ ACTION Recipe_Action:
 			FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 				gSkid_LR[IdxSkids_LR].Notes.LOCATION := NOTES_LR[IdxSkids_LR];
 			END_FOR;
-	
+			
+		ELSIF gServices.Recipe.MpRecipeXml.Error THEN
+			gServices.Recipe.MpRecipeXml.Load := FALSE;
+			gServices.Recipe.MpRecipeXml.ErrorReset := TRUE;
+			gServices.Recipe.CreateNoteFile := TRUE;
 		END_IF;
 	END_IF;
 	

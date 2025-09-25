@@ -3,6 +3,7 @@ TYPE
 	S_Recipe_type : 	STRUCT 
 		MpRecipeRegPar : MpRecipeRegPar;
 		MpRecipeXml : MpRecipeXml;
+		CreateNoteFile : BOOL;
 	END_STRUCT;
 	S_Alarms_global_type : 	STRUCT 
 		MpAlarmXListUI_0 : MpAlarmXListUI;

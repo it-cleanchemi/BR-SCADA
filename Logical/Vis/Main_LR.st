@@ -485,12 +485,6 @@ ACTION Vis_Main_LR:
 		
 		// VISIBILITY TRIGGER SETTING
 		
-		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT = 1 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.HEARTBEAT := 0;
-		ELSE
-			gSkid_LR[IdxSkids_LR].VisBool.HEARTBEAT := 1;
-		END_IF;
-		
 		IF gSkid_LR[IdxSkids_LR].BufferTank.LSHH200 > LSHH200_TRIGGER THEN
 			gSkid_LR[IdxSkids_LR].VisBool.LSHH200 := 1;
 		ELSE
@@ -551,25 +545,7 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P203_SP := 0;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 0 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DDA := 1;
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DME := 0;	
-		ELSE
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DDA := 0;
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DME := 1;
-		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 0 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAGREEN := 1;
-		ELSE
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAGREEN := 0;
-		END_IF;
-		
-		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEGREEN := 1;
-		ELSE
-			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEGREEN := 0;
-		END_IF;
 		
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_ENABLE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P201_ENABLE_OPP := 0;
@@ -804,6 +780,138 @@ ACTION Vis_Main_LR:
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.IOSTATUS := 0;
 		END_IF;
+		
+		
+		
+		
+		
+		//P101 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P101_DMEYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P101_DMEYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P101_DMEGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P101_DMEGREEN := 0;
+		END_IF;
+		
+		//P102 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P102_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P102_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P102_DDAGREEN := 0;
+		END_IF;
+		
+		//P103 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P103_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P103_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P103_DDAGREEN := 0;
+		END_IF;
+		
+		//P104 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P104_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P104_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P104_DDAGREEN := 0;
+		END_IF;
+		
+		
+		//P201 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDA := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DME := 0;	
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDA := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DME := 1;
+		END_IF;
+		
+
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEGREEN := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DMEYELLOW := 0;
+		END_IF;
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 3 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PTYPE = 0 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P201_DDAGREEN := 0;
+		END_IF;
+		
+		//P202 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P202_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P202_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P202_DDAGREEN := 0;
+		END_IF;
+		
+		//P203 Pump Graphic Vis
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_DDAYELLOW := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P203_DDAYELLOW := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 3 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.P203_DDAGREEN := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.P203_DDAGREEN := 0;
+		END_IF;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	END_FOR;
 

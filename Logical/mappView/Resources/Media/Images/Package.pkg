@@ -94,5 +94,7 @@
     <Object Type="File">Solenoid_On4.png</Object>
     <Object Type="File">Solenoid_On4side.png</Object>
     <Object Type="File">SettingsCog.png</Object>
+    <Object Type="File">P1Y.png</Object>
+    <Object Type="File">P2Y.png</Object>
   </Objects>
 </Package>
