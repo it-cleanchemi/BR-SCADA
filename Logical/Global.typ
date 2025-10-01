@@ -1084,6 +1084,8 @@ TYPE
 		FI303_MODE_OPP : BOOL;
 		FI304_MODE_OPP : BOOL;
 		XV101 : BOOL;
+		XV102 : BOOL;
+		XV104 : BOOL;
 		XV101_OPP : BOOL;
 		XV102_OPP : BOOL;
 		XV103_OPP : BOOL;
@@ -1303,6 +1305,7 @@ TYPE
 		P102_GAIN : REAL; (*Pump 102 Gain*)
 		P102_STEPADJ : REAL; (*Pump 102 Max Step Adj*)
 		P102_TOTALADJ : REAL; (*Pump 102 Max Total Adj*)
+		XV102_ENABLE : UINT; (*Pump 102 XV102 Exists on Unit*)
 	END_STRUCT;
 	Pmax_Pump_103_Type : 	STRUCT  (*Pmax Generation Variables for Pump 103 - Hydrogen Peroxide Pump*)
 		P103_XS : UINT; (*Pump 103 On/Off Status*)
@@ -1343,6 +1346,7 @@ TYPE
 		P104_GAIN : REAL; (*Pump 104 Gain*)
 		P104_STEPADJ : REAL; (*Pump 104 Max Step Adj*)
 		P104_TOTALADJ : REAL; (*Pump 104 Max Total Adj*)
+		XV104_ENABLE : UINT; (*Pump 104 XV104 Exists on Unit*)
 	END_STRUCT;
 END_TYPE
 

@@ -65,6 +65,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Sensor_Variables.XV102 := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[38];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[40];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOADAPT := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[42];
+	gSkid_LR[IdxSkids_LR].Pmax_Pump_102.XV102_ENABLE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[44];
 	
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[48];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_WARN := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[50];
@@ -81,6 +82,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[72];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL_PV := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[74];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOADAPT := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[76];
+	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.XV104_ENABLE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[78];
 	
 	
 	// AS Block 2 - 6000 DOSING INT - SPARE

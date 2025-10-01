@@ -62,7 +62,7 @@
             <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle33" top="511" left="208" width="84" height="60" zIndex="4" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
           </Widgets>
         </Widget>
-        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" zIndex="1" text="DEFAULT">
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="200" zIndex="1" text="DEFAULT SETTINGS">
           <Widgets>
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_USERADMIN_RESET" top="130" left="220" width="180" height="90" zIndex="0" multiLine="true" text="RESET USER ADMIN" wordWrap="true" />
             <Widget xsi:type="widgets.brease.Label" id="Label1" top="130" left="40" width="180" height="70" zIndex="1" multiLine="true" text="Reset User Admin Credentials to Default" wordWrap="true" />

@@ -703,10 +703,16 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.XV101 := 0;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV102 = 1 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.XV102_OPP := 0;
-		ELSE
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV102 = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.XV102_ENABLE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.XV102_OPP := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.XV102_OPP := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV102 = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.XV102_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.XV102 := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.XV102 := 0;
 		END_IF;
 		
 		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV103 = 1 THEN
@@ -715,10 +721,16 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.XV103_OPP := 1;
 		END_IF;
 		
-		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV104 = 1 THEN
-			gSkid_LR[IdxSkids_LR].VisBool.XV104_OPP := 0;
-		ELSE
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV104 = 0 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_104.XV104_ENABLE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.XV104_OPP := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.XV104_OPP := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV104 = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_104.XV104_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.XV104 := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.XV104 := 0;
 		END_IF;
 		
 		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV201 = 1 THEN

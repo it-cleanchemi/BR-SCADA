@@ -386,5 +386,13 @@
     <Widget xsi:type="widgets.brease.Image" id="P201_DMEYELLOW" top="300" left="1270" width="181" height="140" zIndex="326" image="Media/Images/P2Y.png" />
     <Widget xsi:type="widgets.brease.Image" id="P201_DDAYELLOW" top="308" left="1295" width="140" zIndex="323" image="Media/Images/P1Y.png" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle25" top="433" left="1075" width="440" height="30" zIndex="0" borderWidth="2px" backColor="rgba(192, 192, 192, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line35" zIndex="331" x1="437" x2="437" y1="480" y2="395" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" opacity="1" />
+    <Widget xsi:type="widgets.brease.Image" id="Image36" top="480" left="427" width="20" height="20" zIndex="332" image="Media/Images/Down_Arrow.png" />
+    <Widget xsi:type="widgets.brease.Line" id="Line36" zIndex="333" x1="437" x2="437" y1="855" y2="770" lineColor="rgba(0, 0, 255, 1)" lineWidth="7px" opacity="1" />
+    <Widget xsi:type="widgets.brease.Image" id="Image37" top="855" left="427" width="20" height="20" zIndex="334" image="Media/Images/Down_Arrow.png" />
+    <Widget xsi:type="widgets.brease.Image" id="P102_SOLENOID_OFF" top="429" left="425" width="40" height="30" zIndex="335" image="Media/Images/Solenoid_Off3side.png" />
+    <Widget xsi:type="widgets.brease.Image" id="P102_SOLENOID_ON" top="429" left="425" width="40" height="30" zIndex="336" image="Media/Images/Solenoid_On4side.png" />
+    <Widget xsi:type="widgets.brease.Image" id="P104_SOLENOID_ON" top="803" left="425" width="40" height="30" zIndex="338" image="Media/Images/Solenoid_On4side.png" />
+    <Widget xsi:type="widgets.brease.Image" id="P104_SOLENOID_OFF" top="803" left="425" width="40" height="30" zIndex="337" image="Media/Images/Solenoid_Off3side.png" />
   </Widgets>
 </Content>
