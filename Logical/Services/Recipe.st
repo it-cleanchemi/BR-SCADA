@@ -4,22 +4,29 @@ ACTION Recipe_Action:
 	IF gServices.Recipe.CreateNoteFile THEN
 		gServices.Recipe.MpRecipeXml.Save := TRUE;
 		IF gServices.Recipe.MpRecipeXml.CommandDone AND NOT gServices.Recipe.MpRecipeXml.Error THEN
-			NotesLoaded := TRUE;
+			RecipeLoaded := TRUE;
 			gServices.Recipe.MpRecipeXml.Save := FALSE;
 			gServices.Recipe.CreateNoteFile := FALSE;
+			
+			FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
+				gSkid_LR[IdxSkids_LR].Notes.LOCATION:= gRecipe_LR[IdxSkids_LR].Notes;
+				gSkid_LR[IdxSkids_LR].RosterContact := gRecipe_LR[IdxSkids_LR].Contacts;
+			END_FOR;
+			
 		END_IF
 	END_IF
 	
 	
-	IF NOT NotesLoaded AND NOT gServices.Recipe.CreateNoteFile THEN
+	IF NOT RecipeLoaded AND NOT gServices.Recipe.CreateNoteFile THEN
 		gServices.Recipe.MpRecipeXml.Load := TRUE;
 		IF gServices.Recipe.MpRecipeXml.CommandDone AND NOT gServices.Recipe.MpRecipeXml.Error THEN
-			NotesLoaded := TRUE;
+			RecipeLoaded := TRUE;
 			gServices.Recipe.MpRecipeXml.Load := FALSE;
-			NOTES_LR_TEMP := NOTES_LR;
+			RECIPE_LR_TEMP := gRecipe_LR;
 			
 			FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
-				gSkid_LR[IdxSkids_LR].Notes.LOCATION := NOTES_LR[IdxSkids_LR];
+				gSkid_LR[IdxSkids_LR].Notes.LOCATION:= gRecipe_LR[IdxSkids_LR].Notes;
+				gSkid_LR[IdxSkids_LR].RosterContact := gRecipe_LR[IdxSkids_LR].Contacts;
 			END_FOR;
 			
 		ELSIF gServices.Recipe.MpRecipeXml.Error THEN
@@ -29,23 +36,24 @@ ACTION Recipe_Action:
 		END_IF;
 	END_IF;
 	
-	IF NotesLoaded THEN
+	IF RecipeLoaded THEN
 		FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
-			NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION;
+			gRecipe_LR[IdxSkids_LR].Notes := gSkid_LR[IdxSkids_LR].Notes.LOCATION;
+			gRecipe_LR[IdxSkids_LR].Contacts := gSkid_LR[IdxSkids_LR].RosterContact;
 		END_FOR;
 	END_IF;
 	
-	IF brsmemcmp(ADR(NOTES_LR),ADR(NOTES_LR_TEMP),SIZEOF(NOTES_LR_TEMP)) <> 0 AND NotesLoaded THEN
+	IF brsmemcmp(ADR(gRecipe_LR),ADR(RECIPE_LR_TEMP),SIZEOF(RECIPE_LR_TEMP)) <> 0 AND RecipeLoaded THEN
 		gServices.Recipe.MpRecipeXml.Save := TRUE;
 		IF gServices.Recipe.MpRecipeXml.CommandDone AND NOT gServices.Recipe.MpRecipeXml.Error THEN
 			gServices.Recipe.MpRecipeXml.Save := FALSE;
-			NOTES_LR_TEMP := NOTES_LR;
+			RECIPE_LR_TEMP := gRecipe_LR;
 		END_IF;
 	END_IF;
 	
-	gServices.Recipe.MpRecipeRegPar(MpLink := ADR(gRecipeXml), Enable := TRUE, ErrorReset := gErrorReset, PVName := ADR('NOTES_LR'));
+	gServices.Recipe.MpRecipeRegPar(MpLink := ADR(gRecipeXml), Enable := TRUE, ErrorReset := gErrorReset, PVName := ADR('gRecipe_LR'));
 	
-	gServices.Recipe.MpRecipeXml(MpLink := ADR(gRecipeXml), Enable := TRUE, ErrorReset := gErrorReset, DeviceName := ADR('USER_DEVICE'), FileName := ADR('NOTES.xml'));
+	gServices.Recipe.MpRecipeXml(MpLink := ADR(gRecipeXml), Enable := TRUE, ErrorReset := gErrorReset, DeviceName := ADR('USER_DEVICE'), FileName := ADR('RECIPE.xml'));
 	
 
 END_ACTION

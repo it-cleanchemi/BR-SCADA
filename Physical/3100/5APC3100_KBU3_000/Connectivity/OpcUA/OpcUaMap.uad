@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
-<OpcUaSource FileVersion="9" ArVersion="J4.93">
+<OpcUaSource FileVersion="9" ArVersion="Q4.93">
   <Aliases>
     <ACLAliases>
       <ACL Id="1">
@@ -68,6 +68,7 @@
               <Variable Name="CD102" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
               <Variable Name="CD102_SP" Historizing="True" HistoryBufferSize="600" HistorySamplingInterval="Timer1" />
             </Variable>
+            <Variable Name="RosterContact" RecursiveEnable="2" />
           </VariableCommon>
           <Variable Name="gSkid_LR[0]">
             <Variable Name="Sensor_Variables" />
@@ -81,7 +82,6 @@
         <Variable Name="gAlarmAddData_Global" RecursiveEnable="2">
           <Variable Name="AddData" RecursiveEnable="2" />
         </Variable>
-        <Variable Name="NOTES_LR" />
       </GlobalVariables>
     </Module>
   </DefaultView>

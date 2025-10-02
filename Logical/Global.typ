@@ -72,6 +72,7 @@ TYPE
 		AlarmName : STRING[80];
 		AlarmsInitialized : BOOL;
 		Notes : Notes_Type;
+		RosterContact : RosterContact_Type;
 		UserLock_LastName : STRING[80];
 		UserLock_FirstName : STRING[80];
 		UserLock : UINT;
@@ -79,6 +80,20 @@ TYPE
 END_TYPE
 
 (**)
+
+TYPE
+	RosterContact_Type : 	STRUCT 
+		Contact2 : STRING[80];
+		Contact3 : STRING[80];
+		Contact4 : STRING[80];
+		Contact5 : STRING[80];
+		Contact6 : STRING[80];
+		Contact7 : STRING[80];
+		Contact8 : STRING[80];
+		Contact1 : STRING[80];
+	END_STRUCT;
+END_TYPE
+
 (*Visualization Components*)
 
 TYPE
@@ -1117,6 +1132,10 @@ END_TYPE
 (**)
 
 TYPE
+	Recipe_type : 	STRUCT 
+		Contacts : RosterContact_Type;
+		Notes : STRING[80];
+	END_STRUCT;
 	Notes_Type : 	STRUCT 
 		LOCATION : STRING[80];
 	END_STRUCT;
