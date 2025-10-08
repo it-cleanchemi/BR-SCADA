@@ -18,7 +18,7 @@ TYPE
 	END_STRUCT;
 	Modbus_6000_Type : 	STRUCT 
 		Block1_Int : ARRAY[0..124]OF INT;
-		Block2_Int : ARRAY[0..124]OF INT;
+		Block2_Int : ARRAY[0..248]OF USINT;
 		Block3_Real : ARRAY[0..62]OF REAL;
 		Block4_Real : ARRAY[0..62]OF REAL;
 		Block5_Real : ARRAY[0..62]OF REAL;
@@ -80,9 +80,19 @@ TYPE
 END_TYPE
 
 (**)
+(*Alarm Text Messaging Internal CCI Roster*)
 
 TYPE
 	RosterContact_Type : 	STRUCT 
+		Contact1_ENABLE : BOOL;
+		Contact2_ENABLE : BOOL;
+		Contact3_ENABLE : BOOL;
+		Contact4_ENABLE : BOOL;
+		Contact5_ENABLE : BOOL;
+		Contact6_ENABLE : BOOL;
+		Contact7_ENABLE : BOOL;
+		Contact8_ENABLE : BOOL; (*Pump 202 Visualization Enable Bit 0 = Visible  1 = Hidden*)
+		Contact1 : STRING[80];
 		Contact2 : STRING[80];
 		Contact3 : STRING[80];
 		Contact4 : STRING[80];
@@ -90,7 +100,22 @@ TYPE
 		Contact6 : STRING[80];
 		Contact7 : STRING[80];
 		Contact8 : STRING[80];
-		Contact1 : STRING[80];
+		Phone_Read1 : STRING[10];
+		Phone_Read2 : STRING[10];
+		Phone_Read3 : STRING[10];
+		Phone_Read4 : STRING[10];
+		Phone_Read5 : STRING[10];
+		Phone_Read6 : STRING[10];
+		Phone_Read7 : STRING[10];
+		Phone_Read8 : STRING[10];
+		Phone_Input1 : STRING[10];
+		Phone_Input2 : STRING[10];
+		Phone_Input3 : STRING[10];
+		Phone_Input4 : STRING[10];
+		Phone_Input5 : STRING[10];
+		Phone_Input6 : STRING[10];
+		Phone_Input7 : STRING[10];
+		Phone_Input8 : STRING[10];
 	END_STRUCT;
 END_TYPE
 
@@ -258,6 +283,14 @@ TYPE
 		Write_P204_GAIN : CMD_Write_P204_GAIN_Type;
 		Write_P204_STEPADJ : CMD_Write_P204_STEPADJ_Type;
 		Write_P204_TOTALADJ : CMD_Write_P204_TOTALADJ_Type;
+		Write_PHONE_INPUT1 : CMD_Write_PHONE_INPUT1_Type;
+		Write_PHONE_INPUT2 : CMD_Write_PHONE_INPUT2_Type;
+		Write_PHONE_INPUT3 : CMD_Write_PHONE_INPUT3_Type;
+		Write_PHONE_INPUT4 : CMD_Write_PHONE_INPUT4_Type;
+		Write_PHONE_INPUT5 : CMD_Write_PHONE_INPUT5_Type;
+		Write_PHONE_INPUT6 : CMD_Write_PHONE_INPUT6_Type;
+		Write_PHONE_INPUT7 : CMD_Write_PHONE_INPUT7_Type;
+		Write_PHONE_INPUT8 : CMD_Write_PHONE_INPUT8_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -884,6 +917,53 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*Roster Write Commands*)
+
+TYPE
+	CMD_Write_PHONE_INPUT1_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT1 : REAL;
+		wPHONE_INPUT1_SWAPPED : REAL;
+		wPHONE_INPUT1_ARRAY : ARRAY[0..4]OF UINT;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT2_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT2 : USINT;
+		wPHONE_INPUT2_SWAPPED : USINT;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT3_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT3 : USINT;
+		wPHONE_INPUT3_SWAPPED : USINT;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT4_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT4 : USINT;
+		wPHONE_INPUT4_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT5_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT5 : USINT;
+		wPHONE_INPUT5_SWAPPED : USINT;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT6_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT6 : USINT;
+		wPHONE_INPUT6_SWAPPED : REAL;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT7_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT7 : USINT;
+		wPHONE_INPUT7_SWAPPED : USINT;
+	END_STRUCT;
+	CMD_Write_PHONE_INPUT8_Type : 	STRUCT 
+		Send : BOOL;
+		wPHONE_INPUT8 : USINT;
+		wPHONE_INPUT8_SWAPPED : USINT;
+	END_STRUCT;
+END_TYPE
+
+(**)
 (**)
 
 TYPE

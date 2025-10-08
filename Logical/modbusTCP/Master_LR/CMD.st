@@ -665,6 +665,12 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send := FALSE;
 	END_IF;
 	
+	// AS Block 113 - P203_AUTOFLO_ADPT
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[112].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send := FALSE;
+	END_IF;
+	
 	
 	
 

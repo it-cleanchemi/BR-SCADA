@@ -24,10 +24,10 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[0].timer := 20;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[0].type := 3;// Function code for this item (2 := read discrete inputs) 
 
-		// AS Block 2 - 6000 INT SPARE
+		// AS Block 2 - 6000 INT - ROSTER
 		MasterConfig_LR[IdxSkids_LR].action_enable[1].cyclic := 1;// Read data cyclic 
 		MasterConfig_LR[IdxSkids_LR].action_param[1].p_pv:= ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[0]);// Store data in this variable 
-		MasterConfig_LR[IdxSkids_LR].action_param[1].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[1].quantity := 125;// Number of items to read 
 		MasterConfig_LR[IdxSkids_LR].action_param[1].unit := 1;// Unit address - ignore if not specified 
 		MasterConfig_LR[IdxSkids_LR].action_param[1].start_addr := 6126;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[1].timer := 20;// Refresh timer for this item 
@@ -1030,6 +1030,15 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[111].start_addr := 252;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[111].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[111].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 113 - 
+		MasterConfig_LR[IdxSkids_LR].action_enable[112].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].start_addr := 3150;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[112].type := 16;// Function code for this item (2 := read discrete inputs)
 
 		
 		

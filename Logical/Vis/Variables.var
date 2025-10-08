@@ -14,4 +14,5 @@ VAR
 	ArUserCreate_0 : ArUserCreate := (0);
 	IdxSkids_HR : INT := 0;
 	IdxSkids_LR : INT := 0;
+	IndxNumber : USINT;
 END_VAR

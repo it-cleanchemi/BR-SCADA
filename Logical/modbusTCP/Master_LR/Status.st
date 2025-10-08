@@ -85,8 +85,31 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.XV104_ENABLE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[78];
 	
 	
-	// AS Block 2 - 6000 DOSING INT - SPARE
-	//:= gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[0];
+	// AS Block 2 - 6000 DOSING INT - ROSTER
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[0]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read1),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[4]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read1),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact2_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[24]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read2),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[28]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read2),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact3_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[48]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read3),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[52]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read3),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact4_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[72]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read4),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[76]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read4),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact5_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[96]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read5),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[100]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read5),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact6_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[120]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read6),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[124]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read6),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact7_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[144]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read7),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[148]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read7),19);
+	
+	gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[168]);
+	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read8),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[172]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read8),19);
+	
 	
 	// AS Block 3 - 6000 DOSING REAL
 	gSkid_LR[IdxSkids_LR].ConversionRatios.EFF_1:= IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block3_Real[0]);

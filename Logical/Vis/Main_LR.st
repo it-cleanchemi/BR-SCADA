@@ -3,9 +3,14 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
-		//NOTES_LR[IdxSkids_LR] := gSkid_LR[IdxSkids_LR].Notes.LOCATION; retain issue
 		
+		//gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1 := STRING_TO_REAL(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input1);
 		
+		FOR IndxNumber := 0 TO 4 DO
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input1)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]);
+		END_FOR;
+	
 		
 		
 		//AUTOCAL P101
