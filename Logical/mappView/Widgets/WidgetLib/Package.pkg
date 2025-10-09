@@ -11,5 +11,6 @@
     <Object Type="Package">DosingPumpInformatic</Object>
     <Object Type="Package">CDSensor1</Object>
     <Object Type="Package">SendDataButton</Object>
+    <Object Type="Package">SummaryTile_LR</Object>
   </Objects>
 </Package>

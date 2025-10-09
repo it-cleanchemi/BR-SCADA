@@ -587,5 +587,550 @@
 			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneInput8" attribute="value" />
 		</Binding>
 		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT1.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT1.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster1_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT2.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT2.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster2_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT3.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT3.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster3_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT4.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT4.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster4_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT5.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT5.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster5_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT6.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT6.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster6_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT7.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT7.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster7_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_PHONE_INPUT8.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_PHONE_INPUT8.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster8_NumSet" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read1" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read1" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read1" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read1" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read1" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read1" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read1" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read1" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read1" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read1" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read1" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read1" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read1" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read1" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read1" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read1" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read1" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read1" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read1" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read1" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read1" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read1" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read1" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read1" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read1" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput1" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read2" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read2" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read2" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read2" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read2" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read2" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read2" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read2" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read2" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read2" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read2" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read2" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read2" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read2" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read2" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read2" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read2" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read2" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read2" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read2" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read2" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read2" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read2" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read2" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read2" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput2" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read3" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read3" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read3" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read3" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read3" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read3" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read3" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read3" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read3" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read3" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read3" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read3" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read3" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read3" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read3" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read3" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read3" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read3" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read3" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read3" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read3" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read3" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read3" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read3" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read3" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput3" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read4" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read4" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read4" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read4" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read4" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read4" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read4" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read4" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read4" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read4" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read4" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read4" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read4" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read4" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read4" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read4" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read4" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read4" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read4" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read4" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read4" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read4" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read4" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read4" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read4" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput4" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read5" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read5" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read5" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read5" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read5" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read5" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read5" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read5" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read5" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read5" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read5" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read5" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read5" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read5" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read5" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read5" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read5" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read5" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read5" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read5" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read5" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read5" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read5" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read5" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read5" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput5" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read6" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read6" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read6" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read6" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read6" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read6" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read6" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read6" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read6" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read6" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read6" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read6" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read6" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read6" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read6" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read6" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read6" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read6" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read6" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read6" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read6" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read6" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read6" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read6" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read6" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput6" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read7" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read7" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read7" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read7" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read7" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read7" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read7" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read7" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read7" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read7" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read7" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read7" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read7" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read7" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read7" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read7" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read7" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read7" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read7" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read7" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read7" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read7" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read7" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read7" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read7" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput7" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].RosterContact.Phone_Read8" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].RosterContact.Phone_Read8" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].RosterContact.Phone_Read8" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].RosterContact.Phone_Read8" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].RosterContact.Phone_Read8" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].RosterContact.Phone_Read8" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].RosterContact.Phone_Read8" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].RosterContact.Phone_Read8" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].RosterContact.Phone_Read8" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].RosterContact.Phone_Read8" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].RosterContact.Phone_Read8" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].RosterContact.Phone_Read8" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].RosterContact.Phone_Read8" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].RosterContact.Phone_Read8" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].RosterContact.Phone_Read8" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].RosterContact.Phone_Read8" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].RosterContact.Phone_Read8" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].RosterContact.Phone_Read8" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].RosterContact.Phone_Read8" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].RosterContact.Phone_Read8" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].RosterContact.Phone_Read8" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].RosterContact.Phone_Read8" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].RosterContact.Phone_Read8" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].RosterContact.Phone_Read8" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].RosterContact.Phone_Read8" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PhoneOutput8" attribute="value" />
+		</Binding>
+
+		
 	</Bindings>
 </BindingsSet>

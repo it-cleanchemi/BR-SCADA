@@ -104,7 +104,7 @@
             <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput6" top="460" left="195" width="160" zIndex="33" keyboard="false" maxLength="10" />
             <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput7" top="543" left="195" width="160" zIndex="34" keyboard="false" maxLength="10" />
             <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput8" top="626" left="195" width="160" zIndex="35" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput1" top="10" left="315" width="120" zIndex="36" value="##########" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput1" top="10" left="315" width="120" zIndex="36" value="UNASSIGNED" textAlign="center" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster1_On" top="5" left="440" width="50" height="19" zIndex="37" text="ON" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster1_Off" top="28" left="440" width="50" height="19" zIndex="38" text="OFF" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster2_On" top="88" left="440" width="50" height="19" zIndex="39" text="ON" />
@@ -121,13 +121,13 @@
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster6_Off" top="443" left="440" width="50" height="19" zIndex="50" text="OFF" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster7_Off" top="526" left="440" width="50" height="19" zIndex="51" text="OFF" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster8_Off" top="609" left="440" width="50" height="19" zIndex="52" text="OFF" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput2" top="93" left="315" width="120" zIndex="53" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput3" top="176" left="315" width="120" zIndex="54" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput4" top="259" left="315" width="120" zIndex="55" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput5" top="342" left="315" width="120" zIndex="56" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput6" top="425" left="315" width="120" zIndex="57" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput7" top="508" left="315" width="120" zIndex="58" value="##########" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput8" top="591" left="315" width="120" zIndex="59" value="##########" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput2" top="93" left="315" width="120" zIndex="53" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput3" top="176" left="315" width="120" zIndex="54" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput4" top="259" left="315" width="120" zIndex="55" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput5" top="342" left="315" width="120" zIndex="56" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput6" top="425" left="315" width="120" zIndex="57" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput7" top="508" left="315" width="120" zIndex="58" value="UNASSIGNED" textAlign="center" />
+            <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput8" top="591" left="315" width="120" zIndex="59" value="UNASSIGNED" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label10" top="10" left="35" width="85" zIndex="60" text="CONTACT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label11" top="93" left="35" width="85" zIndex="61" text="CONTACT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label12" top="176" left="35" width="85" zIndex="62" text="CONTACT" textAlign="center" />

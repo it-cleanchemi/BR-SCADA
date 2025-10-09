@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_0" height="310" width="200" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.RadialGauge" id="P101_PI_Gauge" top="150" left="-10" width="120" height="120" zIndex="1" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+    <Widget xsi:type="widgets.brease.RadialGauge" id="CD102_Gauge" top="150" left="90" width="120" height="120" zIndex="2" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+    <Widget xsi:type="widgets.brease.RadialGauge" id="CD101_Gauge" top="80" left="90" width="120" height="120" zIndex="3" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="P201_Indicator" top="255" left="10" width="46" height="46" zIndex="4" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="P202_Indicator" top="255" left="77" width="46" height="46" zIndex="5" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="P203_Indicator" top="255" left="144" width="46" height="46" zIndex="6" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="230" left="60" zIndex="7" text="DOSE" textAlign="center" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="GEN_Indicator" top="107" left="27" width="46" height="46" zIndex="8" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="Unit_Indicator" top="7" left="10" width="80" height="80" zIndex="9" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="268" left="13" width="40" height="20" zIndex="10" text="P201" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="268" left="80" width="40" height="20" zIndex="11" text="P202" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="268" left="147" width="40" height="20" zIndex="12" text="P203" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="10" zIndex="13" text="GEN" textAlign="center" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="220" left="30" width="40" height="20" zIndex="14" text="P101_PI" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="150" left="130" width="40" height="20" zIndex="15" text="CD101" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="220" left="130" width="40" height="20" zIndex="16" text="CD102" textAlign="center" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="200" height="310" zIndex="0" borderWidth="3px" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="PMAX_RATE" top="32" left="-5" zIndex="17" unit="{'metric':'41','imperial':'L2','imperial-us':'41'}" unitAlign="right" textAlign="right" fontSize="10px" unitFontSize="8px" />
+    <Widget xsi:type="widgets.brease.PushButton" id="PushButton_GoToSkid" top="60" left="108" width="80" zIndex="18" text="777" fontSize="14px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="JobName" top="5" left="95" height="50" zIndex="19" multiLine="true" value="AAXXX - Job Name Sample Text" wordWrap="true" borderWidth="1px" borderStyle="solid" fontSize="10px" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="CD101_Indicator" top="128" left="138" width="25" height="25" zIndex="20" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="P101_PI_Indicator" top="198" left="38" width="25" height="25" zIndex="21" />
+    <Widget xsi:type="widgets.brease.Ellipse" id="CD102_Indicator" top="198" left="138" width="25" height="25" zIndex="22" />
+  </Widgets>
+</Content>

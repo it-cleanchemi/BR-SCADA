@@ -127,14 +127,6 @@ TYPE
 		Text : STRING[255];
 		Severity : USINT;
 	END_STRUCT;
-	Vis_Type : 	STRUCT 
-		Pumps : USINT;
-		Main : Vis_Main_Type;
-		Global : Vis_Global;
-		Alarms_HR : ARRAY[0..MAX_SKIDS_HR]OF Vis_Alarms_Type;
-		Alarms_LR : ARRAY[0..MAX_SKIDS_LR]OF Vis_Alarms_Type;
-		Alarms_Global : Vis_Alarms_Type;
-	END_STRUCT;
 END_TYPE
 
 (**)
@@ -922,51 +914,50 @@ END_TYPE
 TYPE
 	CMD_Write_PHONE_INPUT1_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT1 : REAL;
-		wPHONE_INPUT1_SWAPPED : REAL;
 		wPHONE_INPUT1_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT2_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT2 : USINT;
-		wPHONE_INPUT2_SWAPPED : USINT;
+		wPHONE_INPUT2_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT3_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT3 : USINT;
-		wPHONE_INPUT3_SWAPPED : USINT;
+		wPHONE_INPUT3_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT4_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT4 : USINT;
-		wPHONE_INPUT4_SWAPPED : REAL;
+		wPHONE_INPUT4_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT5_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT5 : USINT;
-		wPHONE_INPUT5_SWAPPED : USINT;
+		wPHONE_INPUT5_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT6_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT6 : USINT;
-		wPHONE_INPUT6_SWAPPED : REAL;
+		wPHONE_INPUT6_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT7_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT7 : USINT;
-		wPHONE_INPUT7_SWAPPED : USINT;
+		wPHONE_INPUT7_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 	CMD_Write_PHONE_INPUT8_Type : 	STRUCT 
 		Send : BOOL;
-		wPHONE_INPUT8 : USINT;
-		wPHONE_INPUT8_SWAPPED : USINT;
+		wPHONE_INPUT8_ARRAY : ARRAY[0..4]OF UINT;
 	END_STRUCT;
 END_TYPE
 
 (**)
-(**)
 
 TYPE
+	Vis_Type : 	STRUCT 
+		Pumps : USINT;
+		Main : Vis_Main_Type;
+		Global : Vis_Global;
+		Alarms_HR : ARRAY[0..MAX_SKIDS_HR]OF Vis_Alarms_Type;
+		Alarms_LR : ARRAY[0..MAX_SKIDS_LR]OF Vis_Alarms_Type;
+		Alarms_Global : Vis_Alarms_Type;
+		Process : Vis_Process_Type;
+	END_STRUCT;
 	Vis_Global : 	STRUCT 
 		ClientInfo : ARRAY[0..MAX_CLIENTS]OF Vis_Global_ClientInfo;
 		ErrorReset : BOOL;
@@ -1038,6 +1029,31 @@ TYPE
 		SelectedSkidSessionVar : INT;
 		AckAllAlarms_Skid_HR : ARRAY[0..100]OF BOOL;
 		AckAllAlarms_Skid_LR : ARRAY[0..100]OF BOOL;
+	END_STRUCT;
+	Vis_Process_Internal_Type : 	STRUCT 
+		In : Vis_Main_In_Type;
+		Internal : Vis_Main_Internal_Type;
+		Out : Vis_Main_Out_Type;
+	END_STRUCT;
+	Vis_Process_Out_ST_Type : 	STRUCT 
+		CD101_Indicator : STRING[80];
+		CD101_Gauge : REAL;
+		CD102_Indicator : STRING[80];
+		CD102_Gauge : REAL;
+		UnitNumber : STRING[80];
+	END_STRUCT;
+	Vis_Process_Out_Type : 	STRUCT 
+		SummaryTiles : ARRAY[0..MAX_SKIDS_LR]OF Vis_Process_Out_ST_Type;
+	END_STRUCT;
+	Vis_Process_In_Type : 	STRUCT 
+		In : Vis_Main_In_Type;
+		Internal : Vis_Main_Internal_Type;
+		Out : Vis_Main_Out_Type;
+	END_STRUCT;
+	Vis_Process_Type : 	STRUCT 
+		In : Vis_Process_In_Type;
+		Internal : Vis_Process_Internal_Type;
+		Out : Vis_Process_Out_Type;
 	END_STRUCT;
 	Vis_Main_Type : 	STRUCT 
 		In : Vis_Main_In_Type;

@@ -1031,7 +1031,7 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[111].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[111].type := 6;// Function code for this item (2 := read discrete inputs)
 		
-		// AS Block 113 - 
+		// AS Block 113 - ROSTER1_PHONE
 		MasterConfig_LR[IdxSkids_LR].action_enable[112].cyclic := FALSE;// Read data cyclic 
 		MasterConfig_LR[IdxSkids_LR].action_param[112].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY);// Store data in this variable 
 		MasterConfig_LR[IdxSkids_LR].action_param[112].quantity := 5;// Number of items to read 
@@ -1039,6 +1039,69 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[112].start_addr := 3150;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[112].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[112].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 114 - ROSTER2_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[113].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.wPHONE_INPUT2_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].start_addr := 3250;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[113].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 115 - ROSTER3_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[114].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.wPHONE_INPUT3_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].start_addr := 3350;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[114].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 116 - ROSTER4_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[115].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.wPHONE_INPUT4_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].start_addr := 3450;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[115].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 117 - ROSTER5_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[116].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.wPHONE_INPUT5_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].start_addr := 3550;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[116].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 118 - ROSTER6_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[117].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.wPHONE_INPUT6_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].start_addr := 3650;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[117].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 119 - ROSTER7_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[118].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.wPHONE_INPUT7_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].start_addr := 3750;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[118].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 120 - ROSTER8_PHONE
+		MasterConfig_LR[IdxSkids_LR].action_enable[119].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].quantity := 5;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].start_addr := 3850;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[119].type := 16;// Function code for this item (2 := read discrete inputs)
 
 		
 		

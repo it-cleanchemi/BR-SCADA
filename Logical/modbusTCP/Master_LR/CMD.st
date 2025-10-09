@@ -665,10 +665,52 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send := FALSE;
 	END_IF;
 	
-	// AS Block 113 - P203_AUTOFLO_ADPT
+	// AS Block 113 - ROSTER1_PHONE
 	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[112].single := TRUE;
 		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send := FALSE;
+	END_IF;
+	
+	// AS Block 114 - ROSTER2_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[113].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.Send := FALSE;
+	END_IF;
+	
+	// AS Block 115 - ROSTER3_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[114].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.Send := FALSE;
+	END_IF;
+	
+	// AS Block 116 - ROSTER4_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[115].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.Send := FALSE;
+	END_IF;
+	
+	// AS Block 117 - ROSTER5_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[116].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.Send := FALSE;
+	END_IF;
+	
+	// AS Block 118 - ROSTER6_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[117].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.Send := FALSE;
+	END_IF;
+	
+	// AS Block 119 - ROSTER7_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[118].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.Send := FALSE;
+	END_IF;
+	
+	// AS Block 120 - ROSTER8_PHONE
+	IF gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[119].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.Send := FALSE;
 	END_IF;
 	
 	

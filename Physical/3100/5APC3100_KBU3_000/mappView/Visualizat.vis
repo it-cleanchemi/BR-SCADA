@@ -33,6 +33,7 @@
     <BindingsSet refId="OverviewLR1_binding" />
     <BindingsSet refId="ESD_Content_LR_binding" />
     <BindingsSet refId="PM_Settings_Content_LR_binding" />
+    <BindingsSet refId="Process_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
@@ -58,6 +59,7 @@
     <EventBindingsSet refId="Alarms_History_eventbinding" />
     <EventBindingsSet refId="P204_Status_Content_HR_eventbinding" />
     <EventBindingsSet refId="ESD_Content_LR_eventbinding" />
+    <EventBindingsSet refId="content_0_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />
@@ -125,6 +127,7 @@
     <Content refId="P203_Settings_Content_LR" />
     <Content refId="System_Info_Content_LR" />
     <Content refId="ESD_Content_LR" />
+    <Content refId="content_0" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

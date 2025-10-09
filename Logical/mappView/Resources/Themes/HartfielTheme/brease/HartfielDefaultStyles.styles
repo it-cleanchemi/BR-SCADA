@@ -757,6 +757,31 @@
 		backColor="transparent" 
 		lineColor="#555555" 
 	opacity="1" />
+	
+	<Style id="Low" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#0ff24b" 
+		lineColor="#555555" 
+	opacity="1" />
+	
+	<Style id="Medium" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#0f39f2" 
+		lineColor="#555555" 
+	opacity="1" />
+	
+	<Style id="High" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#f20f2d" 
+		lineColor="#555555" 
+	opacity="1" />
+	
+	<Style id="OFF" xsi:type="widgets.brease.Ellipse" 
+		borderWidth="2px" 
+		backColor="#585a61" 
+		lineColor="#555555" 
+	opacity="1" />
+	
 
 	<Style id="On" xsi:type="widgets.brease.Ellipse" 
 		borderWidth="2px" 
@@ -887,16 +912,7 @@
 		buttonBackGroundGradient="linear-gradient(to right,#555555 0%,#111111 100%)" 
 		backColor="rgba(17, 17, 17, 1)" 
 	/>
-
-	<!--radial gauge-->
 		
-	<Style id="default" xsi:type="widgets.brease.RadialGauge" 	
-		borderWidth="2px" 
-		borderColor="#000000" 
-		pointerBackColor="#000000" 	
-		backGroundGradient="radial-gradient(ellipse at center, #D1F2FF 0%, #000000 100%)"
-	/>
-
 	<!--table and table item-->
 	
 	<Style id="default" xsi:type="widgets.brease.Table" 

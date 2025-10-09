@@ -3,12 +3,32 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
-		
-		//gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1 := STRING_TO_REAL(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input1);
-		
+		//ROSTER WRITE
 		FOR IndxNumber := 0 TO 4 DO
+			//ROSTER 1
 			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input1)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]));
 			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.wPHONE_INPUT1_ARRAY[IndxNumber]);
+			//ROSTER 2
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.wPHONE_INPUT2_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input2)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.wPHONE_INPUT2_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.wPHONE_INPUT2_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.wPHONE_INPUT2_ARRAY[IndxNumber]);
+			//ROSTER 3
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.wPHONE_INPUT3_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input3)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.wPHONE_INPUT3_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.wPHONE_INPUT3_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.wPHONE_INPUT3_ARRAY[IndxNumber]);
+			//ROSTER 4
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.wPHONE_INPUT4_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input4)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.wPHONE_INPUT4_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.wPHONE_INPUT4_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.wPHONE_INPUT4_ARRAY[IndxNumber]);
+			//ROSTER 5
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.wPHONE_INPUT5_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input5)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.wPHONE_INPUT5_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.wPHONE_INPUT5_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.wPHONE_INPUT5_ARRAY[IndxNumber]);
+			//ROSTER 6
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.wPHONE_INPUT6_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input6)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.wPHONE_INPUT6_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.wPHONE_INPUT6_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.wPHONE_INPUT6_ARRAY[IndxNumber]);
+			//ROSTER 7
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.wPHONE_INPUT7_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input7)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.wPHONE_INPUT7_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.wPHONE_INPUT7_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.wPHONE_INPUT7_ARRAY[IndxNumber]);
+			//ROSTER 8
+			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input8)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]));
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]);
 		END_FOR;
 	
 		

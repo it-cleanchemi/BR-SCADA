@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="Process_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.Gauges[4].CD101_Gauge" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="CD101_Gauge" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.Gauges[4].CD102_Gauge" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="CD102_Gauge" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.Gauges[4].CD101_Indicator" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="CD101_Indicator" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.Gauges[4].CD102_Indicator" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="CD102_Indicator" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[4].UnitNumber" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="Unit_Number" />
+</Binding>
+</Bindings>
+</BindingsSet>
