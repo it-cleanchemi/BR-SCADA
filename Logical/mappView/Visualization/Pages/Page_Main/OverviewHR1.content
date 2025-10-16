@@ -400,5 +400,6 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P204_ALARM" top="876" left="1300" zIndex="380" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" fontSize="14px" unitFontSize="12px" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P204_WARN" top="876" left="1260" zIndex="381" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" fontSize="14px" unitFontSize="12px" />
     <Widget xsi:type="widgets.brease.Image" id="Image52" top="220" left="600" width="60" height="40" zIndex="382" image="Media/Images/PT1.png" />
+    <Widget xsi:type="widgets.brease.Image" id="Image53" top="900" left="920" width="60" height="40" zIndex="383" image="Media/Images/PT1.png" />
   </Widgets>
 </Content>

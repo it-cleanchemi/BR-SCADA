@@ -2,10 +2,6 @@
 <BindingsSet id="Main_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		<Binding mode="twoWay">
-			<Source xsi:type="session" refId="SelectedSkidType" attribute="value" />
-			<Target xsi:type="brease" contentRefId="Main" widgetRefId="DropDownBox_UnitType" attribute="selectedIndex" />
-		</Binding>
-		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkidType" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
@@ -35,5 +31,9 @@
 			</Source>
 			<Target xsi:type="brease" contentRefId="Main" widgetRefId="UnitSelect_ddb" attribute="selectedValue" />
 		</Binding>
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="session" refId="SelectedSkidType" attribute="value" />
+<Target xsi:type="brease" contentRefId="Main" widgetRefId="DropDownBox_UnitType" attribute="selectedIndex" />
+</Binding>
+</Bindings>
 </BindingsSet>

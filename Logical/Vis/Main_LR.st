@@ -3,6 +3,110 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
+		
+		//SUMMARY TILES
+		gVis.Process.Out.SummaryTiles[IdxSkids_LR].UnitNumber := UINT_TO_STRING(gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID);
+		
+		gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Gauge := 100 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 / (2 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP);
+		gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Gauge := 100 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 / (2 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP);
+		gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge := 100 * (gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_PI / 50);
+		
+		gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined := gSkid_LR[IdxSkids_LR].Sensor_Variables.FI301 + gSkid_LR[IdxSkids_LR].Sensor_Variables.FI302 + 
+			gSkid_LR[IdxSkids_LR].Sensor_Variables.FI303;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 0 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'GREY';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'GREEN';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 3 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'GREEN';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'RED';
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 0 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'GREY';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'GREEN';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 3 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'GREEN';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'RED';
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 0 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'GREY';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'GREEN';
+		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 3 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_PI < 125 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_PV - gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_SP) / gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'GREEN';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'RED';
+		END_IF;
+	
+		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].UNIT_Indicator := 'GREY';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].UNIT_Indicator := 'RED';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].UNIT_Indicator := 'GREEN';
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 1 AND 
+			gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 1 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'GREEN';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 3 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 3 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 3 AND 
+			gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 3 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'GREEN';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'RED';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'RED';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'RED';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'RED';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'GREY';
+		END_IF;
+
+		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREEN';
+		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) >= 20 AND 
+				ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 50 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'BLUE';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREY';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'RED';
+		END_IF;
+		
+		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 20 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREEN';
+		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) >= 20 AND 
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 50 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'BLUE';
+		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREY';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'RED';
+		END_IF;
+		
+		IF gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge < 50 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Indicator := 'GREEN';
+		ELSIF gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge >= 50 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge < 100 THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Indicator := 'BLUE';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Indicator := 'RED';
+		END_IF;
+		
+		
 		//ROSTER WRITE
 		FOR IndxNumber := 0 TO 4 DO
 			//ROSTER 1

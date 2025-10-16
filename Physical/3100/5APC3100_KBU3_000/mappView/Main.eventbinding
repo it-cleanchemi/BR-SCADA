@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EventBindingSet id="Main_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Bindings>
-    <EventBinding id="Main.DropDownBox_UnitType.SelectedIndexChanged">
-      <Source xsi:type="widgets.brease.DropDownBox.Event" contentRefId="Main" widgetRefId="DropDownBox_UnitType" event="SelectedIndexChanged" />
+    <EventBinding id="EventBinding_29">
+      <Source xsi:type="session.Event" refId="SelectedSkidType" event="ValueChanged" />
       <Operand datatype="ANY_STRING" name="GetUnitID">
         <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlrm_UnitID">
           <Method xsi:type="session.VariableAction.GetValue" />
@@ -14,46 +14,48 @@
             <Method xsi:type="session.VariableAction.GetValue" />
           </ReadTarget>
           <Result>
-            <ResultHandler condition="selectedIndex=0 AND result=false">
+            <ResultHandler condition="newValue=0 AND result=false">
               <Action>
-                <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                  <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewLR1" />
+                <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                  <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewLR1" />
                 </Target>
               </Action>
             </ResultHandler>
-            <ResultHandler condition="selectedIndex=1 AND result=false">
+            <ResultHandler condition="newValue=1 AND result=false">
               <Action>
-                <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                  <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewHR1" />
+                <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                  <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewHR1" />
                 </Target>
               </Action>
             </ResultHandler>
-            <ResultHandler condition="selectedIndex=0 AND result=true">
-              <Sequence>
-                <Step order="0">
-                  <Action>
-                    <Target xsi:type="session.VariableAction" refId="BlockSkidDropDownChng">
-                      <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
-                    </Target>
-                  </Action>
-                </Step>
-                <Step order="1">
-                  <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
-                    </Target>
-                  </Action>
-                </Step>
-                <Step order="2">
-                  <Action>
-                    <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                      <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewLR1" />
-                    </Target>
-                  </Action>
-                </Step>
-              </Sequence>
+            <ResultHandler condition="newValue=0 AND result=true">
+              <Action>
+                <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                  <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewLR1" />
+                </Target>
+                <Result>
+                  <ResultHandler>
+                    <Sequence>
+                      <Step order="0">
+                        <Action>
+                          <Target xsi:type="session.VariableAction" refId="BlockSkidDropDownChng">
+                            <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+                          </Target>
+                        </Action>
+                      </Step>
+                      <Step order="1">
+                        <Action>
+                          <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
+                          </Target>
+                        </Action>
+                      </Step>
+                    </Sequence>
+                  </ResultHandler>
+                </Result>
+              </Action>
             </ResultHandler>
-            <ResultHandler condition="selectedIndex=1 AND result=true">
+            <ResultHandler condition="newValue=1 AND result=true">
               <Sequence>
                 <Step order="0">
                   <Action>
@@ -71,8 +73,8 @@
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                      <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewHR1" />
+                    <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                      <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewHR1" />
                     </Target>
                   </Action>
                 </Step>
@@ -118,30 +120,21 @@
                           <Result>
                             <ResultHandler condition="result=0">
                               <Action>
-                                <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                                  <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewLR1" />
+                                <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                                  <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewLR1" />
                                 </Target>
-                                <Result>
-                                  <ResultHandler>
-                                    <Action>
-                                      <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                                        <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
-                                      </Target>
-                                    </Action>
-                                  </ResultHandler>
-                                </Result>
                               </Action>
                             </ResultHandler>
                             <ResultHandler condition="result=1">
                               <Sequence>
-                                <Step order="0">
+                                <Step order="1">
                                   <Action>
                                     <Target xsi:type="session.VariableAction" refId="SelectedSkidType">
                                       <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
                                     </Target>
                                   </Action>
                                 </Step>
-                                <Step order="1">
+                                <Step order="2">
                                   <Action>
                                     <Target xsi:type="session.VariableAction" refId="BlockSkidDropDownChng">
                                       <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
@@ -179,8 +172,8 @@
                             </ResultHandler>
                             <ResultHandler condition="result=1">
                               <Action>
-                                <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                                  <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewHR1" />
+                                <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                                  <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewHR1" />
                                 </Target>
                                 <Result>
                                   <ResultHandler>
@@ -209,15 +202,15 @@
                 <Result>
                   <ResultHandler condition="result=0">
                     <Action>
-                      <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                        <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewLR1" />
+                      <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                        <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewLR1" />
                       </Target>
                     </Action>
                   </ResultHandler>
                   <ResultHandler condition="result=1">
                     <Action>
-                      <Target xsi:type="widgets.brease.ContentControl.Action" contentRefId="Main" widgetRefId="Diagnostics_GroupBox_Content_ContentControl">
-                        <Method xsi:type="widgets.brease.ContentControl.Action.LoadContent" contentId="OverviewHR1" />
+                      <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
+                        <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewHR1" />
                       </Target>
                     </Action>
                   </ResultHandler>

@@ -30,4 +30,6 @@ VAR
 	SkidString : STRING[80] := '';
 	SkidNumberINT : STRING[80] := '';
 	TestBool : BOOL := FALSE;
+	UNIT_ID_DOSE_Temp : UINT;
+	UNIT_ID_Temp : UINT;
 END_VAR

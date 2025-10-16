@@ -1036,10 +1036,18 @@ TYPE
 		Out : Vis_Main_Out_Type;
 	END_STRUCT;
 	Vis_Process_Out_ST_Type : 	STRUCT 
+		PI101_Indicator : STRING[80];
+		PI101_Gauge : REAL;
 		CD101_Indicator : STRING[80];
 		CD101_Gauge : REAL;
 		CD102_Indicator : STRING[80];
 		CD102_Gauge : REAL;
+		GEN_Indicator : STRING[80];
+		UNIT_Indicator : STRING[80];
+		P201_Indicator : STRING[80];
+		P202_Indicator : STRING[80];
+		P203_Indicator : STRING[80];
+		FI_PlantFlowCombined : REAL;
 		UnitNumber : STRING[80];
 	END_STRUCT;
 	Vis_Process_Out_Type : 	STRUCT 

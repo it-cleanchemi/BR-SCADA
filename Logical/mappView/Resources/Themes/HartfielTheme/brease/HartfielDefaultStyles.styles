@@ -758,25 +758,25 @@
 		lineColor="#555555" 
 	opacity="1" />
 	
-	<Style id="Low" xsi:type="widgets.brease.Ellipse" 
+	<Style id="GREEN" xsi:type="widgets.brease.Ellipse" 
 		borderWidth="2px" 
-		backColor="#0ff24b" 
+		backColor="#0c7828" 
 		lineColor="#555555" 
 	opacity="1" />
 	
-	<Style id="Medium" xsi:type="widgets.brease.Ellipse" 
+	<Style id="BLUE" xsi:type="widgets.brease.Ellipse" 
 		borderWidth="2px" 
-		backColor="#0f39f2" 
+		backColor="#0a27a6" 
 		lineColor="#555555" 
 	opacity="1" />
 	
-	<Style id="High" xsi:type="widgets.brease.Ellipse" 
+	<Style id="RED" xsi:type="widgets.brease.Ellipse" 
 		borderWidth="2px" 
-		backColor="#f20f2d" 
+		backColor="#b80920" 
 		lineColor="#555555" 
 	opacity="1" />
 	
-	<Style id="OFF" xsi:type="widgets.brease.Ellipse" 
+	<Style id="GREY" xsi:type="widgets.brease.Ellipse" 
 		borderWidth="2px" 
 		backColor="#585a61" 
 		lineColor="#555555" 

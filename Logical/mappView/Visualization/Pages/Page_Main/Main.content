@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="Main" height="1000" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="Main" height="1000" width="1754" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
     <Widget xsi:type="widgets.brease.DropDownBox" id="UnitSelect_ddb" top="20" left="1091" width="160" zIndex="1" textAlign="center" />
     <Widget xsi:type="widgets.brease.GroupBox" id="Diagnostics_GroupBox_Content" top="0" left="0" width="1753" height="1000" zIndex="0" style="default_Blank">
       <Widgets>
-        <Widget xsi:type="widgets.brease.ContentControl" id="Diagnostics_GroupBox_Content_ContentControl" top="-1" left="-1" width="1753" height="1000" zIndex="0" />
-        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="19" left="675" width="101" zIndex="1" value="Unit Type:" />
+        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="19" left="675" width="101" zIndex="0" value="Unit Type:" />
+        <Widget xsi:type="widgets.brease.ContentCarousel" id="ContentCarousel1" top="-1" left="-1" width="1753" height="1000" zIndex="1" contentList="['OverviewLR1','OverviewHR1']" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="20" left="1006" width="80" zIndex="2" value="Unit ID:" />

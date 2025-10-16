@@ -21,7 +21,11 @@ ACTION Modbus_Status_action:
 	
 	//Reset Modbus buffer on connection timeout
 	IF gSkid_LR[IdxSkids_LR].Heartbeat.MODBUS_RESET.Q THEN
+		UNIT_ID_Temp := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[0];
+		UNIT_ID_DOSE_Temp := gModbus_LR[IdxSkids_LR].Modbus_Dosing.Block6_Int[0];
 		brsmemset(ADR(gModbus_LR[IdxSkids_LR]),0,SIZEOF(gModbus_LR[IdxSkids_LR]));
+		gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[0] := UNIT_ID_Temp;
+		gModbus_LR[IdxSkids_LR].Modbus_Dosing.Block6_Int[0] := UNIT_ID_DOSE_Temp;
 	END_IF;
 	
 	// Update previous value for the next cycle

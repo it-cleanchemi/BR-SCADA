@@ -1,35 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CompoundWidget id="SummaryTile_LR" width="200" height="310" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Widgets>
-		<Widget xsi:type="widgets.brease.RadialGauge" id="P101_PI_Gauge" top="150" left="-10" width="120" height="120" zIndex="1" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
-		<Widget xsi:type="widgets.brease.RadialGauge" id="CD102_Gauge" top="150" left="90" width="120" height="120" zIndex="2" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
-		<Widget xsi:type="widgets.brease.RadialGauge" id="CD101_Gauge" top="80" left="90" width="120" height="120" zIndex="3" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="P201_Indicator" top="255" left="10" width="46" height="46" zIndex="4" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="P202_Indicator" top="255" left="77" width="46" height="46" zIndex="5" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="P203_Indicator" top="255" left="144" width="46" height="46" zIndex="6" />
-		<Widget xsi:type="widgets.brease.Label" id="Label1" top="230" left="60" zIndex="7" text="DOSE" textAlign="center" fontSize="14px" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="GEN_Indicator" top="107" left="27" width="46" height="46" zIndex="8" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="Unit_Indicator" top="7" left="10" width="80" height="80" zIndex="9" />
-		<Widget xsi:type="widgets.brease.Label" id="Label2" top="268" left="13" width="40" height="20" zIndex="10" text="P201" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label3" top="268" left="80" width="40" height="20" zIndex="11" text="P202" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label4" top="268" left="147" width="40" height="20" zIndex="12" text="P203" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="10" zIndex="13" text="GEN" textAlign="center" fontSize="14px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label6" top="220" left="30" width="40" height="20" zIndex="14" text="P101_PI" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label7" top="150" left="130" width="40" height="20" zIndex="15" text="CD101" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label8" top="220" left="130" width="40" height="20" zIndex="16" text="CD102" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="200" height="310" zIndex="0" borderWidth="3px" />
-		<Widget xsi:type="widgets.brease.NumericOutput" id="PMAX_RATE" top="32" left="-5" zIndex="17" unit="{'metric':'41','imperial':'L2','imperial-us':'41'}" unitAlign="right" textAlign="right" fontSize="10px" unitFontSize="8px" />
-		<Widget xsi:type="widgets.brease.PushButton" id="PushButton_GoToSkid" top="60" left="108" width="80" zIndex="18" text="777" fontSize="14px" />
-		<Widget xsi:type="widgets.brease.TextOutput" id="JobName" top="5" left="95" height="50" zIndex="19" multiLine="true" value="AAXXX - Job Name Sample Text" wordWrap="true" borderWidth="1px" borderStyle="solid" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="CD101_Indicator" top="128" left="138" width="25" height="25" zIndex="20" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="P101_PI_Indicator" top="198" left="38" width="25" height="25" zIndex="21" />
-		<Widget xsi:type="widgets.brease.Ellipse" id="CD102_Indicator" top="198" left="138" width="25" height="25" zIndex="22" />
+		<Widget xsi:type="widgets.brease.RadialGauge" id="P101_PI_Gauge" top="150" left="-10" width="120" height="120" zIndex="3" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+		<Widget xsi:type="widgets.brease.RadialGauge" id="CD102_Gauge" top="150" left="90" width="120" height="120" zIndex="4" maxValue="75" minValue="25" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+		<Widget xsi:type="widgets.brease.RadialGauge" id="CD101_Gauge" top="80" left="90" width="120" height="120" zIndex="5" maxValue="75" minValue="25" range="180" startAngle="270" borderColor="rgba(255, 255, 255, 0)" borderStyle="none" backColor="rgba(255, 255, 255, 0)" backGroundGradient="" backColorScaleArea1="rgba(255, 255, 255, 0)" backColorScaleArea2="rgba(255, 255, 255, 0)" pointerBackColor="rgba(128, 128, 128, 1)" fontSize="0px" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="P201_Indicator" top="255" left="10" width="46" height="46" zIndex="6" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="P202_Indicator" top="255" left="77" width="46" height="46" zIndex="7" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="P203_Indicator" top="255" left="144" width="46" height="46" zIndex="8" />
+		<Widget xsi:type="widgets.brease.Label" id="Label1" top="230" left="60" zIndex="9" text="DOSE" textAlign="center" fontSize="14px" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="GEN_Indicator" top="107" left="27" width="46" height="46" zIndex="10" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="Unit_Indicator" top="7" left="10" width="80" height="80" zIndex="11" />
+		<Widget xsi:type="widgets.brease.Label" id="Label2" top="268" left="13" width="40" height="20" zIndex="12" text="P201" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label3" top="268" left="80" width="40" height="20" zIndex="13" text="P202" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label4" top="268" left="147" width="40" height="20" zIndex="14" text="P203" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="10" zIndex="15" text="GEN" textAlign="center" fontSize="14px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label6" top="220" left="30" width="40" height="20" zIndex="16" text="MIX PSI" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label7" top="150" left="130" width="40" height="20" zIndex="17" text="CD101" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label8" top="220" left="130" width="40" height="20" zIndex="18" text="CD102" textAlign="center" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="200" height="310" zIndex="0" borderWidth="3px" backColor="rgba(211, 211, 211, 1)" />
+		<Widget xsi:type="widgets.brease.PushButton" id="PushButton_GoToSkid" top="60" left="123" width="45" zIndex="19" image="Media/Images/Back.svg" imageHeight="30" imageWidth="30" imageColor="rgba(209, 242, 255, 1)" fontSize="12px" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="JobName" top="5" left="95" height="50" zIndex="20" multiLine="true" value="AAXXX - Job Name Sample Text" wordWrap="true" borderWidth="1px" backColor="rgba(245, 245, 245, 1)" borderColor="rgba(0, 0, 0, 1)" borderStyle="solid" fontSize="10px" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="CD101_Indicator" top="128" left="138" width="25" height="25" zIndex="21" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="P101_PI_Indicator" top="198" left="38" width="25" height="25" zIndex="22" />
+		<Widget xsi:type="widgets.brease.Ellipse" id="CD102_Indicator" top="198" left="138" width="25" height="25" zIndex="23" />
+		<Widget xsi:type="widgets.brease.Line" id="LineCD101" zIndex="2" x1="150" x2="150" y1="140" y2="100" lineWidth="2px" />
+		<Widget xsi:type="widgets.brease.Line" id="LineCD102" zIndex="1" x1="150" x2="150" y1="210" y2="170" lineWidth="2px" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="UnitID_Display" top="32" left="0" zIndex="24" value="777" fontSize="20px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label9" top="95" left="5" width="190" height="210" zIndex="25" text="DISCONNECTED" backColor="rgba(211, 211, 211, 1)" textAlign="center" />
 	</Widgets>
 	
 	
 	<Properties>
 		<!--Simple bindable property:-->
+		<Property xsi:type="BindableProperty" name="DISCONNECTED" type="Number" defaultValue="1" readOnly="true" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="Label9" property="visible" mode="oneWay"/>
+			</Mappings>
+		</Property>
 		
+		<Property xsi:type="BindableProperty" name="UnitID_Display" type="String" defaultValue="777" readOnly="true" >
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="UnitID_Display" property="value" mode="oneWay"/>
+			</Mappings>
+		</Property>
 		
 		<Property xsi:type="BindableProperty" name="PushButton_GoToSkid_text" type="String" defaultValue="777" readOnly="true" >
 			<Description>Description will be shown in property grid.</Description>
@@ -37,15 +52,6 @@
 				<Mapping widget="PushButton_GoToSkid" property="text" mode="oneWay"/>
 			</Mappings>
 		</Property>
-		
-		
-		<Property xsi:type="BindableProperty" name="PMAX_RATE" type="Number" defaultValue="0" readOnly="true" >
-			<Description>Description will be shown in property grid.</Description>
-			<Mappings>
-				<Mapping widget="PMAX_RATE" property="value" mode="oneWay"/>
-			</Mappings>
-		</Property>
-		
 		
 		<Property xsi:type="BindableProperty" name="Unit_Indicator" type="String" defaultValue="" readOnly="true" >
 			<Description>Description will be shown in property grid.</Description>
@@ -147,12 +153,12 @@
 
 	<Events>
 
-		<!--<Event name="">
-		<Description>Description will be shown in property grid.</Description>
-		<Mappings>
-		<Mapping widget="" event="" />
-		</Mappings>
-		</Event>-->
+		<Event name="GoToSkid">
+			<Description>Description will be shown in property grid.</Description>
+			<Mappings>
+				<Mapping widget="PushButton_GoToSkid" event="Click" />
+			</Mappings>
+		</Event>
 		
 	</Events>
 
@@ -171,23 +177,23 @@
 		<!-- source and target can only be widgets within the compound widget.-->
 
 		<!--<EventBinding id="">
-			<Source xsi:type="widget.Event" widgetRefId="PushButton_GoToSkid" event="Click" />
-			<EventHandler condition="">
-				<Action>
-					<ReadTarget xsi:type="this.Action.Read">
-						<Method name="GetUnit_Number" />
-					</ReadTarget>
-					<Result>
-						<ResultHandler>
-							<Action>															
-								<Target xsi:type="this.Action">
-									<Method name="SetUnit_Number" value="=result+1" />
-								</Target>								
-							</Action>					
-						</ResultHandler>
-					</Result>	
-				</Action>
-			</EventHandler>
+		<Source xsi:type="widget.Event" widgetRefId="PushButton_GoToSkid" event="Click" />
+		<EventHandler condition="">
+		<Action>
+		<ReadTarget xsi:type="this.Action.Read">
+		<Method name="GetUnit_Number" />
+		</ReadTarget>
+		<Result>
+		<ResultHandler>
+		<Action>															
+		<Target xsi:type="this.Action">
+		<Method name="SetUnit_Number" value="=result+1" />
+		</Target>								
+		</Action>					
+		</ResultHandler>
+		</Result>	
+		</Action>
+		</EventHandler>
 		</EventBinding>-->
 		
 	</EventBindings>

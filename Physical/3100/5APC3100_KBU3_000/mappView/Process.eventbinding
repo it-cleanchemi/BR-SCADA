@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="Process_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="Process.SummaryTile_LR0.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR0" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR0">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR1.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR1" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR1">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR2.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR2" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR2">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR3.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR3" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR3">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR4.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR4" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR4">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR5.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR5" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR5">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR6.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR6" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR6">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR7.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR7" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR7">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR8.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR8" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR8">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR9.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR9" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR9">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR10.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR10" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR10">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR11.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR11" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR11">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR12.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR12" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR12">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR13.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR13" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR13">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR14.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR14" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR14">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR15.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR15" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR15">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR16.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR16" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR16">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR17.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR17" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR17">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR18.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR18" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR18">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR19.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR19" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR19">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

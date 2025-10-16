@@ -60,6 +60,7 @@
     <EventBindingsSet refId="P204_Status_Content_HR_eventbinding" />
     <EventBindingsSet refId="ESD_Content_LR_eventbinding" />
     <EventBindingsSet refId="content_0_eventbinding" />
+    <EventBindingsSet refId="Process_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />
