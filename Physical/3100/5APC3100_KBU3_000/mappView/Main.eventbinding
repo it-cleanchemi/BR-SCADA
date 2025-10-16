@@ -118,30 +118,32 @@
                             <Method xsi:type="session.VariableAction.GetValue" />
                           </ReadTarget>
                           <Result>
-                            <ResultHandler condition="result=0">
+                            <ResultHandler>
                               <Action>
                                 <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
                                   <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewLR1" />
                                 </Target>
+                                <Result>
+                                  <ResultHandler>
+                                    <Sequence>
+                                      <Step order="0">
+                                        <Action>
+                                          <Target xsi:type="session.VariableAction" refId="SelectedSkidType">
+                                            <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+                                          </Target>
+                                        </Action>
+                                      </Step>
+                                      <Step order="1">
+                                        <Action>
+                                          <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                                            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
+                                          </Target>
+                                        </Action>
+                                      </Step>
+                                    </Sequence>
+                                  </ResultHandler>
+                                </Result>
                               </Action>
-                            </ResultHandler>
-                            <ResultHandler condition="result=1">
-                              <Sequence>
-                                <Step order="1">
-                                  <Action>
-                                    <Target xsi:type="session.VariableAction" refId="SelectedSkidType">
-                                      <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
-                                    </Target>
-                                  </Action>
-                                </Step>
-                                <Step order="2">
-                                  <Action>
-                                    <Target xsi:type="session.VariableAction" refId="BlockSkidDropDownChng">
-                                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
-                                    </Target>
-                                  </Action>
-                                </Step>
-                              </Sequence>
                             </ResultHandler>
                           </Result>
                         </Action>
@@ -152,25 +154,7 @@
                             <Method xsi:type="session.VariableAction.GetValue" />
                           </ReadTarget>
                           <Result>
-                            <ResultHandler condition="result=0">
-                              <Sequence>
-                                <Step order="0">
-                                  <Action>
-                                    <Target xsi:type="session.VariableAction" refId="SelectedSkidType">
-                                      <Method xsi:type="session.VariableAction.SetValueNumber" value="1" />
-                                    </Target>
-                                  </Action>
-                                </Step>
-                                <Step order="2">
-                                  <Action>
-                                    <Target xsi:type="session.VariableAction" refId="BlockSkidDropDownChng">
-                                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
-                                    </Target>
-                                  </Action>
-                                </Step>
-                              </Sequence>
-                            </ResultHandler>
-                            <ResultHandler condition="result=1">
+                            <ResultHandler>
                               <Action>
                                 <Target xsi:type="widgets.brease.ContentCarousel.Action" contentRefId="Main" widgetRefId="ContentCarousel1">
                                   <Method xsi:type="widgets.brease.ContentCarousel.Action.SetSelectedValue" selectedValue="OverviewHR1" />
@@ -218,6 +202,28 @@
               </Action>
             </ResultHandler>
           </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_30">
+      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+      <Operand datatype="ANY_STRING" name="GetUnitID">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlrm_UnitID">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="contentId=&quot;OverviewLR1&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="contentId=&quot;OverviewHR1&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="SelectedSkid_HR_Value">
+            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
+          </Target>
         </Action>
       </EventHandler>
     </EventBinding>

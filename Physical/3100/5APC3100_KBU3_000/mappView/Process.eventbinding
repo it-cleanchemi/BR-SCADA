@@ -65,13 +65,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -108,15 +108,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -152,15 +152,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -197,13 +197,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -241,13 +241,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -285,13 +285,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -329,13 +329,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -372,15 +372,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -417,13 +417,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -460,15 +460,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -504,15 +504,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -548,15 +548,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -592,15 +592,15 @@
                 </Step>
                 <Step order="1">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
@@ -637,13 +637,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -681,13 +681,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -725,13 +725,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -769,13 +769,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
@@ -813,13 +813,13 @@
                 <Step order="1">
                   <Action>
                     <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
-                      <Method xsi:type="session.VariableAction.SetValueString" value="=LR" />
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
                     </Target>
                   </Action>
                 </Step>
                 <Step order="2">
                   <Action>
-                    <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
                       <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
                     </Target>
                   </Action>
