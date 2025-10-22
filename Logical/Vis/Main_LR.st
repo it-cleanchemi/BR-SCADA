@@ -107,6 +107,7 @@ ACTION Vis_Main_LR:
 		END_IF;
 		
 		
+		//ROSTER
 		//ROSTER WRITE
 		FOR IndxNumber := 0 TO 4 DO
 			//ROSTER 1
@@ -134,6 +135,8 @@ ACTION Vis_Main_LR:
 			brsmemcpy(ADR(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]),ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input8)+(IndxNumber*2),SIZEOF(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]));
 			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber] := swapUINT(gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.wPHONE_INPUT8_ARRAY[IndxNumber]);
 		END_FOR;
+		//ROSTER ENABLE
+		
 	
 		
 		

@@ -11874,7 +11874,7 @@
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<Selector xsi:type="session" refId="SelectedSkid_HR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
 					<bt:Element index="0" refId="::AsGlobalPV:gSkid_HR[0].Pmax_General_Variables.USER_ID" />
 					<bt:Element index="1" refId="::AsGlobalPV:gSkid_HR[1].Pmax_General_Variables.USER_ID" />

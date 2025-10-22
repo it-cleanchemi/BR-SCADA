@@ -1132,5 +1132,13 @@
 		</Binding>
 
 		
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gSkid_LR[0].VisBool.ROSTER1_ENABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster1_On" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gSkid_LR[0].VisBool.ROSTER1_DISABLE" attribute="value" />
+<Target xsi:type="brease" contentRefId="PM_Settings_Content_LR" widgetRefId="PB_Write_Roster1_Off" attribute="value" />
+</Binding>
+</Bindings>
 </BindingsSet>
