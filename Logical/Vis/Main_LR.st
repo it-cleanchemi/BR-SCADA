@@ -137,6 +137,175 @@ ACTION Vis_Main_LR:
 		END_FOR;
 		//ROSTER ENABLE
 		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.wENABLE_ROSTER1 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.wENABLE_ROSTER1 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER1_DISABLE := FALSE;
+		END_IF;
+		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact2_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.wENABLE_ROSTER2 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.wENABLE_ROSTER2 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER2_DISABLE := FALSE;
+		END_IF;
+		
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact3_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.wENABLE_ROSTER3 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.wENABLE_ROSTER3 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER3_DISABLE := FALSE;
+		END_IF;
+		
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact4_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.wENABLE_ROSTER4 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.wENABLE_ROSTER4 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER4_DISABLE := FALSE;
+		END_IF;
+		
+	
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact5_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.wENABLE_ROSTER5 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.wENABLE_ROSTER5 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER5_DISABLE := FALSE;
+		END_IF;
+		
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact6_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.wENABLE_ROSTER6 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.wENABLE_ROSTER6 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER6_DISABLE := FALSE;
+		END_IF;
+		
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact7_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.wENABLE_ROSTER7 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.wENABLE_ROSTER7 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER7_DISABLE := FALSE;
+		END_IF;
+
+		
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_DIS := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_DIS := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_ENABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.wENABLE_ROSTER8 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_ENABLE := FALSE;
+		END_IF;
+			
+		IF gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_DISABLE THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.wENABLE_ROSTER8 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_DISABLE := FALSE;
+		END_IF;
+		
+
 	
 		
 		

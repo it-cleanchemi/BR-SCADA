@@ -659,7 +659,7 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.Send := FALSE;
 	END_IF;
 	
-	// AS Block 112 - P203_AUTOFLO_ADPT
+	// AS Block 112 - USER ADMIN RESET
 	IF gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send THEN
 		MasterConfig_LR[IdxSkids_LR].action_enable[111].single := TRUE;
 		gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.Send := FALSE;
@@ -712,6 +712,55 @@ ACTION Modbus_CMD_action:
 		MasterConfig_LR[IdxSkids_LR].action_enable[119].single := TRUE;
 		gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.Send := FALSE;
 	END_IF;
+	
+	// AS BLOCK 121 - ROSTER1_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[120].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 122 - ROSTER2_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[121].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 123 - ROSTER3_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[122].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 124 - ROSTER4_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[123].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 125 - ROSTER5_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[124].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 126 - ROSTER6_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[125].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 127 - ROSTER7_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[126].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 128 - ROSTER8_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[127].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := FALSE;
+	END_IF;
+	
 	
 	
 	

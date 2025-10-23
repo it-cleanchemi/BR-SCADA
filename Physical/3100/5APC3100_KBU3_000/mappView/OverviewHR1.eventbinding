@@ -1370,15 +1370,5 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="EventBinding_31">
-      <Source xsi:type="session.Event" refId="SelectedSkid_HR_Indx" event="ValueChanged" />
-      <EventHandler>
-        <Action>
-          <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="ESD_Popup_LR" />
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
   </Bindings>
 </EventBindingSet>

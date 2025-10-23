@@ -205,27 +205,5 @@
         </Action>
       </EventHandler>
     </EventBinding>
-    <EventBinding id="EventBinding_30">
-      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
-      <Operand datatype="ANY_STRING" name="GetUnitID">
-        <ReadTarget xsi:type="session.VariableAction.Read" refId="SelectedAlrm_UnitID">
-          <Method xsi:type="session.VariableAction.GetValue" />
-        </ReadTarget>
-      </Operand>
-      <EventHandler condition="contentId=&quot;OverviewLR1&quot;">
-        <Action>
-          <Target xsi:type="session.VariableAction" refId="SelectedSkid_LR_Value">
-            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
-          </Target>
-        </Action>
-      </EventHandler>
-      <EventHandler condition="contentId=&quot;OverviewHR1&quot;">
-        <Action>
-          <Target xsi:type="session.VariableAction" refId="SelectedSkid_HR_Value">
-            <Method xsi:type="session.VariableAction.SetValueString" value="=GetUnitID" />
-          </Target>
-        </Action>
-      </EventHandler>
-    </EventBinding>
   </Bindings>
 </EventBindingSet>

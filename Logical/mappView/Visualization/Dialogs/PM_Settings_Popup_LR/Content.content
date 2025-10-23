@@ -62,7 +62,7 @@
             <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle33" top="511" left="208" width="84" height="60" zIndex="4" borderWidth="2px" backColor="rgba(211, 211, 211, 1)" />
           </Widgets>
         </Widget>
-        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="220" zIndex="1" text="DEFAULT SETTINGS">
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem2" left="0" width="220" zIndex="1" text="DEFAULT SETTINGS" permissionOperate="['Administrator_Role', 'cci_admin']">
           <Widgets>
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_USERADMIN_RESET" top="130" left="220" width="180" height="90" zIndex="0" multiLine="true" text="RESET USER ADMIN" wordWrap="true" />
             <Widget xsi:type="widgets.brease.Label" id="Label1" top="130" left="40" width="180" height="70" zIndex="1" multiLine="true" text="Reset User Admin Credentials to Default" wordWrap="true" />
@@ -70,7 +70,7 @@
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_USERADMIN_RESET2" top="410" left="220" width="180" height="90" zIndex="3" multiLine="true" text="DEFAULT ALARM SETTINGS" wordWrap="true" />
           </Widgets>
         </Widget>
-        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="180" zIndex="2" text="ALARM ROSTER">
+        <Widget xsi:type="widgets.brease.TabItem" id="TabItem3" left="0" width="180" zIndex="2" text="ALARM ROSTER" permissionOperate="['Administrator_Role', 'cci_admin']">
           <Widgets>
             <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="4" x1="0" x2="500" y1="83" y2="83" lineColor="rgba(0, 0, 0, 1)" lineWidth="3px" />
             <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="5" x1="0" x2="500" y1="166" y2="166" lineColor="rgba(0, 0, 0, 1)" lineWidth="3px" />
@@ -96,14 +96,14 @@
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster6_NumSet" top="466" left="370" width="50" height="19" zIndex="25" text="SET" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster7_NumSet" top="548" left="370" width="50" height="19" zIndex="26" text="SET" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster8_NumSet" top="632" left="370" width="50" height="19" zIndex="27" text="SET" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput1" top="45" left="195" width="160" zIndex="28" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput2" top="128" left="195" width="160" zIndex="29" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput3" top="211" left="195" width="160" zIndex="30" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput4" top="294" left="195" width="160" zIndex="31" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput5" top="377" left="195" width="160" zIndex="32" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput6" top="460" left="195" width="160" zIndex="33" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput7" top="543" left="195" width="160" zIndex="34" keyboard="false" maxLength="10" />
-            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput8" top="626" left="195" width="160" zIndex="35" keyboard="false" maxLength="10" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput1" top="45" left="195" width="160" zIndex="28" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput2" top="128" left="195" width="160" zIndex="29" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput3" top="211" left="195" width="160" zIndex="30" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput4" top="294" left="195" width="160" zIndex="31" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput5" top="377" left="195" width="160" zIndex="32" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput6" top="460" left="195" width="160" zIndex="33" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput7" top="543" left="195" width="160" zIndex="34" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="PhoneInput8" top="626" left="195" width="160" zIndex="35" keyboard="false" maxLength="10" activeTextColor="rgba(255, 255, 255, 1)" />
             <Widget xsi:type="widgets.brease.TextOutput" id="PhoneOutput1" top="10" left="315" width="120" zIndex="36" value="UNASSIGNED" textAlign="center" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster1_On" top="5" left="440" width="50" height="19" zIndex="37" text="ON" />
             <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_Roster1_Off" top="28" left="440" width="50" height="19" zIndex="38" text="OFF" />
@@ -136,14 +136,14 @@
             <Widget xsi:type="widgets.brease.Label" id="Label15" top="425" left="35" width="85" zIndex="65" text="CONTACT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label16" top="508" left="35" width="85" zIndex="66" text="CONTACT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label17" top="591" left="35" width="85" zIndex="67" text="CONTACT" textAlign="center" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput1" top="10" left="125" width="180" zIndex="68" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput2" top="93" left="125" width="180" zIndex="69" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput3" top="176" left="125" width="180" zIndex="70" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput4" top="259" left="125" width="180" zIndex="71" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput5" top="342" left="125" width="180" zIndex="72" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput6" top="425" left="125" width="180" zIndex="73" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput7" top="508" left="125" width="180" zIndex="74" keyboard="false" />
-            <Widget xsi:type="widgets.brease.TextInput" id="NameInput8" top="591" left="125" width="180" zIndex="75" keyboard="false" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput1" top="10" left="125" width="180" zIndex="68" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput2" top="93" left="125" width="180" zIndex="69" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput3" top="176" left="125" width="180" zIndex="70" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput4" top="259" left="125" width="180" zIndex="71" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput5" top="342" left="125" width="180" zIndex="72" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput6" top="425" left="125" width="180" zIndex="73" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput7" top="508" left="125" width="180" zIndex="74" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.TextInput" id="NameInput8" top="591" left="125" width="180" zIndex="75" keyboard="false" activeTextColor="rgba(255, 255, 255, 1)" />
             <Widget xsi:type="widgets.brease.Label" id="Label18" top="45" left="70" width="125" zIndex="76" text="PHONE INPUT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label19" top="128" left="70" width="125" zIndex="77" text="PHONE INPUT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label20" top="211" left="70" width="125" zIndex="78" text="PHONE INPUT" textAlign="center" />

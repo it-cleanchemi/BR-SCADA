@@ -1022,7 +1022,7 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[110].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[110].type := 16;// Function code for this item (2 := read discrete inputs)
 		
-		// AS Block 112 - P203_AUTOFLO_ADPT
+		// AS Block 112 - USER ADMIN RESET
 		MasterConfig_LR[IdxSkids_LR].action_enable[111].cyclic := FALSE;// Read data cyclic 
 		MasterConfig_LR[IdxSkids_LR].action_param[111].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_USERADMIN_RESET.wUSERADMIN_RESET);// Store data in this variable 
 		MasterConfig_LR[IdxSkids_LR].action_param[111].quantity := 1;// Number of items to read 
@@ -1102,6 +1102,78 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[119].start_addr := 4850;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[119].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[119].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 121 - ROSTER1_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[120].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.wENABLE_ROSTER1);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].start_addr := 4160;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[120].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 122 - ROSTER2_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[121].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.wENABLE_ROSTER2);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].start_addr := 4260;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[121].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 123 - ROSTER3_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[122].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.wENABLE_ROSTER3);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].start_addr := 4360;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[122].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 124 - ROSTER4_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[123].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.wENABLE_ROSTER4);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].start_addr := 4460;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[123].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 125 - ROSTER5_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[124].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.wENABLE_ROSTER5);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].start_addr := 4560;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[124].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 126 - ROSTER6_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[125].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.wENABLE_ROSTER6);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].start_addr := 4660;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[125].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 127 - ROSTER7_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[126].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.wENABLE_ROSTER7);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].start_addr := 4760;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[126].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 128 - ROSTER8_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[127].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.wENABLE_ROSTER8);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].start_addr := 4860;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[127].type := 6;// Function code for this item (2 := read discrete inputs)
 
 		
 		
