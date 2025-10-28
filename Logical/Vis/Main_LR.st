@@ -3,7 +3,102 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
+		//STATUS
 		
+		CASE gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS OF
+			0:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'SYSTEM OFF';
+			1:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'SYSTEM READY';
+			2:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'PRIMING PMAX';
+			3:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'PMAX PRIMED';
+			4:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'BATCH PAUSE';
+			5:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'MANUAL MODE';
+			6:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'SYSTEM ON';
+			7:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'EMPTYING BT';
+			8:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_STATUS := 'P103 SPILL';
+		END_CASE;
+		
+		CASE gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_HOA OF
+			0:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_HOA := 'OFF';
+			1:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_HOA := 'ENABLED';
+			2:
+				gSkid_LR[IdxSkids_LR].Status.PMAX_HOA := 'MANUAL';
+		END_CASE;
+		
+		CASE gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_HOA OF
+			0:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'OFF';
+			1:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 301';
+			2:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 302';
+			3:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 301+302';
+			4:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 303';
+			5:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 301+303';
+			6:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 302+303';
+			7:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'FM 301+302+303';
+			8:
+				gSkid_LR[IdxSkids_LR].Status.P201_STATUS := 'MANUAL';
+		END_CASE;
+		
+		CASE gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_HOA OF
+			0:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'OFF';
+			1:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 301';
+			2:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 302';
+			3:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 301+302';
+			4:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 303';
+			5:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 301+303';
+			6:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 302+303';
+			7:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'FM 301+302+303';
+			8:
+				gSkid_LR[IdxSkids_LR].Status.P202_STATUS := 'MANUAL';
+		END_CASE;
+		
+		CASE gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_HOA OF
+			0:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'OFF';
+			1:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 301';
+			2:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 302';
+			3:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 301+302';
+			4:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 303';
+			5:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 301+303';
+			6:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 302+303';
+			7:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'FM 301+302+303';
+			8:
+				gSkid_LR[IdxSkids_LR].Status.P203_STATUS := 'MANUAL';
+		END_CASE;
+			
+			
 		//SUMMARY TILES
 		gVis.Process.Out.SummaryTiles[IdxSkids_LR].UnitNumber := UINT_TO_STRING(gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID);
 		

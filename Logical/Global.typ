@@ -48,6 +48,7 @@ TYPE
 		ConversionRatios : ConversionRatios_Type;
 		Sensor_Variables : Sensor_Variables_Type;
 		Heartbeat : Heartbeat_Type;
+		Status : Status_Type;
 		Alarms : Alarms_Type;
 		Pmax_General_Variables : Pmax_General_Variables_Type;
 		Dosing_Pump_201 : Dosing_Pump_201_Type;
@@ -1384,6 +1385,18 @@ TYPE
 		ALARM_AB17 : INT; (*General Alarm Block 17*)
 		ALARM_AB18 : INT; (*General Alarm Block 18*)
 		ALARM_AB19 : INT; (*General Alarm Block 19*)
+	END_STRUCT;
+END_TYPE
+
+(*Status*)
+
+TYPE
+	Status_Type : 	STRUCT  (*General Alarm Variables*)
+		P201_STATUS : STRING[20]; (*P201 pump status*)
+		P202_STATUS : STRING[20]; (*P202 pump status*)
+		P203_STATUS : STRING[20]; (*P203 pump status*)
+		PMAX_HOA : STRING[20]; (*Pmax HOA  status*)
+		PMAX_STATUS : STRING[20]; (*Pmax unit status*)
 	END_STRUCT;
 END_TYPE
 

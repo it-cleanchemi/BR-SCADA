@@ -2,207 +2,146 @@
 <BindingsSet id="Main_LR_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		
-		<Binding mode="oneWay">
+		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_201.P201_HOA" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_201.P201_HOA" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Status.P201_STATUS" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Status.P201_STATUS" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Status.P201_STATUS" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Status.P201_STATUS" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Status.P201_STATUS" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Status.P201_STATUS" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Status.P201_STATUS" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Status.P201_STATUS" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Status.P201_STATUS" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Status.P201_STATUS" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Status.P201_STATUS" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Status.P201_STATUS" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Status.P201_STATUS" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Status.P201_STATUS" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Status.P201_STATUS" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Status.P201_STATUS" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Status.P201_STATUS" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Status.P201_STATUS" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Status.P201_STATUS" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Status.P201_STATUS" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Status.P201_STATUS" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Status.P201_STATUS" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Status.P201_STATUS" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Status.P201_STATUS" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Status.P201_STATUS" />
 				</be:List>
 			</Source>
-			<Target xsi:type="snippet" refId="P201_LR_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput1" attribute="value" /> 
 		</Binding>
 		
-		<Binding mode="oneWay"> 
-			<Source xsi:type="snippet" refId="P201_LR_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput1" contentRefId="OverviewLR1" attribute="value" /> 
-		</Binding>
-		
-		<Binding mode="oneWay">
+		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_202.P202_HOA" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_202.P202_HOA" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Status.P202_STATUS" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Status.P202_STATUS" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Status.P202_STATUS" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Status.P202_STATUS" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Status.P202_STATUS" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Status.P202_STATUS" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Status.P202_STATUS" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Status.P202_STATUS" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Status.P202_STATUS" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Status.P202_STATUS" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Status.P202_STATUS" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Status.P202_STATUS" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Status.P202_STATUS" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Status.P202_STATUS" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Status.P202_STATUS" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Status.P202_STATUS" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Status.P202_STATUS" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Status.P202_STATUS" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Status.P202_STATUS" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Status.P202_STATUS" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Status.P202_STATUS" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Status.P202_STATUS" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Status.P202_STATUS" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Status.P202_STATUS" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Status.P202_STATUS" />
 				</be:List>
 			</Source>
-			<Target xsi:type="snippet" refId="P202_LR_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput4" attribute="value" /> 
 		</Binding>
 		
-		<Binding mode="oneWay"> 
-			<Source xsi:type="snippet" refId="P202_LR_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput4" contentRefId="OverviewLR1" attribute="value" /> 
-		</Binding>
 		
-		<Binding mode="oneWay">
+		
+		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_203.P203_HOA" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_203.P203_HOA" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Status.PMAX_HOA" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Status.PMAX_HOA" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Status.PMAX_HOA" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Status.PMAX_HOA" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Status.PMAX_HOA" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Status.PMAX_HOA" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Status.PMAX_HOA" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Status.PMAX_HOA" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Status.PMAX_HOA" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Status.PMAX_HOA" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Status.PMAX_HOA" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Status.PMAX_HOA" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Status.PMAX_HOA" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Status.PMAX_HOA" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Status.PMAX_HOA" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Status.PMAX_HOA" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Status.PMAX_HOA" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Status.PMAX_HOA" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Status.PMAX_HOA" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Status.PMAX_HOA" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Status.PMAX_HOA" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Status.PMAX_HOA" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Status.PMAX_HOA" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Status.PMAX_HOA" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Status.PMAX_HOA" />
 				</be:List>
 			</Source>
-			<Target xsi:type="snippet" refId="P203_LR_STATUS" attribute="value" /> 
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput37" attribute="value" /> 
 		</Binding>
 		
-		<Binding mode="oneWay"> 
-			<Source xsi:type="snippet" refId="P203_LR_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput36" contentRefId="OverviewLR1" attribute="value" /> 
-		</Binding>
 		
-		<Binding mode="oneWay">
+		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
 				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
 				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Pmax_General_Variables.PMAX_HOA" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Pmax_General_Variables.PMAX_HOA" />
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Status.PMAX_STATUS" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Status.PMAX_STATUS" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Status.PMAX_STATUS" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Status.PMAX_STATUS" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Status.PMAX_STATUS" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Status.PMAX_STATUS" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Status.PMAX_STATUS" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Status.PMAX_STATUS" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Status.PMAX_STATUS" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Status.PMAX_STATUS" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Status.PMAX_STATUS" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Status.PMAX_STATUS" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Status.PMAX_STATUS" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Status.PMAX_STATUS" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Status.PMAX_STATUS" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Status.PMAX_STATUS" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Status.PMAX_STATUS" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Status.PMAX_STATUS" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Status.PMAX_STATUS" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Status.PMAX_STATUS" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Status.PMAX_STATUS" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Status.PMAX_STATUS" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Status.PMAX_STATUS" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Status.PMAX_STATUS" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Status.PMAX_STATUS" />
 				</be:List>
 			</Source>
-			<Target xsi:type="snippet" refId="PM_LR_STATUS" attribute="value" /> 
-		</Binding>
-		
-		<Binding mode="oneWay"> 
-			<Source xsi:type="snippet" refId="PM_LR_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput37" contentRefId="OverviewLR1" attribute="value" /> 
-		</Binding>
-		
-		<Binding mode="oneWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Pmax_General_Variables.PMAX_STATUS" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Pmax_General_Variables.PMAX_STATUS" />
-				</be:List>
-			</Source>
-			<Target xsi:type="snippet" refId="UNIT_LR_STATUS" attribute="value" /> 
-		</Binding>
-		
-		<Binding mode="oneWay"> 
-			<Source xsi:type="snippet" refId="UNIT_LR_STATUS" attribute="value" /> 
-			<Target xsi:type="brease" widgetRefId="TextOutput38" contentRefId="OverviewLR1" attribute="value" /> 
+			<Target xsi:type="brease" contentRefId="OverviewLR1" widgetRefId="TextOutput38" attribute="value" /> 
 		</Binding>
 		
 
-		
-		
-		
-
-		
 		
 	</Bindings>
 </BindingsSet>

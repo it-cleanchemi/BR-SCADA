@@ -293,9 +293,9 @@
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_ALARM" top="853" left="1415" zIndex="269" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 0, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P202_WARN" top="629" left="1375" zIndex="270" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
     <Widget xsi:type="widgets.brease.NumericOutput" id="P203_WARN" top="853" left="1375" zIndex="271" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" textColor="rgba(255, 128, 0, 1)" />
-    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="245" left="1072" width="683" height="220" zIndex="335" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="245" left="1072" width="683" height="220" zIndex="337" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
     <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle14" top="468" left="1072" width="683" height="220" zIndex="336" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
-    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="693" left="1072" width="683" height="220" zIndex="337" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="693" left="1072" width="683" height="220" zIndex="335" lineColor="rgba(209, 242, 255, 1)" backColor="rgba(209, 242, 255, 1)" />
     <Widget xsi:type="widgets.brease.TextOutput" id="P201_TEXT" top="263" left="1515" width="240" zIndex="272" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="P202_TEXT" top="486" left="1515" width="240" zIndex="273" textAlign="center" />
     <Widget xsi:type="widgets.brease.TextOutput" id="P203_TEXT" top="710" left="1515" width="240" zIndex="274" textAlign="center" />
