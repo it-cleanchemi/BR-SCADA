@@ -152,10 +152,18 @@
             <Widget xsi:type="widgets.brease.Label" id="Label23" top="460" left="70" width="125" zIndex="81" text="PHONE INPUT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label24" top="543" left="70" width="125" zIndex="82" text="PHONE INPUT" textAlign="center" />
             <Widget xsi:type="widgets.brease.Label" id="Label25" top="626" left="70" width="125" zIndex="83" text="PHONE INPUT" textAlign="center" />
-            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="500" height="83" zIndex="3" borderStyle="none" backColor="rgba(142, 212, 227, 1)" />
-            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="166" left="0" width="500" height="83" zIndex="2" borderStyle="none" backColor="rgba(142, 212, 227, 1)" />
-            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="332" left="0" width="500" height="83" zIndex="1" borderStyle="none" backColor="rgba(142, 212, 227, 1)" />
-            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="498" left="0" width="500" height="83" zIndex="0" borderStyle="none" backColor="rgba(142, 212, 227, 1)" />
+            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="0" left="0" width="500" height="83" zIndex="3" borderStyle="none" backColor="rgba(183, 222, 237, 1)" />
+            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle2" top="166" left="0" width="500" height="83" zIndex="2" borderStyle="none" backColor="rgba(183, 222, 237, 1)" />
+            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle3" top="332" left="0" width="500" height="83" zIndex="1" borderStyle="none" backColor="rgba(183, 222, 237, 1)" />
+            <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle4" top="498" left="0" width="500" height="83" zIndex="0" borderStyle="none" backColor="rgba(183, 222, 237, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER1" top="20" left="315" width="10" height="10" zIndex="84" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER2" top="103" left="315" width="10" height="10" zIndex="85" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER3" top="186" left="315" width="10" height="10" zIndex="86" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER4" top="269" left="315" width="10" height="10" zIndex="87" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER5" top="352" left="315" width="10" height="10" zIndex="88" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER6" top="435" left="315" width="10" height="10" zIndex="89" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER7" top="518" left="315" width="10" height="10" zIndex="90" backColor="rgba(0, 255, 0, 1)" />
+            <Widget xsi:type="widgets.brease.Ellipse" id="OnIndicator_ROSTER8" top="601" left="315" width="10" height="10" zIndex="91" backColor="rgba(0, 255, 0, 1)" />
           </Widgets>
         </Widget>
       </Widgets>

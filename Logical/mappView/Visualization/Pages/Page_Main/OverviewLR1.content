@@ -328,10 +328,10 @@
     <Widget xsi:type="widgets.brease.Image" id="Image35" top="659" left="427" width="20" height="20" zIndex="299" image="Media/Images/Down_Arrow.png" />
     <Widget xsi:type="widgets.brease.PushButton" id="PB_Write_TOTALIZER_RESET" top="110" left="400" width="110" height="40" zIndex="300" multiLine="true" text="TOTALIZER RESET" wordWrap="true" cornerRadius="2px" />
     <Widget xsi:type="widgets.widgetlibrary_1.Rectangle" id="Rectangle24" top="58" left="15" width="120" height="40" zIndex="9" borderWidth="2px" backColor="rgba(245, 245, 245, 1)" />
-    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="305" left="460" width="475" height="240" zIndex="301" updateBufferTime="1000" backColor="rgba(255, 255, 255, 0)">
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="305" left="460" width="475" height="240" zIndex="301" updateBufferTime="1000" zoomType="none" backColor="rgba(255, 255, 255, 0)">
       <Properties>
         <yAxis>
-          <Element id="CD101" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" max="200" rangeMode="fromConfiguration" />
+          <Element id="CD101" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" max="250" rangeMode="fromConfiguration" min="50" />
         </yAxis>
         <xAxis>
           <Element id="xAxis1" timeSpan="600" />
