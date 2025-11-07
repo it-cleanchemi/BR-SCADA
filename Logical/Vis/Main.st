@@ -1,6 +1,6 @@
 
 PROGRAM _INIT
-	
+
 	brsmemset(ADR(gVis.Main.Out.IPAddressDataProv_HR),0,SIZEOF(gVis.Main.Out.IPAddressDataProv_HR));
 	brsmemset(ADR(gVis.Main.Out.IPAddressDataProv_LR),0,SIZEOF(gVis.Main.Out.IPAddressDataProv_LR));
 	

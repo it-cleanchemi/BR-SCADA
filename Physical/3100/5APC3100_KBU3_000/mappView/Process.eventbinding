@@ -925,5 +925,49 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Process.SummaryTile_LR21.GoToSkid">
+      <Source xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Event" contentRefId="Process" widgetRefId="SummaryTile_LR21" event="GoToSkid" />
+      <EventHandler>
+        <Action>
+          <ReadTarget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.ReadAction" contentRefId="Process" widgetRefId="SummaryTile_LR21">
+            <Method xsi:type="widgets.widgetlibrary_1.SummaryTile_LR.Action.GetUnit_Number" />
+          </ReadTarget>
+          <Result>
+            <ResultHandler>
+              <Sequence>
+                <Step order="0">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="NavFromAlarmPage">
+                      <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="1">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_Skid">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="LR" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="2">
+                  <Action>
+                    <Target xsi:type="session.VariableAction" refId="SelectedAlrm_UnitID">
+                      <Method xsi:type="session.VariableAction.SetValueString" value="=result" />
+                    </Target>
+                  </Action>
+                </Step>
+                <Step order="3">
+                  <Action>
+                    <Target xsi:type="clientSystem.Action">
+                      <Method xsi:type="clientSystem.Action.Navigate" pageId="Page_Main" />
+                    </Target>
+                  </Action>
+                </Step>
+              </Sequence>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

@@ -35,7 +35,7 @@ PROGRAM _INIT
 	gSkid_LR[18].AlarmX_MpLink := gAlarmXCore_LR_18;
 	gSkid_LR[19].AlarmX_MpLink := gAlarmXCore_LR_19;
 	gSkid_LR[20].AlarmX_MpLink := gAlarmXCore_LR_20;
-//	gSkid_LR[21].AlarmX_MpLink := gAlarmXCore_LR_21;
+	gSkid_LR[21].AlarmX_MpLink := gAlarmXCore_LR_21;
 //	gSkid_LR[22].AlarmX_MpLink := gAlarmXCore_LR_22;
 //	gSkid_LR[23].AlarmX_MpLink := gAlarmXCore_LR_23;
 //	gSkid_LR[24].AlarmX_MpLink := gAlarmXCore_LR_24;
@@ -62,7 +62,7 @@ PROGRAM _INIT
 	gSkid_LR[18].AlarmXHistory_MpLink := gAlarmXHistory_LR_18;
 	gSkid_LR[19].AlarmXHistory_MpLink := gAlarmXHistory_LR_19;
 	gSkid_LR[20].AlarmXHistory_MpLink := gAlarmXHistory_LR_20;
-	//	gSkid_LR[21].AlarmXHistory_MpLink := gAlarmXHistory_LR_21;
+	gSkid_LR[21].AlarmXHistory_MpLink := gAlarmXHistory_LR_21;
 	//	gSkid_LR[22].AlarmXHistory_MpLink := gAlarmXHistory_LR_22;
 	//	gSkid_LR[23].AlarmXHistory_MpLink := gAlarmXHistory_LR_23;
 	//	gSkid_LR[24].AlarmXHistory_MpLink := gAlarmXHistory_LR_24;

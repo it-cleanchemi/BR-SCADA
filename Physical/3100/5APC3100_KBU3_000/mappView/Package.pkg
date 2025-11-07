@@ -49,7 +49,6 @@
     <Object Type="File">ESD_Content_LR.binding</Object>
     <Object Type="File">PM_Settings_Content_LR.binding</Object>
     <Object Type="File">Process.binding</Object>
-    <Object Type="File">content_0.eventbinding</Object>
     <Object Type="File">Process.eventbinding</Object>
   </Objects>
 </Package>
