@@ -50,5 +50,7 @@
     <Object Type="File">PM_Settings_Content_LR.binding</Object>
     <Object Type="File">Process.binding</Object>
     <Object Type="File">Process.eventbinding</Object>
+    <Object Type="File">TOTALIZER_Content_LR.binding</Object>
+    <Object Type="File">TOTALIZER_Content_LR.eventbinding</Object>
   </Objects>
 </Package>

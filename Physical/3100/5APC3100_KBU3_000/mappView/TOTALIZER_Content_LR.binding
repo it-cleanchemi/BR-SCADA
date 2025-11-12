@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="TOTALIZER_Content_LR_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_TOTALIZER_RESET.Send" />
+					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_TOTALIZER_RESET.Send" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="TOTALIZER_Content_LR" widgetRefId="TOTALIZER_OK" attribute="value" />
+		</Binding>
+		
+	</Bindings>
+</BindingsSet>

@@ -3,7 +3,7 @@ ACTION Vis_Main_LR:
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
 		
-		//STATUS
+		//MODE STATUS-----------------------------------------------------------------------------------------------------------------------
 		
 		CASE gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS OF
 			0:
@@ -99,7 +99,7 @@ ACTION Vis_Main_LR:
 		END_CASE;
 			
 			
-		//SUMMARY TILES
+		//SUMMARY TILES----------------------------------------------------------------------------------------------------------------------------------------------------------
 		gVis.Process.Out.SummaryTiles[IdxSkids_LR].UnitNumber := UINT_TO_STRING(gSkid_LR[IdxSkids_LR].Pmax_General_Variables.UNIT_ID);
 		
 		gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Gauge := 100 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 / (2 * gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP);
@@ -109,6 +109,8 @@ ACTION Vis_Main_LR:
 		gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined := gSkid_LR[IdxSkids_LR].Sensor_Variables.FI301 + gSkid_LR[IdxSkids_LR].Sensor_Variables.FI302 + 
 			gSkid_LR[IdxSkids_LR].Sensor_Variables.FI303;
 		
+		
+		//P201 INDICATOR
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 0 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'GREY';
 		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_PI < 125 AND 
@@ -121,6 +123,8 @@ ACTION Vis_Main_LR:
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P201_Indicator := 'RED';
 		END_IF;
 		
+		
+		//P202 INDICATOR
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 0 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'GREY';
 		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_PI < 125 AND 
@@ -133,6 +137,7 @@ ACTION Vis_Main_LR:
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P202_Indicator := 'RED';
 		END_IF;
 		
+		//P203 INDICATOR
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 0 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'GREY';
 		ELSIF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_XS = 1 AND gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_PI < 125 AND 
@@ -145,6 +150,8 @@ ACTION Vis_Main_LR:
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].P203_Indicator := 'RED';
 		END_IF;
 	
+		
+		//UNIT INDICATOR
 		IF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].UNIT_Indicator := 'GREY';
 		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined >= 2 THEN
@@ -153,6 +160,8 @@ ACTION Vis_Main_LR:
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].UNIT_Indicator := 'GREEN';
 		END_IF;
 		
+		
+		//GEN INDICATOR
 		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_XS = 1 AND gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_XS = 1 AND 
 			gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_XS = 1 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'GREEN';
@@ -170,29 +179,36 @@ ACTION Vis_Main_LR:
 		ELSE
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator := 'GREY';
 		END_IF;
-
-		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 20 THEN
+		
+		//CD101 INDICATOR
+		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 20 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREEN';
 		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) >= 20 AND 
-				ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 50 THEN
+				ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) < 50 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'BLUE';
-		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
-			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREY';
-		ELSE
+		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD101_SP)) >= 50	AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'RED';
+//		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
+//			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREY';
+		ELSE
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD101_Indicator := 'GREY';
 		END_IF;
 		
-		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 20 THEN
+		//CD102 INDICATOR
+		IF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 20 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREEN';
 		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) >= 20 AND 
-			ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 50 THEN
+			ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) < 50 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'BLUE';
-		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
-			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREY';
+		ELSIF ABS(100 * ((gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102 - gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP) / gSkid_LR[IdxSkids_LR].Sensor_Variables.CD102_SP)) >= 50 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].GEN_Indicator = 'GREEN' THEN
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'RED';			
+//		ELSIF gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS = 0 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].FI_PlantFlowCombined < 2 THEN
+//			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREY';
 		ELSE
-			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'RED';
+			gVis.Process.Out.SummaryTiles[IdxSkids_LR].CD102_Indicator := 'GREY';
 		END_IF;
 		
+		//PRESSURE MIX INDICATOR
 		IF gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge < 50 THEN
 			gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Indicator := 'GREEN';
 		ELSIF gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge >= 50 AND gVis.Process.Out.SummaryTiles[IdxSkids_LR].PI101_Gauge < 100 THEN
@@ -202,7 +218,7 @@ ACTION Vis_Main_LR:
 		END_IF;
 		
 		
-		//ROSTER
+		//ROSTER---------------------------------------------------------------------------------------------------------------------------------------------
 		//ROSTER WRITE
 		FOR IndxNumber := 0 TO 4 DO
 			//ROSTER 1
@@ -400,10 +416,321 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.ROSTER8_DISABLE := FALSE;
 		END_IF;
 		
+		//ROSTER1 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER1 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER1 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.wENABLE_ROSTER1 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input1 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read1 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.wENABLE_ROSTER1 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER1.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 := 0;
+		END_IF;
+		
+		//ROSTER1 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER1 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT1.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER1 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step1 := 0;
+		END_IF;
+		
+		
+		
+		
+		//ROSTER2 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER2 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact2_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER2 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.wENABLE_ROSTER2 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact2_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input2 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read2 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.wENABLE_ROSTER2 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER2.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 := 0;
+		END_IF;
+		
+		//ROSTER2 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER2 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact2_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT2.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER2 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step2 := 0;
+		END_IF;
+		
+		
+		
+		//ROSTER3 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER3 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact3_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER3 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.wENABLE_ROSTER3 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact3_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input3 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read3 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.wENABLE_ROSTER3 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER3.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 := 0;
+		END_IF;
+		
+		//ROSTER3 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER3 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact3_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT3.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER3 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step3 := 0;
+		END_IF;
+		
+		
+		
+		//ROSTER4 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER4 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact4_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER4 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.wENABLE_ROSTER4 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact4_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input4 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read4 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.wENABLE_ROSTER4 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER4.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 := 0;
+		END_IF;
+		
+		//ROSTER4 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER4 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact4_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT4.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER4 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step4 := 0;
+		END_IF;
+		
+		
+		
+		
+		//ROSTER5 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER5 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact5_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER5 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.wENABLE_ROSTER5 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact5_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input5 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read5 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.wENABLE_ROSTER5 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER5.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 := 0;
+		END_IF;
+		
+		//ROSTER5 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER5 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact5_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT5.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER5 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step5 := 0;
+		END_IF;
+		
+		
+		
+		//ROSTER6 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER6 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact6_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER6 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.wENABLE_ROSTER6 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact6_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input6 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read6 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.wENABLE_ROSTER6 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER6.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 := 0;
+		END_IF;
+		
+		//ROSTER6 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER6 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact6_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT6.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER6 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step6 := 0;
+		END_IF;
+		
+		
+		
+		//ROSTER7 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER7 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact7_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER7 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.wENABLE_ROSTER7 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact7_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input7 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read7 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.wENABLE_ROSTER7 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER7.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 := 0;
+		END_IF;
+		
+		//ROSTER7 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER7 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact7_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT7.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER7 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step7 := 0;
+		END_IF;
+		
+		
+		
+		//ROSTER8 PHONE NUMBER SEND WITH PLC CYCLING FOR ENABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 = 0 AND gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER8 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 := 10;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER8 := FALSE;
+		END_IF;
+		
+		//STEP 10: DISABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 = 10 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.wENABLE_ROSTER8 := 0;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE = FALSE THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 := 20;
+			END_IF;
+		END_IF;
+		
+		//STEP 20: SEND NUMBER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 = 20 THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.Send := TRUE;
+			IF gSkid_LR[IdxSkids_LR].RosterContact.Phone_Input8 = gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read8 THEN
+				gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 := 30;
+			END_IF;
+		END_IF;
+		
+		//STEP 30: ENABLE ROSTER
+		IF gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 = 30 THEN
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.wENABLE_ROSTER8 := 1;
+			gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 := 0;
+		END_IF;
+		
+		//ROSTER8 PHONE NUMBER SEND FOR DISABLED CONDITION
+		IF gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER8 = TRUE AND gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE = FALSE THEN
+			gCMD_LR[IdxSkids_LR].Write_PHONE_INPUT8.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.SEND_ROSTER8 := FALSE;
+			gSkid_LR[IdxSkids_LR].RosterContact.Write_Step8 := 0;
+		END_IF;
 
 	
 		
-		
+		//AUTOCAL-----------------------------------------------------------------------------------------------------------------------------
 		//AUTOCAL P101
 		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_AUTOCAL = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON_EN :=0;

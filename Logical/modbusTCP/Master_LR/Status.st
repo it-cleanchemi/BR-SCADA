@@ -55,7 +55,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PMAX_STATUS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[8];
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.SCREEN_LOCK := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[10]);
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HEARTBEAT := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[12];
-	
+	gSkid_LR[IdxSkids_LR].Sensor_Variables.WASTE_LVL := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[14]);
 	
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_XS := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[20];
 	gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[22];

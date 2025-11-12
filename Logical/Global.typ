@@ -85,6 +85,14 @@ END_TYPE
 
 TYPE
 	RosterContact_Type : 	STRUCT 
+		Write_Step1 : INT := 0;
+		Write_Step2 : INT := 0;
+		Write_Step3 : INT := 0;
+		Write_Step4 : INT := 0;
+		Write_Step5 : INT := 0;
+		Write_Step6 : INT := 0;
+		Write_Step7 : INT := 0;
+		Write_Step8 : INT := 0;
 		Contact1_ENABLE : BOOL;
 		Contact2_ENABLE : BOOL;
 		Contact3_ENABLE : BOOL;
@@ -1303,6 +1311,14 @@ TYPE
 		ROSTER7_EN : BOOL;
 		ROSTER8_DIS : BOOL;
 		ROSTER8_EN : BOOL;
+		SEND_ROSTER1 : BOOL;
+		SEND_ROSTER2 : BOOL;
+		SEND_ROSTER3 : BOOL;
+		SEND_ROSTER4 : BOOL;
+		SEND_ROSTER5 : BOOL;
+		SEND_ROSTER6 : BOOL;
+		SEND_ROSTER7 : BOOL;
+		SEND_ROSTER8 : BOOL;
 	END_STRUCT;
 END_TYPE
 
@@ -1323,6 +1339,7 @@ END_TYPE
 
 TYPE
 	Sensor_Variables_Type : 	STRUCT  (*Flowmeter and Other Misc Sensor Variables*)
+		WASTE_LVL : BOOL; (*Waste Container Level Full Indicator*)
 		SERNSORS_CONFIG : UINT; (*Datamap for sensors: DCBA >> sensor301 is type A, sensor302 is type B, sensor303 is type C, sensor304 is type D*)
 		SENSOR301 : REAL; (*Sensor 301 Reading*)
 		SENSOR302 : REAL; (*Sensor 302 Reading*)

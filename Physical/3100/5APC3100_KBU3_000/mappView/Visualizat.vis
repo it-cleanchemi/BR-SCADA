@@ -34,6 +34,7 @@
     <BindingsSet refId="ESD_Content_LR_binding" />
     <BindingsSet refId="PM_Settings_Content_LR_binding" />
     <BindingsSet refId="Process_binding" />
+    <BindingsSet refId="TOTALIZER_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
@@ -60,6 +61,7 @@
     <EventBindingsSet refId="P204_Status_Content_HR_eventbinding" />
     <EventBindingsSet refId="ESD_Content_LR_eventbinding" />
     <EventBindingsSet refId="Process_eventbinding" />
+    <EventBindingsSet refId="TOTALIZER_Content_LR_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />
@@ -82,6 +84,7 @@
     <Dialog refId="P203_Settings_Popup_LR" />
     <Dialog refId="System_Info_Popup_LR" />
     <Dialog refId="ESD_Popup_LR" />
+    <Dialog refId="TOTALIZER_Popup_LR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -128,6 +131,7 @@
     <Content refId="System_Info_Content_LR" />
     <Content refId="ESD_Content_LR" />
     <Content refId="content_0" />
+    <Content refId="TOTALIZER_Content_LR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

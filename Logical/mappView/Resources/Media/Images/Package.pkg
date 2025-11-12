@@ -96,5 +96,7 @@
     <Object Type="File">SettingsCog.png</Object>
     <Object Type="File">P1Y.png</Object>
     <Object Type="File">P2Y.png</Object>
+    <Object Type="File">Waste_Grey.png</Object>
+    <Object Type="File">Waste_Red.png</Object>
   </Objects>
 </Package>
