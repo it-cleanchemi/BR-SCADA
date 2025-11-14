@@ -10,10 +10,10 @@
 		<Widget xsi:type="widgets.brease.Label" id="Label1" top="230" left="60" zIndex="9" text="DOSE" textAlign="center" fontSize="14px" />
 		<Widget xsi:type="widgets.brease.Ellipse" id="GEN_Indicator" top="107" left="27" width="46" height="46" zIndex="10" />
 		<Widget xsi:type="widgets.brease.Ellipse" id="Unit_Indicator" top="7" left="10" width="80" height="80" zIndex="11" />
-		<Widget xsi:type="widgets.brease.Label" id="Label2" top="268" left="13" width="40" height="20" zIndex="12" text="P201" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label3" top="268" left="80" width="40" height="20" zIndex="13" text="P202" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label4" top="268" left="147" width="40" height="20" zIndex="14" text="P203" textAlign="center" fontSize="10px" />
-		<Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="10" zIndex="15" text="GEN" textAlign="center" fontSize="14px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label2" top="268" left="13" width="40" height="20" zIndex="12" text="P201" textAlign="center" fontSize="18px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label3" top="268" left="80" width="40" height="20" zIndex="13" text="P202" textAlign="center" fontSize="18px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label4" top="268" left="147" width="40" height="20" zIndex="14" text="P203" textAlign="center" fontSize="18px" />
+		<Widget xsi:type="widgets.brease.Label" id="Label5" top="115" left="10" zIndex="15" text="GEN" textAlign="center" fontSize="18px" />
 		<Widget xsi:type="widgets.brease.Label" id="Label6" top="220" left="30" width="40" height="20" zIndex="16" text="MIX PSI" textAlign="center" fontSize="10px" />
 		<Widget xsi:type="widgets.brease.Label" id="Label7" top="150" left="130" width="40" height="20" zIndex="17" text="CD101" textAlign="center" fontSize="10px" />
 		<Widget xsi:type="widgets.brease.Label" id="Label8" top="220" left="130" width="40" height="20" zIndex="18" text="CD102" textAlign="center" fontSize="10px" />
@@ -25,7 +25,7 @@
 		<Widget xsi:type="widgets.brease.Ellipse" id="CD102_Indicator" top="198" left="138" width="25" height="25" zIndex="23" />
 		<Widget xsi:type="widgets.brease.Line" id="LineCD101" zIndex="2" x1="150" x2="150" y1="140" y2="100" lineWidth="2px" />
 		<Widget xsi:type="widgets.brease.Line" id="LineCD102" zIndex="1" x1="150" x2="150" y1="210" y2="170" lineWidth="2px" />
-		<Widget xsi:type="widgets.brease.TextOutput" id="UnitID_Display" top="32" left="0" zIndex="24" value="777" fontSize="20px" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="UnitID_Display" top="32" left="0" zIndex="24" value="777" fontSize="38px" />
 		<Widget xsi:type="widgets.brease.Label" id="Label9" top="95" left="5" width="190" height="210" zIndex="25" text="DISCONNECTED" backColor="rgba(211, 211, 211, 1)" textAlign="center" />
 	</Widgets>
 	

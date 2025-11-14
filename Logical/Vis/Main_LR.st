@@ -1414,7 +1414,7 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.FI303_MODE := 0;
 		END_IF;
 
-		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 = 0 AND gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.XV101_OPP := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.XV101_OPP := 0;
