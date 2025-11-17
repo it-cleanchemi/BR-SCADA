@@ -740,6 +740,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_OFF_EN :=0;
 		END_IF;
 		
+		gSkid_LR[IdxSkids_LR].VisNum.P101_GAIN := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P101_GAIN.wP101_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P101_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P101_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P101_STEPADJ.wP101_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P101_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P101_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_101.P101_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P101_TOTALADJ.wP101_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P101_TOTALADJ_IN / 100;
+		
 		//AUTOCAL P102
 		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_AUTOCAL = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOCAL_ON_EN :=0;
@@ -774,6 +783,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P102_AUTOFLOW_OFF_EN :=1;
 		END_IF;
 		
+		gSkid_LR[IdxSkids_LR].VisNum.P102_GAIN := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P102_GAIN.wP102_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P102_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P102_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P102_STEPADJ.wP102_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P102_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P102_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_102.P102_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P102_TOTALADJ.wP102_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P102_TOTALADJ_IN / 100;
+		
 		//AUTOCAL P103
 		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_AUTOCAL = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOCAL_ON_EN :=0;
@@ -807,6 +825,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_ON_EN :=0;
 			gSkid_LR[IdxSkids_LR].VisBool.P103_AUTOFLOW_OFF_EN :=1;
 		END_IF;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P103_GAIN := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P103_GAIN.wP103_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P103_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P103_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P103_STEPADJ.wP103_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P103_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P103_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_103.P103_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P103_TOTALADJ.wP103_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P103_TOTALADJ_IN / 100;
 		
 		//AUTOCAL P104
 		IF gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOCAL = 1 THEN
@@ -853,6 +880,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P104_PV_PFIT_EN :=1;
 		END_IF;
 		
+		gSkid_LR[IdxSkids_LR].VisNum.P104_GAIN := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P104_GAIN.wP104_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P104_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P104_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P104_STEPADJ.wP104_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P104_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P104_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P104_TOTALADJ.wP104_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P104_TOTALADJ_IN / 100;
+		
 		//AUTOCAL P201
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_AUTOCAL = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P201_AUTOCAL_ON_EN :=0;
@@ -897,6 +933,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_FIT_EN :=0;
 			gSkid_LR[IdxSkids_LR].VisBool.P201_PV_PFIT_EN :=1;
 		END_IF;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P201_GAIN := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P201_GAIN.wP201_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P201_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P201_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P201_STEPADJ.wP201_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P201_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P201_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_201.P201_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P201_TOTALADJ.wP201_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P201_TOTALADJ_IN / 100;
 		
 		//AUTOCAL P202
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_AUTOCAL = 1 THEN
@@ -943,6 +988,15 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P202_PV_PFIT_EN :=1;
 		END_IF;
 		
+		gSkid_LR[IdxSkids_LR].VisNum.P202_GAIN := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P202_GAIN.wP202_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P202_GAIN_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P202_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P202_STEPADJ.wP202_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P202_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P202_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_202.P202_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P202_TOTALADJ.wP202_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P202_TOTALADJ_IN / 100;
+		
 		//AUTOCAL P203
 		IF gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_AUTOCAL = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.P203_AUTOCAL_ON_EN :=0;
@@ -988,7 +1042,14 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.P203_PV_PFIT_EN :=1;
 		END_IF;
 				
+		gSkid_LR[IdxSkids_LR].VisNum.P203_GAIN := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_GAIN;
+		gCMD_LR[IdxSkids_LR].Write_P203_GAIN.wP203_GAIN := gSkid_LR[IdxSkids_LR].VisNum.P203_GAIN_IN / 100;
 		
+		gSkid_LR[IdxSkids_LR].VisNum.P203_STEPADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_STEPADJ;
+		gCMD_LR[IdxSkids_LR].Write_P203_STEPADJ.wP203_STEPADJ := gSkid_LR[IdxSkids_LR].VisNum.P203_STEPADJ_IN / 100;
+		
+		gSkid_LR[IdxSkids_LR].VisNum.P203_TOTALADJ := 100 * gSkid_LR[IdxSkids_LR].Dosing_Pump_203.P203_TOTALADJ;
+		gCMD_LR[IdxSkids_LR].Write_P203_TOTALADJ.wP203_TOTALADJ := gSkid_LR[IdxSkids_LR].VisNum.P203_TOTALADJ_IN / 100;
 		
 		// AutoCal 1 = Off, 2 = On
 		IF gSkid_LR[IdxSkids_LR].VisBool.P101_AUTOCAL_ON THEN
@@ -1414,10 +1475,16 @@ ACTION Vis_Main_LR:
 			gSkid_LR[IdxSkids_LR].VisBool.FI303_MODE := 0;
 		END_IF;
 
-		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 = 0 AND gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN
 			gSkid_LR[IdxSkids_LR].VisBool.XV101_OPP := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].VisBool.XV101_OPP := 0;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 = 2 AND gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN
+			gSkid_LR[IdxSkids_LR].VisBool.XV101_ERROR := 1;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.XV101_ERROR := 0;
 		END_IF;
 		
 		IF gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101 = 1 AND gSkid_LR[IdxSkids_LR].Sensor_Variables.XV101_ENABLE = 1 THEN

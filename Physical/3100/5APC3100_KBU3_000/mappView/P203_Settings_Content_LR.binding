@@ -2,209 +2,17 @@
 <BindingsSet id="P203_Settings_Content_LR_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Bindings>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_203.P203_GAIN" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_203.P203_GAIN" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_GAIN" attribute="value" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_203.P203_STEPADJ" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_203.P203_STEPADJ" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_STEPADJ" attribute="value" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].Dosing_Pump_203.P203_TOTALADJ" />
-					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].Dosing_Pump_203.P203_TOTALADJ" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_TOTALADJ" attribute="value" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_P203_GAIN.wP203_GAIN" />
-					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_P203_GAIN.wP203_GAIN" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_GAIN" attribute="value" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_P203_STEPADJ.wP203_STEPADJ" />
-					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_P203_STEPADJ.wP203_STEPADJ" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_STEPADJ" attribute="value" />
-		</Binding>
 		
-		<Binding mode="twoWay">
-			<Source xsi:type="listElement">
-				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
-				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
-					<bt:Element index="0" refId="::AsGlobalPV:gCMD_LR[0].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="1" refId="::AsGlobalPV:gCMD_LR[1].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="2" refId="::AsGlobalPV:gCMD_LR[2].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="3" refId="::AsGlobalPV:gCMD_LR[3].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="4" refId="::AsGlobalPV:gCMD_LR[4].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="5" refId="::AsGlobalPV:gCMD_LR[5].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="6" refId="::AsGlobalPV:gCMD_LR[6].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="7" refId="::AsGlobalPV:gCMD_LR[7].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="8" refId="::AsGlobalPV:gCMD_LR[8].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="9" refId="::AsGlobalPV:gCMD_LR[9].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="10" refId="::AsGlobalPV:gCMD_LR[10].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="11" refId="::AsGlobalPV:gCMD_LR[11].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="12" refId="::AsGlobalPV:gCMD_LR[12].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="13" refId="::AsGlobalPV:gCMD_LR[13].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="14" refId="::AsGlobalPV:gCMD_LR[14].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="15" refId="::AsGlobalPV:gCMD_LR[15].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="16" refId="::AsGlobalPV:gCMD_LR[16].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="17" refId="::AsGlobalPV:gCMD_LR[17].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="18" refId="::AsGlobalPV:gCMD_LR[18].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="19" refId="::AsGlobalPV:gCMD_LR[19].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="20" refId="::AsGlobalPV:gCMD_LR[20].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="21" refId="::AsGlobalPV:gCMD_LR[21].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="22" refId="::AsGlobalPV:gCMD_LR[22].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="23" refId="::AsGlobalPV:gCMD_LR[23].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-					<bt:Element index="24" refId="::AsGlobalPV:gCMD_LR[24].Write_P203_TOTALADJ.wP203_TOTALADJ" />
-				</be:List>
-			</Source>
-			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_TOTALADJ" attribute="value" />
-		</Binding>
+		
+		
+		
+		
+		
+		
 		
 		<Binding mode="twoWay">
 			<Source xsi:type="listElement">
@@ -833,6 +641,210 @@
 				</be:List>
 			</Source>
 			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="PB_Write_P203_AUTOCALPV_FIT" attribute="enable" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_GAIN" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_GAIN" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_GAIN" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_GAIN" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_GAIN" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_GAIN" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_GAIN" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_GAIN" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_GAIN" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_GAIN" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_GAIN" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_GAIN" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_GAIN" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_GAIN" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_GAIN" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_GAIN" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_GAIN" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_GAIN" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_GAIN" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_GAIN" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_GAIN" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_GAIN" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_GAIN" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_GAIN" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_GAIN" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_GAIN" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_GAIN_IN" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_GAIN_IN" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_GAIN_IN" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_GAIN_IN" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_GAIN_IN" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_GAIN_IN" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_GAIN_IN" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_GAIN_IN" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_GAIN_IN" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_GAIN_IN" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_GAIN_IN" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_GAIN_IN" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_GAIN_IN" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_GAIN_IN" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_GAIN_IN" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_GAIN_IN" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_GAIN_IN" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_GAIN_IN" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_GAIN_IN" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_GAIN_IN" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_GAIN_IN" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_GAIN_IN" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_GAIN_IN" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_GAIN_IN" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_GAIN_IN" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_GAIN" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_STEPADJ" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_STEPADJ" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_STEPADJ" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_STEPADJ" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_STEPADJ" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_STEPADJ" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_STEPADJ" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_STEPADJ" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_STEPADJ" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_STEPADJ" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_STEPADJ" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_STEPADJ" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_STEPADJ" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_STEPADJ" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_STEPADJ" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_STEPADJ" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_STEPADJ" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_STEPADJ" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_STEPADJ" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_STEPADJ" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_STEPADJ" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_STEPADJ" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_STEPADJ" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_STEPADJ" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_STEPADJ" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_STEPADJ" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_STEPADJ_IN" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_STEPADJ_IN" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_STEPADJ" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_TOTALADJ" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_TOTALADJ" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_TOTALADJ" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_TOTALADJ" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_TOTALADJ" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_TOTALADJ" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_TOTALADJ" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_TOTALADJ" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_TOTALADJ" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_TOTALADJ" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_TOTALADJ" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_TOTALADJ" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_TOTALADJ" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_TOTALADJ" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_TOTALADJ" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_TOTALADJ" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_TOTALADJ" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_TOTALADJ" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_TOTALADJ" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_TOTALADJ" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_TOTALADJ" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_TOTALADJ" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_TOTALADJ" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_TOTALADJ" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_TOTALADJ" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="P203_TOTALADJ" attribute="value" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="listElement">
+				<Selector xsi:type="session" refId="SelectedSkid_LR_Indx" attribute="value" />
+				<be:List xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xsi:type="be:opcUa" attribute="value">				
+					<bt:Element index="0" refId="::AsGlobalPV:gSkid_LR[0].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="1" refId="::AsGlobalPV:gSkid_LR[1].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="2" refId="::AsGlobalPV:gSkid_LR[2].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="3" refId="::AsGlobalPV:gSkid_LR[3].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="4" refId="::AsGlobalPV:gSkid_LR[4].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="5" refId="::AsGlobalPV:gSkid_LR[5].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="6" refId="::AsGlobalPV:gSkid_LR[6].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="7" refId="::AsGlobalPV:gSkid_LR[7].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="8" refId="::AsGlobalPV:gSkid_LR[8].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="9" refId="::AsGlobalPV:gSkid_LR[9].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="10" refId="::AsGlobalPV:gSkid_LR[10].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="11" refId="::AsGlobalPV:gSkid_LR[11].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="12" refId="::AsGlobalPV:gSkid_LR[12].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="13" refId="::AsGlobalPV:gSkid_LR[13].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="14" refId="::AsGlobalPV:gSkid_LR[14].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="15" refId="::AsGlobalPV:gSkid_LR[15].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="16" refId="::AsGlobalPV:gSkid_LR[16].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="17" refId="::AsGlobalPV:gSkid_LR[17].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="18" refId="::AsGlobalPV:gSkid_LR[18].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="19" refId="::AsGlobalPV:gSkid_LR[19].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="20" refId="::AsGlobalPV:gSkid_LR[20].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="21" refId="::AsGlobalPV:gSkid_LR[21].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="22" refId="::AsGlobalPV:gSkid_LR[22].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="23" refId="::AsGlobalPV:gSkid_LR[23].VisNum.P203_TOTALADJ_IN" />
+					<bt:Element index="24" refId="::AsGlobalPV:gSkid_LR[24].VisNum.P203_TOTALADJ_IN" />
+				</be:List>
+			</Source>
+			<Target xsi:type="brease" contentRefId="P203_Settings_Content_LR" widgetRefId="NI_Write_P203_TOTALADJ" attribute="value" />
 		</Binding>
 		
 	</Bindings>
