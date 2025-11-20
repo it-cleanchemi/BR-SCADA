@@ -1452,5 +1452,177 @@
 			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR21" attribute="UnitID_Display" />
 		</Binding>
 		
-	</Bindings>
+	<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_0" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR4" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_7" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR8" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_6" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR7" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_5" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR6" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_4" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR5" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_3" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_2" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_1" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR0" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_21" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR20" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_20" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_19" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR19" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_18" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR18" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_17" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR16" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_16" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR17" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_15" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR15" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_14" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR14" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_13" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR13" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_12" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR12" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_11" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR11" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_10" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR10" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_8" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR9" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_21" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox22" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_20" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox21" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_19" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox20" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_18" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox19" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_17" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox18" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_16" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox17" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_15" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox16" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_14" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox15" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_13" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox14" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_12" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox13" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_11" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_10" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox11" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_9" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox10" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_8" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_7" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_6" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_5" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_4" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox5" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_3" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_2" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_1" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="session" refId="LR_ProcessTile_Vis_0" attribute="value" />
+<Target xsi:type="brease" contentRefId="Process" widgetRefId="CheckBox1" attribute="value" />
+</Binding>
+</Bindings>
 </BindingsSet>

@@ -1428,7 +1428,10 @@ END_TYPE
 (*Alarms*)
 
 TYPE
-	Alarms_Type : 	STRUCT  (*General Alarm Variables*)
+	AlarmsConfig_Type : 	STRUCT  (*Alarm Configuration Parameters*)
+		ALARM_AB19 : INT; (*Alarm Configuration Parameters*)
+	END_STRUCT;
+	Alarms_Type : 	STRUCT  (*General Alarm Status*)
 		ALARM_AB1 : INT; (*General Alarm Block 1*)
 		ALARM_AB2 : INT; (*General Alarm Block 2*)
 		ALARM_AB3 : INT; (*General Alarm Block 3*)

@@ -1,27 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="Process" height="1000" width="1753" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="Process" height="2000" width="1753" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR4" top="6" left="890" zIndex="0" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR0" top="6" left="6" zIndex="1" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR2" top="6" left="448" zIndex="3" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR3" top="6" left="669" zIndex="4" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR5" top="6" left="1111" zIndex="5" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR6" top="6" left="1332" zIndex="6" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR7" top="6" left="1553" zIndex="7" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR8" top="345" left="6" zIndex="8" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR9" top="345" left="226" zIndex="9" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR10" top="345" left="448" zIndex="10" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR11" top="345" left="669" zIndex="11" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR12" top="345" left="890" zIndex="12" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR13" top="345" left="1111" zIndex="13" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR14" top="345" left="1332" zIndex="14" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR15" top="345" left="1553" zIndex="15" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR17" top="684" left="226" zIndex="16" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR16" top="684" left="6" zIndex="17" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR18" top="684" left="448" zIndex="18" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR19" top="684" left="669" zIndex="19" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR1" top="6" left="226" zIndex="20" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR20" top="684" left="890" zIndex="21" />
-    <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR21" top="684" left="1111" zIndex="22" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="0" left="0" width="1753" height="2000" zIndex="0" childPositioning="relative" text="GroupBox1" padding="20px">
+      <Widgets>
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR4" top="0" left="0" zIndex="0" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR0" top="0" left="0" zIndex="1" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR2" top="0" left="0" zIndex="2" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR3" top="0" left="0" zIndex="3" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR5" top="0" left="0" zIndex="4" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR6" top="0" left="0" zIndex="5" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR7" top="0" left="0" zIndex="6" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR8" top="0" left="0" zIndex="7" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR9" top="0" left="0" zIndex="8" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR10" top="0" left="0" zIndex="9" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR11" top="0" left="0" zIndex="10" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR12" top="0" left="0" zIndex="11" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR13" top="0" left="0" zIndex="12" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR14" top="0" left="0" zIndex="13" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR15" top="0" left="0" zIndex="14" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR17" top="0" left="0" zIndex="15" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR16" top="0" left="0" zIndex="16" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR18" top="0" left="0" zIndex="17" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR19" top="0" left="0" zIndex="18" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR1" top="0" left="0" zIndex="19" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR20" top="0" left="0" zIndex="20" />
+        <Widget xsi:type="widgets.widgetlibrary_1.SummaryTile_LR" id="SummaryTile_LR21" top="0" left="0" zIndex="21" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox5" top="0" left="0" zIndex="26" text="CheckBox5" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox4" top="0" left="0" zIndex="25" text="CheckBox4" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox3" top="0" left="0" zIndex="24" text="CheckBox3" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox2" top="0" left="0" zIndex="23" text="CheckBox2" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox1" top="0" left="0" zIndex="22" text="CheckBox1" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox6" top="0" left="0" zIndex="27" text="CheckBox6" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox7" top="0" left="0" zIndex="28" text="CheckBox7" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox8" top="0" left="0" zIndex="29" text="CheckBox8" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox9" top="0" left="0" zIndex="30" text="CheckBox9" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox10" top="0" left="0" zIndex="31" text="CheckBox10" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox11" top="0" left="0" zIndex="32" text="CheckBox11" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox12" top="0" left="0" zIndex="33" text="CheckBox12" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox13" top="0" left="0" zIndex="34" text="CheckBox13" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox14" top="0" left="0" zIndex="35" text="CheckBox14" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox15" top="0" left="0" zIndex="36" text="CheckBox15" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox16" top="0" left="0" zIndex="37" text="CheckBox16" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox17" top="0" left="0" zIndex="38" text="CheckBox17" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox18" top="0" left="0" zIndex="39" text="CheckBox18" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox19" top="0" left="0" zIndex="40" text="CheckBox19" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox20" top="0" left="0" zIndex="41" text="CheckBox20" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox21" top="0" left="0" zIndex="42" text="CheckBox21" />
+        <Widget xsi:type="widgets.brease.CheckBox" id="CheckBox22" top="0" left="0" zIndex="43" text="CheckBox22" />
+        <Widget xsi:type="widgets.brease.Button" id="Button1" top="0" left="0" zIndex="44" text="Scroll" />
+      </Widgets>
+    </Widget>
   </Widgets>
 </Content>

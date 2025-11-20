@@ -36,6 +36,7 @@
       <Parameter ID="AssignedOperatingSystem" Value="ARemb" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="RemoteVis_CleanChemistry_Config1" />
+    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="VolatileGlobalPvSize" Value="65535000" />
     <Parameter ID="Connections" Value="10" />
     <Parameter ID="SystemTick" Value="2000" />

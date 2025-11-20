@@ -34,6 +34,16 @@
         <Property ID="TimerInterval" Value="10000" />
         <Selector ID="TimerModus" Value="TimerModeSingleShot" />
       </Group>
+      <Group ID="Timer[2]">
+        <Property ID="TimerId" Value="ScrollDownTimer" />
+        <Property ID="TimerInterval" Value="5000" />
+        <Selector ID="TimerModus" Value="TimerModeSingleShot" />
+      </Group>
+      <Group ID="Timer[3]">
+        <Property ID="TimerId" Value="ScrollUpTimer" />
+        <Property ID="TimerInterval" Value="5000" />
+        <Selector ID="TimerModus" Value="TimerModeSingleShot" />
+      </Group>
     </Group>
     <Group ID="Client">
       <Group ID="ContentCaching">

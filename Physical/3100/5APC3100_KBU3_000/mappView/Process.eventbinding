@@ -969,5 +969,62 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="Process.Button1.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="Process" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ScrollContent" contentId="Process" position="bottom" duration="5000" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result=true">
+              <Action>
+                <Target xsi:type="session.TimerAction" refId="ScrollUpTimer">
+                  <Method xsi:type="session.TimerAction.Start" interval="5000" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_34">
+      <Source xsi:type="session.Timer.Event" refId="ScrollUpTimer" event="Elapsed" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ScrollContent" contentId="Process" position="bottom" duration="5000" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.TimerAction" refId="ScrollDownTimer">
+                  <Method xsi:type="session.TimerAction.Start" interval="5000" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_35">
+      <Source xsi:type="session.Timer.Event" refId="ScrollDownTimer" event="Elapsed" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ScrollContent" contentId="Process" position="top" duration="5000" />
+          </Target>
+          <Result>
+            <ResultHandler>
+              <Action>
+                <Target xsi:type="session.TimerAction" refId="ScrollUpTimer">
+                  <Method xsi:type="session.TimerAction.Start" interval="5000" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>
