@@ -302,8 +302,7 @@ TYPE
 		Write_ENABLE_ROSTER6 : CMD_Write_ENABLE_ROSTER6_Type;
 		Write_ENABLE_ROSTER7 : CMD_Write_ENABLE_ROSTER7_Type;
 		Write_ENABLE_ROSTER8 : CMD_Write_ENABLE_ROSTER8_Type;
-		Write_AC_ALARM_ENABLE : CMD_Write_AC_ALARM_ENABLE_Type;
-		Write_AC_TXT_ENABLE : CMD_Write_AC_TXT_ENABLE_Type;
+		Write_AC_ENABLE : CMD_Write_AC_ENABLE_Type;
 		Write_AC_ACTION : CMD_Write_AC_ACTION_Type;
 		Write_AC_DELAY : CMD_Write_AC_DELAY_Type;
 		Write_AC_OFFSET : CMD_Write_AC_OFFSET_Type;
@@ -1006,13 +1005,9 @@ END_TYPE
 (*Alarm Configuration Write Commands*)
 
 TYPE
-	CMD_Write_AC_ALARM_ENABLE_Type : 	STRUCT 
+	CMD_Write_AC_ENABLE_Type : 	STRUCT 
 		Send : BOOL;
-		wAC_ALARM_ENABLE : UINT := 0;
-	END_STRUCT;
-	CMD_Write_AC_TXT_ENABLE_Type : 	STRUCT 
-		Send : BOOL;
-		wAC_TXT_ENABLE : UINT := 0;
+		wAC_ENABLE : UINT := 0;
 	END_STRUCT;
 	CMD_Write_AC_ACTION_Type : 	STRUCT 
 		Send : BOOL;
@@ -1161,6 +1156,14 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		AC_TXT_OFF_EN : BOOL;
+		AC_TXT_OFF : BOOL;
+		AC_TXT_ON_EN : BOOL;
+		AC_TXT_ON : BOOL;
+		AC_ALARM_OFF_EN : BOOL;
+		AC_ALARM_OFF : BOOL;
+		AC_ALARM_ON_EN : BOOL;
+		AC_ALARM_ON : BOOL;
 		P104_PV_FIT_EN : BOOL;
 		P104_PV_PFIT_EN : BOOL;
 		P201_PV_FIT_EN : BOOL;
@@ -1466,15 +1469,15 @@ END_TYPE
 
 TYPE
 	AlarmConfig_Type : 	STRUCT  (*Alarm Configuration Parameters*)
-		wAC_ALARM_ENABLE_ADDR : UINT; (*Alarm Enable Status Register Address*)
+		wAC_ENABLE_ADDR : UINT; (*Alarm Enable Status Register Address*)
 		AC_ENABLE : UINT; (*Alarm and Text Enable Status*)
 		AC_ALARM_ENABLE : STRING[10]; (*Alarm Enable Status*)
-		wAC_TXT_ENABLE_ADDR : UINT; (*Text alerts enabled Register Address*)
 		AC_TXT_ENABLE : STRING[10]; (*Text alerts enabled*)
 		AC_LR_ENABLE : BOOL; (*Alarm exists on Low Rate*)
 		AC_HR_ENABLE : BOOL; (*Alarm exists on High Rate*)
 		AC_ACTION_ENABLE : BOOL; (*Action present and associated with alarm*)
 		AC_DESCRIPTION : STRING[40]; (*Description of Alarm*)
+		AC_ACTION_TEXT : STRING[25]; (*Units for alarm threshold*)
 		AC_THRESHOLD_UNIT : STRING[10]; (*Units for alarm threshold*)
 		wAC_ACTION_ADDR : UINT; (*Alarm action Register Address*)
 		AC_ACTION : UINT; (*Alarm action*)

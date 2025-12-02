@@ -2,21 +2,86 @@
 ACTION Vis_Main_LR: 
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
-		//ALARM CONFIG
+		//ALARM CONFIG-----------------------------------------------------------------------------------------------
+		
+				//ALARM/TEXT ENABLE
 		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE.1 = 1 THEN
 			gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ALARM_ENABLE := 'ENABLED';
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_ON_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_OFF_EN := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ALARM_ENABLE := 'DISABLED';
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_ON_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_OFF_EN := 0;
 		END_IF;
 		
 		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE.6 = 1 THEN
 			gSkid_LR[IdxSkids_LR].AlarmConfig.AC_TXT_ENABLE := 'ENABLED';
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_ON_EN := 0;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_OFF_EN := 1;
 		ELSE
 			gSkid_LR[IdxSkids_LR].AlarmConfig.AC_TXT_ENABLE := 'DISABLED';
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_ON_EN := 1;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_OFF_EN := 0;
 		END_IF;
 		
-		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_DELAY_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30001;
 		
+		
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE := gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE.1 := 1;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE := gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE.1 := 0;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ALARM_OFF := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_ON THEN
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE := gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE.6 := 1;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_ON := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_OFF THEN
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE := gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.wAC_ENABLE.6 := 0;
+			gCMD_LR[IdxSkids_LR].Write_AC_ENABLE.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_TXT_OFF := FALSE;
+		END_IF;
+		
+		
+		
+		CASE gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION OF
+			0:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := ' ';
+			1:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'FULL SHUTDOWN';
+			16:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'PRODUCTION SHUTDOWN';
+			2:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'P201 SHUTDOWN';
+			4:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'P202 SHUTDOWN';
+			8:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'P203 SHUTDOWN';
+		END_CASE;
+		
+		
+		
+		//ALARM CONGIF WRITE ADDRESSES
+		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_DELAY_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30001;
+		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ENABLE_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30000;
+		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ACTION_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30007;
+		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_THRESHOLD_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30002;
+		
+			//INDIVIDUAL ALARM CASE STATEMENTS
 		CASE gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET OF
 			117:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
@@ -829,6 +894,12 @@ ACTION Vis_Main_LR:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-204 H';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			ELSE
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'ALARM DOES NOT EXIST';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 		END_CASE;
