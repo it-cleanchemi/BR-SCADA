@@ -11,5 +11,6 @@
     <Object Type="File">PumpSetLayout.layout</Object>
     <Object Type="File">SystemInfoLayout.layout</Object>
     <Object Type="File">ESDLayout.layout</Object>
+    <Object Type="File">AlarmConfigLayout.layout</Object>
   </Objects>
 </Package>

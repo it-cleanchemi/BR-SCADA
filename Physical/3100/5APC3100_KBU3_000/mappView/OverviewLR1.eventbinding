@@ -1904,5 +1904,15 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_34">
+      <Source xsi:type="widgets.brease.PushButton.Event" contentRefId="OverviewLR1" widgetRefId="ALARM_CONFIG" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="AlarmConfig_Popup_LR" horizontalPos="1280px" verticalPos="400px" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

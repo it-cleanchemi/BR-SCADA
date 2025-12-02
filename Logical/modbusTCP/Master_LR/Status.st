@@ -88,6 +88,11 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.P104_AUTOADAPT := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[76];
 	gSkid_LR[IdxSkids_LR].Pmax_Pump_104.XV104_ENABLE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[78];
 	
+	gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ENABLE := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[118];
+	gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[120];
+	gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DELAY := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[122];
+	gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET := gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block1_Int[124];
+	
 	
 	// AS Block 2 - 6000 DOSING INT - ROSTER
 	gSkid_LR[IdxSkids_LR].RosterContact.Contact1_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[0]);
@@ -113,6 +118,8 @@ ACTION Modbus_Status_action:
 	
 	gSkid_LR[IdxSkids_LR].RosterContact.Contact8_ENABLE := INT_TO_BOOL(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[168]);
 	IDEC_String(ADR(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read8),ADR(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block2_Int[172]),SIZEOF(gSkid_LR[IdxSkids_LR].RosterContact.Phone_Read8),19);
+	
+
 	
 	
 	// AS Block 3 - 6000 DOSING REAL
@@ -211,6 +218,7 @@ ACTION Modbus_Status_action:
 	gSkid_LR[IdxSkids_LR].Sensor_Variables.CD103_TI:= IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block4_Real[38]);
 	
 	
+	gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD :=  IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block4_Real[44]);
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HMI_REV_A:= IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block4_Real[45]);
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.HMI_REV_B:= IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block4_Real[46]);
 	gSkid_LR[IdxSkids_LR].Pmax_General_Variables.PLC_REV_A:= IDEC_REAL_Conv(gModbus_LR[IdxSkids_LR].Modbus_PeroxyMAX.Block4_Real[47]);

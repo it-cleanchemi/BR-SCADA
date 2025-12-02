@@ -35,6 +35,7 @@
     <BindingsSet refId="PM_Settings_Content_LR_binding" />
     <BindingsSet refId="Process_binding" />
     <BindingsSet refId="TOTALIZER_Content_LR_binding" />
+    <BindingsSet refId="AlarmConfig_Content_LR_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="Login_Content_eventbinding" />
@@ -85,6 +86,7 @@
     <Dialog refId="System_Info_Popup_LR" />
     <Dialog refId="ESD_Popup_LR" />
     <Dialog refId="TOTALIZER_Popup_LR" />
+    <Dialog refId="AlarmConfig_Popup_LR" />
   </Dialogs>
   <Contents>
     <Content refId="Header" />
@@ -132,6 +134,7 @@
     <Content refId="ESD_Content_LR" />
     <Content refId="content_0" />
     <Content refId="TOTALIZER_Content_LR" />
+    <Content refId="AlarmConfig_Content_LR" />
   </Contents>
   <SnippetsSets>
     <SnippetsSet refId="snippet_0" />

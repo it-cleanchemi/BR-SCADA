@@ -6,9 +6,9 @@
     <Object Type="Package">Page_Main</Object>
     <Object Type="Package">Page_Process</Object>
     <Object Type="Package">Page_Services</Object>
+    <Object Type="Package">Page_Alarms</Object>
     <Object Type="Package">Page_Settings</Object>
     <Object Type="Package">Page_Diagnostics</Object>
-    <Object Type="Package">Page_Alarms</Object>
     <Object Type="Package">EquipmentAndSensors</Object>
     <Object Type="Package">PopUpTabs</Object>
     <Object Type="Package">CustomFeatures</Object>

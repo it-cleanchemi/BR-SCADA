@@ -52,5 +52,6 @@
     <Object Type="File">Process.eventbinding</Object>
     <Object Type="File">TOTALIZER_Content_LR.binding</Object>
     <Object Type="File">TOTALIZER_Content_LR.eventbinding</Object>
+    <Object Type="File">AlarmConfig_Content_LR.binding</Object>
   </Objects>
 </Package>

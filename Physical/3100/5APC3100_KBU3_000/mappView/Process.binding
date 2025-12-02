@@ -1452,5 +1452,73 @@
 			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR21" attribute="UnitID_Display" />
 		</Binding>
 		
+		
+		
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].UnitNumber" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="Unit_Number" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gSkid_LR[22].VisBool.IOSTATUS" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="DISCONNECTED" />
+		</Binding>
+		
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].CD101_Gauge" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="CD101_Gauge" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].CD102_Gauge" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="CD102_Gauge" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].CD101_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="CD101_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].CD102_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="CD102_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].PI101_Gauge" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="P101_PI_Gauge" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].PI101_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="P101_PI_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].UNIT_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="Unit_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].GEN_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="GEN_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gSkid_LR[22].Notes.LOCATION" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="JobName" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].P201_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="P201_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].P202_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="P202_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].P203_Indicator" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="P203_Indicator" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gVis.Process.Out.SummaryTiles[22].UnitNumber" attribute="value" />
+			<Target xsi:type="brease" contentRefId="Process" widgetRefId="SummaryTile_LR22" attribute="UnitID_Display" />
+		</Binding>
+
+
+		
 	</Bindings>
 </BindingsSet>

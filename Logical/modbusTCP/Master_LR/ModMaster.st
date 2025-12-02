@@ -1174,6 +1174,60 @@ PROGRAM _INIT
 		MasterConfig_LR[IdxSkids_LR].action_param[127].start_addr := 4860;// Read from this modbus address 
 		MasterConfig_LR[IdxSkids_LR].action_param[127].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[127].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 129 - AC_ALARM_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[128].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_ALARM_ENABLE.wAC_ALARM_ENABLE);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].start_addr := gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ALARM_ENABLE_ADDR;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[128].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 130 - AC_TXT_ENABLE
+		MasterConfig_LR[IdxSkids_LR].action_enable[129].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_TXT_ENABLE.wAC_TXT_ENABLE);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].start_addr := gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_TXT_ENABLE_ADDR;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[129].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 131 - AC_ACTION
+		MasterConfig_LR[IdxSkids_LR].action_enable[130].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_ACTION.wAC_ACTION);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].start_addr := gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ACTION_ADDR;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[130].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 132 - AC_DELAY
+		MasterConfig_LR[IdxSkids_LR].action_enable[131].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_DELAY.wAC_DELAY);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].start_addr := gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_DELAY_ADDR;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[131].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 133 - AC_OFFSET
+		MasterConfig_LR[IdxSkids_LR].action_enable[132].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_OFFSET.wAC_OFFSET);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].start_addr := 31000;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[132].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 134 - AC_THRESHOLD
+		MasterConfig_LR[IdxSkids_LR].action_enable[133].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.wAC_THRESHOLD_SWAPPED);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].quantity := 2;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].start_addr := gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_THRESHOLD_ADDR;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].type := 16;// Function code for this item (2 := read discrete inputs)
 
 		
 		
@@ -1189,7 +1243,6 @@ PROGRAM _INIT
 		ModbusTcpMaster_LR[IdxSkids_LR].p_log := ADR(logger[0,IdxSkids_LR]);// Pointer to logger string array. The logger information will show communication details. Enable for debugging, disable for production to save system resources.
 		ModbusTcpMaster_LR[IdxSkids_LR].port:= 510;
 		ModbusTcpMaster_LR[IdxSkids_LR].slave_ip_addr := SLAVE_IP_ADDRESSES_LR[IdxSkids_LR]; // Transfer slave device IP address 
-
 
 	END_FOR;
 

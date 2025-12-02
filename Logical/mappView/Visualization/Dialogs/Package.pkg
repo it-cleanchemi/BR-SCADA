@@ -24,5 +24,6 @@
     <Object Type="Package">PM_Settings_Popup_HR</Object>
     <Object Type="Package">ESD_Popup_LR</Object>
     <Object Type="Package">TOTALIZER_Popup_LR</Object>
+    <Object Type="Package">AlarmConfig_Popup_LR</Object>
   </Objects>
 </Package>

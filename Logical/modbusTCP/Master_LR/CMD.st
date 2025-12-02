@@ -761,7 +761,42 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_ENABLE_ROSTER8.Send := FALSE;
 	END_IF;
 	
+	// AS BLOCK 129 - AC_ALARM_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_AC_ALARM_ENABLE.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[128].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_ALARM_ENABLE.Send := FALSE;
+	END_IF;
 	
+	// AS BLOCK 130 - AC_TXT_ENABLE
+	IF gCMD_LR[IdxSkids_LR].Write_AC_TXT_ENABLE.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[129].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_TXT_ENABLE.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 131 - AC_ACTION
+	IF gCMD_LR[IdxSkids_LR].Write_AC_ACTION.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[130].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_ACTION.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 132 - AC_DELAY
+	IF gCMD_LR[IdxSkids_LR].Write_AC_DELAY.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[131].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_DELAY.Send := FALSE;
+	END_IF;
+	
+	// AS BLOCK 133 - AC_OFFSET
+	IF gCMD_LR[IdxSkids_LR].Write_AC_OFFSET.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[132].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_OFFSET.Send := FALSE;
+	END_IF;
+	
+	// AS Block 134 - AC_THRESHOLD
+	IF gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.wAC_THRESHOLD_SWAPPED := IDEC_REAL_Conv(gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.wAC_THRESHOLD);
+		MasterConfig_LR[IdxSkids_LR].action_enable[133].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.Send := FALSE;
+	END_IF;
 	
 	
 

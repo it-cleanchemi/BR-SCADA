@@ -74,6 +74,7 @@ TYPE
 		AlarmName : STRING[80];
 		AlarmsInitialized : BOOL;
 		Notes : Notes_Type;
+		AlarmConfig : AlarmConfig_Type;
 		RosterContact : RosterContact_Type;
 		UserLock_LastName : STRING[80];
 		UserLock_FirstName : STRING[80];
@@ -301,6 +302,12 @@ TYPE
 		Write_ENABLE_ROSTER6 : CMD_Write_ENABLE_ROSTER6_Type;
 		Write_ENABLE_ROSTER7 : CMD_Write_ENABLE_ROSTER7_Type;
 		Write_ENABLE_ROSTER8 : CMD_Write_ENABLE_ROSTER8_Type;
+		Write_AC_ALARM_ENABLE : CMD_Write_AC_ALARM_ENABLE_Type;
+		Write_AC_TXT_ENABLE : CMD_Write_AC_TXT_ENABLE_Type;
+		Write_AC_ACTION : CMD_Write_AC_ACTION_Type;
+		Write_AC_DELAY : CMD_Write_AC_DELAY_Type;
+		Write_AC_OFFSET : CMD_Write_AC_OFFSET_Type;
+		Write_AC_THRESHOLD : CMD_Write_AC_THRESHOLD_Type;
 	END_STRUCT;
 END_TYPE
 
@@ -996,6 +1003,36 @@ TYPE
 	END_STRUCT;
 END_TYPE
 
+(*Alarm Configuration Write Commands*)
+
+TYPE
+	CMD_Write_AC_ALARM_ENABLE_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_ALARM_ENABLE : UINT := 0;
+	END_STRUCT;
+	CMD_Write_AC_TXT_ENABLE_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_TXT_ENABLE : UINT := 0;
+	END_STRUCT;
+	CMD_Write_AC_ACTION_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_ACTION : UINT := 0;
+	END_STRUCT;
+	CMD_Write_AC_DELAY_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_DELAY : UDINT := 0;
+	END_STRUCT;
+	CMD_Write_AC_OFFSET_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_OFFSET : UINT := 0;
+	END_STRUCT;
+	CMD_Write_AC_THRESHOLD_Type : 	STRUCT 
+		Send : BOOL;
+		wAC_THRESHOLD : REAL;
+		wAC_THRESHOLD_SWAPPED : REAL;
+	END_STRUCT;
+END_TYPE
+
 (**)
 
 TYPE
@@ -1428,6 +1465,25 @@ END_TYPE
 (*Alarms*)
 
 TYPE
+	AlarmConfig_Type : 	STRUCT  (*Alarm Configuration Parameters*)
+		wAC_ALARM_ENABLE_ADDR : UINT; (*Alarm Enable Status Register Address*)
+		AC_ENABLE : UINT; (*Alarm and Text Enable Status*)
+		AC_ALARM_ENABLE : STRING[10]; (*Alarm Enable Status*)
+		wAC_TXT_ENABLE_ADDR : UINT; (*Text alerts enabled Register Address*)
+		AC_TXT_ENABLE : STRING[10]; (*Text alerts enabled*)
+		AC_LR_ENABLE : BOOL; (*Alarm exists on Low Rate*)
+		AC_HR_ENABLE : BOOL; (*Alarm exists on High Rate*)
+		AC_ACTION_ENABLE : BOOL; (*Action present and associated with alarm*)
+		AC_DESCRIPTION : STRING[40]; (*Description of Alarm*)
+		AC_THRESHOLD_UNIT : STRING[10]; (*Units for alarm threshold*)
+		wAC_ACTION_ADDR : UINT; (*Alarm action Register Address*)
+		AC_ACTION : UINT; (*Alarm action*)
+		wAC_DELAY_ADDR : UINT; (*Time delay on alarming Register Address*)
+		AC_DELAY : UINT; (*Time delay on alarming*)
+		AC_OFFSET : UINT; (*Offset for reference to alarms list for PLC *)
+		wAC_THRESHOLD_ADDR : UINT; (*Alarm threshold value Register Address*)
+		AC_THRESHOLD : REAL; (*Alarm threshold value*)
+	END_STRUCT;
 	Alarms_Type : 	STRUCT  (*General Alarm Variables*)
 		ALARM_AB1 : INT; (*General Alarm Block 1*)
 		ALARM_AB2 : INT; (*General Alarm Block 2*)
