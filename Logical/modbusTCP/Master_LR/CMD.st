@@ -769,8 +769,11 @@ ACTION Modbus_CMD_action:
 	
 	// AS BLOCK 130 - AC_ACTION
 	IF gCMD_LR[IdxSkids_LR].Write_AC_ACTION.Send THEN
+		gCMD_LR[IdxSkids_LR].Write_AC_ACTION.wAC_ACTION := STRING_TO_UINT(gCMD_LR[IdxSkids_LR].Write_AC_ACTION.wAC_ACTION_STRING);
 		MasterConfig_LR[IdxSkids_LR].action_enable[129].single := TRUE;
 		gCMD_LR[IdxSkids_LR].Write_AC_ACTION.Send := FALSE;
+	ELSIF NOT gVis.Main.Out.DialogOpen THEN
+		gCMD_LR[IdxSkids_LR].Write_AC_ACTION.wAC_ACTION_STRING := UINT_TO_STRING(gCMD_LR[IdxSkids_LR].Write_AC_ACTION.wAC_ACTION);
 	END_IF;
 	
 	// AS BLOCK 131 - AC_DELAY

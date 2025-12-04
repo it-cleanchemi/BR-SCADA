@@ -57,7 +57,32 @@ ACTION Vis_Main_LR:
 		END_IF;
 		
 		
+			//READ AND CORRECT THRESHOLD VALUE
+		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT = '%SP' THEN
+			gSkid_LR[IdxSkids_LR].VisNum.AC_THRESHOLD_CORRECTED := 100 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisNum.AC_THRESHOLD_CORRECTED := gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD;
+		END_IF;
 		
+			//CORRECT AND WRITE THRESHOLD VALUE
+		IF gSkid_LR[IdxSkids_LR].VisBool.AC_THRESHOLD_SEND THEN
+			IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT = '%SP' THEN
+				gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.wAC_THRESHOLD := gSkid_LR[IdxSkids_LR].VisNum.wAC_THRESHOLD_CORRECTED / 100;
+			ELSE
+				gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.wAC_THRESHOLD := gSkid_LR[IdxSkids_LR].VisNum.wAC_THRESHOLD_CORRECTED;
+			END_IF;
+			gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.AC_THRESHOLD_SEND := FALSE;
+		END_IF;
+		
+			//THRESHOLD HIDE
+		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].VisBool.AC_THRESHOLD_VIS := FALSE;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.AC_THRESHOLD_VIS := TRUE;
+		END_IF;
+		
+			//ACTION TEXT
 		CASE gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION OF
 			0:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := ' ';
@@ -73,6 +98,19 @@ ACTION Vis_Main_LR:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_TEXT := 'P203 SHUTDOWN';
 		END_CASE;
 		
+			//ACTION HIDE
+		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ACTION_VIS := FALSE;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ACTION_VIS := TRUE;
+		END_IF;
+		
+		//ENABLE HIDE
+		IF gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE = TRUE THEN
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ENABLE_VIS := FALSE;
+		ELSE
+			gSkid_LR[IdxSkids_LR].VisBool.AC_ENABLE_VIS := TRUE;
+		END_IF;
 		
 		
 		//ALARM CONGIF WRITE ADDRESSES
@@ -85,506 +123,1126 @@ ACTION Vis_Main_LR:
 		CASE gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET OF
 			117:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-101 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			118:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-101 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			119:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-101 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			120:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-101 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			121:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-101 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			122:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-101 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			123:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-101 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			124:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-101 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;	
 			125:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-101 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			126:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-101 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			127:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-101 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			128:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-101 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			129:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-101 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			130:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-101 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			131:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-101 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			132:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-101 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
-				
-				
-			
-				
-				
-				
-				
-				
+			133:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-101 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			134:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			135:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			136:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			137:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			138:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			139:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			140:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			141:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			142:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			143:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			144:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			145:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-101 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			146:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			147:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			148:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			149:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-102 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			150:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-102 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			151:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-102 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			152:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-102 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			153:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-102 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			154:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-102 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			155:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-102 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			156:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-102 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			157:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-102 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			158:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-102 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			159:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-102 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			160:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-102 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			161:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-102 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			162:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-102 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			163:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-102 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			164:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-102 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
-				
-				
-				
-				
-				
-				
-				
+			165:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-102 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			166:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			167:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			168:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			169:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			170:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			171:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			172:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			173:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			174:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			175:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			176:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			177:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-102 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			178:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			179:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			180:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			181:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-103 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			182:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-103 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			183:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-103 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			184:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-103 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			185:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-103 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			186:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-103 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			187:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-103 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			188:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-103 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			189:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-103 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			190:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-103 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			191:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-103 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			192:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-103 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			193:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-103 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			194:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-103 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			195:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-103 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			196:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-103 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
-				
-				
-				
-				
-				
-				
-				
+			197:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-103 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			198:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			199:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			200:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			201:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			202:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			203:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			204:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			205:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			206:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			207:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			208:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			209:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-103 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			210:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			211:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			212:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			213:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-104 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			214:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-104 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			215:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-104 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			216:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-104 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			217:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-104 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			218:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-104 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			219:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-104 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			220:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-104 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			221:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-104 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			222:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-104 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			223:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-104 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			224:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-104 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			225:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-104 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			226:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-104 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			227:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-104 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			228:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-104 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			229:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-104 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			230:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			231:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			232:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			233:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			234:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			235:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			236:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			237:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			238:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			239:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			240:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			241:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-104 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			242:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			243:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			244:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 				
 				
 				
 				
+				
+				
+			501:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			502:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			503:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			504:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			505:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			506:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			507:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			508:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			509:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			510:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			511:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			512:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			513:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			514:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			515:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			516:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			517:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-201 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			518:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-201 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			519:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-201 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			520:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-201 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			521:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-201 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			522:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-201 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			523:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-201 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			524:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-201 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			525:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-201 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			526:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-201 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			527:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-201 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			528:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-201 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			529:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-201 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			530:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-201 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			531:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-201 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			532:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-201 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
@@ -597,252 +1255,504 @@ ACTION Vis_Main_LR:
 			
 			549:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-202 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			550:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-202 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			551:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-202 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			552:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-202 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			553:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-202 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			554:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-202 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			555:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-202 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			556:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-202 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			557:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-202 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			558:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-202 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			559:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-202 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			560:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-202 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			561:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-202 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			562:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-202 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			563:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-202 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			564:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-202 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
-				
-				
-				
-				
-				
-				
+			565:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-202 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			566:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			567:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			568:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			569:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			570:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			571:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			572:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			573:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			574:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			575:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			576:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			577:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-202 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			578:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			579:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			580:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			581:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-203 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			582:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-203 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			583:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-203 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			584:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-203 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			585:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-203 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			586:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-203 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			587:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-203 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			588:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-203 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			589:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-203 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			590:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-203 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			591:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-203 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			592:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-203 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			593:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-203 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			594:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-203 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			595:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-203 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			596:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-203 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
-				
-				
-				
-				
-				
-				
+			597:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-203 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+			598:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 LOCAL STOP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			599:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 MAX OUTPUT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			600:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 COMMUNICATION ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			601:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 OVER PRESSURE';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			602:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 ALARM (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			603:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 BACK PRESSURE LOW';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			604:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 GAS IN PUMP HEAD';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			605:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 CAVITATION';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			606:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 WARNING (OTHER)';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			607:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 FAULT';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			608:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 RUN FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			609:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'P-203 SPEED FEEDBACK ERROR';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			610:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			611:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			612:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'DOES NOT EXIST';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;	
 			613:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-204 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			614:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-204 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			615:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-204 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			616:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'FI-204 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			617:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-204 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			618:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-204 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			619:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-204 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			620:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '%SP';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PFI-204 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
@@ -850,54 +1760,76 @@ ACTION Vis_Main_LR:
 				
 			621:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-204 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			622:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-204 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			623:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-204 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			624:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PI-204 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
 			625:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-204 LL';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			626:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-204 L';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			627:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-204 HH';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
 			628:
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := 'PSIG';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := TRUE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'PPI-204 H';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := FALSE;
+			629:
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := TRUE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'LS-204 LL - CANNOT MODIFY';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_HR_ENABLE := TRUE;
+		
+				
+				
+				
+				
+				
 			ELSE
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_UNIT := '';
+				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_THRESHOLD_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_ACTION_ENABLE := FALSE;
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_DESCRIPTION := 'ALARM DOES NOT EXIST';
 				gSkid_LR[IdxSkids_LR].AlarmConfig.AC_LR_ENABLE := FALSE;

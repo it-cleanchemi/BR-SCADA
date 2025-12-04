@@ -63,6 +63,7 @@
     <EventBindingsSet refId="ESD_Content_LR_eventbinding" />
     <EventBindingsSet refId="Process_eventbinding" />
     <EventBindingsSet refId="TOTALIZER_Content_LR_eventbinding" />
+    <EventBindingsSet refId="AlarmConfig_Content_LR_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="P201_Status_Popup_LR" />

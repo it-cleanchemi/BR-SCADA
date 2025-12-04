@@ -1909,7 +1909,7 @@
       <EventHandler>
         <Action>
           <Target xsi:type="clientSystem.Action">
-            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="AlarmConfig_Popup_LR" horizontalPos="1280px" verticalPos="400px" />
+            <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="AlarmConfig_Popup_LR" horizontalPos="1280px" verticalPos="100px" />
           </Target>
         </Action>
       </EventHandler>

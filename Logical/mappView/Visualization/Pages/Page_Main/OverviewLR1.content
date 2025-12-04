@@ -393,6 +393,6 @@
     <Widget xsi:type="widgets.brease.Image" id="WASTE_LOW" top="820" left="900" width="90" height="110" zIndex="334" image="Media/Images/Waste_Grey.png" />
     <Widget xsi:type="widgets.brease.Image" id="WASTE_HIGH" top="820" left="900" width="90" height="110" zIndex="335" image="Media/Images/Waste_Red.png" />
     <Widget xsi:type="widgets.brease.Image" id="P101_SOLENOID_ERROR" top="300" left="165" width="30" height="40" zIndex="336" image="Media/Images/Solenoid_Error.png" />
-    <Widget xsi:type="widgets.brease.PushButton" id="ALARM_CONFIG" top="920" left="640" width="25" height="25" zIndex="338" image="Media/SVGsymbols/Symbols/Settings.svg" imageHeight="20" imageWidth="20" imageColor="rgba(245, 245, 245, 1)" cornerRadius="5px" permissionOperate="['Administrator_Role']" permissionView="['Administrator_Role']" />
+    <Widget xsi:type="widgets.brease.PushButton" id="ALARM_CONFIG" top="72" left="1090" width="25" height="25" zIndex="338" image="Media/SVGsymbols/Symbols/Settings.svg" imageHeight="20" imageWidth="20" imageColor="rgba(245, 245, 245, 1)" cornerRadius="5px" permissionOperate="['Administrator_Role']" permissionView="['Administrator_Role']" />
   </Widgets>
 </Content>

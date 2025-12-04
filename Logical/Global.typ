@@ -1011,6 +1011,7 @@ TYPE
 	END_STRUCT;
 	CMD_Write_AC_ACTION_Type : 	STRUCT 
 		Send : BOOL;
+		wAC_ACTION_STRING : STRING[10] := '';
 		wAC_ACTION : UINT := 0;
 	END_STRUCT;
 	CMD_Write_AC_DELAY_Type : 	STRUCT 
@@ -1156,6 +1157,7 @@ END_TYPE
 
 TYPE
 	VisBool_Type : 	STRUCT 
+		AC_THRESHOLD_SEND : BOOL;
 		AC_TXT_OFF_EN : BOOL;
 		AC_TXT_OFF : BOOL;
 		AC_TXT_ON_EN : BOOL;
@@ -1164,6 +1166,9 @@ TYPE
 		AC_ALARM_OFF : BOOL;
 		AC_ALARM_ON_EN : BOOL;
 		AC_ALARM_ON : BOOL;
+		AC_THRESHOLD_VIS : BOOL;
+		AC_ENABLE_VIS : BOOL;
+		AC_ACTION_VIS : BOOL;
 		P104_PV_FIT_EN : BOOL;
 		P104_PV_PFIT_EN : BOOL;
 		P201_PV_FIT_EN : BOOL;
@@ -1363,6 +1368,8 @@ TYPE
 		SEND_ROSTER8 : BOOL;
 	END_STRUCT;
 	VisNum_Type : 	STRUCT 
+		wAC_THRESHOLD_CORRECTED : REAL;
+		AC_THRESHOLD_CORRECTED : REAL;
 		P101_TOTALADJ_IN : REAL;
 		P102_TOTALADJ_IN : REAL;
 		P103_TOTALADJ_IN : REAL;
@@ -1473,6 +1480,7 @@ TYPE
 		AC_ENABLE : UINT; (*Alarm and Text Enable Status*)
 		AC_ALARM_ENABLE : STRING[10]; (*Alarm Enable Status*)
 		AC_TXT_ENABLE : STRING[10]; (*Text alerts enabled*)
+		AC_THRESHOLD_ENABLE : BOOL; (*Alarm exists on Low Rate*)
 		AC_LR_ENABLE : BOOL; (*Alarm exists on Low Rate*)
 		AC_HR_ENABLE : BOOL; (*Alarm exists on High Rate*)
 		AC_ACTION_ENABLE : BOOL; (*Action present and associated with alarm*)
