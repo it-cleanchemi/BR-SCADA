@@ -2,6 +2,19 @@
 ACTION Vis_Main_LR: 
 	
 	FOR IdxSkids_LR := 0 TO MAX_SKIDS_LR DO
+		//DEFAULT SETTINGS PAGE-----------------------------------------------------------------------------------------------
+		IF gSkid_LR[IdxSkids_LR].VisBool.EMAIL_LASTDAY THEN
+			gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.wEMAIL_DATA := 1;
+			gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.EMAIL_LASTDAY := FALSE;
+		END_IF;
+		
+		IF gSkid_LR[IdxSkids_LR].VisBool.EMAIL_LASTWEEK THEN
+			gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.wEMAIL_DATA := 2;
+			gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.Send := TRUE;
+			gSkid_LR[IdxSkids_LR].VisBool.EMAIL_LASTWEEK := FALSE;
+		END_IF;
+		
 		//ALARM CONFIG-----------------------------------------------------------------------------------------------
 		
 				//ALARM/TEXT ENABLE
@@ -113,7 +126,7 @@ ACTION Vis_Main_LR:
 		END_IF;
 		
 		
-		//ALARM CONGIF WRITE ADDRESSES
+		//ALARM CONFIG WRITE ADDRESSES
 		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_DELAY_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30001;
 		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ENABLE_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30000;
 		gSkid_LR[IdxSkids_LR].AlarmConfig.wAC_ACTION_ADDR := (10 * gSkid_LR[IdxSkids_LR].AlarmConfig.AC_OFFSET) + 30007;

@@ -795,6 +795,34 @@ ACTION Modbus_CMD_action:
 		gCMD_LR[IdxSkids_LR].Write_AC_THRESHOLD.Send := FALSE;
 	END_IF;
 	
+
+	// AS Block 134 - DEFAULTALARMS_RESET
+	IF gCMD_LR[IdxSkids_LR].Write_DEFAULTALRM_RESET.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[133].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_DEFAULTALRM_RESET.Send := FALSE;
+	END_IF;
+	
+	// AS Block 135 - DEFAULTSYSTEM_RESET
+	IF gCMD_LR[IdxSkids_LR].Write_DEFAULTSYS_RESET.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[134].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_DEFAULTSYS_RESET.Send := FALSE;
+	END_IF;
+	
+	// AS Block 136 - EMAIL_OPLOG
+	IF gCMD_LR[IdxSkids_LR].Write_EMAIL_OPLOG.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[135].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_EMAIL_OPLOG.Send := FALSE;
+	END_IF;
+	
+	// AS Block 137 - EMAIL_DATA
+	IF gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.Send THEN
+		MasterConfig_LR[IdxSkids_LR].action_enable[136].single := TRUE;
+		gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.Send := FALSE;
+	END_IF;
+	
+	
+	
+	
 	
 
 	

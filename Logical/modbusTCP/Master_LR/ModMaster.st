@@ -1219,6 +1219,46 @@ PROGRAM _INIT
 		//MasterConfig_LR[IdxSkids_LR].action_param[132].start_addr :=  MOVED TO CYCLIC
 		MasterConfig_LR[IdxSkids_LR].action_param[132].timer := 2;// Refresh timer for this item 
 		MasterConfig_LR[IdxSkids_LR].action_param[132].type := 16;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 134 - DEFAULTALARMS_RESET
+		MasterConfig_LR[IdxSkids_LR].action_enable[133].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_DEFAULTALRM_RESET.wDEFAULTALRM_RESET);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].start_addr := 1002;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[133].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 135 - DEFAULTSYSTEM_RESET
+		MasterConfig_LR[IdxSkids_LR].action_enable[134].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_DEFAULTSYS_RESET.wDEFAULTSYS_RESET);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].start_addr := 1004;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[134].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 136 - EMAIL_OPLOG
+		MasterConfig_LR[IdxSkids_LR].action_enable[135].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_EMAIL_OPLOG.wEMAIL_OPLOG);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].start_addr := 1006;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[135].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		// AS Block 137 - EMAIL_DATA
+		MasterConfig_LR[IdxSkids_LR].action_enable[136].cyclic := FALSE;// Read data cyclic 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].p_pv:= ADR(gCMD_LR[IdxSkids_LR].Write_EMAIL_DATA.wEMAIL_DATA);// Store data in this variable 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].quantity := 1;// Number of items to read 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].unit := 1;// Unit address - ignore if not specified 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].start_addr := 1008;// Read from this modbus address 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].timer := 2;// Refresh timer for this item 
+		MasterConfig_LR[IdxSkids_LR].action_param[136].type := 6;// Function code for this item (2 := read discrete inputs)
+		
+		
+		
+		
 
 		
 		
